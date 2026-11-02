@@ -450,6 +450,7 @@ def tables(ts18_passages, ts18_prios):
     """Tablas de pasabilidad y prioridad para el tileset nuevo (448 ids)."""
     n = 384 + 64
     pas = [0] * n; pri = [0] * n
+    pri[0] = ts18_prios[0]   # 5, como en RMXP: los eventos sin tile no abren paso
     # autotile 0 (pared, 48..95): igual que en el tileset 18
     for i in range(48, 96):
         pas[i] = ts18_passages[i]; pri[i] = ts18_prios[i]

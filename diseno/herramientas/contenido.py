@@ -410,7 +410,7 @@ def piso():
         SE("032-Switch01", 80, 70), WAIT(10),
         VAR(V_CANAL, 1, 1), IF(c_var(V_CANAL, 5, 3), [VAR(V_CANAL, 1)]),
         VAR(V_VECES, 1, 1),
-        IF(c_sw(S_NOCHE), [
+        IF(c_script("$game_switches[9] or $game_switches[27]"), [
             MOVE(0, [mgraphic(MUEBLES, 2, 0), STEP_ANIME_ON]), WAIT(40),
             T("Ya no emiten nada. Solo nieve."),
             MOVE(0, [mgraphic(MUEBLES, 4, 2), STEP_ANIME_OFF]), WAIT(4),

@@ -1,3 +1,6 @@
 .mcp-backup/
 Data/.mcp-backup/
 Data/.mcp-preview/
+__pycache__/
+prueba_log.txt
+diseno/herramientas/b_*.json

@@ -137,23 +137,32 @@ class Scene_Title
 end
 
 #==============================================================================
-# ** Scene_FinActo - "Fin del Acto I"
+# ** Scene_FinActo - "Fin del Acto I / II"
+#   Acto 1: al pulsar Intro sigue en el Acto II (misma partida).
+#   Acto 2: vuelve al titulo.
 #==============================================================================
 class Scene_FinActo
+  TEXTOS = {
+    1 => ["Fin del Acto I", "El piso", "Acto II: La cadena", "Pulsa Intro para seguir"],
+    2 => ["Fin del Acto II", "La cadena", "Continuará en el Acto III: Lucy", "Pulsa Intro"]
+  }
+  def initialize(acto = 1)
+    @acto = acto
+  end
   def main
     Audio.bgm_fade(2000)
     Audio.bgs_fade(2000)
+    t = TEXTOS[@acto]
     @fondo = Sprite.new
     @fondo.bitmap = Bitmap.new(640, 480)
     @fondo.bitmap.fill_rect(0, 0, 640, 480, Color.new(0, 0, 0))
-    @fin = Vacas.sprite_texto(["Fin del Acto I"], 170, 50, 40,
-      Color.new(170, 30, 26))
-    @sub = Vacas.sprite_texto(["El piso"], 224, 32, 22)
-    @sig = Vacas.sprite_texto(["Continuará en el Acto II: La cadena"], 330, 28, 18,
-      Color.new(140, 130, 115))
-    @fin.opacity = 0
-    @sub.opacity = 0
-    @sig.opacity = 0
+    @fin = Vacas.sprite_texto([t[0]], 170, 50, 40, Color.new(170, 30, 26))
+    @sub = Vacas.sprite_texto([t[1]], 224, 32, 22)
+    @sig = Vacas.sprite_texto([t[2]], 330, 28, 18, Color.new(140, 130, 115))
+    @pie = Vacas.sprite_texto([t[3]], 420, 24, 14, Color.new(110, 100, 90))
+    for s in [@fin, @sub, @sig, @pie]
+      s.opacity = 0
+    end
     Graphics.transition(60)
     $game_system.me_play(RPG::AudioFile.new("015-Mystery01", 80, 70))
     @t = 0
@@ -164,13 +173,19 @@ class Scene_FinActo
       @fin.opacity = (@t - 20) * 3 if @t > 20
       @sub.opacity = (@t - 100) * 3 if @t > 100
       @sig.opacity = (@t - 200) * 2 if @t > 200
+      @pie.opacity = 60 + (@t % 80) * 2 if @t > 260
       if @t > 260 and Input.trigger?(Input::C)
-        $scene = Scene_Title.new
+        if @acto == 1
+          Vacas.empezar_acto2
+          $scene = Scene_Map.new
+        else
+          $scene = Scene_Title.new
+        end
       end
       break if $scene != self
     end
     Graphics.freeze
-    for s in [@fondo, @fin, @sub, @sig]
+    for s in [@fondo, @fin, @sub, @sig, @pie]
       s.bitmap.dispose
       s.dispose
     end
@@ -187,5 +202,17 @@ class Scene_Gameover
   def main
     Vacas.ajustar_sistema
     vacas_go_main
+  end
+end
+
+#==============================================================================
+# ** Scene_Title - atajo de prueba: Mayus + "Nueva partida" = Acto II
+#==============================================================================
+class Scene_Title
+  alias vacas_cng command_new_game
+  def command_new_game
+    atajo = Input.press?(Input::A)
+    vacas_cng
+    Vacas.prueba_acto2 if atajo
   end
 end

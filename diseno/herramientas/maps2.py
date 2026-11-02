@@ -163,17 +163,17 @@ def build_corrales():
     for x in range(12, 29):
         m.put(1, x, 5, "valla_h")
     m.put(1, 12, 5, "valla_poste")
-    # corrales: vallas superior (fila 6) e inferior (fila 16) y laterales
+    # corrales: vallas superior (fila 7) e inferior (fila 16) y laterales; fila 6 = pasillo
     for x in range(1, 28):
         if x in (9, 18):
             continue
-        m.put(1, x, 6, "valla_h"); m.put(1, x, 16, "valla_h")
+        m.put(1, x, 7, "valla_h"); m.put(1, x, 16, "valla_h")
     for x in (4, 13, 23):
-        m.put(1, x, 6, "puerta_corral")
-    for y in range(7, 16):
+        m.put(1, x, 7, "puerta_corral")
+    for y in range(8, 16):
         m.put(1, 9, y, "valla_v"); m.put(1, 18, y, "valla_v"); m.put(1, 28, y, "valla_v")
     for x in (9, 18, 28):
-        m.put(1, x, 6, "valla_poste"); m.put(1, x, 16, "valla_poste")
+        m.put(1, x, 7, "valla_poste"); m.put(1, x, 16, "valla_poste")
     m.put(0, 6, 2, "tuberia"); m.put(0, 20, 2, "tuberia"); m.put(0, 26, 2, "manguera")
     m.put(1, 2, 17, "cubo_despojos"); m.put(1, 25, 18, "cajas")
     m.put(1, 20, 3, "huellas"); m.put(1, 26, 4, "mancha"); m.put(1, 15, 17, "mancha")

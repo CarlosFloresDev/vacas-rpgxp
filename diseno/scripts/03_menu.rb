@@ -10,6 +10,7 @@ module Vacas
   def self.tareas
     s = $game_switches
     lista = []
+    return tareas_acto2 if s[22]
     if s[14]
       lista.push(["Ya tienes trabajo.", true])
     elsif s[13]
@@ -30,6 +31,40 @@ module Vacas
     else
       lista.push(["Ir a ver qué quiere madre.", false])
     end
+    return lista
+  end
+  # Acto II: segun turno (variable 7) y fase (variable 8)
+  def self.tareas_acto2
+    s = $game_switches
+    t = $game_variables[7]
+    f = $game_variables[8]
+    lista = []
+    if s[27]
+      lista.push(["Volver a casa: el 3ºB.", false]) if $game_map.map_id == 3 and !s[28]
+      lista.push(["Darle el sueldo a madre.", s[28]])
+      lista.push(["Acostarte. Mañana hay turno.", false]) if s[28]
+      return lista
+    end
+    lista.push(["Fichar a la entrada.", s[24]])
+    lista.push(["Ponerte el mono en el vestuario.", s[25]]) if s[24]
+    return lista unless s[25]
+    case t
+    when 1
+      lista.push(["La cadena: el puesto de la cinta.", f > 3])
+      lista.push(["Traer la manguera del pasillo de mantenimiento.", f > 4]) if f >= 4
+      lista.push(["Devolverle la manguera a Cripps.", f > 5]) if f >= 5
+    when 2
+      lista.push(["La cadena: el puesto de corte.", f > 3])
+      lista.push(["Llevar piezas a las cámaras (" + $game_variables[13].to_s + "/3).", f > 4]) if f >= 4
+      lista.push(["La rejilla del pasillo de mantenimiento.", f > 5]) if f >= 5
+      lista.push(["El libro de Cripps, en su oficina.", f > 6]) if f >= 6
+      lista.push(["Volver a la rejilla.", f > 7]) if f >= 7
+    when 3
+      lista.push(["Hablar con Cripps en la cadena.", f > 3])
+      lista.push(["Traer la vaca del corral del fondo.", f > 4]) if f >= 4
+      lista.push(["El cajón.", f > 5]) if f >= 5
+    end
+    lista.push(["Fichar la salida.", false]) if f >= 9
     return lista
   end
 end

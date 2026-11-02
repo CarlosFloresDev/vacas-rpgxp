@@ -1,0 +1,242 @@
+[
+ [
+  1,
+  1,
+  {
+   "Prologo": 1
+  }
+ ],
+ [
+  2,
+  49,
+  {
+   "Madre cazadora": 1,
+   "Ambiente": 2,
+   "Despertar": 3,
+   "Cama Steven": 4,
+   "Cama Steven 2": 5,
+   "Armario": 6,
+   "Cajonera": 7,
+   "Libro": 8,
+   "Ventana Steven": 9,
+   "Vater": 10,
+   "Lavabo": 11,
+   "Banera": 12,
+   "Sillon madre": 13,
+   "Madre": 14,
+   "Comoda madre": 15,
+   "Tarro": 16,
+   "Reloj de cuco": 17,
+   "Cama madre": 18,
+   "Botellas": 19,
+   "Cenicero": 20,
+   "Cajas": 21,
+   "Perchero": 22,
+   "Reloj pasillo": 23,
+   "Cuadro pasillo": 24,
+   "Tetera": 25,
+   "Mancha": 28,
+   "Puerta del piso": 29,
+   "Puerta del piso 2": 30,
+   "Tele": 31,
+   "Sofa": 32,
+   "Piano": 33,
+   "Perro": 34,
+   "Cesta Perro": 35,
+   "Cuenco": 36,
+   "Ventana salon": 37,
+   "Estante salon": 38,
+   "Alacena": 39,
+   "Cajon cubiertos": 40,
+   "Fogon": 41,
+   "Nevera": 42,
+   "Mesa cocina": 43,
+   "Carne en la mesa": 44,
+   "Barreno": 45,
+   "Madre por la manana": 46,
+   "Control busqueda": 47,
+   "Fin del tiempo": 48,
+   "Bloqueo banera": 49
+  }
+ ],
+ [
+  3,
+  15,
+  {
+   "Ambiente": 1,
+   "Puerta 3B": 2,
+   "Puerta 3A": 3,
+   "Puerta 3C": 4,
+   "Dona Remedios": 5,
+   "Senor Anselmo": 6,
+   "Escalera arriba": 7,
+   "Bajada a la calle": 8,
+   "Cajas mudanza": 9,
+   "Ventana escalera": 10,
+   "Bombilla": 11,
+   "Mancha": 14,
+   "Lucy": 15
+  }
+ ],
+ [
+  4,
+  19,
+  {
+   "Ambiente": 1,
+   "Portal": 2,
+   "Tablon": 3,
+   "Mostrador": 4,
+   "Molina": 5,
+   "Escaparate": 6,
+   "Borracho": 7,
+   "Transeunte": 8,
+   "Alcantarilla": 9,
+   "Furgoneta": 10,
+   "Bloqueo furgoneta": 12,
+   "Charco": 18,
+   "Hombre del matadero": 19
+  }
+ ],
+ [
+  5,
+  21,
+  {
+   "Ambiente": 1,
+   "Llegada": 2,
+   "Furgoneta": 3,
+   "Bloqueo furgoneta": 5,
+   "Camion de ganado": 6,
+   "Bloqueo camion": 8,
+   "Verja": 9,
+   "Verja 2": 10,
+   "Benito patio": 11,
+   "Cripps vestibulo": 12,
+   "Fichadora": 13,
+   "Puerta vestuario": 14,
+   "Puerta cadena": 15,
+   "Tablon normas": 16,
+   "Banco vestibulo": 17,
+   "Reloj vestibulo": 18,
+   "Cubo vestibulo": 19,
+   "Cartel fachada": 20,
+   "Cartel fachada 2": 21
+  }
+ ],
+ [
+  6,
+  12,
+  {
+   "Ambiente": 1,
+   "Salida vestibulo": 2,
+   "Salida vestibulo 2": 3,
+   "Salida cadena": 4,
+   "Taquilla 13": 5,
+   "Taquilla forzada": 6,
+   "Taquilla Benito": 7,
+   "Taquilla vacia": 8,
+   "Fregaderos": 9,
+   "Desague vestuario": 10,
+   "Encarna": 11,
+   "El Chato": 12
+  }
+ ],
+ [
+  7,
+  17,
+  {
+   "Ambiente": 1,
+   "Mugidos": 2,
+   "Manga a la cadena": 4,
+   "Vaca": 10,
+   "Vaca del fondo": 11,
+   "Puerta corral 1": 12,
+   "Puerta corral 2": 13,
+   "Puerta corral 3": 14,
+   "El Rubio": 15,
+   "Picana": 16,
+   "Cubo corrales": 17
+  }
+ ],
+ [
+  8,
+  64,
+  {
+   "Cripps": 1,
+   "Vaca del cajon": 2,
+   "Ambiente": 3,
+   "Ruido de la cadena": 4,
+   "A los corrales": 5,
+   "A las camaras": 6,
+   "Al vestuario": 7,
+   "Al pasillo": 8,
+   "Puerta oficina": 9,
+   "Canal": 30,
+   "Cinta": 51,
+   "Puesto de la cinta": 41,
+   "Puesto de corte": 52,
+   "Final de la cinta": 53,
+   "Benito": 54,
+   "Obrero de la sierra": 55,
+   "Encarna cadena": 56,
+   "Cajon": 57,
+   "Pistola de perno": 58,
+   "El cajon (escena)": 59,
+   "Cuchillos": 60,
+   "Cuchillos 2": 61,
+   "Reloj cadena": 62,
+   "Canal desague": 63,
+   "Sumidero": 64
+  }
+ ],
+ [
+  9,
+  33,
+  {
+   "Ambiente": 1,
+   "Pillado": 2,
+   "Salida": 3,
+   "Canal fria": 23,
+   "Escondite canales": 26,
+   "Escondite cajas": 28,
+   "Camara 1": 29,
+   "Camara 2": 30,
+   "Camara 3": 31,
+   "Escrito en la escarcha": 32,
+   "Cripps vigila": 33
+  }
+ ],
+ [
+  10,
+  13,
+  {
+   "Ambiente": 1,
+   "Pillado": 2,
+   "Salida": 3,
+   "Salida 2": 4,
+   "Escritorio": 5,
+   "Archivador": 6,
+   "Persiana": 7,
+   "Ventana oficina": 8,
+   "Foto": 9,
+   "Silla": 10,
+   "Escondite rincon": 11,
+   "Escondite mesa": 12,
+   "Cripps vigila": 13
+  }
+ ],
+ [
+  11,
+  9,
+  {
+   "Rejilla": 1,
+   "Ambiente": 2,
+   "Salida": 3,
+   "Manguera": 4,
+   "Trampilla": 5,
+   "Tuberias": 6,
+   "Cajas pasillo": 7,
+   "Cubo pasillo": 8,
+   "Despues del cajon": 9
+  }
+ ]
+]
