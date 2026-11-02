@@ -554,6 +554,8 @@ def build_chars():
     whites(st, 0.9).save(C + "vacas_steven_mono.png")
     # vacas del corral
     grim(src("156-Animal06"), 0.35, 0.8, (1.0, 0.95, 0.88)).save(C + "vacas_vaca.png")
+    # la vaca del fondo: clara, color leche con canela
+    grim(src("156-Animal06"), 0.55, 1.45, (1.12, 0.98, 0.78)).save(C + "vacas_vaca_canela.png")
     # Lucy
     grim(src("123-Civilian23"), 0.4, 0.82, (1.0, 0.96, 0.9)).save(C + "vacas_lucy.png")
 

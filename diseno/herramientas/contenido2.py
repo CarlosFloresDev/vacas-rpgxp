@@ -368,7 +368,7 @@ def corrales():
             T("Esta es distinta. Más pequeña, de un color de leche con canela. Tiene las pestañas claras."),
             T("No se mueve. No te mira. Mira la puerta del corral como quien espera el autobús."),
             IF(c_sw(S_TURNO3), [T(PIENSA + "(La del fondo. Me ha mandado traer a la del fondo.)" + FIN)]),
-        ], char="vacas_vaca", d=8, move_type=0, speed=2),
+        ], char="vacas_vaca_canela", d=8, move_type=0, speed=2),
         page([], sw1=S_VACA_FUERA),
     ])
     traer = [
@@ -626,7 +626,7 @@ def cadena():
     m.set("Vaca del cajon", 3, 5, [
         page([]),
         page([T("Te mira. Tiene los ojos mojados. No llora: las vacas no lloran. Es solo que tiene los ojos mojados.")],
-             sw1=S_VACA_FUERA, char="vacas_vaca", d=6, dirfix=True, through=True),
+             sw1=S_VACA_FUERA, char="vacas_vaca_canela", d=6, dirfix=True, through=True),
         page([], sw1=S_PRIMERA),
     ])
 

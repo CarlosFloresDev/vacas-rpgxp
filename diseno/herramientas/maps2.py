@@ -82,7 +82,7 @@ def build_entrada():
     m = Mapa(5, ENTRADA, {
         "W": "pared_azulejo_alta", "w": "pared_azulejo_baja", ".": TILE_FLOOR,
         "B": "ladrillo_alto", "b": "ladrillo_bajo", "p": "acera",
-        "a": ("asfalto", "asfalto_charco", 0.07), "m": ("barro", "barro", 0), "f": "alambrada"}, 5)
+        "a": ("asfalto", "asfalto_charco", 0.04), "m": ("barro", "barro", 0), "f": "alambrada"}, 5)
     for x in (4, 10, 19, 25):
         m.put(0, x, 1, "ventana_nave")
     m.put(0, 5, 2, "puerta_metal"); m.put(0, 24, 2, "puerta_metal")
@@ -158,7 +158,7 @@ CORR = [
 ]
 def build_corrales():
     m = Mapa(7, CORR, {"W": "pared_hormigon_alta", "w": "pared_hormigon_baja",
-                       ".": ("hormigon", "hormigon_mojado", 0.12), "s": "paja"}, 7)
+                       ".": ("hormigon", "hormigon_mojado", 0.04), "s": "paja"}, 7)
     # manga (pasillo de las reses) hacia la cadena: filas 3-4 desde x=12
     for x in range(12, 29):
         m.put(1, x, 5, "valla_h")
@@ -337,7 +337,7 @@ PAS = [
 ]
 def build_pasillo():
     m = Mapa(11, PAS, {"W": "pared_hormigon_alta", "w": "pared_hormigon_baja",
-                       ".": ("hormigon", "hormigon_mojado", 0.18)}, 11)
+                       ".": ("hormigon", "hormigon_mojado", 0.05)}, 11)
     for x in (3, 7, 11, 15, 26):
         m.put(0, x, 2, "tuberia")
     m.put(0, 22, 2, "rejilla_pared")         # LA rejilla (el evento va encima)
