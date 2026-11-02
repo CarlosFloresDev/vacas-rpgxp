@@ -46,8 +46,13 @@ class Window_Tareas < Window_Base
     self.contents.draw_text(4, 0, 380, 32, "Pendiente")
     y = 40
     for t in Vacas.tareas
-      self.contents.font.color = t[1] ? disabled_color : normal_color
-      marca = t[1] ? "x " : "- "
+      if t[1]
+        self.contents.font.color = disabled_color
+        marca = "x "
+      else
+        self.contents.font.color = normal_color
+        marca = "- "
+      end
       self.contents.draw_text(4, y, 380, 28, marca + t[0])
       y += 30
     end

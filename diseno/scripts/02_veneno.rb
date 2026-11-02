@@ -60,7 +60,11 @@ class Sprite_Veneno < Sprite
       base = 255 if ($vacas_hud_pulso / 4) % 2 == 0
     end
     base = 255 if base > 255
-    self.opacity = oculto ? 0 : base
+    if oculto
+      self.opacity = 0
+    else
+      self.opacity = base
+    end
   end
 end
 

@@ -13,7 +13,11 @@ module Vacas
     s = Sprite.new
     s.bitmap = Bitmap.new(640, 480)
     s.bitmap.font.size = tam
-    s.bitmap.font.color = (color == nil ? Color.new(210, 200, 180) : color)
+    c = color
+    if c.nil?
+      c = Color.new(210, 200, 180)
+    end
+    s.bitmap.font.color = c
     y = y0
     for l in lineas
       s.bitmap.draw_text(0, y, 640, alto, l, 1)
@@ -54,7 +58,11 @@ class Scene_Aviso
       Graphics.update
       Input.update
       @espera += 1
-      @pie.opacity = (@espera > 60 ? 120 + (Graphics.frame_count % 60) * 2 : 0)
+      if @espera > 60
+        @pie.opacity = 120 + (Graphics.frame_count % 60) * 2
+      else
+        @pie.opacity = 0
+      end
       if @espera > 60 and Input.trigger?(Input::C)
         $scene = Scene_Title.new
       end
