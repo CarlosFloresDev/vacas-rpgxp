@@ -3,6 +3,7 @@ import ev
 from ev import flatten
 import contenido as C
 import contenido2 as C2
+from contenido_sistemas import enriquecer
 
 def existing(map_id):
     out = subprocess.run(["node", "rx.mjs", "get_map_events", json.dumps({"mapId": map_id})],
@@ -20,7 +21,7 @@ def escalera():
     m = C.escalera(); C2.extender_escalera(m); return m
 for fn in (C.prologo, piso, escalera, C.calle, C2.entrada, C2.vestuario, C2.corrales,
            C2.cadena, C2.camaras, C2.oficina, C2.pasillo):
-    m = fn()
+    m = enriquecer(fn())
     ex = existing(m.map_id)
     if len(ex) > len(m.events):
         print(f"AVISO: mapa {m.map_id} tiene {len(ex)} eventos y el contenido define {len(m.events)}")

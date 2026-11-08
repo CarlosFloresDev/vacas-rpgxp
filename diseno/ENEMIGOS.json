@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "archivo": "enemigo_vaca.png",
+    "nombre": "La Vaca que habla",
+    "salud": 160,
+    "ataque": 30,
+    "habilidad": 65,
+    "historia": "Dice lo que Steven todavía no puede pensar."
+  },
+  {
+    "id": 2,
+    "archivo": "enemigo_madre.png",
+    "nombre": "La Madre de yeso",
+    "salud": 220,
+    "ataque": 34,
+    "habilidad": 66,
+    "historia": "Cada grieta pronuncia una deuda."
+  },
+  {
+    "id": 3,
+    "archivo": "enemigo_tunel.png",
+    "nombre": "Lo del túnel",
+    "salud": 240,
+    "ataque": 33,
+    "habilidad": 67,
+    "historia": "Espera donde la luz deja de recordar."
+  },
+  {
+    "id": 4,
+    "archivo": "enemigo_sombra_cripps.png",
+    "nombre": "Sombra de Cripps",
+    "salud": 280,
+    "ataque": 38,
+    "habilidad": 68,
+    "historia": "Obediencia proyectada sobre el azulejo."
+  },
+  {
+    "id": 5,
+    "archivo": "enemigo_moscas.png",
+    "nombre": "Enjambre de moscas",
+    "salud": 125,
+    "ataque": 25,
+    "habilidad": 69,
+    "historia": "Pensamientos pequeños que nunca se callan."
+  },
+  {
+    "id": 6,
+    "archivo": "enemigo_guernsey.png",
+    "nombre": "Guernsey de humo",
+    "salud": 300,
+    "ataque": 36,
+    "habilidad": 65,
+    "historia": "La promesa adopta una forma que acusa."
+  },
+  {
+    "id": 7,
+    "archivo": "enemigo_canal.png",
+    "nombre": "Canal en el gancho",
+    "salud": 260,
+    "ataque": 35,
+    "habilidad": 67,
+    "historia": "Un cuerpo al que Steven teme parecerse."
+  },
+  {
+    "id": 8,
+    "archivo": "enemigo_televisor.png",
+    "nombre": "La Familia de nieve",
+    "salud": 180,
+    "ataque": 28,
+    "habilidad": 66,
+    "historia": "La familia feliz recuerda todos sus defectos."
+  },
+  {
+    "id": 9,
+    "archivo": "enemigo_rey.png",
+    "nombre": "El Rey del cajón",
+    "salud": 650,
+    "ataque": 43,
+    "habilidad": 70,
+    "historia": "No es Cripps: es el lugar que podrías ocupar."
+  }
+]

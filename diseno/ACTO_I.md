@@ -173,3 +173,8 @@ Si te pilla: destello rojo, temblor y escena a oscuras, con **veneno +35**. Si e
 - `rx.mjs`: cliente del MCP con la ruta corregida.
 
 Para cambiar textos se edita `contenido.py`, se ejecuta `python build_events.py` y luego `node rx.mjs --batch b_events.json`. Hay que ejecutarlo desde una carpeta que contenga `rx.mjs`, `ev.py` y `contenido.py`. Los eventos se actualizan por id, en el mismo orden.
+
+
+## Actualización: sistemas de noviembre de 2026
+
+Diálogos con bustos, nombre y texto progresivo; alucinaciones por turnos, sustos y un pequeño secreto. El salón de Perro vuelve a ser accesible; Cripps deja libre la aproximación al cartel de la cadena. El Acto II añade un jefe mental al acostarse tras el tercer sueldo. La guía [SISTEMAS.md](SISTEMAS.md) documenta controles, encuentros, migración de partidas, validaciones y los 42 PNG provisionales que deben sustituirse.

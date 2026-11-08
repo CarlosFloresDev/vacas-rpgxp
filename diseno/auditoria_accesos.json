@@ -1,0 +1,193 @@
+{
+  "escenarios": 78,
+  "comprobaciones_puerta": 2134,
+  "comprobaciones_destino": 1635,
+  "puertas": [
+    [
+      2,
+      1,
+      "Madre cazadora"
+    ],
+    [
+      2,
+      4,
+      "Cama Steven"
+    ],
+    [
+      2,
+      5,
+      "Cama Steven 2"
+    ],
+    [
+      2,
+      6,
+      "Armario"
+    ],
+    [
+      2,
+      12,
+      "Banera"
+    ],
+    [
+      2,
+      14,
+      "Madre"
+    ],
+    [
+      2,
+      29,
+      "Puerta del piso"
+    ],
+    [
+      2,
+      30,
+      "Puerta del piso 2"
+    ],
+    [
+      3,
+      2,
+      "Puerta 3B"
+    ],
+    [
+      3,
+      3,
+      "Puerta 3A"
+    ],
+    [
+      3,
+      4,
+      "Puerta 3C"
+    ],
+    [
+      3,
+      8,
+      "Bajada a la calle"
+    ],
+    [
+      4,
+      2,
+      "Portal"
+    ],
+    [
+      5,
+      13,
+      "Fichadora"
+    ],
+    [
+      5,
+      14,
+      "Puerta vestuario"
+    ],
+    [
+      5,
+      15,
+      "Puerta cadena"
+    ],
+    [
+      6,
+      2,
+      "Salida vestibulo"
+    ],
+    [
+      6,
+      3,
+      "Salida vestibulo 2"
+    ],
+    [
+      6,
+      4,
+      "Salida cadena"
+    ],
+    [
+      7,
+      3,
+      "Manga a la cadena"
+    ],
+    [
+      7,
+      4,
+      "Manga a la cadena"
+    ],
+    [
+      7,
+      12,
+      "Puerta corral 1"
+    ],
+    [
+      7,
+      13,
+      "Puerta corral 2"
+    ],
+    [
+      7,
+      14,
+      "Puerta corral 3"
+    ],
+    [
+      8,
+      5,
+      "A los corrales"
+    ],
+    [
+      8,
+      6,
+      "A las camaras"
+    ],
+    [
+      8,
+      7,
+      "Al vestuario"
+    ],
+    [
+      8,
+      8,
+      "Al pasillo"
+    ],
+    [
+      8,
+      9,
+      "Puerta oficina"
+    ],
+    [
+      9,
+      3,
+      "Salida"
+    ],
+    [
+      10,
+      3,
+      "Salida"
+    ],
+    [
+      10,
+      4,
+      "Salida 2"
+    ],
+    [
+      11,
+      3,
+      "Salida"
+    ]
+  ],
+  "destinos_de_escena": [
+    [
+      2,
+      1,
+      4,
+      "bajo la cama"
+    ],
+    [
+      2,
+      7,
+      3,
+      "dentro del armario"
+    ],
+    [
+      2,
+      10,
+      5,
+      "dentro de la bañera"
+    ]
+  ],
+  "problemas": []
+}

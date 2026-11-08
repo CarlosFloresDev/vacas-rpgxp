@@ -443,7 +443,7 @@ def piso():
         T("La tele. Madera oscura, patas de alambre, una\npantalla curva como un ojo de pez."),
         CHOICE(["Ver la tele", "Guardar partida", "Dejarla"], [ver, guardar, []], 3),
     ])]
-    m.add("Tele", 6, 17, [mueble(tele, 0, 0, "", 4, 0)])
+    m.add("Tele", 8, 17, [mueble(tele, 0, 0, "", 4, 0)])
     m.add("Sofa", 6, 19, [page([T("El sofá. Un muelle se te clava siempre en el\nmismo sitio, como si te conociera.")])])
     m.add("Piano", 10, 17, [
         mueble([T("El piano está tapado con una sábana. Nadie lo\ntoca desde que él se fue.")], 0, 0, "", 8, 3),

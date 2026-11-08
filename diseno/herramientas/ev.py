@@ -28,28 +28,18 @@ def _wrap(text):
     return lines
 
 def T(text):
-    """Show Text. Si empieza por un nombre coloreado (codigo c[n] Nombre: c[0]),
-    el nombre va en su propia linea en cada caja. Las lineas que no caben se
-    reajustan por anchura real."""
-    speaker = None
-    m = re.match(r"^(\\c\[\d\][^\\]+:\\c\[0\]) ?", text)
-    if m:
-        speaker = m.group(1)
-        text = text[m.end():]
+    """Mensaje VN; conserva el protocolo 101/401 y las decisiones de XP."""
+    from vn_textos import vn_metadata
+    meta, text = vn_metadata(text)
     lines = text.split("\n")
     if any(_w(l) > MAXW for l in lines):
-        # conservar el color abierto al principio si lo hay
         lines = _wrap(" ".join(l.strip() for l in lines))
-    for l in lines:
-        if _w(l) > MAXW:
-            WARN.append(f"no cabe: {l}")
-    per = 3 if speaker else 4
     out = []
-    for i in range(0, len(lines), per):
-        box = ([speaker] if speaker else []) + lines[i:i + per]
-        out.append(cmd(101, box[0]))
-        for l in box[1:]:
-            out.append(cmd(401, l))
+    for i in range(0, len(lines), 4):
+        box = lines[i:i + 4]
+        out.append(cmd(101, meta + box[0]))
+        for line in box[1:]:
+            out.append(cmd(401, line))
     return ("L", out)
 
 def audio(name, vol=80, pitch=100):

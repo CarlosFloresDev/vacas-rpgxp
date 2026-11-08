@@ -4,3 +4,8 @@ Data/.mcp-preview/
 __pycache__/
 prueba_log.txt
 diseno/herramientas/b_*.json
+
+Save*.rxdata
+diseno/herramientas/snapshot.json
+diseno/herramientas/verificacion_scripts/
+*.log

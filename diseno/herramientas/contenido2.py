@@ -196,7 +196,7 @@ def entrada():
             VEN(5),
         ]], 0),
         T(CRIPPS + "Vestuario. Taquilla trece. Te pones el mono y te vienes a la cadena. La cinta. No me hagas buscarte."),
-        MOVE(CRIPPS_V, [turn(6)] + steps(RIGHT, 8) + steps(UP, 1)), WAITMOVE,
+        MOVE(CRIPPS_V, [turn(6)] + steps(RIGHT, 8) + steps(UP, 1) + [LEFT]), WAITMOVE,
         SE("026-Door03", 70, 70),
         T(AYUDA + "(El vestuario está por la puerta de la izquierda del vestíbulo.)" + FIN),
     ]
@@ -235,7 +235,7 @@ def entrada():
         si_turno(3, [T(CRIPPS + "Hoy es un día bonito, chaval."),
                      T("No dice por qué. Se limpia las uñas con una navaja pequeña, mirándote, y se ríe solo.")]),
     ]
-    m.set("Cripps vestibulo", 24, 3, [
+    m.set("Cripps vestibulo", 23, 3, [
         page([]),
         page(cripps_hablar, sw1=S_MATADERO, var=(V_FASE, 2), char="vacas_cripps", d=4),
         page([], var=(V_FASE, 3)),

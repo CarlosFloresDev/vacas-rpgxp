@@ -1,0 +1,170 @@
+[
+  {
+    "archivo": "Graphics/Pictures/retrato_steven_neutral.png",
+    "aspecto": "Joven exhausto, pelo oscuro, ropa gris, ojos hundidos. Expresión: neutral. Busto transparente 240×340."
+  },
+  {
+    "archivo": "Graphics/Pictures/retrato_steven_miedo.png",
+    "aspecto": "Joven exhausto, pelo oscuro, ropa gris, ojos hundidos. Expresión: miedo. Busto transparente 240×340."
+  },
+  {
+    "archivo": "Graphics/Pictures/retrato_madre_neutral.png",
+    "aspecto": "Figura ancha, bata mostaza, rostro dominante bajo luz de nicotina. Expresión: neutral. Busto transparente 240×340."
+  },
+  {
+    "archivo": "Graphics/Pictures/retrato_madre_ira.png",
+    "aspecto": "Figura ancha, bata mostaza, rostro dominante bajo luz de nicotina. Expresión: ira. Busto transparente 240×340."
+  },
+  {
+    "archivo": "Graphics/Pictures/retrato_lucy_neutral.png",
+    "aspecto": "Pelo claro recogido, bata pálida, tarro vacío y mirada inquieta. Expresión: neutral. Busto transparente 240×340."
+  },
+  {
+    "archivo": "Graphics/Pictures/retrato_lucy_susurro.png",
+    "aspecto": "Pelo claro recogido, bata pálida, tarro vacío y mirada inquieta. Expresión: susurro. Busto transparente 240×340."
+  },
+  {
+    "archivo": "Graphics/Pictures/retrato_cripps_neutral.png",
+    "aspecto": "Capataz corpulento, cabeza rapada, delantal de trabajo. Expresión: neutral. Busto transparente 240×340."
+  },
+  {
+    "archivo": "Graphics/Pictures/retrato_cripps_ira.png",
+    "aspecto": "Capataz corpulento, cabeza rapada, delantal de trabajo. Expresión: ira. Busto transparente 240×340."
+  },
+  {
+    "archivo": "Graphics/Pictures/retrato_dog_neutral.png",
+    "aspecto": "Perro mestizo tumbado, orejas caídas, mirada cálida. Expresión: neutral. Busto transparente 240×340."
+  },
+  {
+    "archivo": "Graphics/Pictures/retrato_dog_miedo.png",
+    "aspecto": "Perro mestizo tumbado, orejas caídas, mirada cálida. Expresión: miedo. Busto transparente 240×340."
+  },
+  {
+    "archivo": "Graphics/Pictures/retrato_guernsey_neutral.png",
+    "aspecto": "Vaca canela, cuernos curvos y un ojo castaño a través de una rejilla. Expresión: neutral. Busto transparente 240×340."
+  },
+  {
+    "archivo": "Graphics/Pictures/retrato_guernsey_susurro.png",
+    "aspecto": "Vaca canela, cuernos curvos y un ojo castaño a través de una rejilla. Expresión: susurro. Busto transparente 240×340."
+  },
+  {
+    "archivo": "Graphics/Pictures/retrato_benito_neutral.png",
+    "aspecto": "Obrero veterano con canas y mono gastado. Expresión: neutral. Busto transparente 240×340."
+  },
+  {
+    "archivo": "Graphics/Pictures/retrato_encarna_neutral.png",
+    "aspecto": "Obrera de pelo recogido y mono blanco. Expresión: neutral. Busto transparente 240×340."
+  },
+  {
+    "archivo": "Graphics/Pictures/retrato_rubio_neutral.png",
+    "aspecto": "Obrero de cabello rubio y guantes oscuros. Expresión: neutral. Busto transparente 240×340."
+  },
+  {
+    "archivo": "Graphics/Pictures/retrato_chato_neutral.png",
+    "aspecto": "Obrero bajo, rostro ancho y nariz achatada. Expresión: neutral. Busto transparente 240×340."
+  },
+  {
+    "archivo": "Graphics/Pictures/retrato_sierra_neutral.png",
+    "aspecto": "Obrero con máscara protectora y casco. Expresión: neutral. Busto transparente 240×340."
+  },
+  {
+    "archivo": "Graphics/Pictures/retrato_remedios_neutral.png",
+    "aspecto": "Vecina anciana con pelo blanco y chal oscuro. Expresión: neutral. Busto transparente 240×340."
+  },
+  {
+    "archivo": "Graphics/Pictures/retrato_anselmo_neutral.png",
+    "aspecto": "Vecino anciano con bigote gris y chaqueta. Expresión: neutral. Busto transparente 240×340."
+  },
+  {
+    "archivo": "Graphics/Pictures/retrato_molina_neutral.png",
+    "aspecto": "Carnicero con bigote y delantal rojizo. Expresión: neutral. Busto transparente 240×340."
+  },
+  {
+    "archivo": "Graphics/Pictures/retrato_borracho_neutral.png",
+    "aspecto": "Hombre desaliñado con abrigo y nariz roja. Expresión: neutral. Busto transparente 240×340."
+  },
+  {
+    "archivo": "Graphics/Pictures/retrato_reclutador_neutral.png",
+    "aspecto": "Conductor con gorra, chaqueta y carpeta de contratación. Expresión: neutral. Busto transparente 240×340."
+  },
+  {
+    "archivo": "Graphics/Battlers/enemigo_vaca.png",
+    "aspecto": "Cabeza bovina suspendida, lengua como cinta de tele. Silueta transparente 320×300."
+  },
+  {
+    "archivo": "Graphics/Battlers/enemigo_madre.png",
+    "aspecto": "Bata vacía, rostro agrietado y manos enormes. Silueta transparente 320×300."
+  },
+  {
+    "archivo": "Graphics/Battlers/enemigo_tunel.png",
+    "aspecto": "Forma alargada sin rostro, ojos al fondo de un conducto. Silueta transparente 320×300."
+  },
+  {
+    "archivo": "Graphics/Battlers/enemigo_sombra_cripps.png",
+    "aspecto": "Silueta de capataz deformada por ganchos. Silueta transparente 320×300."
+  },
+  {
+    "archivo": "Graphics/Battlers/enemigo_moscas.png",
+    "aspecto": "Nube de moscas formando una cara. Silueta transparente 320×300."
+  },
+  {
+    "archivo": "Graphics/Battlers/enemigo_guernsey.png",
+    "aspecto": "Vaca canela espectral, cuernos de tubería. Silueta transparente 320×300."
+  },
+  {
+    "archivo": "Graphics/Battlers/enemigo_canal.png",
+    "aspecto": "Carcasa abstracta colgada, costillas como barrotes. Silueta transparente 320×300."
+  },
+  {
+    "archivo": "Graphics/Battlers/enemigo_televisor.png",
+    "aspecto": "Televisor de los cincuenta con rostros de estática. Silueta transparente 320×300."
+  },
+  {
+    "archivo": "Graphics/Battlers/enemigo_rey.png",
+    "aspecto": "Jefe: Steven coronado con ganchos, reflejo del verdugo. Silueta transparente 320×300."
+  },
+  {
+    "archivo": "Graphics/Battlers/steven_mente.png",
+    "aspecto": "Steven pequeño frente a sus alucinaciones. Sustituir por figura completa 240×340."
+  },
+  {
+    "archivo": "Graphics/Battlebacks/mente_piso.png",
+    "aspecto": "Espacio mental de piso: perspectiva opresiva, sombras verdes/negras, luz central mínima. 640×480."
+  },
+  {
+    "archivo": "Graphics/Battlebacks/mente_matadero.png",
+    "aspecto": "Espacio mental de matadero: perspectiva opresiva, sombras verdes/negras, luz central mínima. 640×480."
+  },
+  {
+    "archivo": "Graphics/Battlebacks/mente_tunel.png",
+    "aspecto": "Espacio mental de tunel: perspectiva opresiva, sombras verdes/negras, luz central mínima. 640×480."
+  },
+  {
+    "archivo": "Graphics/Pictures/screamer_1.png",
+    "aspecto": "Ojo de madre al otro lado del espejo. Imagen repentina a pantalla completa 640×480."
+  },
+  {
+    "archivo": "Graphics/Pictures/screamer_2.png",
+    "aspecto": "Familia de televisión con bocas de estática. Imagen repentina a pantalla completa 640×480."
+  },
+  {
+    "archivo": "Graphics/Pictures/screamer_3.png",
+    "aspecto": "Hocico bovino pegado al cristal del camión. Imagen repentina a pantalla completa 640×480."
+  },
+  {
+    "archivo": "Graphics/Pictures/screamer_4.png",
+    "aspecto": "Rostro sustituido por un sumidero. Imagen repentina a pantalla completa 640×480."
+  },
+  {
+    "archivo": "Graphics/Pictures/screamer_5.png",
+    "aspecto": "Ojo castaño tras la rejilla. Imagen repentina a pantalla completa 640×480."
+  },
+  {
+    "archivo": "Graphics/Pictures/screamer_6.png",
+    "aspecto": "Sombra del capataz entre ganchos. Imagen repentina a pantalla completa 640×480."
+  },
+  {
+    "archivo": "Graphics/Pictures/screamer_7.png",
+    "aspecto": "Corona de ganchos sobre el reflejo de Steven. Imagen repentina a pantalla completa 640×480."
+  }
+]

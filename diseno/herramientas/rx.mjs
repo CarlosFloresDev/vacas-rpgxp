@@ -10,7 +10,9 @@ const a = process.argv.slice(2);
 async function call(tool, args) {
   const res = await client.callTool({ name: tool, arguments: args || {} });
   for (const c of res.content) console.log(c.type === "text" ? c.text : `[${c.type}]`);
-  if (res.isError) { console.log("!!ERROR in " + tool); }
+  if (res.isError || res.content.some(c => c.type === "text" && /^Error:/m.test(c.text))) {
+    throw new Error("Fallo del MCP en " + tool);
+  }
   return res;
 }
 if (a[0] === "--list") {

@@ -200,3 +200,8 @@ Las notas (9, 10, 11 y 13) se leen desde el menú con el evento común 1, que se
 - `db2.py`: objetos y nombres de interruptores y variables.
 - `build_events.py`: regenera los eventos de **todos** los mapas, del 1 al 11.
 - Flujo: `python build_events.py` y luego `node rx.mjs --batch b_events.json`.
+
+
+## Actualización: sistemas de noviembre de 2026
+
+Diálogos con bustos, nombre y texto progresivo; alucinaciones por turnos, sustos y un pequeño secreto. El salón de Perro vuelve a ser accesible; Cripps deja libre la aproximación al cartel de la cadena. El Acto II añade un jefe mental al acostarse tras el tercer sueldo. La guía [SISTEMAS.md](SISTEMAS.md) documenta controles, encuentros, migración de partidas, validaciones y los 42 PNG provisionales que deben sustituirse.

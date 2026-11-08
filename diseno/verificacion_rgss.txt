@@ -1,0 +1,328 @@
+Inicio RGSS1 real
+OK Partida nueva: solo Steven
+OK Salud y recursos iniciales
+OK Marshal RGSS: Data/Actors.rxdata
+OK Marshal RGSS: Data/Animations.rxdata
+OK Marshal RGSS: Data/Armors.rxdata
+OK Marshal RGSS: Data/Classes.rxdata
+OK Marshal RGSS: Data/CommonEvents.rxdata
+OK Marshal RGSS: Data/Enemies.rxdata
+OK Marshal RGSS: Data/Items.rxdata
+OK Marshal RGSS: Data/Map001.rxdata
+OK Marshal RGSS: Data/Map002.rxdata
+OK Marshal RGSS: Data/Map003.rxdata
+OK Marshal RGSS: Data/Map004.rxdata
+OK Marshal RGSS: Data/Map005.rxdata
+OK Marshal RGSS: Data/Map006.rxdata
+OK Marshal RGSS: Data/Map007.rxdata
+OK Marshal RGSS: Data/Map008.rxdata
+OK Marshal RGSS: Data/Map009.rxdata
+OK Marshal RGSS: Data/Map010.rxdata
+OK Marshal RGSS: Data/Map011.rxdata
+OK Marshal RGSS: Data/MapInfos.rxdata
+OK Marshal RGSS: Data/Scripts.rxdata
+OK Marshal RGSS: Data/Skills.rxdata
+OK Marshal RGSS: Data/States.rxdata
+OK Marshal RGSS: Data/System.rxdata
+OK Marshal RGSS: Data/Tilesets.rxdata
+OK Marshal RGSS: Data/Troops.rxdata
+OK Marshal RGSS: Data/Weapons.rxdata
+OK Mapas 1..11 y spritesets cargados
+OK Cajas VN renderizadas: 21
+OK Opciones nativas conservadas
+OK Texto se revela progresivamente
+OK Primera confirmacion solo revela
+OK Segunda confirmacion avanza
+OK Revelar opciones no selecciona
+OK Cancelar respeta la opcion configurada
+OK Hueco del salon (6,16)->(6,17) libre
+OK Del umbral hacia Perro
+OK Susto muestra imagen
+OK Susto borra imagen al terminar
+RESPIRAR [216, 18, false, 54, 61]
+OK Respirar cura, recupera SP, limpia y baja veneno
+OK Balance enemigo 1 semilla 0 turnos 2
+OK Balance enemigo 1 semilla 1 turnos 2
+OK Balance enemigo 1 semilla 2 turnos 3
+OK Balance enemigo 1 semilla 3 turnos 2
+OK Balance enemigo 1 semilla 4 turnos 3
+OK Balance enemigo 1 semilla 5 turnos 2
+OK Balance enemigo 1 semilla 6 turnos 2
+OK Balance enemigo 1 semilla 7 turnos 2
+OK Balance enemigo 1 semilla 8 turnos 3
+OK Balance enemigo 1 semilla 9 turnos 2
+OK Balance enemigo 1 semilla 10 turnos 4
+OK Balance enemigo 1 semilla 11 turnos 2
+OK Balance enemigo 1 semilla 12 turnos 2
+OK Balance enemigo 1 semilla 13 turnos 2
+OK Balance enemigo 1 semilla 14 turnos 3
+OK Balance enemigo 1 semilla 15 turnos 2
+OK Balance enemigo 1 semilla 16 turnos 2
+OK Balance enemigo 1 semilla 17 turnos 2
+OK Balance enemigo 1 semilla 18 turnos 3
+OK Balance enemigo 1 semilla 19 turnos 2
+OK Balance enemigo 1 semilla 20 turnos 2
+OK Balance enemigo 1 semilla 21 turnos 2
+OK Balance enemigo 1 semilla 22 turnos 2
+OK Balance enemigo 1 semilla 23 turnos 3
+OK Balance enemigo 1 semilla 24 turnos 3
+OK Balance enemigo 1 semilla 25 turnos 2
+OK Balance enemigo 1 semilla 26 turnos 3
+OK Balance enemigo 1 semilla 27 turnos 3
+OK Balance enemigo 1 semilla 28 turnos 2
+OK Balance enemigo 1 semilla 29 turnos 2
+MAXTURN 1 4
+OK Balance enemigo 2 semilla 0 turnos 5
+OK Balance enemigo 2 semilla 1 turnos 3
+OK Balance enemigo 2 semilla 2 turnos 4
+OK Balance enemigo 2 semilla 3 turnos 3
+OK Balance enemigo 2 semilla 4 turnos 5
+OK Balance enemigo 2 semilla 5 turnos 3
+OK Balance enemigo 2 semilla 6 turnos 3
+OK Balance enemigo 2 semilla 7 turnos 3
+OK Balance enemigo 2 semilla 8 turnos 6
+OK Balance enemigo 2 semilla 9 turnos 3
+OK Balance enemigo 2 semilla 10 turnos 5
+OK Balance enemigo 2 semilla 11 turnos 3
+OK Balance enemigo 2 semilla 12 turnos 3
+OK Balance enemigo 2 semilla 13 turnos 4
+OK Balance enemigo 2 semilla 14 turnos 5
+OK Balance enemigo 2 semilla 15 turnos 3
+OK Balance enemigo 2 semilla 16 turnos 3
+OK Balance enemigo 2 semilla 17 turnos 6
+OK Balance enemigo 2 semilla 18 turnos 4
+OK Balance enemigo 2 semilla 19 turnos 3
+OK Balance enemigo 2 semilla 20 turnos 3
+OK Balance enemigo 2 semilla 21 turnos 4
+OK Balance enemigo 2 semilla 22 turnos 3
+OK Balance enemigo 2 semilla 23 turnos 5
+OK Balance enemigo 2 semilla 24 turnos 4
+OK Balance enemigo 2 semilla 25 turnos 3
+OK Balance enemigo 2 semilla 26 turnos 4
+OK Balance enemigo 2 semilla 27 turnos 5
+OK Balance enemigo 2 semilla 28 turnos 4
+OK Balance enemigo 2 semilla 29 turnos 3
+MAXTURN 2 6
+OK Balance enemigo 3 semilla 0 turnos 5
+OK Balance enemigo 3 semilla 1 turnos 3
+OK Balance enemigo 3 semilla 2 turnos 4
+OK Balance enemigo 3 semilla 3 turnos 3
+OK Balance enemigo 3 semilla 4 turnos 5
+OK Balance enemigo 3 semilla 5 turnos 3
+OK Balance enemigo 3 semilla 6 turnos 3
+OK Balance enemigo 3 semilla 7 turnos 3
+OK Balance enemigo 3 semilla 8 turnos 6
+OK Balance enemigo 3 semilla 9 turnos 3
+OK Balance enemigo 3 semilla 10 turnos 5
+OK Balance enemigo 3 semilla 11 turnos 3
+OK Balance enemigo 3 semilla 12 turnos 3
+OK Balance enemigo 3 semilla 13 turnos 4
+OK Balance enemigo 3 semilla 14 turnos 5
+OK Balance enemigo 3 semilla 15 turnos 3
+OK Balance enemigo 3 semilla 16 turnos 3
+OK Balance enemigo 3 semilla 17 turnos 6
+OK Balance enemigo 3 semilla 18 turnos 4
+OK Balance enemigo 3 semilla 19 turnos 3
+OK Balance enemigo 3 semilla 20 turnos 3
+OK Balance enemigo 3 semilla 21 turnos 4
+OK Balance enemigo 3 semilla 22 turnos 3
+OK Balance enemigo 3 semilla 23 turnos 5
+OK Balance enemigo 3 semilla 24 turnos 4
+OK Balance enemigo 3 semilla 25 turnos 3
+OK Balance enemigo 3 semilla 26 turnos 4
+OK Balance enemigo 3 semilla 27 turnos 5
+OK Balance enemigo 3 semilla 28 turnos 4
+OK Balance enemigo 3 semilla 29 turnos 3
+MAXTURN 3 6
+OK Balance enemigo 4 semilla 0 turnos 6
+OK Balance enemigo 4 semilla 1 turnos 5
+OK Balance enemigo 4 semilla 2 turnos 5
+OK Balance enemigo 4 semilla 3 turnos 6
+OK Balance enemigo 4 semilla 4 turnos 7
+OK Balance enemigo 4 semilla 5 turnos 5
+OK Balance enemigo 4 semilla 6 turnos 5
+OK Balance enemigo 4 semilla 7 turnos 5
+OK Balance enemigo 4 semilla 8 turnos 8
+OK Balance enemigo 4 semilla 9 turnos 5
+OK Balance enemigo 4 semilla 10 turnos 7
+OK Balance enemigo 4 semilla 11 turnos 5
+OK Balance enemigo 4 semilla 12 turnos 5
+OK Balance enemigo 4 semilla 13 turnos 6
+OK Balance enemigo 4 semilla 14 turnos 6
+OK Balance enemigo 4 semilla 15 turnos 5
+OK Balance enemigo 4 semilla 16 turnos 5
+OK Balance enemigo 4 semilla 17 turnos 7
+OK Balance enemigo 4 semilla 18 turnos 8
+OK Balance enemigo 4 semilla 19 turnos 7
+OK Balance enemigo 4 semilla 20 turnos 8
+OK Balance enemigo 4 semilla 21 turnos 6
+OK Balance enemigo 4 semilla 22 turnos 5
+OK Balance enemigo 4 semilla 23 turnos 7
+OK Balance enemigo 4 semilla 24 turnos 10
+OK Balance enemigo 4 semilla 25 turnos 4
+OK Balance enemigo 4 semilla 26 turnos 7
+OK Balance enemigo 4 semilla 27 turnos 10
+OK Balance enemigo 4 semilla 28 turnos 7
+OK Balance enemigo 4 semilla 29 turnos 5
+MAXTURN 4 10
+OK Balance enemigo 5 semilla 0 turnos 2
+OK Balance enemigo 5 semilla 1 turnos 2
+OK Balance enemigo 5 semilla 2 turnos 3
+OK Balance enemigo 5 semilla 3 turnos 2
+OK Balance enemigo 5 semilla 4 turnos 3
+OK Balance enemigo 5 semilla 5 turnos 2
+OK Balance enemigo 5 semilla 6 turnos 2
+OK Balance enemigo 5 semilla 7 turnos 2
+OK Balance enemigo 5 semilla 8 turnos 3
+OK Balance enemigo 5 semilla 9 turnos 2
+OK Balance enemigo 5 semilla 10 turnos 4
+OK Balance enemigo 5 semilla 11 turnos 2
+OK Balance enemigo 5 semilla 12 turnos 2
+OK Balance enemigo 5 semilla 13 turnos 2
+OK Balance enemigo 5 semilla 14 turnos 3
+OK Balance enemigo 5 semilla 15 turnos 2
+OK Balance enemigo 5 semilla 16 turnos 2
+OK Balance enemigo 5 semilla 17 turnos 2
+OK Balance enemigo 5 semilla 18 turnos 3
+OK Balance enemigo 5 semilla 19 turnos 2
+OK Balance enemigo 5 semilla 20 turnos 2
+OK Balance enemigo 5 semilla 21 turnos 2
+OK Balance enemigo 5 semilla 22 turnos 2
+OK Balance enemigo 5 semilla 23 turnos 3
+OK Balance enemigo 5 semilla 24 turnos 3
+OK Balance enemigo 5 semilla 25 turnos 2
+OK Balance enemigo 5 semilla 26 turnos 3
+OK Balance enemigo 5 semilla 27 turnos 3
+OK Balance enemigo 5 semilla 28 turnos 2
+OK Balance enemigo 5 semilla 29 turnos 2
+MAXTURN 5 4
+OK Balance enemigo 6 semilla 0 turnos 6
+OK Balance enemigo 6 semilla 1 turnos 4
+OK Balance enemigo 6 semilla 2 turnos 5
+OK Balance enemigo 6 semilla 3 turnos 6
+OK Balance enemigo 6 semilla 4 turnos 7
+OK Balance enemigo 6 semilla 5 turnos 4
+OK Balance enemigo 6 semilla 6 turnos 4
+OK Balance enemigo 6 semilla 7 turnos 4
+OK Balance enemigo 6 semilla 8 turnos 8
+OK Balance enemigo 6 semilla 9 turnos 4
+OK Balance enemigo 6 semilla 10 turnos 6
+OK Balance enemigo 6 semilla 11 turnos 4
+OK Balance enemigo 6 semilla 12 turnos 5
+OK Balance enemigo 6 semilla 13 turnos 5
+OK Balance enemigo 6 semilla 14 turnos 6
+OK Balance enemigo 6 semilla 15 turnos 5
+OK Balance enemigo 6 semilla 16 turnos 5
+OK Balance enemigo 6 semilla 17 turnos 7
+OK Balance enemigo 6 semilla 18 turnos 8
+OK Balance enemigo 6 semilla 19 turnos 7
+OK Balance enemigo 6 semilla 20 turnos 8
+OK Balance enemigo 6 semilla 21 turnos 6
+OK Balance enemigo 6 semilla 22 turnos 5
+OK Balance enemigo 6 semilla 23 turnos 7
+OK Balance enemigo 6 semilla 24 turnos 10
+OK Balance enemigo 6 semilla 25 turnos 4
+OK Balance enemigo 6 semilla 26 turnos 5
+OK Balance enemigo 6 semilla 27 turnos 10
+OK Balance enemigo 6 semilla 28 turnos 5
+OK Balance enemigo 6 semilla 29 turnos 4
+MAXTURN 6 10
+OK Balance enemigo 7 semilla 0 turnos 5
+OK Balance enemigo 7 semilla 1 turnos 3
+OK Balance enemigo 7 semilla 2 turnos 4
+OK Balance enemigo 7 semilla 3 turnos 6
+OK Balance enemigo 7 semilla 4 turnos 5
+OK Balance enemigo 7 semilla 5 turnos 3
+OK Balance enemigo 7 semilla 6 turnos 3
+OK Balance enemigo 7 semilla 7 turnos 3
+OK Balance enemigo 7 semilla 8 turnos 6
+OK Balance enemigo 7 semilla 9 turnos 3
+OK Balance enemigo 7 semilla 10 turnos 6
+OK Balance enemigo 7 semilla 11 turnos 4
+OK Balance enemigo 7 semilla 12 turnos 3
+OK Balance enemigo 7 semilla 13 turnos 4
+OK Balance enemigo 7 semilla 14 turnos 5
+OK Balance enemigo 7 semilla 15 turnos 5
+OK Balance enemigo 7 semilla 16 turnos 5
+OK Balance enemigo 7 semilla 17 turnos 7
+OK Balance enemigo 7 semilla 18 turnos 4
+OK Balance enemigo 7 semilla 19 turnos 3
+OK Balance enemigo 7 semilla 20 turnos 3
+OK Balance enemigo 7 semilla 21 turnos 4
+OK Balance enemigo 7 semilla 22 turnos 3
+OK Balance enemigo 7 semilla 23 turnos 5
+OK Balance enemigo 7 semilla 24 turnos 10
+OK Balance enemigo 7 semilla 25 turnos 3
+OK Balance enemigo 7 semilla 26 turnos 4
+OK Balance enemigo 7 semilla 27 turnos 5
+OK Balance enemigo 7 semilla 28 turnos 5
+OK Balance enemigo 7 semilla 29 turnos 3
+MAXTURN 7 10
+OK Balance enemigo 8 semilla 0 turnos 5
+OK Balance enemigo 8 semilla 1 turnos 3
+OK Balance enemigo 8 semilla 2 turnos 4
+OK Balance enemigo 8 semilla 3 turnos 3
+OK Balance enemigo 8 semilla 4 turnos 5
+OK Balance enemigo 8 semilla 5 turnos 3
+OK Balance enemigo 8 semilla 6 turnos 3
+OK Balance enemigo 8 semilla 7 turnos 3
+OK Balance enemigo 8 semilla 8 turnos 6
+OK Balance enemigo 8 semilla 9 turnos 3
+OK Balance enemigo 8 semilla 10 turnos 5
+OK Balance enemigo 8 semilla 11 turnos 3
+OK Balance enemigo 8 semilla 12 turnos 3
+OK Balance enemigo 8 semilla 13 turnos 4
+OK Balance enemigo 8 semilla 14 turnos 3
+OK Balance enemigo 8 semilla 15 turnos 3
+OK Balance enemigo 8 semilla 16 turnos 3
+OK Balance enemigo 8 semilla 17 turnos 6
+OK Balance enemigo 8 semilla 18 turnos 4
+OK Balance enemigo 8 semilla 19 turnos 3
+OK Balance enemigo 8 semilla 20 turnos 2
+OK Balance enemigo 8 semilla 21 turnos 4
+OK Balance enemigo 8 semilla 22 turnos 3
+OK Balance enemigo 8 semilla 23 turnos 3
+OK Balance enemigo 8 semilla 24 turnos 4
+OK Balance enemigo 8 semilla 25 turnos 3
+OK Balance enemigo 8 semilla 26 turnos 3
+OK Balance enemigo 8 semilla 27 turnos 5
+OK Balance enemigo 8 semilla 28 turnos 4
+OK Balance enemigo 8 semilla 29 turnos 3
+MAXTURN 8 6
+OK Balance enemigo 9 semilla 0 turnos 14
+OK Balance enemigo 9 semilla 1 turnos 12
+OK Balance enemigo 9 semilla 2 turnos 14
+OK Balance enemigo 9 semilla 3 turnos 17
+OK Balance enemigo 9 semilla 4 turnos 18
+OK Balance enemigo 9 semilla 5 turnos 15
+OK Balance enemigo 9 semilla 6 turnos 19
+OK Balance enemigo 9 semilla 7 turnos 14
+OK Balance enemigo 9 semilla 8 turnos 13
+OK Balance enemigo 9 semilla 9 turnos 15
+OK Balance enemigo 9 semilla 10 turnos 14
+OK Balance enemigo 9 semilla 11 turnos 15
+OK Balance enemigo 9 semilla 12 turnos 12
+OK Balance enemigo 9 semilla 13 turnos 17
+OK Balance enemigo 9 semilla 14 turnos 15
+OK Balance enemigo 9 semilla 15 turnos 12
+OK Balance enemigo 9 semilla 16 turnos 14
+OK Balance enemigo 9 semilla 17 turnos 14
+OK Balance enemigo 9 semilla 18 turnos 16
+OK Balance enemigo 9 semilla 19 turnos 13
+OK Balance enemigo 9 semilla 20 turnos 14
+OK Balance enemigo 9 semilla 21 turnos 17
+OK Balance enemigo 9 semilla 22 turnos 12
+OK Balance enemigo 9 semilla 23 turnos 12
+OK Balance enemigo 9 semilla 24 turnos 17
+OK Balance enemigo 9 semilla 25 turnos 14
+OK Balance enemigo 9 semilla 26 turnos 19
+OK Balance enemigo 9 semilla 27 turnos 19
+OK Balance enemigo 9 semilla 28 turnos 15
+OK Balance enemigo 9 semilla 29 turnos 16
+MAXTURN 9 19
+OK Spriteset de batalla, comandos y resultado
+OK Jefe: Scene_Battle nativo termina en victoria
+OK Partida anterior migrada en memoria
+OK Partida anterior: tele fuera del umbral
+OK Partida anterior: recursos en castellano
+OK FIN: comprobaciones completadas
