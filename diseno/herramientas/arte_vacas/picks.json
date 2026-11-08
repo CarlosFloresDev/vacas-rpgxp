@@ -1,0 +1,52 @@
+{
+ "portraits": {
+  "steven_neutral": "raw/steven_24.png",
+  "steven_miedo": "raw/ex_steven_miedo_84.png",
+  "madre_neutral": "raw/madre_31.png",
+  "madre_ira": "raw/ex_madre_ira2_92.png",
+  "lucy_neutral": "raw/lucy_24.png",
+  "lucy_susurro": "raw/ex_lucy_susurro_71.png",
+  "cripps_neutral": "raw/cripps_22.png",
+  "cripps_ira": "raw/ex_cripps_ira_71.png",
+  "dog_neutral": "raw/dog_23.png",
+  "dog_miedo": "raw/ex_dog_miedo_72.png",
+  "guernsey_neutral": "raw/guernsey_23.png",
+  "guernsey_susurro": "raw/ex_guernsey_susurro_71.png",
+  "benito_neutral": "raw/benito_27.png",
+  "encarna_neutral": "raw/encarna_21.png",
+  "rubio_neutral": "raw/rubio_28.png",
+  "chato_neutral": "raw/chato_26.png",
+  "sierra_neutral": "raw/sierra_23.png",
+  "remedios_neutral": "raw/remedios_22.png",
+  "anselmo_neutral": "raw/anselmo_22.png",
+  "molina_neutral": "raw/molina_23.png",
+  "borracho_neutral": "raw/borracho_22.png",
+  "reclutador_neutral": "raw/reclutador_22.png"
+ },
+ "enemies": {
+  "enemigo_vaca": "raw2/en_vaca_32.png",
+  "enemigo_madre": "raw2/en_madre_32.png",
+  "enemigo_tunel": "raw2/en_tunel_37.png",
+  "enemigo_sombra_cripps": "raw2/en_sombra_cripps_32.png",
+  "enemigo_moscas": "raw2/en_moscas_32.png",
+  "enemigo_guernsey": "raw2/en_guernsey_40.png",
+  "enemigo_canal": "raw2/en_canal_31.png",
+  "enemigo_televisor": "raw2/en_televisor_34.png",
+  "enemigo_rey": "raw2/en_rey_31.png"
+ },
+ "stevenm": "raw2/stevenm_66.png",
+ "screamers": {
+  "1": "raw2/sc_1_42.png",
+  "2": "raw2/sc_2_42.png",
+  "3": "raw2/sc_3_46.png",
+  "4": "raw2/sc_4_42.png",
+  "5": "raw2/sc_5_43.png",
+  "6": "raw2/sc_6_42.png",
+  "7": "raw2/sc_7_43.png"
+ },
+ "bb": {
+  "piso": "raw2/bb_piso_52.png",
+  "matadero": "raw2/bb_matadero_51.png",
+  "tunel": "raw2/bb_tunel_51.png"
+ }
+}
