@@ -1,0 +1,17 @@
+{
+  "id": "reclutador_sprite",
+  "prompt": "Use case: identity-preserve. RPG Maker XP detailed pixel art walk sheet of EXACT identity in image1. Image2 approved Steven sprite STYLE/proportions only. EXACT4x4 equal rectangular cells NO GRID; rows FRONT/down, LEFT, RIGHT, BACK/up; four columns left step, passing, right step, passing. 16 complete figures, identical costume head scale light in every cell. About2.5 heads tall, recognizable hands and boots, fixed feet baseline per row, generous empty cell margins, crisp intentional pixel clusters, selective dark outline, warm upper-left light and cold right rim. REAL transparent alpha, no ground, no opaque backdrop, no text. Final128x192 cells32x48. RECLUTADOR age46 medium slight belly round shaved face grey driver's cap and GREY jacket, pale ochre shirt charcoal trousers dark shoes, ochre folder tucked under anatomical LEFT arm in every view. Keep head and folder inside each cell. No text.",
+  "references": [
+    "diseno/arte_hd2d/referencias/reclutador.png",
+    "Graphics/Characters/vacas_steven.png"
+  ],
+  "destination": "diseno/arte_hd2d/reclutador_sprite_fuente.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/arte_hd2d/referencias/reclutador.png": "5275fca36b536ea59fe0b790a9bc2178053bd158eb7c1737006cb06f92470874",
+    "Graphics/Characters/vacas_steven.png": "332032558ce3719b7080e1ba196a54d8308a022c028664eee7d3d6017cd64662"
+  },
+  "output_sha256": "499d301621649fd6af4e8fe3bfe783ac392eb5fe5ef4940098f3b4ee1e5185af"
+}

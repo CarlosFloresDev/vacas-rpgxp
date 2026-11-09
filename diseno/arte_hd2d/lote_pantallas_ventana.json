@@ -1,0 +1,30 @@
+{
+  "assets": [
+    {
+      "source": "diseno/arte_hd2d/vacas_titulo_fuente.png",
+      "destination": "Graphics/Titles/vacas_titulo.png",
+      "type": "picture",
+      "size": "640x480",
+      "resample": "box"
+    },
+    {
+      "source": "diseno/arte_hd2d/vacas_gameover_fuente.png",
+      "destination": "Graphics/Gameovers/vacas_gameover.png",
+      "type": "picture",
+      "size": "640x480",
+      "resample": "box"
+    },
+    {
+      "source": "diseno/arte_hd2d/vacas_ventana_fuente.png",
+      "destination": "Graphics/Windowskins/vacas_ventana.png",
+      "type": "indexed",
+      "layout_source": "diseno/arte_provisional/sd_v1/Graphics/Windowskins/vacas_ventana.png",
+      "cell": "16x16",
+      "size": "192x128",
+      "resample": "box",
+      "indexed_mode": "resize",
+      "preserve_alpha": true,
+      "layout_mix": 0.15
+    }
+  ]
+}

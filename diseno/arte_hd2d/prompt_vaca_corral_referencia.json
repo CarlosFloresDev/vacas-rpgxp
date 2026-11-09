@@ -1,0 +1,15 @@
+{
+  "id": "vaca_corral_referencia",
+  "prompt": "Use case: stylized-concept. Original VACAS ordinary CORRAL COW reference TWO complete front and left profile views, same scale. Adult cow age5 heavy bovine anatomy thick neck. CREAM coat #D4C6AA with irregular BROWN patches #694139 (one shoulder patch and rear flank patch per side), ivory-brown horns #D4B48A, muted brown muzzle #927461, brown eyes dark hooves. Attached Guernsey is anatomy/style only, this is a DIFFERENT cow, NO cinnamon coat and NO forehead diamond. Healthy everyday cow no gore no human face. Detailed illustrated industrial horror style, warm upper-left light cold right rim. Entire horns hooves tail in margin. Transparent alpha, no text.",
+  "references": [
+    "diseno/arte_hd2d/referencias/guernsey.png"
+  ],
+  "destination": "diseno/arte_hd2d/referencias/vaca_corral.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/arte_hd2d/referencias/guernsey.png": "829fab42ff7db36e8c16f932e998a9a392307881725a6d03a2d061df56fa6d89"
+  },
+  "output_sha256": "79139fb4779753df36da1be22bfdd78841deae6b16b4a49ae6633cd164942ab9"
+}

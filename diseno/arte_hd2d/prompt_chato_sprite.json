@@ -1,0 +1,17 @@
+{
+  "id": "chato_sprite",
+  "prompt": "Use case: identity-preserve. RPG Maker XP detailed pixel art walk sheet of EXACT identity in image1. Image2 approved Steven sprite STYLE/proportions only. EXACT4x4 equal rectangular cells NO GRID; rows FRONT/down, LEFT, RIGHT, BACK/up; four columns left step, passing, right step, passing. 16 complete figures, identical costume head scale light in every cell. About2.5 heads tall, recognizable hands and boots, fixed feet baseline per row, generous empty cell margins, crisp intentional pixel clusters, selective dark outline, warm upper-left light and cold right rim. REAL transparent alpha, no ground, no opaque backdrop, no text. Final128x192 cells32x48. CHATO short stocky broad flattened nose, short brown hair; light-grey industrial coverall, brown belt, dirty brown cuffs, dark work boots. No helmet, no gloves. Preserve short robust silhouette.",
+  "references": [
+    "diseno/arte_hd2d/referencias/chato.png",
+    "Graphics/Characters/vacas_steven.png"
+  ],
+  "destination": "diseno/arte_hd2d/chato_sprite_fuente.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/arte_hd2d/referencias/chato.png": "2a944d7ac86dac90f433d06e607b0cd8b95797e5058f90b3350fa6f375df1437",
+    "Graphics/Characters/vacas_steven.png": "332032558ce3719b7080e1ba196a54d8308a022c028664eee7d3d6017cd64662"
+  },
+  "output_sha256": "ed64c6359b989c5d4c7bfc5240853787809e4c0b6aa6cade47a1c0d9e1a26c63"
+}

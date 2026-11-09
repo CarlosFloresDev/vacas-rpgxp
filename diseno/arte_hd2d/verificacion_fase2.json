@@ -1,0 +1,1498 @@
+{
+  "checked": [
+    {
+      "path": "Graphics/Characters/vacas_steven.png",
+      "size": [
+        128,
+        192
+      ],
+      "backup_size": [
+        128,
+        192
+      ],
+      "status": "APROBADO FASE 1",
+      "mode": "RGBA",
+      "cell": [
+        32,
+        48
+      ],
+      "backup_cell": [
+        32,
+        48
+      ],
+      "indexed_slots": null,
+      "sha256": "332032558ce3719b7080e1ba196a54d8308a022c028664eee7d3d6017cd64662",
+      "backup_sha256": "6a76be559689ed4a11e296d8819cb349ab1676000f9a003cea4f0aebb840ab5e"
+    },
+    {
+      "path": "Graphics/Pictures/retrato_steven_neutral.png",
+      "size": [
+        240,
+        340
+      ],
+      "backup_size": [
+        240,
+        340
+      ],
+      "status": "APROBADO FASE 1",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "d7971c4292c40487c758c1b8f81f9776d45b380c841c7675e48055395478e11f",
+      "backup_sha256": "a558b7447149c7dc9e9f8e3fd315a82102f44acc8007ed4c15530ded9f3870d2"
+    },
+    {
+      "path": "Graphics/Battlers/enemigo_vaca.png",
+      "size": [
+        320,
+        300
+      ],
+      "backup_size": [
+        320,
+        300
+      ],
+      "status": "APROBADO FASE 1",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "52cbd150606098e4e0cb5effe9724a5c0f37bbfafdd6368b60db573f01730e87",
+      "backup_sha256": "4993d522fd13fc51249ba7f5b23a2c989c03d8a6250764e941c87275254f9e9a"
+    },
+    {
+      "path": "Graphics/Pictures/screamer_3.png",
+      "size": [
+        640,
+        480
+      ],
+      "backup_size": [
+        640,
+        480
+      ],
+      "status": "APROBADO FASE 1",
+      "mode": "RGB",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "0dcea7ddb8309b4bd7f30c70b830c1b5295be6c63caca054a2b2472c94d7d825",
+      "backup_sha256": "d1df39426d4d535877d4b386e7db917c09044f0fce8d8c4dfe06592e581fb970"
+    },
+    {
+      "path": "Graphics/Characters/vacas_anselmo.png",
+      "size": [
+        128,
+        192
+      ],
+      "backup_size": [
+        128,
+        192
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": [
+        32,
+        48
+      ],
+      "backup_cell": [
+        32,
+        48
+      ],
+      "indexed_slots": null,
+      "sha256": "eccbe9e47f85a264a59531b7633159194dd0f5ccedf6e3f4c2e0953bab04a262",
+      "backup_sha256": "291dff76c39b1aa6d9c8cc806013cab76e957ee436f50601df56e54d7b16e0a7"
+    },
+    {
+      "path": "Graphics/Characters/vacas_borracho.png",
+      "size": [
+        128,
+        192
+      ],
+      "backup_size": [
+        128,
+        192
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": [
+        32,
+        48
+      ],
+      "backup_cell": [
+        32,
+        48
+      ],
+      "indexed_slots": null,
+      "sha256": "7b191cfc7208e657606fbe10b3a8e9fb12a2171e2f9397ee7269b1223b48cbe0",
+      "backup_sha256": "16ce0307a4d9b775ea2745c1b380072a3f8c70042c14ef39c64f195618dd1b87"
+    },
+    {
+      "path": "Graphics/Characters/vacas_carnicero.png",
+      "size": [
+        128,
+        192
+      ],
+      "backup_size": [
+        128,
+        192
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": [
+        32,
+        48
+      ],
+      "backup_cell": [
+        32,
+        48
+      ],
+      "indexed_slots": null,
+      "sha256": "7fb9d9a2e94efee8afce908d442d991360c80035a640775a139c878492937bf2",
+      "backup_sha256": "0dea88fbd0a63d709b026373829a1f3ae57fc44ea173a5d3747d2da928335519"
+    },
+    {
+      "path": "Graphics/Characters/vacas_cosas.png",
+      "size": [
+        128,
+        128
+      ],
+      "backup_size": [
+        128,
+        128
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": [
+        32,
+        32
+      ],
+      "backup_cell": [
+        32,
+        32
+      ],
+      "indexed_slots": {
+        "occupied": 8,
+        "empty_preserved": 8
+      },
+      "sha256": "36da664063f58d850242e03fa55dd2cf968fcdc09ae4a9507569f319e8f7fc89",
+      "backup_sha256": "efb148e302573853d1cb7bce824a543507060a03ee4d2f22fa31f4a5dc829b00"
+    },
+    {
+      "path": "Graphics/Characters/vacas_cripps.png",
+      "size": [
+        168,
+        240
+      ],
+      "backup_size": [
+        168,
+        240
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": [
+        42,
+        60
+      ],
+      "backup_cell": [
+        42,
+        60
+      ],
+      "indexed_slots": null,
+      "sha256": "323144160c197de4783806a35e075b011c2798bf7638d2ab3a4fb74a85f1eea7",
+      "backup_sha256": "59a0bc788e62c6a513060c0d61fcff756dd7981fb6d07b83b97062e91aad7fd3"
+    },
+    {
+      "path": "Graphics/Characters/vacas_furgoneta.png",
+      "size": [
+        384,
+        256
+      ],
+      "backup_size": [
+        384,
+        256
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": [
+        96,
+        64
+      ],
+      "backup_cell": [
+        96,
+        64
+      ],
+      "indexed_slots": {
+        "occupied": 16,
+        "empty_preserved": 0
+      },
+      "sha256": "2a9d5da74da92eaa84fa06900528878302d873227cf401948a4fe0c3a1273976",
+      "backup_sha256": "30d89f63c2d9e67f9fea6cdb02e297165cc50efea49fd5179230a88af8c38888"
+    },
+    {
+      "path": "Graphics/Characters/vacas_lucy.png",
+      "size": [
+        128,
+        192
+      ],
+      "backup_size": [
+        128,
+        192
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": [
+        32,
+        48
+      ],
+      "backup_cell": [
+        32,
+        48
+      ],
+      "indexed_slots": null,
+      "sha256": "1d38204e26f9a466b17696a99de6506c880ed8faf40f69e2e410e87a316610a8",
+      "backup_sha256": "f307d680b8269c47d9968f34157148c08bc2b9f34f2dc09e8df70d5c58a61cc0"
+    },
+    {
+      "path": "Graphics/Characters/vacas_madre.png",
+      "size": [
+        192,
+        268
+      ],
+      "backup_size": [
+        192,
+        268
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": [
+        48,
+        67
+      ],
+      "backup_cell": [
+        48,
+        67
+      ],
+      "indexed_slots": null,
+      "sha256": "8897dc6adc6c6aa77c7d8eb2ab4b27239667c6072e0cc6f25936c49c6fb2364e",
+      "backup_sha256": "51825e0722919ab113106b3929cd0b0d2f4cb441c752eac08d65b9e521306395"
+    },
+    {
+      "path": "Graphics/Characters/vacas_matadero.png",
+      "size": [
+        128,
+        256
+      ],
+      "backup_size": [
+        128,
+        256
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": [
+        32,
+        64
+      ],
+      "backup_cell": [
+        32,
+        64
+      ],
+      "indexed_slots": {
+        "occupied": 16,
+        "empty_preserved": 0
+      },
+      "sha256": "dc2ebf9a090a0371c91fd72559393048b6249ea9d0a22917187b118671e81302",
+      "backup_sha256": "b9e8a68429ffe8a7fcc39a6cc6bc8e0be8600ea8767e277b23e61a078435238e"
+    },
+    {
+      "path": "Graphics/Characters/vacas_muebles.png",
+      "size": [
+        128,
+        256
+      ],
+      "backup_size": [
+        128,
+        256
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": [
+        32,
+        64
+      ],
+      "backup_cell": [
+        32,
+        64
+      ],
+      "indexed_slots": {
+        "occupied": 16,
+        "empty_preserved": 0
+      },
+      "sha256": "f0166d8a42b986bbc5776fde1919e2c9524497ce7898114cde98e5e8b1f9f507",
+      "backup_sha256": "b278e47ea7fc14c4602a356e3cf80db07dff15be58e33160021108c2ccd7df11"
+    },
+    {
+      "path": "Graphics/Characters/vacas_obrero1.png",
+      "size": [
+        128,
+        192
+      ],
+      "backup_size": [
+        128,
+        192
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": [
+        32,
+        48
+      ],
+      "backup_cell": [
+        32,
+        48
+      ],
+      "indexed_slots": null,
+      "sha256": "3d42bae60ef18c017a6e4a3738592b4203c40a77bd8555d0d4e1891ab861853a",
+      "backup_sha256": "b7776200b5d5c43d5f65ddd70c9b344cea9eb351e94e31808465f368e6165392"
+    },
+    {
+      "path": "Graphics/Characters/vacas_obrero2.png",
+      "size": [
+        128,
+        192
+      ],
+      "backup_size": [
+        128,
+        192
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": [
+        32,
+        48
+      ],
+      "backup_cell": [
+        32,
+        48
+      ],
+      "indexed_slots": null,
+      "sha256": "b256652f57e6e184dd21938b6b0af67de67f65f3db66c16901486b3f86922991",
+      "backup_sha256": "f82a37092e40fe117f788e59f3e79a69ca9f856162378ad4e8f2777a7eaac755"
+    },
+    {
+      "path": "Graphics/Characters/vacas_obrero3.png",
+      "size": [
+        128,
+        192
+      ],
+      "backup_size": [
+        128,
+        192
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": [
+        32,
+        48
+      ],
+      "backup_cell": [
+        32,
+        48
+      ],
+      "indexed_slots": null,
+      "sha256": "2b2652f2ff165eb5d887ea5ed1a4a7d7e91ba9e354884cff2a63fafafeb4ff25",
+      "backup_sha256": "6cd289075c40ef4aa6b98cebe62280f8bb7dfeb5f6f0596bf90578eaa6676817"
+    },
+    {
+      "path": "Graphics/Characters/vacas_obrero4.png",
+      "size": [
+        128,
+        192
+      ],
+      "backup_size": [
+        128,
+        192
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": [
+        32,
+        48
+      ],
+      "backup_cell": [
+        32,
+        48
+      ],
+      "indexed_slots": null,
+      "sha256": "8912c1d0f5d298fe5ab9d769bf0025661c2a21b009696781a3f0ce1d380d9a47",
+      "backup_sha256": "1ebf0f8ef7256f33ab33290e0f5afcc6b298e3f87969f76919f9c92c594975b6"
+    },
+    {
+      "path": "Graphics/Characters/vacas_perro.png",
+      "size": [
+        160,
+        160
+      ],
+      "backup_size": [
+        160,
+        160
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": [
+        40,
+        40
+      ],
+      "backup_cell": [
+        40,
+        40
+      ],
+      "indexed_slots": null,
+      "sha256": "9f11659722d300769315bf8ebfd803773390e06fac6308a1d778b157b0b90e10",
+      "backup_sha256": "173e4bac25c32e2719a2ff75bc81280532ccf4ec04b4944dd4c3f8f82dd6093d"
+    },
+    {
+      "path": "Graphics/Characters/vacas_puerta.png",
+      "size": [
+        128,
+        256
+      ],
+      "backup_size": [
+        128,
+        256
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": [
+        32,
+        64
+      ],
+      "backup_cell": [
+        32,
+        64
+      ],
+      "indexed_slots": {
+        "occupied": 16,
+        "empty_preserved": 0
+      },
+      "sha256": "5f9aa222e2d4ef672fdfd6a58dde95a868b7d4322edc7adebf606dc4bc729110",
+      "backup_sha256": "af25b4e495f5c4f59c14e99f33abe7e079737694bee4209ead5c0a01dbb0d631"
+    },
+    {
+      "path": "Graphics/Characters/vacas_reclutador.png",
+      "size": [
+        128,
+        192
+      ],
+      "backup_size": [
+        128,
+        192
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": [
+        32,
+        48
+      ],
+      "backup_cell": [
+        32,
+        48
+      ],
+      "indexed_slots": null,
+      "sha256": "240a5efa12249c6c11278275477158fba442838c0c91d09fe292b755426bc433",
+      "backup_sha256": "46791465420e01b9974f753c8d8338dc8e313527725317b4759e7cb804233420"
+    },
+    {
+      "path": "Graphics/Characters/vacas_remedios.png",
+      "size": [
+        128,
+        192
+      ],
+      "backup_size": [
+        128,
+        192
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": [
+        32,
+        48
+      ],
+      "backup_cell": [
+        32,
+        48
+      ],
+      "indexed_slots": null,
+      "sha256": "46dae2726604aa11ad2a3b89123d740a464e441c318d8d03d1b144327dc9eef1",
+      "backup_sha256": "cc049c2ce26976ebe2fb8c489cdee82ea6e13885ea00f00123c0ecdfa5c055ae"
+    },
+    {
+      "path": "Graphics/Characters/vacas_steven_mono.png",
+      "size": [
+        128,
+        192
+      ],
+      "backup_size": [
+        128,
+        192
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": [
+        32,
+        48
+      ],
+      "backup_cell": [
+        32,
+        48
+      ],
+      "indexed_slots": null,
+      "sha256": "85bcd434044f926b975c7f1aa30702253da95fe076373e55c0e8b3468aaac449",
+      "backup_sha256": "88ed95e044622d42a902c3ff6ff736f0d5e0431db47cc0ab3e10c381a1f668aa"
+    },
+    {
+      "path": "Graphics/Characters/vacas_tablon.png",
+      "size": [
+        128,
+        192
+      ],
+      "backup_size": [
+        128,
+        192
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": [
+        32,
+        48
+      ],
+      "backup_cell": [
+        32,
+        48
+      ],
+      "indexed_slots": {
+        "occupied": 16,
+        "empty_preserved": 0
+      },
+      "sha256": "090e158daafe31e6a0db8af0d19c2f53bacb27d0c55b2286e085961a0f938cd6",
+      "backup_sha256": "f1fa731ac6eff1e73916b82523ffd9f94d39275d38f2364e5906658eec463d2e"
+    },
+    {
+      "path": "Graphics/Characters/vacas_transeunte.png",
+      "size": [
+        128,
+        192
+      ],
+      "backup_size": [
+        128,
+        192
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": [
+        32,
+        48
+      ],
+      "backup_cell": [
+        32,
+        48
+      ],
+      "indexed_slots": null,
+      "sha256": "c21ebd3982cee211b2ecc7c6ec3b6a2c2f17f2d98fde63f265edba2aa2bd338c",
+      "backup_sha256": "ae41aac329506b1b793570869e3beaca7ca03799d7268b6e0815db2074e82cb6"
+    },
+    {
+      "path": "Graphics/Characters/vacas_vaca.png",
+      "size": [
+        320,
+        320
+      ],
+      "backup_size": [
+        320,
+        320
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": [
+        80,
+        80
+      ],
+      "backup_cell": [
+        80,
+        80
+      ],
+      "indexed_slots": null,
+      "sha256": "f7fa5d919637f63dd7da6184d5d62309b95787257c8880a6688ec906e29f2fd9",
+      "backup_sha256": "eecf002f6736cd3127178639d51e966827f3352ac396abe070bdba37fae8e443"
+    },
+    {
+      "path": "Graphics/Characters/vacas_vaca_canela.png",
+      "size": [
+        320,
+        320
+      ],
+      "backup_size": [
+        320,
+        320
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": [
+        80,
+        80
+      ],
+      "backup_cell": [
+        80,
+        80
+      ],
+      "indexed_slots": null,
+      "sha256": "5b5aafdad86314eab593a856af68c4b0ec237c904952fb1791f720f89074f1a8",
+      "backup_sha256": "09734d1c3675aeea9c1f0b2652dabf621353b4bc914ba5924f50ae031525a7b9"
+    },
+    {
+      "path": "Graphics/Characters/vacas_vacio.png",
+      "size": [
+        128,
+        192
+      ],
+      "backup_size": [
+        128,
+        192
+      ],
+      "status": "TECNICO",
+      "mode": "RGBA",
+      "cell": [
+        32,
+        48
+      ],
+      "backup_cell": [
+        32,
+        48
+      ],
+      "indexed_slots": null,
+      "sha256": "8f86ccf2cf49c8a36294f15416de3456247aa2130bb6032ff07dbbeab8fe136a",
+      "backup_sha256": "8f86ccf2cf49c8a36294f15416de3456247aa2130bb6032ff07dbbeab8fe136a"
+    },
+    {
+      "path": "Graphics/Battlers/enemigo_canal.png",
+      "size": [
+        320,
+        300
+      ],
+      "backup_size": [
+        320,
+        300
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "621120b3f502b0eec95afcfd2e50e36261d3c18640b77ab721a771880ce5f2d2",
+      "backup_sha256": "34c93a1d3c725211a4988d1d1a1f6a7634a5add3df580057415924ab217e96e9"
+    },
+    {
+      "path": "Graphics/Battlers/enemigo_guernsey.png",
+      "size": [
+        320,
+        300
+      ],
+      "backup_size": [
+        320,
+        300
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "813cd3b57bb7645a6487747f59604f6876c71166d83c43896a9e612e085f04b5",
+      "backup_sha256": "097cb1fa5cbbca166dc2326d1818cb0bf218548e13d469e6e04721ef5f4c877b"
+    },
+    {
+      "path": "Graphics/Battlers/enemigo_madre.png",
+      "size": [
+        320,
+        300
+      ],
+      "backup_size": [
+        320,
+        300
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "c373e25cfdd1affac671a3a452da127191858f0aa806026950f68ba26de19055",
+      "backup_sha256": "e767305b6c8a085bb89db0dd3c5ec611b54b4ef0a9951cfddf93f24ad7e34757"
+    },
+    {
+      "path": "Graphics/Battlers/enemigo_moscas.png",
+      "size": [
+        320,
+        300
+      ],
+      "backup_size": [
+        320,
+        300
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "fbd98d93769311ba88c3eb18e8ef4e3bf05c09fe5ff8bbea4e80800c3183dc25",
+      "backup_sha256": "d65b98735157eef746691b76c3e7b42550c9e4093be4ac077703bbde23859c97"
+    },
+    {
+      "path": "Graphics/Battlers/enemigo_rey.png",
+      "size": [
+        320,
+        300
+      ],
+      "backup_size": [
+        320,
+        300
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "15585e08548656114a7ea8e608773d725af8e35e3eaec889c0e2e2ae3f321c2a",
+      "backup_sha256": "4962a511701eb33120d2f989d62e97f91900efca2d59457c8a690e0a1ce9de58"
+    },
+    {
+      "path": "Graphics/Battlers/enemigo_sombra_cripps.png",
+      "size": [
+        320,
+        300
+      ],
+      "backup_size": [
+        320,
+        300
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "86a01f58a816957f3a5ed128965ec5e4354f46bca7edd545c5c2fabab3e2137c",
+      "backup_sha256": "4d81bd5f6a655324334ea8f37ca22f9c2ec16973f9b4a23af908fcdcbb77c3e3"
+    },
+    {
+      "path": "Graphics/Battlers/enemigo_televisor.png",
+      "size": [
+        320,
+        300
+      ],
+      "backup_size": [
+        320,
+        300
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "731fd31ab122206eee1ff8597e4953571b56d817b8610b75bb82f0f31f23c841",
+      "backup_sha256": "a1fb9194feaefc68c4abdfe138d232abb018ee4c09908d06aee0b0178d513694"
+    },
+    {
+      "path": "Graphics/Battlers/enemigo_tunel.png",
+      "size": [
+        320,
+        300
+      ],
+      "backup_size": [
+        320,
+        300
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "e565f65ff9395547838e431302944c0891899149ad3ef71daf38bd6004cb6e80",
+      "backup_sha256": "82ec26121db58f50f2e3b1a6a6f21e1e577f35ffb9f144a4ea6dbb671cbdbbc6"
+    },
+    {
+      "path": "Graphics/Battlers/steven_mente.png",
+      "size": [
+        240,
+        340
+      ],
+      "backup_size": [
+        240,
+        340
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "3b0927ef5f3b25814c23050d8e3ba8bf350acfd0a9970738bbba4a911fb1d8f3",
+      "backup_sha256": "53fc11616ff2a8f5f67c0ac2a409423ebefac1784529cf8ec11dd3ca834d37df"
+    },
+    {
+      "path": "Graphics/Pictures/retrato_anselmo_neutral.png",
+      "size": [
+        240,
+        340
+      ],
+      "backup_size": [
+        240,
+        340
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "7d5d5d6a0c99e7e0dd84e081b458c968b01f5d1a5be7b86b1c40d093ac2b888f",
+      "backup_sha256": "caa46fbec551d83c1bd2eb39952b23779ad60b936e6b8ec0224b62bdf67135c7"
+    },
+    {
+      "path": "Graphics/Pictures/retrato_benito_neutral.png",
+      "size": [
+        240,
+        340
+      ],
+      "backup_size": [
+        240,
+        340
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "bedb410c0d2d2e53931b8037dc4881eff1df85b5b23cc3afd0b87ea9f4cee9ce",
+      "backup_sha256": "2b934766c868fc56734874703a6660be851fbd2ec0e5547980741e22e844ce4c"
+    },
+    {
+      "path": "Graphics/Pictures/retrato_borracho_neutral.png",
+      "size": [
+        240,
+        340
+      ],
+      "backup_size": [
+        240,
+        340
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "28e911ccc750d4f53e3916ca05561acf8bd735f0b72879569c84fa0aec021300",
+      "backup_sha256": "a8daa626804ae403b06470ab3d37a78f61dc3ca4e06db29f6e26272b5c0bf2e2"
+    },
+    {
+      "path": "Graphics/Pictures/retrato_chato_neutral.png",
+      "size": [
+        240,
+        340
+      ],
+      "backup_size": [
+        240,
+        340
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "c2ec27782646992380688557746c24f7fcc47a2e9f4d5d77ca6129636e0f3d8c",
+      "backup_sha256": "85efad4902ecf3a1eccbf1714a0a350f0e0930bba2ac930e1d8d4e0bc31214e1"
+    },
+    {
+      "path": "Graphics/Pictures/retrato_cripps_ira.png",
+      "size": [
+        240,
+        340
+      ],
+      "backup_size": [
+        240,
+        340
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "f637a9223b1d58b57e26ae42e8a101f71a3f75820245de65e477d164ba5f952a",
+      "backup_sha256": "61e4d845c4053f42361cf3eee5385817c42a5ed92057bd134105bd2716b127f3"
+    },
+    {
+      "path": "Graphics/Pictures/retrato_cripps_neutral.png",
+      "size": [
+        240,
+        340
+      ],
+      "backup_size": [
+        240,
+        340
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "82cc67c913d854469a04d525b38582964d90c08fcfd843f9542b0324897f5b5e",
+      "backup_sha256": "e14ea5a5102f383e3a2615d57558278dfafba81ca28bbabc1d3802494fde3792"
+    },
+    {
+      "path": "Graphics/Pictures/retrato_dog_miedo.png",
+      "size": [
+        240,
+        340
+      ],
+      "backup_size": [
+        240,
+        340
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "4664ef932ac6f5c1dd010465b7f42bbc6bd103181c5ac1f6bc2f743d74189286",
+      "backup_sha256": "ec00491c417843efe5df815bcd58c5efa4a7613357db9d3652ffe1d4805ef668"
+    },
+    {
+      "path": "Graphics/Pictures/retrato_dog_neutral.png",
+      "size": [
+        240,
+        340
+      ],
+      "backup_size": [
+        240,
+        340
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "ba799e009d34ab2df309db7d3e4cbe50cb2ee6b9ac703bec67089d94a1dd60aa",
+      "backup_sha256": "7860982b6036c6c31b4acb1fef8fdec13a32adf2f79a1dd540673046612302f4"
+    },
+    {
+      "path": "Graphics/Pictures/retrato_encarna_neutral.png",
+      "size": [
+        240,
+        340
+      ],
+      "backup_size": [
+        240,
+        340
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "8c08a5d69fb42b9d5aaf758c11b742e237b0f959c5efa4257015121ad7130464",
+      "backup_sha256": "9601099c7f259c0837c21541299cb24deae367c7ffeef2f623d02bc6350de698"
+    },
+    {
+      "path": "Graphics/Pictures/retrato_guernsey_neutral.png",
+      "size": [
+        240,
+        340
+      ],
+      "backup_size": [
+        240,
+        340
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "3df5fae837173386944aa2fe4c350d91259f8b57643aaa2c12ef64b8f469c752",
+      "backup_sha256": "8d54a1b6c2b0900eb519a366172d299fc817981b6170f6c83c50cd5e7be99eba"
+    },
+    {
+      "path": "Graphics/Pictures/retrato_guernsey_susurro.png",
+      "size": [
+        240,
+        340
+      ],
+      "backup_size": [
+        240,
+        340
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "56499356b020c83c49fddb7468774fc6ecfef4780d6903b55b864ead374d2a93",
+      "backup_sha256": "5a0f8ca54af8e18f931a8e89b833bb51bdb24e2153084c426a90b2b13bd3a281"
+    },
+    {
+      "path": "Graphics/Pictures/retrato_lucy_neutral.png",
+      "size": [
+        240,
+        340
+      ],
+      "backup_size": [
+        240,
+        340
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "94c6ceb5933db549fd13d5e2f13e4095bb11da8698f4f05ae49479659013cfd2",
+      "backup_sha256": "1ed841430796a66bc9b0eeffafe79c1155834ad838873fc237475aa5ebb04bcb"
+    },
+    {
+      "path": "Graphics/Pictures/retrato_lucy_susurro.png",
+      "size": [
+        240,
+        340
+      ],
+      "backup_size": [
+        240,
+        340
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "ee9e219b89a1f1e46d47c1102f8aa51066c1f2fe01252069d27a1155d549d69f",
+      "backup_sha256": "7698a0fbe79b11f85ad007e52db607afce985f2ade8abb14032b36cd9bc2aa63"
+    },
+    {
+      "path": "Graphics/Pictures/retrato_madre_ira.png",
+      "size": [
+        240,
+        340
+      ],
+      "backup_size": [
+        240,
+        340
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "f790d909df8d6c39d27bab6118317afb7f5c3a35fda2a8da9c25619fe8539f0a",
+      "backup_sha256": "1547fbb222334577783bf569a6362edc255124b48797f0cc5bfbe22c394c153c"
+    },
+    {
+      "path": "Graphics/Pictures/retrato_madre_neutral.png",
+      "size": [
+        240,
+        340
+      ],
+      "backup_size": [
+        240,
+        340
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "9d28eee4b84cdb3c97edc121c63dbb68b40f7e5bd88fd3841add30bacc2e7f71",
+      "backup_sha256": "3de52db56da73df18bb962e71a3b438552ca834ebae73721b9f819d082f852b5"
+    },
+    {
+      "path": "Graphics/Pictures/retrato_molina_neutral.png",
+      "size": [
+        240,
+        340
+      ],
+      "backup_size": [
+        240,
+        340
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "ca15bb5d67cf94a8f0c2ac5146139d4ae025cb00a0cdeff900c1b7bffb6df9d6",
+      "backup_sha256": "2584b9be4a348fe8c2e0aa30e26832b31117ebf4ca3ce25504437d85dca078ed"
+    },
+    {
+      "path": "Graphics/Pictures/retrato_reclutador_neutral.png",
+      "size": [
+        240,
+        340
+      ],
+      "backup_size": [
+        240,
+        340
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "3dfe2687b2bc40ee86383209bdd04389e91635d15ff61c65a4218a5cdb2c5008",
+      "backup_sha256": "ddb103c491ad3c2bb8fbf9a6469a7cdfd18601dfd69e15b0a02e476bba78b35d"
+    },
+    {
+      "path": "Graphics/Pictures/retrato_remedios_neutral.png",
+      "size": [
+        240,
+        340
+      ],
+      "backup_size": [
+        240,
+        340
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "fe0d9a8e18de9ac18e7f7bd42605ca26415f5b425878b04fd4b90f2563922ab3",
+      "backup_sha256": "cfc5eb62104785461935e2dcbfbd78c858e69d32347d25c7f473cb1450f25bef"
+    },
+    {
+      "path": "Graphics/Pictures/retrato_rubio_neutral.png",
+      "size": [
+        240,
+        340
+      ],
+      "backup_size": [
+        240,
+        340
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "2dd958e3d8995a80cd376540e2deb1df45ac179294bd9aa4f5da330af1e39fcd",
+      "backup_sha256": "e34001914c2d72a0ef196a942b1a1114113cfefc5646c7513ec0eeac1f2c897f"
+    },
+    {
+      "path": "Graphics/Pictures/retrato_sierra_neutral.png",
+      "size": [
+        240,
+        340
+      ],
+      "backup_size": [
+        240,
+        340
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "627c29e7dc1418a30f5cf333c6cd8fd88d8af4d149b3de3f0624ad696b177bdd",
+      "backup_sha256": "d453e5d4f920fd9f60ef4a88af1f77fcd5f0ed5e9770b9c7b612551435a23ae2"
+    },
+    {
+      "path": "Graphics/Pictures/retrato_steven_miedo.png",
+      "size": [
+        240,
+        340
+      ],
+      "backup_size": [
+        240,
+        340
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "34b506718523a607b22ce725a939369c0a8afb1b4dc7269498b7fc572b1c7867",
+      "backup_sha256": "02bfdfe6f212c8be68ff7e57e314ff2dff99dead337e6573cc5502e3b4cad9c7"
+    },
+    {
+      "path": "Graphics/Pictures/screamer_1.png",
+      "size": [
+        640,
+        480
+      ],
+      "backup_size": [
+        640,
+        480
+      ],
+      "status": "FASE 2",
+      "mode": "RGB",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "9c8785ba2d23922af9bd512049695cebbc06305d0358bf0c5ac5def0208085ea",
+      "backup_sha256": "44298d47ae08cc3347272e7c22c60ce021fd0ca4b08b2a7138a5dde2e50c8d8d"
+    },
+    {
+      "path": "Graphics/Pictures/screamer_2.png",
+      "size": [
+        640,
+        480
+      ],
+      "backup_size": [
+        640,
+        480
+      ],
+      "status": "FASE 2",
+      "mode": "RGB",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "d973a8ac6e9445c291ee5c5f7477b9d491a9dc11f7c70e2a8f203593dc08063c",
+      "backup_sha256": "54304e87ca028f40835a89895c4593000ed909f639e49d900c9840dd08016c1d"
+    },
+    {
+      "path": "Graphics/Pictures/screamer_4.png",
+      "size": [
+        640,
+        480
+      ],
+      "backup_size": [
+        640,
+        480
+      ],
+      "status": "FASE 2",
+      "mode": "RGB",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "1004809e74f2e7eb344fcd605fe81acf93129cb9dd720a17f251523a52c9bbfa",
+      "backup_sha256": "042c7c1af9479bbd9d5849d3243ec71f22f845686ff0da3d1c6e3f2824de1524"
+    },
+    {
+      "path": "Graphics/Pictures/screamer_5.png",
+      "size": [
+        640,
+        480
+      ],
+      "backup_size": [
+        640,
+        480
+      ],
+      "status": "FASE 2",
+      "mode": "RGB",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "51f8f70e0597a32f886d15d3259cc4cdca37dc63798f46767acd3ab6bde40597",
+      "backup_sha256": "9187653de5794bdb459538eadc08abb7f5bc95a9b39baa32e874a07160de8793"
+    },
+    {
+      "path": "Graphics/Pictures/screamer_6.png",
+      "size": [
+        640,
+        480
+      ],
+      "backup_size": [
+        640,
+        480
+      ],
+      "status": "FASE 2",
+      "mode": "RGB",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "20ebe1f03fa6b06d0ff0927a8ec46e9375c1f5a3de7f6834e98002a7201b736f",
+      "backup_sha256": "85592dde9170fde33b36c4c3fabdaba537291918f232a6d9636db0e750055850"
+    },
+    {
+      "path": "Graphics/Pictures/screamer_7.png",
+      "size": [
+        640,
+        480
+      ],
+      "backup_size": [
+        640,
+        480
+      ],
+      "status": "FASE 2",
+      "mode": "RGB",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "b0e7fbd8deffb2183a152c2d605b5a8dafcc9b664581d2b9a5d6fd08f1b60893",
+      "backup_sha256": "307ad5f73963c6fe6c4b5b357bd674d8adf03025ced2e3967cf59373cca045cd"
+    },
+    {
+      "path": "Graphics/Battlebacks/mente_matadero.png",
+      "size": [
+        640,
+        480
+      ],
+      "backup_size": [
+        640,
+        480
+      ],
+      "status": "FASE 2",
+      "mode": "RGB",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "82e6c238b18cf6f84cfa852d6aa370e730d7b0fee7bbff8a106b5b2d739f2bce",
+      "backup_sha256": "702639a51397c2c54da9df8f78f713107b1517a1ad1577a896b17fbedd92b399"
+    },
+    {
+      "path": "Graphics/Battlebacks/mente_piso.png",
+      "size": [
+        640,
+        480
+      ],
+      "backup_size": [
+        640,
+        480
+      ],
+      "status": "FASE 2",
+      "mode": "RGB",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "d094ec9e221cbbcdf0bde5ad45fa55d3560da3cdb45c30f8a15b44368ef69619",
+      "backup_sha256": "ddc9d7958877424f21bb0bdfc88f50b14cf6b145470fdca32f32831125520aad"
+    },
+    {
+      "path": "Graphics/Battlebacks/mente_tunel.png",
+      "size": [
+        640,
+        480
+      ],
+      "backup_size": [
+        640,
+        480
+      ],
+      "status": "FASE 2",
+      "mode": "RGB",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "c427597392d6e04aba85f202a2d99f5c620b959590045fb3ff68882885593543",
+      "backup_sha256": "a352dd5eb2b63a71aa0209be945446243daf1212e6c53b7e49f424c0f3ddca82"
+    },
+    {
+      "path": "Graphics/Tilesets/vacas_matadero.png",
+      "size": [
+        256,
+        256
+      ],
+      "backup_size": [
+        256,
+        256
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": [
+        32,
+        32
+      ],
+      "backup_cell": [
+        32,
+        32
+      ],
+      "indexed_slots": {
+        "occupied": 64,
+        "empty_preserved": 0
+      },
+      "sha256": "ee1ff67be963559cd1590d43760224e41eb4c61fec45d208e114a9f2b849fb42",
+      "backup_sha256": "e04c2609d62d3f533ffdfda6d6dd1b4cf751fb74687d70ff786a8be85c73e298"
+    },
+    {
+      "path": "Graphics/Autotiles/vacas_canal.png",
+      "size": [
+        384,
+        128
+      ],
+      "backup_size": [
+        384,
+        128
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": [
+        16,
+        16
+      ],
+      "backup_cell": [
+        16,
+        16
+      ],
+      "indexed_slots": {
+        "occupied": 176,
+        "empty_preserved": 16
+      },
+      "sha256": "bb23cc939db291254626c035cb59026c163a02d21b782af4c3bbee8b095f3117",
+      "backup_sha256": "fd664e716771cdfddd170b8fa30ef1a3046c82b0362d5cf11c249c59f2170089"
+    },
+    {
+      "path": "Graphics/Titles/vacas_titulo.png",
+      "size": [
+        640,
+        480
+      ],
+      "backup_size": [
+        640,
+        480
+      ],
+      "status": "FASE 2",
+      "mode": "RGB",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "51384075b4f32a9884233a5f4fafc08a19d224e77bbe6abed2fab1212f830079",
+      "backup_sha256": "5151bfa730058971f3492935c2eeb7101cb81f63fc19615d8735b265c048007d"
+    },
+    {
+      "path": "Graphics/Gameovers/vacas_gameover.png",
+      "size": [
+        640,
+        480
+      ],
+      "backup_size": [
+        640,
+        480
+      ],
+      "status": "FASE 2",
+      "mode": "RGB",
+      "cell": null,
+      "backup_cell": null,
+      "indexed_slots": null,
+      "sha256": "1f0693144d9893bf353c47ecda04cbcdefb2f33c45464c90fcf9730f972cfa9c",
+      "backup_sha256": "bbfe2c45fe851484c8391f0573cbf0941928ea0fd929042203fd630a4455bd6b"
+    },
+    {
+      "path": "Graphics/Windowskins/vacas_ventana.png",
+      "size": [
+        192,
+        128
+      ],
+      "backup_size": [
+        192,
+        128
+      ],
+      "status": "FASE 2",
+      "mode": "RGBA",
+      "cell": [
+        16,
+        16
+      ],
+      "backup_cell": [
+        16,
+        16
+      ],
+      "indexed_slots": {
+        "occupied": 96,
+        "empty_preserved": 0
+      },
+      "sha256": "c180594f5429e1307bc9e46488266a72197147e79b75aeb7653ee53cd0c05c6b",
+      "backup_sha256": "8d04620c8d8262a23af05f3c2178cab0a7ecdb15e767b21c97885361bc14c7be"
+    }
+  ],
+  "errors": [],
+  "protected_unchanged": true,
+  "scope": "Inventario completo frente a respaldo y tamaño inicial; no prueba animación dentro del motor."
+}

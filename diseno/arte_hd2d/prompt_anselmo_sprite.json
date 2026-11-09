@@ -1,0 +1,17 @@
+{
+  "id": "anselmo_sprite",
+  "prompt": "Use case: identity-preserve. RPG Maker XP detailed pixel art walk sheet of EXACT identity in image1. Image2 approved Steven sprite STYLE/proportions only. EXACT4x4 equal rectangular cells NO GRID; rows FRONT/down, LEFT, RIGHT, BACK/up; four columns left step, passing, right step, passing. 16 complete figures, identical costume head scale light in every cell. About2.5 heads tall, recognizable hands and boots, fixed feet baseline per row, generous empty cell margins, crisp intentional pixel clusters, selective dark outline, warm upper-left light and cold right rim. REAL transparent alpha, no ground, no opaque backdrop, no text. Final128x192 cells32x48. ANSELMO thin old man age73, receding GREY hair wide grey MOUSTACHE curved nose, old brown-grey jacket with brown elbow patches, pale ochre-grey shirt, brown trousers dark shoes. Slight stoop slow walk. Same moustache/jacket all cells.",
+  "references": [
+    "diseno/arte_hd2d/referencias/anselmo.png",
+    "Graphics/Characters/vacas_steven.png"
+  ],
+  "destination": "diseno/arte_hd2d/anselmo_sprite_fuente.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/arte_hd2d/referencias/anselmo.png": "01015130e470ee83f8de7f969c889dff14fe3012f5821b5a37bb55b491ca2d00",
+    "Graphics/Characters/vacas_steven.png": "332032558ce3719b7080e1ba196a54d8308a022c028664eee7d3d6017cd64662"
+  },
+  "output_sha256": "f6ca984ef0bf1dec3b5806ec249bbb24e3ab9e17b8af6f921a7181051e5f0c4b"
+}

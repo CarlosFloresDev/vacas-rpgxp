@@ -1,0 +1,17 @@
+{
+  "id": "vacas_muebles_revision",
+  "prompt": "Use case: precise-object-edit. Edit attached FURNITURE ATLAS. Change ONLY the undersides of the EIGHT televisions in TOP TWO ROWS: remove ALL hanging cables, red webbing, organic material and dangling shapes beneath TV cabinet. Replace them with ordinary SHORT PLAIN BROWN WOODEN LEGS, clean modest vintage furniture legs, same as mundane TV. These TVs are normal domestic furniture, absolutely NO flesh no tendons no blood on any TV. Keep TV cabinets/antennas/knobs/screens exactly unchanged, row1 four STATIC, row2 OFF/COLOR TEST/HORN FACE/RED STATIC. Preserve every single wardrobe, fridge, bathtub, toilet, sink/mirror, armchair and covered piano in bottom two rows EXACTLY, same layout and lighting. EXACT4x4 grid tall cells, real transparent background, no text no extra object. Preserve scale and cell spacing.",
+  "references": [
+    "diseno/arte_hd2d/vacas_muebles_descartada.png",
+    "diseno/arte_provisional/sd_v1/Graphics/Characters/vacas_muebles.png"
+  ],
+  "destination": "diseno/arte_hd2d/vacas_muebles_fuente.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/arte_hd2d/vacas_muebles_descartada.png": "5d7911ef2b042acee1f1660b40c1f1bec0f3ef897a62653787a36950da2817ea",
+    "diseno/arte_provisional/sd_v1/Graphics/Characters/vacas_muebles.png": "b278e47ea7fc14c4602a356e3cf80db07dff15be58e33160021108c2ccd7df11"
+  },
+  "output_sha256": "92bff9c7c862b842e313b545a553efb64fc3954ddc3570962299075dd8540d2a"
+}

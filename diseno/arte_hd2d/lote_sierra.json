@@ -1,0 +1,11 @@
+{
+  "assets": [
+    {
+      "source": "diseno/arte_hd2d/sierra_neutral_fuente.png",
+      "destination": "Graphics/Pictures/retrato_sierra_neutral.png",
+      "type": "retrato",
+      "alpha_threshold": 128,
+      "resample": "box"
+    }
+  ]
+}

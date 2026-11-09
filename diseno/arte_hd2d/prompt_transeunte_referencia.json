@@ -1,0 +1,15 @@
+{
+  "id": "transeunte_referencia",
+  "prompt": "Use case: stylized-concept. VACAS original anonymous TRANSEUNTE reference TWO complete full-body views front and left profile same scale feet aligned. Adult age38 medium slim, unremarkable oval LOW CONTRAST face, brown hair partly hidden under dark grey rain hat #444B50, brown eyes skin #B99576. Plain GREY raincoat #77848A, brown trousers #494039 dark shoes #29252A. No umbrella, no bag, no prominent accessories. Attached Steven STYLE ONLY, illustrated industrial horror but deliberately restrained contrast lower than protagonist, cool muted street tones, subtle upper-left light. Whole boots hat within margin, genuine transparent background no text.",
+  "references": [
+    "diseno/arte_hd2d/steven_retrato.png"
+  ],
+  "destination": "diseno/arte_hd2d/referencias/transeunte.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/arte_hd2d/steven_retrato.png": "1f2e6c25f6cddf66a770f4d8f19d9c49d62fb485c53c200ca4be1d5d98f8b31c"
+  },
+  "output_sha256": "5ea003aed8e4e67282797043d483026a1ab4c2d3f334aff71bf98c89236c4468"
+}

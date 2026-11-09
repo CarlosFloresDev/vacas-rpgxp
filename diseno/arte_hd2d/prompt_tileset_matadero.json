@@ -1,0 +1,15 @@
+{
+  "id": "tileset_matadero",
+  "prompt": "Use case: style-transfer. Original VACAS RPG Maker XP INDUSTRIAL SLAUGHTERHOUSE TILESET. EXACT8x8 grid of square tiles, final256x256, each32x32. Attached image1 is exact INDEX and geometry reference; do not move or replace any tile type. No grid lines no labels. Preserve clear top-down/orthographic RPG tile perspective and edges for adjoining wall/floor pieces, same empty regions/holes. Redraw original detailed deliberate pixel clusters, cold clinical steel #263239 #738585, dirty pale ivory tiles #ADC0BD #DFE7DC, burgundy blood #78192A only in existing blood tiles, dark brown wood at desk etc. Strict tile order left-to-right top-to-bottom given Spanish tile names: azulejo, azulejo_sucio, azulejo_sangre, azulejo_arrastre, hormigon, hormigon_mojado, rejilla_suelo, paja, pared_azulejo_alta, pared_azulejo_baja, pared_hormigon_alta, pared_hormigon_baja, pared_fria_alta, pared_fria_baja, pared_madera_alta, pared_madera_baja, ladrillo_alto, ladrillo_bajo, asfalto, asfalto_charco, acera, barro, linoleo, suelo_frio, valla_h, valla_v, valla_poste, puerta_corral, taquilla_alta, taquilla_baja, banco, reloj_pared, cinta, cinta_ini, cinta_fin, mesa_acero, rail, rail_gancho, escritorio_izq, escritorio_der, archivador_alto, archivador_bajo, puerta_metal, rejilla_pared, tuberia, cajas, cubo_despojos, manguera, ventana_nave, cajon_aturdir, cuchillos, fregadero, silla, ventana_oficina, persiana_alta, persiana_baja, alambrada, cartel, farola, vacio, lampara, mancha, huellas, paja_suelta. No new characters no full scenes no extra objects. OPAQUE render of each occupied tile material is fine: original transparency will be restored by adapter to preserve exact footprint. Match broad item shapes and joins at corresponding original locations; no fantasy.",
+  "references": [
+    "diseno/arte_provisional/sd_v1/Graphics/Tilesets/vacas_matadero.png"
+  ],
+  "destination": "diseno/arte_hd2d/tileset_matadero_fuente.png",
+  "transparent_background": false,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/arte_provisional/sd_v1/Graphics/Tilesets/vacas_matadero.png": "e04c2609d62d3f533ffdfda6d6dd1b4cf751fb74687d70ff786a8be85c73e298"
+  },
+  "output_sha256": "f576f2da1c3eb117f28bf3296e6f47ad4bbb5c5875f2fd539b922bc0e3577dbd"
+}

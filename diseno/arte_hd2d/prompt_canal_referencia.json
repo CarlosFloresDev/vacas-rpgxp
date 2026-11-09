@@ -1,0 +1,17 @@
+{
+  "id": "canal_referencia",
+  "prompt": "Use case: stylized-concept. Original VACAS CANAL EN EL GANCHO entity reference TWO complete views frontal and left profile, equal scale. A BOVINE SKINNED CARCASS hanging from single cold steel meat hook and short chain, muscle burgundy with dirty ivory fat, ribcage like PRISON BARS, a few heavy hanging organic loops, broken ivory bone, dark blood drops. Correct slaughterhouse carcass mass, no living head, no humanoid limbs, no decorative tentacles. Image1 provisional motif only, image2 approved cow STYLE: deliberate pixel clusters readable anatomical gore and narrow wet highlights. Entire hook carcass drip within margin, transparent background no scene no text no sexual content.",
+  "references": [
+    "diseno/arte_provisional/sd_v1/Graphics/Battlers/enemigo_canal.png",
+    "diseno/arte_hd2d/vaca.png"
+  ],
+  "destination": "diseno/arte_hd2d/referencias/canal.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/arte_provisional/sd_v1/Graphics/Battlers/enemigo_canal.png": "34c93a1d3c725211a4988d1d1a1f6a7634a5add3df580057415924ab217e96e9",
+    "diseno/arte_hd2d/vaca.png": "23122945f338695b489735fbb18521a7d996369ba44a16d64c38d443b094943b"
+  },
+  "output_sha256": "53a33c089948223c075fc52c668ec0ae4781e56d877ee1a411f7e438ebc53e32"
+}

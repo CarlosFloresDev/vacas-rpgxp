@@ -1,0 +1,21 @@
+{
+  "assets": [
+    {
+      "source": "diseno/arte_hd2d/anselmo_neutral_fuente.png",
+      "destination": "Graphics/Pictures/retrato_anselmo_neutral.png",
+      "type": "retrato",
+      "alpha_threshold": 128,
+      "resample": "box"
+    },
+    {
+      "source": "diseno/arte_hd2d/anselmo_sprite_fuente.png",
+      "destination": "Graphics/Characters/vacas_anselmo.png",
+      "type": "character",
+      "cell": "32x48",
+      "padding": 3,
+      "pad_grid": true,
+      "alpha_threshold": 128,
+      "resample": "box"
+    }
+  ]
+}

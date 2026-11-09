@@ -1,0 +1,17 @@
+{
+  "id": "borracho_sprite",
+  "prompt": "Use case: identity-preserve. RPG Maker XP detailed pixel art walk sheet of EXACT identity in image1. Image2 approved Steven sprite STYLE/proportions only. EXACT4x4 equal rectangular cells NO GRID; rows FRONT/down, LEFT, RIGHT, BACK/up; four columns left step, passing, right step, passing. 16 complete figures, identical costume head scale light in every cell. About2.5 heads tall, recognizable hands and boots, fixed feet baseline per row, generous empty cell margins, crisp intentional pixel clusters, selective dark outline, warm upper-left light and cold right rim. REAL transparent alpha, no ground, no opaque backdrop, no text. Final128x192 cells32x48. BORRACHO thin disheveled middle-aged adult, messy brown-grey hair, red nose stubble, long dark brown coat, ragged shirt dark trousers worn shoes. Small muted GREEN bottle held in anatomical RIGHT hand consistently all directions. Slow unsteady small steps but all feet visible.",
+  "references": [
+    "diseno/arte_hd2d/referencias/borracho.png",
+    "Graphics/Characters/vacas_steven.png"
+  ],
+  "destination": "diseno/arte_hd2d/borracho_sprite_fuente.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/arte_hd2d/referencias/borracho.png": "a1a2a45e55670c96990a5e16ed11d34d9afef788a258bb17ad67af7d7122a056",
+    "Graphics/Characters/vacas_steven.png": "332032558ce3719b7080e1ba196a54d8308a022c028664eee7d3d6017cd64662"
+  },
+  "output_sha256": "68926fb6eb99bfb1441d9da8eaf6b205c445cc87371628ebbb4f77258dbce0c1"
+}

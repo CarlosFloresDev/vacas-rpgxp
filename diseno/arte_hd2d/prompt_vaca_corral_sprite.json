@@ -1,0 +1,17 @@
+{
+  "id": "vaca_corral_sprite",
+  "prompt": "Use case: identity-preserve. Original VACAS RPG Maker XP detailed pixel art COW walk sheet, EXACT identity and patch distribution from attached cow reference. EXACT4x4 equal cells NO GRID, four rows FRONT/down, LEFT profile, RIGHT profile, BACK/up; columns left step, passing, right step, passing. SIXTEEN COMPLETE COWS, heavy broad bovine body, cloven hooves curved horns udder tail, no horse anatomy, NO human walking. Same body scale, coherent patches, all horns/hooves/tails within generous margin each cell, fixed feet baseline per row. Transparent background, no floor no text. Crisp intentional pixel clusters and selective outline warm upper-left side light subtle cool rim, final320x320 CELLS80x80. CREAM COW WITH BROWN PATCHES at shoulder and rear flank from reference; no gore.",
+  "references": [
+    "diseno/arte_hd2d/referencias/vaca_corral.png",
+    "Graphics/Characters/vacas_steven.png"
+  ],
+  "destination": "diseno/arte_hd2d/vaca_corral_sprite_fuente.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/arte_hd2d/referencias/vaca_corral.png": "79139fb4779753df36da1be22bfdd78841deae6b16b4a49ae6633cd164942ab9",
+    "Graphics/Characters/vacas_steven.png": "332032558ce3719b7080e1ba196a54d8308a022c028664eee7d3d6017cd64662"
+  },
+  "output_sha256": "e4dc4c73b531bf7c0cc4f4e93adbae6ba3cba1ed80fa3cea1dfdc86ff915c2f6"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "guernsey_referencia",
+  "prompt": "Use case: stylized-concept. Original VACAS industrial horror game definitive GUERNSEY reference, TWO complete views front and left profile of same adult heavy cow age6. Cinnamon coat #AA7656, distinctive cream DIAMOND on forehead #D4B48A, dark moist muzzle #694139, intelligent brown eyes #694139, curved symmetrical ivory horns #D4C6AA, hooves #494039. Correct heavy bovine anatomy, healthy ordinary cow, no gore, no human lips. Attached Steven is STYLE ONLY: detailed illustrated finish, warm upper-left light, subtle cold right rim. Entire animal including hooves and horns within margins, front and side equal scale. Genuine transparent background, no floor, no text, no grids. This establishes identity for portraits and grille appearance; no other game assets copied.",
+  "references": [
+    "diseno/arte_hd2d/steven_retrato.png"
+  ],
+  "destination": "diseno/arte_hd2d/referencias/guernsey.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/arte_hd2d/steven_retrato.png": "1f2e6c25f6cddf66a770f4d8f19d9c49d62fb485c53c200ca4be1d5d98f8b31c"
+  },
+  "output_sha256": "829fab42ff7db36e8c16f932e998a9a392307881725a6d03a2d061df56fa6d89"
+}

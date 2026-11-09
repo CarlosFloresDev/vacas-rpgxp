@@ -1,0 +1,26 @@
+{
+  "assets": [
+    {
+      "source": "diseno/arte_hd2d/vacas_muebles_fuente.png",
+      "destination": "Graphics/Characters/vacas_muebles.png",
+      "type": "indexed",
+      "layout_source": "diseno/arte_provisional/sd_v1/Graphics/Characters/vacas_muebles.png",
+      "cell": "32x64",
+      "size": "128x256",
+      "alpha_threshold": 128,
+      "resample": "box"
+    },
+    {
+      "source": "diseno/arte_hd2d/vacas_tablon_fuente.png",
+      "destination": "Graphics/Characters/vacas_tablon.png",
+      "type": "indexed",
+      "layout_source": "diseno/arte_provisional/sd_v1/Graphics/Characters/vacas_tablon.png",
+      "cell": "32x48",
+      "size": "128x192",
+      "alpha_threshold": 128,
+      "resample": "box",
+      "indexed_mode": "resize",
+      "preserve_alpha": true
+    }
+  ]
+}

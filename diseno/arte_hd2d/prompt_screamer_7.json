@@ -1,0 +1,17 @@
+{
+  "id": "screamer_7",
+  "prompt": "undefinedID7 MOTIF: STEVEN'S CROWNED REFLECTION. EXACT ADULT STEVEN age25 slim exhausted long face hollow cheeks messy BLACK hair brown eyes small mole on LEFT CHEEK, brown shirt visible at bottom. His own reflection in broken dark mirror, crooked STEEL MEAT HOOK CROWN over black hair, blood streak on brow and dry stains on brown shirt, frightening executioner gaze. Recognizable same adult Steven face, not Cripps. Extreme closeup face and crown fill4:3 with shards slicing image edges; dim nicotine bathroom and cold glint at hook tips. Keep fully clothed, no open body cavities, no nude content, no text. Image2 boss crown and blood motif.",
+  "references": [
+    "diseno/arte_hd2d/referencias/steven.png",
+    "diseno/arte_hd2d/enemigo_rey_fuente.png"
+  ],
+  "destination": "diseno/arte_hd2d/screamer_7_fuente.png",
+  "transparent_background": false,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/arte_hd2d/referencias/steven.png": "fbae70bdf0b3bcbc5b98c9f8d2b72db4e03a84d351337837ef1320bbb3c50510",
+    "diseno/arte_hd2d/enemigo_rey_fuente.png": "551e5a7c87438796ebfcab1980a8a598b3992b1bdbd6759868b7e3260a6c28bc"
+  },
+  "output_sha256": "a901d0bc8ff3d59cb3a71447e8825791efbff66006bdecaeb963cf26f0cee28e"
+}

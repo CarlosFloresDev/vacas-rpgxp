@@ -1,0 +1,17 @@
+{
+  "id": "anselmo_neutral",
+  "prompt": "Use case: identity-preserve. SINGLE vertical waist-up dialogue portrait of EXACT identity in image1. Preserve face, age, hairstyle, local colors, costume and accessories. Image2 approved Steven portrait is STYLE/FRAMING only. Detailed illustrated industrial horror, warm upper-left light and subtle cold right rim. Entire head and shoulders with margin, waist at bottom, face upper half; vertical240:340. GENUINE transparent alpha background (no brown backdrop, no scenery). No text. ANSELMO age73 thin old man long face curved nose wide GREY MOUSTACHE and receding grey hair, brown eyes weathered skin. Old brown-grey jacket #71634B elbow patches #594B42, ochre-grey shirt #B4AB90. Same exact face and moustache as reference, weary closed-mouth expression.",
+  "references": [
+    "diseno/arte_hd2d/referencias/anselmo.png",
+    "diseno/arte_hd2d/steven_retrato.png"
+  ],
+  "destination": "diseno/arte_hd2d/anselmo_neutral_fuente.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/arte_hd2d/referencias/anselmo.png": "01015130e470ee83f8de7f969c889dff14fe3012f5821b5a37bb55b491ca2d00",
+    "diseno/arte_hd2d/steven_retrato.png": "1f2e6c25f6cddf66a770f4d8f19d9c49d62fb485c53c200ca4be1d5d98f8b31c"
+  },
+  "output_sha256": "09a0f6689bb188a121a80b5d4b81dad2daf91929180b81489b071dccdf58fb99"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "molina_sprite",
+  "prompt": "Use case: identity-preserve. RPG Maker XP detailed pixel art walk sheet of EXACT identity in image1. Image2 approved Steven sprite STYLE/proportions only. EXACT4x4 equal rectangular cells NO GRID; rows FRONT/down, LEFT, RIGHT, BACK/up; four columns left step, passing, right step, passing. 16 complete figures, identical costume head scale light in every cell. About2.5 heads tall, recognizable hands and boots, fixed feet baseline per row, generous empty cell margins, crisp intentional pixel clusters, selective dark outline, warm upper-left light and cold right rim. REAL transparent alpha, no ground, no opaque backdrop, no text. Final128x192 cells32x48. MOLINA robust butcher, short dark hair thick DARK MOUSTACHE, cream rolled-sleeve shirt, BURGUNDY RED apron #78192A with dry limited stains, brown trousers dark boots. Apron ties visible behind, never white apron. No weapon.",
+  "references": [
+    "diseno/arte_hd2d/referencias/molina.png",
+    "Graphics/Characters/vacas_steven.png"
+  ],
+  "destination": "diseno/arte_hd2d/molina_sprite_fuente.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/arte_hd2d/referencias/molina.png": "3935bf948422c67bf8132706d663eeef6f6ed94ffc2d2b458eba883a5932bc33",
+    "Graphics/Characters/vacas_steven.png": "332032558ce3719b7080e1ba196a54d8308a022c028664eee7d3d6017cd64662"
+  },
+  "output_sha256": "1e138c109f410566e85a62499b8fe976139a8af4f5c69b5d6f161b675510fa9e"
+}

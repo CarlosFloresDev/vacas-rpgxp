@@ -1,0 +1,17 @@
+{
+  "id": "moscas_referencia",
+  "prompt": "Use case: stylized-concept. Original VACAS ENJAMBRE DE MOSCAS entity reference TWO complete front and left oblique views of same swarm forming an INCOMPLETE ADULT FACE. Hundreds of distinct small dark flies grouped into forehead eye sockets cheek and slack mouth, many transparent GAPS between insect groups, no solid skin mask. Only tiny moist organic fragments carried by flies, dark green-black bodies and restrained wing glints, not red glowing eyes. Image1 provisional motif, image2 approved cow STYLE only: intentional pixel clusters industrial horror. Entire swarm within margins, genuinely transparent background including gaps, no scene no text no sexual content. No humanoid body.",
+  "references": [
+    "diseno/arte_provisional/sd_v1/Graphics/Battlers/enemigo_moscas.png",
+    "diseno/arte_hd2d/vaca.png"
+  ],
+  "destination": "diseno/arte_hd2d/referencias/moscas.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/arte_provisional/sd_v1/Graphics/Battlers/enemigo_moscas.png": "d65b98735157eef746691b76c3e7b42550c9e4093be4ac077703bbde23859c97",
+    "diseno/arte_hd2d/vaca.png": "23122945f338695b489735fbb18521a7d996369ba44a16d64c38d443b094943b"
+  },
+  "output_sha256": "b711a5e1b37ee716d5ab30f913f1c844333a33387c0a4ed205f0a575e96e5fe5"
+}

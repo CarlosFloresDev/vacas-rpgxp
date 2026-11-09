@@ -98,10 +98,15 @@ def adapt(spec):
     source, dest = path(spec['source']), path(spec['destination'])
     # Solo arte del proyecto, nunca Data ni scripts ni respaldos como destino.
     dest.relative_to(ROOT / 'Graphics')
+    categories = {'Animations', 'Autotiles', 'Battlebacks', 'Battlers', 'Characters',
+                  'Fogs', 'Gameovers', 'Icons', 'Panoramas', 'Pictures', 'Tilesets',
+                  'Titles', 'Transitions', 'Windowskins'}
+    if dest.parent.parent != ROOT / 'Graphics' or dest.parent.name not in categories:
+        raise ValueError('Destino fuera de las carpetas gráficas de RGSS1')
     if dest.suffix.lower() != '.png' or source == dest:
         raise ValueError('Destino PNG distinto del origen, dentro de Graphics/')
     kind = spec['type']
-    if kind not in ('character', 'battler', 'face', 'retrato', 'picture', 'battleback'):
+    if kind not in ('character', 'indexed', 'battler', 'face', 'retrato', 'picture', 'battleback'):
         raise ValueError('Tipo de asset desconocido: ' + kind)
     im = Image.open(source).convert('RGBA')
     # Las expresiones reutilizan literalmente ropa, pelo, luz y encuadre base.
@@ -133,7 +138,55 @@ def adapt(spec):
         img = quantize(alpha_cleanup(img, threshold), spec.get('zone'))
         return outline(img, spec['outline']) if spec.get('outline') else img
 
-    if kind == 'character':
+    if kind == 'indexed':
+        # Objetos/tiles/UI: los huecos y anclas vienen del respaldo, no de
+        # una supuesta animación humana. Cada fuente conserva su propio índice.
+        layout = Image.open(path(spec['layout_source'])).convert('RGBA')
+        size = dimensions(spec['size'])
+        cw, ch = dimensions(spec['cell'])
+        if layout.size != size or size[0] % cw or size[1] % ch:
+            raise ValueError('Layout indexado incompatible con tamaño/celda')
+        cols, rows = size[0]//cw, size[1]//ch
+        xs = spec.get('source_columns', [round(x*im.width/cols) for x in range(cols+1)])
+        ys = spec.get('source_rows', [round(y*im.height/rows) for y in range(rows+1)])
+        for bounds, count, limit in ((xs, cols, im.width), (ys, rows, im.height)):
+            if (len(bounds) != count+1 or bounds[0] != 0 or bounds[-1] != limit
+                    or any(not isinstance(v, int) for v in bounds)
+                    or any(a >= b for a, b in zip(bounds, bounds[1:]))):
+                raise ValueError('Límites de fuente indexada incompatibles con su cuadrícula')
+        result = Image.new('RGBA', size)
+        mode = spec.get('indexed_mode', 'fit')
+        if mode not in ('fit', 'resize'):
+            raise ValueError('indexed_mode debe ser fit o resize')
+        for y in range(rows):
+            for x in range(cols):
+                box = (x*cw, y*ch, (x+1)*cw, (y+1)*ch)
+                old = layout.crop(box)
+                bounds = old.getchannel('A').getbbox()
+                if bounds is None:
+                    continue
+                if spec.get('repeat_source'):
+                    tile = im.copy()
+                else:
+                    tile = im.crop((xs[x], ys[y], xs[x+1], ys[y+1]))
+                if mode == 'resize':
+                    tile = tile.resize((cw, ch), resample)
+                else:
+                    target = (bounds[2]-bounds[0], bounds[3]-bounds[1])
+                    fitted = place(crop(tile), target, 0, resample)
+                    tile = Image.new('RGBA', (cw, ch))
+                    tile.alpha_composite(fitted, bounds[:2])
+                mix = float(spec.get('layout_mix', 0))
+                if not 0 <= mix <= 1:
+                    raise ValueError('layout_mix debe estar entre cero y uno')
+                if mix:
+                    alpha = tile.getchannel('A')
+                    tile = Image.blend(tile, old, mix)
+                    tile.putalpha(alpha)
+                if spec.get('preserve_alpha'):
+                    tile.putalpha(old.getchannel('A'))
+                result.alpha_composite(finish(tile), (x*cw, y*ch))
+    elif kind == 'character':
         cw, ch = dimensions(spec.get('cell', '32x48'))
         if spec.get('pad_grid') and (im.width % 4 or im.height % 4):
             padded = Image.new('RGBA', (im.width + (-im.width % 4), im.height + (-im.height % 4)))
@@ -142,7 +195,16 @@ def adapt(spec):
         if im.width % 4 or im.height % 4:
             raise ValueError('Hoja de origen: ancho y alto deben ser divisibles entre 4')
         sw, sh = im.width//4, im.height//4
-        cells = [crop(im.crop((x*sw, y*sh, (x+1)*sw, (y+1)*sh))) for y in range(4) for x in range(4)]
+        # Algunas fuentes generadas espacian las filas de forma desigual.
+        # Límites explícitos separan las poses completas sin perder cabeza/pies.
+        xs = spec.get('source_columns', [x*sw for x in range(5)])
+        ys = spec.get('source_rows', [y*sh for y in range(5)])
+        for bounds, limit in ((xs, im.width), (ys, im.height)):
+            if (len(bounds) != 5 or bounds[0] != 0 or bounds[-1] != limit
+                    or any(not isinstance(v, int) for v in bounds)
+                    or any(a >= b for a, b in zip(bounds, bounds[1:]))):
+                raise ValueError('Límites de fuente: cinco enteros crecientes de cero al tamaño')
+        cells = [crop(im.crop((xs[x], ys[y], xs[x+1], ys[y+1]))) for y in range(4) for x in range(4)]
         if min(cw, ch) <= 2*padding:
             raise ValueError('Margen incompatible con celda')
         # Una escala común evita que cada paso cambie el tamaño del cuerpo.
@@ -199,10 +261,14 @@ def review_inventory(value):
     """Auditoría de PNG y láminas 1x/2x; nunca escribe en Graphics ni Data."""
     inventory = json.loads(path(value).read_text(encoding='utf-8-sig'))
     installed = set()
+    specs_by_dest = {}
     for manifest in (ROOT / 'diseno/arte_hd2d').glob('lote_*.json'):
         for spec in json.loads(manifest.read_text(encoding='utf-8-sig'))['assets']:
             installed.add(spec['destination'])
+            specs_by_dest[spec['destination']] = spec
     errors, checked = [], []
+    for rel in installed - {r['path'] for r in inventory}:
+        errors.append('Destino de manifiesto fuera del inventario: ' + rel)
     for row in inventory:
         rel = row['path']
         current, backup = ROOT / rel, BACKUP / rel
@@ -213,16 +279,54 @@ def review_inventory(value):
             im.load()
             if im.size != original.size or list(im.size) != row['size']:
                 errors.append(f'Tamaño distinto: {rel}: {im.size} / {original.size}')
+            if im.mode != row['mode']:
+                errors.append(f'Modo distinto: {rel}: {im.mode} / {row["mode"]}')
             if rel.startswith('Graphics/Characters/') and (im.width % 4 or im.height % 4):
                 errors.append('Cuadrícula no divisible entre cuatro: ' + rel)
             if rel.endswith('vacas_vacio.png') and im.convert('RGBA').getchannel('A').getbbox():
                 errors.append('vacas_vacio dejó de ser transparente')
-            if rel in installed and rel.startswith(('Graphics/Characters/', 'Graphics/Battlers/')):
+            if rel in installed and (rel.startswith(('Graphics/Characters/', 'Graphics/Battlers/')) or '/retrato_' in rel):
                 if im.mode != 'RGBA' or im.getchannel('A').getextrema()[0] != 0:
                     errors.append('Falta transparencia: ' + rel)
+            spec = specs_by_dest.get(rel, {})
+            cell = [im.width//4, im.height//4] if '/Characters/' in rel else None
+            slot_checks = None
+            if spec.get('type') == 'indexed':
+                cw, ch = dimensions(spec['cell'])
+                cell = [cw, ch]
+                blank, occupied = 0, 0
+                for y in range(0, im.height, ch):
+                    for x in range(0, im.width, cw):
+                        box = (x, y, x+cw, y+ch)
+                        before = original.convert('RGBA').crop(box).getchannel('A').getbbox()
+                        after = im.convert('RGBA').crop(box).getchannel('A').getbbox()
+                        if bool(before) != bool(after):
+                            errors.append(f'Ocupación de celda cambiada: {rel} ({x//cw},{y//ch})')
+                        if before:
+                            occupied += 1
+                            if (spec.get('indexed_mode', 'fit') == 'fit' and after and
+                                    (after[0] < before[0] or after[1] < before[1] or
+                                     after[2] > before[2] or after[3] > before[3])):
+                                errors.append(f'Objeto fuera de su ancla: {rel} ({x//cw},{y//ch})')
+                        else:
+                            blank += 1
+                slot_checks = {'occupied': occupied, 'empty_preserved': blank}
+                if spec.get('preserve_alpha'):
+                    expected_alpha = alpha_cleanup(original.convert('RGBA'), spec.get('alpha_threshold')).getchannel('A')
+                    if ImageChops.difference(im.getchannel('A'), expected_alpha).getbbox():
+                        errors.append('Máscara técnica distinta: ' + rel)
+            if spec.get('repeat_source'):
+                cw, ch = dimensions(spec['cell'])
+                first = im.crop((0, 0, cw, ch)).tobytes()
+                if any(im.crop((x, y, x+cw, y+ch)).tobytes() != first
+                       for y in range(0, im.height, ch) for x in range(0, im.width, cw)):
+                    errors.append('Celdas repetidas diferentes: ' + rel)
             status = 'FASE 2' if rel in installed else 'APROBADO FASE 1' if row['status'] == 'approved_phase1' else 'TECNICO' if row['status'] == 'technical_preserve' else 'PENDIENTE'
-            checked.append({'path': rel, 'size': list(im.size), 'status': status,
-                            'cell': [im.width//4, im.height//4] if '/Characters/' in rel else None})
+            checked.append({'path': rel, 'size': list(im.size), 'backup_size': list(original.size),
+                            'status': status, 'mode': im.mode, 'cell': cell,
+                            'backup_cell': cell, 'indexed_slots': slot_checks,
+                            'sha256': hashlib.sha256(current.read_bytes()).hexdigest(),
+                            'backup_sha256': hashlib.sha256(backup.read_bytes()).hexdigest()})
     protected_file = ROOT / 'diseno/arte_hd2d/protegidos_fase2.json'
     protected = json.loads(protected_file.read_text(encoding='utf-8'))
     for rel, expected in protected.items():
@@ -269,7 +373,7 @@ def main():
     p.add_argument('--batch', help='JSON: lista de assets o {"assets": [...]}')
     p.add_argument('--source')
     p.add_argument('--destination')
-    p.add_argument('--type', choices=['character', 'battler', 'face', 'retrato', 'picture', 'battleback'])
+    p.add_argument('--type', choices=['character', 'indexed', 'battler', 'face', 'retrato', 'picture', 'battleback'])
     p.add_argument('--cell', default='32x48')
     p.add_argument('--size')
     p.add_argument('--max-height', type=int, default=300)

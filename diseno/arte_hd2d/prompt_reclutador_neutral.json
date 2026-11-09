@@ -1,0 +1,17 @@
+{
+  "id": "reclutador_neutral",
+  "prompt": "Use case: identity-preserve. SINGLE vertical waist-up dialogue portrait of EXACT identity in image1. Preserve face, age, hairstyle, local colors, costume and accessories. Image2 approved Steven portrait is STYLE/FRAMING only. Detailed illustrated industrial horror, warm upper-left light and subtle cold right rim. Entire head and shoulders with margin, waist at bottom, face upper half; vertical240:340. GENUINE transparent alpha background (no brown backdrop, no scenery). No text. RECLUTADOR age46 round clean-shaven face slight belly small bureaucratic smile, brown hair under dark GREY driver's cap, grey jacket pale ochre shirt, ochre hiring folder tucked under left arm. Preserve same cap smile round face and folder from reference. Generous top margin.",
+  "references": [
+    "diseno/arte_hd2d/referencias/reclutador.png",
+    "diseno/arte_hd2d/steven_retrato.png"
+  ],
+  "destination": "diseno/arte_hd2d/reclutador_neutral_fuente.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/arte_hd2d/referencias/reclutador.png": "5275fca36b536ea59fe0b790a9bc2178053bd158eb7c1737006cb06f92470874",
+    "diseno/arte_hd2d/steven_retrato.png": "1f2e6c25f6cddf66a770f4d8f19d9c49d62fb485c53c200ca4be1d5d98f8b31c"
+  },
+  "output_sha256": "9f9b05e0c8c11b6edf99d7fa57ccb6a1bd12e720cc283140e250c088380f8d0c"
+}

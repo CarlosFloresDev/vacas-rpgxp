@@ -1,0 +1,15 @@
+{
+  "id": "familia_nieve_referencia_revision",
+  "prompt": "Use case: identity-preserve. Correct attached television reference sheet ONLY the person centered in foreground on BOTH CRT SCREENS. Replace that young-looking person with an unmistakable mature ADULT MAN age35: long adult face receding neatly combed hair, deep brow and adult jaw, collared shirt and tie. There must be exactly THREE ADULTS: middle-aged man age55 left, middle-aged woman age50 right, mature adult son age35 center. Same anonymous black-white static-covered eyes and hollow mouths on all three. Do not change wooden1950s television cabinet, antenna, knobs, hanging black cables, front and side views, lighting, margins, or transparent background. No young faces no children, no text. Keep original VACAS industrial horror illustrated pixel-cluster style.",
+  "references": [
+    "diseno/arte_hd2d/referencias/familia_nieve_descartada.png"
+  ],
+  "destination": "diseno/arte_hd2d/referencias/familia_nieve.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/arte_hd2d/referencias/familia_nieve_descartada.png": "34ed89d2292ab815974497b0fd821f41ae392f5ed4f25e121974709f24e4416b"
+  },
+  "output_sha256": "fd7ddf9fcfeaf5f55edabb4e04c4e4c94d23299c861c4227cb38c12007d2f466"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "sumidero_referencia",
+  "prompt": "Use case: stylized-concept. Original VACAS SUMIDERO horror entity definitive reference TWO complete front and left profile views of ANONYMOUS ADULT HUMAN HEAD age45 (not Steven, no known cast identity). Entire face substituted by circular INDUSTRIAL STEEL DRAIN with concentric perforated rings, dark central opening and wet torn tissue at rim, cheek skin grey pale and cropped dark hair. No normal eyes mouth nose inside drain. Neck ends in torn cloth collar, no body below shoulders, no genitals. Image1 provisional establishes motif only. Detailed illustrated industrial horror deliberate pixels, clinical upper-left light cold rim, dark-burgundy flesh narrow small moist highlights. Entire head within generous margin both views same scale, genuine transparent background no text.",
+  "references": [
+    "diseno/arte_provisional/sd_v1/Graphics/Pictures/screamer_4.png"
+  ],
+  "destination": "diseno/arte_hd2d/referencias/sumidero.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "rejected_no_image",
+  "note": "Servicio rechazó salida; se conserva prompt del intento. Fuente del mismo nombre pertenece al reintento documentado.",
+  "input_sha256": {
+    "diseno/arte_provisional/sd_v1/Graphics/Pictures/screamer_4.png": "042c7c1af9479bbd9d5849d3243ec71f22f845686ff0da3d1c6e3f2824de1524"
+  }
+}

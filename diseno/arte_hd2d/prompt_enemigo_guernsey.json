@@ -1,0 +1,17 @@
+{
+  "id": "enemigo_guernsey",
+  "prompt": "Use case: identity-preserve. Original VACAS industrial psychological horror battle entity, SINGLE complete silhouette frontal three-quarter, genuine TRANSPARENT background, NO scene rectangle NO ground. Entire form inside generous margin, final320x300. Strong immediate readable silhouette at final size, deliberate pixel clusters matching approved cow style, selective dark outline, cold clinical side light with small moist highlights. Burgundy blood #78192A clots #4B1020 muscle #A42A39 ivory broken bone #D4C6AA dirty fat #D4B48A. Explicit fictional visceral horror, no sexual content no text. Image1 identity reference mandatory, image2 approved cow is rendering/style only. GUERNSEY DE HUMO exactly Guernsey cinnamon cow, keep her CREAM DIAMOND FOREHEAD and intelligent BROWN eye. Spectral heavy bovine upper body, curved horns now bent industrial PIPES following original horn silhouette, chest shredded to reveal costilla BAR RIBS and wet dark meat, hindquarters dissolving into BLACK-GREEN SMOKE with semitransparent wisps and gaps. A promise accuses. No human face, not ordinary background cow. Preserve diamond and eye strongest focal features.",
+  "references": [
+    "diseno/arte_hd2d/referencias/guernsey.png",
+    "diseno/arte_hd2d/vaca.png"
+  ],
+  "destination": "diseno/arte_hd2d/enemigo_guernsey_fuente.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/arte_hd2d/referencias/guernsey.png": "829fab42ff7db36e8c16f932e998a9a392307881725a6d03a2d061df56fa6d89",
+    "diseno/arte_hd2d/vaca.png": "23122945f338695b489735fbb18521a7d996369ba44a16d64c38d443b094943b"
+  },
+  "output_sha256": "9c950eb21d0336a1c44b75ae1d8785b558ea8c5646d9e6c8f87d9f0ad4371d6c"
+}

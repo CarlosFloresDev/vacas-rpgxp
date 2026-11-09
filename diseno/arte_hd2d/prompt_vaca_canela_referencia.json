@@ -1,0 +1,15 @@
+{
+  "id": "vaca_canela_referencia",
+  "prompt": "Use case: stylized-concept. Original VACAS ordinary BACKGROUND CINNAMON COW reference TWO complete front and left profile views same scale. Adult cow age5 heavy body slightly lowered head. CINNAMON #AA7656 body and FOREHEAD FULLY CINNAMON with NO diamond or blaze; cream #D4B48A belly only, ivory curved horns #D4C6AA, brown eyes brown muzzle dark hooves. Image1 Guernsey anatomy/style reference only: DIFFERENT cow, MUST NOT HAVE her forehead diamond. Healthy everyday cow no gore. Detailed illustrated industrial horror warm upper-left light cold rim. Entire horns hooves tail within margins. True transparent alpha no text.",
+  "references": [
+    "diseno/arte_hd2d/referencias/guernsey.png"
+  ],
+  "destination": "diseno/arte_hd2d/referencias/vaca_canela.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/arte_hd2d/referencias/guernsey.png": "829fab42ff7db36e8c16f932e998a9a392307881725a6d03a2d061df56fa6d89"
+  },
+  "output_sha256": "b856ed1994e8bd308f411cf7ee04813edf3c5ef75a70b27005700de5a62bcf9c"
+}

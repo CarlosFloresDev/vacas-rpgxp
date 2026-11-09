@@ -1,0 +1,17 @@
+{
+  "id": "enemigo_sombra_cripps",
+  "prompt": "undefinedSOMBRA DE CRIPPS: exact shaved broad muscular foreman thick neck square jaw and dirty ivory apron brown straps grey shirt from reference. Transform into elongated deformed charcoal shadow, enormous hands MERGED WITH MEAT HOOKS, small torn dark-red flesh edges, stretched apron recognizable, face low eyes still Cripps, blood-dark silhouette. Control persists without owner. Full silhouette not ordinary bust, no background.",
+  "references": [
+    "diseno/arte_hd2d/referencias/cripps.png",
+    "diseno/arte_hd2d/vaca.png"
+  ],
+  "destination": "diseno/arte_hd2d/enemigo_sombra_cripps_fuente.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/arte_hd2d/referencias/cripps.png": "48f3bf0bc2aa476cd39ca443a06c545743fde16f977182d0179091d091ba5575",
+    "diseno/arte_hd2d/vaca.png": "23122945f338695b489735fbb18521a7d996369ba44a16d64c38d443b094943b"
+  },
+  "output_sha256": "34ab6760278f062be6d8e178a093227e18a2dca7d6b93c27898bff68f8cfe2d3"
+}

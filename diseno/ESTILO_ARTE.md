@@ -132,7 +132,9 @@ Revisión visual realizada sobre los cuatro PNG adaptados. Limitaciones para apr
 
 ## Fase 2: inventario completo
 
-Lista obtenida de Graphics y contrastada con los 42 PNG de SISTEMAS.md. «Muestra» significa pendiente de aprobación, no arte final aprobado. Todos los demás quedan pendientes. Conservar nombre, tamaño y distribución interna: especialmente muebles y objetos indexados por dirección/patrón. `vacas_vacio.png` debe permanecer transparente (recurso técnico, no personaje para redibujar).
+Las tablas siguientes conservan el **estado inicial** de producción. Estado actual de fase 2: [PROGRESO.md](arte_hd2d/PROGRESO.md), [estado_fase2.json](arte_hd2d/estado_fase2.json) y [verificación](arte_hd2d/verificacion_fase2.json). La muestra fue aprobada y el inventario completo está cubierto.
+
+Lista obtenida de Graphics y contrastada con los 42 PNG de SISTEMAS.md. Conservar nombre, tamaño y distribución interna: especialmente muebles y objetos indexados por dirección/patrón. `vacas_vacio.png` debe permanecer transparente (recurso técnico, no personaje para redibujar).
 
 ### Graphics/Characters
 

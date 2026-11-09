@@ -1,0 +1,11 @@
+{
+  "assets": [
+    {
+      "source": "diseno/arte_hd2d/screamer_1_fuente.png",
+      "destination": "Graphics/Pictures/screamer_1.png",
+      "type": "picture",
+      "size": "640x480",
+      "resample": "box"
+    }
+  ]
+}
