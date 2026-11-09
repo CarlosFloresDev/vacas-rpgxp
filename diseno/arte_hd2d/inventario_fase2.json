@@ -1,0 +1,722 @@
+[
+  {
+    "path": "Graphics/Characters/vacas_steven.png",
+    "size": [
+      128,
+      192
+    ],
+    "mode": "RGBA",
+    "sha256": "332032558ce3719b7080e1ba196a54d8308a022c028664eee7d3d6017cd64662",
+    "status": "approved_phase1"
+  },
+  {
+    "path": "Graphics/Pictures/retrato_steven_neutral.png",
+    "size": [
+      240,
+      340
+    ],
+    "mode": "RGBA",
+    "sha256": "d7971c4292c40487c758c1b8f81f9776d45b380c841c7675e48055395478e11f",
+    "status": "approved_phase1"
+  },
+  {
+    "path": "Graphics/Battlers/enemigo_vaca.png",
+    "size": [
+      320,
+      300
+    ],
+    "mode": "RGBA",
+    "sha256": "52cbd150606098e4e0cb5effe9724a5c0f37bbfafdd6368b60db573f01730e87",
+    "status": "approved_phase1"
+  },
+  {
+    "path": "Graphics/Pictures/screamer_3.png",
+    "size": [
+      640,
+      480
+    ],
+    "mode": "RGB",
+    "sha256": "0dcea7ddb8309b4bd7f30c70b830c1b5295be6c63caca054a2b2472c94d7d825",
+    "status": "approved_phase1"
+  },
+  {
+    "path": "Graphics/Characters/vacas_anselmo.png",
+    "size": [
+      128,
+      192
+    ],
+    "mode": "RGBA",
+    "sha256": "291dff76c39b1aa6d9c8cc806013cab76e957ee436f50601df56e54d7b16e0a7",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Characters/vacas_borracho.png",
+    "size": [
+      128,
+      192
+    ],
+    "mode": "RGBA",
+    "sha256": "16ce0307a4d9b775ea2745c1b380072a3f8c70042c14ef39c64f195618dd1b87",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Characters/vacas_carnicero.png",
+    "size": [
+      128,
+      192
+    ],
+    "mode": "RGBA",
+    "sha256": "0dea88fbd0a63d709b026373829a1f3ae57fc44ea173a5d3747d2da928335519",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Characters/vacas_cosas.png",
+    "size": [
+      128,
+      128
+    ],
+    "mode": "RGBA",
+    "sha256": "efb148e302573853d1cb7bce824a543507060a03ee4d2f22fa31f4a5dc829b00",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Characters/vacas_cripps.png",
+    "size": [
+      168,
+      240
+    ],
+    "mode": "RGBA",
+    "sha256": "59a0bc788e62c6a513060c0d61fcff756dd7981fb6d07b83b97062e91aad7fd3",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Characters/vacas_furgoneta.png",
+    "size": [
+      384,
+      256
+    ],
+    "mode": "RGBA",
+    "sha256": "30d89f63c2d9e67f9fea6cdb02e297165cc50efea49fd5179230a88af8c38888",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Characters/vacas_lucy.png",
+    "size": [
+      128,
+      192
+    ],
+    "mode": "RGBA",
+    "sha256": "f307d680b8269c47d9968f34157148c08bc2b9f34f2dc09e8df70d5c58a61cc0",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Characters/vacas_madre.png",
+    "size": [
+      192,
+      268
+    ],
+    "mode": "RGBA",
+    "sha256": "51825e0722919ab113106b3929cd0b0d2f4cb441c752eac08d65b9e521306395",
+    "status": "phase2_installed_visual_checked"
+  },
+  {
+    "path": "Graphics/Characters/vacas_matadero.png",
+    "size": [
+      128,
+      256
+    ],
+    "mode": "RGBA",
+    "sha256": "b9e8a68429ffe8a7fcc39a6cc6bc8e0be8600ea8767e277b23e61a078435238e",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Characters/vacas_muebles.png",
+    "size": [
+      128,
+      256
+    ],
+    "mode": "RGBA",
+    "sha256": "b278e47ea7fc14c4602a356e3cf80db07dff15be58e33160021108c2ccd7df11",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Characters/vacas_obrero1.png",
+    "size": [
+      128,
+      192
+    ],
+    "mode": "RGBA",
+    "sha256": "b7776200b5d5c43d5f65ddd70c9b344cea9eb351e94e31808465f368e6165392",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Characters/vacas_obrero2.png",
+    "size": [
+      128,
+      192
+    ],
+    "mode": "RGBA",
+    "sha256": "f82a37092e40fe117f788e59f3e79a69ca9f856162378ad4e8f2777a7eaac755",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Characters/vacas_obrero3.png",
+    "size": [
+      128,
+      192
+    ],
+    "mode": "RGBA",
+    "sha256": "6cd289075c40ef4aa6b98cebe62280f8bb7dfeb5f6f0596bf90578eaa6676817",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Characters/vacas_obrero4.png",
+    "size": [
+      128,
+      192
+    ],
+    "mode": "RGBA",
+    "sha256": "1ebf0f8ef7256f33ab33290e0f5afcc6b298e3f87969f76919f9c92c594975b6",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Characters/vacas_perro.png",
+    "size": [
+      160,
+      160
+    ],
+    "mode": "RGBA",
+    "sha256": "173e4bac25c32e2719a2ff75bc81280532ccf4ec04b4944dd4c3f8f82dd6093d",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Characters/vacas_puerta.png",
+    "size": [
+      128,
+      256
+    ],
+    "mode": "RGBA",
+    "sha256": "af25b4e495f5c4f59c14e99f33abe7e079737694bee4209ead5c0a01dbb0d631",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Characters/vacas_reclutador.png",
+    "size": [
+      128,
+      192
+    ],
+    "mode": "RGBA",
+    "sha256": "46791465420e01b9974f753c8d8338dc8e313527725317b4759e7cb804233420",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Characters/vacas_remedios.png",
+    "size": [
+      128,
+      192
+    ],
+    "mode": "RGBA",
+    "sha256": "cc049c2ce26976ebe2fb8c489cdee82ea6e13885ea00f00123c0ecdfa5c055ae",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Characters/vacas_steven_mono.png",
+    "size": [
+      128,
+      192
+    ],
+    "mode": "RGBA",
+    "sha256": "88ed95e044622d42a902c3ff6ff736f0d5e0431db47cc0ab3e10c381a1f668aa",
+    "status": "phase2_installed_visual_checked"
+  },
+  {
+    "path": "Graphics/Characters/vacas_tablon.png",
+    "size": [
+      128,
+      192
+    ],
+    "mode": "RGBA",
+    "sha256": "f1fa731ac6eff1e73916b82523ffd9f94d39275d38f2364e5906658eec463d2e",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Characters/vacas_transeunte.png",
+    "size": [
+      128,
+      192
+    ],
+    "mode": "RGBA",
+    "sha256": "ae41aac329506b1b793570869e3beaca7ca03799d7268b6e0815db2074e82cb6",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Characters/vacas_vaca.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "sha256": "eecf002f6736cd3127178639d51e966827f3352ac396abe070bdba37fae8e443",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Characters/vacas_vaca_canela.png",
+    "size": [
+      320,
+      320
+    ],
+    "mode": "RGBA",
+    "sha256": "09734d1c3675aeea9c1f0b2652dabf621353b4bc914ba5924f50ae031525a7b9",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Characters/vacas_vacio.png",
+    "size": [
+      128,
+      192
+    ],
+    "mode": "RGBA",
+    "sha256": "8f86ccf2cf49c8a36294f15416de3456247aa2130bb6032ff07dbbeab8fe136a",
+    "status": "technical_preserve"
+  },
+  {
+    "path": "Graphics/Battlers/enemigo_canal.png",
+    "size": [
+      320,
+      300
+    ],
+    "mode": "RGBA",
+    "sha256": "34c93a1d3c725211a4988d1d1a1f6a7634a5add3df580057415924ab217e96e9",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Battlers/enemigo_guernsey.png",
+    "size": [
+      320,
+      300
+    ],
+    "mode": "RGBA",
+    "sha256": "097cb1fa5cbbca166dc2326d1818cb0bf218548e13d469e6e04721ef5f4c877b",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Battlers/enemigo_madre.png",
+    "size": [
+      320,
+      300
+    ],
+    "mode": "RGBA",
+    "sha256": "e767305b6c8a085bb89db0dd3c5ec611b54b4ef0a9951cfddf93f24ad7e34757",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Battlers/enemigo_moscas.png",
+    "size": [
+      320,
+      300
+    ],
+    "mode": "RGBA",
+    "sha256": "d65b98735157eef746691b76c3e7b42550c9e4093be4ac077703bbde23859c97",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Battlers/enemigo_rey.png",
+    "size": [
+      320,
+      300
+    ],
+    "mode": "RGBA",
+    "sha256": "4962a511701eb33120d2f989d62e97f91900efca2d59457c8a690e0a1ce9de58",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Battlers/enemigo_sombra_cripps.png",
+    "size": [
+      320,
+      300
+    ],
+    "mode": "RGBA",
+    "sha256": "4d81bd5f6a655324334ea8f37ca22f9c2ec16973f9b4a23af908fcdcbb77c3e3",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Battlers/enemigo_televisor.png",
+    "size": [
+      320,
+      300
+    ],
+    "mode": "RGBA",
+    "sha256": "a1fb9194feaefc68c4abdfe138d232abb018ee4c09908d06aee0b0178d513694",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Battlers/enemigo_tunel.png",
+    "size": [
+      320,
+      300
+    ],
+    "mode": "RGBA",
+    "sha256": "82ec26121db58f50f2e3b1a6a6f21e1e577f35ffb9f144a4ea6dbb671cbdbbc6",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Battlers/steven_mente.png",
+    "size": [
+      240,
+      340
+    ],
+    "mode": "RGBA",
+    "sha256": "53fc11616ff2a8f5f67c0ac2a409423ebefac1784529cf8ec11dd3ca834d37df",
+    "status": "phase2_installed_visual_checked"
+  },
+  {
+    "path": "Graphics/Pictures/retrato_anselmo_neutral.png",
+    "size": [
+      240,
+      340
+    ],
+    "mode": "RGBA",
+    "sha256": "caa46fbec551d83c1bd2eb39952b23779ad60b936e6b8ec0224b62bdf67135c7",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Pictures/retrato_benito_neutral.png",
+    "size": [
+      240,
+      340
+    ],
+    "mode": "RGBA",
+    "sha256": "2b934766c868fc56734874703a6660be851fbd2ec0e5547980741e22e844ce4c",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Pictures/retrato_borracho_neutral.png",
+    "size": [
+      240,
+      340
+    ],
+    "mode": "RGBA",
+    "sha256": "a8daa626804ae403b06470ab3d37a78f61dc3ca4e06db29f6e26272b5c0bf2e2",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Pictures/retrato_chato_neutral.png",
+    "size": [
+      240,
+      340
+    ],
+    "mode": "RGBA",
+    "sha256": "85efad4902ecf3a1eccbf1714a0a350f0e0930bba2ac930e1d8d4e0bc31214e1",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Pictures/retrato_cripps_ira.png",
+    "size": [
+      240,
+      340
+    ],
+    "mode": "RGBA",
+    "sha256": "61e4d845c4053f42361cf3eee5385817c42a5ed92057bd134105bd2716b127f3",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Pictures/retrato_cripps_neutral.png",
+    "size": [
+      240,
+      340
+    ],
+    "mode": "RGBA",
+    "sha256": "e14ea5a5102f383e3a2615d57558278dfafba81ca28bbabc1d3802494fde3792",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Pictures/retrato_dog_miedo.png",
+    "size": [
+      240,
+      340
+    ],
+    "mode": "RGBA",
+    "sha256": "ec00491c417843efe5df815bcd58c5efa4a7613357db9d3652ffe1d4805ef668",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Pictures/retrato_dog_neutral.png",
+    "size": [
+      240,
+      340
+    ],
+    "mode": "RGBA",
+    "sha256": "7860982b6036c6c31b4acb1fef8fdec13a32adf2f79a1dd540673046612302f4",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Pictures/retrato_encarna_neutral.png",
+    "size": [
+      240,
+      340
+    ],
+    "mode": "RGBA",
+    "sha256": "9601099c7f259c0837c21541299cb24deae367c7ffeef2f623d02bc6350de698",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Pictures/retrato_guernsey_neutral.png",
+    "size": [
+      240,
+      340
+    ],
+    "mode": "RGBA",
+    "sha256": "8d54a1b6c2b0900eb519a366172d299fc817981b6170f6c83c50cd5e7be99eba",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Pictures/retrato_guernsey_susurro.png",
+    "size": [
+      240,
+      340
+    ],
+    "mode": "RGBA",
+    "sha256": "5a0f8ca54af8e18f931a8e89b833bb51bdb24e2153084c426a90b2b13bd3a281",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Pictures/retrato_lucy_neutral.png",
+    "size": [
+      240,
+      340
+    ],
+    "mode": "RGBA",
+    "sha256": "1ed841430796a66bc9b0eeffafe79c1155834ad838873fc237475aa5ebb04bcb",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Pictures/retrato_lucy_susurro.png",
+    "size": [
+      240,
+      340
+    ],
+    "mode": "RGBA",
+    "sha256": "7698a0fbe79b11f85ad007e52db607afce985f2ade8abb14032b36cd9bc2aa63",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Pictures/retrato_madre_ira.png",
+    "size": [
+      240,
+      340
+    ],
+    "mode": "RGBA",
+    "sha256": "1547fbb222334577783bf569a6362edc255124b48797f0cc5bfbe22c394c153c",
+    "status": "phase2_installed_visual_checked"
+  },
+  {
+    "path": "Graphics/Pictures/retrato_madre_neutral.png",
+    "size": [
+      240,
+      340
+    ],
+    "mode": "RGBA",
+    "sha256": "3de52db56da73df18bb962e71a3b438552ca834ebae73721b9f819d082f852b5",
+    "status": "phase2_installed_visual_checked"
+  },
+  {
+    "path": "Graphics/Pictures/retrato_molina_neutral.png",
+    "size": [
+      240,
+      340
+    ],
+    "mode": "RGBA",
+    "sha256": "2584b9be4a348fe8c2e0aa30e26832b31117ebf4ca3ce25504437d85dca078ed",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Pictures/retrato_reclutador_neutral.png",
+    "size": [
+      240,
+      340
+    ],
+    "mode": "RGBA",
+    "sha256": "ddb103c491ad3c2bb8fbf9a6469a7cdfd18601dfd69e15b0a02e476bba78b35d",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Pictures/retrato_remedios_neutral.png",
+    "size": [
+      240,
+      340
+    ],
+    "mode": "RGBA",
+    "sha256": "cfc5eb62104785461935e2dcbfbd78c858e69d32347d25c7f473cb1450f25bef",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Pictures/retrato_rubio_neutral.png",
+    "size": [
+      240,
+      340
+    ],
+    "mode": "RGBA",
+    "sha256": "e34001914c2d72a0ef196a942b1a1114113cfefc5646c7513ec0eeac1f2c897f",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Pictures/retrato_sierra_neutral.png",
+    "size": [
+      240,
+      340
+    ],
+    "mode": "RGBA",
+    "sha256": "d453e5d4f920fd9f60ef4a88af1f77fcd5f0ed5e9770b9c7b612551435a23ae2",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Pictures/retrato_steven_miedo.png",
+    "size": [
+      240,
+      340
+    ],
+    "mode": "RGBA",
+    "sha256": "02bfdfe6f212c8be68ff7e57e314ff2dff99dead337e6573cc5502e3b4cad9c7",
+    "status": "phase2_installed_visual_checked"
+  },
+  {
+    "path": "Graphics/Pictures/screamer_1.png",
+    "size": [
+      640,
+      480
+    ],
+    "mode": "RGB",
+    "sha256": "44298d47ae08cc3347272e7c22c60ce021fd0ca4b08b2a7138a5dde2e50c8d8d",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Pictures/screamer_2.png",
+    "size": [
+      640,
+      480
+    ],
+    "mode": "RGB",
+    "sha256": "54304e87ca028f40835a89895c4593000ed909f639e49d900c9840dd08016c1d",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Pictures/screamer_4.png",
+    "size": [
+      640,
+      480
+    ],
+    "mode": "RGB",
+    "sha256": "042c7c1af9479bbd9d5849d3243ec71f22f845686ff0da3d1c6e3f2824de1524",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Pictures/screamer_5.png",
+    "size": [
+      640,
+      480
+    ],
+    "mode": "RGB",
+    "sha256": "9187653de5794bdb459538eadc08abb7f5bc95a9b39baa32e874a07160de8793",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Pictures/screamer_6.png",
+    "size": [
+      640,
+      480
+    ],
+    "mode": "RGB",
+    "sha256": "85592dde9170fde33b36c4c3fabdaba537291918f232a6d9636db0e750055850",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Pictures/screamer_7.png",
+    "size": [
+      640,
+      480
+    ],
+    "mode": "RGB",
+    "sha256": "307ad5f73963c6fe6c4b5b357bd674d8adf03025ced2e3967cf59373cca045cd",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Battlebacks/mente_matadero.png",
+    "size": [
+      640,
+      480
+    ],
+    "mode": "RGB",
+    "sha256": "702639a51397c2c54da9df8f78f713107b1517a1ad1577a896b17fbedd92b399",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Battlebacks/mente_piso.png",
+    "size": [
+      640,
+      480
+    ],
+    "mode": "RGB",
+    "sha256": "ddc9d7958877424f21bb0bdfc88f50b14cf6b145470fdca32f32831125520aad",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Battlebacks/mente_tunel.png",
+    "size": [
+      640,
+      480
+    ],
+    "mode": "RGB",
+    "sha256": "a352dd5eb2b63a71aa0209be945446243daf1212e6c53b7e49f424c0f3ddca82",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Tilesets/vacas_matadero.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "sha256": "e04c2609d62d3f533ffdfda6d6dd1b4cf751fb74687d70ff786a8be85c73e298",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Autotiles/vacas_canal.png",
+    "size": [
+      384,
+      128
+    ],
+    "mode": "RGBA",
+    "sha256": "fd664e716771cdfddd170b8fa30ef1a3046c82b0362d5cf11c249c59f2170089",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Titles/vacas_titulo.png",
+    "size": [
+      640,
+      480
+    ],
+    "mode": "RGB",
+    "sha256": "5151bfa730058971f3492935c2eeb7101cb81f63fc19615d8735b265c048007d",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Gameovers/vacas_gameover.png",
+    "size": [
+      640,
+      480
+    ],
+    "mode": "RGB",
+    "sha256": "bbfe2c45fe851484c8391f0573cbf0941928ea0fd929042203fd630a4455bd6b",
+    "status": "pending"
+  },
+  {
+    "path": "Graphics/Windowskins/vacas_ventana.png",
+    "size": [
+      192,
+      128
+    ],
+    "mode": "RGBA",
+    "sha256": "8d04620c8d8262a23af05f3c2178cab0a7ecdb15e767b21c97885361bc14c7be",
+    "status": "pending"
+  }
+]

@@ -9,8 +9,10 @@ import os
 from pathlib import Path
 import shutil
 import tempfile
+import hashlib
+import math
 
-from PIL import Image, ImageChops, ImageColor, ImageFilter, ImageOps
+from PIL import Image, ImageChops, ImageColor, ImageFilter, ImageOps, ImageDraw
 
 ROOT = Path(__file__).resolve().parents[2]
 BACKUP = ROOT / 'diseno/arte_provisional/sd_v1'
@@ -102,6 +104,19 @@ def adapt(spec):
     if kind not in ('character', 'battler', 'face', 'retrato', 'picture', 'battleback'):
         raise ValueError('Tipo de asset desconocido: ' + kind)
     im = Image.open(source).convert('RGBA')
+    # Las expresiones reutilizan literalmente ropa, pelo, luz y encuadre base.
+    # El polígono normalizado limita la sustitución a ojos/cejas/boca generados.
+    if spec.get('expression_base'):
+        base = Image.open(path(spec['expression_base'])).convert('RGBA')
+        im = im.resize(base.size, Image.Resampling.LANCZOS)
+        points = spec['expression_polygon']
+        if len(points) < 3 or any(not 0 <= v <= 1 for p in points for v in p):
+            raise ValueError('Polígono facial normalizado inválido')
+        mask = Image.new('L', base.size)
+        ImageDraw.Draw(mask).polygon([(round(x*base.width), round(y*base.height)) for x,y in points], fill=255)
+        mask = mask.filter(ImageFilter.GaussianBlur(float(spec.get('expression_feather', 2))))
+        im = Image.composite(im, base, mask)
+        im.putalpha(base.getchannel('A'))
     if spec.get('key'):
         im = remove_key(im, spec['key'], int(spec.get('key_tolerance', 0)))
     threshold = spec.get('alpha_threshold')
@@ -120,6 +135,10 @@ def adapt(spec):
 
     if kind == 'character':
         cw, ch = dimensions(spec.get('cell', '32x48'))
+        if spec.get('pad_grid') and (im.width % 4 or im.height % 4):
+            padded = Image.new('RGBA', (im.width + (-im.width % 4), im.height + (-im.height % 4)))
+            padded.alpha_composite(im)
+            im = padded
         if im.width % 4 or im.height % 4:
             raise ValueError('Hoja de origen: ancho y alto deben ser divisibles entre 4')
         sw, sh = im.width//4, im.height//4
@@ -176,8 +195,77 @@ def save(dest, im):
     print(f'{dest.relative_to(ROOT)}: {im.width}x{im.height}, {im.mode}')
 
 
+def review_inventory(value):
+    """Auditoría de PNG y láminas 1x/2x; nunca escribe en Graphics ni Data."""
+    inventory = json.loads(path(value).read_text(encoding='utf-8-sig'))
+    installed = set()
+    for manifest in (ROOT / 'diseno/arte_hd2d').glob('lote_*.json'):
+        for spec in json.loads(manifest.read_text(encoding='utf-8-sig'))['assets']:
+            installed.add(spec['destination'])
+    errors, checked = [], []
+    for row in inventory:
+        rel = row['path']
+        current, backup = ROOT / rel, BACKUP / rel
+        if not current.exists() or not backup.exists():
+            errors.append(f'Falta actual o respaldo: {rel}')
+            continue
+        with Image.open(current) as im, Image.open(backup) as original:
+            im.load()
+            if im.size != original.size or list(im.size) != row['size']:
+                errors.append(f'Tamaño distinto: {rel}: {im.size} / {original.size}')
+            if rel.startswith('Graphics/Characters/') and (im.width % 4 or im.height % 4):
+                errors.append('Cuadrícula no divisible entre cuatro: ' + rel)
+            if rel.endswith('vacas_vacio.png') and im.convert('RGBA').getchannel('A').getbbox():
+                errors.append('vacas_vacio dejó de ser transparente')
+            if rel in installed and rel.startswith(('Graphics/Characters/', 'Graphics/Battlers/')):
+                if im.mode != 'RGBA' or im.getchannel('A').getextrema()[0] != 0:
+                    errors.append('Falta transparencia: ' + rel)
+            status = 'FASE 2' if rel in installed else 'APROBADO FASE 1' if row['status'] == 'approved_phase1' else 'TECNICO' if row['status'] == 'technical_preserve' else 'PENDIENTE'
+            checked.append({'path': rel, 'size': list(im.size), 'status': status,
+                            'cell': [im.width//4, im.height//4] if '/Characters/' in rel else None})
+    protected_file = ROOT / 'diseno/arte_hd2d/protegidos_fase2.json'
+    protected = json.loads(protected_file.read_text(encoding='utf-8'))
+    for rel, expected in protected.items():
+        if not (ROOT/rel).exists() or hashlib.sha256((ROOT/rel).read_bytes()).hexdigest() != expected:
+            errors.append('Archivo protegido cambiado: ' + rel)
+    report = {'checked': checked, 'errors': errors, 'protected_unchanged': not any('protegido' in e for e in errors),
+              'scope': 'Inventario completo frente a respaldo y tamaño inicial; no prueba animación dentro del motor.'}
+    (ROOT / 'diseno/arte_hd2d/verificacion_fase2.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
+    objects = {'vacas_cosas', 'vacas_furgoneta', 'vacas_matadero', 'vacas_muebles', 'vacas_puerta', 'vacas_tablon', 'vacas_vacio'}
+    groups = {
+        'personajes': [r for r in checked if '/retrato_' in r['path'] or ('/Characters/' in r['path'] and Path(r['path']).stem not in objects)],
+        'enemigos': [r for r in checked if '/Battlers/' in r['path']],
+        'sustos': [r for r in checked if '/screamer_' in r['path']],
+    }
+    captures = ROOT / 'diseno/capturas'
+    captures.mkdir(parents=True, exist_ok=True)
+    for name, rows in groups.items():
+        columns = 1 if name == 'sustos' else 3
+        width = max(r['size'][0] for r in rows)*3 + 48
+        height = max(r['size'][1] for r in rows)*2 + 60
+        sheet = Image.new('RGB', (columns*width, math.ceil(len(rows)/columns)*height+40), '#30343A')
+        draw = ImageDraw.Draw(sheet)
+        draw.text((12, 10), 'VACAS FASE 2 - ' + name + ' - izquierda 1x / derecha 2x - estados por archivo', fill='white')
+        for n, row in enumerate(rows):
+            x, y = (n % columns)*width, (n//columns)*height+40
+            color = '#99D5A5' if row['status'] == 'FASE 2' else '#E2C580'
+            draw.text((x+10,y+4), Path(row['path']).name, fill='white')
+            draw.text((x+10,y+20), row['status'], fill=color)
+            im = Image.open(ROOT / row['path']).convert('RGBA')
+            sheet.paste(im, (x+10,y+44), im)
+            enlarged = im.resize((im.width*2,im.height*2), Image.Resampling.NEAREST)
+            sheet.paste(enlarged, (x+im.width+28,y+44), enlarged)
+        sheet.save(captures / ('fase2_' + name + '.png'))
+    print(json.dumps({'png_checked': len(checked), 'phase2_installed': len(installed), 'errors': errors}, ensure_ascii=False))
+    if errors:
+        raise ValueError('Errores de inventario; consultar verificacion_fase2.json')
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__)
+    p.add_argument('--review-inventory', help='JSON de inventario: audita y crea láminas 1x/2x')
+    p.add_argument('--review-source', help='Fuente para vista de inspección sobre fondo opaco')
+    p.add_argument('--review-output', help='PNG de inspección dentro de diseno/capturas')
     p.add_argument('--batch', help='JSON: lista de assets o {"assets": [...]}')
     p.add_argument('--source')
     p.add_argument('--destination')
@@ -193,6 +281,25 @@ def main():
     p.add_argument('--outline', help='Color del contorno de 1 px')
     p.add_argument('--resample', choices=['nearest', 'box', 'lanczos'], default='nearest')
     args = vars(p.parse_args())
+    review = args.pop('review_inventory')
+    if review:
+        review_inventory(review)
+        return
+    review_source, review_output = args.pop('review_source'), args.pop('review_output')
+    if review_source:
+        if not review_output:
+            p.error('review-source requiere review-output')
+        dest = path(review_output)
+        dest.relative_to(ROOT / 'diseno/capturas')
+        if dest.suffix.lower() != '.png':
+            p.error('La vista debe ser PNG')
+        im = alpha_cleanup(Image.open(path(review_source)).convert('RGBA'), 128)
+        im.thumbnail((960, 960), Image.Resampling.BOX)
+        bg = Image.new('RGBA', im.size, '#30343A')
+        bg.alpha_composite(im)
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        bg.convert('RGB').save(dest)
+        return
     batch = args.pop('batch')
     try:
         if batch:
