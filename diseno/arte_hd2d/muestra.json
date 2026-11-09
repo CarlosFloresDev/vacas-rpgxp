@@ -1,0 +1,37 @@
+{
+  "assets": [
+    {
+      "source": "diseno/arte_hd2d/steven_coherente.png",
+      "destination": "Graphics/Characters/vacas_steven.png",
+      "type": "character",
+      "cell": "32x48",
+      "alpha_threshold": 128,
+      "resample": "nearest",
+      "zone": "piso",
+      "padding": 4
+    },
+    {
+      "source": "diseno/arte_hd2d/steven_retrato.png",
+      "destination": "Graphics/Pictures/retrato_steven_neutral.png",
+      "type": "retrato",
+      "alpha_threshold": 128,
+      "resample": "nearest"
+    },
+    {
+      "source": "diseno/arte_hd2d/vaca.png",
+      "destination": "Graphics/Battlers/enemigo_vaca.png",
+      "type": "battler",
+      "size": "320x300",
+      "max_height": 300,
+      "alpha_threshold": 128,
+      "resample": "nearest",
+      "padding": 3
+    },
+    {
+      "source": "diseno/arte_hd2d/susto.png",
+      "destination": "Graphics/Pictures/screamer_3.png",
+      "type": "picture",
+      "resample": "nearest"
+    }
+  ]
+}

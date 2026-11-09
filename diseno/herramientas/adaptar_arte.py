@@ -1,0 +1,217 @@
+"""Adaptación CPU/Pillow a RGSS1. Rutas relativas a la raíz del proyecto.
+
+python diseno/herramientas/adaptar_arte.py --help
+No genera imágenes ni ejecuta los generadores antiguos.
+"""
+import argparse
+import json
+import os
+from pathlib import Path
+import shutil
+import tempfile
+
+from PIL import Image, ImageChops, ImageColor, ImageFilter, ImageOps
+
+ROOT = Path(__file__).resolve().parents[2]
+BACKUP = ROOT / 'diseno/arte_provisional/sd_v1'
+PALETTES = {
+    'piso': ['#141318', '#29252A', '#494039', '#71634B', '#A18A59', '#D1BA7B', '#E8D9AA', '#444B50', '#77848A', '#A6B8BE', '#533E38', '#946A55', '#C69878', '#E4C4A0', '#350F19', '#701D2C'],
+    'matadero': ['#10171D', '#263239', '#465557', '#738585', '#ADC0BD', '#DFE7DC', '#F3F0D9', '#251018', '#4B1020', '#78192A', '#A42A39', '#CE5259', '#E8908A', '#694139', '#AA7656', '#D4B48A'],
+    'alcantarillas': ['#090F12', '#142422', '#243C34', '#3D5744', '#62745A', '#8B9870', '#BBC19A', '#394C54', '#6C8B91', '#ACCDCA', '#30121B', '#641B2C', '#9B3442', '#C76768', '#927461', '#D2B996'],
+}
+
+
+def path(value):
+    p = Path(value)
+    return p.resolve() if p.is_absolute() else (ROOT / p).resolve()
+
+
+def dimensions(value):
+    if isinstance(value, (list, tuple)):
+        result = tuple(map(int, value))
+    else:
+        result = tuple(map(int, value.lower().split('x')))
+    if len(result) != 2 or min(result) < 1:
+        raise ValueError('El tamaño debe ser ANCHOxALTO, con valores positivos')
+    return result
+
+
+def alpha_cleanup(im, threshold):
+    if threshold is not None:
+        if not 1 <= threshold <= 255:
+            raise ValueError('alpha_threshold debe estar entre 1 y 255')
+        im.putalpha(im.getchannel('A').point(lambda a: 255 if a >= threshold else 0))
+    return im
+
+
+def remove_key(im, key, tolerance):
+    if not 0 <= tolerance <= 255:
+        raise ValueError('key_tolerance debe estar entre 0 y 255')
+    rgb = ImageColor.getrgb(key)
+    im.putdata([(r, g, b, 0 if max(abs(r-rgb[0]), abs(g-rgb[1]), abs(b-rgb[2])) <= tolerance else a)
+                for r, g, b, a in im.getdata()])
+    return im
+
+
+def crop(im):
+    box = im.getchannel('A').getbbox()
+    if box is None:
+        raise ValueError('Imagen/celda vacía; revise transparencia o color clave')
+    return im.crop(box)
+
+
+def quantize(im, zone):
+    if not zone:
+        return im
+    colors = [ImageColor.getrgb(c) for c in PALETTES[zone]]
+    palette = Image.new('P', (1, 1))
+    # Rellenar con el último color, sin introducir negro fuera de paleta.
+    palette.putpalette([v for c in colors + [colors[-1]] * (256-len(colors)) for v in c])
+    result = im.convert('RGB').quantize(palette=palette, dither=Image.Dither.NONE).convert('RGBA')
+    result.putalpha(im.getchannel('A'))
+    return result
+
+
+def outline(im, color):
+    alpha = im.getchannel('A')
+    edge = ImageChops.subtract(alpha.filter(ImageFilter.MaxFilter(3)), alpha)
+    base = Image.new('RGBA', im.size, ImageColor.getrgb(color) + (0,))
+    base.putalpha(edge)
+    base.alpha_composite(im)
+    return base
+
+
+def place(im, size, padding, resample, bottom=True):
+    w, h = size
+    if min(w, h) <= padding*2:
+        raise ValueError('El margen ocupa toda la imagen')
+    ratio = min((w-padding*2)/im.width, (h-padding*2)/im.height)
+    im = im.resize((max(1, round(im.width*ratio)), max(1, round(im.height*ratio))), resample)
+    out = Image.new('RGBA', size)
+    out.alpha_composite(im, ((w-im.width)//2, h-padding-im.height if bottom else (h-im.height)//2))
+    return out
+
+
+def adapt(spec):
+    source, dest = path(spec['source']), path(spec['destination'])
+    # Solo arte del proyecto, nunca Data ni scripts ni respaldos como destino.
+    dest.relative_to(ROOT / 'Graphics')
+    if dest.suffix.lower() != '.png' or source == dest:
+        raise ValueError('Destino PNG distinto del origen, dentro de Graphics/')
+    kind = spec['type']
+    if kind not in ('character', 'battler', 'face', 'retrato', 'picture', 'battleback'):
+        raise ValueError('Tipo de asset desconocido: ' + kind)
+    im = Image.open(source).convert('RGBA')
+    if spec.get('key'):
+        im = remove_key(im, spec['key'], int(spec.get('key_tolerance', 0)))
+    threshold = spec.get('alpha_threshold')
+    im = alpha_cleanup(im, threshold)
+    resample = {'nearest': Image.Resampling.NEAREST, 'box': Image.Resampling.BOX,
+                'lanczos': Image.Resampling.LANCZOS}[spec.get('resample', 'nearest')]
+    padding = int(spec.get('padding', 1))
+    if padding < 0:
+        raise ValueError('Margen negativo')
+    if spec.get('outline'):
+        padding = max(1, padding)
+
+    def finish(img):
+        img = quantize(alpha_cleanup(img, threshold), spec.get('zone'))
+        return outline(img, spec['outline']) if spec.get('outline') else img
+
+    if kind == 'character':
+        cw, ch = dimensions(spec.get('cell', '32x48'))
+        if im.width % 4 or im.height % 4:
+            raise ValueError('Hoja de origen: ancho y alto deben ser divisibles entre 4')
+        sw, sh = im.width//4, im.height//4
+        cells = [crop(im.crop((x*sw, y*sh, (x+1)*sw, (y+1)*sh))) for y in range(4) for x in range(4)]
+        if min(cw, ch) <= 2*padding:
+            raise ValueError('Margen incompatible con celda')
+        # Una escala común evita que cada paso cambie el tamaño del cuerpo.
+        ratio = min((cw-2*padding)/max(c.width for c in cells), (ch-2*padding)/max(c.height for c in cells))
+        result = Image.new('RGBA', (cw*4, ch*4))
+        for n, c in enumerate(cells):
+            c = c.resize((max(1, round(c.width*ratio)), max(1, round(c.height*ratio))), resample)
+            tile = Image.new('RGBA', (cw, ch))
+            tile.alpha_composite(c, ((cw-c.width)//2, ch-padding-c.height))
+            result.alpha_composite(finish(tile), ((n % 4)*cw, (n//4)*ch))
+    elif kind in ('face', 'retrato'):
+        result = finish(place(crop(im), dimensions(spec.get('size', '240x340')), padding, resample))
+    elif kind == 'battler':
+        im = crop(im)
+        height = int(spec.get('max_height', 300))
+        if height <= padding*2:
+            raise ValueError('Altura máxima insuficiente')
+        if spec.get('size'):
+            size = dimensions(spec['size'])
+            if size[1] > height:
+                raise ValueError('El lienzo supera max_height')
+        else:
+            scale = min(1, (height-padding*2)/im.height)
+            size = (max(1, round(im.width*scale))+padding*2, round(im.height*scale)+padding*2)
+        result = finish(place(im, size, padding, resample))
+    else:
+        size = dimensions(spec.get('size', '640x480'))
+        # Cubrir sin deformar; recorte central. Preparar composición 4:3 en origen.
+        result = ImageOps.fit(im, size, method=resample)
+        bg = Image.new('RGBA', size, spec.get('background', '#101217'))
+        bg.alpha_composite(result)
+        result = finish(bg).convert('RGB')
+    return dest, result
+
+
+def save(dest, im):
+    backup = BACKUP / dest.relative_to(ROOT)
+    if dest.exists() and not backup.exists():
+        backup.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(dest, backup)  # Primer original: nunca sobrescribirlo al iterar.
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    fd, temporary = tempfile.mkstemp(suffix='.png', dir=dest.parent)
+    os.close(fd)
+    try:
+        im.save(temporary, format='PNG')
+        os.replace(temporary, dest)
+    finally:
+        if os.path.exists(temporary):
+            os.unlink(temporary)
+    print(f'{dest.relative_to(ROOT)}: {im.width}x{im.height}, {im.mode}')
+
+
+def main():
+    p = argparse.ArgumentParser(description=__doc__)
+    p.add_argument('--batch', help='JSON: lista de assets o {"assets": [...]}')
+    p.add_argument('--source')
+    p.add_argument('--destination')
+    p.add_argument('--type', choices=['character', 'battler', 'face', 'retrato', 'picture', 'battleback'])
+    p.add_argument('--cell', default='32x48')
+    p.add_argument('--size')
+    p.add_argument('--max-height', type=int, default=300)
+    p.add_argument('--padding', type=int, default=1)
+    p.add_argument('--zone', choices=PALETTES)
+    p.add_argument('--alpha-threshold', type=int)
+    p.add_argument('--key', help='Color clave, por ejemplo #FF00FF')
+    p.add_argument('--key-tolerance', type=int, default=0)
+    p.add_argument('--outline', help='Color del contorno de 1 px')
+    p.add_argument('--resample', choices=['nearest', 'box', 'lanczos'], default='nearest')
+    args = vars(p.parse_args())
+    batch = args.pop('batch')
+    try:
+        if batch:
+            specs = json.loads(path(batch).read_text(encoding='utf-8-sig'))
+            if isinstance(specs, dict):
+                specs = specs['assets']
+            if not isinstance(specs, list) or not specs:
+                raise ValueError('El lote debe contener una lista no vacía')
+        else:
+            specs = [{k: v for k, v in args.items() if v is not None}]
+        # Validar todos antes de reemplazar el primer archivo.
+        results = [adapt(s) for s in specs]
+        if len({p for p, _ in results}) != len(results):
+            raise ValueError('Destinos duplicados en el lote')
+        for dest, im in results:
+            save(dest, im)
+    except (ValueError, KeyError, OSError, TypeError) as exc:
+        p.exit(2, f'Error: {exc}\n')
+
+
+if __name__ == '__main__':
+    main()
