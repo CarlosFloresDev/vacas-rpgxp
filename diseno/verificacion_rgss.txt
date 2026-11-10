@@ -19,6 +19,11 @@ OK Marshal RGSS: Data/Map008.rxdata
 OK Marshal RGSS: Data/Map009.rxdata
 OK Marshal RGSS: Data/Map010.rxdata
 OK Marshal RGSS: Data/Map011.rxdata
+OK Marshal RGSS: Data/Map012.rxdata
+OK Marshal RGSS: Data/Map013.rxdata
+OK Marshal RGSS: Data/Map014.rxdata
+OK Marshal RGSS: Data/Map015.rxdata
+OK Marshal RGSS: Data/Map016.rxdata
 OK Marshal RGSS: Data/MapInfos.rxdata
 OK Marshal RGSS: Data/Scripts.rxdata
 OK Marshal RGSS: Data/Skills.rxdata
@@ -39,7 +44,7 @@ OK Hueco del salon (6,16)->(6,17) libre
 OK Del umbral hacia Perro
 OK Susto muestra imagen
 OK Susto borra imagen al terminar
-RESPIRAR [216, 18, false, 54, 61]
+RESPIRAR [217, 18, false, 54, 61]
 OK Respirar cura, recupera SP, limpia y baja veneno
 OK Balance enemigo 1 semilla 0 turnos 2
 OK Balance enemigo 1 semilla 1 turnos 2

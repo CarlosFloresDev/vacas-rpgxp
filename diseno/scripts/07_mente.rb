@@ -88,7 +88,7 @@ class Scene_Battle
     end
     $game_player.make_encounter_count
     vacas_mente_end(result)
-    if $vacas_tone_antes != nil
+    unless $vacas_tone_antes.nil?
       $game_screen.start_tone_change($vacas_tone_antes, 0)
       $game_map.battleback_name = $vacas_fondo_antes
       $vacas_tone_antes = nil

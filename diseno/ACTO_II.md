@@ -204,4 +204,6 @@ Las notas (9, 10, 11 y 13) se leen desde el menú con el evento común 1, que se
 
 ## Actualización: sistemas de noviembre de 2026
 
+Desde el 9-11-2026, confirmar el fin del Acto II continúa en la misma partida con [Acto III: Lucy](ACTO_III.md); ya no vuelve al título. Las ramas 34–36 y el pacto 38 se conservan. Ctrl + Nueva partida permite probar III; Mayús conserva el atajo de II.
+
 Diálogos con bustos, nombre y texto progresivo; alucinaciones por turnos, sustos y un pequeño secreto. El salón de Perro vuelve a ser accesible; Cripps deja libre la aproximación al cartel de la cadena. El Acto II añade un jefe mental al acostarse tras el tercer sueldo. La guía [SISTEMAS.md](SISTEMAS.md) documenta controles, encuentros, migración de partidas, validaciones y los 42 PNG provisionales que deben sustituirse.

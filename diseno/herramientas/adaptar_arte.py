@@ -216,7 +216,13 @@ def adapt(spec):
             tile.alpha_composite(c, ((cw-c.width)//2, ch-padding-c.height))
             result.alpha_composite(finish(tile), ((n % 4)*cw, (n//4)*ch))
     elif kind in ('face', 'retrato'):
-        result = finish(place(crop(im), dimensions(spec.get('size', '240x340')), padding, resample))
+        size = dimensions(spec.get('size', '240x340'))
+        if spec.get('preserve_canvas'):
+            if im.size != size:
+                raise ValueError('preserve_canvas requiere lienzo del tamaño de destino')
+            result = finish(im)
+        else:
+            result = finish(place(crop(im), size, padding, resample))
     elif kind == 'battler':
         im = crop(im)
         height = int(spec.get('max_height', 300))

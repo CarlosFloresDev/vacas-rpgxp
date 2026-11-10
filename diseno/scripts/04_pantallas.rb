@@ -144,7 +144,8 @@ end
 class Scene_FinActo
   TEXTOS = {
     1 => ["Fin del Acto I", "El piso", "Acto II: La cadena", "Pulsa Intro para seguir"],
-    2 => ["Fin del Acto II", "La cadena", "Continuará en el Acto III: Lucy", "Pulsa Intro"]
+    2 => ["Fin del Acto II", "La cadena", "Acto III: Lucy", "Pulsa Intro para seguir"],
+    3 => ["Fin del Acto III", "Lucy", "Continuará en el Acto IV: Bajo la ciudad", "Pulsa Intro para volver al título"]
   }
   def initialize(acto = 1)
     @acto = acto
@@ -177,6 +178,9 @@ class Scene_FinActo
       if @t > 260 and Input.trigger?(Input::C)
         if @acto == 1
           Vacas.empezar_acto2
+          $scene = Scene_Map.new
+        elsif @acto == 2
+          Vacas.empezar_acto3
           $scene = Scene_Map.new
         else
           $scene = Scene_Title.new

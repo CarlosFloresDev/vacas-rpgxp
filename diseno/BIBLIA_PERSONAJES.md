@@ -47,7 +47,7 @@ Fecha: 2026-11-09. Autoridad visual: muestra del commit 10d731b aprobada tal cua
 - Acto II: `vacas_steven_mono` cambia solo la ropa: mono blanco gris `#C7C9B7`, abierto lo suficiente para reconocer cuello de camisa marrón, botas `#263239`, suciedad `#694139` y manchas secas limitadas `#4B1020`. Misma cara, pelo, cuerpo. Al volver a casa recupera la camisa. No inventar uniforme por turno sin soporte de eventos.
 - Los dos retratos de Steven se comparten entre casa y matadero: conservar camisa marrón aprobada. No cambiar el neutral a mono ni crear alternancia sin scripts. El battler mental también conserva camisa para funcionar en ambos actos.
 - Madre, Lucy, vecinos y Perro conservan ropa/apariencia en I–II. Obreros y Cripps usan manchas constantes de trabajo; no son heridas personales. La vaca cotidiana no lleva heridas de su visión.
-- Actos III–VI son planificación: no fabricar variantes de heridas o muertes que no existen en los assets/eventos actuales.
+- Acto III implementado: Lucy añade calma y quiebre facial sin cambiar cuerpo, ropa, tarro ni identidad; ambos estados se usan en eventos. Actos IV–VI continúan en planificación: no fabricar variantes de heridas o muertes que no existen en los assets/eventos actuales.
 - Confirmado en `herramientas/contenido2.py`: obrero1=Benito; obrero3=Encarna; obrero4=Chato; **obrero2=Rubio Y obrero de la sierra** (líneas 414 y 603). No es posible hacer dos sprites distintos sin modificar eventos. Diseño compartido con equipo protector compatible en ambas referencias, dejando al Rubio reconocible por pelo visible; no afirmar que son el mismo personaje. Registrar limitación y revisar juntos sus retratos. No cambiar Data para resolverla.
 - Guernsey aparece mediante celdas de rejilla de `vacas_matadero`, no asignar su identidad a la vaca del fondo por semejanza de color.
 
@@ -69,3 +69,13 @@ Siempre adjuntar referencia de identidad y base aprobada de estilo. Gore explíc
 | screamer_4 | Rostro anónimo adulto sustituido por sumidero con carne desgarrada, no cambiar identidad de Steven; referencia `sumidero.png` |
 
 Las referencias de entidades sin cuerpo humano usarán frontal y lateral de su forma completa, sin inventar piernas para completar una hoja.
+
+## Ampliación Acto III — 9-11-2026
+
+- **Elena / `referencias/elena.png`:** 56 años, enfermera retirada, baja y robusta, cara ancha cansada, piel oliva, ojos castaño oscuro, pelo corto rizado gris; cárdigan carbón sobre blusa de enfermería azul gastado, pantalón oscuro y zapatos planos marrones. Llaves de latón pequeñas. Referencia frontal/lateral, retrato neutral y sprite propio comparados. No es médica ni emite un diagnóstico; presta material y acompaña a Lucy.
+- **Lucy:** `retrato_lucy_quiebre` (lágrimas, mirada perdida, boca temblorosa) y `retrato_lucy_calma` (leve sonrisa cansada, cejas relajadas). Generación desde neutral y referencia; adaptación con máscara facial y lienzo preservado. Resto de los píxeles del neutral se conserva fuera del área facial y su fundido. La crisis no añade heridas ni transforma a Lucy en enemigo.
+- **Tarro testigo / `tarro.png`:** recipiente de vidrio con tapa envejecida, boca de tejido burdeos, etiqueta sin letras. Susto 8 lo acerca al hueco de una persiana.
+- **Factura cosida / `factura.png`:** tiras de papel marfil sin escritura, hilo quirúrgico negro, sellos burdeos y balanza de latón. Visión de convertir el sufrimiento en un precio.
+- **Camilla vacía / `camilla.png`:** camilla oxidada sin paciente, sábana hundida en un vacío, brazos de tejido oscuro y ruedas torcidas. No representa un cuerpo humano real.
+- **Diagnóstico / `diagnostico.png`:** silla hospitalaria vacía dentro de un gran tarro, tiras de papel como costillas, corona de pinzas de latón y raíces fibrosas burdeos. Personifica una orden de encontrar una pieza defectuosa; no es Lucy. Susto 9 muestra el mismo motivo desde dentro del vidrio.
+- Fuentes, prompts y manifiesto del lote en `arte_hd2d/acto3/`. Referencias, battlers, retratos, sprite y objetos revisados con `view_image`; no se reemplazó arte aprobado de I/II.

@@ -1,0 +1,239 @@
+OK Marshal Data/Actors.rxdata
+OK Marshal Data/Animations.rxdata
+OK Marshal Data/Armors.rxdata
+OK Marshal Data/Classes.rxdata
+OK Marshal Data/CommonEvents.rxdata
+OK Marshal Data/Enemies.rxdata
+OK Marshal Data/Items.rxdata
+OK Marshal Data/Map001.rxdata
+OK Marshal Data/Map002.rxdata
+OK Marshal Data/Map003.rxdata
+OK Marshal Data/Map004.rxdata
+OK Marshal Data/Map005.rxdata
+OK Marshal Data/Map006.rxdata
+OK Marshal Data/Map007.rxdata
+OK Marshal Data/Map008.rxdata
+OK Marshal Data/Map009.rxdata
+OK Marshal Data/Map010.rxdata
+OK Marshal Data/Map011.rxdata
+OK Marshal Data/Map012.rxdata
+OK Marshal Data/Map013.rxdata
+OK Marshal Data/Map014.rxdata
+OK Marshal Data/Map015.rxdata
+OK Marshal Data/Map016.rxdata
+OK Marshal Data/MapInfos.rxdata
+OK Marshal Data/Scripts.rxdata
+OK Marshal Data/Skills.rxdata
+OK Marshal Data/States.rxdata
+OK Marshal Data/System.rxdata
+OK Marshal Data/Tilesets.rxdata
+OK Marshal Data/Troops.rxdata
+OK Marshal Data/Weapons.rxdata
+OK Nueva partida: teclas [] mapa 1
+OK Nueva partida: teclas [11] mapa 5
+OK Nueva partida: teclas [22] mapa 12
+OK Atajo conserva rama seleccionada
+OK Nueva partida: teclas [22, 11] mapa 12
+OK Atajo conserva rama seleccionada
+OK Atajo rama false
+OK Evento 12 Dos golpes
+OK Evento 12 Lucy junto a la mesa
+OK Dos tarros iniciales
+OK Evento 13 Molina
+OK Hígado consume un solo tarro
+OK Evento 14 Persiana despierta
+OK Persecución activa
+OK Evento 14 Riñón del lote borrado
+OK Segundo tarro usado para riñón
+OK Evento 14 Tiempo de la persiana
+OK Paralelo solicita captura sin bloquear mensaje/transferencia
+OK Evento 14 Captura de la persiana
+OK Captura conserva muestra y limpia temporizador
+OK Evento 14 Sombra de la persiana
+OK Contacto y tiempo agotado permiten reintentar
+OK Evento 14 Cortina azul: refugio
+OK Refugio restaura control
+OK Evento 15 Elena
+OK Material y suero
+OK Evento 16 Preparación A: hígado
+OK Procedimiento incorrecto no gasta muestra
+OK Evento 16 Comparador y cuaderno
+OK Comparador bloquea sin control
+OK Evento 16 Preparación A: hígado
+OK Evento 16 Preparación B: riñón
+OK Evento 16 Control limpio
+OK Evento 16 Preparación A: hígado
+OK Tres preparaciones sin duplicar
+OK Evento 16 Comparador y cuaderno
+OK Quiebre, susto y cuaderno
+OK Evento 16 Lucy: diagnóstico
+OK Jefe y fin registrados
+OK Elecciones mutuamente excluyentes
+OK Continuidad para Acto IV
+OK Decisión se serializa en formato de guardado
+OK Atajo rama true
+OK Evento 12 Dos golpes
+OK Evento 12 Lucy junto a la mesa
+OK Dos tarros iniciales
+OK Evento 13 Molina
+OK Hígado consume un solo tarro
+OK Evento 14 Persiana despierta
+OK Persecución activa
+OK Evento 14 Riñón del lote borrado
+OK Segundo tarro usado para riñón
+OK Evento 14 Tiempo de la persiana
+OK Paralelo solicita captura sin bloquear mensaje/transferencia
+OK Evento 14 Captura de la persiana
+OK Captura conserva muestra y limpia temporizador
+OK Evento 14 Sombra de la persiana
+OK Contacto y tiempo agotado permiten reintentar
+OK Evento 14 Cortina azul: refugio
+OK Refugio restaura control
+OK Evento 15 Elena
+OK Material y suero
+OK Evento 16 Preparación A: hígado
+OK Procedimiento incorrecto no gasta muestra
+OK Evento 16 Comparador y cuaderno
+OK Comparador bloquea sin control
+OK Evento 16 Preparación A: hígado
+OK Evento 16 Preparación B: riñón
+OK Evento 16 Control limpio
+OK Evento 16 Preparación A: hígado
+OK Tres preparaciones sin duplicar
+OK Evento 16 Comparador y cuaderno
+OK Quiebre, susto y cuaderno
+OK Evento 16 Lucy: diagnóstico
+OK Jefe y fin registrados
+OK Elecciones mutuamente excluyentes
+OK Continuidad para Acto IV
+OK Decisión se serializa en formato de guardado
+OK 16 mapas: spritesets reales
+OK Retratos nuevos en ventana VN real
+OK Susto 8 visible
+OK Susto limpiado
+OK Susto no se repite
+OK Susto 9 visible
+OK Susto limpiado
+OK Susto no se repite
+OK Balance 10 semilla 0 turnos 5
+OK Balance 10 semilla 1 turnos 3
+OK Balance 10 semilla 2 turnos 4
+OK Balance 10 semilla 3 turnos 3
+OK Balance 10 semilla 4 turnos 5
+OK Balance 10 semilla 5 turnos 3
+OK Balance 10 semilla 6 turnos 3
+OK Balance 10 semilla 7 turnos 3
+OK Balance 10 semilla 8 turnos 6
+OK Balance 10 semilla 9 turnos 3
+OK Balance 10 semilla 10 turnos 5
+OK Balance 10 semilla 11 turnos 3
+OK Balance 10 semilla 12 turnos 3
+OK Balance 10 semilla 13 turnos 4
+OK Balance 10 semilla 14 turnos 5
+OK Balance 10 semilla 15 turnos 3
+OK Balance 10 semilla 16 turnos 3
+OK Balance 10 semilla 17 turnos 6
+OK Balance 10 semilla 18 turnos 4
+OK Balance 10 semilla 19 turnos 3
+OK Balance 10 semilla 20 turnos 3
+OK Balance 10 semilla 21 turnos 4
+OK Balance 10 semilla 22 turnos 3
+OK Balance 10 semilla 23 turnos 5
+OK Balance 10 semilla 24 turnos 4
+OK Balance 10 semilla 25 turnos 3
+OK Balance 10 semilla 26 turnos 4
+OK Balance 10 semilla 27 turnos 5
+OK Balance 10 semilla 28 turnos 4
+OK Balance 10 semilla 29 turnos 3
+OK Balance 11 semilla 0 turnos 5
+OK Balance 11 semilla 1 turnos 3
+OK Balance 11 semilla 2 turnos 4
+OK Balance 11 semilla 3 turnos 6
+OK Balance 11 semilla 4 turnos 5
+OK Balance 11 semilla 5 turnos 3
+OK Balance 11 semilla 6 turnos 3
+OK Balance 11 semilla 7 turnos 3
+OK Balance 11 semilla 8 turnos 6
+OK Balance 11 semilla 9 turnos 3
+OK Balance 11 semilla 10 turnos 6
+OK Balance 11 semilla 11 turnos 4
+OK Balance 11 semilla 12 turnos 3
+OK Balance 11 semilla 13 turnos 4
+OK Balance 11 semilla 14 turnos 5
+OK Balance 11 semilla 15 turnos 5
+OK Balance 11 semilla 16 turnos 5
+OK Balance 11 semilla 17 turnos 7
+OK Balance 11 semilla 18 turnos 4
+OK Balance 11 semilla 19 turnos 3
+OK Balance 11 semilla 20 turnos 3
+OK Balance 11 semilla 21 turnos 4
+OK Balance 11 semilla 22 turnos 3
+OK Balance 11 semilla 23 turnos 5
+OK Balance 11 semilla 24 turnos 10
+OK Balance 11 semilla 25 turnos 3
+OK Balance 11 semilla 26 turnos 4
+OK Balance 11 semilla 27 turnos 5
+OK Balance 11 semilla 28 turnos 5
+OK Balance 11 semilla 29 turnos 3
+OK Balance 12 semilla 0 turnos 6
+OK Balance 12 semilla 1 turnos 4
+OK Balance 12 semilla 2 turnos 5
+OK Balance 12 semilla 3 turnos 6
+OK Balance 12 semilla 4 turnos 7
+OK Balance 12 semilla 5 turnos 4
+OK Balance 12 semilla 6 turnos 4
+OK Balance 12 semilla 7 turnos 4
+OK Balance 12 semilla 8 turnos 8
+OK Balance 12 semilla 9 turnos 4
+OK Balance 12 semilla 10 turnos 6
+OK Balance 12 semilla 11 turnos 4
+OK Balance 12 semilla 12 turnos 5
+OK Balance 12 semilla 13 turnos 5
+OK Balance 12 semilla 14 turnos 6
+OK Balance 12 semilla 15 turnos 5
+OK Balance 12 semilla 16 turnos 5
+OK Balance 12 semilla 17 turnos 7
+OK Balance 12 semilla 18 turnos 8
+OK Balance 12 semilla 19 turnos 7
+OK Balance 12 semilla 20 turnos 8
+OK Balance 12 semilla 21 turnos 6
+OK Balance 12 semilla 22 turnos 5
+OK Balance 12 semilla 23 turnos 6
+OK Balance 12 semilla 24 turnos 10
+OK Balance 12 semilla 25 turnos 4
+OK Balance 12 semilla 26 turnos 5
+OK Balance 12 semilla 27 turnos 10
+OK Balance 12 semilla 28 turnos 5
+OK Balance 12 semilla 29 turnos 4
+OK Balance 13 semilla 0 turnos 14
+OK Balance 13 semilla 1 turnos 21
+OK Balance 13 semilla 2 turnos 18
+OK Balance 13 semilla 3 turnos 19
+OK Balance 13 semilla 4 turnos 20
+OK Balance 13 semilla 5 turnos 16
+OK Balance 13 semilla 6 turnos 22
+OK Balance 13 semilla 7 turnos 16
+OK Balance 13 semilla 8 turnos 16
+OK Balance 13 semilla 9 turnos 19
+OK Balance 13 semilla 10 turnos 16
+OK Balance 13 semilla 11 turnos 15
+OK Balance 13 semilla 12 turnos 13
+OK Balance 13 semilla 13 turnos 19
+OK Balance 13 semilla 14 turnos 17
+OK Balance 13 semilla 15 turnos 15
+OK Balance 13 semilla 16 turnos 14
+OK Balance 13 semilla 17 turnos 15
+OK Balance 13 semilla 18 turnos 18
+OK Balance 13 semilla 19 turnos 15
+OK Balance 13 semilla 20 turnos 16
+OK Balance 13 semilla 21 turnos 18
+OK Balance 13 semilla 22 turnos 15
+OK Balance 13 semilla 23 turnos 15
+OK Balance 13 semilla 24 turnos 19
+OK Balance 13 semilla 25 turnos 17
+OK Balance 13 semilla 26 turnos 21
+OK Balance 13 semilla 27 turnos 19
+OK Balance 13 semilla 28 turnos 18
+OK Balance 13 semilla 29 turnos 18
+OK Diagnóstico: Scene_Battle nativo vuelve al mapa
+OK FIN: Acto III verificado con RGSS104E real

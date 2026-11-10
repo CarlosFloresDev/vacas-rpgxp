@@ -52,7 +52,7 @@ Steven pasa de víctima a verdugo y termina como rey-dios de una manada carnívo
 - **Persecuciones** (madre, Cripps, la manada hambrienta) con escondites (armarios, cámaras frías).
 - **Turnos en el matadero:** minijuegos cortos (ritmo y precisión) que pagan dinero y desbloquean zonas.
 - **Decisiones con peso:** variables y switches que cambian diálogos, aliados y final.
-- **Combate mental por turnos (actualización 08-11-2026).** Visiones con el sistema frontal de XP, nueve enemigos, estados psicológicos y veneno. Encuentros limitados en el matadero y jefe al final del Acto II. Ver [SISTEMAS.md](SISTEMAS.md).
+- **Combate mental por turnos (actualización 09-11-2026).** Visiones con el sistema frontal de XP, trece enemigos, estados psicológicos y veneno. Encuentros limitados en el matadero y jefes al final de los actos II y III. Ver [SISTEMAS.md](SISTEMAS.md).
 - **Guardado** solo en puntos concretos (la tele, un altar en las alcantarillas).
 
 ## 4. Arte y sonido
@@ -88,7 +88,7 @@ Steven pasa de víctima a verdugo y termina como rey-dios de una manada carnívo
 1. **Prototipo vertical (Acto I completo):** piso, madre, Perro, tele, cordura y guardado. Sirve para validar el tono.
 2. Base de datos y scripts núcleo (cordura, linterna, retratos, persecución).
 3. Acto II (matadero) con sus minijuegos.
-4. Actos III–IV.
+4. Acto III implementado: [Lucy](ACTO_III.md). Sigue pendiente el Acto IV.
 5. Actos V–VI y finales.
 6. Arte propio (retratos, matadero, vacas), sonido y pulido.
 7. Pruebas y build (Game.exe + RTP incluido).

@@ -1,4 +1,4 @@
-# Sistemas de Vacas: Actos I y II
+# Sistemas de Vacas: Actos I, II y III
 
 Actualización del 8 de noviembre de 2026. RGSS1 / Ruby 1.8, resolución 640×480. Diálogos originales en castellano; el contenido sexual permanece fuera de campo. Estos sistemas sustituyen la decisión inicial de prescindir del combate clásico.
 
@@ -93,6 +93,49 @@ Los puntos opcionales pueden omitirse; explorar ambos actos permite encontrar lo
 Se conservan tonos, niebla y sonidos de los actos originales. El combate guarda y restaura el tono del mapa: una escena de sueño con pantalla negra no vuelve invisible la batalla. Se añade un dibujo escondido en el libro infantil de Steven: una puerta abierta y Perro. Encontrarlo una vez baja 5 de veneno (interruptor 53).
 
 ## Datos reservados y mantenimiento
+
+### Ampliación del Acto III (9-11-2026)
+
+Implementación y recorrido: [ACTO_III.md](ACTO_III.md). Los rangos anteriores permanecen intactos. Nuevos datos después del máximo reservado anterior (80 interruptores, variable 18, objeto 13):
+
+| Interruptor | Uso |
+|---|---|
+| 81–86 | Acto activo; introducción; encargo; hígado; riñón; material de Elena |
+| 87, 89 | Reservados para A3; sin uso actual |
+| 88 | Resultados comparados y quiebre de Lucy |
+| 90–91 | Persecución de la persiana activa; depósito superado |
+| 92–95 | Tarro, Factura y Camilla afrontados; Diagnóstico vencido |
+| 96–97 | Elección futura: quedarse con Lucy / llevar pruebas abajo. Mutuamente excluyentes |
+| 98 | Acto III terminado |
+| 99–100 | Sustos 8 y 9 vistos; se conserva imagen 98 y duración de 24 fotogramas |
+| 101–103 | Captura pendiente (paralelo → autorun); tazas compartidas; etiqueta R-0 leída |
+| 104–106 | Preparaciones A, B y CONTROL hechas |
+| 107 | Conversación de límites con madre hecha |
+
+System tiene ahora **112 interruptores**; 108–112 siguen libres. Variables nuevas: **19** etapa (1–8), **20** confianza con Lucy, **21** capturas, **22** número de preparaciones (0–3), **23** elección (1 Lucy / 2 pruebas). Variable 18 mantiene el resultado mental. No se modifican habilidades ni estados existentes.
+
+| Objeto | Nombre |
+|---|---|
+| 14–15 | Tarro limpio; Protocolo de Lucy |
+| 16–18 | Hígado: lote 17; Riñón sin etiqueta; Sal sin abrir |
+| 19–22 | Guantes limpios; Pinza de curas; Reactivo R-0; Suero limpio |
+| 23–24 | Etiquetas de lotes; Protocolo de contraste |
+| 25–27 | Preparación A azul; Preparación B azul; Control azul |
+| 28–29 | Cuaderno de resultados; Llave del colector |
+
+Notas **15, 23, 24, 28 y 29** se leen con **CE1**, conservando el apéndice de I/II. Dos tarros iniciales, una muestra por tarro; los tres ensayos consumen solo su muestra. Los puzles comprueban objetos reales, no solamente interruptores.
+
+**Enemigos/tropas 10–13:** Tarro testigo (230 HP, técnica 65), Factura cosida (260, 66), Camilla vacía (300, 67), Diagnóstico (720, 70). Usan las técnicas 61–70 y estados 2–4 existentes; cero dinero/experiencia. El jefe exige victoria y permite reintento completo. No hay nuevos encuentros aleatorios.
+
+**Mapas 12–16**, tileset **51** sin alterar pasajes. **Vacas_Lucy / scripts/09_lucy.rb** añade continuidad, tareas, migración de mapas y Ctrl + Nueva partida; Ctrl+Mayús selecciona resistencia. El fin del II continúa en III; el fin del III ofrece guardado y vuelve al título. Guardar requiere confirmación del jugador. La carga de un guardado final conserva 96/97 para Acto IV, todavía pendiente.
+
+`lucy_tension` limita los incrementos del acto a 96 y respeta la huella. Captura o tiempo agotado conservan objetos, detienen temporizador y restauran menú/visibilidad. El descanso no borra la huella. Nueva hoja **vacas_laboratorio**: 128×256, 4×4 objetos estáticos de 32×64; fijar dirección y patrón. `vacas_elena`: 128×192, 4×4 caminata de 32×48.
+
+**Reaplicar A3 después de regenerar eventos o scripts previos:** `node inspeccionar.mjs`, `python build_acto3.py`, `node rx.mjs --batch b_acto3.json`. Este lote instala sus páginas sin duplicar ni sustituir las páginas históricas. `ampliar_sistema3.mjs` usa el mismo codec del MCP; hacer respaldo completo de Data antes de cualquier escritura. No ejecutar `maps3.py crear` si los mapas 12–16 ya existen.
+
+**Corrección de combate compartida:** `Vacas_Mente` restaura el tono usando `unless $vacas_tone_antes.nil?`; comparar un Tone de RGSS1 con nil mediante `!=` daba TypeError al volver de una batalla real.
+
+**Verificación A3:** 31 rxdata; 99 scripts; 16 mapas y 67 transferencias válidas; 871 referencias sin ausencias; auditoría de seis estados en `verificacion_acto3.json`; `Game.exe` ejecuta los cuatro accesos de Nueva partida, ambas ramas y decisiones, puzles, refugio, 120 simulaciones y jefe nativo. Detalles y límites en ACTO_III.md. El informe histórico de fase 2 de arte corresponde a antes de esta ampliación autorizada de Data/scripts; la auditoría nueva de arte se guarda por separado en `arte_hd2d/acto3/verificacion.json`.
 
 - Interruptores 45–52: visiones afrontadas; 53: secreto; 54: tutorial visto; 55: jefe vencido; 61–67: sustos vistos. System se amplió a 80 interruptores; los no usados permanecen libres.
 - Variable 18: resultado de combate. No se reutilizan variables narrativas de los actos originales.
