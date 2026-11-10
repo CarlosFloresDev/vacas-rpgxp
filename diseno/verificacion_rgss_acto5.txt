@@ -1,0 +1,86 @@
+OK carga Data/Actors.rxdata
+OK carga Data/Animations.rxdata
+OK carga Data/Armors.rxdata
+OK carga Data/Classes.rxdata
+OK carga Data/CommonEvents.rxdata
+OK carga Data/Enemies.rxdata
+OK carga Data/Items.rxdata
+OK carga Data/Map001.rxdata
+OK carga Data/Map002.rxdata
+OK carga Data/Map003.rxdata
+OK carga Data/Map004.rxdata
+OK carga Data/Map005.rxdata
+OK carga Data/Map006.rxdata
+OK carga Data/Map007.rxdata
+OK carga Data/Map008.rxdata
+OK carga Data/Map009.rxdata
+OK carga Data/Map010.rxdata
+OK carga Data/Map011.rxdata
+OK carga Data/Map012.rxdata
+OK carga Data/Map013.rxdata
+OK carga Data/Map014.rxdata
+OK carga Data/Map015.rxdata
+OK carga Data/Map016.rxdata
+OK carga Data/Map017.rxdata
+OK carga Data/Map018.rxdata
+OK carga Data/Map019.rxdata
+OK carga Data/Map020.rxdata
+OK carga Data/Map021.rxdata
+OK carga Data/Map022.rxdata
+OK carga Data/Map023.rxdata
+OK carga Data/Map024.rxdata
+OK carga Data/Map025.rxdata
+OK carga Data/Map026.rxdata
+OK carga Data/Map027.rxdata
+OK carga Data/MapInfos.rxdata
+OK carga Data/Scripts.rxdata
+OK carga Data/Skills.rxdata
+OK carga Data/States.rxdata
+OK carga Data/System.rxdata
+OK carga Data/Tilesets.rxdata
+OK carga Data/Troops.rxdata
+OK carga Data/Weapons.rxdata
+OK atajo Q llega al muelle
+OK pacto del atajo
+OK tareas
+OK zona audio 22
+OK zona audio 23
+OK zona audio 24
+OK zona audio 25
+OK Cripps activo en caza
+OK ruta de Cripps
+OK Cripps se mueve
+OK zona audio 26
+OK zona audio 27
+OK tope alarma
+OK tope dominio
+OK jefe escalado
+OK fin de caza
+OK atajo Q llega al muelle
+OK pacto del atajo
+OK tareas
+OK zona audio 22
+OK zona audio 23
+OK zona audio 24
+OK zona audio 25
+OK Cripps activo en caza
+OK ruta de Cripps
+OK Cripps se mueve
+OK zona audio 26
+OK zona audio 27
+OK tope alarma
+OK tope dominio
+OK jefe escalado
+OK fin de caza
+OK minijuego noria construido
+OK susto 12
+OK susto 13
+OK battler 18
+OK tropa 18
+OK battler 19
+OK tropa 19
+OK battler 20
+OK tropa 20
+OK battler 21
+OK tropa 21
+OK FIN: Acto V verificado con RGSS real
