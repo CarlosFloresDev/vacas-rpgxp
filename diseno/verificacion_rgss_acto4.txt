@@ -1,0 +1,396 @@
+OK Marshal Data/Actors.rxdata
+OK Marshal Data/Animations.rxdata
+OK Marshal Data/Armors.rxdata
+OK Marshal Data/Classes.rxdata
+OK Marshal Data/CommonEvents.rxdata
+OK Marshal Data/Enemies.rxdata
+OK Marshal Data/Items.rxdata
+OK Marshal Data/Map001.rxdata
+OK Marshal Data/Map002.rxdata
+OK Marshal Data/Map003.rxdata
+OK Marshal Data/Map004.rxdata
+OK Marshal Data/Map005.rxdata
+OK Marshal Data/Map006.rxdata
+OK Marshal Data/Map007.rxdata
+OK Marshal Data/Map008.rxdata
+OK Marshal Data/Map009.rxdata
+OK Marshal Data/Map010.rxdata
+OK Marshal Data/Map011.rxdata
+OK Marshal Data/Map012.rxdata
+OK Marshal Data/Map013.rxdata
+OK Marshal Data/Map014.rxdata
+OK Marshal Data/Map015.rxdata
+OK Marshal Data/Map016.rxdata
+OK Marshal Data/Map017.rxdata
+OK Marshal Data/Map018.rxdata
+OK Marshal Data/Map019.rxdata
+OK Marshal Data/Map020.rxdata
+OK Marshal Data/Map021.rxdata
+OK Marshal Data/MapInfos.rxdata
+OK Marshal Data/Scripts.rxdata
+OK Marshal Data/Skills.rxdata
+OK Marshal Data/States.rxdata
+OK Marshal Data/System.rxdata
+OK Marshal Data/Tilesets.rxdata
+OK Marshal Data/Troops.rxdata
+OK Marshal Data/Weapons.rxdata
+OK Atajo [] mapa 1
+OK Atajo [11] mapa 5
+OK Atajo [22] mapa 12
+OK Atajo [22, 11] mapa 12
+OK Atajo [23] mapa 17
+OK Alt: rama Lucy/pruebas
+OK Atajo [23, 11] mapa 17
+OK Alt: rama Lucy/pruebas
+OK Evento 15 Colector bajo hospital A4
+OK Acceso fisico hospital a Acto IV rama false
+OK Reputacion inicial segun rama
+OK Entrada repetida conserva estado
+OK Evento 17 Llegada al colector
+OK Introduccion rama false
+OK Evento 17 Pila de emergencia
+OK Pickup de bateria
+OK Evento 18 Muesca vigila
+OK Dialogo Muesca
+OK Reputacion positiva evita primera caza
+OK Evento 18 Acechador 18
+OK Contacto limpia control
+OK Evento 18 Nicho de sacos
+OK Refugio de sacos
+OK Evento 18 Rueda entre trapos
+OK Evento 18 Rueda entre trapos
+OK Rueda unica sin duplicados
+OK Evento 19 Compuerta a la camara
+OK Agua bloquea camara
+OK Evento 19 Valvula descarga
+OK Error de valvulas recuperable
+OK Evento 19 Junco atrapada
+OK Evento 19 Junco atrapada
+OK Ayuda Junco sin duplicar reputacion
+OK Evento 19 Valvula retorno
+OK Evento 19 Valvula descarga
+OK Agua drenada y segunda caza
+OK Evento 19 Armario de bombas
+OK Refugio bombas limpia caza
+OK Evento 18 El Coro del tubo
+OK Evento 19 El Pulmon de cieno
+OK Evento 20 La Guernsey bajo la ciudad
+OK Jefe exige victoria tras derrota
+OK Final completo
+OK Pacto exclusivo
+OK Chapa del pacto
+OK Evento 20 La Guernsey bajo la ciudad
+OK Pacto no duplica recompensa
+OK Conserva todas las decisiones de II/III
+OK Estado V/VI serializable
+OK Evento 21 Altar de las cosas salvadas
+OK Altar recarga y respeta huella
+OK Evento 21 Dinamo de tres resonancias
+OK Dinamo: error permite reintentar
+OK Evento 21 Dinamo de tres resonancias
+OK Evento 21 Dinamo de tres resonancias
+OK Dinamo: recompensa unica
+OK Evento 21 Paso hacia el matadero nocturno
+OK Cierre A4 ofrece guardado y fin
+OK Evento 15 Colector bajo hospital A4
+OK Acceso fisico hospital a Acto IV rama false
+OK Reputacion inicial segun rama
+OK Entrada repetida conserva estado
+OK Evento 17 Llegada al colector
+OK Introduccion rama false
+OK Evento 17 Pila de emergencia
+OK Pickup de bateria
+OK Evento 18 Muesca vigila
+OK Dialogo Muesca
+OK Hostilidad inicia caza
+OK Evento 18 Reloj de caza
+OK Tiempo agotado solicita captura
+OK Evento 18 Captura pendiente
+OK Captura recuperable
+OK Evento 18 Acechador 18
+OK Contacto limpia control
+OK Evento 18 Nicho de sacos
+OK Refugio de sacos
+OK Evento 18 Rueda entre trapos
+OK Evento 18 Rueda entre trapos
+OK Rueda unica sin duplicados
+OK Evento 19 Compuerta a la camara
+OK Agua bloquea camara
+OK Evento 19 Valvula descarga
+OK Error de valvulas recuperable
+OK Evento 19 Junco atrapada
+OK Evento 19 Junco atrapada
+OK Ayuda Junco sin duplicar reputacion
+OK Evento 19 Valvula retorno
+OK Evento 19 Valvula descarga
+OK Agua drenada y segunda caza
+OK Evento 19 Armario de bombas
+OK Refugio bombas limpia caza
+OK Evento 18 El Coro del tubo
+OK Evento 19 El Pulmon de cieno
+OK Evento 20 La Guernsey bajo la ciudad
+OK Jefe exige victoria tras derrota
+OK Final completo
+OK Pacto exclusivo
+OK Chapa del pacto
+OK Evento 20 La Guernsey bajo la ciudad
+OK Pacto no duplica recompensa
+OK Conserva todas las decisiones de II/III
+OK Estado V/VI serializable
+OK Evento 21 Altar de las cosas salvadas
+OK Altar recarga y respeta huella
+OK Evento 21 Dinamo de tres resonancias
+OK Dinamo: error permite reintentar
+OK Evento 21 Dinamo de tres resonancias
+OK Evento 21 Dinamo de tres resonancias
+OK Dinamo: recompensa unica
+OK Evento 21 Paso hacia el matadero nocturno
+OK Cierre A4 ofrece guardado y fin
+OK Evento 15 Colector bajo hospital A4
+OK Acceso fisico hospital a Acto IV rama true
+OK Reputacion inicial segun rama
+OK Entrada repetida conserva estado
+OK Evento 17 Llegada al colector
+OK Introduccion rama true
+OK Evento 17 Pila de emergencia
+OK Pickup de bateria
+OK Evento 18 Muesca vigila
+OK Dialogo Muesca
+OK Reputacion positiva evita primera caza
+OK Evento 18 Acechador 18
+OK Contacto limpia control
+OK Evento 18 Nicho de sacos
+OK Refugio de sacos
+OK Evento 18 Rueda entre trapos
+OK Evento 18 Rueda entre trapos
+OK Rueda unica sin duplicados
+OK Evento 19 Compuerta a la camara
+OK Agua bloquea camara
+OK Evento 19 Valvula descarga
+OK Error de valvulas recuperable
+OK Evento 19 Junco atrapada
+OK Evento 19 Junco atrapada
+OK Ayuda Junco sin duplicar reputacion
+OK Evento 19 Valvula retorno
+OK Evento 19 Valvula descarga
+OK Agua drenada y segunda caza
+OK Evento 19 Armario de bombas
+OK Refugio bombas limpia caza
+OK Evento 18 El Coro del tubo
+OK Evento 19 El Pulmon de cieno
+OK Evento 20 La Guernsey bajo la ciudad
+OK Jefe exige victoria tras derrota
+OK Final completo
+OK Pacto exclusivo
+OK Chapa del pacto
+OK Evento 20 La Guernsey bajo la ciudad
+OK Pacto no duplica recompensa
+OK Conserva todas las decisiones de II/III
+OK Estado V/VI serializable
+OK Evento 21 Altar de las cosas salvadas
+OK Altar recarga y respeta huella
+OK Evento 21 Dinamo de tres resonancias
+OK Dinamo: error permite reintentar
+OK Evento 21 Dinamo de tres resonancias
+OK Evento 21 Dinamo de tres resonancias
+OK Dinamo: recompensa unica
+OK Evento 21 Paso hacia el matadero nocturno
+OK Cierre A4 ofrece guardado y fin
+OK Evento 15 Colector bajo hospital A4
+OK Acceso fisico hospital a Acto IV rama true
+OK Reputacion inicial segun rama
+OK Entrada repetida conserva estado
+OK Evento 17 Llegada al colector
+OK Introduccion rama true
+OK Evento 17 Pila de emergencia
+OK Pickup de bateria
+OK Evento 18 Muesca vigila
+OK Dialogo Muesca
+OK Hostilidad inicia caza
+OK Evento 18 Reloj de caza
+OK Tiempo agotado solicita captura
+OK Evento 18 Captura pendiente
+OK Captura recuperable
+OK Evento 18 Acechador 18
+OK Contacto limpia control
+OK Evento 18 Nicho de sacos
+OK Refugio de sacos
+OK Evento 18 Rueda entre trapos
+OK Evento 18 Rueda entre trapos
+OK Rueda unica sin duplicados
+OK Evento 19 Compuerta a la camara
+OK Agua bloquea camara
+OK Evento 19 Valvula descarga
+OK Error de valvulas recuperable
+OK Evento 19 Junco atrapada
+OK Evento 19 Junco atrapada
+OK Ayuda Junco sin duplicar reputacion
+OK Evento 19 Valvula retorno
+OK Evento 19 Valvula descarga
+OK Agua drenada y segunda caza
+OK Evento 19 Armario de bombas
+OK Refugio bombas limpia caza
+OK Evento 18 El Coro del tubo
+OK Evento 19 El Pulmon de cieno
+OK Evento 20 La Guernsey bajo la ciudad
+OK Jefe exige victoria tras derrota
+OK Final completo
+OK Pacto exclusivo
+OK Chapa del pacto
+OK Evento 20 La Guernsey bajo la ciudad
+OK Pacto no duplica recompensa
+OK Conserva todas las decisiones de II/III
+OK Estado V/VI serializable
+OK Evento 21 Altar de las cosas salvadas
+OK Altar recarga y respeta huella
+OK Evento 21 Dinamo de tres resonancias
+OK Dinamo: error permite reintentar
+OK Evento 21 Dinamo de tres resonancias
+OK Evento 21 Dinamo de tres resonancias
+OK Dinamo: recompensa unica
+OK Evento 21 Paso hacia el matadero nocturno
+OK Cierre A4 ofrece guardado y fin
+OK Consumo a 120 frames libres
+OK Agotamiento apaga linterna
+OK Oscuridad aumenta veneno
+OK Recarga real usa inventario
+OK Pila no se desperdicia llena
+OK Dialogo pausa gasto
+OK Altar pausa gasto
+OK A alterna luz
+OK S recarga luz
+OK Radio luz/dark 0
+OK Radio luz/dark 2
+OK Radio luz/dark 4
+OK Radio luz/dark 6
+OK Radio luz/dark 8
+OK 21 mapas: spritesets reales, luz, niebla, HUD y assets
+OK Retratos VN reales
+OK Susto 10
+OK Limpieza susto
+OK Susto unico
+OK Susto 11
+OK Limpieza susto
+OK Susto unico
+OK Balance 14 semilla 0 turnos 6
+OK Balance 14 semilla 1 turnos 4
+OK Balance 14 semilla 2 turnos 5
+OK Balance 14 semilla 3 turnos 6
+OK Balance 14 semilla 4 turnos 7
+OK Balance 14 semilla 5 turnos 4
+OK Balance 14 semilla 6 turnos 4
+OK Balance 14 semilla 7 turnos 4
+OK Balance 14 semilla 8 turnos 8
+OK Balance 14 semilla 9 turnos 4
+OK Balance 14 semilla 10 turnos 6
+OK Balance 14 semilla 11 turnos 4
+OK Balance 14 semilla 12 turnos 5
+OK Balance 14 semilla 13 turnos 5
+OK Balance 14 semilla 14 turnos 6
+OK Balance 14 semilla 15 turnos 5
+OK Balance 14 semilla 16 turnos 5
+OK Balance 14 semilla 17 turnos 7
+OK Balance 14 semilla 18 turnos 8
+OK Balance 14 semilla 19 turnos 7
+OK Balance 14 semilla 20 turnos 3
+OK Balance 14 semilla 21 turnos 6
+OK Balance 14 semilla 22 turnos 5
+OK Balance 14 semilla 23 turnos 5
+OK Balance 14 semilla 24 turnos 10
+OK Balance 14 semilla 25 turnos 4
+OK Balance 14 semilla 26 turnos 4
+OK Balance 14 semilla 27 turnos 10
+OK Balance 14 semilla 28 turnos 5
+OK Balance 14 semilla 29 turnos 4
+OK Balance 15 semilla 0 turnos 6
+OK Balance 15 semilla 1 turnos 4
+OK Balance 15 semilla 2 turnos 5
+OK Balance 15 semilla 3 turnos 6
+OK Balance 15 semilla 4 turnos 7
+OK Balance 15 semilla 5 turnos 4
+OK Balance 15 semilla 6 turnos 4
+OK Balance 15 semilla 7 turnos 4
+OK Balance 15 semilla 8 turnos 8
+OK Balance 15 semilla 9 turnos 4
+OK Balance 15 semilla 10 turnos 6
+OK Balance 15 semilla 11 turnos 4
+OK Balance 15 semilla 12 turnos 5
+OK Balance 15 semilla 13 turnos 5
+OK Balance 15 semilla 14 turnos 6
+OK Balance 15 semilla 15 turnos 5
+OK Balance 15 semilla 16 turnos 5
+OK Balance 15 semilla 17 turnos 7
+OK Balance 15 semilla 18 turnos 8
+OK Balance 15 semilla 19 turnos 7
+OK Balance 15 semilla 20 turnos 8
+OK Balance 15 semilla 21 turnos 6
+OK Balance 15 semilla 22 turnos 5
+OK Balance 15 semilla 23 turnos 6
+OK Balance 15 semilla 24 turnos 10
+OK Balance 15 semilla 25 turnos 4
+OK Balance 15 semilla 26 turnos 5
+OK Balance 15 semilla 27 turnos 10
+OK Balance 15 semilla 28 turnos 5
+OK Balance 15 semilla 29 turnos 4
+OK Balance 16 semilla 0 turnos 6
+OK Balance 16 semilla 1 turnos 4
+OK Balance 16 semilla 2 turnos 5
+OK Balance 16 semilla 3 turnos 6
+OK Balance 16 semilla 4 turnos 7
+OK Balance 16 semilla 5 turnos 4
+OK Balance 16 semilla 6 turnos 4
+OK Balance 16 semilla 7 turnos 4
+OK Balance 16 semilla 8 turnos 8
+OK Balance 16 semilla 9 turnos 4
+OK Balance 16 semilla 10 turnos 6
+OK Balance 16 semilla 11 turnos 4
+OK Balance 16 semilla 12 turnos 5
+OK Balance 16 semilla 13 turnos 5
+OK Balance 16 semilla 14 turnos 6
+OK Balance 16 semilla 15 turnos 5
+OK Balance 16 semilla 16 turnos 5
+OK Balance 16 semilla 17 turnos 7
+OK Balance 16 semilla 18 turnos 8
+OK Balance 16 semilla 19 turnos 7
+OK Balance 16 semilla 20 turnos 8
+OK Balance 16 semilla 21 turnos 6
+OK Balance 16 semilla 22 turnos 5
+OK Balance 16 semilla 23 turnos 6
+OK Balance 16 semilla 24 turnos 10
+OK Balance 16 semilla 25 turnos 4
+OK Balance 16 semilla 26 turnos 5
+OK Balance 16 semilla 27 turnos 10
+OK Balance 16 semilla 28 turnos 5
+OK Balance 16 semilla 29 turnos 4
+OK Balance 17 semilla 0 turnos 14
+OK Balance 17 semilla 1 turnos 21
+OK Balance 17 semilla 2 turnos 18
+OK Balance 17 semilla 3 turnos 19
+OK Balance 17 semilla 4 turnos 19
+OK Balance 17 semilla 5 turnos 16
+OK Balance 17 semilla 6 turnos 22
+OK Balance 17 semilla 7 turnos 16
+OK Balance 17 semilla 8 turnos 14
+OK Balance 17 semilla 9 turnos 19
+OK Balance 17 semilla 10 turnos 16
+OK Balance 17 semilla 11 turnos 15
+OK Balance 17 semilla 12 turnos 13
+OK Balance 17 semilla 13 turnos 19
+OK Balance 17 semilla 14 turnos 16
+OK Balance 17 semilla 15 turnos 15
+OK Balance 17 semilla 16 turnos 16
+OK Balance 17 semilla 17 turnos 15
+OK Balance 17 semilla 18 turnos 18
+OK Balance 17 semilla 19 turnos 15
+OK Balance 17 semilla 20 turnos 14
+OK Balance 17 semilla 21 turnos 18
+OK Balance 17 semilla 22 turnos 15
+OK Balance 17 semilla 23 turnos 15
+OK Balance 17 semilla 24 turnos 18
+OK Balance 17 semilla 25 turnos 17
+OK Balance 17 semilla 26 turnos 21
+OK Balance 17 semilla 27 turnos 19
+OK Balance 17 semilla 28 turnos 16
+OK Balance 17 semilla 29 turnos 16
+OK Pastor hueco: Scene_Battle nativo vuelve al mapa
+OK FIN: Acto IV verificado con RGSS104E real

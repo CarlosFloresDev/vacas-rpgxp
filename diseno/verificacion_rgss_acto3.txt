@@ -21,6 +21,11 @@ OK Marshal Data/Map013.rxdata
 OK Marshal Data/Map014.rxdata
 OK Marshal Data/Map015.rxdata
 OK Marshal Data/Map016.rxdata
+OK Marshal Data/Map017.rxdata
+OK Marshal Data/Map018.rxdata
+OK Marshal Data/Map019.rxdata
+OK Marshal Data/Map020.rxdata
+OK Marshal Data/Map021.rxdata
 OK Marshal Data/MapInfos.rxdata
 OK Marshal Data/Scripts.rxdata
 OK Marshal Data/Skills.rxdata

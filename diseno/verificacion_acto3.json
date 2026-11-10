@@ -1,5 +1,5 @@
 {
-  "checks": 485,
+  "checks": 493,
   "errors": [],
   "scenarios": 6,
   "scope": "Colisión XP, destinos, eventos, recursos dinámicos, BD. La prueba RGSS ejecuta la progresión."

@@ -42,7 +42,7 @@ class Scene_Map
     $vacas_tone_antes = $game_screen.tone.clone
     $vacas_fondo_antes = $game_map.battleback_name
     troop = $game_temp.battle_troop_id
-    fondo = [2, 8].include?(troop) ? 'piso' : ([3, 6].include?(troop) ? 'tunel' : 'matadero')
+    fondo = [2, 8].include?(troop) ? 'piso' : ([3, 6, 14, 15, 16, 17].include?(troop) ? 'tunel' : 'matadero')
     $game_map.battleback_name = 'mente_' + fondo
     $game_screen.start_tone_change(Tone.new(-15, -20, -12, 45), 0)
     vacas_mente_call_battle

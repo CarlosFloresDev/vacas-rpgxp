@@ -1,4 +1,4 @@
-# Sistemas de Vacas: Actos I, II y III
+# Sistemas de Vacas: Actos I, II, III y IV
 
 Actualización del 8 de noviembre de 2026. RGSS1 / Ruby 1.8, resolución 640×480. Diálogos originales en castellano; el contenido sexual permanece fuera de campo. Estos sistemas sustituyen la decisión inicial de prescindir del combate clásico.
 
@@ -224,3 +224,19 @@ node probar_rgss.mjs
 | `Graphics/Pictures/screamer_5.png` | Ojo castaño tras la rejilla. Imagen repentina a pantalla completa 640×480. |
 | `Graphics/Pictures/screamer_6.png` | Sombra del capataz entre ganchos. Imagen repentina a pantalla completa 640×480. |
 | `Graphics/Pictures/screamer_7.png` | Corona de ganchos sobre el reflejo de Steven. Imagen repentina a pantalla completa 640×480. |
+
+
+## Acto IV: Bajo la ciudad — 9 de noviembre de 2026
+
+Guía de recorrido, IDs y verificaciones en [ACTO_IV.md](ACTO_IV.md). Continuación sobre la instalación interrumpida; se conserva el respaldo `respaldos/antes_acto4_20261109_194935/Data/` y no se escribe en `.git`.
+
+- **Acceso:** final del III, Lucy tras el cierre o colector del hospital 15 (22,5), con llave 29/switch 98; llegada 17 (4,11). Los eventos 15/16 usan transferencias 201 explícitas. Atajo: **Alt + Nueva partida**, confirmar con Z; añadir Mayús elige 97/pruebas, sin Mayús 96/Lucy. Se conservan decisiones previas y atajos anteriores.
+- **Mapas:** 17 colector, 18 túneles, 19 canal, 20 cámara y 21 altar; 47 eventos, tileset 68, tres capas, pasarelas, agua bloqueada, tono oscuro y niebla móvil. Altar accesible desde 18 sin resolver el agua; cámara/altar son zonas seguras.
+- **Linterna:** `scripts/10_bajo_ciudad.rb`, sección 99 `Vacas_BajoCiudad`, antes de Main 100. A alterna luz; S usa pila 31 (+60). Batería 0–100, -1/120 fotogramas libres; sin luz, radio mínimo y +1 veneno/240, tope 96. Pausa en mensajes, intérprete, menús, combate y mapas 20/21. Respeta veneno/huella existentes; no introduce una segunda estadística de cordura. Cinco máscaras por spriteset, liberadas al transferir. Altar recarga y reduce veneno respetando huella.
+- **Manada:** reputación -3..5, inicial 0/1 según 96/97; diálogos VN de Muesca/Junco/consejo. La modifican respeto, ayuda, dinamo y pacto. Dos cazas: 18, 32 s con nicho; 19, 28 s con armario. Contacto/tiempo llevan al altar, +1 captura y +8 veneno tope 96, conservando objetos. Refugios/salidas limpian temporizador, transparencia y control.
+- **Puzles:** rueda → retorno → descarga; error recuperable. Dinamo opcional: tubo → aire → campana; pista en 17 (14,5), panel 21 (12,8), recompensa única con marca 139. Tres visiones y Pastor obligatorio reintentable, usando combate mental existente. Dos sustos únicos, el primero condicionado por hostilidad.
+- **IDs:** switches 113–139; variables 51 reputación, 52 batería, 53 capturas, 54 válvulas, 55 etapa y 56 reloj; objetos 30–34; enemigos/tropas 14–17; sustos 10/11, marcas 136/137 e imagen 98. Pacto 132; alternativas exclusivas 133/134; ruta V 135. Conservar también 126, variable 51, 35/36/38 y 96/97 para V–VI. FinActo 4 vuelve al título; V–VI pendientes de desarrollo.
+- **Arte:** 13 PNG con fuentes/manifiesto/prompts nuevos/hashes en `arte_hd2d/acto4/`; adaptación por `adaptar_arte.py`. Cinco fuentes nuevas aceptadas de seis llamadas image_gen en nube, fuentes recuperadas y Guernsey canela aprobada. Personajes en celda 48 px; objetos pequeños 10–16 px. Siete hojas previas pasan `verificar_escala.py --permitir-data-modificada`; el auditor IV verifica cotas nuevas y reproducción exacta de los 13 assets.
+- **Correcciones y pruebas:** accesos 15/16 verificables por el grafo; consulta del intérprete y recorrido de máscaras compatibles con RGSS1; recortes de filas sin fragmentos de otras poses. Auditoría: 1.210 comprobaciones/16 escenarios sin errores; 983 referencias sin ausencias; 21 mapas/84 transferencias sin errores ni avisos; 101 scripts con Ruby portable. Game.exe prueba 96/97 × ambos pactos, entradas, puzles, capturas/refugios, batería, 21 spritesets, 120 simulaciones y jefe nativo. Main restaurado.
+
+Capturas estáticas 17–21 y `acto4_arte.png` revisadas. No incluyen tono/niebla animada. Un intento adicional de captura normal del motor agotó 55 s; quedan pendientes la revisión interactiva visual, el ritmo y la mezcla sonora. El arnés de lógica evita esperas de foco de Graphics. Ver límites y logs en ACTO_IV.md.

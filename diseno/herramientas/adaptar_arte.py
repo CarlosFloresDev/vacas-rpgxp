@@ -109,6 +109,11 @@ def adapt(spec):
     if kind not in ('character', 'indexed', 'battler', 'face', 'retrato', 'picture', 'battleback'):
         raise ValueError('Tipo de asset desconocido: ' + kind)
     im = Image.open(source).convert('RGBA')
+    if spec.get('source_box'):
+        box=tuple(map(int,spec['source_box']))
+        if len(box)!=4 or not (0<=box[0]<box[2]<=im.width and 0<=box[1]<box[3]<=im.height):
+            raise ValueError('Recorte de fuente fuera del lienzo')
+        im=im.crop(box)
     # Las expresiones reutilizan literalmente ropa, pelo, luz y encuadre base.
     # El polígono normalizado limita la sustitución a ojos/cejas/boca generados.
     if spec.get('expression_base'):
@@ -147,9 +152,12 @@ def adapt(spec):
         if layout.size != size or size[0] % cw or size[1] % ch:
             raise ValueError('Layout indexado incompatible con tamaño/celda')
         cols, rows = size[0]//cw, size[1]//ch
-        xs = spec.get('source_columns', [round(x*im.width/cols) for x in range(cols+1)])
-        ys = spec.get('source_rows', [round(y*im.height/rows) for y in range(rows+1)])
-        for bounds, count, limit in ((xs, cols, im.width), (ys, rows, im.height)):
+        sc,sr=spec.get('source_grid',[cols,rows])
+        if sc*sr!=cols*rows:
+            raise ValueError('La fuente y destino deben contener el mismo numero de indices')
+        xs = spec.get('source_columns', [round(x*im.width/sc) for x in range(sc+1)])
+        ys = spec.get('source_rows', [round(y*im.height/sr) for y in range(sr+1)])
+        for bounds, count, limit in ((xs, sc, im.width), (ys, sr, im.height)):
             if (len(bounds) != count+1 or bounds[0] != 0 or bounds[-1] != limit
                     or any(not isinstance(v, int) for v in bounds)
                     or any(a >= b for a, b in zip(bounds, bounds[1:]))):
@@ -168,7 +176,8 @@ def adapt(spec):
                 if spec.get('repeat_source'):
                     tile = im.copy()
                 else:
-                    tile = im.crop((xs[x], ys[y], xs[x+1], ys[y+1]))
+                    si=y*cols+x;sx,sy=si%sc,si//sc
+                    tile = im.crop((xs[sx], ys[sy], xs[sx+1], ys[sy+1]))
                 if mode == 'resize':
                     tile = tile.resize((cw, ch), resample)
                 else:
@@ -201,7 +210,12 @@ def adapt(spec):
                         obj = alpha_cleanup(obj.resize((width, height), resample), threshold)
                         scaled.alpha_composite(obj, ((cw-width)//2, bottom-height))
                     tile = scaled
-                result.alpha_composite(finish(tile), (x*cw, y*ch))
+                tile = finish(tile)
+                if y*cols+x in spec.get('opaque_indices', []):
+                    ground = Image.new('RGBA', (cw, ch), spec.get('opaque_background', '#090f12'))
+                    ground.alpha_composite(tile)
+                    tile = ground
+                result.alpha_composite(tile, (x*cw, y*ch))
     elif kind == 'character':
         cw, ch = dimensions(spec.get('cell', '32x48'))
         if spec.get('pad_grid') and (im.width % 4 or im.height % 4):
