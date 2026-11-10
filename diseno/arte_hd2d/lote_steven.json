@@ -1,4 +1,0 @@
-{"assets":[
- {"source":"diseno/arte_hd2d/steven_miedo_fuente.png","destination":"Graphics/Pictures/retrato_steven_miedo.png","type":"retrato","expression_base":"diseno/arte_hd2d/steven_retrato.png","expression_polygon":[[0.35,0.205],[0.59,0.198],[0.635,0.26],[0.62,0.36],[0.55,0.39],[0.44,0.38],[0.36,0.32]],"expression_feather":5,"alpha_threshold":128,"resample":"nearest"},
- {"source":"diseno/arte_hd2d/steven_mono_fuente.png","destination":"Graphics/Characters/vacas_steven_mono.png","type":"character","cell":"32x48","padding":4,"alpha_threshold":128,"resample":"box","zone":"piso"}
-]}

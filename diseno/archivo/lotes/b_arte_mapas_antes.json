@@ -1,0 +1,130 @@
+[
+  [
+    "render_map",
+    {
+      "mapId": 1,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/arte_mapas_antes_01.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 2,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/arte_mapas_antes_02.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 3,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/arte_mapas_antes_03.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 4,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/arte_mapas_antes_04.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 5,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/arte_mapas_antes_05.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 6,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/arte_mapas_antes_06.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 7,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/arte_mapas_antes_07.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 8,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/arte_mapas_antes_08.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 9,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/arte_mapas_antes_09.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 10,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/arte_mapas_antes_10.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 11,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/arte_mapas_antes_11.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 12,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/arte_mapas_antes_12.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 13,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/arte_mapas_antes_13.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 14,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/arte_mapas_antes_14.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 15,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/arte_mapas_antes_15.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 16,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/arte_mapas_antes_16.png"
+    }
+  ]
+]

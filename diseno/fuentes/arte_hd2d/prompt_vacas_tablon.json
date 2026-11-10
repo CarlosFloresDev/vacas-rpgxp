@@ -1,0 +1,15 @@
+{
+  "id": "vacas_tablon",
+  "prompt": "Use case: style-transfer. Original VACAS pixel art SIGN AND BULLETIN ATLAS. EXACT4 columns4 rows cells32x48 final128x192 matching attached index reference, retain specific occupant and orientation EVERY cell. Row1 large free-standing wooden noticeboard variants (plain board, board with paper notices, same four existing styles). Row2 same noticeboard from rear and narrow side orientations per reference. Row3 left larger low noticeboard, small horizontal single-post sign, double-plank DIRECTIONAL RIGHT ARROW sign, plain wooden post. Row4 two plank direction signs matching original LEFT/RIGHT directions, PLAIN POST, round small GOLD/BROWN WEATHERED WREATH on post. No new words or labels, paper notes have tiny illegible strokes only. Preserve exact cell mapping, same sizes/anchors, actual alpha background no ground. Deliberate detailed pixel clusters aged domestic brown-grey wood iron nail heads, nicotine warm upper-left light cold rim, original designs no fantasy ornament.",
+  "references": [
+    "diseno/fuentes/arte_provisional/sd_v1/Graphics/Characters/vacas_tablon.png"
+  ],
+  "destination": "diseno/fuentes/arte_hd2d/vacas_tablon_fuente.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/fuentes/arte_provisional/sd_v1/Graphics/Characters/vacas_tablon.png": "f1fa731ac6eff1e73916b82523ffd9f94d39275d38f2364e5906658eec463d2e"
+  },
+  "output_sha256": "3827881278bb15be8211c4a321d82a44c346c2ba686914f4be5cbb40a84f04d9"
+}

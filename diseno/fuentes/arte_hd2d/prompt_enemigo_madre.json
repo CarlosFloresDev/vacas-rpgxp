@@ -1,0 +1,17 @@
+{
+  "id": "enemigo_madre",
+  "prompt": "Use case: identity-preserve. Original VACAS industrial psychological horror battle entity, SINGLE complete silhouette frontal three-quarter, genuine TRANSPARENT background, NO scene rectangle NO ground. Entire form inside generous margin, final320x300. Strong immediate readable silhouette at final size, deliberate pixel clusters matching approved cow style, selective dark outline, cold clinical side light with small moist highlights. Burgundy blood #78192A clots #4B1020 muscle #A42A39 ivory broken bone #D4C6AA dirty fat #D4B48A. Explicit fictional visceral horror, no sexual content no text. Image1 identity reference mandatory, image2 approved cow is rendering/style only. LA MADRE DE YESO: exact mother age58 broad square heavy face, low bun, mustard robe and huge hands from reference. Transform into hollow EMPTY MUSTARD ROBE hovering, recognizable cracked PLASTER FACE, enormous controlling hands on each side, wet muscle visible in a few deep cracks, broken ivory edges. Each crack expresses a debt. No normal legs or slippers, robe hollow at bottom. Keep recognizable mother bun brows face and robe.",
+  "references": [
+    "diseno/fuentes/arte_hd2d/referencias/madre.png",
+    "diseno/fuentes/arte_hd2d/vaca.png"
+  ],
+  "destination": "diseno/fuentes/arte_hd2d/enemigo_madre_fuente.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/fuentes/arte_hd2d/referencias/madre.png": "830b85d461909cb28bba4f498139c31ca9b029618aeea686f24c1fce71733c3a",
+    "diseno/fuentes/arte_hd2d/vaca.png": "23122945f338695b489735fbb18521a7d996369ba44a16d64c38d443b094943b"
+  },
+  "output_sha256": "b2e1b0834dff8732bbbbad085267c11c5381d2a2518b3103f72543362d180ab4"
+}

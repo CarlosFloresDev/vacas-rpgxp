@@ -1,0 +1,16 @@
+[
+  "diseno/verificaciones/verificacion_audio.json",
+  "diseno/verificaciones/verificacion_fase45.json",
+  "diseno/fuentes/arte_hd2d/arte_final/objetos_adaptaciones.json",
+  "diseno/fuentes/arte_hd2d/arte_mapas/adaptaciones.json",
+  "diseno/archivo/lotes/b_arte_final_antes.json",
+  "diseno/archivo/lotes/b_arte_final_despues.json",
+  "diseno/archivo/lotes/b_arte_mapas_antes.json",
+  "diseno/archivo/lotes/b_arte_mapas_despues.json",
+  "diseno/archivo/lotes/b_render3.json",
+  "diseno/archivo/lotes/b_render4.json",
+  "diseno/archivo/lotes/b_render5.json",
+  "diseno/archivo/lotes/b_render6.json",
+  "diseno/archivo/lotes/b_render_escala.json",
+  "diseno/archivo/lotes/b_revision_render.json"
+]

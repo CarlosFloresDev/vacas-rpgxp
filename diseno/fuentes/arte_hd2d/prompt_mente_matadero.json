@@ -1,0 +1,15 @@
+{
+  "id": "mente_matadero",
+  "prompt": "Use case: stylized-concept. Original VACAS HD2D-inspired industrial psychological horror BATTLE BACKGROUND, 4:3 opaque final640x480. Original design, image1 existing background is only broad spatial/use reference, do not copy its texture or exact composition. Crisp intentional pixel clusters with convincing volume and cinematic light, playable center clear and readable for battlers, floor and far wall separated by light, low-detail central background, dark detailed periphery and foreground. No characters no creatures no text no logos. Oppressive perspective, realistic human scale, damp worn surfaces, no magical fantasy ornament. MENTAL SLAUGHTERHOUSE. Long clinical tiled industrial chamber, pale dirty ivory tiles, cold suspended fluorescent strip, overhead rail and empty meat hooks on dark peripheral edges, steel table silhouette right, shallow drain with tiny burgundy smears at left. White clinical #DFE7DC #ADC0BD against black blue-grey #10171D #263239 #465557, restrained dark blood #4B1020 as focal accent. Empty central floor lit enough for battlers, no hanging bodies or NPCs.",
+  "references": [
+    "diseno/fuentes/arte_provisional/sd_v1/Graphics/Battlebacks/mente_matadero.png"
+  ],
+  "destination": "diseno/fuentes/arte_hd2d/mente_matadero_fuente.png",
+  "transparent_background": false,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/fuentes/arte_provisional/sd_v1/Graphics/Battlebacks/mente_matadero.png": "702639a51397c2c54da9df8f78f713107b1517a1ad1577a896b17fbedd92b399"
+  },
+  "output_sha256": "38e755c7f50290484a0c00d3136304f49a30d79f86e5bdef5e86d7a43621f6bc"
+}

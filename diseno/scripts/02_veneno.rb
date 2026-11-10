@@ -1,3 +1,14 @@
+# === VACAS: FUENTE VIGENTE ===
+# Script: Vacas_Veneno | posición en Scripts.rxdata: 90 (base 0)
+# Función: Efectos y presentación del veneno y la cordura.
+# Motor: RGSS1 / Ruby 1.8. Fuente extraída del juego instalado.
+# Switches simbólicos: SW_HUD_OCULTO, SW_SIN_EFECTOS
+# Switches con ID literal: ninguno
+# Variables simbólicas: ninguna
+# Variables con ID literal: ninguna
+# Los índices calculados y rangos se describen en el código y en docs/sistemas/.
+# Instalación: herramientas/comun/instalar_scripts.mjs (primero, vista previa).
+# === FIN CABECERA ===
 #==============================================================================
 # ** Vacas - Veneno (cordura)
 #------------------------------------------------------------------------------

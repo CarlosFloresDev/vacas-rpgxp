@@ -1,0 +1,130 @@
+[
+  [
+    "render_map",
+    {
+      "mapId": 1,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/revision_mapa01_base.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 2,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/revision_mapa02_base.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 3,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/revision_mapa03_base.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 4,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/revision_mapa04_base.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 5,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/revision_mapa05_base.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 6,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/revision_mapa06_base.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 7,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/revision_mapa07_base.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 8,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/revision_mapa08_base.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 9,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/revision_mapa09_base.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 10,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/revision_mapa10_base.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 11,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/revision_mapa11_base.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 12,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/revision_mapa12_base.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 13,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/revision_mapa13_base.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 14,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/revision_mapa14_base.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 15,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/revision_mapa15_base.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 16,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/revision_mapa16_base.png"
+    }
+  ]
+]

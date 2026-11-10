@@ -1,0 +1,15 @@
+{
+  "id": "vacas_puerta",
+  "prompt": "Use case: style-transfer. Original VACAS pixel art DOOR STATE ATLAS,4 columns4 rows same index mapping as attached original, FINAL128x256 cells32x64. Each column is a distinct domestic wooden door style from original, preserve row-by-row open states and hinge directions. Row1 four CLOSED wooden doors, small square window/panels as reference; row2 corresponding doors PARTLY OPEN; row3 corresponding doors MOSTLY OPEN; row4 OPEN DOORWAYS, left brown wood frame and dark opening, cream frame variants on right. Respect exact silhouette of reference each cell, no rotation or reorder. Redesign aged domestic brown wood and chipped cream paint, no fantasy ornament. Same door scale within each cell generous alpha margins, actual transparency around door, interior doorway black. Crisp intentional pixels warm upper-left nicotine light cold rim. No text no labels no floor, original designs not copies of another game.",
+  "references": [
+    "diseno/fuentes/arte_provisional/sd_v1/Graphics/Characters/vacas_puerta.png"
+  ],
+  "destination": "diseno/fuentes/arte_hd2d/vacas_puerta_fuente.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/fuentes/arte_provisional/sd_v1/Graphics/Characters/vacas_puerta.png": "af25b4e495f5c4f59c14e99f33abe7e079737694bee4209ead5c0a01dbb0d631"
+  },
+  "output_sha256": "10f237462b8918b86dfcfed8505d0f86e249eccb33e216d0793382169920fba9"
+}

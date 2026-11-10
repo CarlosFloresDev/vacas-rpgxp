@@ -1,0 +1,15 @@
+{
+  "id": "autotile_canal",
+  "prompt": "Use case: style-transfer. Original VACAS RPG Maker XP BLOOD DRAIN AUTOTILE technical sheet. Image1 exact topology template, MUST KEEP ALL subtiles and cutouts in EXACT same positions, no rearrangement, no new shore shapes. Wide3:1 canvas final384x128: FOUR animation frames each96x128 laid side by side. Each frame consists of16x16 quarter-tiles following original XP arrangement: small top corner samples and large lower shore/center shapes exactly from reference. Materials: deep BURGUNDY RED liquid #4B1020 #78192A with subtle small ripples changing across four frames, borders DIRTY IVORY TILED DRAIN EDGE #ADC0BD #D4C6AA with subtle rust. Original pixel-art surfaces and deliberate clusters, no glitter or foam. Fluid mostly smooth, preserve original red-vs-ivory material regions pixel topology, no scenery or perspective, no characters text gridlines or labels. Opaque sheet okay, reference alpha mask restored by adapter.",
+  "references": [
+    "diseno/fuentes/arte_provisional/sd_v1/Graphics/Autotiles/vacas_canal.png"
+  ],
+  "destination": "diseno/fuentes/arte_hd2d/autotile_canal_fuente.png",
+  "transparent_background": false,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/fuentes/arte_provisional/sd_v1/Graphics/Autotiles/vacas_canal.png": "fd664e716771cdfddd170b8fa30ef1a3046c82b0362d5cf11c249c59f2170089"
+  },
+  "output_sha256": "1068393b33a69e8571546cb419d23788aeb6abbfa5fe519c3b7096eb0ca75b30"
+}

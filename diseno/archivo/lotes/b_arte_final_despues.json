@@ -1,0 +1,90 @@
+[
+  [
+    "render_map",
+    {
+      "mapId": 22,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/arte_final_despues_22.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 23,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/arte_final_despues_23.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 24,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/arte_final_despues_24.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 25,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/arte_final_despues_25.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 26,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/arte_final_despues_26.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 27,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/arte_final_despues_27.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 28,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/arte_final_despues_28.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 29,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/arte_final_despues_29.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 30,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/arte_final_despues_30.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 31,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/arte_final_despues_31.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 32,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/arte/arte_final_despues_32.png"
+    }
+  ]
+]

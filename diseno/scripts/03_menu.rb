@@ -1,3 +1,14 @@
+# === VACAS: FUENTE VIGENTE ===
+# Script: Vacas_Menu | posición en Scripts.rxdata: 91 (base 0)
+# Función: Menú, estado y objetos del jugador.
+# Motor: RGSS1 / Ruby 1.8. Fuente extraída del juego instalado.
+# Switches simbólicos: ninguno
+# Switches con ID literal: ninguno
+# Variables simbólicas: ninguna
+# Variables con ID literal: 7, 8, 13
+# Los índices calculados y rangos se describen en el código y en docs/sistemas/.
+# Instalación: herramientas/comun/instalar_scripts.mjs (primero, vista previa).
+# === FIN CABECERA ===
 #==============================================================================
 # ** Vacas - Menu de terror
 #------------------------------------------------------------------------------

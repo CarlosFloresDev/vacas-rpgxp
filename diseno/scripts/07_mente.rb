@@ -1,3 +1,14 @@
+# === VACAS: FUENTE VIGENTE ===
+# Script: Vacas_Mente | posición en Scripts.rxdata: 95 (base 0)
+# Función: Eventos y pruebas del mundo mental.
+# Motor: RGSS1 / Ruby 1.8. Fuente extraída del juego instalado.
+# Switches simbólicos: ninguno
+# Switches con ID literal: 25, 26, 29, 30
+# Variables simbólicas: ninguna
+# Variables con ID literal: 7, 18
+# Los índices calculados y rangos se describen en el código y en docs/sistemas/.
+# Instalación: herramientas/comun/instalar_scripts.mjs (primero, vista previa).
+# === FIN CABECERA ===
 #==============================================================================
 # Vacas_Mente -- Combate frontal XP. Enemigos mentales; veneno nunca mata aqui.
 #==============================================================================

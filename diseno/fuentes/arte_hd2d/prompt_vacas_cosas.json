@@ -1,0 +1,15 @@
+{
+  "id": "vacas_cosas",
+  "prompt": "Use case: style-transfer. Original VACAS pixel-art SMALL OBJECTS ATLAS, use attached existing sheet as EXACT CELL INDEX REFERENCE, not as artwork to copy. Grid4 columns4 rows without drawn grid. EACH cell square. Row1 left to right: EMPTY RED DOG BOWL; SAME BOWL FULL OF BROWN FOOD; WHITE PLATE WITH RAW RED STEAK; SMALL BROWN LIQUID PUDDLE. Row2: WORN PAPER NOTE with red heading and tiny illegible strokes; THREE small DARK GREEN/BROWN BOTTLES; METAL ASHTRAY with cigarette; OVAL WICKER BASKET with cloth. Rows3 and4 COMPLETELY EMPTY transparent. Eight objects only, same positions and occupancy as reference. Full subjects with generous within-cell margin, true transparent alpha, no floor no readable words no labels. Detailed intentional pixel clusters 3-4 tones per material, selective dark outline, warm upper-left light cold rim, nicotine domestic palette, final128x128 cells32x32. No characters.",
+  "references": [
+    "diseno/fuentes/arte_provisional/sd_v1/Graphics/Characters/vacas_cosas.png"
+  ],
+  "destination": "diseno/fuentes/arte_hd2d/vacas_cosas_fuente.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/fuentes/arte_provisional/sd_v1/Graphics/Characters/vacas_cosas.png": "efb148e302573853d1cb7bce824a543507060a03ee4d2f22fa31f4a5dc829b00"
+  },
+  "output_sha256": "66683ba57b5d47557506cb08347e07ff69d2d1a57257e9c15faf86ff5d5e4d20"
+}

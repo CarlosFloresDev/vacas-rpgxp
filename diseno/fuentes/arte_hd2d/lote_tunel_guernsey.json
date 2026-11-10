@@ -1,0 +1,23 @@
+{
+  "assets": [
+    {
+      "source": "diseno/fuentes/arte_hd2d/enemigo_tunel_fuente.png",
+      "destination": "Graphics/Battlers/enemigo_tunel.png",
+      "type": "battler",
+      "size": "320x300",
+      "max_height": 300,
+      "padding": 4,
+      "alpha_threshold": 128,
+      "resample": "box"
+    },
+    {
+      "source": "diseno/fuentes/arte_hd2d/enemigo_guernsey_fuente.png",
+      "destination": "Graphics/Battlers/enemigo_guernsey.png",
+      "type": "battler",
+      "size": "320x300",
+      "max_height": 300,
+      "padding": 4,
+      "resample": "box"
+    }
+  ]
+}

@@ -1,3 +1,14 @@
+# === VACAS: FUENTE VIGENTE ===
+# Script: Vacas_VN | posición en Scripts.rxdata: 94 (base 0)
+# Función: Diálogos, retratos y presentación de novela visual.
+# Motor: RGSS1 / Ruby 1.8. Fuente extraída del juego instalado.
+# Switches simbólicos: ninguno
+# Switches con ID literal: ninguno
+# Variables simbólicas: ninguna
+# Variables con ID literal: ninguna
+# Los índices calculados y rangos se describen en el código y en docs/sistemas/.
+# Instalación: herramientas/comun/instalar_scripts.mjs (primero, vista previa).
+# === FIN CABECERA ===
 #==============================================================================
 # Vacas_VN -- RGSS1 / Ruby 1.8. Mensajes compatibles con opciones y variables.
 # \P[steven_miedo] \L / \R \D[1] \NOMBRE[Steven]

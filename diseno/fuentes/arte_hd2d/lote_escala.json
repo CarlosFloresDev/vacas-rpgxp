@@ -1,0 +1,202 @@
+{
+  "assets": [
+    {
+      "source": "diseno/fuentes/arte_hd2d/acto3/fuentes/objetos.png",
+      "destination": "Graphics/Characters/vacas_laboratorio.png",
+      "type": "indexed",
+      "layout_source": "diseno/fuentes/arte_hd2d/acto3/layout_objetos.png",
+      "size": "128x256",
+      "cell": "32x64",
+      "padding": 2,
+      "resample": "box",
+      "alpha_threshold": 128,
+      "cell_scale": {
+        "2": {
+          "parts": [
+            {
+              "crop": [
+                0,
+                32,
+                32,
+                64
+              ],
+              "height": 24
+            },
+            {
+              "crop": [
+                0,
+                0,
+                32,
+                32
+              ],
+              "height": 24,
+              "bottom": 24
+            }
+          ]
+        },
+        "3": {
+          "height": 14
+        },
+        "4": {
+          "height": 16
+        },
+        "5": {
+          "height": 16
+        },
+        "6": {
+          "height": 56
+        },
+        "7": {
+          "height": 14
+        },
+        "8": {
+          "height": 28
+        },
+        "9": {
+          "parts": [
+            {
+              "crop": [
+                0,
+                40,
+                32,
+                64
+              ],
+              "height": 24
+            },
+            {
+              "crop": [
+                0,
+                17,
+                32,
+                40
+              ],
+              "height": 12,
+              "bottom": 24
+            }
+          ]
+        },
+        "10": {
+          "height": 38
+        },
+        "11": {
+          "height": 14
+        },
+        "12": {
+          "height": 48
+        },
+        "13": {
+          "height": 26
+        },
+        "14": {
+          "height": 56
+        },
+        "15": {
+          "height": 30
+        }
+      }
+    },
+    {
+      "source": "diseno/fuentes/arte_hd2d/vacas_muebles_fuente.png",
+      "destination": "Graphics/Characters/vacas_muebles.png",
+      "type": "indexed",
+      "layout_source": "diseno/fuentes/arte_provisional/sd_v1/Graphics/Characters/vacas_muebles.png",
+      "cell": "32x64",
+      "size": "128x256",
+      "alpha_threshold": 128,
+      "resample": "box",
+      "cell_scale": {
+        "0": {
+          "height": 32
+        },
+        "1": {
+          "height": 32
+        },
+        "2": {
+          "height": 32
+        },
+        "3": {
+          "height": 32
+        },
+        "4": {
+          "height": 32
+        },
+        "5": {
+          "height": 32
+        },
+        "6": {
+          "height": 32
+        },
+        "7": {
+          "height": 32
+        },
+        "12": {
+          "height": 28
+        },
+        "14": {
+          "height": 28
+        }
+      }
+    },
+    {
+      "source": "diseno/fuentes/arte_hd2d/vacas_cosas_fuente.png",
+      "destination": "Graphics/Characters/vacas_cosas.png",
+      "type": "indexed",
+      "layout_source": "diseno/fuentes/arte_provisional/sd_v1/Graphics/Characters/vacas_cosas.png",
+      "cell": "32x32",
+      "size": "128x128",
+      "alpha_threshold": 128,
+      "resample": "box",
+      "cell_scale": {
+        "0": {
+          "height": 8
+        },
+        "1": {
+          "height": 8
+        },
+        "2": {
+          "height": 8
+        },
+        "4": {
+          "height": 16
+        },
+        "5": {
+          "height": 14
+        },
+        "6": {
+          "height": 6
+        },
+        "7": {
+          "height": 14
+        }
+      }
+    },
+    {
+      "source": "diseno/fuentes/arte_hd2d/vacas_matadero_fuente.png",
+      "destination": "Graphics/Characters/vacas_matadero.png",
+      "type": "indexed",
+      "layout_source": "diseno/fuentes/arte_provisional/sd_v1/Graphics/Characters/vacas_matadero.png",
+      "cell": "32x64",
+      "size": "128x256",
+      "alpha_threshold": 128,
+      "resample": "box",
+      "source_rows": [
+        0,
+        340,
+        906,
+        1369,
+        1774
+      ],
+      "cell_scale": {
+        "8": {
+          "height": 32
+        },
+        "9": {
+          "height": 24
+        },
+        "10": {
+          "height": 20
+        }
+      }
+    }
+  ]
+}

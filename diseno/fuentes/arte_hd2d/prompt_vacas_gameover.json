@@ -1,0 +1,15 @@
+{
+  "id": "vacas_gameover",
+  "prompt": "Use case: stylized-concept. Original VACAS psychological horror GAME OVER SCREEN opaque4:3 final640x480. Image1 previous screen TEXT reference only; FIX clipped typography, all text comfortably inside50px side margins. Background near black burgundy, subtle silhouette of domestic hallway and low mustard lamp, no visible character no body. Center around y190 readable red serif text EXACT 'La Bestia te ha encontrado.' — may use TWO centered lines to fit width: line1 'La Bestia te ha' line2 'encontrado.' Keep period. Below aroundy285 smaller muted ivory italic EXACT 'El veneno ya no cabe dentro de ti.' centered with generous margin. High legibility at640x480, no cut letters, no extra words buttons symbols. Restrained illustrated industrial horror dark damp original mood, no text texture noise.",
+  "references": [
+    "diseno/fuentes/arte_provisional/sd_v1/Graphics/Gameovers/vacas_gameover.png"
+  ],
+  "destination": "diseno/fuentes/arte_hd2d/vacas_gameover_fuente.png",
+  "transparent_background": false,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/fuentes/arte_provisional/sd_v1/Graphics/Gameovers/vacas_gameover.png": "bbfe2c45fe851484c8391f0573cbf0941928ea0fd929042203fd630a4455bd6b"
+  },
+  "output_sha256": "69f8674e6e4863e5f69778a9d50dd43c53ee78cc092a68031f54330269c378c0"
+}

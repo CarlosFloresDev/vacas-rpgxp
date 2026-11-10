@@ -3,9 +3,10 @@ Data/.mcp-backup/
 Data/.mcp-preview/
 __pycache__/
 prueba_log.txt
-diseno/herramientas/b_*.json
+*.tmp
+*.pyc
 
 Save*.rxdata
-diseno/herramientas/snapshot.json
-diseno/herramientas/verificacion_scripts/
+diseno/verificaciones/inventario/snapshot.json
+diseno/verificaciones/scripts_motor/
 *.log

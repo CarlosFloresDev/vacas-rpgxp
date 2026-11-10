@@ -1,0 +1,15 @@
+{
+  "id": "vacas_furgoneta",
+  "prompt": "Use case: style-transfer. Original VACAS slaughterhouse MUNICIPAL VAN, SINGLE complete vehicle right-facing profile as image1's repeated cell. Image1 INDEX/pose reference only, redraw original design. Worn IVORY box truck short cab on right, dark blue-grey windshield, muted red horizontal stripe across lower body, two black tires steel hubs, small rust streaks. Two lines painted on box EXACT TEXT: 'MATADERO' above 'MUNICIPAL', all uppercase simple legible letters, dark red upper line grey lower. NO extra logos or text. Full vehicle tires mirrors within transparent margin; no ground no driver no grid. Detailed intentional pixel clusters selective dark outline warm upper-left light subtle cool rim. Destination one96x64 cell repeated identically across4x4 sheet384x256 by adapter; generate ONE right-facing van only.",
+  "references": [
+    "diseno/fuentes/arte_provisional/sd_v1/Graphics/Characters/vacas_furgoneta.png"
+  ],
+  "destination": "diseno/fuentes/arte_hd2d/vacas_furgoneta_fuente.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/fuentes/arte_provisional/sd_v1/Graphics/Characters/vacas_furgoneta.png": "30d89f63c2d9e67f9fea6cdb02e297165cc50efea49fd5179230a88af8c38888"
+  },
+  "output_sha256": "e1f99f0358543bf9ea34c4e5c7a1e9a58685526d02191ade7abff1932c456df4"
+}

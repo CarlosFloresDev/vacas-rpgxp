@@ -1,0 +1,18 @@
+{
+  "id": "vacas_muebles",
+  "prompt": "Use case: style-transfer. Original VACAS HD2D-inspired PIXEL ART FURNITURE ATLAS, EXACT4x4 indices as image1 existing layout. Tall cells32x64 final128x256; no lines no labels. Row1 FOUR IDENTICAL BROWN1950s TVs with static screens phases. Row2 SAME TV states left to right OFF; COLOR TEST BARS; tiny BOVINE HORN FACE on screen; RED STATIC. Image2 identity reference for rounded cabinet twin antenna two knobs ONLY; never show adult family except static. Row3 left to right CLOSED BROWN TWO-DOOR WARDROBE; SAME WARDROBE left door OPEN; OLD IVORY FRIDGE; TOP-DOWN VERTICAL BATHTUB. Row4 TOILET; PEDESTAL SINK AND RECTANGULAR MIRROR above; WORN BROWN ARMCHAIR; PIANO COVERED WITH DUSTY CREAM CLOTH. Keep EXACT occupant in every cell and no additional objects, full objects with margin; transparency real, no floor, no text. Original designs, not copied game assets. Warm upper-left nicotine domestic light subtle cold rim, deliberate pixel clusters strong silhouettes.",
+  "references": [
+    "diseno/fuentes/arte_provisional/sd_v1/Graphics/Characters/vacas_muebles.png",
+    "diseno/fuentes/arte_hd2d/referencias/familia_nieve.png"
+  ],
+  "destination": "diseno/fuentes/arte_hd2d/vacas_muebles_fuente.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "discarded_after_visual_review",
+  "saved_output": "diseno/fuentes/arte_hd2d/vacas_muebles_descartada.png",
+  "input_sha256": {
+    "diseno/fuentes/arte_provisional/sd_v1/Graphics/Characters/vacas_muebles.png": "b278e47ea7fc14c4602a356e3cf80db07dff15be58e33160021108c2ccd7df11",
+    "diseno/fuentes/arte_hd2d/referencias/familia_nieve.png": "fd7ddf9fcfeaf5f55edabb4e04c4e4c94d23299c861c4227cb38c12007d2f466"
+  },
+  "output_sha256": "5d7911ef2b042acee1f1660b40c1f1bec0f3ef897a62653787a36950da2817ea"
+}

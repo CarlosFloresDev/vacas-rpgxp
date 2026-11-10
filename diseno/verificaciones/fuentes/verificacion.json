@@ -1,0 +1,53 @@
+{
+  "comprobaciones": [
+    "character: 4x4, alpha binario, pies alineados y contorno",
+    "respaldo original inmutable tras dos reemplazos",
+    "face/retrato/picture/battleback: tamaños y conversión",
+    "battler: límite de altura y recorte",
+    "clave: transparencia sin borrar sujeto",
+    "cuantización: solo colores de zona, sin dithering",
+    "destinos fuera de Graphics rechazados",
+    "cuatro entregables: PNG válidos, backups presentes, alpha correcto",
+    "inventario: 42 PNG de SISTEMAS y todos los PNG de Graphics documentados"
+  ],
+  "motor_ejecutado": false,
+  "muestras": [
+    {
+      "source": "diseno/fuentes/arte_hd2d/steven_coherente.png",
+      "destination": "Graphics/Characters/vacas_steven.png",
+      "type": "character",
+      "cell": "32x48",
+      "alpha_threshold": 128,
+      "resample": "nearest",
+      "zone": "piso",
+      "padding": 4,
+      "sha256": "332032558ce3719b7080e1ba196a54d8308a022c028664eee7d3d6017cd64662"
+    },
+    {
+      "source": "diseno/fuentes/arte_hd2d/steven_retrato.png",
+      "destination": "Graphics/Pictures/retrato_steven_neutral.png",
+      "type": "retrato",
+      "alpha_threshold": 128,
+      "resample": "nearest",
+      "sha256": "d7971c4292c40487c758c1b8f81f9776d45b380c841c7675e48055395478e11f"
+    },
+    {
+      "source": "diseno/fuentes/arte_hd2d/vaca.png",
+      "destination": "Graphics/Battlers/enemigo_vaca.png",
+      "type": "battler",
+      "size": "320x300",
+      "max_height": 300,
+      "alpha_threshold": 128,
+      "resample": "nearest",
+      "padding": 3,
+      "sha256": "52cbd150606098e4e0cb5effe9724a5c0f37bbfafdd6368b60db573f01730e87"
+    },
+    {
+      "source": "diseno/fuentes/arte_hd2d/susto.png",
+      "destination": "Graphics/Pictures/screamer_3.png",
+      "type": "picture",
+      "resample": "nearest",
+      "sha256": "0dcea7ddb8309b4bd7f30c70b830c1b5295be6c63caca054a2b2472c94d7d825"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "vacas_titulo",
+  "prompt": "Use case: stylized-concept. Original VACAS psychological industrial horror TITLE SCREEN, opaque4:3 final640x480. Image1 current title is layout/text reference only; image2 definitive1950s TV cabinet reference, use normal cabinet NO adult faces NO fleshy cables: screen only WHITE STATIC, ordinary short wooden legs. Dark nicotine apartment with tiny TV centered roughly x320y290, screen casts dim cold green glow on worn parquet; door shadow at sides. Upper half dominant readable deep BURGUNDY SERIF TITLE EXACT 'VACAS' centered within generous60px side margins, roughly y60-165. Smaller ivory italic subtitle EXACT 'Acto I: El piso' aroundy195. Keep bottom region y350-480 dark and QUIET to leave room for existing game menu, no baked buttons. Detailed illustrated deliberate pixel clusters cinematic warm/cold lighting, strong original identity, no copied game designs. No extra words logos signatures.",
+  "references": [
+    "diseno/fuentes/arte_provisional/sd_v1/Graphics/Titles/vacas_titulo.png",
+    "diseno/fuentes/arte_hd2d/referencias/familia_nieve.png"
+  ],
+  "destination": "diseno/fuentes/arte_hd2d/vacas_titulo_fuente.png",
+  "transparent_background": false,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/fuentes/arte_provisional/sd_v1/Graphics/Titles/vacas_titulo.png": "5151bfa730058971f3492935c2eeb7101cb81f63fc19615d8735b265c048007d",
+    "diseno/fuentes/arte_hd2d/referencias/familia_nieve.png": "fd7ddf9fcfeaf5f55edabb4e04c4e4c94d23299c861c4227cb38c12007d2f466"
+  },
+  "output_sha256": "5217ede504522f054d7b080adbab4f14ea9f73baf290086c7a4589de942a63af"
+}

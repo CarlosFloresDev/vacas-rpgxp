@@ -1,3 +1,14 @@
+# === VACAS: FUENTE VIGENTE ===
+# Script: Vacas_Pantallas | posición en Scripts.rxdata: 92 (base 0)
+# Función: Título, derrota, pantallas y entradas de prueba.
+# Motor: RGSS1 / Ruby 1.8. Fuente extraída del juego instalado.
+# Switches simbólicos: ninguno
+# Switches con ID literal: ninguno
+# Variables simbólicas: ninguna
+# Variables con ID literal: ninguna
+# Los índices calculados y rangos se describen en el código y en docs/sistemas/.
+# Instalación: herramientas/comun/instalar_scripts.mjs (primero, vista previa).
+# === FIN CABECERA ===
 #==============================================================================
 # ** Vacas - Pantallas
 #------------------------------------------------------------------------------

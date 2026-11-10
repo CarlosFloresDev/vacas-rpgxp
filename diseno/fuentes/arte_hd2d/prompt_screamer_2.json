@@ -1,0 +1,15 @@
+{
+  "id": "screamer_2",
+  "prompt": "Use case: identity-preserve. Original VACAS industrial psychological horror JUMP SCARE, full opaque 4:3 frame final640x480, NOT isolated portrait, claustrophobic extreme closeup, dark edges and concentrated high contrast around focal motif, clinical side light and damp small highlights. Illustrated HD2D-inspired finish matching approved horror, no copied game assets. No text no logo no sexual content. ID2 MOTIF: FAMILY WITH STATIC MOUTHS. Exact THREE ANONYMOUS ADULTS of reference: older man55 left, older woman50 right, mature adult man35 center receding hair adult jaw. EXTREME CLOSEUP of curved CRT filling most frame, fragments of1950s brown cabinet at edges; all mouths open black-static voids, faces deformed by scanlines and broken signal, static bands through eyes. Faces pressing toward glass, oppressive domestic green-black room beyond barely visible. Adult son must look clearly adult. No children no cow no horns. Same cabinet ivory rim and twin right knobs glimpsed, full opaque4:3.",
+  "references": [
+    "diseno/fuentes/arte_hd2d/referencias/familia_nieve.png"
+  ],
+  "destination": "diseno/fuentes/arte_hd2d/screamer_2_fuente.png",
+  "transparent_background": false,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/fuentes/arte_hd2d/referencias/familia_nieve.png": "fd7ddf9fcfeaf5f55edabb4e04c4e4c94d23299c861c4227cb38c12007d2f466"
+  },
+  "output_sha256": "87194505c3f0ae8d279cbb6bbe92eb61be7aa7a8758a28895c43498e6d6a7085"
+}

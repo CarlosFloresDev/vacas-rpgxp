@@ -1,0 +1,17 @@
+{
+  "id": "transeunte_sprite",
+  "prompt": "Use case: identity-preserve. RPG Maker XP detailed pixel art walk sheet of EXACT identity in image1. Image2 approved Steven sprite STYLE/proportions only. EXACT4x4 equal rectangular cells NO GRID; rows FRONT/down, LEFT, RIGHT, BACK/up; four columns left step, passing, right step, passing. 16 complete figures, identical costume head scale light in every cell. About2.5 heads tall, recognizable hands and boots, fixed feet baseline per row, generous empty cell margins, crisp intentional pixel clusters, selective dark outline, warm upper-left light and cold right rim. REAL transparent alpha, no ground, no opaque backdrop, no text. Final128x192 cells32x48. ANONYMOUS TRANSEUNTE age38 slim man in grey raincoat and dark-grey rain hat, brown trousers dark shoes. Deliberately low contrast and cool-muted light, no strong orange rim. Same plain outfit all frames, no umbrella no bag, no beard, subdued face. Not protagonist.",
+  "references": [
+    "diseno/fuentes/arte_hd2d/referencias/transeunte.png",
+    "Graphics/Characters/vacas_steven.png"
+  ],
+  "destination": "diseno/fuentes/arte_hd2d/transeunte_sprite_fuente.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/fuentes/arte_hd2d/referencias/transeunte.png": "5ea003aed8e4e67282797043d483026a1ab4c2d3f334aff71bf98c89236c4468",
+    "Graphics/Characters/vacas_steven.png": "332032558ce3719b7080e1ba196a54d8308a022c028664eee7d3d6017cd64662"
+  },
+  "output_sha256": "82096df5e89c9dcfaa68cdd2e1a8f5962c6189285955b22c23235016fe337375"
+}

@@ -1,0 +1,687 @@
+{
+  "assets": [
+    {
+      "source": "diseno/fuentes/arte_hd2d/arte_mapas/052-Carpet02_fuente_recortada.png",
+      "destination": "Graphics/Autotiles/052-Carpet02.png",
+      "type": "indexed",
+      "size": [
+        96,
+        128
+      ],
+      "cell": "16x16",
+      "layout_source": "diseno/respaldos/antes_arte_mapas/RTP/Autotiles/052-Carpet02.png",
+      "indexed_mode": "resize",
+      "preserve_alpha": true,
+      "padding": 0,
+      "resample": "box",
+      "zone": "piso",
+      "edge_equivalence_classes": 323,
+      "original_frames": 1,
+      "source_atlas": "diseno/fuentes/arte_hd2d/arte_mapas/autotiles_fuente.png",
+      "sha256": "975b94aed6581c2be161ef2a08898fb6127a72a10f7cc973e98f900807ce5aee",
+      "backup": "diseno/respaldos/antes_arte_mapas/RTP/Autotiles/052-Carpet02.png",
+      "backup_sha256": "b433104c66c45a3eb68821ad1adbfb7e6fe0fb3e8fcbbe17b454be9ced3eb296"
+    },
+    {
+      "source": "diseno/fuentes/arte_hd2d/arte_mapas/048-Water01_fuente_recortada.png",
+      "destination": "Graphics/Autotiles/048-Water01.png",
+      "type": "indexed",
+      "size": [
+        384,
+        128
+      ],
+      "cell": "16x16",
+      "layout_source": "diseno/respaldos/antes_arte_mapas/RTP/Autotiles/048-Water01.png",
+      "indexed_mode": "resize",
+      "preserve_alpha": true,
+      "padding": 0,
+      "resample": "box",
+      "zone": "piso",
+      "edge_equivalence_classes": 1804,
+      "original_frames": 4,
+      "source_atlas": "diseno/fuentes/arte_hd2d/arte_mapas/autotiles_fuente.png",
+      "sha256": "636bd4fa805cb596e152cd2c22c34fc8317df4a00fcac85650a48555dfead80f",
+      "backup": "diseno/respaldos/antes_arte_mapas/RTP/Autotiles/048-Water01.png",
+      "backup_sha256": "0c2dcfb35f22097cee7321620248342af15bb49af386a8ddb0cb627363fbf594"
+    },
+    {
+      "source": "diseno/fuentes/arte_hd2d/arte_mapas/002-G_Shadow01_fuente_recortada.png",
+      "destination": "Graphics/Autotiles/002-G_Shadow01.png",
+      "type": "indexed",
+      "size": [
+        96,
+        128
+      ],
+      "cell": "16x16",
+      "layout_source": "diseno/respaldos/antes_arte_mapas/RTP/Autotiles/002-G_Shadow01.png",
+      "indexed_mode": "resize",
+      "preserve_alpha": true,
+      "padding": 0,
+      "resample": "box",
+      "zone": "piso",
+      "edge_equivalence_classes": 498,
+      "original_frames": 1,
+      "source_atlas": "diseno/fuentes/arte_hd2d/arte_mapas/autotiles_fuente.png",
+      "sha256": "a6154e49b1196d406cbe3787113f78d2930ac655537c6bafe34e0dcd58d526b3",
+      "backup": "diseno/respaldos/antes_arte_mapas/RTP/Autotiles/002-G_Shadow01.png",
+      "backup_sha256": "93c0da61391ccaa6804d6d83326bdd092fd94fb1163e4e072a10952c033fe8f3"
+    },
+    {
+      "source": "diseno/fuentes/arte_hd2d/arte_mapas/003-G_Ground01_fuente_recortada.png",
+      "destination": "Graphics/Autotiles/003-G_Ground01.png",
+      "type": "indexed",
+      "size": [
+        96,
+        128
+      ],
+      "cell": "16x16",
+      "layout_source": "diseno/respaldos/antes_arte_mapas/RTP/Autotiles/003-G_Ground01.png",
+      "indexed_mode": "resize",
+      "preserve_alpha": true,
+      "padding": 0,
+      "resample": "box",
+      "zone": "piso",
+      "edge_equivalence_classes": 507,
+      "original_frames": 1,
+      "source_atlas": "diseno/fuentes/arte_hd2d/arte_mapas/autotiles_fuente.png",
+      "sha256": "ebb33e7c925c2e44374b515b5286812e5f057f9c92f817f8aefdb42a7b897d4e",
+      "backup": "diseno/respaldos/antes_arte_mapas/RTP/Autotiles/003-G_Ground01.png",
+      "backup_sha256": "fc04b639257647e364e4cf6d3c9850451b7892ae353a87b8f78a5f02268631e4"
+    },
+    {
+      "source": "diseno/fuentes/arte_hd2d/arte_mapas/005-G_Road01_fuente_recortada.png",
+      "destination": "Graphics/Autotiles/005-G_Road01.png",
+      "type": "indexed",
+      "size": [
+        96,
+        128
+      ],
+      "cell": "16x16",
+      "layout_source": "diseno/respaldos/antes_arte_mapas/RTP/Autotiles/005-G_Road01.png",
+      "indexed_mode": "resize",
+      "preserve_alpha": true,
+      "padding": 0,
+      "resample": "box",
+      "zone": "piso",
+      "edge_equivalence_classes": 480,
+      "original_frames": 1,
+      "source_atlas": "diseno/fuentes/arte_hd2d/arte_mapas/autotiles_fuente.png",
+      "sha256": "5fd10bebfaa967cbb3561b4693d3cdb766ca285ad2fa66d008f6674e7b25a7fd",
+      "backup": "diseno/respaldos/antes_arte_mapas/RTP/Autotiles/005-G_Road01.png",
+      "backup_sha256": "d247a15be099cb5808bc1063c84f4bfc03398fc718afc06bec056fc15062a956"
+    },
+    {
+      "source": "diseno/fuentes/arte_hd2d/arte_mapas/006-G_Road02_fuente_recortada.png",
+      "destination": "Graphics/Autotiles/006-G_Road02.png",
+      "type": "indexed",
+      "size": [
+        96,
+        128
+      ],
+      "cell": "16x16",
+      "layout_source": "diseno/respaldos/antes_arte_mapas/RTP/Autotiles/006-G_Road02.png",
+      "indexed_mode": "resize",
+      "preserve_alpha": true,
+      "padding": 0,
+      "resample": "box",
+      "zone": "piso",
+      "edge_equivalence_classes": 480,
+      "original_frames": 1,
+      "source_atlas": "diseno/fuentes/arte_hd2d/arte_mapas/autotiles_fuente.png",
+      "sha256": "988544a01b71dca3a91d7df31ec968d08bff85dd3fb98035455b78ed56a4a4df",
+      "backup": "diseno/respaldos/antes_arte_mapas/RTP/Autotiles/006-G_Road02.png",
+      "backup_sha256": "c810965fa39b4891cc1baac2278ebc8fe2254026a1ef45129c2b993c1c49bee1"
+    },
+    {
+      "source": "diseno/fuentes/arte_hd2d/arte_mapas/050-Roof02_fuente_recortada.png",
+      "destination": "Graphics/Autotiles/050-Roof02.png",
+      "type": "indexed",
+      "size": [
+        96,
+        128
+      ],
+      "cell": "16x16",
+      "layout_source": "diseno/respaldos/antes_arte_mapas/RTP/Autotiles/050-Roof02.png",
+      "indexed_mode": "resize",
+      "preserve_alpha": true,
+      "padding": 0,
+      "resample": "box",
+      "zone": "piso",
+      "edge_equivalence_classes": 531,
+      "original_frames": 1,
+      "source_atlas": "diseno/fuentes/arte_hd2d/arte_mapas/autotiles_fuente.png",
+      "sha256": "a5fed130544aea4a772236675db03b70699e0679902b9a2a6e6b0d6ca421e986",
+      "backup": "diseno/respaldos/antes_arte_mapas/RTP/Autotiles/050-Roof02.png",
+      "backup_sha256": "231d00a97f9d8686ebc860942b96bc2060b93b095ecd24d1f3e2447f1bd17ce5"
+    },
+    {
+      "source": "diseno/fuentes/arte_hd2d/arte_mapas/luz_fuente.png",
+      "destination": "Graphics/Characters/185-Light02.png",
+      "type": "indexed",
+      "size": "128x256",
+      "cell": "32x64",
+      "layout_source": "diseno/respaldos/antes_arte_mapas/RTP/Characters/185-Light02.png",
+      "indexed_mode": "fit",
+      "resample": "box",
+      "padding": 0,
+      "zone": "piso",
+      "sha256": "ec2734d044a96cca6b26913bf2285ef083c2c0176b45c41d16df447f7484350d",
+      "backup": "diseno/respaldos/antes_arte_mapas/RTP/Characters/185-Light02.png",
+      "backup_sha256": "6031d0becda4da112cf8da538222050d639b7104e40f0d822658e8c3ab2421e7"
+    }
+  ],
+  "compositions": [
+    {
+      "destination": "Graphics/Tilesets/revision_mapa01.png",
+      "sources": [
+        "diseno/fuentes/arte_hd2d/arte_mapas/props_fuente.png",
+        "Graphics/Tilesets/vacas_matadero.png",
+        "diseno/fuentes/arte_hd2d/arte_final/props_0_fuente.png"
+      ],
+      "method": "arte_mapas.py: adaptación de objetos a huellas históricas; recorte a los índices exactos ya existentes",
+      "maps": [
+        1
+      ],
+      "sha256": "db6034ccc76a98127937783077259a7011c89b8c4b9e0372c5176c5fbe07db2c",
+      "backup": "diseno/respaldos/antes_arte_mapas/Graphics/Tilesets/revision_mapa01.png",
+      "backup_sha256": "b4a89383236442be18505bee0a3e5d9775a4d40f5a2dc3465d66de2c33850c52"
+    },
+    {
+      "destination": "Graphics/Tilesets/revision_mapa02.png",
+      "sources": [
+        "diseno/fuentes/arte_hd2d/arte_mapas/props_fuente.png",
+        "diseno/fuentes/arte_hd2d/arte_mapas/hogar_a_fuente.png",
+        "diseno/fuentes/arte_hd2d/arte_mapas/hogar_b_fuente.png",
+        "diseno/fuentes/arte_hd2d/arte_final/props_0_fuente.png",
+        "diseno/fuentes/arte_hd2d/arte_mapas/suelos_fuente.png"
+      ],
+      "method": "arte_mapas.py: adaptación de objetos a huellas históricas; recorte a los índices exactos ya existentes",
+      "maps": [
+        2
+      ],
+      "floor_corrections": {
+        "384": 1,
+        "385": 1,
+        "387": 0,
+        "388": 0
+      },
+      "sha256": "5b71a3899c6084aeb72bbd6d38629c00df73977304e1de3425e20bb374a30306",
+      "backup": "diseno/respaldos/antes_arte_mapas/Graphics/Tilesets/revision_mapa02.png",
+      "backup_sha256": "e5856b8c2e4ede18c4065262654153cb4746a9eea5dcbda183a64df900e76a92"
+    },
+    {
+      "destination": "Graphics/Tilesets/revision_mapa03.png",
+      "sources": [
+        "diseno/fuentes/arte_hd2d/arte_mapas/props_fuente.png",
+        "diseno/fuentes/arte_hd2d/arte_mapas/hogar_a_fuente.png",
+        "diseno/fuentes/arte_hd2d/arte_mapas/hogar_b_fuente.png",
+        "diseno/fuentes/arte_hd2d/arte_final/props_0_fuente.png",
+        "diseno/fuentes/arte_hd2d/arte_mapas/suelos_fuente.png"
+      ],
+      "method": "arte_mapas.py: adaptación de objetos a huellas históricas; recorte a los índices exactos ya existentes",
+      "maps": [
+        3
+      ],
+      "floor_corrections": {
+        "384": 1,
+        "385": 1
+      },
+      "sha256": "11f8de30ca27b2852c7209315724a41d11bf5bc2270f77ae69fa3d4a0af84a6b",
+      "backup": "diseno/respaldos/antes_arte_mapas/Graphics/Tilesets/revision_mapa03.png",
+      "backup_sha256": "018f187680942a51723f2dd08adf9aca83bb739bcbcfab2470a2724b419e07d2"
+    },
+    {
+      "destination": "Graphics/Tilesets/revision_mapa04.png",
+      "sources": [
+        "diseno/fuentes/arte_hd2d/arte_mapas/props_fuente.png",
+        "diseno/fuentes/arte_hd2d/arte_mapas/calle_a_fuente.png",
+        "diseno/fuentes/arte_hd2d/arte_mapas/calle_b_fuente.png",
+        "diseno/fuentes/arte_hd2d/arte_final/props_0_fuente.png",
+        "diseno/fuentes/arte_hd2d/arte_mapas/suelos_fuente.png"
+      ],
+      "method": "arte_mapas.py: adaptación de objetos a huellas históricas; recorte a los índices exactos ya existentes",
+      "maps": [
+        4
+      ],
+      "floor_corrections": {
+        "385": 3,
+        "393": 3,
+        "465": 2
+      },
+      "sha256": "1cf802c99102d99153abce719a5e30240c17b9a4602589521a90f725da08dccf",
+      "backup": "diseno/respaldos/antes_arte_mapas/Graphics/Tilesets/revision_mapa04.png",
+      "backup_sha256": "4034cbea0a28789bda425ff818f33e6a5a22cb8a677c9f38dcde2fe8291ca46d"
+    },
+    {
+      "destination": "Graphics/Tilesets/revision_mapa05.png",
+      "sources": [
+        "diseno/fuentes/arte_hd2d/arte_mapas/props_fuente.png",
+        "Graphics/Tilesets/vacas_matadero.png",
+        "diseno/fuentes/arte_hd2d/arte_final/props_0_fuente.png"
+      ],
+      "method": "arte_mapas.py: adaptación de objetos a huellas históricas; recorte a los índices exactos ya existentes",
+      "maps": [
+        5
+      ],
+      "sha256": "489af3265031746ce731ffb89b760173a280d9da4632d419912cc5d3d8bb9f04",
+      "backup": "diseno/respaldos/antes_arte_mapas/Graphics/Tilesets/revision_mapa05.png",
+      "backup_sha256": "bb1a71795913fe1cc3e5ed0683036ea99b876e1f79b4df549145d4da5eea0ffe"
+    },
+    {
+      "destination": "Graphics/Tilesets/revision_mapa06.png",
+      "sources": [
+        "diseno/fuentes/arte_hd2d/arte_mapas/props_fuente.png",
+        "Graphics/Tilesets/vacas_matadero.png",
+        "diseno/fuentes/arte_hd2d/arte_final/props_0_fuente.png"
+      ],
+      "method": "arte_mapas.py: adaptación de objetos a huellas históricas; recorte a los índices exactos ya existentes",
+      "maps": [
+        6
+      ],
+      "sha256": "b533b7191c3f480bf6bb7061b7db4f677d9754edd71781a776594e1754dfddbe",
+      "backup": "diseno/respaldos/antes_arte_mapas/Graphics/Tilesets/revision_mapa06.png",
+      "backup_sha256": "467441dd08c3c2be3f66477316575988f2073921bc92fd7235ea3b710655a393"
+    },
+    {
+      "destination": "Graphics/Tilesets/revision_mapa07.png",
+      "sources": [
+        "diseno/fuentes/arte_hd2d/arte_mapas/props_fuente.png",
+        "Graphics/Tilesets/vacas_matadero.png"
+      ],
+      "method": "arte_mapas.py: adaptación de objetos a huellas históricas; recorte a los índices exactos ya existentes",
+      "maps": [
+        7
+      ],
+      "sha256": "9b52abd37f2ed248c28de2b347efd93801f5aec5717c542c7b9e500d55d54445",
+      "backup": "diseno/respaldos/antes_arte_mapas/Graphics/Tilesets/revision_mapa07.png",
+      "backup_sha256": "ac05664f2c070dd80c676c8557421ffab9e8d7369c0bd189f90cf1c73ae6a8a6"
+    },
+    {
+      "destination": "Graphics/Tilesets/revision_mapa08.png",
+      "sources": [
+        "diseno/fuentes/arte_hd2d/arte_mapas/props_fuente.png",
+        "Graphics/Tilesets/vacas_matadero.png"
+      ],
+      "method": "arte_mapas.py: adaptación de objetos a huellas históricas; recorte a los índices exactos ya existentes",
+      "maps": [
+        8
+      ],
+      "sha256": "c5ccb4c8bee8ab4faabbe9bb2fb74f8ba72842f900a91d838283cca0ea857d5f",
+      "backup": "diseno/respaldos/antes_arte_mapas/Graphics/Tilesets/revision_mapa08.png",
+      "backup_sha256": "b2e9fff09f65361b6ed4eb825a86bec77f1efd5335f878d556e539b19e77db14"
+    },
+    {
+      "destination": "Graphics/Tilesets/revision_mapa09.png",
+      "sources": [
+        "diseno/fuentes/arte_hd2d/arte_mapas/props_fuente.png",
+        "Graphics/Tilesets/vacas_matadero.png"
+      ],
+      "method": "arte_mapas.py: adaptación de objetos a huellas históricas; recorte a los índices exactos ya existentes",
+      "maps": [
+        9
+      ],
+      "sha256": "3c3a2b524afd2a6862921fb3e0584df0e0bbc625137e33add592af819d972287",
+      "backup": "diseno/respaldos/antes_arte_mapas/Graphics/Tilesets/revision_mapa09.png",
+      "backup_sha256": "fddb0fc488ac67a33d1b88a26525667cd41d54718deb61288d141291d224c574"
+    },
+    {
+      "destination": "Graphics/Tilesets/revision_mapa10.png",
+      "sources": [
+        "diseno/fuentes/arte_hd2d/arte_mapas/props_fuente.png",
+        "Graphics/Tilesets/vacas_matadero.png",
+        "diseno/fuentes/arte_hd2d/arte_final/props_0_fuente.png"
+      ],
+      "method": "arte_mapas.py: adaptación de objetos a huellas históricas; recorte a los índices exactos ya existentes",
+      "maps": [
+        10
+      ],
+      "sha256": "4822aa18f925c50eb19a7215438093c563e18a26f5e39ad8d4ace231c995683c",
+      "backup": "diseno/respaldos/antes_arte_mapas/Graphics/Tilesets/revision_mapa10.png",
+      "backup_sha256": "0b254e38ff2a58575d40e193fa92aabdd2106d4e6d2045241244dd49724f78e4"
+    },
+    {
+      "destination": "Graphics/Tilesets/revision_mapa11.png",
+      "sources": [
+        "diseno/fuentes/arte_hd2d/arte_mapas/props_fuente.png",
+        "Graphics/Tilesets/vacas_matadero.png"
+      ],
+      "method": "arte_mapas.py: adaptación de objetos a huellas históricas; recorte a los índices exactos ya existentes",
+      "maps": [
+        11
+      ],
+      "sha256": "f8c4435ba5629b1ed67ee57c8001bc96ab6082771e7ad0beda196c7278495d6e",
+      "backup": "diseno/respaldos/antes_arte_mapas/Graphics/Tilesets/revision_mapa11.png",
+      "backup_sha256": "ca3ad7bbf63851df5a775807840cec684f13d846d4ed5ec5a9605dd54b86ce02"
+    },
+    {
+      "destination": "Graphics/Tilesets/revision_mapa12.png",
+      "sources": [
+        "diseno/fuentes/arte_hd2d/arte_mapas/props_fuente.png",
+        "Graphics/Tilesets/vacas_matadero.png",
+        "diseno/fuentes/arte_hd2d/arte_final/props_0_fuente.png"
+      ],
+      "method": "arte_mapas.py: adaptación de objetos a huellas históricas; recorte a los índices exactos ya existentes",
+      "maps": [
+        12
+      ],
+      "sha256": "65cafb9ac77d5e0ee5c8f88b7e67c77574c44299a1a2d83479f432ab28f184f2",
+      "backup": "diseno/respaldos/antes_arte_mapas/Graphics/Tilesets/revision_mapa12.png",
+      "backup_sha256": "971be391a5b5fd0471dbd76b1aa42d5e94988e7e1297870c9169324eb8ffcd74"
+    },
+    {
+      "destination": "Graphics/Tilesets/revision_mapa13.png",
+      "sources": [
+        "diseno/fuentes/arte_hd2d/arte_mapas/props_fuente.png",
+        "Graphics/Tilesets/vacas_matadero.png"
+      ],
+      "method": "arte_mapas.py: adaptación de objetos a huellas históricas; recorte a los índices exactos ya existentes",
+      "maps": [
+        13
+      ],
+      "sha256": "a49845a6186381261cb2a4b1a11cf1c40bd92c26f294dde4300deb62857c6394",
+      "backup": "diseno/respaldos/antes_arte_mapas/Graphics/Tilesets/revision_mapa13.png",
+      "backup_sha256": "c26bd1bee21bc9f1c7657e5edc90fe85c677a4ff75e7622aa1df082fb2b38919"
+    },
+    {
+      "destination": "Graphics/Tilesets/revision_mapa14.png",
+      "sources": [
+        "diseno/fuentes/arte_hd2d/arte_mapas/props_fuente.png",
+        "Graphics/Tilesets/vacas_matadero.png"
+      ],
+      "method": "arte_mapas.py: adaptación de objetos a huellas históricas; recorte a los índices exactos ya existentes",
+      "maps": [
+        14
+      ],
+      "sha256": "cecd7264c2d6e9275fabf03ec631d6ffa0585fc9d9c90064d00cfd0cb6d84902",
+      "backup": "diseno/respaldos/antes_arte_mapas/Graphics/Tilesets/revision_mapa14.png",
+      "backup_sha256": "7bbc58ddf5bdbf4239bbcb9eeaf091a240d7495c640b48fef8306e56880baf4e"
+    },
+    {
+      "destination": "Graphics/Tilesets/revision_mapa15.png",
+      "sources": [
+        "diseno/fuentes/arte_hd2d/arte_mapas/props_fuente.png",
+        "Graphics/Tilesets/vacas_matadero.png",
+        "diseno/fuentes/arte_hd2d/arte_final/props_0_fuente.png",
+        "Graphics/Characters/vacas_laboratorio.png"
+      ],
+      "method": "arte_mapas.py: adaptación de objetos a huellas históricas; recorte a los índices exactos ya existentes",
+      "maps": [
+        15
+      ],
+      "sha256": "8bb7ccd48c42d1bd5e6d76c14d2d864184d0cede776b8139bdada0f04d81b015",
+      "backup": "diseno/respaldos/antes_arte_mapas/Graphics/Tilesets/revision_mapa15.png",
+      "backup_sha256": "3c3980f079ee005f77744ad8a7573d7a08e341ef19518d8251bbf8c69c575644"
+    },
+    {
+      "destination": "Graphics/Tilesets/revision_mapa16.png",
+      "sources": [
+        "diseno/fuentes/arte_hd2d/arte_mapas/props_fuente.png",
+        "Graphics/Tilesets/vacas_matadero.png",
+        "Graphics/Characters/vacas_laboratorio.png"
+      ],
+      "method": "arte_mapas.py: adaptación de objetos a huellas históricas; recorte a los índices exactos ya existentes",
+      "maps": [
+        16
+      ],
+      "sha256": "e4646e162bd8d7b583bfd16e413383f4d194e14c252b68a1d1e087d01688fae4",
+      "backup": "diseno/respaldos/antes_arte_mapas/Graphics/Tilesets/revision_mapa16.png",
+      "backup_sha256": "9c0c9cad27d6f9a8aff6fd252da5f1a336e0e8c862d7a4518f267a3d90b89bc9"
+    }
+  ],
+  "exceptions": [],
+  "stats": [
+    {
+      "map": 1,
+      "replaced_overlay_tiles": 86,
+      "generated_props": 6,
+      "base": "approved_industrial_preserved"
+    },
+    {
+      "map": 2,
+      "replaced_overlay_tiles": 120,
+      "generated_props": 7,
+      "base": "home"
+    },
+    {
+      "map": 3,
+      "replaced_overlay_tiles": 51,
+      "generated_props": 5,
+      "base": "home"
+    },
+    {
+      "map": 4,
+      "replaced_overlay_tiles": 136,
+      "generated_props": 8,
+      "base": "street"
+    },
+    {
+      "map": 5,
+      "replaced_overlay_tiles": 164,
+      "generated_props": 8,
+      "base": "approved_industrial_preserved"
+    },
+    {
+      "map": 6,
+      "replaced_overlay_tiles": 71,
+      "generated_props": 6,
+      "base": "approved_industrial_preserved"
+    },
+    {
+      "map": 7,
+      "replaced_overlay_tiles": 121,
+      "generated_props": 6,
+      "base": "approved_industrial_preserved"
+    },
+    {
+      "map": 8,
+      "replaced_overlay_tiles": 192,
+      "generated_props": 7,
+      "base": "approved_industrial_preserved"
+    },
+    {
+      "map": 9,
+      "replaced_overlay_tiles": 140,
+      "generated_props": 7,
+      "base": "approved_industrial_preserved"
+    },
+    {
+      "map": 10,
+      "replaced_overlay_tiles": 74,
+      "generated_props": 7,
+      "base": "approved_industrial_preserved"
+    },
+    {
+      "map": 11,
+      "replaced_overlay_tiles": 110,
+      "generated_props": 6,
+      "base": "approved_industrial_preserved"
+    },
+    {
+      "map": 12,
+      "replaced_overlay_tiles": 168,
+      "generated_props": 9,
+      "base": "approved_industrial_preserved"
+    },
+    {
+      "map": 13,
+      "replaced_overlay_tiles": 111,
+      "generated_props": 7,
+      "base": "approved_industrial_preserved"
+    },
+    {
+      "map": 14,
+      "replaced_overlay_tiles": 93,
+      "generated_props": 5,
+      "base": "approved_industrial_preserved"
+    },
+    {
+      "map": 15,
+      "replaced_overlay_tiles": 168,
+      "generated_props": 9,
+      "base": "approved_industrial_preserved"
+    },
+    {
+      "map": 16,
+      "replaced_overlay_tiles": 150,
+      "generated_props": 19,
+      "base": "approved_industrial_preserved"
+    }
+  ],
+  "review_corrections": [
+    "Sofá nuevo descartado para bancos: se usa el banco image_gen aprobado de22–32.",
+    "Bandas del atlas calle A ancladas explícitamente; sin desplazar índices.",
+    "Suelo de2–4 readaptado con rampas de32 colores sin dithering para conservar juntas y grises.",
+    "Camilla girada descartada: se conserva camilla image_gen fase2 y se sustituye mancha PIL por sangre generada.",
+    "Tres pantallas de lámpara generadas del laboratorio colocadas en la huella original; conducciones ancladas."
+  ],
+  "floor_adaptations": [
+    {
+      "source": "diseno/fuentes/arte_hd2d/arte_mapas/suelos_fuente.png",
+      "destination": "Graphics/Tilesets/arte_mapas_intermedio.png",
+      "source_box": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "type": "picture",
+      "size": "32x32",
+      "resample": "box",
+      "zone_direction": "piso"
+    },
+    {
+      "source": "diseno/fuentes/arte_hd2d/arte_mapas/suelos_fuente.png",
+      "destination": "Graphics/Tilesets/arte_mapas_intermedio.png",
+      "source_box": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "type": "picture",
+      "size": "32x32",
+      "resample": "box",
+      "zone_direction": "piso"
+    },
+    {
+      "source": "diseno/fuentes/arte_hd2d/arte_mapas/suelos_fuente.png",
+      "destination": "Graphics/Tilesets/arte_mapas_intermedio.png",
+      "source_box": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "type": "picture",
+      "size": "32x32",
+      "resample": "box",
+      "zone_direction": "piso"
+    },
+    {
+      "source": "diseno/fuentes/arte_hd2d/arte_mapas/suelos_fuente.png",
+      "destination": "Graphics/Tilesets/arte_mapas_intermedio.png",
+      "source_box": [
+        627,
+        627,
+        1254,
+        1254
+      ],
+      "type": "picture",
+      "size": "32x32",
+      "resample": "box",
+      "zone_direction": "piso"
+    }
+  ],
+  "correction_adaptations": [
+    {
+      "source": "Graphics/Characters/vacas_laboratorio.png",
+      "destination": "Graphics/Characters/arte_mapas_intermedio.png",
+      "type": "battler",
+      "size": [
+        32,
+        64
+      ],
+      "max_height": 64,
+      "padding": 0,
+      "alpha_threshold": 128,
+      "resample": "box",
+      "zone": "matadero",
+      "source_box": [
+        0,
+        0,
+        32,
+        64
+      ]
+    },
+    {
+      "source": "diseno/fuentes/arte_hd2d/arte_mapas/props_fuente.png",
+      "destination": "Graphics/Characters/arte_mapas_intermedio.png",
+      "type": "battler",
+      "size": [
+        12,
+        9
+      ],
+      "max_height": 9,
+      "padding": 0,
+      "alpha_threshold": 128,
+      "resample": "box",
+      "zone": "matadero",
+      "source_box": [
+        940,
+        627,
+        1254,
+        940
+      ]
+    },
+    {
+      "source": "diseno/fuentes/arte_hd2d/arte_mapas/props_fuente.png",
+      "destination": "Graphics/Characters/arte_mapas_intermedio.png",
+      "source_box": [
+        84,
+        1072,
+        238,
+        1179
+      ],
+      "type": "battler",
+      "size": [
+        14,
+        10
+      ],
+      "max_height": 10,
+      "resample": "box",
+      "padding": 0,
+      "alpha_threshold": 128,
+      "zone": "matadero"
+    }
+  ],
+  "review": {
+    "all_comparisons_opened": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "light_overview_opened": "diseno/capturas/arte/arte_mapas_luz_resumen.png",
+    "limits": "Renders MCP con páginas de evento iniciales y máscaras reales; no simulan tono narrativo ni niebla animada. No se ejecutó Game.exe.",
+    "retained_unsafe_rtp_tiles": [],
+    "approved_retained": [
+      "base industrial vacas_matadero",
+      "banco de arte_final",
+      "camilla de vacas_laboratorio",
+      "personajes/objetos fase2 aprobados",
+      "autotiles propios 053-Wall01 y vacas_canal"
+    ]
+  }
+}

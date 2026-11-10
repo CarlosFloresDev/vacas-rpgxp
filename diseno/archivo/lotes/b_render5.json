@@ -1,0 +1,50 @@
+[
+  [
+    "render_map",
+    {
+      "mapId": 22,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/actos/acto5_22_base.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 23,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/actos/acto5_23_base.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 24,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/actos/acto5_24_base.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 25,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/actos/acto5_25_base.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 26,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/actos/acto5_26_base.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 27,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/actos/acto5_27_base.png"
+    }
+  ]
+]

@@ -1,0 +1,106 @@
+[
+  [
+    "render_map",
+    {
+      "mapId": 2,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/actos/mapa2_el_piso.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 3,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/actos/mapa3_la_escalera.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 4,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/actos/mapa4_la_calle.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 5,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/actos/acto2_mapa5_eventos.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 8,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/actos/acto2_mapa8_eventos.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 9,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/actos/acto2_mapa9_eventos.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 10,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/actos/acto2_mapa10_eventos.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 11,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/actos/acto2_mapa11_eventos.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 12,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/actos/acto3_12.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 13,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/actos/acto3_13.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 14,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/actos/acto3_14.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 15,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/actos/acto3_15.png"
+    }
+  ],
+  [
+    "render_map",
+    {
+      "mapId": 16,
+      "drawEvents": true,
+      "outPath": "D:/descargas/Proyectos personales/Vacas/diseno/capturas/actos/acto3_16.png"
+    }
+  ]
+]

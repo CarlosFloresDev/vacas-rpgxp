@@ -1,3 +1,14 @@
+# === VACAS: FUENTE VIGENTE ===
+# Script: Vacas_Nucleo | posición en Scripts.rxdata: 89 (base 0)
+# Función: Constantes, estado y comandos de eventos del juego.
+# Motor: RGSS1 / Ruby 1.8. Fuente extraída del juego instalado.
+# Switches simbólicos: SW_ACTO2, SW_ESCONDIDO2, SW_FICHADO, SW_HUD_OCULTO, SW_MATADERO, SW_MONO, SW_NOCHE2, SW_PATRULLA_CAM, SW_PATRULLA_OFI, SW_PIEZA, SW_PILLADO_CRIPPS, SW_SIN_EFECTOS, SW_SUELDO_DADO, SW_TURNO3
+# Switches con ID literal: 9
+# Variables simbólicas: VAR_AUX, VAR_CANAL, VAR_ETAPA, VAR_FASE, VAR_GUERNSEY, VAR_HUELLA, VAR_PIEZA, VAR_PIEZAS, VAR_RESULTADO, VAR_SUELDO_HOY, VAR_SUELDO_TOTAL, VAR_TURNO, VAR_VECES_TELE, VAR_VENENO
+# Variables con ID literal: 2, 17
+# Los índices calculados y rangos se describen en el código y en docs/sistemas/.
+# Instalación: herramientas/comun/instalar_scripts.mjs (primero, vista previa).
+# === FIN CABECERA ===
 #==============================================================================
 # ** Vacas - Nucleo
 #------------------------------------------------------------------------------

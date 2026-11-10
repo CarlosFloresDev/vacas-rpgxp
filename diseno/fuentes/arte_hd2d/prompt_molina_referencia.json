@@ -1,0 +1,15 @@
+{
+  "id": "molina_referencia",
+  "prompt": "Use case: stylized-concept. VACAS definitive MOLINA original character reference, TWO full body views front and left profile, same scale feet aligned. Age51 robust butcher strong arms square face thick dark moustache short dark hair #393132, brown eyes skin #B28668. Cream shirt #D4C6AA sleeves rolled to elbows, red-burgundy butcher apron #78192A with limited dry #4B1020 stains, brown trousers #494039 dark boots #29252A. Neutral weathered expression, arms relaxed, no weapons, no props. Attached approved Steven portrait STYLE only: detailed illustrated industrial horror upper-left warm light cold right rim. Full bodies including boots within generous margin. True transparent background, no text.",
+  "references": [
+    "diseno/fuentes/arte_hd2d/steven_retrato.png"
+  ],
+  "destination": "diseno/fuentes/arte_hd2d/referencias/molina.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/fuentes/arte_hd2d/steven_retrato.png": "1f2e6c25f6cddf66a770f4d8f19d9c49d62fb485c53c200ca4be1d5d98f8b31c"
+  },
+  "output_sha256": "3935bf948422c67bf8132706d663eeef6f6ed94ffc2d2b458eba883a5932bc33"
+}

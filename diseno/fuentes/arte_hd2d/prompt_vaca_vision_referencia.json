@@ -1,0 +1,17 @@
+{
+  "id": "vaca_vision_referencia",
+  "prompt": "Use case: identity-preserve. Original VACAS La Vaca que habla REFERENCE SHEET TWO complete views front three-quarter and left profile of EXACT suspended grotesque cow head in image1, not a living full-bodied cow. Preserve cream/brown patch placement, asymmetrical damaged curved ivory horns, brown accusing eye, torn cheek exposing burgundy muscle and teeth, hanging neck vertebrae, long flat ribbon tongue curling beneath. Same organic tissues, blood clots, ivory bone, no extra body or legs. Entire horns and long tongue inside margin. Image2 approved screamer is supporting identity closeup only. Detailed illustrated pixel-cluster industrial horror, clinical side light cool rim. Transparent background no text or floor. No sexual content.",
+  "references": [
+    "diseno/fuentes/arte_hd2d/vaca.png",
+    "Graphics/Pictures/screamer_3.png"
+  ],
+  "destination": "diseno/fuentes/arte_hd2d/referencias/vaca_vision.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/fuentes/arte_hd2d/vaca.png": "23122945f338695b489735fbb18521a7d996369ba44a16d64c38d443b094943b",
+    "Graphics/Pictures/screamer_3.png": "0dcea7ddb8309b4bd7f30c70b830c1b5295be6c63caca054a2b2472c94d7d825"
+  },
+  "output_sha256": "c7729a15aae9aea4ceea33779243f65e4e9caa8cd473af1215a35ddaddac7d25"
+}

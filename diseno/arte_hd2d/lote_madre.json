@@ -1,5 +1,0 @@
-{"assets":[
- {"source":"diseno/arte_hd2d/madre_neutral_fuente.png","destination":"Graphics/Pictures/retrato_madre_neutral.png","type":"retrato","alpha_threshold":128,"resample":"box"},
- {"source":"diseno/arte_hd2d/madre_ira_fuente.png","destination":"Graphics/Pictures/retrato_madre_ira.png","type":"retrato","expression_base":"diseno/arte_hd2d/madre_neutral_fuente.png","expression_polygon":[[0.41,0.15],[0.56,0.14],[0.59,0.23],[0.58,0.32],[0.53,0.36],[0.44,0.35],[0.40,0.29]],"expression_feather":6,"alpha_threshold":128,"resample":"box"},
- {"source":"diseno/arte_hd2d/madre_sprite_fuente.png","destination":"Graphics/Characters/vacas_madre.png","type":"character","cell":"48x67","padding":4,"pad_grid":true,"alpha_threshold":128,"resample":"box","zone":"piso"}
-]}

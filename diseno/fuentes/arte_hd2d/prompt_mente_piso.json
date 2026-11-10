@@ -1,0 +1,15 @@
+{
+  "id": "mente_piso",
+  "prompt": "Use case: stylized-concept. Original VACAS HD2D-inspired industrial psychological horror BATTLE BACKGROUND, 4:3 opaque final640x480. Original design, image1 existing background is only broad spatial/use reference, do not copy its texture or exact composition. Crisp intentional pixel clusters with convincing volume and cinematic light, playable center clear and readable for battlers, floor and far wall separated by light, low-detail central background, dark detailed periphery and foreground. No characters no creatures no text no logos. Oppressive perspective, realistic human scale, damp worn surfaces, no magical fantasy ornament. MENTAL APARTMENT. Cramped nicotine-stained domestic room, old peeling mustard wallpaper, worn brown skirting and damp parquet, dark sofa shape far left, tiny unlit1950s TV far right, shadow of door opening rear. One weak warm overhead lamp above rear wall, cold window spill at side. Brown nicotine #141318 #29252A #494039 #71634B #A18A59 #D1BA7B with muted green-black shadows; no blanket green filter. Empty broad floor center for battle.",
+  "references": [
+    "diseno/fuentes/arte_provisional/sd_v1/Graphics/Battlebacks/mente_piso.png"
+  ],
+  "destination": "diseno/fuentes/arte_hd2d/mente_piso_fuente.png",
+  "transparent_background": false,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/fuentes/arte_provisional/sd_v1/Graphics/Battlebacks/mente_piso.png": "ddc9d7958877424f21bb0bdfc88f50b14cf6b145470fdca32f32831125520aad"
+  },
+  "output_sha256": "4c4944e27141decdf336a926ca98a7f8a1815ac8d41dde0f220c301db27b47c6"
+}

@@ -1,0 +1,5 @@
+{"assets":[
+ {"source":"diseno/fuentes/arte_hd2d/perro_neutral_fuente.png","destination":"Graphics/Pictures/retrato_dog_neutral.png","type":"retrato","alpha_threshold":128,"resample":"box"},
+ {"source":"diseno/fuentes/arte_hd2d/perro_sprite_fuente.png","destination":"Graphics/Characters/vacas_perro.png","type":"character","cell":"40x40","padding":3,"pad_grid":true,"alpha_threshold":128,"resample":"box","zone":"piso"},
+ {"source":"diseno/fuentes/arte_hd2d/perro_miedo_fuente.png","destination":"Graphics/Pictures/retrato_dog_miedo.png","type":"retrato","expression_base":"diseno/fuentes/arte_hd2d/perro_neutral_fuente.png","expression_polygon":[[0.32,0.10],[0.58,0.09],[0.64,0.19],[0.63,0.36],[0.51,0.40],[0.39,0.37],[0.32,0.24]],"expression_feather":8,"alpha_threshold":128,"resample":"box"}
+]}

@@ -1,0 +1,19 @@
+{
+  "id": "vacas_matadero",
+  "prompt": "Use case: style-transfer. Original VACAS industrial horror PIXEL ART OBJECT ATLAS, EXACT4x4 indices, tall cells32x64 final128x256. Image1 original INDEX/ANCHOR reference only. Row1 four STEEL CONVEYOR segments differing roller phase, low within cells. Row2: full HANGING BOVINE CARCASS; narrower carcass; full carcass slight sway; EMPTY STEEL HOOK. Image3 carcass material reference. Row3: TIME CLOCK machine with cards at right; industrial CAPTIVE-BOLT TOOL with hose; STEEL BUCKET with dark red contents; low STEEL BOX with meat pieces. Row4: square VENTILATION GRILLE EMPTY BLACK BEHIND; SAME grille with ONE BROWN BOVINE EYE behind; SAME grille with DARK MOIST BOVINE MUZZLE behind; SAME grille BENT OPEN. Image2 GUERNSEY mandatory identity for eye/muzzle: cinnamon fur brown eye dark brown muzzle, no human lips. Do NOT put full cow in any cell. Same steel grille geometry across four states. No rearrangement, no extra object, no text or labels. Entire each object within cell with generous alpha margin. Actual transparent background no floor. Crisp intentional pixel clusters clinical cold steel, burgundy muscle dirty fat ivory ribs, limited blood no filter, original designs.",
+  "references": [
+    "diseno/fuentes/arte_provisional/sd_v1/Graphics/Characters/vacas_matadero.png",
+    "diseno/fuentes/arte_hd2d/referencias/guernsey.png",
+    "diseno/fuentes/arte_hd2d/referencias/canal.png"
+  ],
+  "destination": "diseno/fuentes/arte_hd2d/vacas_matadero_fuente.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/fuentes/arte_provisional/sd_v1/Graphics/Characters/vacas_matadero.png": "b9e8a68429ffe8a7fcc39a6cc6bc8e0be8600ea8767e277b23e61a078435238e",
+    "diseno/fuentes/arte_hd2d/referencias/guernsey.png": "829fab42ff7db36e8c16f932e998a9a392307881725a6d03a2d061df56fa6d89",
+    "diseno/fuentes/arte_hd2d/referencias/canal.png": "53a33c089948223c075fc52c668ec0ae4781e56d877ee1a411f7e438ebc53e32"
+  },
+  "output_sha256": "87c11d7f6423f21506f2d198358901006689290ed4adc141c0ad1044319b8117"
+}

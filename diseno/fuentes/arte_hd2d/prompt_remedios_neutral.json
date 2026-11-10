@@ -1,0 +1,17 @@
+{
+  "id": "remedios_neutral",
+  "prompt": "Use case: identity-preserve. SINGLE vertical waist-up dialogue portrait of EXACT identity in image1. Preserve face, age, hairstyle, local colors, costume and accessories. Image2 approved Steven portrait is STYLE/FRAMING only. Detailed illustrated industrial horror, warm upper-left light and subtle cold right rim. Entire head and shoulders with margin, waist at bottom, face upper half; vertical240:340. GENUINE transparent alpha background (no brown backdrop, no scenery). No text. REMEDIOS age76 short hunched old woman deeply lined sunken cheeks thin nose, white-grey hair in low bun, brown-grey ankle-length dress, near-black shawl, hands clasped. Preserve age, small stature and costume, no props.",
+  "references": [
+    "diseno/fuentes/arte_hd2d/referencias/remedios.png",
+    "diseno/fuentes/arte_hd2d/steven_retrato.png"
+  ],
+  "destination": "diseno/fuentes/arte_hd2d/remedios_neutral_fuente.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/fuentes/arte_hd2d/referencias/remedios.png": "b651fb7e5d6a196ff17199ec1c712d6854d07720938acd5578dc951bef56a41f",
+    "diseno/fuentes/arte_hd2d/steven_retrato.png": "1f2e6c25f6cddf66a770f4d8f19d9c49d62fb485c53c200ca4be1d5d98f8b31c"
+  },
+  "output_sha256": "28e61886749f3f79e9a54258112e734dd0e2212b30485f35990becee5be544aa"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "borracho_neutral",
+  "prompt": "Use case: identity-preserve. SINGLE vertical waist-up dialogue portrait of EXACT identity in image1. Preserve face, age, hairstyle, local colors, costume and accessories. Image2 approved Steven portrait is STYLE/FRAMING only. Detailed illustrated industrial horror, warm upper-left light and subtle cold right rim. Entire head and shoulders with margin, waist at bottom, face upper half; vertical240:340. GENUINE transparent alpha background (no brown backdrop, no scenery). No text. BORRACHO age49 weathered lined thin long face, reddened nose, several-day stubble, messy brown-grey hair, long worn dark brown coat over ragged ochre-grey shirt. Preserve weary eyes, bottle in right hand if visible at lower edge; same exact identity as reference. No smile.",
+  "references": [
+    "diseno/fuentes/arte_hd2d/referencias/borracho.png",
+    "diseno/fuentes/arte_hd2d/steven_retrato.png"
+  ],
+  "destination": "diseno/fuentes/arte_hd2d/borracho_neutral_fuente.png",
+  "transparent_background": true,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/fuentes/arte_hd2d/referencias/borracho.png": "a1a2a45e55670c96990a5e16ed11d34d9afef788a258bb17ad67af7d7122a056",
+    "diseno/fuentes/arte_hd2d/steven_retrato.png": "1f2e6c25f6cddf66a770f4d8f19d9c49d62fb485c53c200ca4be1d5d98f8b31c"
+  },
+  "output_sha256": "d1d85ea403642223289a1dfca5f873ab9d826277a219f3fcc6e5724cafe288a0"
+}

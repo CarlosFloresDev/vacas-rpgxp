@@ -1,0 +1,106 @@
+{
+  "integridad": {
+    "archivos": 475,
+    "cambiados": []
+  },
+  "inventario": {
+    "codigo": 0,
+    "salida": "Snapshot y round-trip en memoria: 47 archivos. 106 scripts."
+  },
+  "sistemas": {
+    "codigo": 0,
+    "salida": "Cajas: 1084 con retrato: 354 PNG: 42\nErrores: 0"
+  },
+  "marshal_ruby": {
+    "codigo": 0,
+    "salida": "{\n  \"files\": 316,\n  \"errors\": [\n\n  ]\n}"
+  },
+  "fuentes_vs_instalado": {
+    "codigo": 0,
+    "salida": "{\"scripts\":16,\"errors\":[]}"
+  },
+  "sintaxis_ruby": [
+    {
+      "archivo": "01_nucleo.rb",
+      "ok": true
+    },
+    {
+      "archivo": "02_veneno.rb",
+      "ok": true
+    },
+    {
+      "archivo": "03_menu.rb",
+      "ok": true
+    },
+    {
+      "archivo": "04_pantallas.rb",
+      "ok": true
+    },
+    {
+      "archivo": "05_matadero.rb",
+      "ok": true
+    },
+    {
+      "archivo": "06_vn.rb",
+      "ok": true
+    },
+    {
+      "archivo": "07_mente.rb",
+      "ok": true
+    },
+    {
+      "archivo": "08_accesos.rb",
+      "ok": true
+    },
+    {
+      "archivo": "09_lucy.rb",
+      "ok": true
+    },
+    {
+      "archivo": "10_revision_luces.rb",
+      "ok": true
+    },
+    {
+      "archivo": "11_bajo_ciudad.rb",
+      "ok": true
+    },
+    {
+      "archivo": "12_interfaz.rb",
+      "ok": true
+    },
+    {
+      "archivo": "13_intro_feka.rb",
+      "ok": true
+    },
+    {
+      "archivo": "14_matanza.rb",
+      "ok": true
+    },
+    {
+      "archivo": "15_reydios.rb",
+      "ok": true
+    },
+    {
+      "archivo": "16_cinematicas.rb",
+      "ok": true
+    }
+  ],
+  "enlaces": {
+    "documentos": 25,
+    "enlaces": 143,
+    "errores": [],
+    "excluidos": "Respaldos y archivo: documentos históricos, conservados tal cual."
+  },
+  "assets_scripts": {
+    "referencias_scripts": 195,
+    "rutas_manifiestos": 261,
+    "errores": [],
+    "alcance": "Literales Cache/audio, retratos de eventos y familias dinámicas propias; complementa validate_assets de datos. No ejecuta el juego."
+  },
+  "assets": {
+    "codigo": 0,
+    "salida": "{\n  \"ok\": true,\n  \"checked\": 1051,\n  \"missing_count\": 0,\n  \"rtp\": \"D:/SteamLibrary/steamapps/common/RPGXP/rtp\",\n  \"missing\": []\n}"
+  },
+  "dependencias_diseno_motor": [],
+  "errores": []
+}

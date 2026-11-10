@@ -1,0 +1,14 @@
+{
+  "assets": [
+    {
+      "source": "diseno/fuentes/arte_hd2d/enemigo_televisor_fuente.png",
+      "destination": "Graphics/Battlers/enemigo_televisor.png",
+      "type": "battler",
+      "size": "320x300",
+      "max_height": 300,
+      "padding": 4,
+      "alpha_threshold": 128,
+      "resample": "box"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "assets": [
+    {
+      "source": "diseno/fuentes/arte_hd2d/mente_piso_fuente.png",
+      "destination": "Graphics/Battlebacks/mente_piso.png",
+      "type": "battleback",
+      "size": "640x480",
+      "resample": "box"
+    },
+    {
+      "source": "diseno/fuentes/arte_hd2d/mente_matadero_fuente.png",
+      "destination": "Graphics/Battlebacks/mente_matadero.png",
+      "type": "battleback",
+      "size": "640x480",
+      "resample": "box"
+    },
+    {
+      "source": "diseno/fuentes/arte_hd2d/mente_tunel_fuente.png",
+      "destination": "Graphics/Battlebacks/mente_tunel.png",
+      "type": "battleback",
+      "size": "640x480",
+      "resample": "box"
+    }
+  ]
+}

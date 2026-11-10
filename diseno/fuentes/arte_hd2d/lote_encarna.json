@@ -1,0 +1,21 @@
+{
+  "assets": [
+    {
+      "source": "diseno/fuentes/arte_hd2d/encarna_neutral_fuente.png",
+      "destination": "Graphics/Pictures/retrato_encarna_neutral.png",
+      "type": "retrato",
+      "alpha_threshold": 128,
+      "resample": "box"
+    },
+    {
+      "source": "diseno/fuentes/arte_hd2d/encarna_sprite_fuente.png",
+      "destination": "Graphics/Characters/vacas_obrero3.png",
+      "type": "character",
+      "cell": "32x48",
+      "padding": 4,
+      "pad_grid": true,
+      "alpha_threshold": 128,
+      "resample": "box"
+    }
+  ]
+}

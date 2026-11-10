@@ -1,0 +1,15 @@
+{
+  "id": "screamer_1_revision",
+  "prompt": "Use case: identity-preserve. Original VACAS industrial psychological horror JUMP SCARE, full opaque 4:3 frame final640x480, NOT isolated portrait, claustrophobic extreme closeup, dark edges and concentrated high contrast around focal motif, clinical side light and damp small highlights. Illustrated HD2D-inspired finish matching approved horror, no copied game assets. No text no logo no sexual content. ID1: THE MOTHER'S EYE IN THE MIRROR. Exact adult58 broad square mother face from reference, brown eye under heavy straight brow, grey-brown low bun. Extremely close view of one watchful BROWN EYE reflected behind cracked grimy bathroom mirror. Nicotine mustard light in eye reflection, tiny hint of mustard bathrobe at bottom edge, strong shadows and fractured mirror reflections around eye. Psychological uncanny tension, NO wounds, NO blood, no exposed tissue. Reflect exact mother identity not a stranger. Opaque full4:3 composition, single eye the immediate focal point. No cow no horns no text.",
+  "references": [
+    "diseno/fuentes/arte_hd2d/referencias/madre.png"
+  ],
+  "destination": "diseno/fuentes/arte_hd2d/screamer_1_fuente.png",
+  "transparent_background": false,
+  "tool": "image_gen integrado",
+  "outcome": "accepted_after_visual_review",
+  "input_sha256": {
+    "diseno/fuentes/arte_hd2d/referencias/madre.png": "830b85d461909cb28bba4f498139c31ca9b029618aeea686f24c1fce71733c3a"
+  },
+  "output_sha256": "c7af8f5012edf8d1e00ef4a59ce80cd3e6aaa088a03ce030c8ef3e7bdbff646a"
+}

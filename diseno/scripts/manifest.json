@@ -1,0 +1,82 @@
+[
+  {
+    "file": "diseno/scripts/01_nucleo.rb",
+    "name": "Vacas_Nucleo",
+    "index": 89
+  },
+  {
+    "file": "diseno/scripts/02_veneno.rb",
+    "name": "Vacas_Veneno",
+    "index": 90
+  },
+  {
+    "file": "diseno/scripts/03_menu.rb",
+    "name": "Vacas_Menu",
+    "index": 91
+  },
+  {
+    "file": "diseno/scripts/04_pantallas.rb",
+    "name": "Vacas_Pantallas",
+    "index": 92
+  },
+  {
+    "file": "diseno/scripts/05_matadero.rb",
+    "name": "Vacas_Matadero",
+    "index": 93
+  },
+  {
+    "file": "diseno/scripts/06_vn.rb",
+    "name": "Vacas_VN",
+    "index": 94
+  },
+  {
+    "file": "diseno/scripts/07_mente.rb",
+    "name": "Vacas_Mente",
+    "index": 95
+  },
+  {
+    "file": "diseno/scripts/08_accesos.rb",
+    "name": "Vacas_Accesos",
+    "index": 96
+  },
+  {
+    "file": "diseno/scripts/09_lucy.rb",
+    "name": "Vacas_Lucy",
+    "index": 97
+  },
+  {
+    "file": "diseno/scripts/10_revision_luces.rb",
+    "name": "Vacas_Revision_Luces",
+    "index": 98
+  },
+  {
+    "file": "diseno/scripts/11_bajo_ciudad.rb",
+    "name": "Vacas_BajoCiudad",
+    "index": 99
+  },
+  {
+    "file": "diseno/scripts/12_interfaz.rb",
+    "name": "Vacas_Interfaz",
+    "index": 100
+  },
+  {
+    "file": "diseno/scripts/13_intro_feka.rb",
+    "name": "Vacas_IntroFeka",
+    "index": 101
+  },
+  {
+    "file": "diseno/scripts/14_matanza.rb",
+    "name": "Vacas_Matanza",
+    "index": 102
+  },
+  {
+    "file": "diseno/scripts/15_reydios.rb",
+    "name": "Vacas_Reydios",
+    "index": 103
+  },
+  {
+    "file": "diseno/scripts/16_cinematicas.rb",
+    "name": "Vacas_Cinematicas",
+    "index": 104
+  }
+]
