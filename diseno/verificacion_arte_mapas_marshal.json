@@ -1,0 +1,15 @@
+{
+  "result": "OK",
+  "marshal_files": 47,
+  "byte_identical_files": 46,
+  "maps_byte_identical": 32,
+  "changed_fields": [
+    "Tilesets[53].battleback_name = ui_piso",
+    "Tilesets[54].battleback_name = ui_piso",
+    "Tilesets[55].battleback_name = ui_piso"
+  ],
+  "passages_priorities_terrain": "idénticos en TODOS los tilesets, incluidas tablas no usadas",
+  "map_tiles_events": "Map001–Map032 idénticos byte a byte: índices, capas, eventos, páginas, coordenadas y comandos",
+  "protected": "Vacas.cfg y Scripts.rxdata con hashes originales",
+  "engine": "No se ha iniciado ni cerrado Game.exe"
+}

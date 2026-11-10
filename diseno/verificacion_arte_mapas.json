@@ -1,0 +1,234 @@
+{
+  "errors": [],
+  "maps": [
+    {
+      "map": 1,
+      "tileset": "revision_mapa01",
+      "size": [
+        256,
+        608
+      ],
+      "same_map": true,
+      "used_tiles": 91,
+      "sha256": "db6034ccc76a98127937783077259a7011c89b8c4b9e0372c5176c5fbe07db2c"
+    },
+    {
+      "map": 2,
+      "tileset": "revision_mapa02",
+      "size": [
+        256,
+        1312
+      ],
+      "same_map": true,
+      "used_tiles": 223,
+      "sha256": "5b71a3899c6084aeb72bbd6d38629c00df73977304e1de3425e20bb374a30306"
+    },
+    {
+      "map": 3,
+      "tileset": "revision_mapa03",
+      "size": [
+        256,
+        1056
+      ],
+      "same_map": true,
+      "used_tiles": 91,
+      "sha256": "11f8de30ca27b2852c7209315724a41d11bf5bc2270f77ae69fa3d4a0af84a6b"
+    },
+    {
+      "map": 4,
+      "tileset": "revision_mapa04",
+      "size": [
+        256,
+        1504
+      ],
+      "same_map": true,
+      "used_tiles": 208,
+      "sha256": "1cf802c99102d99153abce719a5e30240c17b9a4602589521a90f725da08dccf"
+    },
+    {
+      "map": 5,
+      "tileset": "revision_mapa05",
+      "size": [
+        256,
+        928
+      ],
+      "same_map": true,
+      "used_tiles": 198,
+      "sha256": "489af3265031746ce731ffb89b760173a280d9da4632d419912cc5d3d8bb9f04"
+    },
+    {
+      "map": 6,
+      "tileset": "revision_mapa06",
+      "size": [
+        256,
+        544
+      ],
+      "same_map": true,
+      "used_tiles": 100,
+      "sha256": "b533b7191c3f480bf6bb7061b7db4f677d9754edd71781a776594e1754dfddbe"
+    },
+    {
+      "map": 7,
+      "tileset": "revision_mapa07",
+      "size": [
+        256,
+        768
+      ],
+      "same_map": true,
+      "used_tiles": 148,
+      "sha256": "9b52abd37f2ed248c28de2b347efd93801f5aec5717c542c7b9e500d55d54445"
+    },
+    {
+      "map": 8,
+      "tileset": "revision_mapa08",
+      "size": [
+        256,
+        1024
+      ],
+      "same_map": true,
+      "used_tiles": 232,
+      "sha256": "c5ccb4c8bee8ab4faabbe9bb2fb74f8ba72842f900a91d838283cca0ea857d5f"
+    },
+    {
+      "map": 9,
+      "tileset": "revision_mapa09",
+      "size": [
+        256,
+        832
+      ],
+      "same_map": true,
+      "used_tiles": 167,
+      "sha256": "3c3a2b524afd2a6862921fb3e0584df0e0bbc625137e33add592af819d972287"
+    },
+    {
+      "map": 10,
+      "tileset": "revision_mapa10",
+      "size": [
+        256,
+        576
+      ],
+      "same_map": true,
+      "used_tiles": 102,
+      "sha256": "4822aa18f925c50eb19a7215438093c563e18a26f5e39ad8d4ace231c995683c"
+    },
+    {
+      "map": 11,
+      "tileset": "revision_mapa11",
+      "size": [
+        256,
+        704
+      ],
+      "same_map": true,
+      "used_tiles": 135,
+      "sha256": "f8c4435ba5629b1ed67ee57c8001bc96ab6082771e7ad0beda196c7278495d6e"
+    },
+    {
+      "map": 12,
+      "tileset": "revision_mapa12",
+      "size": [
+        256,
+        928
+      ],
+      "same_map": true,
+      "used_tiles": 186,
+      "sha256": "65cafb9ac77d5e0ee5c8f88b7e67c77574c44299a1a2d83479f432ab28f184f2"
+    },
+    {
+      "map": 13,
+      "tileset": "revision_mapa13",
+      "size": [
+        256,
+        704
+      ],
+      "same_map": true,
+      "used_tiles": 128,
+      "sha256": "a49845a6186381261cb2a4b1a11cf1c40bd92c26f294dde4300deb62857c6394"
+    },
+    {
+      "map": 14,
+      "tileset": "revision_mapa14",
+      "size": [
+        256,
+        640
+      ],
+      "same_map": true,
+      "used_tiles": 107,
+      "sha256": "cecd7264c2d6e9275fabf03ec631d6ffa0585fc9d9c90064d00cfd0cb6d84902"
+    },
+    {
+      "map": 15,
+      "tileset": "revision_mapa15",
+      "size": [
+        256,
+        928
+      ],
+      "same_map": true,
+      "used_tiles": 186,
+      "sha256": "8bb7ccd48c42d1bd5e6d76c14d2d864184d0cede776b8139bdada0f04d81b015"
+    },
+    {
+      "map": 16,
+      "tileset": "revision_mapa16",
+      "size": [
+        256,
+        864
+      ],
+      "same_map": true,
+      "used_tiles": 156,
+      "sha256": "e4646e162bd8d7b583bfd16e413383f4d194e14c252b68a1d1e087d01688fae4"
+    }
+  ],
+  "autotiles": [
+    {
+      "path": "Graphics/Autotiles/052-Carpet02.png",
+      "same_alpha": true,
+      "same_size": true,
+      "matching_quarter_edges": 148,
+      "frames": 1
+    },
+    {
+      "path": "Graphics/Autotiles/048-Water01.png",
+      "same_alpha": true,
+      "same_size": true,
+      "matching_quarter_edges": 607,
+      "frames": 4
+    },
+    {
+      "path": "Graphics/Autotiles/002-G_Shadow01.png",
+      "same_alpha": true,
+      "same_size": true,
+      "matching_quarter_edges": 127,
+      "frames": 1
+    },
+    {
+      "path": "Graphics/Autotiles/003-G_Ground01.png",
+      "same_alpha": true,
+      "same_size": true,
+      "matching_quarter_edges": 115,
+      "frames": 1
+    },
+    {
+      "path": "Graphics/Autotiles/005-G_Road01.png",
+      "same_alpha": true,
+      "same_size": true,
+      "matching_quarter_edges": 104,
+      "frames": 1
+    },
+    {
+      "path": "Graphics/Autotiles/006-G_Road02.png",
+      "same_alpha": true,
+      "same_size": true,
+      "matching_quarter_edges": 110,
+      "frames": 1
+    },
+    {
+      "path": "Graphics/Autotiles/050-Roof02.png",
+      "same_alpha": true,
+      "same_size": true,
+      "matching_quarter_edges": 119,
+      "frames": 1
+    }
+  ],
+  "directional_steps": 125280,
+  "result": "OK"
+}

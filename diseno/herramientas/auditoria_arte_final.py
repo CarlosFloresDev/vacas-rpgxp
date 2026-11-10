@@ -11,6 +11,10 @@ S=json.loads((B/'snapshot_inicial.json' if INITIAL else R/'diseno/herramientas/s
 initial_hashes=json.loads((B/'hashes_iniciales.json').read_text(encoding='utf8'))
 final_manifest=json.loads((R/'diseno/arte_hd2d/arte_final/manifest.json').read_text(encoding='utf8'))
 final_paths={a['destination'] for a in final_manifest['assets']+final_manifest.get('compositions',[])}
+map_manifest=R/'diseno/arte_hd2d/arte_mapas/manifest.json'
+if map_manifest.exists():
+ map_art=json.loads(map_manifest.read_text(encoding='utf8'))
+ final_paths.update(a['destination'] for a in map_art['assets']+map_art.get('compositions',[]))
 refs=[]
 F=dict(character_name='Characters',battler_name='Battlers',tileset_name='Tilesets',panorama_name='Panoramas',fog_name='Fogs',battleback_name='Battlebacks',windowskin_name='Windowskins',title_name='Titles',gameover_name='Gameovers',icon_name='Icons',animation_name='Animations')
 approved={a['path']:a for a in json.loads((R/'diseno/arte_hd2d/estado_fase2.json').read_text(encoding='utf8'))['assets']}

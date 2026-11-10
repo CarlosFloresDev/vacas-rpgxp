@@ -1,0 +1,23 @@
+{
+  "file_counts": {
+    "OK": 211,
+    "REUTILIZADO o TINTADO": 0,
+    "PLACEHOLDER o RTP": 284,
+    "INCORRECTO": 0,
+    "FALTA": 0
+  },
+  "variant_counts": {
+    "OK": 211,
+    "REUTILIZADO o TINTADO": 0,
+    "PLACEHOLDER o RTP": 291,
+    "INCORRECTO": 0,
+    "FALTA": 0
+  },
+  "graphics": 24,
+  "sources": 8,
+  "pending": {
+    "solo_base_datos": 259,
+    "componente_tecnico": 32
+  },
+  "global_complete": false
+}

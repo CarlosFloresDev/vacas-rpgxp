@@ -6,15 +6,51 @@ Inventario inicial: 445 archivos gráficos distintos. Inventario actual: 495. La
 
 | Categoría por archivo | Inicial | Actual |
 |---|---:|---:|
-| OK | 108 | 187 |
+| OK | 108 | 211 |
 | REUTILIZADO o TINTADO | 9 | 0 |
-| PLACEHOLDER o RTP | 326 | 308 |
+| PLACEHOLDER o RTP | 326 | 284 |
 | INCORRECTO | 2 | 0 |
 | FALTA | 0 | 0 |
 
 No hay referencias gráficas inexistentes entre las 2.055 ocurrencias rastreadas. Falta funcional aparte: seguidor de Perro entre mapas; su arte/sprites estáticos existen.
 
-## Correcciones integradas
+## Pasada de arte de mapas1–16 — 10 de noviembre de2026
+
+Terminada con ocho fuentes nuevas de **image_gen integrado**, adaptación con `adaptar_arte.py` y composición CPU del mismo modo que22–32. No se ha dibujado utilería nueva en PIL. [Prompts y fuentes](arte_hd2d/arte_mapas/generaciones.json), [manifiesto con hashes y respaldos](arte_hd2d/arte_mapas/manifest.json), [método/reproducción](arte_hd2d/arte_mapas/README.md).
+
+- 24 PNG integrados: las16 hojas `revision_mapaNN` reemplazadas y ocho recursos RTP sustituidos mediante archivos locales (siete autotiles y `185-Light02`). Se conserva la base industrial aprobada y los personajes/objetos ya aprobados; se recomponen1.955 tiles de decoración y122 instancias de mobiliario con sus anclas originales. Las bases doméstica/urbana RTP tienen materiales nuevos.
+- Se mantienen exactamente dimensiones de hoja, cuadrícula de32px, índices de cada tile, capas, coordenadas, eventos, pasabilidad, prioridades y terreno. Las hojas se reconstruyeron antes de intervenir y coincidieron píxel a píxel con las16 originales. Los siete autotiles conservan alfa, disposición, número de fotogramas y1.330 equivalencias de aristas de cuartos16px; el agua tiene cuatro fases propias.
+- `185-Light02` conserva128×256, celdas32×64 y las cuatro filas/patrones. Su evento no cambió. Se conservan las máscaras de luz técnicas existentes. Tres pantallas de lámpara del laboratorio se adaptaron a sus huellas.
+- Las referencias `battleback_name` de los tilesets53/54/55 (mapas2–4) apuntan a `ui_piso`, el mismo fondo propio que usa su zona en `Scene_Battle`. Los registros RTP originales18/9 siguen como recursos de BD sin mapa; no se modificaron fuera de alcance.
+- Revisión visual de las16 láminas a escala nativa y del resumen con luz. Se corrigió ruido en suelos, anclas de bandas del atlas urbano y rampas de grises. El sofá generado para banco y la camilla girada se descartaron: se usan los diseños aprobados de banco y camilla, con la mancha PIL de esta última sustituida por sangre generada. Objetos de mesa pequeños y camilla de64px conservados.
+- No quedaron tiles RTP pendientes por riesgo de unión en esta pasada. Los materiales ya aprobados conservados no constituyen excepciones RTP. Las seis hojas de autotile declaradas para la calle se han sustituido aunque el mapa4 no contiene celdas de autotile.
+
+Respaldo inmutable de los reemplazos locales, originales RTP, Data completo y auditoría: [antes_arte_mapas](respaldos/antes_arte_mapas/). No se accedió a `.git`, no se modificó `Vacas.cfg` y no se inició ni cerró `Game.exe`.
+
+Validación: [47 archivos Marshal](verificacion_arte_mapas_marshal.json),46 idénticos byte a byte; los32 mapas permanecen idénticos. Solo cambian tres cadenas de fondo en `Tilesets.rxdata`; **todas** las tablas de pasabilidad, prioridades y terreno son idénticas. [125.280 pasos direccionales](verificacion_arte_mapas.json) en cuatro estados por mapa, cero diferencias. [Gráficos/audio](validacion_assets_arte_mapas.json):1.051 referencias, cero ausencias; auditoría ampliada de gráficos/scripts:2.055 ocurrencias, cero ausencias. Carga y round-trip con el lector Marshal de RGSS/MCP; no se ejecutó el motor.
+
+Láminas antes/después a1×:
+
+- [Mapa 01](capturas/arte_mapas_comparacion_01.png)
+- [Mapa 02](capturas/arte_mapas_comparacion_02.png)
+- [Mapa 03](capturas/arte_mapas_comparacion_03.png)
+- [Mapa 04](capturas/arte_mapas_comparacion_04.png)
+- [Mapa 05](capturas/arte_mapas_comparacion_05.png)
+- [Mapa 06](capturas/arte_mapas_comparacion_06.png)
+- [Mapa 07](capturas/arte_mapas_comparacion_07.png)
+- [Mapa 08](capturas/arte_mapas_comparacion_08.png)
+- [Mapa 09](capturas/arte_mapas_comparacion_09.png)
+- [Mapa 10](capturas/arte_mapas_comparacion_10.png)
+- [Mapa 11](capturas/arte_mapas_comparacion_11.png)
+- [Mapa 12](capturas/arte_mapas_comparacion_12.png)
+- [Mapa 13](capturas/arte_mapas_comparacion_13.png)
+- [Mapa 14](capturas/arte_mapas_comparacion_14.png)
+- [Mapa 15](capturas/arte_mapas_comparacion_15.png)
+- [Mapa 16](capturas/arte_mapas_comparacion_16.png)
+
+[Resumen con máscaras de luz reales](capturas/arte_mapas_luz_resumen.png). También se guardan renders individuales antes/después y sus vistas con luz. Los cuadrados azules son marcadores del render MCP; no aparecen en el juego. Los renders no simulan tono narrativo, niebla animada ni transiciones del motor.
+
+## Correcciones integradas de la pasada22–32
 
 - 75 PNG integrados: 62 nuevos y 13 reemplazos. Originales en [respaldo](respaldos/antes_arte_final/).
 - Nueve battlers exclusivos para enemigos 18–21 y 33–37, sin tintes RGSS. Se conservan las visiones anteriores de los mismos personajes.
@@ -27,7 +63,7 @@ No hay referencias gráficas inexistentes entre las 2.055 ocurrencias rastreadas
 
 Fuentes: 31 generaciones en nube, 30 seleccionadas y una descartada por encuadre. [Prompts y fuentes](arte_hd2d/arte_final/generaciones.json), [manifiesto](arte_hd2d/arte_final/manifest.json). Los sustos/retratos conservan acabado ilustrado como fase 2; las paletas de zona se dirigen en prompts y los battlers/objetos se cuantizan sin dithering, conservando rampas de material.
 
-## Verificación y láminas
+## Verificación y láminas de la pasada22–32
 
 4.005 comprobaciones de referencias de producción, tamaño, reproducción, estadísticas, eventos y respaldo; 158.400 pasos direccionales comparados en 12 escenarios de 11 mapas, sin diferencias. Comparación Marshal de 16 archivos: únicamente campos gráficos/iconos/tablas y seis claves de retrato; resto de textos y objetos conservados. Vacas.cfg y Scripts.rxdata mantienen sus hashes iniciales. No se ejecutó ni cerró Game.exe; no se accedió a .git.
 
@@ -45,19 +81,20 @@ Los marcadores azules pertenecen al render de eventos MCP: no son gráficos del 
 
 ## Pendientes reales, por prioridad
 
-1. Arte visible de los mapas1–16: las 16 hojas revision_mapaNN siguen mezclando RTP/utilería PIL. Revisar también sus siete autotiles RTP y el objeto 185-Light02 del mapa 3. Este trabajo no se ha reemplazado con generación apresurada de hojas que pueda romper sus uniones.
-2. Dos battlebacks RTP siguen declarados en tilesets de los mapas2–4. Scene_Battle los reemplaza por fondos ui_* propios, pero la referencia de BD todavía debe corregirse.
-3. Recursos sin mapa asociado: el inventario conserva las referencias de actores/enemigos/tilesets/animaciones/iconos predeterminados. Son 257 variantes solo en BD; no se afirma que todas estén muertas. Resolver su alcance antes de regenerar o limpiar registros.
-4. Treinta y dos componentes técnicos propios (27 máscaras de luz y cinco de marca Feka) se mantienen en PLACEHOLDER bajo la clasificación estricta de recursos PIL; su función técnica no es el problema de utilería plana. Validar esta excepción, conservando geometría/alpha si se retocan.
-5. Seguidor de Perro: pendiente de lógica de arrastre entre mapas, no de un PNG inexistente.
+1. Recursos sin mapa asociado:259 variantes solo en BD (incluidos los dos battlebacks RTP que ya no se usan en mapas2–4). Resolver uso efectivo antes de regenerar o limpiar registros; no se presume que estén muertos.
+2. Treinta y dos componentes técnicos propios:27 máscaras de luz y cinco de marca Feka. Conservan su clasificación estricta PLACEHOLDER por procedencia CPU; su geometría y alfa se mantienen. No equivalen a utilería plana pendiente.
+3. Seguidor de Perro: pendiente de lógica de arrastre entre mapas; sus assets existen.
 
-Las 315 variantes no OK equivalen a 308 archivos distintos. Los fallos de reutilización e identidad encontrados en los actos V/VI quedaron corregidos; la conversión de todo el juego sigue pendiente.
+Las291 variantes no OK equivalen a284 archivos distintos. Hay211 archivos OK de495; no quedan recursos ilustrativos RTP/PIL asociados a mapas en el inventario actual. No se afirma que todo el inventario de BD tenga arte propio. La valoración humana de la partida en motor sigue pendiente.
 
-## Reproducción
+## Reproducción histórica de la pasada22–32
 
 Desde la raíz: generar snapshot con inspeccionar.mjs desde su carpeta; instalar_arte_final.py → componer_arte_final.py → instalar_iconos_arte_final.py → aplicar_arte_final.mjs → aplicar_iconos_arte_final.mjs. Volver a inspeccionar, ejecutar verificar_arte_final.py y verificar_arte_final_marshal.mjs, renderizar b_arte_final_despues.json y componer laminas_arte_final.py. Auditar con auditoria_arte_final.py --initial y sin argumento; finalizar_arte_final.py añade este resumen. Todos los comandos de Python bajo diseno/herramientas se ejecutan con -X utf8.
 
 Los manifiestos históricos de fase2/acto4 conservan la evidencia anterior; los PNG sustituidos se reproducen con el manifiesto final. No ejecutar arte_acto4.py/maps5.py/maps6.py ni b_cine_render.json para volver a dibujar recursos con sus constructores provisionales.
+
+
+La pasada1–16 se reproduce con `arte_mapas.py install`, `extras`, `floors`, `corrections`, y `verificar_arte_mapas.mjs --apply`; ver su [README](arte_hd2d/arte_mapas/README.md). No ejecutar `finalizar_arte_final.py` para cerrar esta pasada: usar `finalizar_arte_mapas.py` después de la auditoría, para conservar los recuentos actuales.
 
 ## Inventario actual completo
 
@@ -204,7 +241,7 @@ Los manifiestos históricos de fase2/acto4 conservan la evidencia anterior; los 
 | 137 | Icons/vacas_item_39 | 0 | OK | BD/scripts | [24, 24] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
 | 138 | Icons/vacas_item_40 | 0 | OK | BD/scripts | [24, 24] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
 | 139 | Pictures/retrato_dog_neutral | 0 | OK | 1, 2, 4, 5, 7, 29, 30, 31, 32 | [240, 340] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 140 | Tilesets/revision_mapa01 | 0 | PLACEHOLDER o RTP | 1 | [256, 608] | Hoja mixta RTP/utilería PIL; revision_mapas.py. |
+| 140 | Tilesets/revision_mapa01 | 0 | OK | 1 | [256, 608] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
 | 141 | Autotiles/053-Wall01 | 0 | OK | 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32 | [96, 128] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
 | 142 | Autotiles/vacas_canal | 0 | OK | 1, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32 | [384, 128] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
 | 143 | Fogs/002-Clouds01 | 0 | OK | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32 | [256, 256] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
@@ -219,18 +256,18 @@ Los manifiestos históricos de fase2/acto4 conservan la evidencia anterior; los 
 | 152 | Characters/vacas_perro | 0 | OK | 2, 30, 32 | [160, 160] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
 | 153 | Pictures/retrato_dog_miedo | 0 | OK | 2 | [240, 340] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
 | 154 | Characters/vacas_vacio | 0 | OK | 2, 4, 5 | [128, 192] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 155 | Autotiles/052-Carpet02 | 0 | PLACEHOLDER o RTP | 2, 3 | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 156 | Battlebacks/018-MineTown02 | 0 | PLACEHOLDER o RTP | 2, 3 | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 157 | Tilesets/revision_mapa02 | 0 | PLACEHOLDER o RTP | 2 | [256, 1312] | Hoja mixta RTP/utilería PIL; revision_mapas.py. |
+| 155 | Autotiles/052-Carpet02 | 0 | OK | 2, 3 | [96, 128] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 156 | Battlebacks/ui_piso | 0 | OK | 1, 2, 3, 4, 30 | [640, 480] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
+| 157 | Tilesets/revision_mapa02 | 0 | OK | 2 | [256, 1312] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
 | 158 | Characters/vacas_puerta | 0 | OK | 3, 4 | [128, 256] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
 | 159 | Characters/vacas_remedios | 0 | OK | 3 | [128, 192] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
 | 160 | Pictures/retrato_remedios_neutral | 0 | OK | 3 | [240, 340] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
 | 161 | Characters/vacas_anselmo | 0 | OK | 3 | [128, 192] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
 | 162 | Pictures/retrato_anselmo_neutral | 0 | OK | 3 | [240, 340] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 163 | Characters/185-Light02 | 0 | PLACEHOLDER o RTP | 3 | [128, 256] | RTP genérico; existencia no acredita autoría propia. |
+| 163 | Characters/185-Light02 | 0 | OK | 3 | [128, 256] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
 | 164 | Characters/vacas_lucy | 0 | OK | 3, 12, 16 | [128, 192] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
 | 165 | Pictures/retrato_lucy_susurro | 0 | OK | 3 | [240, 340] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 166 | Tilesets/revision_mapa03 | 0 | PLACEHOLDER o RTP | 3 | [256, 1056] | Hoja mixta RTP/utilería PIL; revision_mapas.py. |
+| 166 | Tilesets/revision_mapa03 | 0 | OK | 3 | [256, 1056] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
 | 167 | Characters/vacas_tablon | 0 | OK | 4, 5 | [128, 192] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
 | 168 | Pictures/retrato_molina_neutral | 0 | OK | 4, 13 | [240, 340] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
 | 169 | Characters/vacas_carnicero | 0 | OK | 4, 13 | [128, 192] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
@@ -240,144 +277,144 @@ Los manifiestos históricos de fase2/acto4 conservan la evidencia anterior; los 
 | 173 | Characters/vacas_furgoneta | 0 | OK | 4, 5 | [384, 256] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
 | 174 | Characters/vacas_reclutador | 0 | OK | 4 | [128, 192] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
 | 175 | Pictures/retrato_reclutador_neutral | 0 | OK | 4 | [240, 340] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 176 | Autotiles/048-Water01 | 0 | PLACEHOLDER o RTP | 4 | [384, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 177 | Autotiles/002-G_Shadow01 | 0 | PLACEHOLDER o RTP | 4 | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 178 | Autotiles/003-G_Ground01 | 0 | PLACEHOLDER o RTP | 4 | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 179 | Autotiles/005-G_Road01 | 0 | PLACEHOLDER o RTP | 4 | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 180 | Autotiles/006-G_Road02 | 0 | PLACEHOLDER o RTP | 4 | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 181 | Autotiles/050-Roof02 | 0 | PLACEHOLDER o RTP | 4 | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 182 | Battlebacks/009-CastleTown01 | 0 | PLACEHOLDER o RTP | 4 | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 183 | Tilesets/revision_mapa04 | 0 | PLACEHOLDER o RTP | 4 | [256, 1504] | Hoja mixta RTP/utilería PIL; revision_mapas.py. |
-| 184 | Pictures/retrato_steven_miedo | 0 | OK | 5, 7, 12, 14, 16, 17, 22, 23, 24, 25, 26, 27 | [240, 340] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 185 | Pictures/screamer_3 | 0 | OK | 5 | [640, 480] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 186 | Characters/vacas_obrero1 | 0 | OK | 5, 8, 22, 29 | [128, 192] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 187 | Pictures/retrato_benito_neutral | 0 | OK | 5, 8, 22 | [240, 340] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 188 | Characters/vacas_cripps | 0 | OK | 5, 8, 9, 10, 14, 25, 26 | [128, 192] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
-| 189 | Pictures/retrato_cripps_neutral | 0 | OK | 5, 8, 9, 10, 26 | [240, 340] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 190 | Characters/vacas_matadero | 0 | OK | 5, 8, 9, 10, 11 | [128, 256] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 191 | Tilesets/revision_mapa05 | 0 | PLACEHOLDER o RTP | 5 | [256, 928] | Hoja mixta RTP/utilería PIL; revision_mapas.py. |
-| 192 | Pictures/screamer_4 | 0 | OK | 6 | [640, 480] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 193 | Characters/vacas_obrero3 | 0 | OK | 6, 8, 24, 27, 29 | [128, 192] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 194 | Pictures/retrato_encarna_neutral | 0 | OK | 6, 8 | [240, 340] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 195 | Characters/vacas_obrero4 | 0 | OK | 6, 24, 27 | [128, 192] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 196 | Pictures/retrato_chato_neutral | 0 | OK | 6, 24, 27 | [240, 340] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 197 | Tilesets/revision_mapa06 | 0 | PLACEHOLDER o RTP | 6 | [256, 544] | Hoja mixta RTP/utilería PIL; revision_mapas.py. |
-| 198 | Characters/vacas_vaca | 0 | OK | 7, 23, 27, 29 | [320, 320] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 199 | Characters/vacas_vaca_canela | 0 | OK | 7, 8, 23, 27 | [320, 320] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 200 | Characters/vacas_obrero2 | 0 | OK | 7, 8, 23 | [128, 192] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 201 | Pictures/retrato_rubio_neutral | 0 | OK | 7, 24, 27, 29, 31 | [240, 340] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 202 | Tilesets/revision_mapa07 | 0 | PLACEHOLDER o RTP | 7 | [256, 768] | Hoja mixta RTP/utilería PIL; revision_mapas.py. |
-| 203 | Pictures/retrato_cripps_ira | 0 | OK | 8, 9, 10, 25, 26 | [240, 340] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 204 | Pictures/retrato_sierra_neutral | 0 | OK | 8, 23 | [240, 340] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 205 | Tilesets/revision_mapa08 | 0 | PLACEHOLDER o RTP | 8 | [256, 1024] | Hoja mixta RTP/utilería PIL; revision_mapas.py. |
-| 206 | Pictures/screamer_6 | 0 | OK | 9, 10 | [640, 480] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 207 | Tilesets/revision_mapa09 | 0 | PLACEHOLDER o RTP | 9 | [256, 832] | Hoja mixta RTP/utilería PIL; revision_mapas.py. |
-| 208 | Tilesets/revision_mapa10 | 0 | PLACEHOLDER o RTP | 10 | [256, 576] | Hoja mixta RTP/utilería PIL; revision_mapas.py. |
-| 209 | Pictures/screamer_5 | 0 | OK | 11 | [640, 480] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 210 | Pictures/retrato_guernsey_susurro | 0 | OK | 11, 16, 17, 20, 22, 23, 25, 26, 27, 28, 29, 32 | [240, 340] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 211 | Tilesets/revision_mapa11 | 0 | PLACEHOLDER o RTP | 11 | [256, 704] | Hoja mixta RTP/utilería PIL; revision_mapas.py. |
-| 212 | Pictures/retrato_lucy_neutral | 0 | OK | 12, 16, 28 | [240, 340] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 213 | Characters/vacas_laboratorio | 0 | OK | 12, 13, 14, 15, 16 | [128, 256] | Fuente image_gen documentada: diseno/arte_hd2d/acto3/manifest.json; aprobación final no presumida. |
-| 214 | Pictures/retrato_lucy_calma | 0 | OK | 12, 16, 28 | [240, 340] | Fuente image_gen documentada: diseno/arte_hd2d/acto3/manifest.json; aprobación final no presumida. |
-| 215 | Tilesets/revision_mapa12 | 0 | PLACEHOLDER o RTP | 12 | [256, 928] | Hoja mixta RTP/utilería PIL; revision_mapas.py. |
-| 216 | Tilesets/revision_mapa13 | 0 | PLACEHOLDER o RTP | 13 | [256, 704] | Hoja mixta RTP/utilería PIL; revision_mapas.py. |
-| 217 | Pictures/screamer_8 | 0 | OK | 14 | [640, 480] | Fuente image_gen documentada: diseno/arte_hd2d/acto3/manifest.json; aprobación final no presumida. |
-| 218 | Tilesets/revision_mapa14 | 0 | PLACEHOLDER o RTP | 14 | [256, 640] | Hoja mixta RTP/utilería PIL; revision_mapas.py. |
-| 219 | Characters/vacas_elena | 0 | OK | 15 | [128, 192] | Fuente image_gen documentada: diseno/arte_hd2d/acto3/manifest.json; aprobación final no presumida. |
-| 220 | Pictures/retrato_elena_neutral | 0 | OK | 15 | [240, 340] | Fuente image_gen documentada: diseno/arte_hd2d/acto3/manifest.json; aprobación final no presumida. |
-| 221 | Characters/vacas_alcantarilla | 0 | OK | 15, 17, 18, 19, 20, 21 | [128, 256] | Fuente image_gen documentada: diseno/arte_hd2d/acto4/manifest.json; aprobación final no presumida. |
-| 222 | Tilesets/revision_mapa15 | 0 | PLACEHOLDER o RTP | 15 | [256, 928] | Hoja mixta RTP/utilería PIL; revision_mapas.py. |
-| 223 | Pictures/retrato_lucy_quiebre | 0 | OK | 16 | [240, 340] | Fuente image_gen documentada: diseno/arte_hd2d/acto3/manifest.json; aprobación final no presumida. |
-| 224 | Pictures/screamer_9 | 0 | OK | 16 | [640, 480] | Fuente image_gen documentada: diseno/arte_hd2d/acto3/manifest.json; aprobación final no presumida. |
-| 225 | Tilesets/revision_mapa16 | 0 | PLACEHOLDER o RTP | 16 | [256, 864] | Hoja mixta RTP/utilería PIL; revision_mapas.py. |
-| 226 | Tilesets/acto4_alcantarillas | 0 | OK | 17, 18, 19, 20, 21 | [256, 64] | Fuente image_gen documentada: diseno/arte_hd2d/acto4/manifest.json; aprobación final no presumida. |
-| 227 | Battlebacks/mente_tunel | 0 | OK | 17, 18, 19, 20, 21 | [640, 480] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 228 | Characters/vacas_muesca | 0 | OK | 18, 19, 20, 23, 27, 28 | [192, 192] | Fuente image_gen documentada: diseno/arte_hd2d/acto4/manifest.json; aprobación final no presumida. |
-| 229 | Pictures/retrato_muesca_neutral | 0 | OK | 18, 20, 23, 27, 28, 32 | [240, 340] | Fuente image_gen documentada: diseno/arte_hd2d/acto4/manifest.json; aprobación final no presumida. |
-| 230 | Pictures/screamer_10 | 0 | OK | 18 | [640, 480] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
-| 231 | Characters/vacas_junco | 0 | OK | 19, 20, 23, 27 | [192, 192] | Fuente image_gen documentada: diseno/arte_hd2d/acto4/manifest.json; aprobación final no presumida. |
-| 232 | Pictures/retrato_junco_neutral | 0 | OK | 19, 20, 23, 27 | [240, 340] | Fuente image_gen documentada: diseno/arte_hd2d/acto4/manifest.json; aprobación final no presumida. |
-| 233 | Pictures/screamer_11 | 0 | OK | 19 | [640, 480] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
-| 234 | Characters/vacas_guernsey4 | 0 | OK | 20, 26, 27, 29, 32 | [192, 192] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
-| 235 | Tilesets/acto5_matanza | 0 | OK | 22, 23, 24, 25, 26, 27 | [256, 2656] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
-| 236 | Pictures/screamer_12 | 0 | OK | 25 | [640, 480] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
-| 237 | Pictures/screamer_13 | 0 | OK | 25 | [640, 480] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
-| 238 | Tilesets/acto6_reydios | 0 | OK | 28, 29, 30, 31, 32 | [256, 992] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
-| 239 | Pictures/retrato_madre_envejecida_neutral | 0 | OK | 30 | [240, 340] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
-| 240 | Icons/045-Skill02 | 0 | PLACEHOLDER o RTP | BD/scripts | [24, 24] | RTP genérico; existencia no acredita autoría propia. |
-| 241 | Icons/044-Skill01 | 0 | PLACEHOLDER o RTP | BD/scripts | [24, 24] | RTP genérico; existencia no acredita autoría propia. |
-| 242 | Icons/046-Skill03 | 0 | PLACEHOLDER o RTP | BD/scripts | [24, 24] | RTP genérico; existencia no acredita autoría propia. |
-| 243 | Icons/047-Skill04 | 0 | PLACEHOLDER o RTP | BD/scripts | [24, 24] | RTP genérico; existencia no acredita autoría propia. |
-| 244 | Icons/048-Skill05 | 0 | PLACEHOLDER o RTP | BD/scripts | [24, 24] | RTP genérico; existencia no acredita autoría propia. |
-| 245 | Icons/050-Skill07 | 0 | PLACEHOLDER o RTP | BD/scripts | [24, 24] | RTP genérico; existencia no acredita autoría propia. |
-| 246 | Icons/vacas_habilidad_61 | 0 | OK | BD/scripts | [24, 24] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
-| 247 | Icons/vacas_habilidad_62 | 0 | OK | BD/scripts | [24, 24] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
-| 248 | Icons/vacas_habilidad_63 | 0 | OK | BD/scripts | [24, 24] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
-| 249 | Icons/vacas_habilidad_64 | 0 | OK | BD/scripts | [24, 24] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
-| 250 | Icons/vacas_habilidad_65 | 0 | OK | BD/scripts | [24, 24] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
-| 251 | Icons/vacas_habilidad_66 | 0 | OK | BD/scripts | [24, 24] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
-| 252 | Icons/vacas_habilidad_67 | 0 | OK | BD/scripts | [24, 24] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
-| 253 | Icons/vacas_habilidad_68 | 0 | OK | BD/scripts | [24, 24] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
-| 254 | Icons/vacas_habilidad_69 | 0 | OK | BD/scripts | [24, 24] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
-| 255 | Icons/vacas_habilidad_70 | 0 | OK | BD/scripts | [24, 24] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
-| 256 | Gameovers/vacas_gameover | 0 | OK | BD/scripts | [640, 480] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 257 | Titles/vacas_titulo | 0 | OK | BD/scripts | [640, 480] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 258 | Windowskins/ui_windowskin | 0 | OK | BD/scripts | [192, 128] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
-| 259 | Battlebacks/mente_matadero | 0 | OK | BD/scripts | [640, 480] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 260 | Autotiles/001-G_Water01 | 0 | PLACEHOLDER o RTP | BD/scripts | [384, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 261 | Autotiles/040-Ground01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 262 | Autotiles/041-Grass01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 263 | Autotiles/007-G_Undulation01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 264 | Autotiles/008-G_Undulation02 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 265 | Battlebacks/001-Grassland01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 266 | Tilesets/001-Grassland01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 576] | RTP genérico; existencia no acredita autoría propia. |
-| 267 | Autotiles/043-Grass02 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 268 | Autotiles/036-Tree01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 269 | Autotiles/037-Tree02 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 270 | Battlebacks/002-Woods01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 271 | Tilesets/002-Woods01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 800] | RTP genérico; existencia no acredita autoría propia. |
-| 272 | Autotiles/009-G2_Water01 | 0 | PLACEHOLDER o RTP | BD/scripts | [384, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 273 | Autotiles/010-G2_Ground01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 274 | Autotiles/011-G2_Ground02 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 275 | Autotiles/042-Ground02 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 276 | Autotiles/038-Tree03 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 277 | Autotiles/039-Tree04 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 278 | Battlebacks/003-Forest01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 279 | Tilesets/003-Forest01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 608] | RTP genérico; existencia no acredita autoría propia. |
-| 280 | Panoramas/006-Mountains01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 640] | RTP genérico; existencia no acredita autoría propia. |
-| 281 | Autotiles/033-Waterfall01 | 0 | PLACEHOLDER o RTP | BD/scripts | [384, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 282 | Autotiles/034-Waterfall02 | 0 | PLACEHOLDER o RTP | BD/scripts | [384, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 283 | Autotiles/035-Waterfall03 | 0 | PLACEHOLDER o RTP | BD/scripts | [384, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 284 | Battlebacks/004-Mountain01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 285 | Tilesets/004-Mountain01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 896] | RTP genérico; existencia no acredita autoría propia. |
-| 286 | Autotiles/024-Ocean01 | 0 | PLACEHOLDER o RTP | BD/scripts | [384, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 287 | Autotiles/025-Ocean02 | 0 | PLACEHOLDER o RTP | BD/scripts | [384, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 288 | Autotiles/026-Ocean03 | 0 | PLACEHOLDER o RTP | BD/scripts | [384, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 289 | Autotiles/027-Ocean04 | 0 | PLACEHOLDER o RTP | BD/scripts | [384, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 290 | Autotiles/016-Sa_Shadow01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 291 | Autotiles/017-Sa_Grass01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 292 | Autotiles/045-Road02 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 293 | Battlebacks/005-Beach01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 294 | Tilesets/005-Beach01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 544] | RTP genérico; existencia no acredita autoría propia. |
-| 295 | Autotiles/015-Sa_Water01 | 0 | PLACEHOLDER o RTP | BD/scripts | [384, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 296 | Autotiles/018-Sa_Ground01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 297 | Autotiles/019-Sa_Grass02 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 298 | Autotiles/020-Sa_Grass03 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 299 | Autotiles/023-Sa_Undulation01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 300 | Battlebacks/006-Desert01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 301 | Tilesets/006-Desert01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 608] | RTP genérico; existencia no acredita autoría propia. |
-| 302 | Autotiles/012-G2_Swamp01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 303 | Autotiles/013-G2_Swamp02 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 304 | Autotiles/014-G2_Swamp03 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 305 | Battlebacks/007-Swamp01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 306 | Tilesets/007-Swamp01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 448] | RTP genérico; existencia no acredita autoría propia. |
-| 307 | Autotiles/028-Sn_Water01 | 0 | PLACEHOLDER o RTP | BD/scripts | [384, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 308 | Autotiles/029-Sn_Shadow01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 309 | Autotiles/030-Sn_Ground01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 310 | Autotiles/044-Road01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 311 | Autotiles/031-Sn_Undulation01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 312 | Battlebacks/008-Snowfield01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 313 | Tilesets/008-Snowfield01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 864] | RTP genérico; existencia no acredita autoría propia. |
+| 176 | Autotiles/048-Water01 | 0 | OK | 4 | [384, 128] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 177 | Autotiles/002-G_Shadow01 | 0 | OK | 4 | [96, 128] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 178 | Autotiles/003-G_Ground01 | 0 | OK | 4 | [96, 128] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 179 | Autotiles/005-G_Road01 | 0 | OK | 4 | [96, 128] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 180 | Autotiles/006-G_Road02 | 0 | OK | 4 | [96, 128] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 181 | Autotiles/050-Roof02 | 0 | OK | 4 | [96, 128] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 182 | Tilesets/revision_mapa04 | 0 | OK | 4 | [256, 1504] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 183 | Pictures/retrato_steven_miedo | 0 | OK | 5, 7, 12, 14, 16, 17, 22, 23, 24, 25, 26, 27 | [240, 340] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
+| 184 | Pictures/screamer_3 | 0 | OK | 5 | [640, 480] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
+| 185 | Characters/vacas_obrero1 | 0 | OK | 5, 8, 22, 29 | [128, 192] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
+| 186 | Pictures/retrato_benito_neutral | 0 | OK | 5, 8, 22 | [240, 340] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
+| 187 | Characters/vacas_cripps | 0 | OK | 5, 8, 9, 10, 14, 25, 26 | [128, 192] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 188 | Pictures/retrato_cripps_neutral | 0 | OK | 5, 8, 9, 10, 26 | [240, 340] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
+| 189 | Characters/vacas_matadero | 0 | OK | 5, 8, 9, 10, 11 | [128, 256] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
+| 190 | Tilesets/revision_mapa05 | 0 | OK | 5 | [256, 928] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 191 | Pictures/screamer_4 | 0 | OK | 6 | [640, 480] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
+| 192 | Characters/vacas_obrero3 | 0 | OK | 6, 8, 24, 27, 29 | [128, 192] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
+| 193 | Pictures/retrato_encarna_neutral | 0 | OK | 6, 8 | [240, 340] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
+| 194 | Characters/vacas_obrero4 | 0 | OK | 6, 24, 27 | [128, 192] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
+| 195 | Pictures/retrato_chato_neutral | 0 | OK | 6, 24, 27 | [240, 340] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
+| 196 | Tilesets/revision_mapa06 | 0 | OK | 6 | [256, 544] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 197 | Characters/vacas_vaca | 0 | OK | 7, 23, 27, 29 | [320, 320] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
+| 198 | Characters/vacas_vaca_canela | 0 | OK | 7, 8, 23, 27 | [320, 320] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
+| 199 | Characters/vacas_obrero2 | 0 | OK | 7, 8, 23 | [128, 192] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
+| 200 | Pictures/retrato_rubio_neutral | 0 | OK | 7, 24, 27, 29, 31 | [240, 340] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
+| 201 | Tilesets/revision_mapa07 | 0 | OK | 7 | [256, 768] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 202 | Pictures/retrato_cripps_ira | 0 | OK | 8, 9, 10, 25, 26 | [240, 340] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
+| 203 | Pictures/retrato_sierra_neutral | 0 | OK | 8, 23 | [240, 340] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
+| 204 | Tilesets/revision_mapa08 | 0 | OK | 8 | [256, 1024] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 205 | Pictures/screamer_6 | 0 | OK | 9, 10 | [640, 480] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
+| 206 | Tilesets/revision_mapa09 | 0 | OK | 9 | [256, 832] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 207 | Tilesets/revision_mapa10 | 0 | OK | 10 | [256, 576] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 208 | Pictures/screamer_5 | 0 | OK | 11 | [640, 480] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
+| 209 | Pictures/retrato_guernsey_susurro | 0 | OK | 11, 16, 17, 20, 22, 23, 25, 26, 27, 28, 29, 32 | [240, 340] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
+| 210 | Tilesets/revision_mapa11 | 0 | OK | 11 | [256, 704] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 211 | Pictures/retrato_lucy_neutral | 0 | OK | 12, 16, 28 | [240, 340] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
+| 212 | Characters/vacas_laboratorio | 0 | OK | 12, 13, 14, 15, 16 | [128, 256] | Fuente image_gen documentada: diseno/arte_hd2d/acto3/manifest.json; aprobación final no presumida. |
+| 213 | Pictures/retrato_lucy_calma | 0 | OK | 12, 16, 28 | [240, 340] | Fuente image_gen documentada: diseno/arte_hd2d/acto3/manifest.json; aprobación final no presumida. |
+| 214 | Tilesets/revision_mapa12 | 0 | OK | 12 | [256, 928] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 215 | Tilesets/revision_mapa13 | 0 | OK | 13 | [256, 704] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 216 | Pictures/screamer_8 | 0 | OK | 14 | [640, 480] | Fuente image_gen documentada: diseno/arte_hd2d/acto3/manifest.json; aprobación final no presumida. |
+| 217 | Tilesets/revision_mapa14 | 0 | OK | 14 | [256, 640] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 218 | Characters/vacas_elena | 0 | OK | 15 | [128, 192] | Fuente image_gen documentada: diseno/arte_hd2d/acto3/manifest.json; aprobación final no presumida. |
+| 219 | Pictures/retrato_elena_neutral | 0 | OK | 15 | [240, 340] | Fuente image_gen documentada: diseno/arte_hd2d/acto3/manifest.json; aprobación final no presumida. |
+| 220 | Characters/vacas_alcantarilla | 0 | OK | 15, 17, 18, 19, 20, 21 | [128, 256] | Fuente image_gen documentada: diseno/arte_hd2d/acto4/manifest.json; aprobación final no presumida. |
+| 221 | Tilesets/revision_mapa15 | 0 | OK | 15 | [256, 928] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 222 | Pictures/retrato_lucy_quiebre | 0 | OK | 16 | [240, 340] | Fuente image_gen documentada: diseno/arte_hd2d/acto3/manifest.json; aprobación final no presumida. |
+| 223 | Pictures/screamer_9 | 0 | OK | 16 | [640, 480] | Fuente image_gen documentada: diseno/arte_hd2d/acto3/manifest.json; aprobación final no presumida. |
+| 224 | Tilesets/revision_mapa16 | 0 | OK | 16 | [256, 864] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 225 | Tilesets/acto4_alcantarillas | 0 | OK | 17, 18, 19, 20, 21 | [256, 64] | Fuente image_gen documentada: diseno/arte_hd2d/acto4/manifest.json; aprobación final no presumida. |
+| 226 | Battlebacks/mente_tunel | 0 | OK | 17, 18, 19, 20, 21 | [640, 480] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
+| 227 | Characters/vacas_muesca | 0 | OK | 18, 19, 20, 23, 27, 28 | [192, 192] | Fuente image_gen documentada: diseno/arte_hd2d/acto4/manifest.json; aprobación final no presumida. |
+| 228 | Pictures/retrato_muesca_neutral | 0 | OK | 18, 20, 23, 27, 28, 32 | [240, 340] | Fuente image_gen documentada: diseno/arte_hd2d/acto4/manifest.json; aprobación final no presumida. |
+| 229 | Pictures/screamer_10 | 0 | OK | 18 | [640, 480] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 230 | Characters/vacas_junco | 0 | OK | 19, 20, 23, 27 | [192, 192] | Fuente image_gen documentada: diseno/arte_hd2d/acto4/manifest.json; aprobación final no presumida. |
+| 231 | Pictures/retrato_junco_neutral | 0 | OK | 19, 20, 23, 27 | [240, 340] | Fuente image_gen documentada: diseno/arte_hd2d/acto4/manifest.json; aprobación final no presumida. |
+| 232 | Pictures/screamer_11 | 0 | OK | 19 | [640, 480] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 233 | Characters/vacas_guernsey4 | 0 | OK | 20, 26, 27, 29, 32 | [192, 192] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 234 | Tilesets/acto5_matanza | 0 | OK | 22, 23, 24, 25, 26, 27 | [256, 2656] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 235 | Pictures/screamer_12 | 0 | OK | 25 | [640, 480] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 236 | Pictures/screamer_13 | 0 | OK | 25 | [640, 480] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 237 | Tilesets/acto6_reydios | 0 | OK | 28, 29, 30, 31, 32 | [256, 992] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 238 | Pictures/retrato_madre_envejecida_neutral | 0 | OK | 30 | [240, 340] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 239 | Icons/045-Skill02 | 0 | PLACEHOLDER o RTP | BD/scripts | [24, 24] | RTP genérico; existencia no acredita autoría propia. |
+| 240 | Icons/044-Skill01 | 0 | PLACEHOLDER o RTP | BD/scripts | [24, 24] | RTP genérico; existencia no acredita autoría propia. |
+| 241 | Icons/046-Skill03 | 0 | PLACEHOLDER o RTP | BD/scripts | [24, 24] | RTP genérico; existencia no acredita autoría propia. |
+| 242 | Icons/047-Skill04 | 0 | PLACEHOLDER o RTP | BD/scripts | [24, 24] | RTP genérico; existencia no acredita autoría propia. |
+| 243 | Icons/048-Skill05 | 0 | PLACEHOLDER o RTP | BD/scripts | [24, 24] | RTP genérico; existencia no acredita autoría propia. |
+| 244 | Icons/050-Skill07 | 0 | PLACEHOLDER o RTP | BD/scripts | [24, 24] | RTP genérico; existencia no acredita autoría propia. |
+| 245 | Icons/vacas_habilidad_61 | 0 | OK | BD/scripts | [24, 24] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 246 | Icons/vacas_habilidad_62 | 0 | OK | BD/scripts | [24, 24] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 247 | Icons/vacas_habilidad_63 | 0 | OK | BD/scripts | [24, 24] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 248 | Icons/vacas_habilidad_64 | 0 | OK | BD/scripts | [24, 24] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 249 | Icons/vacas_habilidad_65 | 0 | OK | BD/scripts | [24, 24] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 250 | Icons/vacas_habilidad_66 | 0 | OK | BD/scripts | [24, 24] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 251 | Icons/vacas_habilidad_67 | 0 | OK | BD/scripts | [24, 24] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 252 | Icons/vacas_habilidad_68 | 0 | OK | BD/scripts | [24, 24] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 253 | Icons/vacas_habilidad_69 | 0 | OK | BD/scripts | [24, 24] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 254 | Icons/vacas_habilidad_70 | 0 | OK | BD/scripts | [24, 24] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 255 | Gameovers/vacas_gameover | 0 | OK | BD/scripts | [640, 480] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
+| 256 | Titles/vacas_titulo | 0 | OK | BD/scripts | [640, 480] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
+| 257 | Windowskins/ui_windowskin | 0 | OK | BD/scripts | [192, 128] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
+| 258 | Battlebacks/mente_matadero | 0 | OK | BD/scripts | [640, 480] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
+| 259 | Autotiles/001-G_Water01 | 0 | PLACEHOLDER o RTP | BD/scripts | [384, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 260 | Autotiles/040-Ground01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 261 | Autotiles/041-Grass01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 262 | Autotiles/007-G_Undulation01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 263 | Autotiles/008-G_Undulation02 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 264 | Battlebacks/001-Grassland01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 265 | Tilesets/001-Grassland01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 576] | RTP genérico; existencia no acredita autoría propia. |
+| 266 | Autotiles/043-Grass02 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 267 | Autotiles/036-Tree01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 268 | Autotiles/037-Tree02 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 269 | Battlebacks/002-Woods01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 270 | Tilesets/002-Woods01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 800] | RTP genérico; existencia no acredita autoría propia. |
+| 271 | Autotiles/009-G2_Water01 | 0 | PLACEHOLDER o RTP | BD/scripts | [384, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 272 | Autotiles/010-G2_Ground01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 273 | Autotiles/011-G2_Ground02 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 274 | Autotiles/042-Ground02 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 275 | Autotiles/038-Tree03 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 276 | Autotiles/039-Tree04 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 277 | Battlebacks/003-Forest01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 278 | Tilesets/003-Forest01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 608] | RTP genérico; existencia no acredita autoría propia. |
+| 279 | Panoramas/006-Mountains01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 640] | RTP genérico; existencia no acredita autoría propia. |
+| 280 | Autotiles/033-Waterfall01 | 0 | PLACEHOLDER o RTP | BD/scripts | [384, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 281 | Autotiles/034-Waterfall02 | 0 | PLACEHOLDER o RTP | BD/scripts | [384, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 282 | Autotiles/035-Waterfall03 | 0 | PLACEHOLDER o RTP | BD/scripts | [384, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 283 | Battlebacks/004-Mountain01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 284 | Tilesets/004-Mountain01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 896] | RTP genérico; existencia no acredita autoría propia. |
+| 285 | Autotiles/024-Ocean01 | 0 | PLACEHOLDER o RTP | BD/scripts | [384, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 286 | Autotiles/025-Ocean02 | 0 | PLACEHOLDER o RTP | BD/scripts | [384, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 287 | Autotiles/026-Ocean03 | 0 | PLACEHOLDER o RTP | BD/scripts | [384, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 288 | Autotiles/027-Ocean04 | 0 | PLACEHOLDER o RTP | BD/scripts | [384, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 289 | Autotiles/016-Sa_Shadow01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 290 | Autotiles/017-Sa_Grass01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 291 | Autotiles/045-Road02 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 292 | Battlebacks/005-Beach01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 293 | Tilesets/005-Beach01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 544] | RTP genérico; existencia no acredita autoría propia. |
+| 294 | Autotiles/015-Sa_Water01 | 0 | PLACEHOLDER o RTP | BD/scripts | [384, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 295 | Autotiles/018-Sa_Ground01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 296 | Autotiles/019-Sa_Grass02 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 297 | Autotiles/020-Sa_Grass03 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 298 | Autotiles/023-Sa_Undulation01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 299 | Battlebacks/006-Desert01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 300 | Tilesets/006-Desert01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 608] | RTP genérico; existencia no acredita autoría propia. |
+| 301 | Autotiles/012-G2_Swamp01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 302 | Autotiles/013-G2_Swamp02 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 303 | Autotiles/014-G2_Swamp03 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 304 | Battlebacks/007-Swamp01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 305 | Tilesets/007-Swamp01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 448] | RTP genérico; existencia no acredita autoría propia. |
+| 306 | Autotiles/028-Sn_Water01 | 0 | PLACEHOLDER o RTP | BD/scripts | [384, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 307 | Autotiles/029-Sn_Shadow01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 308 | Autotiles/030-Sn_Ground01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 309 | Autotiles/044-Road01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 310 | Autotiles/031-Sn_Undulation01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 311 | Battlebacks/008-Snowfield01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 312 | Tilesets/008-Snowfield01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 864] | RTP genérico; existencia no acredita autoría propia. |
+| 313 | Battlebacks/009-CastleTown01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
 | 314 | Tilesets/009-CastleTown01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 960] | RTP genérico; existencia no acredita autoría propia. |
 | 315 | Autotiles/054-Wall02 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
 | 316 | Autotiles/051-Carpet01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
@@ -399,186 +436,186 @@ Los manifiestos históricos de fase2/acto4 conservan la evidencia anterior; los 
 | 332 | Tilesets/016-ForestTown02 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 800] | RTP genérico; existencia no acredita autoría propia. |
 | 333 | Battlebacks/017-MineTown01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
 | 334 | Tilesets/017-MineTown01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 1216] | RTP genérico; existencia no acredita autoría propia. |
-| 335 | Tilesets/018-MineTown02 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 832] | RTP genérico; existencia no acredita autoría propia. |
-| 336 | Autotiles/021-Sa_Road01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 337 | Autotiles/022-Roof01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 338 | Battlebacks/019-DesertTown01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 339 | Tilesets/019-DesertTown01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 704] | RTP genérico; existencia no acredita autoría propia. |
-| 340 | Autotiles/055-Wall03 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 341 | Battlebacks/020-DesertTown02 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 342 | Tilesets/020-DesertTown02 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 736] | RTP genérico; existencia no acredita autoría propia. |
-| 343 | Battlebacks/021-SnowTown01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 344 | Tilesets/021-SnowTown01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 1280] | RTP genérico; existencia no acredita autoría propia. |
-| 345 | Battlebacks/022-SnowTown02 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 346 | Tilesets/022-SnowTown02 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 736] | RTP genérico; existencia no acredita autoría propia. |
-| 347 | Battlebacks/023-FarmVillage01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 348 | Tilesets/023-FarmVillage01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 1024] | RTP genérico; existencia no acredita autoría propia. |
-| 349 | Battlebacks/024-FarmVillage02 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 350 | Tilesets/024-FarmVillage02 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 736] | RTP genérico; existencia no acredita autoría propia. |
-| 351 | Autotiles/047-Flower01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 352 | Battlebacks/025-Castle01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 353 | Tilesets/025-Castle01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 896] | RTP genérico; existencia no acredita autoría propia. |
-| 354 | Autotiles/049-St_Shadow01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 355 | Battlebacks/026-Castle02 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 356 | Tilesets/026-Castle02 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 800] | RTP genérico; existencia no acredita autoría propia. |
-| 357 | Battlebacks/027-Castle03 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 358 | Tilesets/027-Castle03 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 800] | RTP genérico; existencia no acredita autoría propia. |
-| 359 | Battlebacks/028-Church01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 360 | Tilesets/028-Church01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 1088] | RTP genérico; existencia no acredita autoría propia. |
-| 361 | Battlebacks/029-Church02 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 362 | Tilesets/029-Church02 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 1056] | RTP genérico; existencia no acredita autoría propia. |
-| 363 | Autotiles/046-Road03 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 364 | Battlebacks/030-Ship01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 365 | Tilesets/030-Ship01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 1184] | RTP genérico; existencia no acredita autoría propia. |
-| 366 | Battlebacks/031-Ship02 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 367 | Tilesets/031-Ship02 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 928] | RTP genérico; existencia no acredita autoría propia. |
-| 368 | Panoramas/001-Sky01 | 0 | PLACEHOLDER o RTP | BD/scripts | [480, 480] | RTP genérico; existencia no acredita autoría propia. |
-| 369 | Battlebacks/032-Heaven01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 370 | Tilesets/032-Heaven01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 1024] | RTP genérico; existencia no acredita autoría propia. |
-| 371 | Battlebacks/033-Heaven02 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 372 | Tilesets/033-Heaven02 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 928] | RTP genérico; existencia no acredita autoría propia. |
-| 373 | Battlebacks/034-Bridge01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 374 | Tilesets/034-Bridge01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 960] | RTP genérico; existencia no acredita autoría propia. |
-| 375 | Tilesets/035-Ruins01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 896] | RTP genérico; existencia no acredita autoría propia. |
-| 376 | Battlebacks/035-Ruins01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 377 | Battlebacks/036-Shop01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 378 | Tilesets/036-Shop01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 1248] | RTP genérico; existencia no acredita autoría propia. |
-| 379 | Battlebacks/037-Fort01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 380 | Tilesets/037-Fort01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 960] | RTP genérico; existencia no acredita autoría propia. |
-| 381 | Battlebacks/038-Fort02 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 382 | Tilesets/038-Fort02 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 832] | RTP genérico; existencia no acredita autoría propia. |
-| 383 | Battlebacks/039-Tower01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 384 | Tilesets/039-Tower01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 1056] | RTP genérico; existencia no acredita autoría propia. |
-| 385 | Battlebacks/040-Tower02 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 386 | Tilesets/040-Tower02 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 960] | RTP genérico; existencia no acredita autoría propia. |
-| 387 | Battlebacks/041-EvilCastle01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 388 | Tilesets/041-EvilCastle01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 960] | RTP genérico; existencia no acredita autoría propia. |
-| 389 | Battlebacks/042-EvilCastle02 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 390 | Tilesets/042-EvilCastle02 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 832] | RTP genérico; existencia no acredita autoría propia. |
-| 391 | Autotiles/056-CE_Water01 | 0 | PLACEHOLDER o RTP | BD/scripts | [384, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 392 | Autotiles/057-CE_Shadow01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 393 | Autotiles/058-CE_Ground01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 394 | Autotiles/059-CE_Ground02 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 395 | Autotiles/060-CE_Grass01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 396 | Autotiles/061-CE_Road01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 397 | Battlebacks/043-Cave01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 398 | Tilesets/043-Cave01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 1056] | RTP genérico; existencia no acredita autoría propia. |
-| 399 | Autotiles/062-CF_Lava01 | 0 | PLACEHOLDER o RTP | BD/scripts | [384, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 400 | Autotiles/063-CF_Shadow01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 401 | Autotiles/064-CF_Ground01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 402 | Autotiles/065-CF_Ground02 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 403 | Autotiles/066-CF_Ground03 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 404 | Autotiles/067-CF_Ground04 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 405 | Tilesets/044-Cave02 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 1056] | RTP genérico; existencia no acredita autoría propia. |
-| 406 | Battlebacks/044-Cave02 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 407 | Autotiles/068-CI_Water01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 408 | Autotiles/069-CI_Shadow01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 409 | Autotiles/070-CI_Snow01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 410 | Autotiles/071-CI_Ground01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 411 | Autotiles/072-CI_Ice01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 412 | Autotiles/073-CI_Ground02 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 413 | Tilesets/045-Cave03 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 1056] | RTP genérico; existencia no acredita autoría propia. |
-| 414 | Battlebacks/045-Cave03 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 415 | Autotiles/074-CW_Water01 | 0 | PLACEHOLDER o RTP | BD/scripts | [384, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 416 | Autotiles/075-CW_Shadow01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 417 | Autotiles/076-CW_Grass01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 418 | Autotiles/077-CW_Grass02 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 419 | Autotiles/078-CW_Ground01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 420 | Autotiles/079-CW_Grass03 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 421 | Tilesets/046-Cave04 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 1056] | RTP genérico; existencia no acredita autoría propia. |
-| 422 | Battlebacks/046-Cave04 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 423 | Battlebacks/047-Mine01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 424 | Tilesets/047-Mine01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 864] | RTP genérico; existencia no acredita autoría propia. |
-| 425 | Battlebacks/048-Sewer01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 426 | Tilesets/048-Sewer01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 768] | RTP genérico; existencia no acredita autoría propia. |
-| 427 | Autotiles/080-B_Ground01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 428 | Autotiles/081-B_Ground02 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
-| 429 | Battlebacks/049-InnerBody01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 430 | Tilesets/049-InnerBody01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 672] | RTP genérico; existencia no acredita autoría propia. |
-| 431 | Panoramas/003-StarlitSky01 | 0 | PLACEHOLDER o RTP | BD/scripts | [480, 480] | RTP genérico; existencia no acredita autoría propia. |
-| 432 | Battlebacks/050-DarkSpace01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
-| 433 | Tilesets/050-DarkSpace01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 640] | RTP genérico; existencia no acredita autoría propia. |
-| 434 | Tilesets/vacas_matadero | 0 | OK | BD/scripts | [256, 256] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 435 | Icons/001-Weapon01 | 0 | PLACEHOLDER o RTP | BD/scripts | [24, 24] | RTP genérico; existencia no acredita autoría propia. |
-| 436 | Icons/002-Weapon02 | 0 | PLACEHOLDER o RTP | BD/scripts | [24, 24] | RTP genérico; existencia no acredita autoría propia. |
-| 437 | Icons/003-Weapon03 | 0 | PLACEHOLDER o RTP | BD/scripts | [24, 24] | RTP genérico; existencia no acredita autoría propia. |
-| 438 | Icons/004-Weapon04 | 0 | PLACEHOLDER o RTP | BD/scripts | [24, 24] | RTP genérico; existencia no acredita autoría propia. |
-| 439 | Icons/005-Weapon05 | 0 | PLACEHOLDER o RTP | BD/scripts | [24, 24] | RTP genérico; existencia no acredita autoría propia. |
-| 440 | Icons/006-Weapon06 | 0 | PLACEHOLDER o RTP | BD/scripts | [24, 24] | RTP genérico; existencia no acredita autoría propia. |
-| 441 | Icons/007-Weapon07 | 0 | PLACEHOLDER o RTP | BD/scripts | [24, 24] | RTP genérico; existencia no acredita autoría propia. |
-| 442 | Icons/008-Weapon08 | 0 | PLACEHOLDER o RTP | BD/scripts | [24, 24] | RTP genérico; existencia no acredita autoría propia. |
-| 443 | Windowskins/vacas_ventana | 0 | OK | BD/scripts | [192, 128] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 444 | Characters/vacas_steven_mono | 0 | OK | BD/scripts | [128, 192] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 445 | Pictures/ui_cursor | 0 | OK | BD/scripts | [16, 16] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
-| 446 | Pictures/ui_fog | 0 | OK | BD/scripts | [256, 256] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
-| 447 | Icons/ui_nota | 0 | OK | BD/scripts | [24, 24] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
-| 448 | Icons/ui_objeto | 0 | OK | BD/scripts | [24, 24] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
-| 449 | Icons/ui_bateria | 0 | OK | BD/scripts | [24, 24] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
-| 450 | Icons/ui_estado_2 | 0 | OK | BD/scripts | [24, 24] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
-| 451 | Pictures/ui_avance | 0 | OK | BD/scripts | [14, 14] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
-| 452 | Pictures/ui_target | 0 | OK | BD/scripts | [32, 32] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
-| 453 | Pictures/feka_halo | 0 | PLACEHOLDER o RTP | BD/scripts | [512, 256] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 454 | Pictures/feka_logo | 0 | PLACEHOLDER o RTP | BD/scripts | [368, 146] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 455 | Pictures/feka_linea | 0 | PLACEHOLDER o RTP | BD/scripts | [368, 13] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 456 | Pictures/feka_presenta | 0 | PLACEHOLDER o RTP | BD/scripts | [141, 28] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 457 | Pictures/feka_gota | 0 | PLACEHOLDER o RTP | BD/scripts | [16, 16] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 458 | Pictures/cine_piso | 0 | OK | BD/scripts | [640, 480] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
-| 459 | Pictures/cine_matadero | 0 | OK | BD/scripts | [640, 480] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
-| 460 | Pictures/cine_altar | 0 | OK | BD/scripts | [640, 480] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
-| 461 | Pictures/cine_ciudad | 0 | OK | BD/scripts | [640, 480] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
-| 462 | Pictures/revision_luz01 | 0 | PLACEHOLDER o RTP | 1 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 463 | Pictures/revision_luz02 | 0 | PLACEHOLDER o RTP | 2 | [960, 704] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 464 | Pictures/revision_luz03 | 0 | PLACEHOLDER o RTP | 3 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 465 | Pictures/revision_luz04 | 0 | PLACEHOLDER o RTP | 4 | [1280, 640] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 466 | Pictures/revision_luz05 | 0 | PLACEHOLDER o RTP | 5 | [960, 704] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 467 | Pictures/revision_luz06 | 0 | PLACEHOLDER o RTP | 6 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 468 | Pictures/revision_luz07 | 0 | PLACEHOLDER o RTP | 7 | [960, 640] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 469 | Pictures/revision_luz08 | 0 | PLACEHOLDER o RTP | 8 | [1280, 768] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 470 | Pictures/revision_luz09 | 0 | PLACEHOLDER o RTP | 9 | [960, 640] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 471 | Pictures/revision_luz10 | 0 | PLACEHOLDER o RTP | 10 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 472 | Pictures/revision_luz11 | 0 | PLACEHOLDER o RTP | 11 | [960, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 473 | Pictures/revision_luz12 | 0 | PLACEHOLDER o RTP | 12 | [800, 640] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 474 | Pictures/revision_luz13 | 0 | PLACEHOLDER o RTP | 13 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 475 | Pictures/revision_luz14 | 0 | PLACEHOLDER o RTP | 14 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 476 | Pictures/revision_luz15 | 0 | PLACEHOLDER o RTP | 15 | [800, 640] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 477 | Pictures/revision_luz16 | 0 | PLACEHOLDER o RTP | 16 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 478 | Pictures/acto5_luz22 | 0 | PLACEHOLDER o RTP | 22 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 479 | Pictures/acto5_luz23 | 0 | PLACEHOLDER o RTP | 23 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 480 | Pictures/acto5_luz24 | 0 | PLACEHOLDER o RTP | 24 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 481 | Pictures/acto5_luz25 | 0 | PLACEHOLDER o RTP | 25 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 482 | Pictures/acto5_luz26 | 0 | PLACEHOLDER o RTP | 26 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 483 | Pictures/acto5_luz27 | 0 | PLACEHOLDER o RTP | 27 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 484 | Pictures/acto6_luz28 | 0 | PLACEHOLDER o RTP | 28 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 485 | Pictures/acto6_luz29 | 0 | PLACEHOLDER o RTP | 29 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 486 | Pictures/acto6_luz30 | 0 | PLACEHOLDER o RTP | 30 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 487 | Pictures/acto6_luz31 | 0 | PLACEHOLDER o RTP | 31 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 488 | Pictures/acto6_luz32 | 0 | PLACEHOLDER o RTP | 32 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
-| 489 | Battlebacks/mente_piso | 0 | OK | BD/scripts | [640, 480] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
-| 490 | Pictures/ui_bar_cordura | 0 | OK | BD/scripts | [256, 8] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
-| 491 | Pictures/ui_bar_vida | 0 | OK | BD/scripts | [256, 8] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
-| 492 | Pictures/ui_gameover | 0 | OK | BD/scripts | [640, 480] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
-| 493 | Pictures/ui_menu | 0 | OK | BD/scripts | [640, 480] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
-| 494 | Pictures/ui_titulo | 0 | OK | BD/scripts | [640, 480] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
-| 495 | Icons/ui_estado_3 | 0 | OK | BD/scripts | [24, 24] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
-| 496 | Icons/ui_estado_4 | 0 | OK | BD/scripts | [24, 24] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
-| 497 | Battlebacks/ui_alcantarillas | 0 | OK | 17, 18, 19, 28, 31 | [640, 480] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
-| 498 | Battlebacks/ui_camaras | 0 | OK | 9, 25 | [640, 480] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
-| 499 | Battlebacks/ui_laboratorio | 0 | OK | 12, 13, 14, 15, 16 | [640, 480] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
-| 500 | Battlebacks/ui_manada | 0 | OK | 20, 21, 32 | [640, 480] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
-| 501 | Battlebacks/ui_matadero | 0 | OK | 5, 6, 7, 8, 10, 11, 22, 23, 24, 26, 27, 29 | [640, 480] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
-| 502 | Battlebacks/ui_piso | 0 | OK | 1, 2, 3, 4, 30 | [640, 480] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
+| 335 | Battlebacks/018-MineTown02 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 336 | Tilesets/018-MineTown02 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 832] | RTP genérico; existencia no acredita autoría propia. |
+| 337 | Autotiles/021-Sa_Road01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 338 | Autotiles/022-Roof01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 339 | Battlebacks/019-DesertTown01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 340 | Tilesets/019-DesertTown01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 704] | RTP genérico; existencia no acredita autoría propia. |
+| 341 | Autotiles/055-Wall03 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 342 | Battlebacks/020-DesertTown02 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 343 | Tilesets/020-DesertTown02 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 736] | RTP genérico; existencia no acredita autoría propia. |
+| 344 | Battlebacks/021-SnowTown01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 345 | Tilesets/021-SnowTown01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 1280] | RTP genérico; existencia no acredita autoría propia. |
+| 346 | Battlebacks/022-SnowTown02 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 347 | Tilesets/022-SnowTown02 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 736] | RTP genérico; existencia no acredita autoría propia. |
+| 348 | Battlebacks/023-FarmVillage01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 349 | Tilesets/023-FarmVillage01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 1024] | RTP genérico; existencia no acredita autoría propia. |
+| 350 | Battlebacks/024-FarmVillage02 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 351 | Tilesets/024-FarmVillage02 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 736] | RTP genérico; existencia no acredita autoría propia. |
+| 352 | Autotiles/047-Flower01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 353 | Battlebacks/025-Castle01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 354 | Tilesets/025-Castle01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 896] | RTP genérico; existencia no acredita autoría propia. |
+| 355 | Autotiles/049-St_Shadow01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 356 | Battlebacks/026-Castle02 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 357 | Tilesets/026-Castle02 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 800] | RTP genérico; existencia no acredita autoría propia. |
+| 358 | Battlebacks/027-Castle03 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 359 | Tilesets/027-Castle03 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 800] | RTP genérico; existencia no acredita autoría propia. |
+| 360 | Battlebacks/028-Church01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 361 | Tilesets/028-Church01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 1088] | RTP genérico; existencia no acredita autoría propia. |
+| 362 | Battlebacks/029-Church02 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 363 | Tilesets/029-Church02 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 1056] | RTP genérico; existencia no acredita autoría propia. |
+| 364 | Autotiles/046-Road03 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 365 | Battlebacks/030-Ship01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 366 | Tilesets/030-Ship01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 1184] | RTP genérico; existencia no acredita autoría propia. |
+| 367 | Battlebacks/031-Ship02 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 368 | Tilesets/031-Ship02 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 928] | RTP genérico; existencia no acredita autoría propia. |
+| 369 | Panoramas/001-Sky01 | 0 | PLACEHOLDER o RTP | BD/scripts | [480, 480] | RTP genérico; existencia no acredita autoría propia. |
+| 370 | Battlebacks/032-Heaven01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 371 | Tilesets/032-Heaven01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 1024] | RTP genérico; existencia no acredita autoría propia. |
+| 372 | Battlebacks/033-Heaven02 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 373 | Tilesets/033-Heaven02 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 928] | RTP genérico; existencia no acredita autoría propia. |
+| 374 | Battlebacks/034-Bridge01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 375 | Tilesets/034-Bridge01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 960] | RTP genérico; existencia no acredita autoría propia. |
+| 376 | Tilesets/035-Ruins01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 896] | RTP genérico; existencia no acredita autoría propia. |
+| 377 | Battlebacks/035-Ruins01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 378 | Battlebacks/036-Shop01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 379 | Tilesets/036-Shop01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 1248] | RTP genérico; existencia no acredita autoría propia. |
+| 380 | Battlebacks/037-Fort01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 381 | Tilesets/037-Fort01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 960] | RTP genérico; existencia no acredita autoría propia. |
+| 382 | Battlebacks/038-Fort02 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 383 | Tilesets/038-Fort02 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 832] | RTP genérico; existencia no acredita autoría propia. |
+| 384 | Battlebacks/039-Tower01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 385 | Tilesets/039-Tower01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 1056] | RTP genérico; existencia no acredita autoría propia. |
+| 386 | Battlebacks/040-Tower02 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 387 | Tilesets/040-Tower02 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 960] | RTP genérico; existencia no acredita autoría propia. |
+| 388 | Battlebacks/041-EvilCastle01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 389 | Tilesets/041-EvilCastle01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 960] | RTP genérico; existencia no acredita autoría propia. |
+| 390 | Battlebacks/042-EvilCastle02 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 391 | Tilesets/042-EvilCastle02 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 832] | RTP genérico; existencia no acredita autoría propia. |
+| 392 | Autotiles/056-CE_Water01 | 0 | PLACEHOLDER o RTP | BD/scripts | [384, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 393 | Autotiles/057-CE_Shadow01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 394 | Autotiles/058-CE_Ground01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 395 | Autotiles/059-CE_Ground02 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 396 | Autotiles/060-CE_Grass01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 397 | Autotiles/061-CE_Road01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 398 | Battlebacks/043-Cave01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 399 | Tilesets/043-Cave01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 1056] | RTP genérico; existencia no acredita autoría propia. |
+| 400 | Autotiles/062-CF_Lava01 | 0 | PLACEHOLDER o RTP | BD/scripts | [384, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 401 | Autotiles/063-CF_Shadow01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 402 | Autotiles/064-CF_Ground01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 403 | Autotiles/065-CF_Ground02 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 404 | Autotiles/066-CF_Ground03 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 405 | Autotiles/067-CF_Ground04 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 406 | Tilesets/044-Cave02 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 1056] | RTP genérico; existencia no acredita autoría propia. |
+| 407 | Battlebacks/044-Cave02 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 408 | Autotiles/068-CI_Water01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 409 | Autotiles/069-CI_Shadow01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 410 | Autotiles/070-CI_Snow01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 411 | Autotiles/071-CI_Ground01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 412 | Autotiles/072-CI_Ice01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 413 | Autotiles/073-CI_Ground02 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 414 | Tilesets/045-Cave03 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 1056] | RTP genérico; existencia no acredita autoría propia. |
+| 415 | Battlebacks/045-Cave03 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 416 | Autotiles/074-CW_Water01 | 0 | PLACEHOLDER o RTP | BD/scripts | [384, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 417 | Autotiles/075-CW_Shadow01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 418 | Autotiles/076-CW_Grass01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 419 | Autotiles/077-CW_Grass02 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 420 | Autotiles/078-CW_Ground01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 421 | Autotiles/079-CW_Grass03 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 422 | Tilesets/046-Cave04 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 1056] | RTP genérico; existencia no acredita autoría propia. |
+| 423 | Battlebacks/046-Cave04 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 424 | Battlebacks/047-Mine01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 425 | Tilesets/047-Mine01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 864] | RTP genérico; existencia no acredita autoría propia. |
+| 426 | Battlebacks/048-Sewer01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 427 | Tilesets/048-Sewer01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 768] | RTP genérico; existencia no acredita autoría propia. |
+| 428 | Autotiles/080-B_Ground01 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 429 | Autotiles/081-B_Ground02 | 0 | PLACEHOLDER o RTP | BD/scripts | [96, 128] | RTP genérico; existencia no acredita autoría propia. |
+| 430 | Battlebacks/049-InnerBody01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 431 | Tilesets/049-InnerBody01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 672] | RTP genérico; existencia no acredita autoría propia. |
+| 432 | Panoramas/003-StarlitSky01 | 0 | PLACEHOLDER o RTP | BD/scripts | [480, 480] | RTP genérico; existencia no acredita autoría propia. |
+| 433 | Battlebacks/050-DarkSpace01 | 0 | PLACEHOLDER o RTP | BD/scripts | [640, 320] | RTP genérico; existencia no acredita autoría propia. |
+| 434 | Tilesets/050-DarkSpace01 | 0 | PLACEHOLDER o RTP | BD/scripts | [256, 640] | RTP genérico; existencia no acredita autoría propia. |
+| 435 | Tilesets/vacas_matadero | 0 | OK | BD/scripts | [256, 256] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
+| 436 | Icons/001-Weapon01 | 0 | PLACEHOLDER o RTP | BD/scripts | [24, 24] | RTP genérico; existencia no acredita autoría propia. |
+| 437 | Icons/002-Weapon02 | 0 | PLACEHOLDER o RTP | BD/scripts | [24, 24] | RTP genérico; existencia no acredita autoría propia. |
+| 438 | Icons/003-Weapon03 | 0 | PLACEHOLDER o RTP | BD/scripts | [24, 24] | RTP genérico; existencia no acredita autoría propia. |
+| 439 | Icons/004-Weapon04 | 0 | PLACEHOLDER o RTP | BD/scripts | [24, 24] | RTP genérico; existencia no acredita autoría propia. |
+| 440 | Icons/005-Weapon05 | 0 | PLACEHOLDER o RTP | BD/scripts | [24, 24] | RTP genérico; existencia no acredita autoría propia. |
+| 441 | Icons/006-Weapon06 | 0 | PLACEHOLDER o RTP | BD/scripts | [24, 24] | RTP genérico; existencia no acredita autoría propia. |
+| 442 | Icons/007-Weapon07 | 0 | PLACEHOLDER o RTP | BD/scripts | [24, 24] | RTP genérico; existencia no acredita autoría propia. |
+| 443 | Icons/008-Weapon08 | 0 | PLACEHOLDER o RTP | BD/scripts | [24, 24] | RTP genérico; existencia no acredita autoría propia. |
+| 444 | Windowskins/vacas_ventana | 0 | OK | BD/scripts | [192, 128] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
+| 445 | Characters/vacas_steven_mono | 0 | OK | BD/scripts | [128, 192] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
+| 446 | Pictures/ui_cursor | 0 | OK | BD/scripts | [16, 16] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
+| 447 | Pictures/ui_fog | 0 | OK | BD/scripts | [256, 256] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
+| 448 | Icons/ui_nota | 0 | OK | BD/scripts | [24, 24] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
+| 449 | Icons/ui_objeto | 0 | OK | BD/scripts | [24, 24] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
+| 450 | Icons/ui_bateria | 0 | OK | BD/scripts | [24, 24] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
+| 451 | Icons/ui_estado_2 | 0 | OK | BD/scripts | [24, 24] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
+| 452 | Pictures/ui_avance | 0 | OK | BD/scripts | [14, 14] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
+| 453 | Pictures/ui_target | 0 | OK | BD/scripts | [32, 32] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
+| 454 | Pictures/feka_halo | 0 | PLACEHOLDER o RTP | BD/scripts | [512, 256] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 455 | Pictures/feka_logo | 0 | PLACEHOLDER o RTP | BD/scripts | [368, 146] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 456 | Pictures/feka_linea | 0 | PLACEHOLDER o RTP | BD/scripts | [368, 13] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 457 | Pictures/feka_presenta | 0 | PLACEHOLDER o RTP | BD/scripts | [141, 28] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 458 | Pictures/feka_gota | 0 | PLACEHOLDER o RTP | BD/scripts | [16, 16] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 459 | Pictures/cine_piso | 0 | OK | BD/scripts | [640, 480] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 460 | Pictures/cine_matadero | 0 | OK | BD/scripts | [640, 480] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 461 | Pictures/cine_altar | 0 | OK | BD/scripts | [640, 480] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 462 | Pictures/cine_ciudad | 0 | OK | BD/scripts | [640, 480] | Arte propio final generado con image_gen/adaptar_arte.py, revisado a tama?o final; no implica aprobaci?n humana nueva. |
+| 463 | Pictures/revision_luz01 | 0 | PLACEHOLDER o RTP | 1 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 464 | Pictures/revision_luz02 | 0 | PLACEHOLDER o RTP | 2 | [960, 704] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 465 | Pictures/revision_luz03 | 0 | PLACEHOLDER o RTP | 3 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 466 | Pictures/revision_luz04 | 0 | PLACEHOLDER o RTP | 4 | [1280, 640] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 467 | Pictures/revision_luz05 | 0 | PLACEHOLDER o RTP | 5 | [960, 704] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 468 | Pictures/revision_luz06 | 0 | PLACEHOLDER o RTP | 6 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 469 | Pictures/revision_luz07 | 0 | PLACEHOLDER o RTP | 7 | [960, 640] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 470 | Pictures/revision_luz08 | 0 | PLACEHOLDER o RTP | 8 | [1280, 768] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 471 | Pictures/revision_luz09 | 0 | PLACEHOLDER o RTP | 9 | [960, 640] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 472 | Pictures/revision_luz10 | 0 | PLACEHOLDER o RTP | 10 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 473 | Pictures/revision_luz11 | 0 | PLACEHOLDER o RTP | 11 | [960, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 474 | Pictures/revision_luz12 | 0 | PLACEHOLDER o RTP | 12 | [800, 640] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 475 | Pictures/revision_luz13 | 0 | PLACEHOLDER o RTP | 13 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 476 | Pictures/revision_luz14 | 0 | PLACEHOLDER o RTP | 14 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 477 | Pictures/revision_luz15 | 0 | PLACEHOLDER o RTP | 15 | [800, 640] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 478 | Pictures/revision_luz16 | 0 | PLACEHOLDER o RTP | 16 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 479 | Pictures/acto5_luz22 | 0 | PLACEHOLDER o RTP | 22 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 480 | Pictures/acto5_luz23 | 0 | PLACEHOLDER o RTP | 23 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 481 | Pictures/acto5_luz24 | 0 | PLACEHOLDER o RTP | 24 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 482 | Pictures/acto5_luz25 | 0 | PLACEHOLDER o RTP | 25 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 483 | Pictures/acto5_luz26 | 0 | PLACEHOLDER o RTP | 26 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 484 | Pictures/acto5_luz27 | 0 | PLACEHOLDER o RTP | 27 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 485 | Pictures/acto6_luz28 | 0 | PLACEHOLDER o RTP | 28 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 486 | Pictures/acto6_luz29 | 0 | PLACEHOLDER o RTP | 29 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 487 | Pictures/acto6_luz30 | 0 | PLACEHOLDER o RTP | 30 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 488 | Pictures/acto6_luz31 | 0 | PLACEHOLDER o RTP | 31 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 489 | Pictures/acto6_luz32 | 0 | PLACEHOLDER o RTP | 32 | [640, 480] | Gráfico técnico/interfaz CPU/PIL; no ilustración HD-2D aprobada. |
+| 490 | Battlebacks/mente_piso | 0 | OK | BD/scripts | [640, 480] | Inventario aprobado fase 1/2; tamaño actual revisado por separado. |
+| 491 | Pictures/ui_bar_cordura | 0 | OK | BD/scripts | [256, 8] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
+| 492 | Pictures/ui_bar_vida | 0 | OK | BD/scripts | [256, 8] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
+| 493 | Pictures/ui_gameover | 0 | OK | BD/scripts | [640, 480] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
+| 494 | Pictures/ui_menu | 0 | OK | BD/scripts | [640, 480] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
+| 495 | Pictures/ui_titulo | 0 | OK | BD/scripts | [640, 480] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
+| 496 | Icons/ui_estado_3 | 0 | OK | BD/scripts | [24, 24] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
+| 497 | Icons/ui_estado_4 | 0 | OK | BD/scripts | [24, 24] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
+| 498 | Battlebacks/ui_alcantarillas | 0 | OK | 17, 18, 19, 28, 31 | [640, 480] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
+| 499 | Battlebacks/ui_camaras | 0 | OK | 9, 25 | [640, 480] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
+| 500 | Battlebacks/ui_laboratorio | 0 | OK | 12, 13, 14, 15, 16 | [640, 480] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
+| 501 | Battlebacks/ui_manada | 0 | OK | 20, 21, 32 | [640, 480] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
+| 502 | Battlebacks/ui_matadero | 0 | OK | 5, 6, 7, 8, 10, 11, 22, 23, 24, 26, 27, 29 | [640, 480] | Dise?o propio image_gen y adaptaci?n t?cnica desde kit generado; arte_interfaz.py y diseno/arte_hd2d/interfaz/manifest.json |
 
 ## Por mapa y acto
 
 ### Mapa 01 — Acto I — MAP001
 
 - #139 Pictures/retrato_dog_neutral, hue 0: **OK**.
-- #140 Tilesets/revision_mapa01, hue 0: **PLACEHOLDER o RTP**.
+- #140 Tilesets/revision_mapa01, hue 0: **OK**.
 - #141 Autotiles/053-Wall01, hue 0: **OK**.
 - #142 Autotiles/vacas_canal, hue 0: **OK**.
 - #143 Fogs/002-Clouds01, hue 0: **OK**.
-- #462 Pictures/revision_luz01, hue 0: **PLACEHOLDER o RTP**.
-- #502 Battlebacks/ui_piso, hue 0: **OK**.
+- #156 Battlebacks/ui_piso, hue 0: **OK**.
+- #463 Pictures/revision_luz01, hue 0: **PLACEHOLDER o RTP**.
 ### Mapa 02 — Acto I — El piso
 
 - #61 Pictures/retrato_steven_neutral, hue 0: **OK**.
@@ -596,30 +633,28 @@ Los manifiestos históricos de fase2/acto4 conservan la evidencia anterior; los 
 - #152 Characters/vacas_perro, hue 0: **OK**.
 - #153 Pictures/retrato_dog_miedo, hue 0: **OK**.
 - #154 Characters/vacas_vacio, hue 0: **OK**.
-- #155 Autotiles/052-Carpet02, hue 0: **PLACEHOLDER o RTP**.
-- #156 Battlebacks/018-MineTown02, hue 0: **PLACEHOLDER o RTP**.
-- #157 Tilesets/revision_mapa02, hue 0: **PLACEHOLDER o RTP**.
-- #463 Pictures/revision_luz02, hue 0: **PLACEHOLDER o RTP**.
-- #502 Battlebacks/ui_piso, hue 0: **OK**.
+- #155 Autotiles/052-Carpet02, hue 0: **OK**.
+- #156 Battlebacks/ui_piso, hue 0: **OK**.
+- #157 Tilesets/revision_mapa02, hue 0: **OK**.
+- #464 Pictures/revision_luz02, hue 0: **PLACEHOLDER o RTP**.
 ### Mapa 03 — Acto I — La escalera
 
 - #61 Pictures/retrato_steven_neutral, hue 0: **OK**.
 - #141 Autotiles/053-Wall01, hue 0: **OK**.
 - #143 Fogs/002-Clouds01, hue 0: **OK**.
 - #150 Characters/vacas_cosas, hue 0: **OK**.
-- #155 Autotiles/052-Carpet02, hue 0: **PLACEHOLDER o RTP**.
-- #156 Battlebacks/018-MineTown02, hue 0: **PLACEHOLDER o RTP**.
+- #155 Autotiles/052-Carpet02, hue 0: **OK**.
+- #156 Battlebacks/ui_piso, hue 0: **OK**.
 - #158 Characters/vacas_puerta, hue 0: **OK**.
 - #159 Characters/vacas_remedios, hue 0: **OK**.
 - #160 Pictures/retrato_remedios_neutral, hue 0: **OK**.
 - #161 Characters/vacas_anselmo, hue 0: **OK**.
 - #162 Pictures/retrato_anselmo_neutral, hue 0: **OK**.
-- #163 Characters/185-Light02, hue 0: **PLACEHOLDER o RTP**.
+- #163 Characters/185-Light02, hue 0: **OK**.
 - #164 Characters/vacas_lucy, hue 0: **OK**.
 - #165 Pictures/retrato_lucy_susurro, hue 0: **OK**.
-- #166 Tilesets/revision_mapa03, hue 0: **PLACEHOLDER o RTP**.
-- #464 Pictures/revision_luz03, hue 0: **PLACEHOLDER o RTP**.
-- #502 Battlebacks/ui_piso, hue 0: **OK**.
+- #166 Tilesets/revision_mapa03, hue 0: **OK**.
+- #465 Pictures/revision_luz03, hue 0: **PLACEHOLDER o RTP**.
 ### Mapa 04 — Acto I — La calle
 
 - #61 Pictures/retrato_steven_neutral, hue 0: **OK**.
@@ -627,6 +662,7 @@ Los manifiestos históricos de fase2/acto4 conservan la evidencia anterior; los 
 - #143 Fogs/002-Clouds01, hue 0: **OK**.
 - #150 Characters/vacas_cosas, hue 0: **OK**.
 - #154 Characters/vacas_vacio, hue 0: **OK**.
+- #156 Battlebacks/ui_piso, hue 0: **OK**.
 - #158 Characters/vacas_puerta, hue 0: **OK**.
 - #167 Characters/vacas_tablon, hue 0: **OK**.
 - #168 Pictures/retrato_molina_neutral, hue 0: **OK**.
@@ -637,16 +673,14 @@ Los manifiestos históricos de fase2/acto4 conservan la evidencia anterior; los 
 - #173 Characters/vacas_furgoneta, hue 0: **OK**.
 - #174 Characters/vacas_reclutador, hue 0: **OK**.
 - #175 Pictures/retrato_reclutador_neutral, hue 0: **OK**.
-- #176 Autotiles/048-Water01, hue 0: **PLACEHOLDER o RTP**.
-- #177 Autotiles/002-G_Shadow01, hue 0: **PLACEHOLDER o RTP**.
-- #178 Autotiles/003-G_Ground01, hue 0: **PLACEHOLDER o RTP**.
-- #179 Autotiles/005-G_Road01, hue 0: **PLACEHOLDER o RTP**.
-- #180 Autotiles/006-G_Road02, hue 0: **PLACEHOLDER o RTP**.
-- #181 Autotiles/050-Roof02, hue 0: **PLACEHOLDER o RTP**.
-- #182 Battlebacks/009-CastleTown01, hue 0: **PLACEHOLDER o RTP**.
-- #183 Tilesets/revision_mapa04, hue 0: **PLACEHOLDER o RTP**.
-- #465 Pictures/revision_luz04, hue 0: **PLACEHOLDER o RTP**.
-- #502 Battlebacks/ui_piso, hue 0: **OK**.
+- #176 Autotiles/048-Water01, hue 0: **OK**.
+- #177 Autotiles/002-G_Shadow01, hue 0: **OK**.
+- #178 Autotiles/003-G_Ground01, hue 0: **OK**.
+- #179 Autotiles/005-G_Road01, hue 0: **OK**.
+- #180 Autotiles/006-G_Road02, hue 0: **OK**.
+- #181 Autotiles/050-Roof02, hue 0: **OK**.
+- #182 Tilesets/revision_mapa04, hue 0: **OK**.
+- #466 Pictures/revision_luz04, hue 0: **PLACEHOLDER o RTP**.
 ### Mapa 05 — Acto II — Matadero: entrada
 
 - #61 Pictures/retrato_steven_neutral, hue 0: **OK**.
@@ -657,30 +691,30 @@ Los manifiestos históricos de fase2/acto4 conservan la evidencia anterior; los 
 - #154 Characters/vacas_vacio, hue 0: **OK**.
 - #167 Characters/vacas_tablon, hue 0: **OK**.
 - #173 Characters/vacas_furgoneta, hue 0: **OK**.
-- #184 Pictures/retrato_steven_miedo, hue 0: **OK**.
-- #185 Pictures/screamer_3, hue 0: **OK**.
-- #186 Characters/vacas_obrero1, hue 0: **OK**.
-- #187 Pictures/retrato_benito_neutral, hue 0: **OK**.
-- #188 Characters/vacas_cripps, hue 0: **OK**.
-- #189 Pictures/retrato_cripps_neutral, hue 0: **OK**.
-- #190 Characters/vacas_matadero, hue 0: **OK**.
-- #191 Tilesets/revision_mapa05, hue 0: **PLACEHOLDER o RTP**.
-- #466 Pictures/revision_luz05, hue 0: **PLACEHOLDER o RTP**.
-- #501 Battlebacks/ui_matadero, hue 0: **OK**.
+- #183 Pictures/retrato_steven_miedo, hue 0: **OK**.
+- #184 Pictures/screamer_3, hue 0: **OK**.
+- #185 Characters/vacas_obrero1, hue 0: **OK**.
+- #186 Pictures/retrato_benito_neutral, hue 0: **OK**.
+- #187 Characters/vacas_cripps, hue 0: **OK**.
+- #188 Pictures/retrato_cripps_neutral, hue 0: **OK**.
+- #189 Characters/vacas_matadero, hue 0: **OK**.
+- #190 Tilesets/revision_mapa05, hue 0: **OK**.
+- #467 Pictures/revision_luz05, hue 0: **PLACEHOLDER o RTP**.
+- #502 Battlebacks/ui_matadero, hue 0: **OK**.
 ### Mapa 06 — Acto II — Matadero: vestuario
 
 - #61 Pictures/retrato_steven_neutral, hue 0: **OK**.
 - #141 Autotiles/053-Wall01, hue 0: **OK**.
 - #142 Autotiles/vacas_canal, hue 0: **OK**.
 - #143 Fogs/002-Clouds01, hue 0: **OK**.
-- #192 Pictures/screamer_4, hue 0: **OK**.
-- #193 Characters/vacas_obrero3, hue 0: **OK**.
-- #194 Pictures/retrato_encarna_neutral, hue 0: **OK**.
-- #195 Characters/vacas_obrero4, hue 0: **OK**.
-- #196 Pictures/retrato_chato_neutral, hue 0: **OK**.
-- #197 Tilesets/revision_mapa06, hue 0: **PLACEHOLDER o RTP**.
-- #467 Pictures/revision_luz06, hue 0: **PLACEHOLDER o RTP**.
-- #501 Battlebacks/ui_matadero, hue 0: **OK**.
+- #191 Pictures/screamer_4, hue 0: **OK**.
+- #192 Characters/vacas_obrero3, hue 0: **OK**.
+- #193 Pictures/retrato_encarna_neutral, hue 0: **OK**.
+- #194 Characters/vacas_obrero4, hue 0: **OK**.
+- #195 Pictures/retrato_chato_neutral, hue 0: **OK**.
+- #196 Tilesets/revision_mapa06, hue 0: **OK**.
+- #468 Pictures/revision_luz06, hue 0: **PLACEHOLDER o RTP**.
+- #502 Battlebacks/ui_matadero, hue 0: **OK**.
 ### Mapa 07 — Acto II — Matadero: corrales
 
 - #61 Pictures/retrato_steven_neutral, hue 0: **OK**.
@@ -688,73 +722,73 @@ Los manifiestos históricos de fase2/acto4 conservan la evidencia anterior; los 
 - #141 Autotiles/053-Wall01, hue 0: **OK**.
 - #142 Autotiles/vacas_canal, hue 0: **OK**.
 - #143 Fogs/002-Clouds01, hue 0: **OK**.
-- #184 Pictures/retrato_steven_miedo, hue 0: **OK**.
-- #198 Characters/vacas_vaca, hue 0: **OK**.
-- #199 Characters/vacas_vaca_canela, hue 0: **OK**.
-- #200 Characters/vacas_obrero2, hue 0: **OK**.
-- #201 Pictures/retrato_rubio_neutral, hue 0: **OK**.
-- #202 Tilesets/revision_mapa07, hue 0: **PLACEHOLDER o RTP**.
-- #468 Pictures/revision_luz07, hue 0: **PLACEHOLDER o RTP**.
-- #501 Battlebacks/ui_matadero, hue 0: **OK**.
+- #183 Pictures/retrato_steven_miedo, hue 0: **OK**.
+- #197 Characters/vacas_vaca, hue 0: **OK**.
+- #198 Characters/vacas_vaca_canela, hue 0: **OK**.
+- #199 Characters/vacas_obrero2, hue 0: **OK**.
+- #200 Pictures/retrato_rubio_neutral, hue 0: **OK**.
+- #201 Tilesets/revision_mapa07, hue 0: **OK**.
+- #469 Pictures/revision_luz07, hue 0: **PLACEHOLDER o RTP**.
+- #502 Battlebacks/ui_matadero, hue 0: **OK**.
 ### Mapa 08 — Acto II — Matadero: la cadena
 
 - #61 Pictures/retrato_steven_neutral, hue 0: **OK**.
 - #141 Autotiles/053-Wall01, hue 0: **OK**.
 - #142 Autotiles/vacas_canal, hue 0: **OK**.
 - #143 Fogs/002-Clouds01, hue 0: **OK**.
-- #186 Characters/vacas_obrero1, hue 0: **OK**.
-- #187 Pictures/retrato_benito_neutral, hue 0: **OK**.
-- #188 Characters/vacas_cripps, hue 0: **OK**.
-- #189 Pictures/retrato_cripps_neutral, hue 0: **OK**.
-- #190 Characters/vacas_matadero, hue 0: **OK**.
-- #193 Characters/vacas_obrero3, hue 0: **OK**.
-- #194 Pictures/retrato_encarna_neutral, hue 0: **OK**.
-- #199 Characters/vacas_vaca_canela, hue 0: **OK**.
-- #200 Characters/vacas_obrero2, hue 0: **OK**.
-- #203 Pictures/retrato_cripps_ira, hue 0: **OK**.
-- #204 Pictures/retrato_sierra_neutral, hue 0: **OK**.
-- #205 Tilesets/revision_mapa08, hue 0: **PLACEHOLDER o RTP**.
-- #469 Pictures/revision_luz08, hue 0: **PLACEHOLDER o RTP**.
-- #501 Battlebacks/ui_matadero, hue 0: **OK**.
+- #185 Characters/vacas_obrero1, hue 0: **OK**.
+- #186 Pictures/retrato_benito_neutral, hue 0: **OK**.
+- #187 Characters/vacas_cripps, hue 0: **OK**.
+- #188 Pictures/retrato_cripps_neutral, hue 0: **OK**.
+- #189 Characters/vacas_matadero, hue 0: **OK**.
+- #192 Characters/vacas_obrero3, hue 0: **OK**.
+- #193 Pictures/retrato_encarna_neutral, hue 0: **OK**.
+- #198 Characters/vacas_vaca_canela, hue 0: **OK**.
+- #199 Characters/vacas_obrero2, hue 0: **OK**.
+- #202 Pictures/retrato_cripps_ira, hue 0: **OK**.
+- #203 Pictures/retrato_sierra_neutral, hue 0: **OK**.
+- #204 Tilesets/revision_mapa08, hue 0: **OK**.
+- #470 Pictures/revision_luz08, hue 0: **PLACEHOLDER o RTP**.
+- #502 Battlebacks/ui_matadero, hue 0: **OK**.
 ### Mapa 09 — Acto II — Matadero: cámaras frías
 
 - #141 Autotiles/053-Wall01, hue 0: **OK**.
 - #142 Autotiles/vacas_canal, hue 0: **OK**.
 - #143 Fogs/002-Clouds01, hue 0: **OK**.
-- #188 Characters/vacas_cripps, hue 0: **OK**.
-- #189 Pictures/retrato_cripps_neutral, hue 0: **OK**.
-- #190 Characters/vacas_matadero, hue 0: **OK**.
-- #203 Pictures/retrato_cripps_ira, hue 0: **OK**.
-- #206 Pictures/screamer_6, hue 0: **OK**.
-- #207 Tilesets/revision_mapa09, hue 0: **PLACEHOLDER o RTP**.
-- #470 Pictures/revision_luz09, hue 0: **PLACEHOLDER o RTP**.
-- #498 Battlebacks/ui_camaras, hue 0: **OK**.
+- #187 Characters/vacas_cripps, hue 0: **OK**.
+- #188 Pictures/retrato_cripps_neutral, hue 0: **OK**.
+- #189 Characters/vacas_matadero, hue 0: **OK**.
+- #202 Pictures/retrato_cripps_ira, hue 0: **OK**.
+- #205 Pictures/screamer_6, hue 0: **OK**.
+- #206 Tilesets/revision_mapa09, hue 0: **OK**.
+- #471 Pictures/revision_luz09, hue 0: **PLACEHOLDER o RTP**.
+- #499 Battlebacks/ui_camaras, hue 0: **OK**.
 ### Mapa 10 — Acto II — Matadero: oficina de Cripps
 
 - #61 Pictures/retrato_steven_neutral, hue 0: **OK**.
 - #141 Autotiles/053-Wall01, hue 0: **OK**.
 - #142 Autotiles/vacas_canal, hue 0: **OK**.
 - #143 Fogs/002-Clouds01, hue 0: **OK**.
-- #188 Characters/vacas_cripps, hue 0: **OK**.
-- #189 Pictures/retrato_cripps_neutral, hue 0: **OK**.
-- #190 Characters/vacas_matadero, hue 0: **OK**.
-- #203 Pictures/retrato_cripps_ira, hue 0: **OK**.
-- #206 Pictures/screamer_6, hue 0: **OK**.
-- #208 Tilesets/revision_mapa10, hue 0: **PLACEHOLDER o RTP**.
-- #471 Pictures/revision_luz10, hue 0: **PLACEHOLDER o RTP**.
-- #501 Battlebacks/ui_matadero, hue 0: **OK**.
+- #187 Characters/vacas_cripps, hue 0: **OK**.
+- #188 Pictures/retrato_cripps_neutral, hue 0: **OK**.
+- #189 Characters/vacas_matadero, hue 0: **OK**.
+- #202 Pictures/retrato_cripps_ira, hue 0: **OK**.
+- #205 Pictures/screamer_6, hue 0: **OK**.
+- #207 Tilesets/revision_mapa10, hue 0: **OK**.
+- #472 Pictures/revision_luz10, hue 0: **PLACEHOLDER o RTP**.
+- #502 Battlebacks/ui_matadero, hue 0: **OK**.
 ### Mapa 11 — Acto II — Matadero: pasillo de mantenimiento
 
 - #61 Pictures/retrato_steven_neutral, hue 0: **OK**.
 - #141 Autotiles/053-Wall01, hue 0: **OK**.
 - #142 Autotiles/vacas_canal, hue 0: **OK**.
 - #143 Fogs/002-Clouds01, hue 0: **OK**.
-- #190 Characters/vacas_matadero, hue 0: **OK**.
-- #209 Pictures/screamer_5, hue 0: **OK**.
-- #210 Pictures/retrato_guernsey_susurro, hue 0: **OK**.
-- #211 Tilesets/revision_mapa11, hue 0: **PLACEHOLDER o RTP**.
-- #472 Pictures/revision_luz11, hue 0: **PLACEHOLDER o RTP**.
-- #501 Battlebacks/ui_matadero, hue 0: **OK**.
+- #189 Characters/vacas_matadero, hue 0: **OK**.
+- #208 Pictures/screamer_5, hue 0: **OK**.
+- #209 Pictures/retrato_guernsey_susurro, hue 0: **OK**.
+- #210 Tilesets/revision_mapa11, hue 0: **OK**.
+- #473 Pictures/revision_luz11, hue 0: **PLACEHOLDER o RTP**.
+- #502 Battlebacks/ui_matadero, hue 0: **OK**.
 ### Mapa 12 — Acto III — Lucy: el piso de arriba
 
 - #61 Pictures/retrato_steven_neutral, hue 0: **OK**.
@@ -763,13 +797,13 @@ Los manifiestos históricos de fase2/acto4 conservan la evidencia anterior; los 
 - #143 Fogs/002-Clouds01, hue 0: **OK**.
 - #148 Characters/vacas_muebles, hue 0: **OK**.
 - #164 Characters/vacas_lucy, hue 0: **OK**.
-- #184 Pictures/retrato_steven_miedo, hue 0: **OK**.
-- #212 Pictures/retrato_lucy_neutral, hue 0: **OK**.
-- #213 Characters/vacas_laboratorio, hue 0: **OK**.
-- #214 Pictures/retrato_lucy_calma, hue 0: **OK**.
-- #215 Tilesets/revision_mapa12, hue 0: **PLACEHOLDER o RTP**.
-- #473 Pictures/revision_luz12, hue 0: **PLACEHOLDER o RTP**.
-- #499 Battlebacks/ui_laboratorio, hue 0: **OK**.
+- #183 Pictures/retrato_steven_miedo, hue 0: **OK**.
+- #211 Pictures/retrato_lucy_neutral, hue 0: **OK**.
+- #212 Characters/vacas_laboratorio, hue 0: **OK**.
+- #213 Pictures/retrato_lucy_calma, hue 0: **OK**.
+- #214 Tilesets/revision_mapa12, hue 0: **OK**.
+- #474 Pictures/revision_luz12, hue 0: **PLACEHOLDER o RTP**.
+- #500 Battlebacks/ui_laboratorio, hue 0: **OK**.
 ### Mapa 13 — Acto III — Carnicería Molina
 
 - #61 Pictures/retrato_steven_neutral, hue 0: **OK**.
@@ -778,35 +812,35 @@ Los manifiestos históricos de fase2/acto4 conservan la evidencia anterior; los 
 - #143 Fogs/002-Clouds01, hue 0: **OK**.
 - #168 Pictures/retrato_molina_neutral, hue 0: **OK**.
 - #169 Characters/vacas_carnicero, hue 0: **OK**.
-- #213 Characters/vacas_laboratorio, hue 0: **OK**.
-- #216 Tilesets/revision_mapa13, hue 0: **PLACEHOLDER o RTP**.
-- #474 Pictures/revision_luz13, hue 0: **PLACEHOLDER o RTP**.
-- #499 Battlebacks/ui_laboratorio, hue 0: **OK**.
+- #212 Characters/vacas_laboratorio, hue 0: **OK**.
+- #215 Tilesets/revision_mapa13, hue 0: **OK**.
+- #475 Pictures/revision_luz13, hue 0: **PLACEHOLDER o RTP**.
+- #500 Battlebacks/ui_laboratorio, hue 0: **OK**.
 ### Mapa 14 — Acto III — Carnicería cerrada: depósito
 
 - #141 Autotiles/053-Wall01, hue 0: **OK**.
 - #142 Autotiles/vacas_canal, hue 0: **OK**.
 - #143 Fogs/002-Clouds01, hue 0: **OK**.
-- #184 Pictures/retrato_steven_miedo, hue 0: **OK**.
-- #188 Characters/vacas_cripps, hue 0: **OK**.
-- #213 Characters/vacas_laboratorio, hue 0: **OK**.
-- #217 Pictures/screamer_8, hue 0: **OK**.
-- #218 Tilesets/revision_mapa14, hue 0: **PLACEHOLDER o RTP**.
-- #475 Pictures/revision_luz14, hue 0: **PLACEHOLDER o RTP**.
-- #499 Battlebacks/ui_laboratorio, hue 0: **OK**.
+- #183 Pictures/retrato_steven_miedo, hue 0: **OK**.
+- #187 Characters/vacas_cripps, hue 0: **OK**.
+- #212 Characters/vacas_laboratorio, hue 0: **OK**.
+- #216 Pictures/screamer_8, hue 0: **OK**.
+- #217 Tilesets/revision_mapa14, hue 0: **OK**.
+- #476 Pictures/revision_luz14, hue 0: **PLACEHOLDER o RTP**.
+- #500 Battlebacks/ui_laboratorio, hue 0: **OK**.
 ### Mapa 15 — Acto III — Hospital cerrado: curas
 
 - #61 Pictures/retrato_steven_neutral, hue 0: **OK**.
 - #141 Autotiles/053-Wall01, hue 0: **OK**.
 - #142 Autotiles/vacas_canal, hue 0: **OK**.
 - #143 Fogs/002-Clouds01, hue 0: **OK**.
-- #213 Characters/vacas_laboratorio, hue 0: **OK**.
-- #219 Characters/vacas_elena, hue 0: **OK**.
-- #220 Pictures/retrato_elena_neutral, hue 0: **OK**.
-- #221 Characters/vacas_alcantarilla, hue 0: **OK**.
-- #222 Tilesets/revision_mapa15, hue 0: **PLACEHOLDER o RTP**.
-- #476 Pictures/revision_luz15, hue 0: **PLACEHOLDER o RTP**.
-- #499 Battlebacks/ui_laboratorio, hue 0: **OK**.
+- #212 Characters/vacas_laboratorio, hue 0: **OK**.
+- #218 Characters/vacas_elena, hue 0: **OK**.
+- #219 Pictures/retrato_elena_neutral, hue 0: **OK**.
+- #220 Characters/vacas_alcantarilla, hue 0: **OK**.
+- #221 Tilesets/revision_mapa15, hue 0: **OK**.
+- #477 Pictures/revision_luz15, hue 0: **PLACEHOLDER o RTP**.
+- #500 Battlebacks/ui_laboratorio, hue 0: **OK**.
 ### Mapa 16 — Acto III — Lucy: laboratorio improvisado
 
 - #61 Pictures/retrato_steven_neutral, hue 0: **OK**.
@@ -814,177 +848,177 @@ Los manifiestos históricos de fase2/acto4 conservan la evidencia anterior; los 
 - #142 Autotiles/vacas_canal, hue 0: **OK**.
 - #143 Fogs/002-Clouds01, hue 0: **OK**.
 - #164 Characters/vacas_lucy, hue 0: **OK**.
-- #184 Pictures/retrato_steven_miedo, hue 0: **OK**.
-- #210 Pictures/retrato_guernsey_susurro, hue 0: **OK**.
-- #212 Pictures/retrato_lucy_neutral, hue 0: **OK**.
-- #213 Characters/vacas_laboratorio, hue 0: **OK**.
-- #214 Pictures/retrato_lucy_calma, hue 0: **OK**.
-- #223 Pictures/retrato_lucy_quiebre, hue 0: **OK**.
-- #224 Pictures/screamer_9, hue 0: **OK**.
-- #225 Tilesets/revision_mapa16, hue 0: **PLACEHOLDER o RTP**.
-- #477 Pictures/revision_luz16, hue 0: **PLACEHOLDER o RTP**.
-- #499 Battlebacks/ui_laboratorio, hue 0: **OK**.
+- #183 Pictures/retrato_steven_miedo, hue 0: **OK**.
+- #209 Pictures/retrato_guernsey_susurro, hue 0: **OK**.
+- #211 Pictures/retrato_lucy_neutral, hue 0: **OK**.
+- #212 Characters/vacas_laboratorio, hue 0: **OK**.
+- #213 Pictures/retrato_lucy_calma, hue 0: **OK**.
+- #222 Pictures/retrato_lucy_quiebre, hue 0: **OK**.
+- #223 Pictures/screamer_9, hue 0: **OK**.
+- #224 Tilesets/revision_mapa16, hue 0: **OK**.
+- #478 Pictures/revision_luz16, hue 0: **PLACEHOLDER o RTP**.
+- #500 Battlebacks/ui_laboratorio, hue 0: **OK**.
 ### Mapa 17 — Acto IV — Colector: la ultima escalera
 
 - #61 Pictures/retrato_steven_neutral, hue 0: **OK**.
 - #143 Fogs/002-Clouds01, hue 0: **OK**.
-- #184 Pictures/retrato_steven_miedo, hue 0: **OK**.
-- #210 Pictures/retrato_guernsey_susurro, hue 0: **OK**.
-- #221 Characters/vacas_alcantarilla, hue 0: **OK**.
-- #226 Tilesets/acto4_alcantarillas, hue 0: **OK**.
-- #227 Battlebacks/mente_tunel, hue 0: **OK**.
-- #497 Battlebacks/ui_alcantarillas, hue 0: **OK**.
+- #183 Pictures/retrato_steven_miedo, hue 0: **OK**.
+- #209 Pictures/retrato_guernsey_susurro, hue 0: **OK**.
+- #220 Characters/vacas_alcantarilla, hue 0: **OK**.
+- #225 Tilesets/acto4_alcantarillas, hue 0: **OK**.
+- #226 Battlebacks/mente_tunel, hue 0: **OK**.
+- #498 Battlebacks/ui_alcantarillas, hue 0: **OK**.
 ### Mapa 18 — Acto IV — Tuneles: nombres sin collar
 
 - #61 Pictures/retrato_steven_neutral, hue 0: **OK**.
 - #143 Fogs/002-Clouds01, hue 0: **OK**.
-- #221 Characters/vacas_alcantarilla, hue 0: **OK**.
-- #226 Tilesets/acto4_alcantarillas, hue 0: **OK**.
-- #227 Battlebacks/mente_tunel, hue 0: **OK**.
-- #228 Characters/vacas_muesca, hue 0: **OK**.
-- #229 Pictures/retrato_muesca_neutral, hue 0: **OK**.
-- #230 Pictures/screamer_10, hue 0: **OK**.
-- #497 Battlebacks/ui_alcantarillas, hue 0: **OK**.
+- #220 Characters/vacas_alcantarilla, hue 0: **OK**.
+- #225 Tilesets/acto4_alcantarillas, hue 0: **OK**.
+- #226 Battlebacks/mente_tunel, hue 0: **OK**.
+- #227 Characters/vacas_muesca, hue 0: **OK**.
+- #228 Pictures/retrato_muesca_neutral, hue 0: **OK**.
+- #229 Pictures/screamer_10, hue 0: **OK**.
+- #498 Battlebacks/ui_alcantarillas, hue 0: **OK**.
 ### Mapa 19 — Acto IV — Canal de retorno
 
 - #143 Fogs/002-Clouds01, hue 0: **OK**.
-- #221 Characters/vacas_alcantarilla, hue 0: **OK**.
-- #226 Tilesets/acto4_alcantarillas, hue 0: **OK**.
-- #227 Battlebacks/mente_tunel, hue 0: **OK**.
-- #228 Characters/vacas_muesca, hue 0: **OK**.
-- #231 Characters/vacas_junco, hue 0: **OK**.
-- #232 Pictures/retrato_junco_neutral, hue 0: **OK**.
-- #233 Pictures/screamer_11, hue 0: **OK**.
-- #497 Battlebacks/ui_alcantarillas, hue 0: **OK**.
+- #220 Characters/vacas_alcantarilla, hue 0: **OK**.
+- #225 Tilesets/acto4_alcantarillas, hue 0: **OK**.
+- #226 Battlebacks/mente_tunel, hue 0: **OK**.
+- #227 Characters/vacas_muesca, hue 0: **OK**.
+- #230 Characters/vacas_junco, hue 0: **OK**.
+- #231 Pictures/retrato_junco_neutral, hue 0: **OK**.
+- #232 Pictures/screamer_11, hue 0: **OK**.
+- #498 Battlebacks/ui_alcantarillas, hue 0: **OK**.
 ### Mapa 20 — Acto IV — La camara de la manada
 
 - #61 Pictures/retrato_steven_neutral, hue 0: **OK**.
 - #143 Fogs/002-Clouds01, hue 0: **OK**.
-- #210 Pictures/retrato_guernsey_susurro, hue 0: **OK**.
-- #221 Characters/vacas_alcantarilla, hue 0: **OK**.
-- #226 Tilesets/acto4_alcantarillas, hue 0: **OK**.
-- #227 Battlebacks/mente_tunel, hue 0: **OK**.
-- #228 Characters/vacas_muesca, hue 0: **OK**.
-- #229 Pictures/retrato_muesca_neutral, hue 0: **OK**.
-- #231 Characters/vacas_junco, hue 0: **OK**.
-- #232 Pictures/retrato_junco_neutral, hue 0: **OK**.
-- #234 Characters/vacas_guernsey4, hue 0: **OK**.
-- #500 Battlebacks/ui_manada, hue 0: **OK**.
+- #209 Pictures/retrato_guernsey_susurro, hue 0: **OK**.
+- #220 Characters/vacas_alcantarilla, hue 0: **OK**.
+- #225 Tilesets/acto4_alcantarillas, hue 0: **OK**.
+- #226 Battlebacks/mente_tunel, hue 0: **OK**.
+- #227 Characters/vacas_muesca, hue 0: **OK**.
+- #228 Pictures/retrato_muesca_neutral, hue 0: **OK**.
+- #230 Characters/vacas_junco, hue 0: **OK**.
+- #231 Pictures/retrato_junco_neutral, hue 0: **OK**.
+- #233 Characters/vacas_guernsey4, hue 0: **OK**.
+- #501 Battlebacks/ui_manada, hue 0: **OK**.
 ### Mapa 21 — Acto IV — Altar de las cosas salvadas
 
 - #143 Fogs/002-Clouds01, hue 0: **OK**.
-- #221 Characters/vacas_alcantarilla, hue 0: **OK**.
-- #226 Tilesets/acto4_alcantarillas, hue 0: **OK**.
-- #227 Battlebacks/mente_tunel, hue 0: **OK**.
-- #500 Battlebacks/ui_manada, hue 0: **OK**.
+- #220 Characters/vacas_alcantarilla, hue 0: **OK**.
+- #225 Tilesets/acto4_alcantarillas, hue 0: **OK**.
+- #226 Battlebacks/mente_tunel, hue 0: **OK**.
+- #501 Battlebacks/ui_manada, hue 0: **OK**.
 ### Mapa 22 — Acto V — Matanza: muelle de carga
 
 - #141 Autotiles/053-Wall01, hue 0: **OK**.
 - #142 Autotiles/vacas_canal, hue 0: **OK**.
 - #143 Fogs/002-Clouds01, hue 0: **OK**.
-- #184 Pictures/retrato_steven_miedo, hue 0: **OK**.
-- #186 Characters/vacas_obrero1, hue 0: **OK**.
-- #187 Pictures/retrato_benito_neutral, hue 0: **OK**.
-- #210 Pictures/retrato_guernsey_susurro, hue 0: **OK**.
-- #235 Tilesets/acto5_matanza, hue 0: **OK**.
-- #478 Pictures/acto5_luz22, hue 0: **PLACEHOLDER o RTP**.
-- #501 Battlebacks/ui_matadero, hue 0: **OK**.
+- #183 Pictures/retrato_steven_miedo, hue 0: **OK**.
+- #185 Characters/vacas_obrero1, hue 0: **OK**.
+- #186 Pictures/retrato_benito_neutral, hue 0: **OK**.
+- #209 Pictures/retrato_guernsey_susurro, hue 0: **OK**.
+- #234 Tilesets/acto5_matanza, hue 0: **OK**.
+- #479 Pictures/acto5_luz22, hue 0: **PLACEHOLDER o RTP**.
+- #502 Battlebacks/ui_matadero, hue 0: **OK**.
 ### Mapa 23 — Acto V — Matanza: corrales de espera
 
 - #141 Autotiles/053-Wall01, hue 0: **OK**.
 - #142 Autotiles/vacas_canal, hue 0: **OK**.
 - #143 Fogs/002-Clouds01, hue 0: **OK**.
-- #184 Pictures/retrato_steven_miedo, hue 0: **OK**.
-- #198 Characters/vacas_vaca, hue 0: **OK**.
-- #199 Characters/vacas_vaca_canela, hue 0: **OK**.
-- #200 Characters/vacas_obrero2, hue 0: **OK**.
-- #204 Pictures/retrato_sierra_neutral, hue 0: **OK**.
-- #210 Pictures/retrato_guernsey_susurro, hue 0: **OK**.
-- #228 Characters/vacas_muesca, hue 0: **OK**.
-- #229 Pictures/retrato_muesca_neutral, hue 0: **OK**.
-- #231 Characters/vacas_junco, hue 0: **OK**.
-- #232 Pictures/retrato_junco_neutral, hue 0: **OK**.
-- #235 Tilesets/acto5_matanza, hue 0: **OK**.
-- #479 Pictures/acto5_luz23, hue 0: **PLACEHOLDER o RTP**.
-- #501 Battlebacks/ui_matadero, hue 0: **OK**.
+- #183 Pictures/retrato_steven_miedo, hue 0: **OK**.
+- #197 Characters/vacas_vaca, hue 0: **OK**.
+- #198 Characters/vacas_vaca_canela, hue 0: **OK**.
+- #199 Characters/vacas_obrero2, hue 0: **OK**.
+- #203 Pictures/retrato_sierra_neutral, hue 0: **OK**.
+- #209 Pictures/retrato_guernsey_susurro, hue 0: **OK**.
+- #227 Characters/vacas_muesca, hue 0: **OK**.
+- #228 Pictures/retrato_muesca_neutral, hue 0: **OK**.
+- #230 Characters/vacas_junco, hue 0: **OK**.
+- #231 Pictures/retrato_junco_neutral, hue 0: **OK**.
+- #234 Tilesets/acto5_matanza, hue 0: **OK**.
+- #480 Pictures/acto5_luz23, hue 0: **PLACEHOLDER o RTP**.
+- #502 Battlebacks/ui_matadero, hue 0: **OK**.
 ### Mapa 24 — Acto V — Matanza: sala de matanza
 
 - #61 Pictures/retrato_steven_neutral, hue 0: **OK**.
 - #141 Autotiles/053-Wall01, hue 0: **OK**.
 - #142 Autotiles/vacas_canal, hue 0: **OK**.
 - #143 Fogs/002-Clouds01, hue 0: **OK**.
-- #184 Pictures/retrato_steven_miedo, hue 0: **OK**.
-- #193 Characters/vacas_obrero3, hue 0: **OK**.
-- #195 Characters/vacas_obrero4, hue 0: **OK**.
-- #196 Pictures/retrato_chato_neutral, hue 0: **OK**.
-- #201 Pictures/retrato_rubio_neutral, hue 0: **OK**.
-- #235 Tilesets/acto5_matanza, hue 0: **OK**.
-- #480 Pictures/acto5_luz24, hue 0: **PLACEHOLDER o RTP**.
-- #501 Battlebacks/ui_matadero, hue 0: **OK**.
+- #183 Pictures/retrato_steven_miedo, hue 0: **OK**.
+- #192 Characters/vacas_obrero3, hue 0: **OK**.
+- #194 Characters/vacas_obrero4, hue 0: **OK**.
+- #195 Pictures/retrato_chato_neutral, hue 0: **OK**.
+- #200 Pictures/retrato_rubio_neutral, hue 0: **OK**.
+- #234 Tilesets/acto5_matanza, hue 0: **OK**.
+- #481 Pictures/acto5_luz24, hue 0: **PLACEHOLDER o RTP**.
+- #502 Battlebacks/ui_matadero, hue 0: **OK**.
 ### Mapa 25 — Acto V — Matanza: camara de sangrado
 
 - #141 Autotiles/053-Wall01, hue 0: **OK**.
 - #142 Autotiles/vacas_canal, hue 0: **OK**.
 - #143 Fogs/002-Clouds01, hue 0: **OK**.
-- #184 Pictures/retrato_steven_miedo, hue 0: **OK**.
-- #188 Characters/vacas_cripps, hue 0: **OK**.
-- #203 Pictures/retrato_cripps_ira, hue 0: **OK**.
-- #210 Pictures/retrato_guernsey_susurro, hue 0: **OK**.
-- #235 Tilesets/acto5_matanza, hue 0: **OK**.
-- #236 Pictures/screamer_12, hue 0: **OK**.
-- #237 Pictures/screamer_13, hue 0: **OK**.
-- #481 Pictures/acto5_luz25, hue 0: **PLACEHOLDER o RTP**.
-- #498 Battlebacks/ui_camaras, hue 0: **OK**.
+- #183 Pictures/retrato_steven_miedo, hue 0: **OK**.
+- #187 Characters/vacas_cripps, hue 0: **OK**.
+- #202 Pictures/retrato_cripps_ira, hue 0: **OK**.
+- #209 Pictures/retrato_guernsey_susurro, hue 0: **OK**.
+- #234 Tilesets/acto5_matanza, hue 0: **OK**.
+- #235 Pictures/screamer_12, hue 0: **OK**.
+- #236 Pictures/screamer_13, hue 0: **OK**.
+- #482 Pictures/acto5_luz25, hue 0: **PLACEHOLDER o RTP**.
+- #499 Battlebacks/ui_camaras, hue 0: **OK**.
 ### Mapa 26 — Acto V — Matanza: oficina alta
 
 - #61 Pictures/retrato_steven_neutral, hue 0: **OK**.
 - #141 Autotiles/053-Wall01, hue 0: **OK**.
 - #142 Autotiles/vacas_canal, hue 0: **OK**.
 - #143 Fogs/002-Clouds01, hue 0: **OK**.
-- #184 Pictures/retrato_steven_miedo, hue 0: **OK**.
-- #188 Characters/vacas_cripps, hue 0: **OK**.
-- #189 Pictures/retrato_cripps_neutral, hue 0: **OK**.
-- #203 Pictures/retrato_cripps_ira, hue 0: **OK**.
-- #210 Pictures/retrato_guernsey_susurro, hue 0: **OK**.
-- #234 Characters/vacas_guernsey4, hue 0: **OK**.
-- #235 Tilesets/acto5_matanza, hue 0: **OK**.
-- #482 Pictures/acto5_luz26, hue 0: **PLACEHOLDER o RTP**.
-- #501 Battlebacks/ui_matadero, hue 0: **OK**.
+- #183 Pictures/retrato_steven_miedo, hue 0: **OK**.
+- #187 Characters/vacas_cripps, hue 0: **OK**.
+- #188 Pictures/retrato_cripps_neutral, hue 0: **OK**.
+- #202 Pictures/retrato_cripps_ira, hue 0: **OK**.
+- #209 Pictures/retrato_guernsey_susurro, hue 0: **OK**.
+- #233 Characters/vacas_guernsey4, hue 0: **OK**.
+- #234 Tilesets/acto5_matanza, hue 0: **OK**.
+- #483 Pictures/acto5_luz26, hue 0: **PLACEHOLDER o RTP**.
+- #502 Battlebacks/ui_matadero, hue 0: **OK**.
 ### Mapa 27 — Acto V — Matanza: patio del alba
 
 - #141 Autotiles/053-Wall01, hue 0: **OK**.
 - #142 Autotiles/vacas_canal, hue 0: **OK**.
 - #143 Fogs/002-Clouds01, hue 0: **OK**.
-- #184 Pictures/retrato_steven_miedo, hue 0: **OK**.
-- #193 Characters/vacas_obrero3, hue 0: **OK**.
-- #195 Characters/vacas_obrero4, hue 0: **OK**.
-- #196 Pictures/retrato_chato_neutral, hue 0: **OK**.
-- #198 Characters/vacas_vaca, hue 0: **OK**.
-- #199 Characters/vacas_vaca_canela, hue 0: **OK**.
-- #201 Pictures/retrato_rubio_neutral, hue 0: **OK**.
-- #210 Pictures/retrato_guernsey_susurro, hue 0: **OK**.
-- #228 Characters/vacas_muesca, hue 0: **OK**.
-- #229 Pictures/retrato_muesca_neutral, hue 0: **OK**.
-- #231 Characters/vacas_junco, hue 0: **OK**.
-- #232 Pictures/retrato_junco_neutral, hue 0: **OK**.
-- #234 Characters/vacas_guernsey4, hue 0: **OK**.
-- #235 Tilesets/acto5_matanza, hue 0: **OK**.
-- #483 Pictures/acto5_luz27, hue 0: **PLACEHOLDER o RTP**.
-- #501 Battlebacks/ui_matadero, hue 0: **OK**.
+- #183 Pictures/retrato_steven_miedo, hue 0: **OK**.
+- #192 Characters/vacas_obrero3, hue 0: **OK**.
+- #194 Characters/vacas_obrero4, hue 0: **OK**.
+- #195 Pictures/retrato_chato_neutral, hue 0: **OK**.
+- #197 Characters/vacas_vaca, hue 0: **OK**.
+- #198 Characters/vacas_vaca_canela, hue 0: **OK**.
+- #200 Pictures/retrato_rubio_neutral, hue 0: **OK**.
+- #209 Pictures/retrato_guernsey_susurro, hue 0: **OK**.
+- #227 Characters/vacas_muesca, hue 0: **OK**.
+- #228 Pictures/retrato_muesca_neutral, hue 0: **OK**.
+- #230 Characters/vacas_junco, hue 0: **OK**.
+- #231 Pictures/retrato_junco_neutral, hue 0: **OK**.
+- #233 Characters/vacas_guernsey4, hue 0: **OK**.
+- #234 Tilesets/acto5_matanza, hue 0: **OK**.
+- #484 Pictures/acto5_luz27, hue 0: **PLACEHOLDER o RTP**.
+- #502 Battlebacks/ui_matadero, hue 0: **OK**.
 ### Mapa 28 — Acto VI — Túneles profundos: la raíz
 
 - #61 Pictures/retrato_steven_neutral, hue 0: **OK**.
 - #141 Autotiles/053-Wall01, hue 0: **OK**.
 - #142 Autotiles/vacas_canal, hue 0: **OK**.
 - #143 Fogs/002-Clouds01, hue 0: **OK**.
-- #210 Pictures/retrato_guernsey_susurro, hue 0: **OK**.
-- #212 Pictures/retrato_lucy_neutral, hue 0: **OK**.
-- #214 Pictures/retrato_lucy_calma, hue 0: **OK**.
-- #228 Characters/vacas_muesca, hue 0: **OK**.
-- #229 Pictures/retrato_muesca_neutral, hue 0: **OK**.
-- #238 Tilesets/acto6_reydios, hue 0: **OK**.
-- #484 Pictures/acto6_luz28, hue 0: **PLACEHOLDER o RTP**.
-- #497 Battlebacks/ui_alcantarillas, hue 0: **OK**.
+- #209 Pictures/retrato_guernsey_susurro, hue 0: **OK**.
+- #211 Pictures/retrato_lucy_neutral, hue 0: **OK**.
+- #213 Pictures/retrato_lucy_calma, hue 0: **OK**.
+- #227 Characters/vacas_muesca, hue 0: **OK**.
+- #228 Pictures/retrato_muesca_neutral, hue 0: **OK**.
+- #237 Tilesets/acto6_reydios, hue 0: **OK**.
+- #485 Pictures/acto6_luz28, hue 0: **PLACEHOLDER o RTP**.
+- #498 Battlebacks/ui_alcantarillas, hue 0: **OK**.
 ### Mapa 29 — Acto VI — Ciudad tomada: el nuevo turno
 
 - #61 Pictures/retrato_steven_neutral, hue 0: **OK**.
@@ -992,15 +1026,15 @@ Los manifiestos históricos de fase2/acto4 conservan la evidencia anterior; los 
 - #141 Autotiles/053-Wall01, hue 0: **OK**.
 - #142 Autotiles/vacas_canal, hue 0: **OK**.
 - #143 Fogs/002-Clouds01, hue 0: **OK**.
-- #186 Characters/vacas_obrero1, hue 0: **OK**.
-- #193 Characters/vacas_obrero3, hue 0: **OK**.
-- #198 Characters/vacas_vaca, hue 0: **OK**.
-- #201 Pictures/retrato_rubio_neutral, hue 0: **OK**.
-- #210 Pictures/retrato_guernsey_susurro, hue 0: **OK**.
-- #234 Characters/vacas_guernsey4, hue 0: **OK**.
-- #238 Tilesets/acto6_reydios, hue 0: **OK**.
-- #485 Pictures/acto6_luz29, hue 0: **PLACEHOLDER o RTP**.
-- #501 Battlebacks/ui_matadero, hue 0: **OK**.
+- #185 Characters/vacas_obrero1, hue 0: **OK**.
+- #192 Characters/vacas_obrero3, hue 0: **OK**.
+- #197 Characters/vacas_vaca, hue 0: **OK**.
+- #200 Pictures/retrato_rubio_neutral, hue 0: **OK**.
+- #209 Pictures/retrato_guernsey_susurro, hue 0: **OK**.
+- #233 Characters/vacas_guernsey4, hue 0: **OK**.
+- #237 Tilesets/acto6_reydios, hue 0: **OK**.
+- #486 Pictures/acto6_luz29, hue 0: **PLACEHOLDER o RTP**.
+- #502 Battlebacks/ui_matadero, hue 0: **OK**.
 ### Mapa 30 — Acto VI — El piso: la última cena
 
 - #61 Pictures/retrato_steven_neutral, hue 0: **OK**.
@@ -1011,20 +1045,20 @@ Los manifiestos históricos de fase2/acto4 conservan la evidencia anterior; los 
 - #144 Characters/vacas_madre, hue 0: **OK**.
 - #145 Pictures/retrato_madre_ira, hue 0: **OK**.
 - #152 Characters/vacas_perro, hue 0: **OK**.
-- #238 Tilesets/acto6_reydios, hue 0: **OK**.
-- #239 Pictures/retrato_madre_envejecida_neutral, hue 0: **OK**.
-- #486 Pictures/acto6_luz30, hue 0: **PLACEHOLDER o RTP**.
-- #502 Battlebacks/ui_piso, hue 0: **OK**.
+- #156 Battlebacks/ui_piso, hue 0: **OK**.
+- #237 Tilesets/acto6_reydios, hue 0: **OK**.
+- #238 Pictures/retrato_madre_envejecida_neutral, hue 0: **OK**.
+- #487 Pictures/acto6_luz30, hue 0: **PLACEHOLDER o RTP**.
 ### Mapa 31 — Acto VI — Galería de compuertas
 
 - #139 Pictures/retrato_dog_neutral, hue 0: **OK**.
 - #141 Autotiles/053-Wall01, hue 0: **OK**.
 - #142 Autotiles/vacas_canal, hue 0: **OK**.
 - #143 Fogs/002-Clouds01, hue 0: **OK**.
-- #201 Pictures/retrato_rubio_neutral, hue 0: **OK**.
-- #238 Tilesets/acto6_reydios, hue 0: **OK**.
-- #487 Pictures/acto6_luz31, hue 0: **PLACEHOLDER o RTP**.
-- #497 Battlebacks/ui_alcantarillas, hue 0: **OK**.
+- #200 Pictures/retrato_rubio_neutral, hue 0: **OK**.
+- #237 Tilesets/acto6_reydios, hue 0: **OK**.
+- #488 Pictures/acto6_luz31, hue 0: **PLACEHOLDER o RTP**.
+- #498 Battlebacks/ui_alcantarillas, hue 0: **OK**.
 ### Mapa 32 — Acto VI — Rey-dios: el altar
 
 - #61 Pictures/retrato_steven_neutral, hue 0: **OK**.
@@ -1033,12 +1067,12 @@ Los manifiestos históricos de fase2/acto4 conservan la evidencia anterior; los 
 - #142 Autotiles/vacas_canal, hue 0: **OK**.
 - #143 Fogs/002-Clouds01, hue 0: **OK**.
 - #152 Characters/vacas_perro, hue 0: **OK**.
-- #210 Pictures/retrato_guernsey_susurro, hue 0: **OK**.
-- #229 Pictures/retrato_muesca_neutral, hue 0: **OK**.
-- #234 Characters/vacas_guernsey4, hue 0: **OK**.
-- #238 Tilesets/acto6_reydios, hue 0: **OK**.
-- #488 Pictures/acto6_luz32, hue 0: **PLACEHOLDER o RTP**.
-- #500 Battlebacks/ui_manada, hue 0: **OK**.
+- #209 Pictures/retrato_guernsey_susurro, hue 0: **OK**.
+- #228 Pictures/retrato_muesca_neutral, hue 0: **OK**.
+- #233 Characters/vacas_guernsey4, hue 0: **OK**.
+- #237 Tilesets/acto6_reydios, hue 0: **OK**.
+- #489 Pictures/acto6_luz32, hue 0: **PLACEHOLDER o RTP**.
+- #501 Battlebacks/ui_manada, hue 0: **OK**.
 
 ## Cada referencia en Data/scripts
 
@@ -1733,7 +1767,7 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Map032.events.7.pages[0].list[335].parameters[0]`
 - `Map032.events.7.pages[0].list[346].parameters[0]`
 - `Scripts[104] Vacas_Cinematicas:40`
-### #140 Tilesets/revision_mapa01 — PLACEHOLDER o RTP
+### #140 Tilesets/revision_mapa01 — OK
 
 - `Map001.Tilesets[52].tileset_name`
 - `Tilesets[52].tileset_name`
@@ -2098,7 +2132,7 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Map005.events.5.pages[0].graphic.character_name`
 - `Map005.events.7.pages[0].graphic.character_name`
 - `Map005.events.8.pages[0].graphic.character_name`
-### #155 Autotiles/052-Carpet02 — PLACEHOLDER o RTP
+### #155 Autotiles/052-Carpet02 — OK
 
 - `Map002.Tilesets[53].autotile_names[1]`
 - `Map003.Tilesets[54].autotile_names[1]`
@@ -2119,14 +2153,17 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Tilesets[40].autotile_names[3]`
 - `Tilesets[53].autotile_names[1]`
 - `Tilesets[54].autotile_names[1]`
-### #156 Battlebacks/018-MineTown02 — PLACEHOLDER o RTP
+### #156 Battlebacks/ui_piso — OK
 
 - `Map002.Tilesets[53].battleback_name`
 - `Map003.Tilesets[54].battleback_name`
-- `Tilesets[18].battleback_name`
+- `Map004.Tilesets[55].battleback_name`
 - `Tilesets[53].battleback_name`
 - `Tilesets[54].battleback_name`
-### #157 Tilesets/revision_mapa02 — PLACEHOLDER o RTP
+- `Tilesets[55].battleback_name`
+- `Scripts: Vacas_Interfaz familia dinámica`
+- `Scripts: Scene_Battle fondo por MAP_AUDIO`
+### #157 Tilesets/revision_mapa02 — OK
 
 - `Map002.Tilesets[53].tileset_name`
 - `Tilesets[53].tileset_name`
@@ -2161,7 +2198,7 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Map003.events.6.pages[1].list[3].parameters[0]`
 - `Map003.events.6.pages[2].list[3].parameters[0]`
 - `Map003.events.6.pages[2].list[9].parameters[0]`
-### #163 Characters/185-Light02 — PLACEHOLDER o RTP
+### #163 Characters/185-Light02 — OK
 
 - `Map003.events.11.pages[0].graphic.character_name`
 ### #164 Characters/vacas_lucy — OK
@@ -2182,7 +2219,7 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Map003.events.15.pages[1].list[68].parameters[0]`
 - `Map003.events.15.pages[1].list[74].parameters[0]`
 - `Map003.events.15.pages[1].list[84].parameters[0]`
-### #166 Tilesets/revision_mapa03 — PLACEHOLDER o RTP
+### #166 Tilesets/revision_mapa03 — OK
 
 - `Map003.Tilesets[54].tileset_name`
 - `Tilesets[54].tileset_name`
@@ -2245,7 +2282,7 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Map004.events.19.pages[1].list[38].parameters[0]`
 - `Map004.events.19.pages[1].list[42].parameters[0]`
 - `Map004.events.19.pages[1].list[46].parameters[0]`
-### #176 Autotiles/048-Water01 — PLACEHOLDER o RTP
+### #176 Autotiles/048-Water01 — OK
 
 - `Map004.Tilesets[55].autotile_names[0]`
 - `Tilesets[9].autotile_names[0]`
@@ -2263,7 +2300,7 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Tilesets[42].autotile_names[0]`
 - `Tilesets[48].autotile_names[1]`
 - `Tilesets[55].autotile_names[0]`
-### #177 Autotiles/002-G_Shadow01 — PLACEHOLDER o RTP
+### #177 Autotiles/002-G_Shadow01 — OK
 
 - `Map004.Tilesets[55].autotile_names[1]`
 - `Tilesets[1].autotile_names[1]`
@@ -2282,7 +2319,7 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Tilesets[37].autotile_names[1]`
 - `Tilesets[39].autotile_names[1]`
 - `Tilesets[55].autotile_names[1]`
-### #178 Autotiles/003-G_Ground01 — PLACEHOLDER o RTP
+### #178 Autotiles/003-G_Ground01 — OK
 
 - `Map004.Tilesets[55].autotile_names[2]`
 - `Tilesets[1].autotile_names[2]`
@@ -2296,7 +2333,7 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Tilesets[37].autotile_names[2]`
 - `Tilesets[39].autotile_names[2]`
 - `Tilesets[55].autotile_names[2]`
-### #179 Autotiles/005-G_Road01 — PLACEHOLDER o RTP
+### #179 Autotiles/005-G_Road01 — OK
 
 - `Map004.Tilesets[55].autotile_names[3]`
 - `Tilesets[9].autotile_names[3]`
@@ -2304,7 +2341,7 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Tilesets[28].autotile_names[3]`
 - `Tilesets[35].autotile_names[3]`
 - `Tilesets[55].autotile_names[3]`
-### #180 Autotiles/006-G_Road02 — PLACEHOLDER o RTP
+### #180 Autotiles/006-G_Road02 — OK
 
 - `Map004.Tilesets[55].autotile_names[4]`
 - `Tilesets[9].autotile_names[4]`
@@ -2313,7 +2350,7 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Tilesets[28].autotile_names[4]`
 - `Tilesets[34].autotile_names[3]`
 - `Tilesets[55].autotile_names[4]`
-### #181 Autotiles/050-Roof02 — PLACEHOLDER o RTP
+### #181 Autotiles/050-Roof02 — OK
 
 - `Map004.Tilesets[55].autotile_names[5]`
 - `Tilesets[9].autotile_names[5]`
@@ -2325,16 +2362,11 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Tilesets[35].autotile_names[4]`
 - `Tilesets[39].autotile_names[6]`
 - `Tilesets[55].autotile_names[5]`
-### #182 Battlebacks/009-CastleTown01 — PLACEHOLDER o RTP
-
-- `Map004.Tilesets[55].battleback_name`
-- `Tilesets[9].battleback_name`
-- `Tilesets[55].battleback_name`
-### #183 Tilesets/revision_mapa04 — PLACEHOLDER o RTP
+### #182 Tilesets/revision_mapa04 — OK
 
 - `Map004.Tilesets[55].tileset_name`
 - `Tilesets[55].tileset_name`
-### #184 Pictures/retrato_steven_miedo — OK
+### #183 Pictures/retrato_steven_miedo — OK
 
 - `Map005.events.2.pages[0].list[28].parameters[0]`
 - `Map005.events.2.pages[0].list[41].parameters[0]`
@@ -2403,10 +2435,10 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `DB.Troops[35].pages[0].list[0].parameters[0]`
 - `DB.Troops[36].pages[0].list[0].parameters[0]`
 - `DB.Troops[37].pages[0].list[0].parameters[0]`
-### #185 Pictures/screamer_3 — OK
+### #184 Pictures/screamer_3 — OK
 
 - `Map005.events.6.pages[0].list[9].parameters[0]`
-### #186 Characters/vacas_obrero1 — OK
+### #185 Characters/vacas_obrero1 — OK
 
 - `Map005.events.11.pages[0].graphic.character_name`
 - `Map008.events.54.pages[0].graphic.character_name`
@@ -2414,7 +2446,7 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Map029.events.5.pages[0].graphic.character_name`
 - `Map029.events.5.pages[1].graphic.character_name`
 - `Map029.events.5.pages[2].graphic.character_name`
-### #187 Pictures/retrato_benito_neutral — OK
+### #186 Pictures/retrato_benito_neutral — OK
 
 - `Map005.events.11.pages[0].list[1].parameters[0]`
 - `Map005.events.11.pages[0].list[7].parameters[0]`
@@ -2428,7 +2460,7 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Map008.events.54.pages[0].list[6].parameters[0]`
 - `Map008.events.54.pages[0].list[12].parameters[0]`
 - `Map022.events.3.pages[1].list[0].parameters[0]`
-### #188 Characters/vacas_cripps — OK
+### #187 Characters/vacas_cripps — OK
 
 - `Map005.events.12.pages[1].graphic.character_name`
 - `Map008.events.1.pages[1].graphic.character_name`
@@ -2439,7 +2471,7 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Map025.events.3.pages[2].graphic.character_name`
 - `Map026.events.9.pages[0].graphic.character_name`
 - `Map026.events.9.pages[1].graphic.character_name`
-### #189 Pictures/retrato_cripps_neutral — OK
+### #188 Pictures/retrato_cripps_neutral — OK
 
 - `Map005.events.12.pages[1].list[1].parameters[0]`
 - `Map005.events.12.pages[1].list[6].parameters[0]`
@@ -2494,7 +2526,7 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Map026.events.9.pages[1].list[18].parameters[0]`
 - `Map026.events.9.pages[1].list[25].parameters[0]`
 - `Map026.events.9.pages[1].list[139].parameters[0]`
-### #190 Characters/vacas_matadero — OK
+### #189 Characters/vacas_matadero — OK
 
 - `Map005.events.13.pages[0].graphic.character_name`
 - `Map008.events.10.pages[0].graphic.character_name`
@@ -2596,21 +2628,21 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Map011.events.9.pages[1].list[49].parameters[1].list[0].change_graphic`
 - `Map011.events.9.pages[1].list[50].parameters[0].change_graphic`
 - `Scripts[100] Vacas_Interfaz:64`
-### #191 Tilesets/revision_mapa05 — PLACEHOLDER o RTP
+### #190 Tilesets/revision_mapa05 — OK
 
 - `Map005.Tilesets[56].tileset_name`
 - `Tilesets[56].tileset_name`
-### #192 Pictures/screamer_4 — OK
+### #191 Pictures/screamer_4 — OK
 
 - `Map006.events.10.pages[0].list[10].parameters[0]`
-### #193 Characters/vacas_obrero3 — OK
+### #192 Characters/vacas_obrero3 — OK
 
 - `Map006.events.11.pages[0].graphic.character_name`
 - `Map008.events.56.pages[0].graphic.character_name`
 - `Map024.events.3.pages[0].graphic.character_name`
 - `Map027.events.11.pages[1].graphic.character_name`
 - `Map029.events.4.pages[1].graphic.character_name`
-### #194 Pictures/retrato_encarna_neutral — OK
+### #193 Pictures/retrato_encarna_neutral — OK
 
 - `Map006.events.11.pages[0].list[1].parameters[0]`
 - `Map006.events.11.pages[0].list[4].parameters[0]`
@@ -2622,12 +2654,12 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Map006.events.11.pages[0].list[28].parameters[0]`
 - `Map006.events.11.pages[0].list[35].parameters[0]`
 - `Map008.events.56.pages[0].list[0].parameters[0]`
-### #195 Characters/vacas_obrero4 — OK
+### #194 Characters/vacas_obrero4 — OK
 
 - `Map006.events.12.pages[0].graphic.character_name`
 - `Map024.events.4.pages[0].graphic.character_name`
 - `Map027.events.12.pages[1].graphic.character_name`
-### #196 Pictures/retrato_chato_neutral — OK
+### #195 Pictures/retrato_chato_neutral — OK
 
 - `Map006.events.12.pages[0].list[4].parameters[0]`
 - `Map006.events.12.pages[0].list[8].parameters[0]`
@@ -2639,11 +2671,11 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Map024.events.4.pages[0].list[15].parameters[0]`
 - `Map024.events.4.pages[0].list[36].parameters[0]`
 - `Map027.events.12.pages[1].list[0].parameters[0]`
-### #197 Tilesets/revision_mapa06 — PLACEHOLDER o RTP
+### #196 Tilesets/revision_mapa06 — OK
 
 - `Map006.Tilesets[57].tileset_name`
 - `Tilesets[57].tileset_name`
-### #198 Characters/vacas_vaca — OK
+### #197 Characters/vacas_vaca — OK
 
 - `Map007.events.5.pages[0].graphic.character_name`
 - `Map007.events.6.pages[0].graphic.character_name`
@@ -2666,7 +2698,7 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Map029.events.8.pages[0].graphic.character_name`
 - `Map029.events.9.pages[0].graphic.character_name`
 - `Map029.events.10.pages[0].graphic.character_name`
-### #199 Characters/vacas_vaca_canela — OK
+### #198 Characters/vacas_vaca_canela — OK
 
 - `Map007.events.11.pages[0].graphic.character_name`
 - `Map008.events.2.pages[1].graphic.character_name`
@@ -2675,12 +2707,12 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Map023.events.21.pages[0].graphic.character_name`
 - `Map027.events.7.pages[0].graphic.character_name`
 - `Map027.events.9.pages[0].graphic.character_name`
-### #200 Characters/vacas_obrero2 — OK
+### #199 Characters/vacas_obrero2 — OK
 
 - `Map007.events.15.pages[0].graphic.character_name`
 - `Map008.events.55.pages[0].graphic.character_name`
 - `Map023.events.4.pages[0].graphic.character_name`
-### #201 Pictures/retrato_rubio_neutral — OK
+### #200 Pictures/retrato_rubio_neutral — OK
 
 - `Map007.events.15.pages[0].list[1].parameters[0]`
 - `Map007.events.15.pages[0].list[4].parameters[0]`
@@ -2700,11 +2732,11 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Map029.events.4.pages[1].list[0].parameters[0]`
 - `Map029.events.4.pages[1].list[3].parameters[0]`
 - `Map031.events.2.pages[0].list[5].parameters[0]`
-### #202 Tilesets/revision_mapa07 — PLACEHOLDER o RTP
+### #201 Tilesets/revision_mapa07 — OK
 
 - `Map007.Tilesets[58].tileset_name`
 - `Tilesets[58].tileset_name`
-### #203 Pictures/retrato_cripps_ira — OK
+### #202 Pictures/retrato_cripps_ira — OK
 
 - `Map008.events.1.pages[1].list[64].parameters[0]`
 - `Map008.events.1.pages[1].list[104].parameters[0]`
@@ -2723,32 +2755,32 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Map026.events.9.pages[1].list[29].parameters[0]`
 - `Troops[21].pages[0].list[0].parameters[0]`
 - `DB.Troops[21].pages[0].list[0].parameters[0]`
-### #204 Pictures/retrato_sierra_neutral — OK
+### #203 Pictures/retrato_sierra_neutral — OK
 
 - `Map008.events.55.pages[0].list[1].parameters[0]`
 - `Map008.events.55.pages[0].list[6].parameters[0]`
 - `Map008.events.55.pages[0].list[10].parameters[0]`
 - `Map023.events.3.pages[1].list[0].parameters[0]`
-### #205 Tilesets/revision_mapa08 — PLACEHOLDER o RTP
+### #204 Tilesets/revision_mapa08 — OK
 
 - `Map008.Tilesets[59].tileset_name`
 - `Tilesets[59].tileset_name`
-### #206 Pictures/screamer_6 — OK
+### #205 Pictures/screamer_6 — OK
 
 - `Map009.events.32.pages[0].list[10].parameters[0]`
 - `Map010.events.9.pages[0].list[6].parameters[0]`
-### #207 Tilesets/revision_mapa09 — PLACEHOLDER o RTP
+### #206 Tilesets/revision_mapa09 — OK
 
 - `Map009.Tilesets[60].tileset_name`
 - `Tilesets[60].tileset_name`
-### #208 Tilesets/revision_mapa10 — PLACEHOLDER o RTP
+### #207 Tilesets/revision_mapa10 — OK
 
 - `Map010.Tilesets[61].tileset_name`
 - `Tilesets[61].tileset_name`
-### #209 Pictures/screamer_5 — OK
+### #208 Pictures/screamer_5 — OK
 
 - `Map011.events.1.pages[0].list[6].parameters[0]`
-### #210 Pictures/retrato_guernsey_susurro — OK
+### #209 Pictures/retrato_guernsey_susurro — OK
 
 - `Map011.events.1.pages[0].list[8].parameters[0]`
 - `Map011.events.1.pages[0].list[16].parameters[0]`
@@ -2828,11 +2860,11 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Map032.events.7.pages[0].list[154].parameters[0]`
 - `Map032.events.7.pages[0].list[264].parameters[0]`
 - `Scripts[104] Vacas_Cinematicas:27`
-### #211 Tilesets/revision_mapa11 — PLACEHOLDER o RTP
+### #210 Tilesets/revision_mapa11 — OK
 
 - `Map011.Tilesets[62].tileset_name`
 - `Tilesets[62].tileset_name`
-### #212 Pictures/retrato_lucy_neutral — OK
+### #211 Pictures/retrato_lucy_neutral — OK
 
 - `Map012.events.2.pages[0].list[2].parameters[0]`
 - `Map012.events.2.pages[0].list[7].parameters[0]`
@@ -2850,7 +2882,7 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Map016.events.8.pages[0].list[107].parameters[0]`
 - `Map016.events.8.pages[1].list[0].parameters[0]`
 - `Map028.events.8.pages[0].list[7].parameters[0]`
-### #213 Characters/vacas_laboratorio — OK
+### #212 Characters/vacas_laboratorio — OK
 
 - `Map012.events.6.pages[0].graphic.character_name`
 - `Map012.events.9.pages[0].graphic.character_name`
@@ -2871,36 +2903,36 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Map016.events.10.pages[0].graphic.character_name`
 - `Map016.events.11.pages[0].graphic.character_name`
 - `Scripts[100] Vacas_Interfaz:66`
-### #214 Pictures/retrato_lucy_calma — OK
+### #213 Pictures/retrato_lucy_calma — OK
 
 - `Map012.events.6.pages[0].list[6].parameters[0]`
 - `Map016.events.8.pages[0].list[66].parameters[0]`
 - `Map028.events.8.pages[0].list[1].parameters[0]`
-### #215 Tilesets/revision_mapa12 — PLACEHOLDER o RTP
+### #214 Tilesets/revision_mapa12 — OK
 
 - `Map012.Tilesets[63].tileset_name`
 - `Tilesets[63].tileset_name`
-### #216 Tilesets/revision_mapa13 — PLACEHOLDER o RTP
+### #215 Tilesets/revision_mapa13 — OK
 
 - `Map013.Tilesets[64].tileset_name`
 - `Tilesets[64].tileset_name`
-### #217 Pictures/screamer_8 — OK
+### #216 Pictures/screamer_8 — OK
 
 - `Map014.events.2.pages[0].list[6].parameters[0]`
-### #218 Tilesets/revision_mapa14 — PLACEHOLDER o RTP
+### #217 Tilesets/revision_mapa14 — OK
 
 - `Map014.Tilesets[65].tileset_name`
 - `Tilesets[65].tileset_name`
-### #219 Characters/vacas_elena — OK
+### #218 Characters/vacas_elena — OK
 
 - `Map015.events.3.pages[0].graphic.character_name`
-### #220 Pictures/retrato_elena_neutral — OK
+### #219 Pictures/retrato_elena_neutral — OK
 
 - `Map015.events.3.pages[0].list[2].parameters[0]`
 - `Map015.events.3.pages[0].list[8].parameters[0]`
 - `Map015.events.3.pages[0].list[24].parameters[0]`
 - `Map015.events.3.pages[0].list[32].parameters[0]`
-### #221 Characters/vacas_alcantarilla — OK
+### #220 Characters/vacas_alcantarilla — OK
 
 - `Map015.events.8.pages[1].graphic.character_name`
 - `Map017.events.3.pages[0].graphic.character_name`
@@ -2934,24 +2966,24 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Map021.events.6.pages[0].graphic.character_name`
 - `Map021.events.7.pages[0].graphic.character_name`
 - `Map021.events.8.pages[0].graphic.character_name`
-### #222 Tilesets/revision_mapa15 — PLACEHOLDER o RTP
+### #221 Tilesets/revision_mapa15 — OK
 
 - `Map015.Tilesets[66].tileset_name`
 - `Tilesets[66].tileset_name`
-### #223 Pictures/retrato_lucy_quiebre — OK
+### #222 Pictures/retrato_lucy_quiebre — OK
 
 - `Map016.events.7.pages[0].list[26].parameters[0]`
 - `Map016.events.8.pages[0].list[4].parameters[0]`
 - `Map016.events.8.pages[0].list[41].parameters[0]`
 - `Map016.events.8.pages[0].list[87].parameters[0]`
-### #224 Pictures/screamer_9 — OK
+### #223 Pictures/screamer_9 — OK
 
 - `Map016.events.7.pages[0].list[29].parameters[0]`
-### #225 Tilesets/revision_mapa16 — PLACEHOLDER o RTP
+### #224 Tilesets/revision_mapa16 — OK
 
 - `Map016.Tilesets[67].tileset_name`
 - `Tilesets[67].tileset_name`
-### #226 Tilesets/acto4_alcantarillas — OK
+### #225 Tilesets/acto4_alcantarillas — OK
 
 - `Map017.Tilesets[68].tileset_name`
 - `Map018.Tilesets[68].tileset_name`
@@ -2959,7 +2991,7 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Map020.Tilesets[68].tileset_name`
 - `Map021.Tilesets[68].tileset_name`
 - `Tilesets[68].tileset_name`
-### #227 Battlebacks/mente_tunel — OK
+### #226 Battlebacks/mente_tunel — OK
 
 - `Map017.Tilesets[68].battleback_name`
 - `Map018.Tilesets[68].battleback_name`
@@ -2968,7 +3000,7 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Map021.Tilesets[68].battleback_name`
 - `Tilesets[68].battleback_name`
 - `Scripts: Vacas_Mente fondo dinámico`
-### #228 Characters/vacas_muesca — OK
+### #227 Characters/vacas_muesca — OK
 
 - `Map018.events.5.pages[0].graphic.character_name`
 - `Map018.events.6.pages[1].graphic.character_name`
@@ -2978,7 +3010,7 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Map027.events.4.pages[0].graphic.character_name`
 - `Map028.events.6.pages[0].graphic.character_name`
 - `Map028.events.6.pages[1].graphic.character_name`
-### #229 Pictures/retrato_muesca_neutral — OK
+### #228 Pictures/retrato_muesca_neutral — OK
 
 - `Map018.events.5.pages[0].list[1].parameters[0]`
 - `Map018.events.5.pages[0].list[17].parameters[0]`
@@ -2998,16 +3030,16 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Map028.events.6.pages[1].list[0].parameters[0]`
 - `Map032.events.7.pages[0].list[164].parameters[0]`
 - `Map032.events.7.pages[0].list[269].parameters[0]`
-### #230 Pictures/screamer_10 — OK
+### #229 Pictures/screamer_10 — OK
 
 - `Map018.events.5.pages[0].list[35].parameters[0]`
-### #231 Characters/vacas_junco — OK
+### #230 Characters/vacas_junco — OK
 
 - `Map019.events.4.pages[0].graphic.character_name`
 - `Map020.events.6.pages[0].graphic.character_name`
 - `Map023.events.5.pages[2].graphic.character_name`
 - `Map027.events.5.pages[1].graphic.character_name`
-### #232 Pictures/retrato_junco_neutral — OK
+### #231 Pictures/retrato_junco_neutral — OK
 
 - `Map019.events.4.pages[0].list[1].parameters[0]`
 - `Map019.events.4.pages[0].list[7].parameters[0]`
@@ -3019,10 +3051,10 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Map023.events.5.pages[2].list[1].parameters[0]`
 - `Map023.events.5.pages[2].list[5].parameters[0]`
 - `Map027.events.5.pages[1].list[0].parameters[0]`
-### #233 Pictures/screamer_11 — OK
+### #232 Pictures/screamer_11 — OK
 
 - `Map019.events.6.pages[0].list[18].parameters[0]`
-### #234 Characters/vacas_guernsey4 — OK
+### #233 Characters/vacas_guernsey4 — OK
 
 - `Map020.events.4.pages[0].graphic.character_name`
 - `Map026.events.10.pages[1].graphic.character_name`
@@ -3030,7 +3062,7 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Map027.events.3.pages[1].graphic.character_name`
 - `Map029.events.6.pages[0].graphic.character_name`
 - `Map032.events.7.pages[0].graphic.character_name`
-### #235 Tilesets/acto5_matanza — OK
+### #234 Tilesets/acto5_matanza — OK
 
 - `Map022.Tilesets[69].tileset_name`
 - `Map023.Tilesets[69].tileset_name`
@@ -3039,14 +3071,14 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Map026.Tilesets[69].tileset_name`
 - `Map027.Tilesets[69].tileset_name`
 - `Tilesets[69].tileset_name`
-### #236 Pictures/screamer_12 — OK
+### #235 Pictures/screamer_12 — OK
 
 - `Map025.events.4.pages[1].list[8].parameters[0]`
-### #237 Pictures/screamer_13 — OK
+### #236 Pictures/screamer_13 — OK
 
 - `Map025.events.6.pages[0].list[11].parameters[0]`
 - `Map025.events.7.pages[0].list[11].parameters[0]`
-### #238 Tilesets/acto6_reydios — OK
+### #237 Tilesets/acto6_reydios — OK
 
 - `Map028.Tilesets[70].tileset_name`
 - `Map029.Tilesets[70].tileset_name`
@@ -3054,7 +3086,7 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Map031.Tilesets[70].tileset_name`
 - `Map032.Tilesets[70].tileset_name`
 - `Tilesets[70].tileset_name`
-### #239 Pictures/retrato_madre_envejecida_neutral — OK
+### #238 Pictures/retrato_madre_envejecida_neutral — OK
 
 - `Map030.events.2.pages[0].list[4].parameters[0]`
 - `Map030.events.2.pages[0].list[6].parameters[0]`
@@ -3062,7 +3094,7 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Map030.events.5.pages[0].list[50].parameters[0]`
 - `Map030.events.5.pages[1].list[1].parameters[0]`
 - `Map030.events.5.pages[1].list[5].parameters[0]`
-### #240 Icons/045-Skill02 — PLACEHOLDER o RTP
+### #239 Icons/045-Skill02 — PLACEHOLDER o RTP
 
 - `Skills[1].icon_name`
 - `Skills[2].icon_name`
@@ -3070,7 +3102,7 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Skills[4].icon_name`
 - `Skills[5].icon_name`
 - `Skills[6].icon_name`
-### #241 Icons/044-Skill01 — PLACEHOLDER o RTP
+### #240 Icons/044-Skill01 — PLACEHOLDER o RTP
 
 - `Skills[7].icon_name`
 - `Skills[8].icon_name`
@@ -3098,7 +3130,7 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Skills[30].icon_name`
 - `Skills[31].icon_name`
 - `Skills[32].icon_name`
-### #242 Icons/046-Skill03 — PLACEHOLDER o RTP
+### #241 Icons/046-Skill03 — PLACEHOLDER o RTP
 
 - `Skills[33].icon_name`
 - `Skills[34].icon_name`
@@ -3112,7 +3144,7 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Skills[42].icon_name`
 - `Skills[43].icon_name`
 - `Skills[44].icon_name`
-### #243 Icons/047-Skill04 — PLACEHOLDER o RTP
+### #242 Icons/047-Skill04 — PLACEHOLDER o RTP
 
 - `Skills[45].icon_name`
 - `Skills[46].icon_name`
@@ -3122,13 +3154,13 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Skills[50].icon_name`
 - `Skills[51].icon_name`
 - `Skills[52].icon_name`
-### #244 Icons/048-Skill05 — PLACEHOLDER o RTP
+### #243 Icons/048-Skill05 — PLACEHOLDER o RTP
 
 - `Skills[53].icon_name`
 - `Skills[54].icon_name`
 - `Skills[55].icon_name`
 - `Skills[56].icon_name`
-### #245 Icons/050-Skill07 — PLACEHOLDER o RTP
+### #244 Icons/050-Skill07 — PLACEHOLDER o RTP
 
 - `Skills[57].icon_name`
 - `Skills[58].icon_name`
@@ -3144,57 +3176,57 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Skills[78].icon_name`
 - `Skills[79].icon_name`
 - `Skills[80].icon_name`
-### #246 Icons/vacas_habilidad_61 — OK
+### #245 Icons/vacas_habilidad_61 — OK
 
 - `Skills[61].icon_name`
-### #247 Icons/vacas_habilidad_62 — OK
+### #246 Icons/vacas_habilidad_62 — OK
 
 - `Skills[62].icon_name`
-### #248 Icons/vacas_habilidad_63 — OK
+### #247 Icons/vacas_habilidad_63 — OK
 
 - `Skills[63].icon_name`
-### #249 Icons/vacas_habilidad_64 — OK
+### #248 Icons/vacas_habilidad_64 — OK
 
 - `Skills[64].icon_name`
-### #250 Icons/vacas_habilidad_65 — OK
+### #249 Icons/vacas_habilidad_65 — OK
 
 - `Skills[65].icon_name`
-### #251 Icons/vacas_habilidad_66 — OK
+### #250 Icons/vacas_habilidad_66 — OK
 
 - `Skills[66].icon_name`
-### #252 Icons/vacas_habilidad_67 — OK
+### #251 Icons/vacas_habilidad_67 — OK
 
 - `Skills[67].icon_name`
-### #253 Icons/vacas_habilidad_68 — OK
+### #252 Icons/vacas_habilidad_68 — OK
 
 - `Skills[68].icon_name`
-### #254 Icons/vacas_habilidad_69 — OK
+### #253 Icons/vacas_habilidad_69 — OK
 
 - `Skills[69].icon_name`
-### #255 Icons/vacas_habilidad_70 — OK
+### #254 Icons/vacas_habilidad_70 — OK
 
 - `Skills[70].icon_name`
-### #256 Gameovers/vacas_gameover — OK
+### #255 Gameovers/vacas_gameover — OK
 
 - `System.gameover_name`
 - `Scripts[89] Vacas_Nucleo:45`
 - `Scripts[100] Vacas_Interfaz:48`
-### #257 Titles/vacas_titulo — OK
+### #256 Titles/vacas_titulo — OK
 
 - `System.title_name`
 - `Scripts[89] Vacas_Nucleo:44`
 - `Scripts[100] Vacas_Interfaz:44`
-### #258 Windowskins/ui_windowskin — OK
+### #257 Windowskins/ui_windowskin — OK
 
 - `System.windowskin_name`
 - `Scripts[100] Vacas_Interfaz:492`
 - `Scripts[100] Vacas_Interfaz:498`
 - `Scripts[100] Vacas_Interfaz:816`
-### #259 Battlebacks/mente_matadero — OK
+### #258 Battlebacks/mente_matadero — OK
 
 - `System.battleback_name`
 - `Scripts: Vacas_Mente fondo dinámico`
-### #260 Autotiles/001-G_Water01 — PLACEHOLDER o RTP
+### #259 Autotiles/001-G_Water01 — PLACEHOLDER o RTP
 
 - `Tilesets[1].autotile_names[0]`
 - `Tilesets[2].autotile_names[0]`
@@ -3207,7 +3239,7 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Tilesets[35].autotile_names[0]`
 - `Tilesets[37].autotile_names[0]`
 - `Tilesets[39].autotile_names[0]`
-### #261 Autotiles/040-Ground01 — PLACEHOLDER o RTP
+### #260 Autotiles/040-Ground01 — PLACEHOLDER o RTP
 
 - `Tilesets[1].autotile_names[3]`
 - `Tilesets[2].autotile_names[3]`
@@ -3219,7 +3251,7 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Tilesets[34].autotile_names[4]`
 - `Tilesets[37].autotile_names[3]`
 - `Tilesets[39].autotile_names[3]`
-### #262 Autotiles/041-Grass01 — PLACEHOLDER o RTP
+### #261 Autotiles/041-Grass01 — PLACEHOLDER o RTP
 
 - `Tilesets[1].autotile_names[4]`
 - `Tilesets[11].autotile_names[4]`
@@ -3229,173 +3261,173 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Tilesets[32].autotile_names[4]`
 - `Tilesets[34].autotile_names[5]`
 - `Tilesets[37].autotile_names[4]`
-### #263 Autotiles/007-G_Undulation01 — PLACEHOLDER o RTP
+### #262 Autotiles/007-G_Undulation01 — PLACEHOLDER o RTP
 
 - `Tilesets[1].autotile_names[5]`
 - `Tilesets[4].autotile_names[3]`
 - `Tilesets[23].autotile_names[6]`
-### #264 Autotiles/008-G_Undulation02 — PLACEHOLDER o RTP
+### #263 Autotiles/008-G_Undulation02 — PLACEHOLDER o RTP
 
 - `Tilesets[1].autotile_names[6]`
 - `Tilesets[37].autotile_names[6]`
-### #265 Battlebacks/001-Grassland01 — PLACEHOLDER o RTP
+### #264 Battlebacks/001-Grassland01 — PLACEHOLDER o RTP
 
 - `Tilesets[1].battleback_name`
-### #266 Tilesets/001-Grassland01 — PLACEHOLDER o RTP
+### #265 Tilesets/001-Grassland01 — PLACEHOLDER o RTP
 
 - `Tilesets[1].tileset_name`
-### #267 Autotiles/043-Grass02 — PLACEHOLDER o RTP
+### #266 Autotiles/043-Grass02 — PLACEHOLDER o RTP
 
 - `Tilesets[2].autotile_names[4]`
 - `Tilesets[35].autotile_names[5]`
 - `Tilesets[39].autotile_names[4]`
-### #268 Autotiles/036-Tree01 — PLACEHOLDER o RTP
+### #267 Autotiles/036-Tree01 — PLACEHOLDER o RTP
 
 - `Tilesets[2].autotile_names[5]`
 - `Tilesets[15].autotile_names[5]`
-### #269 Autotiles/037-Tree02 — PLACEHOLDER o RTP
+### #268 Autotiles/037-Tree02 — PLACEHOLDER o RTP
 
 - `Tilesets[2].autotile_names[6]`
 - `Tilesets[15].autotile_names[6]`
-### #270 Battlebacks/002-Woods01 — PLACEHOLDER o RTP
+### #269 Battlebacks/002-Woods01 — PLACEHOLDER o RTP
 
 - `Tilesets[2].battleback_name`
-### #271 Tilesets/002-Woods01 — PLACEHOLDER o RTP
+### #270 Tilesets/002-Woods01 — PLACEHOLDER o RTP
 
 - `Tilesets[2].tileset_name`
-### #272 Autotiles/009-G2_Water01 — PLACEHOLDER o RTP
+### #271 Autotiles/009-G2_Water01 — PLACEHOLDER o RTP
 
 - `Tilesets[3].autotile_names[0]`
-### #273 Autotiles/010-G2_Ground01 — PLACEHOLDER o RTP
+### #272 Autotiles/010-G2_Ground01 — PLACEHOLDER o RTP
 
 - `Tilesets[3].autotile_names[1]`
 - `Tilesets[7].autotile_names[0]`
-### #274 Autotiles/011-G2_Ground02 — PLACEHOLDER o RTP
+### #273 Autotiles/011-G2_Ground02 — PLACEHOLDER o RTP
 
 - `Tilesets[3].autotile_names[2]`
 - `Tilesets[7].autotile_names[1]`
-### #275 Autotiles/042-Ground02 — PLACEHOLDER o RTP
+### #274 Autotiles/042-Ground02 — PLACEHOLDER o RTP
 
 - `Tilesets[3].autotile_names[3]`
 - `Tilesets[7].autotile_names[2]`
-### #276 Autotiles/038-Tree03 — PLACEHOLDER o RTP
+### #275 Autotiles/038-Tree03 — PLACEHOLDER o RTP
 
 - `Tilesets[3].autotile_names[4]`
 - `Tilesets[7].autotile_names[3]`
 - `Tilesets[35].autotile_names[6]`
-### #277 Autotiles/039-Tree04 — PLACEHOLDER o RTP
+### #276 Autotiles/039-Tree04 — PLACEHOLDER o RTP
 
 - `Tilesets[3].autotile_names[5]`
-### #278 Battlebacks/003-Forest01 — PLACEHOLDER o RTP
+### #277 Battlebacks/003-Forest01 — PLACEHOLDER o RTP
 
 - `Tilesets[3].battleback_name`
-### #279 Tilesets/003-Forest01 — PLACEHOLDER o RTP
+### #278 Tilesets/003-Forest01 — PLACEHOLDER o RTP
 
 - `Tilesets[3].tileset_name`
-### #280 Panoramas/006-Mountains01 — PLACEHOLDER o RTP
+### #279 Panoramas/006-Mountains01 — PLACEHOLDER o RTP
 
 - `Tilesets[4].panorama_name`
 - `Tilesets[34].panorama_name`
-### #281 Autotiles/033-Waterfall01 — PLACEHOLDER o RTP
+### #280 Autotiles/033-Waterfall01 — PLACEHOLDER o RTP
 
 - `Tilesets[4].autotile_names[4]`
-### #282 Autotiles/034-Waterfall02 — PLACEHOLDER o RTP
+### #281 Autotiles/034-Waterfall02 — PLACEHOLDER o RTP
 
 - `Tilesets[4].autotile_names[5]`
-### #283 Autotiles/035-Waterfall03 — PLACEHOLDER o RTP
+### #282 Autotiles/035-Waterfall03 — PLACEHOLDER o RTP
 
 - `Tilesets[4].autotile_names[6]`
-### #284 Battlebacks/004-Mountain01 — PLACEHOLDER o RTP
+### #283 Battlebacks/004-Mountain01 — PLACEHOLDER o RTP
 
 - `Tilesets[4].battleback_name`
-### #285 Tilesets/004-Mountain01 — PLACEHOLDER o RTP
+### #284 Tilesets/004-Mountain01 — PLACEHOLDER o RTP
 
 - `Tilesets[4].tileset_name`
-### #286 Autotiles/024-Ocean01 — PLACEHOLDER o RTP
+### #285 Autotiles/024-Ocean01 — PLACEHOLDER o RTP
 
 - `Tilesets[5].autotile_names[0]`
-### #287 Autotiles/025-Ocean02 — PLACEHOLDER o RTP
+### #286 Autotiles/025-Ocean02 — PLACEHOLDER o RTP
 
 - `Tilesets[5].autotile_names[1]`
-### #288 Autotiles/026-Ocean03 — PLACEHOLDER o RTP
+### #287 Autotiles/026-Ocean03 — PLACEHOLDER o RTP
 
 - `Tilesets[5].autotile_names[2]`
-### #289 Autotiles/027-Ocean04 — PLACEHOLDER o RTP
+### #288 Autotiles/027-Ocean04 — PLACEHOLDER o RTP
 
 - `Tilesets[5].autotile_names[3]`
-### #290 Autotiles/016-Sa_Shadow01 — PLACEHOLDER o RTP
+### #289 Autotiles/016-Sa_Shadow01 — PLACEHOLDER o RTP
 
 - `Tilesets[5].autotile_names[4]`
 - `Tilesets[6].autotile_names[1]`
 - `Tilesets[19].autotile_names[1]`
-### #291 Autotiles/017-Sa_Grass01 — PLACEHOLDER o RTP
+### #290 Autotiles/017-Sa_Grass01 — PLACEHOLDER o RTP
 
 - `Tilesets[5].autotile_names[5]`
 - `Tilesets[6].autotile_names[2]`
 - `Tilesets[11].autotile_names[3]`
-### #292 Autotiles/045-Road02 — PLACEHOLDER o RTP
+### #291 Autotiles/045-Road02 — PLACEHOLDER o RTP
 
 - `Tilesets[5].autotile_names[6]`
 - `Tilesets[32].autotile_names[6]`
-### #293 Battlebacks/005-Beach01 — PLACEHOLDER o RTP
+### #292 Battlebacks/005-Beach01 — PLACEHOLDER o RTP
 
 - `Tilesets[5].battleback_name`
-### #294 Tilesets/005-Beach01 — PLACEHOLDER o RTP
+### #293 Tilesets/005-Beach01 — PLACEHOLDER o RTP
 
 - `Tilesets[5].tileset_name`
-### #295 Autotiles/015-Sa_Water01 — PLACEHOLDER o RTP
+### #294 Autotiles/015-Sa_Water01 — PLACEHOLDER o RTP
 
 - `Tilesets[6].autotile_names[0]`
 - `Tilesets[19].autotile_names[0]`
-### #296 Autotiles/018-Sa_Ground01 — PLACEHOLDER o RTP
+### #295 Autotiles/018-Sa_Ground01 — PLACEHOLDER o RTP
 
 - `Tilesets[6].autotile_names[3]`
 - `Tilesets[19].autotile_names[2]`
-### #297 Autotiles/019-Sa_Grass02 — PLACEHOLDER o RTP
+### #296 Autotiles/019-Sa_Grass02 — PLACEHOLDER o RTP
 
 - `Tilesets[6].autotile_names[4]`
 - `Tilesets[19].autotile_names[3]`
-### #298 Autotiles/020-Sa_Grass03 — PLACEHOLDER o RTP
+### #297 Autotiles/020-Sa_Grass03 — PLACEHOLDER o RTP
 
 - `Tilesets[6].autotile_names[5]`
 - `Tilesets[19].autotile_names[4]`
-### #299 Autotiles/023-Sa_Undulation01 — PLACEHOLDER o RTP
+### #298 Autotiles/023-Sa_Undulation01 — PLACEHOLDER o RTP
 
 - `Tilesets[6].autotile_names[6]`
-### #300 Battlebacks/006-Desert01 — PLACEHOLDER o RTP
+### #299 Battlebacks/006-Desert01 — PLACEHOLDER o RTP
 
 - `Tilesets[6].battleback_name`
-### #301 Tilesets/006-Desert01 — PLACEHOLDER o RTP
+### #300 Tilesets/006-Desert01 — PLACEHOLDER o RTP
 
 - `Tilesets[6].tileset_name`
-### #302 Autotiles/012-G2_Swamp01 — PLACEHOLDER o RTP
+### #301 Autotiles/012-G2_Swamp01 — PLACEHOLDER o RTP
 
 - `Tilesets[7].autotile_names[4]`
-### #303 Autotiles/013-G2_Swamp02 — PLACEHOLDER o RTP
+### #302 Autotiles/013-G2_Swamp02 — PLACEHOLDER o RTP
 
 - `Tilesets[7].autotile_names[5]`
-### #304 Autotiles/014-G2_Swamp03 — PLACEHOLDER o RTP
+### #303 Autotiles/014-G2_Swamp03 — PLACEHOLDER o RTP
 
 - `Tilesets[7].autotile_names[6]`
-### #305 Battlebacks/007-Swamp01 — PLACEHOLDER o RTP
+### #304 Battlebacks/007-Swamp01 — PLACEHOLDER o RTP
 
 - `Tilesets[7].battleback_name`
-### #306 Tilesets/007-Swamp01 — PLACEHOLDER o RTP
+### #305 Tilesets/007-Swamp01 — PLACEHOLDER o RTP
 
 - `Tilesets[7].tileset_name`
-### #307 Autotiles/028-Sn_Water01 — PLACEHOLDER o RTP
+### #306 Autotiles/028-Sn_Water01 — PLACEHOLDER o RTP
 
 - `Tilesets[8].autotile_names[0]`
 - `Tilesets[21].autotile_names[0]`
-### #308 Autotiles/029-Sn_Shadow01 — PLACEHOLDER o RTP
+### #307 Autotiles/029-Sn_Shadow01 — PLACEHOLDER o RTP
 
 - `Tilesets[8].autotile_names[1]`
 - `Tilesets[21].autotile_names[1]`
-### #309 Autotiles/030-Sn_Ground01 — PLACEHOLDER o RTP
+### #308 Autotiles/030-Sn_Ground01 — PLACEHOLDER o RTP
 
 - `Tilesets[8].autotile_names[2]`
 - `Tilesets[21].autotile_names[2]`
-### #310 Autotiles/044-Road01 — PLACEHOLDER o RTP
+### #309 Autotiles/044-Road01 — PLACEHOLDER o RTP
 
 - `Tilesets[8].autotile_names[3]`
 - `Tilesets[13].autotile_names[6]`
@@ -3405,16 +3437,19 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Tilesets[23].autotile_names[5]`
 - `Tilesets[37].autotile_names[5]`
 - `Tilesets[39].autotile_names[5]`
-### #311 Autotiles/031-Sn_Undulation01 — PLACEHOLDER o RTP
+### #310 Autotiles/031-Sn_Undulation01 — PLACEHOLDER o RTP
 
 - `Tilesets[8].autotile_names[4]`
 - `Tilesets[21].autotile_names[4]`
-### #312 Battlebacks/008-Snowfield01 — PLACEHOLDER o RTP
+### #311 Battlebacks/008-Snowfield01 — PLACEHOLDER o RTP
 
 - `Tilesets[8].battleback_name`
-### #313 Tilesets/008-Snowfield01 — PLACEHOLDER o RTP
+### #312 Tilesets/008-Snowfield01 — PLACEHOLDER o RTP
 
 - `Tilesets[8].tileset_name`
+### #313 Battlebacks/009-CastleTown01 — PLACEHOLDER o RTP
+
+- `Tilesets[9].battleback_name`
 ### #314 Tilesets/009-CastleTown01 — PLACEHOLDER o RTP
 
 - `Tilesets[9].tileset_name`
@@ -3493,67 +3528,70 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 ### #334 Tilesets/017-MineTown01 — PLACEHOLDER o RTP
 
 - `Tilesets[17].tileset_name`
-### #335 Tilesets/018-MineTown02 — PLACEHOLDER o RTP
+### #335 Battlebacks/018-MineTown02 — PLACEHOLDER o RTP
+
+- `Tilesets[18].battleback_name`
+### #336 Tilesets/018-MineTown02 — PLACEHOLDER o RTP
 
 - `Tilesets[18].tileset_name`
-### #336 Autotiles/021-Sa_Road01 — PLACEHOLDER o RTP
+### #337 Autotiles/021-Sa_Road01 — PLACEHOLDER o RTP
 
 - `Tilesets[19].autotile_names[5]`
-### #337 Autotiles/022-Roof01 — PLACEHOLDER o RTP
+### #338 Autotiles/022-Roof01 — PLACEHOLDER o RTP
 
 - `Tilesets[19].autotile_names[6]`
-### #338 Battlebacks/019-DesertTown01 — PLACEHOLDER o RTP
+### #339 Battlebacks/019-DesertTown01 — PLACEHOLDER o RTP
 
 - `Tilesets[19].battleback_name`
-### #339 Tilesets/019-DesertTown01 — PLACEHOLDER o RTP
+### #340 Tilesets/019-DesertTown01 — PLACEHOLDER o RTP
 
 - `Tilesets[19].tileset_name`
-### #340 Autotiles/055-Wall03 — PLACEHOLDER o RTP
+### #341 Autotiles/055-Wall03 — PLACEHOLDER o RTP
 
 - `Tilesets[20].autotile_names[0]`
 - `Tilesets[36].autotile_names[2]`
-### #341 Battlebacks/020-DesertTown02 — PLACEHOLDER o RTP
+### #342 Battlebacks/020-DesertTown02 — PLACEHOLDER o RTP
 
 - `Tilesets[20].battleback_name`
-### #342 Tilesets/020-DesertTown02 — PLACEHOLDER o RTP
+### #343 Tilesets/020-DesertTown02 — PLACEHOLDER o RTP
 
 - `Tilesets[20].tileset_name`
-### #343 Battlebacks/021-SnowTown01 — PLACEHOLDER o RTP
+### #344 Battlebacks/021-SnowTown01 — PLACEHOLDER o RTP
 
 - `Tilesets[21].battleback_name`
-### #344 Tilesets/021-SnowTown01 — PLACEHOLDER o RTP
+### #345 Tilesets/021-SnowTown01 — PLACEHOLDER o RTP
 
 - `Tilesets[21].tileset_name`
-### #345 Battlebacks/022-SnowTown02 — PLACEHOLDER o RTP
+### #346 Battlebacks/022-SnowTown02 — PLACEHOLDER o RTP
 
 - `Tilesets[22].battleback_name`
-### #346 Tilesets/022-SnowTown02 — PLACEHOLDER o RTP
+### #347 Tilesets/022-SnowTown02 — PLACEHOLDER o RTP
 
 - `Tilesets[22].tileset_name`
-### #347 Battlebacks/023-FarmVillage01 — PLACEHOLDER o RTP
+### #348 Battlebacks/023-FarmVillage01 — PLACEHOLDER o RTP
 
 - `Tilesets[23].battleback_name`
-### #348 Tilesets/023-FarmVillage01 — PLACEHOLDER o RTP
+### #349 Tilesets/023-FarmVillage01 — PLACEHOLDER o RTP
 
 - `Tilesets[23].tileset_name`
-### #349 Battlebacks/024-FarmVillage02 — PLACEHOLDER o RTP
+### #350 Battlebacks/024-FarmVillage02 — PLACEHOLDER o RTP
 
 - `Tilesets[24].battleback_name`
-### #350 Tilesets/024-FarmVillage02 — PLACEHOLDER o RTP
+### #351 Tilesets/024-FarmVillage02 — PLACEHOLDER o RTP
 
 - `Tilesets[24].tileset_name`
-### #351 Autotiles/047-Flower01 — PLACEHOLDER o RTP
+### #352 Autotiles/047-Flower01 — PLACEHOLDER o RTP
 
 - `Tilesets[25].autotile_names[4]`
 - `Tilesets[28].autotile_names[5]`
 - `Tilesets[32].autotile_names[5]`
-### #352 Battlebacks/025-Castle01 — PLACEHOLDER o RTP
+### #353 Battlebacks/025-Castle01 — PLACEHOLDER o RTP
 
 - `Tilesets[25].battleback_name`
-### #353 Tilesets/025-Castle01 — PLACEHOLDER o RTP
+### #354 Tilesets/025-Castle01 — PLACEHOLDER o RTP
 
 - `Tilesets[25].tileset_name`
-### #354 Autotiles/049-St_Shadow01 — PLACEHOLDER o RTP
+### #355 Autotiles/049-St_Shadow01 — PLACEHOLDER o RTP
 
 - `Tilesets[26].autotile_names[2]`
 - `Tilesets[27].autotile_names[2]`
@@ -3561,496 +3599,492 @@ Rutas exactas de objeto: evento/página/comando, enemigo y tropa. El JSON permit
 - `Tilesets[36].autotile_names[4]`
 - `Tilesets[40].autotile_names[2]`
 - `Tilesets[48].autotile_names[2]`
-### #355 Battlebacks/026-Castle02 — PLACEHOLDER o RTP
+### #356 Battlebacks/026-Castle02 — PLACEHOLDER o RTP
 
 - `Tilesets[26].battleback_name`
-### #356 Tilesets/026-Castle02 — PLACEHOLDER o RTP
+### #357 Tilesets/026-Castle02 — PLACEHOLDER o RTP
 
 - `Tilesets[26].tileset_name`
-### #357 Battlebacks/027-Castle03 — PLACEHOLDER o RTP
+### #358 Battlebacks/027-Castle03 — PLACEHOLDER o RTP
 
 - `Tilesets[27].battleback_name`
-### #358 Tilesets/027-Castle03 — PLACEHOLDER o RTP
+### #359 Tilesets/027-Castle03 — PLACEHOLDER o RTP
 
 - `Tilesets[27].tileset_name`
-### #359 Battlebacks/028-Church01 — PLACEHOLDER o RTP
+### #360 Battlebacks/028-Church01 — PLACEHOLDER o RTP
 
 - `Tilesets[28].battleback_name`
-### #360 Tilesets/028-Church01 — PLACEHOLDER o RTP
+### #361 Tilesets/028-Church01 — PLACEHOLDER o RTP
 
 - `Tilesets[28].tileset_name`
-### #361 Battlebacks/029-Church02 — PLACEHOLDER o RTP
+### #362 Battlebacks/029-Church02 — PLACEHOLDER o RTP
 
 - `Tilesets[29].battleback_name`
-### #362 Tilesets/029-Church02 — PLACEHOLDER o RTP
+### #363 Tilesets/029-Church02 — PLACEHOLDER o RTP
 
 - `Tilesets[29].tileset_name`
-### #363 Autotiles/046-Road03 — PLACEHOLDER o RTP
+### #364 Autotiles/046-Road03 — PLACEHOLDER o RTP
 
 - `Tilesets[30].autotile_names[2]`
-### #364 Battlebacks/030-Ship01 — PLACEHOLDER o RTP
+### #365 Battlebacks/030-Ship01 — PLACEHOLDER o RTP
 
 - `Tilesets[30].battleback_name`
-### #365 Tilesets/030-Ship01 — PLACEHOLDER o RTP
+### #366 Tilesets/030-Ship01 — PLACEHOLDER o RTP
 
 - `Tilesets[30].tileset_name`
-### #366 Battlebacks/031-Ship02 — PLACEHOLDER o RTP
+### #367 Battlebacks/031-Ship02 — PLACEHOLDER o RTP
 
 - `Tilesets[31].battleback_name`
-### #367 Tilesets/031-Ship02 — PLACEHOLDER o RTP
+### #368 Tilesets/031-Ship02 — PLACEHOLDER o RTP
 
 - `Tilesets[31].tileset_name`
-### #368 Panoramas/001-Sky01 — PLACEHOLDER o RTP
+### #369 Panoramas/001-Sky01 — PLACEHOLDER o RTP
 
 - `Tilesets[32].panorama_name`
 - `Tilesets[33].panorama_name`
-### #369 Battlebacks/032-Heaven01 — PLACEHOLDER o RTP
+### #370 Battlebacks/032-Heaven01 — PLACEHOLDER o RTP
 
 - `Tilesets[32].battleback_name`
-### #370 Tilesets/032-Heaven01 — PLACEHOLDER o RTP
+### #371 Tilesets/032-Heaven01 — PLACEHOLDER o RTP
 
 - `Tilesets[32].tileset_name`
-### #371 Battlebacks/033-Heaven02 — PLACEHOLDER o RTP
+### #372 Battlebacks/033-Heaven02 — PLACEHOLDER o RTP
 
 - `Tilesets[33].battleback_name`
-### #372 Tilesets/033-Heaven02 — PLACEHOLDER o RTP
+### #373 Tilesets/033-Heaven02 — PLACEHOLDER o RTP
 
 - `Tilesets[33].tileset_name`
-### #373 Battlebacks/034-Bridge01 — PLACEHOLDER o RTP
+### #374 Battlebacks/034-Bridge01 — PLACEHOLDER o RTP
 
 - `Tilesets[34].battleback_name`
-### #374 Tilesets/034-Bridge01 — PLACEHOLDER o RTP
+### #375 Tilesets/034-Bridge01 — PLACEHOLDER o RTP
 
 - `Tilesets[34].tileset_name`
-### #375 Tilesets/035-Ruins01 — PLACEHOLDER o RTP
+### #376 Tilesets/035-Ruins01 — PLACEHOLDER o RTP
 
 - `Tilesets[35].tileset_name`
-### #376 Battlebacks/035-Ruins01 — PLACEHOLDER o RTP
+### #377 Battlebacks/035-Ruins01 — PLACEHOLDER o RTP
 
 - `Tilesets[35].battleback_name`
-### #377 Battlebacks/036-Shop01 — PLACEHOLDER o RTP
+### #378 Battlebacks/036-Shop01 — PLACEHOLDER o RTP
 
 - `Tilesets[36].battleback_name`
-### #378 Tilesets/036-Shop01 — PLACEHOLDER o RTP
+### #379 Tilesets/036-Shop01 — PLACEHOLDER o RTP
 
 - `Tilesets[36].tileset_name`
-### #379 Battlebacks/037-Fort01 — PLACEHOLDER o RTP
+### #380 Battlebacks/037-Fort01 — PLACEHOLDER o RTP
 
 - `Tilesets[37].battleback_name`
-### #380 Tilesets/037-Fort01 — PLACEHOLDER o RTP
+### #381 Tilesets/037-Fort01 — PLACEHOLDER o RTP
 
 - `Tilesets[37].tileset_name`
-### #381 Battlebacks/038-Fort02 — PLACEHOLDER o RTP
+### #382 Battlebacks/038-Fort02 — PLACEHOLDER o RTP
 
 - `Tilesets[38].battleback_name`
-### #382 Tilesets/038-Fort02 — PLACEHOLDER o RTP
+### #383 Tilesets/038-Fort02 — PLACEHOLDER o RTP
 
 - `Tilesets[38].tileset_name`
-### #383 Battlebacks/039-Tower01 — PLACEHOLDER o RTP
+### #384 Battlebacks/039-Tower01 — PLACEHOLDER o RTP
 
 - `Tilesets[39].battleback_name`
-### #384 Tilesets/039-Tower01 — PLACEHOLDER o RTP
+### #385 Tilesets/039-Tower01 — PLACEHOLDER o RTP
 
 - `Tilesets[39].tileset_name`
-### #385 Battlebacks/040-Tower02 — PLACEHOLDER o RTP
+### #386 Battlebacks/040-Tower02 — PLACEHOLDER o RTP
 
 - `Tilesets[40].battleback_name`
-### #386 Tilesets/040-Tower02 — PLACEHOLDER o RTP
+### #387 Tilesets/040-Tower02 — PLACEHOLDER o RTP
 
 - `Tilesets[40].tileset_name`
-### #387 Battlebacks/041-EvilCastle01 — PLACEHOLDER o RTP
+### #388 Battlebacks/041-EvilCastle01 — PLACEHOLDER o RTP
 
 - `Tilesets[41].battleback_name`
-### #388 Tilesets/041-EvilCastle01 — PLACEHOLDER o RTP
+### #389 Tilesets/041-EvilCastle01 — PLACEHOLDER o RTP
 
 - `Tilesets[41].tileset_name`
-### #389 Battlebacks/042-EvilCastle02 — PLACEHOLDER o RTP
+### #390 Battlebacks/042-EvilCastle02 — PLACEHOLDER o RTP
 
 - `Tilesets[42].battleback_name`
-### #390 Tilesets/042-EvilCastle02 — PLACEHOLDER o RTP
+### #391 Tilesets/042-EvilCastle02 — PLACEHOLDER o RTP
 
 - `Tilesets[42].tileset_name`
-### #391 Autotiles/056-CE_Water01 — PLACEHOLDER o RTP
+### #392 Autotiles/056-CE_Water01 — PLACEHOLDER o RTP
 
 - `Tilesets[43].autotile_names[0]`
-### #392 Autotiles/057-CE_Shadow01 — PLACEHOLDER o RTP
+### #393 Autotiles/057-CE_Shadow01 — PLACEHOLDER o RTP
 
 - `Tilesets[43].autotile_names[1]`
-### #393 Autotiles/058-CE_Ground01 — PLACEHOLDER o RTP
+### #394 Autotiles/058-CE_Ground01 — PLACEHOLDER o RTP
 
 - `Tilesets[43].autotile_names[2]`
-### #394 Autotiles/059-CE_Ground02 — PLACEHOLDER o RTP
+### #395 Autotiles/059-CE_Ground02 — PLACEHOLDER o RTP
 
 - `Tilesets[43].autotile_names[3]`
-### #395 Autotiles/060-CE_Grass01 — PLACEHOLDER o RTP
+### #396 Autotiles/060-CE_Grass01 — PLACEHOLDER o RTP
 
 - `Tilesets[43].autotile_names[4]`
-### #396 Autotiles/061-CE_Road01 — PLACEHOLDER o RTP
+### #397 Autotiles/061-CE_Road01 — PLACEHOLDER o RTP
 
 - `Tilesets[43].autotile_names[5]`
-### #397 Battlebacks/043-Cave01 — PLACEHOLDER o RTP
+### #398 Battlebacks/043-Cave01 — PLACEHOLDER o RTP
 
 - `Tilesets[43].battleback_name`
-### #398 Tilesets/043-Cave01 — PLACEHOLDER o RTP
+### #399 Tilesets/043-Cave01 — PLACEHOLDER o RTP
 
 - `Tilesets[43].tileset_name`
-### #399 Autotiles/062-CF_Lava01 — PLACEHOLDER o RTP
+### #400 Autotiles/062-CF_Lava01 — PLACEHOLDER o RTP
 
 - `Tilesets[44].autotile_names[0]`
-### #400 Autotiles/063-CF_Shadow01 — PLACEHOLDER o RTP
+### #401 Autotiles/063-CF_Shadow01 — PLACEHOLDER o RTP
 
 - `Tilesets[44].autotile_names[1]`
-### #401 Autotiles/064-CF_Ground01 — PLACEHOLDER o RTP
+### #402 Autotiles/064-CF_Ground01 — PLACEHOLDER o RTP
 
 - `Tilesets[44].autotile_names[2]`
-### #402 Autotiles/065-CF_Ground02 — PLACEHOLDER o RTP
+### #403 Autotiles/065-CF_Ground02 — PLACEHOLDER o RTP
 
 - `Tilesets[44].autotile_names[3]`
-### #403 Autotiles/066-CF_Ground03 — PLACEHOLDER o RTP
+### #404 Autotiles/066-CF_Ground03 — PLACEHOLDER o RTP
 
 - `Tilesets[44].autotile_names[4]`
-### #404 Autotiles/067-CF_Ground04 — PLACEHOLDER o RTP
+### #405 Autotiles/067-CF_Ground04 — PLACEHOLDER o RTP
 
 - `Tilesets[44].autotile_names[5]`
-### #405 Tilesets/044-Cave02 — PLACEHOLDER o RTP
+### #406 Tilesets/044-Cave02 — PLACEHOLDER o RTP
 
 - `Tilesets[44].tileset_name`
-### #406 Battlebacks/044-Cave02 — PLACEHOLDER o RTP
+### #407 Battlebacks/044-Cave02 — PLACEHOLDER o RTP
 
 - `Tilesets[44].battleback_name`
-### #407 Autotiles/068-CI_Water01 — PLACEHOLDER o RTP
+### #408 Autotiles/068-CI_Water01 — PLACEHOLDER o RTP
 
 - `Tilesets[45].autotile_names[0]`
-### #408 Autotiles/069-CI_Shadow01 — PLACEHOLDER o RTP
+### #409 Autotiles/069-CI_Shadow01 — PLACEHOLDER o RTP
 
 - `Tilesets[45].autotile_names[1]`
-### #409 Autotiles/070-CI_Snow01 — PLACEHOLDER o RTP
+### #410 Autotiles/070-CI_Snow01 — PLACEHOLDER o RTP
 
 - `Tilesets[45].autotile_names[2]`
-### #410 Autotiles/071-CI_Ground01 — PLACEHOLDER o RTP
+### #411 Autotiles/071-CI_Ground01 — PLACEHOLDER o RTP
 
 - `Tilesets[45].autotile_names[3]`
-### #411 Autotiles/072-CI_Ice01 — PLACEHOLDER o RTP
+### #412 Autotiles/072-CI_Ice01 — PLACEHOLDER o RTP
 
 - `Tilesets[45].autotile_names[4]`
-### #412 Autotiles/073-CI_Ground02 — PLACEHOLDER o RTP
+### #413 Autotiles/073-CI_Ground02 — PLACEHOLDER o RTP
 
 - `Tilesets[45].autotile_names[5]`
-### #413 Tilesets/045-Cave03 — PLACEHOLDER o RTP
+### #414 Tilesets/045-Cave03 — PLACEHOLDER o RTP
 
 - `Tilesets[45].tileset_name`
-### #414 Battlebacks/045-Cave03 — PLACEHOLDER o RTP
+### #415 Battlebacks/045-Cave03 — PLACEHOLDER o RTP
 
 - `Tilesets[45].battleback_name`
-### #415 Autotiles/074-CW_Water01 — PLACEHOLDER o RTP
+### #416 Autotiles/074-CW_Water01 — PLACEHOLDER o RTP
 
 - `Tilesets[46].autotile_names[0]`
-### #416 Autotiles/075-CW_Shadow01 — PLACEHOLDER o RTP
+### #417 Autotiles/075-CW_Shadow01 — PLACEHOLDER o RTP
 
 - `Tilesets[46].autotile_names[1]`
-### #417 Autotiles/076-CW_Grass01 — PLACEHOLDER o RTP
+### #418 Autotiles/076-CW_Grass01 — PLACEHOLDER o RTP
 
 - `Tilesets[46].autotile_names[2]`
-### #418 Autotiles/077-CW_Grass02 — PLACEHOLDER o RTP
+### #419 Autotiles/077-CW_Grass02 — PLACEHOLDER o RTP
 
 - `Tilesets[46].autotile_names[3]`
-### #419 Autotiles/078-CW_Ground01 — PLACEHOLDER o RTP
+### #420 Autotiles/078-CW_Ground01 — PLACEHOLDER o RTP
 
 - `Tilesets[46].autotile_names[4]`
-### #420 Autotiles/079-CW_Grass03 — PLACEHOLDER o RTP
+### #421 Autotiles/079-CW_Grass03 — PLACEHOLDER o RTP
 
 - `Tilesets[46].autotile_names[5]`
-### #421 Tilesets/046-Cave04 — PLACEHOLDER o RTP
+### #422 Tilesets/046-Cave04 — PLACEHOLDER o RTP
 
 - `Tilesets[46].tileset_name`
-### #422 Battlebacks/046-Cave04 — PLACEHOLDER o RTP
+### #423 Battlebacks/046-Cave04 — PLACEHOLDER o RTP
 
 - `Tilesets[46].battleback_name`
-### #423 Battlebacks/047-Mine01 — PLACEHOLDER o RTP
+### #424 Battlebacks/047-Mine01 — PLACEHOLDER o RTP
 
 - `Tilesets[47].battleback_name`
-### #424 Tilesets/047-Mine01 — PLACEHOLDER o RTP
+### #425 Tilesets/047-Mine01 — PLACEHOLDER o RTP
 
 - `Tilesets[47].tileset_name`
-### #425 Battlebacks/048-Sewer01 — PLACEHOLDER o RTP
+### #426 Battlebacks/048-Sewer01 — PLACEHOLDER o RTP
 
 - `Tilesets[48].battleback_name`
-### #426 Tilesets/048-Sewer01 — PLACEHOLDER o RTP
+### #427 Tilesets/048-Sewer01 — PLACEHOLDER o RTP
 
 - `Tilesets[48].tileset_name`
-### #427 Autotiles/080-B_Ground01 — PLACEHOLDER o RTP
+### #428 Autotiles/080-B_Ground01 — PLACEHOLDER o RTP
 
 - `Tilesets[49].autotile_names[0]`
-### #428 Autotiles/081-B_Ground02 — PLACEHOLDER o RTP
+### #429 Autotiles/081-B_Ground02 — PLACEHOLDER o RTP
 
 - `Tilesets[49].autotile_names[1]`
-### #429 Battlebacks/049-InnerBody01 — PLACEHOLDER o RTP
+### #430 Battlebacks/049-InnerBody01 — PLACEHOLDER o RTP
 
 - `Tilesets[49].battleback_name`
-### #430 Tilesets/049-InnerBody01 — PLACEHOLDER o RTP
+### #431 Tilesets/049-InnerBody01 — PLACEHOLDER o RTP
 
 - `Tilesets[49].tileset_name`
-### #431 Panoramas/003-StarlitSky01 — PLACEHOLDER o RTP
+### #432 Panoramas/003-StarlitSky01 — PLACEHOLDER o RTP
 
 - `Tilesets[50].panorama_name`
-### #432 Battlebacks/050-DarkSpace01 — PLACEHOLDER o RTP
+### #433 Battlebacks/050-DarkSpace01 — PLACEHOLDER o RTP
 
 - `Tilesets[50].battleback_name`
-### #433 Tilesets/050-DarkSpace01 — PLACEHOLDER o RTP
+### #434 Tilesets/050-DarkSpace01 — PLACEHOLDER o RTP
 
 - `Tilesets[50].tileset_name`
-### #434 Tilesets/vacas_matadero — OK
+### #435 Tilesets/vacas_matadero — OK
 
 - `Tilesets[51].tileset_name`
 - `Scripts[100] Vacas_Interfaz:64`
-### #435 Icons/001-Weapon01 — PLACEHOLDER o RTP
+### #436 Icons/001-Weapon01 — PLACEHOLDER o RTP
 
 - `Weapons[1].icon_name`
 - `Weapons[2].icon_name`
 - `Weapons[3].icon_name`
 - `Weapons[4].icon_name`
-### #436 Icons/002-Weapon02 — PLACEHOLDER o RTP
+### #437 Icons/002-Weapon02 — PLACEHOLDER o RTP
 
 - `Weapons[5].icon_name`
 - `Weapons[6].icon_name`
 - `Weapons[7].icon_name`
 - `Weapons[8].icon_name`
-### #437 Icons/003-Weapon03 — PLACEHOLDER o RTP
+### #438 Icons/003-Weapon03 — PLACEHOLDER o RTP
 
 - `Weapons[9].icon_name`
 - `Weapons[10].icon_name`
 - `Weapons[11].icon_name`
 - `Weapons[12].icon_name`
-### #438 Icons/004-Weapon04 — PLACEHOLDER o RTP
+### #439 Icons/004-Weapon04 — PLACEHOLDER o RTP
 
 - `Weapons[13].icon_name`
 - `Weapons[14].icon_name`
 - `Weapons[15].icon_name`
 - `Weapons[16].icon_name`
-### #439 Icons/005-Weapon05 — PLACEHOLDER o RTP
+### #440 Icons/005-Weapon05 — PLACEHOLDER o RTP
 
 - `Weapons[17].icon_name`
 - `Weapons[18].icon_name`
 - `Weapons[19].icon_name`
 - `Weapons[20].icon_name`
-### #440 Icons/006-Weapon06 — PLACEHOLDER o RTP
+### #441 Icons/006-Weapon06 — PLACEHOLDER o RTP
 
 - `Weapons[21].icon_name`
 - `Weapons[22].icon_name`
 - `Weapons[23].icon_name`
 - `Weapons[24].icon_name`
-### #441 Icons/007-Weapon07 — PLACEHOLDER o RTP
+### #442 Icons/007-Weapon07 — PLACEHOLDER o RTP
 
 - `Weapons[25].icon_name`
 - `Weapons[26].icon_name`
 - `Weapons[27].icon_name`
 - `Weapons[28].icon_name`
-### #442 Icons/008-Weapon08 — PLACEHOLDER o RTP
+### #443 Icons/008-Weapon08 — PLACEHOLDER o RTP
 
 - `Weapons[29].icon_name`
 - `Weapons[30].icon_name`
 - `Weapons[31].icon_name`
 - `Weapons[32].icon_name`
-### #443 Windowskins/vacas_ventana — OK
+### #444 Windowskins/vacas_ventana — OK
 
 - `Scripts[89] Vacas_Nucleo:43`
-### #444 Characters/vacas_steven_mono — OK
+### #445 Characters/vacas_steven_mono — OK
 
 - `Scripts[89] Vacas_Nucleo:131`
-### #445 Pictures/ui_cursor — OK
+### #446 Pictures/ui_cursor — OK
 
 - `Scripts[100] Vacas_Interfaz:93`
 - `Scripts[100] Vacas_Interfaz:557`
 - `Scripts: Vacas_Interfaz familia dinámica`
-### #446 Pictures/ui_fog — OK
+### #447 Pictures/ui_fog — OK
 
 - `Scripts[100] Vacas_Interfaz:471`
 - `Scripts: Vacas_Interfaz familia dinámica`
-### #447 Icons/ui_nota — OK
+### #448 Icons/ui_nota — OK
 
 - `Scripts[100] Vacas_Interfaz:824`
-### #448 Icons/ui_objeto — OK
+### #449 Icons/ui_objeto — OK
 
 - `Scripts[100] Vacas_Interfaz:824`
 - `Scripts[100] Vacas_Interfaz:875`
-### #449 Icons/ui_bateria — OK
+### #450 Icons/ui_bateria — OK
 
 - `Scripts[100] Vacas_Interfaz:825`
-### #450 Icons/ui_estado_2 — OK
+### #451 Icons/ui_estado_2 — OK
 
 - `Scripts[100] Vacas_Interfaz:828`
 - `Scripts: Vacas_Interfaz familia dinámica`
-### #451 Pictures/ui_avance — OK
+### #452 Pictures/ui_avance — OK
 
 - `Scripts[100] Vacas_Interfaz:1010`
 - `Scripts: Vacas_Interfaz familia dinámica`
-### #452 Pictures/ui_target — OK
+### #453 Pictures/ui_target — OK
 
 - `Scripts[100] Vacas_Interfaz:1096`
 - `Scripts: Vacas_Interfaz familia dinámica`
-### #453 Pictures/feka_halo — PLACEHOLDER o RTP
+### #454 Pictures/feka_halo — PLACEHOLDER o RTP
 
 - `Scripts[101] Vacas_IntroFeka:68`
 - `Scripts[101] Vacas_IntroFeka:78`
-### #454 Pictures/feka_logo — PLACEHOLDER o RTP
+### #455 Pictures/feka_logo — PLACEHOLDER o RTP
 
 - `Scripts[101] Vacas_IntroFeka:69`
 - `Scripts[101] Vacas_IntroFeka:72`
 - `Scripts[101] Vacas_IntroFeka:73`
 - `Scripts[101] Vacas_IntroFeka:74`
-### #455 Pictures/feka_linea — PLACEHOLDER o RTP
+### #456 Pictures/feka_linea — PLACEHOLDER o RTP
 
 - `Scripts[101] Vacas_IntroFeka:75`
-### #456 Pictures/feka_presenta — PLACEHOLDER o RTP
+### #457 Pictures/feka_presenta — PLACEHOLDER o RTP
 
 - `Scripts[101] Vacas_IntroFeka:76`
-### #457 Pictures/feka_gota — PLACEHOLDER o RTP
+### #458 Pictures/feka_gota — PLACEHOLDER o RTP
 
 - `Scripts[101] Vacas_IntroFeka:81`
 - `Scripts[101] Vacas_IntroFeka:84`
-### #458 Pictures/cine_piso — OK
+### #459 Pictures/cine_piso — OK
 
 - `Scripts[104] Vacas_Cinematicas:5`
 - `Scripts[104] Vacas_Cinematicas:8`
 - `Scripts[104] Vacas_Cinematicas:11`
-### #459 Pictures/cine_matadero — OK
+### #460 Pictures/cine_matadero — OK
 
 - `Scripts[104] Vacas_Cinematicas:14`
 - `Scripts[104] Vacas_Cinematicas:34`
-### #460 Pictures/cine_altar — OK
+### #461 Pictures/cine_altar — OK
 
 - `Scripts[104] Vacas_Cinematicas:27`
-### #461 Pictures/cine_ciudad — OK
+### #462 Pictures/cine_ciudad — OK
 
 - `Scripts[104] Vacas_Cinematicas:30`
 - `Scripts[104] Vacas_Cinematicas:40`
 - `Scripts[104] Vacas_Cinematicas:43`
-### #462 Pictures/revision_luz01 — PLACEHOLDER o RTP
+### #463 Pictures/revision_luz01 — PLACEHOLDER o RTP
 
 - `Scripts: máscara del mapa`
-### #463 Pictures/revision_luz02 — PLACEHOLDER o RTP
+### #464 Pictures/revision_luz02 — PLACEHOLDER o RTP
 
 - `Scripts: máscara del mapa`
-### #464 Pictures/revision_luz03 — PLACEHOLDER o RTP
+### #465 Pictures/revision_luz03 — PLACEHOLDER o RTP
 
 - `Scripts: máscara del mapa`
-### #465 Pictures/revision_luz04 — PLACEHOLDER o RTP
+### #466 Pictures/revision_luz04 — PLACEHOLDER o RTP
 
 - `Scripts: máscara del mapa`
-### #466 Pictures/revision_luz05 — PLACEHOLDER o RTP
+### #467 Pictures/revision_luz05 — PLACEHOLDER o RTP
 
 - `Scripts: máscara del mapa`
-### #467 Pictures/revision_luz06 — PLACEHOLDER o RTP
+### #468 Pictures/revision_luz06 — PLACEHOLDER o RTP
 
 - `Scripts: máscara del mapa`
-### #468 Pictures/revision_luz07 — PLACEHOLDER o RTP
+### #469 Pictures/revision_luz07 — PLACEHOLDER o RTP
 
 - `Scripts: máscara del mapa`
-### #469 Pictures/revision_luz08 — PLACEHOLDER o RTP
+### #470 Pictures/revision_luz08 — PLACEHOLDER o RTP
 
 - `Scripts: máscara del mapa`
-### #470 Pictures/revision_luz09 — PLACEHOLDER o RTP
+### #471 Pictures/revision_luz09 — PLACEHOLDER o RTP
 
 - `Scripts: máscara del mapa`
-### #471 Pictures/revision_luz10 — PLACEHOLDER o RTP
+### #472 Pictures/revision_luz10 — PLACEHOLDER o RTP
 
 - `Scripts: máscara del mapa`
-### #472 Pictures/revision_luz11 — PLACEHOLDER o RTP
+### #473 Pictures/revision_luz11 — PLACEHOLDER o RTP
 
 - `Scripts: máscara del mapa`
-### #473 Pictures/revision_luz12 — PLACEHOLDER o RTP
+### #474 Pictures/revision_luz12 — PLACEHOLDER o RTP
 
 - `Scripts: máscara del mapa`
-### #474 Pictures/revision_luz13 — PLACEHOLDER o RTP
+### #475 Pictures/revision_luz13 — PLACEHOLDER o RTP
 
 - `Scripts: máscara del mapa`
-### #475 Pictures/revision_luz14 — PLACEHOLDER o RTP
+### #476 Pictures/revision_luz14 — PLACEHOLDER o RTP
 
 - `Scripts: máscara del mapa`
-### #476 Pictures/revision_luz15 — PLACEHOLDER o RTP
+### #477 Pictures/revision_luz15 — PLACEHOLDER o RTP
 
 - `Scripts: máscara del mapa`
-### #477 Pictures/revision_luz16 — PLACEHOLDER o RTP
+### #478 Pictures/revision_luz16 — PLACEHOLDER o RTP
 
 - `Scripts: máscara del mapa`
-### #478 Pictures/acto5_luz22 — PLACEHOLDER o RTP
+### #479 Pictures/acto5_luz22 — PLACEHOLDER o RTP
 
 - `Scripts: máscara del mapa`
-### #479 Pictures/acto5_luz23 — PLACEHOLDER o RTP
+### #480 Pictures/acto5_luz23 — PLACEHOLDER o RTP
 
 - `Scripts: máscara del mapa`
-### #480 Pictures/acto5_luz24 — PLACEHOLDER o RTP
+### #481 Pictures/acto5_luz24 — PLACEHOLDER o RTP
 
 - `Scripts: máscara del mapa`
-### #481 Pictures/acto5_luz25 — PLACEHOLDER o RTP
+### #482 Pictures/acto5_luz25 — PLACEHOLDER o RTP
 
 - `Scripts: máscara del mapa`
-### #482 Pictures/acto5_luz26 — PLACEHOLDER o RTP
+### #483 Pictures/acto5_luz26 — PLACEHOLDER o RTP
 
 - `Scripts: máscara del mapa`
-### #483 Pictures/acto5_luz27 — PLACEHOLDER o RTP
+### #484 Pictures/acto5_luz27 — PLACEHOLDER o RTP
 
 - `Scripts: máscara del mapa`
-### #484 Pictures/acto6_luz28 — PLACEHOLDER o RTP
+### #485 Pictures/acto6_luz28 — PLACEHOLDER o RTP
 
 - `Scripts: máscara del mapa`
-### #485 Pictures/acto6_luz29 — PLACEHOLDER o RTP
+### #486 Pictures/acto6_luz29 — PLACEHOLDER o RTP
 
 - `Scripts: máscara del mapa`
-### #486 Pictures/acto6_luz30 — PLACEHOLDER o RTP
+### #487 Pictures/acto6_luz30 — PLACEHOLDER o RTP
 
 - `Scripts: máscara del mapa`
-### #487 Pictures/acto6_luz31 — PLACEHOLDER o RTP
+### #488 Pictures/acto6_luz31 — PLACEHOLDER o RTP
 
 - `Scripts: máscara del mapa`
-### #488 Pictures/acto6_luz32 — PLACEHOLDER o RTP
+### #489 Pictures/acto6_luz32 — PLACEHOLDER o RTP
 
 - `Scripts: máscara del mapa`
-### #489 Battlebacks/mente_piso — OK
+### #490 Battlebacks/mente_piso — OK
 
 - `Scripts: Vacas_Mente fondo dinámico`
-### #490 Pictures/ui_bar_cordura — OK
+### #491 Pictures/ui_bar_cordura — OK
 
 - `Scripts: Vacas_Interfaz familia dinámica`
-### #491 Pictures/ui_bar_vida — OK
+### #492 Pictures/ui_bar_vida — OK
 
 - `Scripts: Vacas_Interfaz familia dinámica`
-### #492 Pictures/ui_gameover — OK
+### #493 Pictures/ui_gameover — OK
 
 - `Scripts: Vacas_Interfaz familia dinámica`
-### #493 Pictures/ui_menu — OK
+### #494 Pictures/ui_menu — OK
 
 - `Scripts: Vacas_Interfaz familia dinámica`
-### #494 Pictures/ui_titulo — OK
+### #495 Pictures/ui_titulo — OK
 
 - `Scripts: Vacas_Interfaz familia dinámica`
-### #495 Icons/ui_estado_3 — OK
+### #496 Icons/ui_estado_3 — OK
 
 - `Scripts: Vacas_Interfaz familia dinámica`
-### #496 Icons/ui_estado_4 — OK
+### #497 Icons/ui_estado_4 — OK
 
 - `Scripts: Vacas_Interfaz familia dinámica`
-### #497 Battlebacks/ui_alcantarillas — OK
-
-- `Scripts: Vacas_Interfaz familia dinámica`
-- `Scripts: Scene_Battle fondo por MAP_AUDIO`
-### #498 Battlebacks/ui_camaras — OK
+### #498 Battlebacks/ui_alcantarillas — OK
 
 - `Scripts: Vacas_Interfaz familia dinámica`
 - `Scripts: Scene_Battle fondo por MAP_AUDIO`
-### #499 Battlebacks/ui_laboratorio — OK
+### #499 Battlebacks/ui_camaras — OK
 
 - `Scripts: Vacas_Interfaz familia dinámica`
 - `Scripts: Scene_Battle fondo por MAP_AUDIO`
-### #500 Battlebacks/ui_manada — OK
+### #500 Battlebacks/ui_laboratorio — OK
 
 - `Scripts: Vacas_Interfaz familia dinámica`
 - `Scripts: Scene_Battle fondo por MAP_AUDIO`
-### #501 Battlebacks/ui_matadero — OK
+### #501 Battlebacks/ui_manada — OK
 
 - `Scripts: Vacas_Interfaz familia dinámica`
 - `Scripts: Scene_Battle fondo por MAP_AUDIO`
-### #502 Battlebacks/ui_piso — OK
+### #502 Battlebacks/ui_matadero — OK
 
 - `Scripts: Vacas_Interfaz familia dinámica`
 - `Scripts: Scene_Battle fondo por MAP_AUDIO`
