@@ -15,7 +15,18 @@
         906,
         1369,
         1774
-      ]
+      ],
+      "cell_scale": {
+        "8": {
+          "height": 32
+        },
+        "9": {
+          "height": 24
+        },
+        "10": {
+          "height": 20
+        }
+      }
     },
     {
       "source": "diseno/arte_hd2d/vacas_puerta_fuente.png",

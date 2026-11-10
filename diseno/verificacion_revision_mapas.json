@@ -1,0 +1,89 @@
+{
+  "checks_interaccion": 18360,
+  "estados": 90,
+  "mapas": [
+    {
+      "mapa": 1,
+      "interacciones_comprobadas": 0,
+      "regresiones": []
+    },
+    {
+      "mapa": 2,
+      "interacciones_comprobadas": 3180,
+      "regresiones": []
+    },
+    {
+      "mapa": 3,
+      "interacciones_comprobadas": 732,
+      "regresiones": []
+    },
+    {
+      "mapa": 4,
+      "interacciones_comprobadas": 790,
+      "regresiones": []
+    },
+    {
+      "mapa": 5,
+      "interacciones_comprobadas": 1188,
+      "regresiones": []
+    },
+    {
+      "mapa": 6,
+      "interacciones_comprobadas": 930,
+      "regresiones": []
+    },
+    {
+      "mapa": 7,
+      "interacciones_comprobadas": 600,
+      "regresiones": []
+    },
+    {
+      "mapa": 8,
+      "interacciones_comprobadas": 3472,
+      "regresiones": []
+    },
+    {
+      "mapa": 9,
+      "interacciones_comprobadas": 2700,
+      "regresiones": []
+    },
+    {
+      "mapa": 10,
+      "interacciones_comprobadas": 900,
+      "regresiones": []
+    },
+    {
+      "mapa": 11,
+      "interacciones_comprobadas": 630,
+      "regresiones": []
+    },
+    {
+      "mapa": 12,
+      "interacciones_comprobadas": 806,
+      "regresiones": []
+    },
+    {
+      "mapa": 13,
+      "interacciones_comprobadas": 540,
+      "regresiones": []
+    },
+    {
+      "mapa": 14,
+      "interacciones_comprobadas": 452,
+      "regresiones": []
+    },
+    {
+      "mapa": 15,
+      "interacciones_comprobadas": 540,
+      "regresiones": []
+    },
+    {
+      "mapa": 16,
+      "interacciones_comprobadas": 900,
+      "regresiones": []
+    }
+  ],
+  "errores": [],
+  "hojas_escala": 7,
+  "eventos_preservados": true
+}

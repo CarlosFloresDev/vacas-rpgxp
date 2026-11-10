@@ -11,7 +11,7 @@ def check(ok,label):
     global checks
     checks+=1
     if not ok:errors.append(label)
-seeds={12:(12,17),13:(10,12),14:(3,12),15:(12,17),16:(12,17),2:(6,12),3:(16,4),4:(18,8)}
+seeds={12:(12,17),13:(10,12),14:(3,12),15:(12,17),16:(10,12),2:(6,12),3:(16,4),4:(18,8)}
 for stage in ['inicio','encargo','muestras','ensayos','final','persecución']:
     sw={1,2,3,4,5,6,7,8,12,13,14,18,19,20,22,28,34,35,39,43,55,81}
     if stage!='inicio':sw|={82,83}

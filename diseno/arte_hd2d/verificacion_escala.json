@@ -1,0 +1,1464 @@
+{
+  "rule": "Celda humana 48 px, silueta real 40 px; frascos 10-16, microscopio 24 sobre mesa, lampara 38, sillas 26-28.",
+  "sheets": [
+    {
+      "name": "vacas_laboratorio",
+      "size": [
+        128,
+        256
+      ],
+      "cell": [
+        32,
+        64
+      ],
+      "cells": [
+        {
+          "index": 0,
+          "before": [
+            26,
+            64
+          ],
+          "after": [
+            26,
+            64
+          ],
+          "changed": false
+        },
+        {
+          "index": 1,
+          "before": [
+            32,
+            64
+          ],
+          "after": [
+            32,
+            64
+          ],
+          "changed": false
+        },
+        {
+          "index": 2,
+          "before": [
+            28,
+            64
+          ],
+          "after": [
+            21,
+            48
+          ],
+          "changed": true
+        },
+        {
+          "index": 3,
+          "before": [
+            32,
+            24
+          ],
+          "after": [
+            19,
+            14
+          ],
+          "changed": true
+        },
+        {
+          "index": 4,
+          "before": [
+            32,
+            28
+          ],
+          "after": [
+            18,
+            16
+          ],
+          "changed": true
+        },
+        {
+          "index": 5,
+          "before": [
+            32,
+            28
+          ],
+          "after": [
+            18,
+            16
+          ],
+          "changed": true
+        },
+        {
+          "index": 6,
+          "before": [
+            22,
+            64
+          ],
+          "after": [
+            19,
+            56
+          ],
+          "changed": true
+        },
+        {
+          "index": 7,
+          "before": [
+            32,
+            63
+          ],
+          "after": [
+            7,
+            14
+          ],
+          "changed": true
+        },
+        {
+          "index": 8,
+          "before": [
+            32,
+            28
+          ],
+          "after": [
+            32,
+            28
+          ],
+          "changed": false
+        },
+        {
+          "index": 9,
+          "before": [
+            32,
+            47
+          ],
+          "after": [
+            32,
+            36
+          ],
+          "changed": true
+        },
+        {
+          "index": 10,
+          "before": [
+            30,
+            64
+          ],
+          "after": [
+            18,
+            38
+          ],
+          "changed": true
+        },
+        {
+          "index": 11,
+          "before": [
+            32,
+            40
+          ],
+          "after": [
+            11,
+            14
+          ],
+          "changed": true
+        },
+        {
+          "index": 12,
+          "before": [
+            27,
+            64
+          ],
+          "after": [
+            20,
+            48
+          ],
+          "changed": true
+        },
+        {
+          "index": 13,
+          "before": [
+            32,
+            50
+          ],
+          "after": [
+            17,
+            26
+          ],
+          "changed": true
+        },
+        {
+          "index": 14,
+          "before": [
+            32,
+            63
+          ],
+          "after": [
+            28,
+            56
+          ],
+          "changed": true
+        },
+        {
+          "index": 15,
+          "before": [
+            32,
+            51
+          ],
+          "after": [
+            19,
+            30
+          ],
+          "changed": true
+        }
+      ],
+      "before_sha256": "6e7e3701257380e831472d3c8f58c4f40b7ad68ad9feedbd2a7e2876817ede28",
+      "after_sha256": "318d1594aab825af3552548164caaafa4bbdce75daad532a7d526357dabee097"
+    },
+    {
+      "name": "vacas_muebles",
+      "size": [
+        128,
+        256
+      ],
+      "cell": [
+        32,
+        64
+      ],
+      "cells": [
+        {
+          "index": 0,
+          "before": [
+            28,
+            38
+          ],
+          "after": [
+            24,
+            32
+          ],
+          "changed": true
+        },
+        {
+          "index": 1,
+          "before": [
+            28,
+            38
+          ],
+          "after": [
+            24,
+            32
+          ],
+          "changed": true
+        },
+        {
+          "index": 2,
+          "before": [
+            28,
+            38
+          ],
+          "after": [
+            24,
+            32
+          ],
+          "changed": true
+        },
+        {
+          "index": 3,
+          "before": [
+            28,
+            38
+          ],
+          "after": [
+            24,
+            32
+          ],
+          "changed": true
+        },
+        {
+          "index": 4,
+          "before": [
+            28,
+            38
+          ],
+          "after": [
+            24,
+            32
+          ],
+          "changed": true
+        },
+        {
+          "index": 5,
+          "before": [
+            28,
+            38
+          ],
+          "after": [
+            24,
+            32
+          ],
+          "changed": true
+        },
+        {
+          "index": 6,
+          "before": [
+            28,
+            38
+          ],
+          "after": [
+            24,
+            32
+          ],
+          "changed": true
+        },
+        {
+          "index": 7,
+          "before": [
+            28,
+            38
+          ],
+          "after": [
+            24,
+            32
+          ],
+          "changed": true
+        },
+        {
+          "index": 8,
+          "before": [
+            30,
+            53
+          ],
+          "after": [
+            30,
+            53
+          ],
+          "changed": false
+        },
+        {
+          "index": 9,
+          "before": [
+            30,
+            52
+          ],
+          "after": [
+            30,
+            52
+          ],
+          "changed": false
+        },
+        {
+          "index": 10,
+          "before": [
+            26,
+            49
+          ],
+          "after": [
+            26,
+            49
+          ],
+          "changed": false
+        },
+        {
+          "index": 11,
+          "before": [
+            28,
+            60
+          ],
+          "after": [
+            28,
+            60
+          ],
+          "changed": false
+        },
+        {
+          "index": 12,
+          "before": [
+            17,
+            37
+          ],
+          "after": [
+            13,
+            28
+          ],
+          "changed": true
+        },
+        {
+          "index": 13,
+          "before": [
+            24,
+            57
+          ],
+          "after": [
+            24,
+            57
+          ],
+          "changed": false
+        },
+        {
+          "index": 14,
+          "before": [
+            26,
+            33
+          ],
+          "after": [
+            22,
+            28
+          ],
+          "changed": true
+        },
+        {
+          "index": 15,
+          "before": [
+            31,
+            42
+          ],
+          "after": [
+            31,
+            42
+          ],
+          "changed": false
+        }
+      ],
+      "before_sha256": "f0166d8a42b986bbc5776fde1919e2c9524497ce7898114cde98e5e8b1f9f507",
+      "after_sha256": "72252b9507fb0a7b0238dba258dd7a3d316067609410955bf61372e0d8705965"
+    },
+    {
+      "name": "vacas_cosas",
+      "size": [
+        128,
+        128
+      ],
+      "cell": [
+        32,
+        32
+      ],
+      "cells": [
+        {
+          "index": 0,
+          "before": [
+            19,
+            13
+          ],
+          "after": [
+            12,
+            8
+          ],
+          "changed": true
+        },
+        {
+          "index": 1,
+          "before": [
+            19,
+            13
+          ],
+          "after": [
+            12,
+            8
+          ],
+          "changed": true
+        },
+        {
+          "index": 2,
+          "before": [
+            23,
+            15
+          ],
+          "after": [
+            12,
+            8
+          ],
+          "changed": true
+        },
+        {
+          "index": 3,
+          "before": [
+            25,
+            19
+          ],
+          "after": [
+            25,
+            19
+          ],
+          "changed": false
+        },
+        {
+          "index": 4,
+          "before": [
+            18,
+            20
+          ],
+          "after": [
+            14,
+            16
+          ],
+          "changed": true
+        },
+        {
+          "index": 5,
+          "before": [
+            20,
+            20
+          ],
+          "after": [
+            14,
+            14
+          ],
+          "changed": true
+        },
+        {
+          "index": 6,
+          "before": [
+            15,
+            11
+          ],
+          "after": [
+            8,
+            6
+          ],
+          "changed": true
+        },
+        {
+          "index": 7,
+          "before": [
+            27,
+            18
+          ],
+          "after": [
+            21,
+            14
+          ],
+          "changed": true
+        },
+        {
+          "index": 8,
+          "before": null,
+          "after": null,
+          "changed": false
+        },
+        {
+          "index": 9,
+          "before": null,
+          "after": null,
+          "changed": false
+        },
+        {
+          "index": 10,
+          "before": null,
+          "after": null,
+          "changed": false
+        },
+        {
+          "index": 11,
+          "before": null,
+          "after": null,
+          "changed": false
+        },
+        {
+          "index": 12,
+          "before": null,
+          "after": null,
+          "changed": false
+        },
+        {
+          "index": 13,
+          "before": null,
+          "after": null,
+          "changed": false
+        },
+        {
+          "index": 14,
+          "before": null,
+          "after": null,
+          "changed": false
+        },
+        {
+          "index": 15,
+          "before": null,
+          "after": null,
+          "changed": false
+        }
+      ],
+      "before_sha256": "36da664063f58d850242e03fa55dd2cf968fcdc09ae4a9507569f319e8f7fc89",
+      "after_sha256": "18133e50061a6735f22276afd7c65283fdc6f90462c43b8f8e11a08064db13c2"
+    },
+    {
+      "name": "vacas_matadero",
+      "size": [
+        128,
+        256
+      ],
+      "cell": [
+        32,
+        64
+      ],
+      "cells": [
+        {
+          "index": 0,
+          "before": [
+            32,
+            21
+          ],
+          "after": [
+            32,
+            21
+          ],
+          "changed": false
+        },
+        {
+          "index": 1,
+          "before": [
+            31,
+            21
+          ],
+          "after": [
+            31,
+            21
+          ],
+          "changed": false
+        },
+        {
+          "index": 2,
+          "before": [
+            31,
+            21
+          ],
+          "after": [
+            31,
+            21
+          ],
+          "changed": false
+        },
+        {
+          "index": 3,
+          "before": [
+            32,
+            21
+          ],
+          "after": [
+            32,
+            21
+          ],
+          "changed": false
+        },
+        {
+          "index": 4,
+          "before": [
+            19,
+            44
+          ],
+          "after": [
+            19,
+            44
+          ],
+          "changed": false
+        },
+        {
+          "index": 5,
+          "before": [
+            13,
+            46
+          ],
+          "after": [
+            13,
+            46
+          ],
+          "changed": false
+        },
+        {
+          "index": 6,
+          "before": [
+            19,
+            45
+          ],
+          "after": [
+            19,
+            45
+          ],
+          "changed": false
+        },
+        {
+          "index": 7,
+          "before": [
+            11,
+            23
+          ],
+          "after": [
+            11,
+            23
+          ],
+          "changed": false
+        },
+        {
+          "index": 8,
+          "before": [
+            27,
+            36
+          ],
+          "after": [
+            24,
+            32
+          ],
+          "changed": true
+        },
+        {
+          "index": 9,
+          "before": [
+            20,
+            41
+          ],
+          "after": [
+            12,
+            24
+          ],
+          "changed": true
+        },
+        {
+          "index": 10,
+          "before": [
+            21,
+            23
+          ],
+          "after": [
+            18,
+            20
+          ],
+          "changed": true
+        },
+        {
+          "index": 11,
+          "before": [
+            24,
+            19
+          ],
+          "after": [
+            24,
+            19
+          ],
+          "changed": false
+        },
+        {
+          "index": 12,
+          "before": [
+            24,
+            25
+          ],
+          "after": [
+            24,
+            25
+          ],
+          "changed": false
+        },
+        {
+          "index": 13,
+          "before": [
+            24,
+            25
+          ],
+          "after": [
+            24,
+            25
+          ],
+          "changed": false
+        },
+        {
+          "index": 14,
+          "before": [
+            24,
+            25
+          ],
+          "after": [
+            24,
+            25
+          ],
+          "changed": false
+        },
+        {
+          "index": 15,
+          "before": [
+            24,
+            25
+          ],
+          "after": [
+            24,
+            25
+          ],
+          "changed": false
+        }
+      ],
+      "before_sha256": "dc2ebf9a090a0371c91fd72559393048b6249ea9d0a22917187b118671e81302",
+      "after_sha256": "a4dbf351fe4cf5f2e1bda5162f0c146997631165af6ecfa250507fed7f291569"
+    },
+    {
+      "name": "vacas_tablon",
+      "size": [
+        128,
+        192
+      ],
+      "cell": [
+        32,
+        48
+      ],
+      "cells": [
+        {
+          "index": 0,
+          "before": [
+            23,
+            42
+          ],
+          "after": [
+            23,
+            42
+          ],
+          "changed": false
+        },
+        {
+          "index": 1,
+          "before": [
+            25,
+            42
+          ],
+          "after": [
+            25,
+            42
+          ],
+          "changed": false
+        },
+        {
+          "index": 2,
+          "before": [
+            23,
+            42
+          ],
+          "after": [
+            23,
+            42
+          ],
+          "changed": false
+        },
+        {
+          "index": 3,
+          "before": [
+            25,
+            42
+          ],
+          "after": [
+            25,
+            42
+          ],
+          "changed": false
+        },
+        {
+          "index": 4,
+          "before": [
+            23,
+            42
+          ],
+          "after": [
+            23,
+            42
+          ],
+          "changed": false
+        },
+        {
+          "index": 5,
+          "before": [
+            25,
+            42
+          ],
+          "after": [
+            25,
+            42
+          ],
+          "changed": false
+        },
+        {
+          "index": 6,
+          "before": [
+            30,
+            42
+          ],
+          "after": [
+            30,
+            42
+          ],
+          "changed": false
+        },
+        {
+          "index": 7,
+          "before": [
+            30,
+            42
+          ],
+          "after": [
+            30,
+            42
+          ],
+          "changed": false
+        },
+        {
+          "index": 8,
+          "before": [
+            30,
+            42
+          ],
+          "after": [
+            30,
+            42
+          ],
+          "changed": false
+        },
+        {
+          "index": 9,
+          "before": [
+            30,
+            42
+          ],
+          "after": [
+            30,
+            42
+          ],
+          "changed": false
+        },
+        {
+          "index": 10,
+          "before": [
+            28,
+            42
+          ],
+          "after": [
+            28,
+            42
+          ],
+          "changed": false
+        },
+        {
+          "index": 11,
+          "before": [
+            20,
+            42
+          ],
+          "after": [
+            20,
+            42
+          ],
+          "changed": false
+        },
+        {
+          "index": 12,
+          "before": [
+            32,
+            42
+          ],
+          "after": [
+            32,
+            42
+          ],
+          "changed": false
+        },
+        {
+          "index": 13,
+          "before": [
+            18,
+            39
+          ],
+          "after": [
+            18,
+            39
+          ],
+          "changed": false
+        },
+        {
+          "index": 14,
+          "before": [
+            27,
+            44
+          ],
+          "after": [
+            27,
+            44
+          ],
+          "changed": false
+        },
+        {
+          "index": 15,
+          "before": [
+            27,
+            44
+          ],
+          "after": [
+            27,
+            44
+          ],
+          "changed": false
+        }
+      ],
+      "before_sha256": "090e158daafe31e6a0db8af0d19c2f53bacb27d0c55b2286e085961a0f938cd6",
+      "after_sha256": "090e158daafe31e6a0db8af0d19c2f53bacb27d0c55b2286e085961a0f938cd6"
+    },
+    {
+      "name": "vacas_puerta",
+      "size": [
+        128,
+        256
+      ],
+      "cell": [
+        32,
+        64
+      ],
+      "cells": [
+        {
+          "index": 0,
+          "before": [
+            31,
+            56
+          ],
+          "after": [
+            31,
+            56
+          ],
+          "changed": false
+        },
+        {
+          "index": 1,
+          "before": [
+            31,
+            56
+          ],
+          "after": [
+            31,
+            56
+          ],
+          "changed": false
+        },
+        {
+          "index": 2,
+          "before": [
+            31,
+            56
+          ],
+          "after": [
+            31,
+            56
+          ],
+          "changed": false
+        },
+        {
+          "index": 3,
+          "before": [
+            31,
+            56
+          ],
+          "after": [
+            31,
+            56
+          ],
+          "changed": false
+        },
+        {
+          "index": 4,
+          "before": [
+            31,
+            56
+          ],
+          "after": [
+            31,
+            56
+          ],
+          "changed": false
+        },
+        {
+          "index": 5,
+          "before": [
+            31,
+            56
+          ],
+          "after": [
+            31,
+            56
+          ],
+          "changed": false
+        },
+        {
+          "index": 6,
+          "before": [
+            31,
+            56
+          ],
+          "after": [
+            31,
+            56
+          ],
+          "changed": false
+        },
+        {
+          "index": 7,
+          "before": [
+            31,
+            56
+          ],
+          "after": [
+            31,
+            56
+          ],
+          "changed": false
+        },
+        {
+          "index": 8,
+          "before": [
+            31,
+            56
+          ],
+          "after": [
+            31,
+            56
+          ],
+          "changed": false
+        },
+        {
+          "index": 9,
+          "before": [
+            31,
+            56
+          ],
+          "after": [
+            31,
+            56
+          ],
+          "changed": false
+        },
+        {
+          "index": 10,
+          "before": [
+            31,
+            56
+          ],
+          "after": [
+            31,
+            56
+          ],
+          "changed": false
+        },
+        {
+          "index": 11,
+          "before": [
+            31,
+            56
+          ],
+          "after": [
+            31,
+            56
+          ],
+          "changed": false
+        },
+        {
+          "index": 12,
+          "before": [
+            31,
+            56
+          ],
+          "after": [
+            31,
+            56
+          ],
+          "changed": false
+        },
+        {
+          "index": 13,
+          "before": [
+            31,
+            56
+          ],
+          "after": [
+            31,
+            56
+          ],
+          "changed": false
+        },
+        {
+          "index": 14,
+          "before": [
+            31,
+            56
+          ],
+          "after": [
+            31,
+            56
+          ],
+          "changed": false
+        },
+        {
+          "index": 15,
+          "before": [
+            31,
+            56
+          ],
+          "after": [
+            31,
+            56
+          ],
+          "changed": false
+        }
+      ],
+      "before_sha256": "5f9aa222e2d4ef672fdfd6a58dde95a868b7d4322edc7adebf606dc4bc729110",
+      "after_sha256": "5f9aa222e2d4ef672fdfd6a58dde95a868b7d4322edc7adebf606dc4bc729110"
+    },
+    {
+      "name": "vacas_furgoneta",
+      "size": [
+        384,
+        256
+      ],
+      "cell": [
+        96,
+        64
+      ],
+      "cells": [
+        {
+          "index": 0,
+          "before": [
+            89,
+            48
+          ],
+          "after": [
+            89,
+            48
+          ],
+          "changed": false
+        },
+        {
+          "index": 1,
+          "before": [
+            89,
+            48
+          ],
+          "after": [
+            89,
+            48
+          ],
+          "changed": false
+        },
+        {
+          "index": 2,
+          "before": [
+            89,
+            48
+          ],
+          "after": [
+            89,
+            48
+          ],
+          "changed": false
+        },
+        {
+          "index": 3,
+          "before": [
+            89,
+            48
+          ],
+          "after": [
+            89,
+            48
+          ],
+          "changed": false
+        },
+        {
+          "index": 4,
+          "before": [
+            89,
+            48
+          ],
+          "after": [
+            89,
+            48
+          ],
+          "changed": false
+        },
+        {
+          "index": 5,
+          "before": [
+            89,
+            48
+          ],
+          "after": [
+            89,
+            48
+          ],
+          "changed": false
+        },
+        {
+          "index": 6,
+          "before": [
+            89,
+            48
+          ],
+          "after": [
+            89,
+            48
+          ],
+          "changed": false
+        },
+        {
+          "index": 7,
+          "before": [
+            89,
+            48
+          ],
+          "after": [
+            89,
+            48
+          ],
+          "changed": false
+        },
+        {
+          "index": 8,
+          "before": [
+            89,
+            48
+          ],
+          "after": [
+            89,
+            48
+          ],
+          "changed": false
+        },
+        {
+          "index": 9,
+          "before": [
+            89,
+            48
+          ],
+          "after": [
+            89,
+            48
+          ],
+          "changed": false
+        },
+        {
+          "index": 10,
+          "before": [
+            89,
+            48
+          ],
+          "after": [
+            89,
+            48
+          ],
+          "changed": false
+        },
+        {
+          "index": 11,
+          "before": [
+            89,
+            48
+          ],
+          "after": [
+            89,
+            48
+          ],
+          "changed": false
+        },
+        {
+          "index": 12,
+          "before": [
+            89,
+            48
+          ],
+          "after": [
+            89,
+            48
+          ],
+          "changed": false
+        },
+        {
+          "index": 13,
+          "before": [
+            89,
+            48
+          ],
+          "after": [
+            89,
+            48
+          ],
+          "changed": false
+        },
+        {
+          "index": 14,
+          "before": [
+            89,
+            48
+          ],
+          "after": [
+            89,
+            48
+          ],
+          "changed": false
+        },
+        {
+          "index": 15,
+          "before": [
+            89,
+            48
+          ],
+          "after": [
+            89,
+            48
+          ],
+          "changed": false
+        }
+      ],
+      "before_sha256": "2a9d5da74da92eaa84fa06900528878302d873227cf401948a4fe0c3a1273976",
+      "after_sha256": "2a9d5da74da92eaa84fa06900528878302d873227cf401948a4fe0c3a1273976"
+    }
+  ],
+  "captures": [
+    "mapa2_salon_y_cocina_x2.png",
+    "mapa2_el_piso.png",
+    "mapa3_la_escalera.png",
+    "mapa4_la_calle.png",
+    "acto2_mapa5_eventos.png",
+    "acto2_mapa8_eventos.png",
+    "acto2_mapa9_eventos.png",
+    "acto2_mapa10_eventos.png",
+    "acto2_mapa11_eventos.png",
+    "acto3_12.png",
+    "acto3_13.png",
+    "acto3_14.png",
+    "acto3_15.png",
+    "acto3_16.png"
+  ],
+  "data_unchanged": true,
+  "backup": "diseno\\respaldos\\antes_escala_20261109",
+  "reproducible_from_saved_sources": true,
+  "components": {
+    "microscopio": {
+      "before_with_table": 64,
+      "after_instrument": 24,
+      "after_table": 24,
+      "after_total": 48
+    },
+    "tetera": {
+      "before_with_stool": 47,
+      "after_kettle": 12,
+      "after_stool": 24,
+      "after_total": 36
+    }
+  },
+  "visual_review": {
+    "captures_opened": [
+      "mapa2_salon_y_cocina_x2.png",
+      "mapa2_el_piso.png",
+      "mapa3_la_escalera.png",
+      "mapa4_la_calle.png",
+      "acto2_mapa5_eventos.png",
+      "acto2_mapa8_eventos.png",
+      "acto2_mapa9_eventos.png",
+      "acto2_mapa10_eventos.png",
+      "acto2_mapa11_eventos.png",
+      "acto3_12.png",
+      "acto3_13.png",
+      "acto3_14.png",
+      "acto3_15.png",
+      "acto3_16.png"
+    ],
+    "gallery_pages_opened": [
+      "escala_auditoria_1.png",
+      "escala_auditoria_2.png",
+      "escala_auditoria_3.png",
+      "escala_auditoria_4.png"
+    ],
+    "confirmed": "Frascos menores que personajes; microscopio sobre mesa; lampara 38 < silueta 40; asientos, cajas, armarios y vehiculo plausibles. Cama y banera comparadas como longitud en perspectiva superior."
+  }
+}

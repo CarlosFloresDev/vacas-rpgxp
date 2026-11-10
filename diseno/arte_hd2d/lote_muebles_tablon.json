@@ -8,7 +8,39 @@
       "cell": "32x64",
       "size": "128x256",
       "alpha_threshold": 128,
-      "resample": "box"
+      "resample": "box",
+      "cell_scale": {
+        "0": {
+          "height": 32
+        },
+        "1": {
+          "height": 32
+        },
+        "2": {
+          "height": 32
+        },
+        "3": {
+          "height": 32
+        },
+        "4": {
+          "height": 32
+        },
+        "5": {
+          "height": 32
+        },
+        "6": {
+          "height": 32
+        },
+        "7": {
+          "height": 32
+        },
+        "12": {
+          "height": 28
+        },
+        "14": {
+          "height": 28
+        }
+      }
     },
     {
       "source": "diseno/arte_hd2d/vacas_tablon_fuente.png",

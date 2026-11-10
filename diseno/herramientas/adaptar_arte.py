@@ -185,6 +185,22 @@ def adapt(spec):
                     tile.putalpha(alpha)
                 if spec.get('preserve_alpha'):
                     tile.putalpha(old.getchannel('A'))
+                # Escala física por índice, independiente del tamaño de la celda.
+                # Los recortes de componentes usan coordenadas de la celda adaptada;
+                # permiten conservar una mesa y reducir sólo el objeto que soporta.
+                rule = spec.get('cell_scale', {}).get(str(y*cols+x))
+                if rule:
+                    scaled = Image.new('RGBA', (cw, ch))
+                    for part in rule.get('parts', [rule]):
+                        obj = crop(tile.crop(tuple(part.get('crop', (0, 0, cw, ch)))))
+                        height = int(part['height'])
+                        width = max(1, round(obj.width*height/obj.height))
+                        bottom = ch-int(part.get('bottom', 0))
+                        if height < 1 or width > cw or bottom > ch or bottom-height < 0:
+                            raise ValueError('Escala fuera de celda: ' + str(y*cols+x))
+                        obj = alpha_cleanup(obj.resize((width, height), resample), threshold)
+                        scaled.alpha_composite(obj, ((cw-width)//2, bottom-height))
+                    tile = scaled
                 result.alpha_composite(finish(tile), (x*cw, y*ch))
     elif kind == 'character':
         cw, ch = dimensions(spec.get('cell', '32x48'))
@@ -310,7 +326,10 @@ def review_inventory(value):
                             errors.append(f'Ocupación de celda cambiada: {rel} ({x//cw},{y//ch})')
                         if before:
                             occupied += 1
-                            if (spec.get('indexed_mode', 'fit') == 'fit' and after and
+                            scale_rule = spec.get('cell_scale', {}).get(str(y//ch*(im.width//cw)+x//cw))
+                            if scale_rule and after and after[3] != ch:
+                                errors.append(f'Objeto escalado sin apoyo inferior: {rel} ({x//cw},{y//ch})')
+                            if (not scale_rule and spec.get('indexed_mode', 'fit') == 'fit' and after and
                                     (after[0] < before[0] or after[1] < before[1] or
                                      after[2] > before[2] or after[3] > before[3])):
                                 errors.append(f'Objeto fuera de su ancla: {rel} ({x//cw},{y//ch})')
