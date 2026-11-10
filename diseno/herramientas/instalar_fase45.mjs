@@ -1,0 +1,21 @@
+// Reutiliza el instalador de interfaz: misma serializacion y posicion pre-Main.
+import fs from 'node:fs';
+import zlib from 'node:zlib';
+import {fileURLToPath} from 'node:url';
+import {load,dump} from 'file:///D:/DevTools/mcp/rpgmaker-xp/node_modules/rpgmaker-xp-mcp/dist/vendor/marshal/index.js';
+const root=fileURLToPath(new URL('../../',import.meta.url));
+const path=root+'Data/Scripts.rxdata';
+if(!fs.existsSync(root+'diseno/respaldos/antes_fase45/Data/Scripts.rxdata'))throw Error('Falta respaldo');
+const rows=load(fs.readFileSync(path),{string:'binary',hash:'map'});
+const matadero=rows.find(r=>Buffer.from(r[1]).toString()==='Vacas_Matadero');
+if(!matadero)throw Error('Falta Vacas_Matadero');
+matadero[2]=zlib.deflateSync(fs.readFileSync(root+'diseno/scripts/05_matadero.rb'));
+const name='Vacas_Cinematicas';
+const code=zlib.deflateSync(fs.readFileSync(root+'diseno/scripts/15_cinematicas.rb'));
+const old=rows.find(r=>Buffer.from(r[1]).toString()===name);
+if(old)old[2]=code;
+else rows.splice(rows.findIndex(r=>Buffer.from(r[1]).toString()==='Main'),0,[197615,Buffer.from(name),code]);
+const bytes=dump(rows);
+if(load(bytes,{string:'binary',hash:'map'}).length!==rows.length)throw Error('Marshal');
+fs.writeFileSync(path,bytes);
+console.log('Cinematicas instaladas; '+rows.length+' secciones.');

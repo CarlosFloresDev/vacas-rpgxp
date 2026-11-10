@@ -1,0 +1,3020 @@
+{
+  "errores": [],
+  "contratos": [
+    {
+      "desde": 1,
+      "hasta": 2,
+      "guardas": [
+        13,
+        14
+      ],
+      "activa": 22,
+      "mapa": 5,
+      "xy": [
+        15,
+        19
+      ]
+    },
+    {
+      "desde": 2,
+      "hasta": 3,
+      "guardas": [
+        34
+      ],
+      "activa": 81,
+      "mapa": 12,
+      "xy": [
+        12,
+        17
+      ]
+    },
+    {
+      "desde": 3,
+      "hasta": 4,
+      "guardas": [
+        98
+      ],
+      "activa": 113,
+      "mapa": 17,
+      "xy": [
+        4,
+        11
+      ],
+      "objetos": [
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "desde": 4,
+      "hasta": 5,
+      "guardas": [
+        132
+      ],
+      "activa": 140,
+      "mapa": 22,
+      "xy": [
+        3,
+        11
+      ],
+      "objetos": [
+        33
+      ]
+    },
+    {
+      "desde": 5,
+      "hasta": 6,
+      "guardas": [
+        163,
+        "160|161|162"
+      ],
+      "activa": 176,
+      "mapa": 28,
+      "xy": [
+        3,
+        13
+      ]
+    }
+  ],
+  "switches_leidos": 99,
+  "switches_sin_escritor": [],
+  "lectores": {
+    "10": [
+      "2/1 Madre cazadora p1",
+      "2/12 Banera p1",
+      "2/14 Madre p2",
+      "2/2 Ambiente p0",
+      "2/31 Tele p0",
+      "2/34 Perro p1",
+      "2/4 Cama Steven p2",
+      "2/42 Nevera p1",
+      "2/47 Control busqueda p1",
+      "2/5 Cama Steven 2 p2",
+      "2/6 Armario p1"
+    ],
+    "17": [
+      "2/1 Madre cazadora p1",
+      "2/12 Banera p1",
+      "2/4 Cama Steven p2",
+      "2/46 Madre por la manana p1",
+      "2/48 Fin del tiempo p1",
+      "2/5 Cama Steven 2 p2",
+      "2/6 Armario p1"
+    ],
+    "11": [
+      "2/1 Madre cazadora p2"
+    ],
+    "12": [
+      "2/1 Madre cazadora p3",
+      "2/6 Armario p2"
+    ],
+    "81": [
+      "12/2 Dos golpes p0",
+      "2/1 Madre cazadora p4",
+      "2/14 Madre p5",
+      "2/3 Despertar p2",
+      "2/31 Tele p1",
+      "2/34 Perro p4",
+      "2/4 Cama Steven p6",
+      "2/44 Carne en la mesa p2",
+      "2/46 Madre por la manana p3",
+      "2/47 Control busqueda p2",
+      "2/48 Fin del tiempo p2",
+      "2/49 Bloqueo banera p1",
+      "2/5 Cama Steven 2 p6",
+      "3/15 Lucy p3",
+      "3/7 Escalera arriba p2",
+      "4/10 Furgoneta p2",
+      "4/11 Bloqueo furgoneta p2",
+      "4/12 Bloqueo furgoneta p2",
+      "4/19 Hombre del matadero p2",
+      "4/20 Hospital cerrado A3 p1",
+      "4/4 Mostrador p1",
+      "4/5 Molina p1"
+    ],
+    "27": [
+      "2/14 Madre p4",
+      "2/2 Ambiente p0",
+      "2/29 Puerta del piso p4",
+      "2/29 Puerta del piso p5",
+      "2/30 Puerta del piso 2 p4",
+      "2/30 Puerta del piso 2 p5",
+      "2/34 Perro p3",
+      "2/4 Cama Steven p4",
+      "2/4 Cama Steven p5",
+      "2/5 Cama Steven 2 p4",
+      "2/5 Cama Steven 2 p5",
+      "3/1 Ambiente p0",
+      "3/15 Lucy p1",
+      "3/6 Senor Anselmo p2",
+      "3/8 Bajada a la calle p1"
+    ],
+    "9": [
+      "2/14 Madre p1",
+      "2/2 Ambiente p0",
+      "2/29 Puerta del piso p2",
+      "2/30 Puerta del piso 2 p2",
+      "2/33 Piano p1",
+      "2/33 Piano p2",
+      "2/4 Cama Steven p1",
+      "2/5 Cama Steven 2 p1"
+    ],
+    "13": [
+      "2/14 Madre p3",
+      "2/2 Ambiente p0",
+      "2/29 Puerta del piso p3",
+      "2/30 Puerta del piso 2 p3",
+      "2/34 Perro p0",
+      "2/34 Perro p2",
+      "2/4 Cama Steven p3",
+      "2/46 Madre por la manana p1",
+      "2/5 Cama Steven 2 p3",
+      "3/5 Dona Remedios p1",
+      "3/6 Senor Anselmo p1",
+      "4/1 Ambiente p0",
+      "4/10 Furgoneta p1",
+      "4/11 Bloqueo furgoneta p1",
+      "4/12 Bloqueo furgoneta p1",
+      "4/19 Hombre del matadero p1",
+      "4/4 Mostrador p0",
+      "4/7 Borracho p1"
+    ],
+    "1": [
+      "2/3 Despertar p0"
+    ],
+    "28": [
+      "2/14 Madre p4",
+      "2/4 Cama Steven p4",
+      "2/4 Cama Steven p5",
+      "2/5 Cama Steven 2 p4",
+      "2/5 Cama Steven 2 p5"
+    ],
+    "43": [
+      "11/9 Despues del cajon p1",
+      "11/9 Despues del cajon p2",
+      "2/4 Cama Steven p4",
+      "2/4 Cama Steven p5",
+      "2/5 Cama Steven 2 p4",
+      "2/5 Cama Steven 2 p5",
+      "3/15 Lucy p1",
+      "7/11 Vaca del fondo p0",
+      "7/14 Puerta corral 3 p0",
+      "8/59 El cajon (escena) p1",
+      "8/59 El cajon (escena) p2"
+    ],
+    "35": [
+      "11/9 Despues del cajon p1",
+      "12/2 Dos golpes p0",
+      "2/14 Madre p4",
+      "2/34 Perro p3",
+      "2/4 Cama Steven p4",
+      "2/4 Cama Steven p5",
+      "2/5 Cama Steven 2 p4",
+      "2/5 Cama Steven 2 p5",
+      "6/11 Encarna p0",
+      "8/1 Cripps p1"
+    ],
+    "2": [
+      "2/11 Lavabo p0",
+      "2/14 Madre p0",
+      "2/15 Comoda madre p1",
+      "2/39 Alacena p1",
+      "2/40 Cajon cubiertos p1",
+      "4/4 Mostrador p0"
+    ],
+    "3": [
+      "2/14 Madre p0",
+      "2/34 Perro p0",
+      "2/34 Perro p2",
+      "2/36 Cuenco p1"
+    ],
+    "4": [
+      "2/14 Madre p0"
+    ],
+    "6": [
+      "2/14 Madre p0",
+      "2/44 Carne en la mesa p1"
+    ],
+    "7": [
+      "2/14 Madre p0"
+    ],
+    "37": [
+      "2/14 Madre p4"
+    ],
+    "19": [
+      "2/15 Comoda madre p1",
+      "2/40 Cajon cubiertos p1"
+    ],
+    "18": [
+      "2/29 Puerta del piso p1",
+      "2/30 Puerta del piso 2 p1"
+    ],
+    "20": [
+      "2/39 Alacena p1"
+    ],
+    "22": [
+      "2/46 Madre por la manana p2",
+      "3/5 Dona Remedios p2"
+    ],
+    "21": [
+      "2/48 Fin del tiempo p1"
+    ],
+    "39": [
+      "3/15 Lucy p2",
+      "3/7 Escalera arriba p1"
+    ],
+    "34": [
+      "3/15 Lucy p1",
+      "3/7 Escalera arriba p2",
+      "6/9 Fregaderos p0",
+      "8/2 Vaca del cajon p2",
+      "8/58 Pistola de perno p0"
+    ],
+    "5": [
+      "4/4 Mostrador p0"
+    ],
+    "23": [
+      "11/9 Despues del cajon p1",
+      "5/11 Benito patio p0",
+      "5/12 Cripps vestibulo p1",
+      "5/13 Fichadora p0",
+      "5/2 Llegada p0",
+      "6/11 Encarna p0",
+      "6/12 El Chato p0",
+      "6/5 Taquilla 13 p0",
+      "7/15 El Rubio p0",
+      "8/1 Cripps p1",
+      "8/4 Ruido de la cadena p0",
+      "8/54 Benito p0",
+      "8/55 Obrero de la sierra p0",
+      "8/56 Encarna cadena p0",
+      "8/59 El cajon (escena) p1"
+    ],
+    "25": [
+      "5/13 Fichadora p0",
+      "6/10 Desague vestuario p0",
+      "6/4 Salida cadena p0",
+      "6/5 Taquilla 13 p0"
+    ],
+    "41": [
+      "7/11 Vaca del fondo p1",
+      "8/2 Vaca del cajon p1"
+    ],
+    "26": [
+      "8/1 Cripps p2",
+      "8/53 Final de la cinta p0",
+      "9/1 Ambiente p0",
+      "9/33 Cripps vigila p1"
+    ],
+    "29": [
+      "10/1 Ambiente p0",
+      "10/13 Cripps vigila p1",
+      "10/5 Escritorio p0",
+      "8/1 Cripps p3",
+      "8/9 Puerta oficina p1"
+    ],
+    "40": [
+      "10/2 Pillado p1",
+      "8/53 Final de la cinta p0",
+      "9/2 Pillado p1",
+      "9/29 Camara 1 p0",
+      "9/30 Camara 2 p0",
+      "9/31 Camara 3 p0"
+    ],
+    "31": [
+      "10/2 Pillado p1",
+      "9/2 Pillado p1"
+    ],
+    "32": [
+      "10/5 Escritorio p0"
+    ],
+    "33": [
+      "10/6 Archivador p0",
+      "11/1 Rejilla p0",
+      "11/5 Trampilla p0"
+    ],
+    "44": [
+      "11/4 Manguera p0"
+    ],
+    "38": [
+      "11/5 Trampilla p0",
+      "11/9 Despues del cajon p1",
+      "16/8 Lucy: diagnóstico p0"
+    ],
+    "82": [
+      "12/2 Dos golpes p1"
+    ],
+    "86": [
+      "12/4 Lucy junto a la mesa p1",
+      "12/8 Laboratorio tras la cortina p0"
+    ],
+    "88": [
+      "12/4 Lucy junto a la mesa p2",
+      "16/8 Lucy: diagnóstico p0"
+    ],
+    "83": [
+      "13/3 Molina p0"
+    ],
+    "84": [
+      "13/4 Puerta del depósito vecino p0"
+    ],
+    "90": [
+      "14/3 Sombra de la persiana p1",
+      "14/4 Tiempo de la persiana p0"
+    ],
+    "85": [
+      "14/6 Cortina azul: refugio p0",
+      "14/7 Salida del depósito p0",
+      "15/3 Elena p0"
+    ],
+    "101": [
+      "14/10 Captura de la persiana p0"
+    ],
+    "98": [
+      "15/8 Colector bajo hospital A4 p1",
+      "16/8 Lucy: diagnóstico p1"
+    ],
+    "104": [
+      "16/3 Preparación A: hígado p0"
+    ],
+    "105": [
+      "16/4 Preparación B: riñón p0"
+    ],
+    "106": [
+      "16/5 Control limpio p0"
+    ],
+    "113": [
+      "17/2 Llegada al colector p0"
+    ],
+    "96": [
+      "17/2 Llegada al colector p0",
+      "20/4 La Guernsey bajo la ciudad p0",
+      "28/8 Carta húmeda p0",
+      "30/5 Madre: última cena p0",
+      "32/5 Lugar para Lucy p0",
+      "32/7 Guernsey: desenlace p0"
+    ],
+    "114": [
+      "17/2 Llegada al colector p1"
+    ],
+    "120": [
+      "18/6 Acechador 18 p1",
+      "18/7 Reloj de caza p0"
+    ],
+    "122": [
+      "18/8 Captura pendiente p0"
+    ],
+    "118": [
+      "19/3 Compuerta a la camara p0",
+      "19/6 Valvula descarga p0"
+    ],
+    "116": [
+      "19/6 Valvula descarga p0"
+    ],
+    "126": [
+      "19/6 Valvula descarga p0",
+      "20/6 Junco en consejo p0",
+      "23/5 Aliada en el pasillo p2",
+      "27/5 Junco en el patio p1"
+    ],
+    "123": [
+      "19/7 Acechador 19 p1",
+      "19/8 Reloj de caza p0"
+    ],
+    "125": [
+      "19/9 Captura pendiente p0"
+    ],
+    "132": [
+      "21/6 Paso hacia el matadero nocturno p0",
+      "32/6 Pacto al pie del altar p0"
+    ],
+    "140": [
+      "22/2 Llegada al muelle p0",
+      "23/2 Primera vez p0",
+      "24/2 Primera vez p0",
+      "25/2 Primera vez p0",
+      "26/2 Primera vez p0",
+      "26/8 Umbral de la oficina p0",
+      "27/2 Primera vez p0"
+    ],
+    "133": [
+      "22/2 Llegada al muelle p0",
+      "26/9 Cripps en su mesa p1",
+      "27/3 La Guernsey en el patio p0",
+      "29/2 Llegada A6 p0",
+      "32/6 Pacto al pie del altar p0",
+      "32/7 Guernsey: desenlace p0"
+    ],
+    "141": [
+      "22/2 Llegada al muelle p1"
+    ],
+    "142": [
+      "22/3 Descubierto p1",
+      "23/3 Descubierto p1"
+    ],
+    "151": [
+      "22/4 Vigia A5 p1",
+      "23/15 Res en espera p1",
+      "23/16 Res en espera p1",
+      "23/17 Res en espera p1",
+      "23/18 Res en espera p1",
+      "23/19 Res en espera p1",
+      "23/20 Res en espera p1",
+      "23/21 Res en espera p1",
+      "23/22 Res en espera p1",
+      "23/23 Res en espera p1",
+      "23/24 Res en espera p1",
+      "23/25 Res en espera p1",
+      "23/4 Vigia A5 p2",
+      "23/5 Aliada en el pasillo p3",
+      "24/3 El Rubio p2",
+      "24/4 El Chato p2",
+      "25/10 Rejilla del sangrado p0",
+      "25/3 Cripps caza p3",
+      "25/4 Empieza la caza p3",
+      "25/5 Reloj de caza p2",
+      "25/9 Puerta de la escalera p0"
+    ],
+    "145": [
+      "22/12 Rejilla de la manada p0",
+      "23/10 Cadena del corral 3 p0",
+      "23/11 Cadena del corral 4 p0",
+      "23/12 Cadena del corral 5 p0",
+      "23/15 Res en espera p1",
+      "23/16 Res en espera p1",
+      "23/17 Res en espera p1",
+      "23/18 Res en espera p1",
+      "23/19 Res en espera p1",
+      "23/20 Res en espera p1",
+      "23/21 Res en espera p1",
+      "23/22 Res en espera p1",
+      "23/23 Res en espera p1",
+      "23/24 Res en espera p1",
+      "23/25 Res en espera p1",
+      "23/8 Cadena del corral 1 p0",
+      "23/9 Cadena del corral 2 p0",
+      "25/5 Reloj de caza p1",
+      "28/5 Nicho de los corrales p0"
+    ],
+    "143": [
+      "23/4 Vigia A5 p1",
+      "23/5 Aliada en el pasillo p1",
+      "23/5 Aliada en el pasillo p2"
+    ],
+    "134": [
+      "23/10 Cadena del corral 3 p0",
+      "23/11 Cadena del corral 4 p0",
+      "23/12 Cadena del corral 5 p0",
+      "23/8 Cadena del corral 1 p0",
+      "23/9 Cadena del corral 2 p0",
+      "25/5 Reloj de caza p1",
+      "26/9 Cripps en su mesa p1",
+      "27/4 Muesca en el patio p0",
+      "29/2 Llegada A6 p0"
+    ],
+    "144": [
+      "23/13 Sirena de corrales p0",
+      "24/5 Cuadro de la noria p0"
+    ],
+    "146": [
+      "24/3 El Rubio p0",
+      "24/4 El Chato p0"
+    ],
+    "147": [
+      "24/3 El Rubio p1",
+      "24/4 El Chato p1",
+      "27/11 El Rubio en la cancela p1",
+      "27/12 El Chato en la cancela p1",
+      "29/4 Obreros: consecuencia visible p1",
+      "31/2 Llegada A6 p0",
+      "32/7 Guernsey: desenlace p0"
+    ],
+    "148": [
+      "24/5 Cuadro de la noria p0",
+      "24/8 Noria de izado p0",
+      "24/9 Puerta del rail p0"
+    ],
+    "169": [
+      "24/5 Cuadro de la noria p0"
+    ],
+    "149": [
+      "24/6 Armero del aturdido p0"
+    ],
+    "152": [
+      "25/2 Primera vez p1",
+      "25/4 Empieza la caza p1"
+    ],
+    "150": [
+      "25/13 Vuelta a la sala p0",
+      "25/3 Cripps caza p1",
+      "25/3 Cripps caza p2",
+      "25/4 Empieza la caza p2",
+      "25/5 Reloj de caza p1",
+      "25/6 Canal vaciada p0",
+      "25/7 Canal vaciada del centro p0",
+      "25/8 Ganchos de repuesto p0",
+      "25/9 Puerta de la escalera p0"
+    ],
+    "165": [
+      "25/6 Canal vaciada p0"
+    ],
+    "166": [
+      "25/7 Canal vaciada del centro p0"
+    ],
+    "155": [
+      "25/8 Ganchos de repuesto p0"
+    ],
+    "97": [
+      "26/4 Cajas de etiquetas p0",
+      "26/9 Cripps en su mesa p1",
+      "28/8 Carta húmeda p0",
+      "29/11 Tablón de lotes p0",
+      "30/5 Madre: última cena p0"
+    ],
+    "167": [
+      "26/8 Umbral de la oficina p1",
+      "26/9 Cripps en su mesa p1"
+    ],
+    "159": [
+      "26/10 La Guernsey en la oficina p1",
+      "26/12 Caja fuerte p0",
+      "26/13 Ventanal de la nave p0",
+      "26/16 Escalera de incendios p0",
+      "26/9 Cripps en su mesa p2"
+    ],
+    "160": [
+      "26/10 La Guernsey en la oficina p1",
+      "27/3 La Guernsey en el patio p0",
+      "28/2 Llegada A6 p0",
+      "32/7 Guernsey: desenlace p0"
+    ],
+    "161": [
+      "26/10 La Guernsey en la oficina p1",
+      "27/3 La Guernsey en el patio p0",
+      "28/2 Llegada A6 p0",
+      "32/7 Guernsey: desenlace p0"
+    ],
+    "162": [
+      "27/2 Primera vez p0",
+      "27/3 La Guernsey en el patio p0",
+      "32/7 Guernsey: desenlace p0"
+    ],
+    "171": [
+      "27/2 Primera vez p0",
+      "29/4 Obreros: consecuencia visible p2",
+      "32/7 Guernsey: desenlace p0"
+    ],
+    "168": [
+      "27/15 Cancela abierta p0",
+      "27/16 Cancela abierta p0",
+      "27/3 La Guernsey en el patio p1"
+    ],
+    "177": [
+      "28/2 Llegada A6 p1"
+    ],
+    "183": [
+      "28/8 Carta húmeda p1",
+      "32/7 Guernsey: desenlace p0"
+    ],
+    "178": [
+      "28/9 Escalera a la ciudad p0"
+    ],
+    "179": [
+      "29/2 Llegada A6 p1"
+    ],
+    "181": [
+      "29/12 Portón de la galería p0",
+      "30/10 Puerta interior cerrada p0",
+      "30/5 Madre: última cena p1",
+      "30/9 Bajar a la ciudad p0"
+    ],
+    "180": [
+      "30/2 Llegada A6 p1"
+    ],
+    "182": [
+      "30/4 Perro al volver p1",
+      "32/7 Guernsey: desenlace p0"
+    ],
+    "192": [
+      "30/5 Madre: última cena p0",
+      "30/5 Madre: última cena p1",
+      "32/7 Guernsey: desenlace p0"
+    ],
+    "196": [
+      "31/2 Llegada A6 p1"
+    ],
+    "184": [
+      "31/8 Paso al altar p0"
+    ],
+    "135": [
+      "32/2 Llegada A6 p0"
+    ],
+    "186": [
+      "32/2 Llegada A6 p1"
+    ]
+  },
+  "escritores": {
+    "22": [
+      "script Vacas_Nucleo"
+    ],
+    "23": [
+      "script Vacas_BajoCiudad bucle id",
+      "script Vacas_Lucy bucle id",
+      "script Vacas_Nucleo"
+    ],
+    "1": [
+      "1/1 Prologo p0",
+      "script Vacas_Nucleo bucle i"
+    ],
+    "2": [
+      "2/14 Madre p0",
+      "script Vacas_Nucleo bucle i"
+    ],
+    "3": [
+      "2/34 Perro p0",
+      "2/34 Perro p2",
+      "script Vacas_Nucleo bucle i"
+    ],
+    "4": [
+      "2/14 Madre p0",
+      "script Vacas_Nucleo bucle i"
+    ],
+    "5": [
+      "4/4 Mostrador p0",
+      "script Vacas_Nucleo bucle i"
+    ],
+    "6": [
+      "2/14 Madre p0",
+      "script Vacas_Nucleo bucle i"
+    ],
+    "7": [
+      "4/3 Tablon p0",
+      "script Vacas_Nucleo bucle i"
+    ],
+    "8": [
+      "2/14 Madre p0",
+      "script Vacas_Nucleo bucle i"
+    ],
+    "12": [
+      "2/1 Madre cazadora p1",
+      "2/12 Banera p1",
+      "2/4 Cama Steven p2",
+      "2/48 Fin del tiempo p1",
+      "2/5 Cama Steven 2 p2",
+      "2/6 Armario p1",
+      "script Vacas_Nucleo bucle i"
+    ],
+    "13": [
+      "2/1 Madre cazadora p1",
+      "2/12 Banera p1",
+      "2/4 Cama Steven p2",
+      "2/48 Fin del tiempo p1",
+      "2/5 Cama Steven 2 p2",
+      "2/6 Armario p1",
+      "script Vacas_Nucleo bucle i"
+    ],
+    "14": [
+      "4/19 Hombre del matadero p1",
+      "script Vacas_Nucleo bucle i"
+    ],
+    "18": [
+      "2/14 Madre p0",
+      "script Vacas_Nucleo bucle i"
+    ],
+    "19": [
+      "2/15 Comoda madre p1",
+      "script Vacas_Nucleo bucle i"
+    ],
+    "20": [
+      "2/39 Alacena p1",
+      "script Vacas_Nucleo bucle i"
+    ],
+    "81": [
+      "script Vacas_Lucy"
+    ],
+    "35": [
+      "8/59 El cajon (escena) p1",
+      "script Vacas_Lucy"
+    ],
+    "36": [
+      "8/59 El cajon (escena) p1",
+      "script Vacas_Lucy"
+    ],
+    "9": [
+      "2/14 Madre p0",
+      "script Vacas_BajoCiudad bucle id",
+      "script Vacas_Lucy bucle id"
+    ],
+    "10": [
+      "2/4 Cama Steven p1",
+      "2/5 Cama Steven 2 p1",
+      "script Vacas_BajoCiudad bucle id",
+      "script Vacas_Lucy bucle id"
+    ],
+    "11": [
+      "2/12 Banera p1",
+      "2/4 Cama Steven p2",
+      "2/5 Cama Steven 2 p2",
+      "2/6 Armario p1",
+      "script Vacas_BajoCiudad bucle id",
+      "script Vacas_Lucy bucle id"
+    ],
+    "15": [
+      "1/1 Prologo p0",
+      "4/19 Hombre del matadero p1",
+      "script Vacas_BajoCiudad bucle id",
+      "script Vacas_Lucy bucle id"
+    ],
+    "16": [
+      "1/1 Prologo p0",
+      "4/19 Hombre del matadero p1",
+      "script Vacas_BajoCiudad bucle id",
+      "script Vacas_Lucy bucle id"
+    ],
+    "24": [
+      "5/13 Fichadora p0",
+      "script Vacas_BajoCiudad bucle id",
+      "script Vacas_Lucy bucle id"
+    ],
+    "25": [
+      "script Vacas_BajoCiudad bucle id",
+      "script Vacas_Lucy bucle id"
+    ],
+    "26": [
+      "8/52 Puesto de corte p0",
+      "script Vacas_BajoCiudad bucle id",
+      "script Vacas_Lucy bucle id",
+      "script Vacas_Matanza bucle id",
+      "script Vacas_Reydios bucle id"
+    ],
+    "27": [
+      "5/13 Fichadora p0",
+      "script Vacas_BajoCiudad bucle id",
+      "script Vacas_Lucy bucle id"
+    ],
+    "29": [
+      "11/1 Rejilla p0",
+      "script Vacas_BajoCiudad bucle id",
+      "script Vacas_Lucy bucle id",
+      "script Vacas_Matanza bucle id",
+      "script Vacas_Reydios bucle id"
+    ],
+    "30": [
+      "script Vacas_BajoCiudad bucle id",
+      "script Vacas_Lucy bucle id",
+      "script Vacas_Matanza bucle id",
+      "script Vacas_Reydios bucle id"
+    ],
+    "31": [
+      "script Vacas_BajoCiudad bucle id",
+      "script Vacas_Lucy bucle id",
+      "script Vacas_Matanza bucle id",
+      "script Vacas_Reydios bucle id"
+    ],
+    "40": [
+      "8/53 Final de la cinta p0",
+      "script Vacas_BajoCiudad bucle id",
+      "script Vacas_Lucy bucle id"
+    ],
+    "28": [
+      "script Vacas_Lucy bucle id"
+    ],
+    "34": [
+      "8/59 El cajon (escena) p1",
+      "script Vacas_Lucy bucle id"
+    ],
+    "39": [
+      "3/15 Lucy p1",
+      "script Vacas_Lucy bucle id"
+    ],
+    "43": [
+      "script Vacas_Lucy bucle id"
+    ],
+    "55": [
+      "2/4 Cama Steven p4",
+      "2/4 Cama Steven p5",
+      "2/5 Cama Steven 2 p4",
+      "2/5 Cama Steven 2 p5",
+      "script Vacas_Lucy bucle id"
+    ],
+    "113": [
+      "script Vacas_BajoCiudad"
+    ],
+    "115": [
+      "21/4 Altar de las cosas salvadas p0",
+      "script Vacas_BajoCiudad"
+    ],
+    "96": [
+      "16/8 Lucy: diagnóstico p0",
+      "script Vacas_BajoCiudad",
+      "script Vacas_Reydios"
+    ],
+    "97": [
+      "16/8 Lucy: diagnóstico p0",
+      "script Vacas_BajoCiudad",
+      "script Vacas_Reydios"
+    ],
+    "90": [
+      "14/2 Persiana despierta p0",
+      "14/8 Llamador de servicio p0",
+      "script Vacas_BajoCiudad bucle id"
+    ],
+    "101": [
+      "14/4 Tiempo de la persiana p0",
+      "script Vacas_BajoCiudad bucle id"
+    ],
+    "82": [
+      "12/2 Dos golpes p0",
+      "script Vacas_BajoCiudad bucle id"
+    ],
+    "83": [
+      "12/4 Lucy junto a la mesa p0",
+      "script Vacas_BajoCiudad bucle id"
+    ],
+    "84": [
+      "13/3 Molina p0",
+      "script Vacas_BajoCiudad bucle id"
+    ],
+    "85": [
+      "14/5 Riñón del lote borrado p0",
+      "script Vacas_BajoCiudad bucle id"
+    ],
+    "86": [
+      "15/3 Elena p0",
+      "script Vacas_BajoCiudad bucle id"
+    ],
+    "88": [
+      "16/7 Comparador y cuaderno p0",
+      "script Vacas_BajoCiudad bucle id"
+    ],
+    "91": [
+      "14/6 Cortina azul: refugio p0",
+      "14/7 Salida del depósito p0",
+      "script Vacas_BajoCiudad bucle id"
+    ],
+    "95": [
+      "16/8 Lucy: diagnóstico p0",
+      "script Vacas_BajoCiudad bucle id"
+    ],
+    "98": [
+      "16/8 Lucy: diagnóstico p0",
+      "script Vacas_BajoCiudad bucle id"
+    ],
+    "104": [
+      "16/3 Preparación A: hígado p0",
+      "script Vacas_BajoCiudad bucle id"
+    ],
+    "105": [
+      "16/4 Preparación B: riñón p0",
+      "script Vacas_BajoCiudad bucle id"
+    ],
+    "106": [
+      "16/5 Control limpio p0",
+      "script Vacas_BajoCiudad bucle id"
+    ],
+    "120": [
+      "18/5 Muesca vigila p0",
+      "script Vacas_BajoCiudad bucle id",
+      "script Vacas_Reydios bucle id"
+    ],
+    "122": [
+      "18/7 Reloj de caza p0",
+      "script Vacas_BajoCiudad bucle id",
+      "script Vacas_Reydios bucle id"
+    ],
+    "123": [
+      "19/6 Valvula descarga p0",
+      "script Vacas_BajoCiudad bucle id"
+    ],
+    "125": [
+      "19/8 Reloj de caza p0",
+      "script Vacas_BajoCiudad bucle id"
+    ],
+    "140": [
+      "script Vacas_Matanza"
+    ],
+    "133": [
+      "20/4 La Guernsey bajo la ciudad p0",
+      "script Vacas_Matanza"
+    ],
+    "134": [
+      "20/4 La Guernsey bajo la ciudad p0",
+      "script Vacas_Matanza"
+    ],
+    "151": [
+      "script Vacas_Matanza",
+      "script Vacas_Reydios bucle id"
+    ],
+    "142": [
+      "script Vacas_Matanza",
+      "script Vacas_Matanza bucle id",
+      "script Vacas_Reydios bucle id"
+    ],
+    "150": [
+      "25/4 Empieza la caza p1",
+      "script Vacas_Matanza bucle id",
+      "script Vacas_Reydios bucle id"
+    ],
+    "114": [
+      "17/2 Llegada al colector p0",
+      "script Vacas_Matanza bucle id"
+    ],
+    "116": [
+      "19/5 Valvula retorno p0",
+      "script Vacas_Matanza bucle id"
+    ],
+    "117": [
+      "19/6 Valvula descarga p0",
+      "script Vacas_Matanza bucle id"
+    ],
+    "118": [
+      "19/6 Valvula descarga p0",
+      "script Vacas_Matanza bucle id"
+    ],
+    "119": [
+      "18/10 Rueda entre trapos p0",
+      "script Vacas_Matanza bucle id"
+    ],
+    "121": [
+      "18/3 Ramal del altar p0",
+      "18/4 Boca inundada p0",
+      "18/9 Nicho de sacos p0",
+      "script Vacas_Matanza bucle id"
+    ],
+    "124": [
+      "19/10 Armario de bombas p0",
+      "19/3 Compuerta a la camara p0",
+      "script Vacas_Matanza bucle id"
+    ],
+    "126": [
+      "19/4 Junco atrapada p0",
+      "script Vacas_Matanza bucle id"
+    ],
+    "127": [
+      "18/5 Muesca vigila p0",
+      "script Vacas_Matanza bucle id"
+    ],
+    "128": [
+      "18/12 El Coro del tubo p0",
+      "script Vacas_Matanza bucle id"
+    ],
+    "129": [
+      "19/11 El Pulmon de cieno p0",
+      "script Vacas_Matanza bucle id"
+    ],
+    "130": [
+      "20/4 La Guernsey bajo la ciudad p0",
+      "script Vacas_Matanza bucle id"
+    ],
+    "131": [
+      "20/4 La Guernsey bajo la ciudad p0",
+      "script Vacas_Matanza bucle id"
+    ],
+    "132": [
+      "20/4 La Guernsey bajo la ciudad p0",
+      "script Vacas_Matanza bucle id"
+    ],
+    "135": [
+      "20/4 La Guernsey bajo la ciudad p0",
+      "script Vacas_Matanza bucle id"
+    ],
+    "138": [
+      "18/5 Muesca vigila p0",
+      "script Vacas_Matanza bucle id"
+    ],
+    "139": [
+      "21/8 Dinamo de tres resonancias p0",
+      "script Vacas_Matanza bucle id"
+    ],
+    "176": [
+      "script Vacas_Reydios"
+    ],
+    "147": [
+      "24/3 El Rubio p0",
+      "24/4 El Chato p0",
+      "script Vacas_Reydios",
+      "script Vacas_Reydios bucle id"
+    ],
+    "171": [
+      "25/5 Reloj de caza p1",
+      "script Vacas_Reydios"
+    ],
+    "145": [
+      "23/10 Cadena del corral 3 p0",
+      "23/11 Cadena del corral 4 p0",
+      "23/12 Cadena del corral 5 p0",
+      "23/8 Cadena del corral 1 p0",
+      "23/9 Cadena del corral 2 p0",
+      "script Vacas_Reydios",
+      "script Vacas_Reydios bucle id"
+    ],
+    "188": [
+      "script Vacas_Reydios"
+    ],
+    "185": [
+      "script Vacas_Reydios",
+      "script Vacas_Reydios bucle id"
+    ],
+    "184": [
+      "script Vacas_Reydios"
+    ],
+    "156": [
+      "26/9 Cripps en su mesa p1",
+      "script Vacas_Reydios bucle id"
+    ],
+    "159": [
+      "26/9 Cripps en su mesa p1",
+      "script Vacas_Reydios bucle id"
+    ],
+    "163": [
+      "27/15 Cancela abierta p0",
+      "27/16 Cancela abierta p0",
+      "script Vacas_Reydios bucle id"
+    ],
+    "160": [
+      "26/9 Cripps en su mesa p1",
+      "script Vacas_Reydios bucle id"
+    ],
+    "161": [
+      "26/9 Cripps en su mesa p1",
+      "script Vacas_Reydios bucle id"
+    ],
+    "162": [
+      "26/9 Cripps en su mesa p1",
+      "script Vacas_Reydios bucle id"
+    ],
+    "189": [
+      "Vacas.registrar_final: 188+rama (1..3)"
+    ],
+    "190": [
+      "Vacas.registrar_final: 188+rama (1..3)"
+    ],
+    "191": [
+      "Vacas.registrar_final: 188+rama (1..3)"
+    ],
+    "17": [
+      "2/1 Madre cazadora p1",
+      "2/12 Banera p1",
+      "2/4 Cama Steven p2",
+      "2/48 Fin del tiempo p1",
+      "2/5 Cama Steven 2 p2",
+      "2/6 Armario p1"
+    ],
+    "54": [
+      "10/9 Foto p0",
+      "11/5 Trampilla p0",
+      "13/5 Factura cosida p0",
+      "14/9 Tarro que atestigua p0",
+      "15/4 Camilla sin paciente p0",
+      "16/8 Lucy: diagnóstico p0",
+      "18/12 El Coro del tubo p0",
+      "19/11 El Pulmon de cieno p0",
+      "2/31 Tele p0",
+      "2/4 Cama Steven p1",
+      "2/4 Cama Steven p4",
+      "2/4 Cama Steven p5",
+      "2/5 Cama Steven 2 p1",
+      "2/5 Cama Steven 2 p4",
+      "2/5 Cama Steven 2 p5",
+      "20/4 La Guernsey bajo la ciudad p0",
+      "23/10 Cadena del corral 3 p0",
+      "23/11 Cadena del corral 4 p0",
+      "23/12 Cadena del corral 5 p0",
+      "23/8 Cadena del corral 1 p0",
+      "23/9 Cadena del corral 2 p0",
+      "24/6 Armero del aturdido p0",
+      "25/8 Ganchos de repuesto p0",
+      "26/9 Cripps en su mesa p1",
+      "28/4 Tubería de los nombres p0",
+      "30/5 Madre: última cena p0",
+      "32/7 Guernsey: desenlace p0",
+      "6/10 Desague vestuario p0",
+      "7/10 Vaca p0",
+      "7/11 Vaca del fondo p0",
+      "7/11 Vaca del fondo p1",
+      "7/5 Vaca p0",
+      "7/6 Vaca p0",
+      "7/7 Vaca p0",
+      "7/8 Vaca p0",
+      "7/9 Vaca p0",
+      "8/10 Canal p0",
+      "8/11 Canal p0",
+      "8/12 Canal p0",
+      "8/13 Canal p0",
+      "8/14 Canal p0",
+      "8/15 Canal p0",
+      "8/16 Canal p0",
+      "8/17 Canal p0",
+      "8/18 Canal p0",
+      "8/19 Canal p0",
+      "8/20 Canal p0",
+      "8/21 Canal p0",
+      "8/22 Canal p0",
+      "8/23 Canal p0",
+      "8/24 Canal p0",
+      "8/25 Canal p0",
+      "8/26 Canal p0",
+      "8/27 Canal p0",
+      "8/28 Canal p0",
+      "8/29 Canal p0",
+      "8/30 Canal p0"
+    ],
+    "51": [
+      "2/4 Cama Steven p1",
+      "2/5 Cama Steven 2 p1"
+    ],
+    "47": [
+      "2/4 Cama Steven p4",
+      "2/4 Cama Steven p5",
+      "2/5 Cama Steven 2 p4",
+      "2/5 Cama Steven 2 p5",
+      "8/10 Canal p0",
+      "8/11 Canal p0",
+      "8/12 Canal p0",
+      "8/13 Canal p0",
+      "8/14 Canal p0",
+      "8/15 Canal p0",
+      "8/16 Canal p0",
+      "8/17 Canal p0",
+      "8/18 Canal p0",
+      "8/19 Canal p0",
+      "8/20 Canal p0",
+      "8/21 Canal p0",
+      "8/22 Canal p0",
+      "8/23 Canal p0",
+      "8/24 Canal p0",
+      "8/25 Canal p0",
+      "8/26 Canal p0",
+      "8/27 Canal p0",
+      "8/28 Canal p0",
+      "8/29 Canal p0",
+      "8/30 Canal p0"
+    ],
+    "49": [
+      "2/4 Cama Steven p4",
+      "2/4 Cama Steven p5",
+      "2/5 Cama Steven 2 p4",
+      "2/5 Cama Steven 2 p5"
+    ],
+    "53": [
+      "2/8 Libro p0"
+    ],
+    "37": [
+      "2/14 Madre p4"
+    ],
+    "42": [
+      "2/14 Madre p4"
+    ],
+    "107": [
+      "2/14 Madre p5"
+    ],
+    "45": [
+      "2/31 Tele p0"
+    ],
+    "21": [
+      "2/47 Control busqueda p1"
+    ],
+    "46": [
+      "6/10 Desague vestuario p0"
+    ],
+    "50": [
+      "7/10 Vaca p0",
+      "7/11 Vaca del fondo p0",
+      "7/11 Vaca del fondo p1",
+      "7/5 Vaca p0",
+      "7/6 Vaca p0",
+      "7/7 Vaca p0",
+      "7/8 Vaca p0",
+      "7/9 Vaca p0"
+    ],
+    "41": [
+      "7/14 Puerta corral 3 p0"
+    ],
+    "32": [
+      "10/5 Escritorio p0"
+    ],
+    "33": [
+      "10/6 Archivador p0"
+    ],
+    "48": [
+      "10/9 Foto p0"
+    ],
+    "38": [
+      "11/1 Rejilla p0"
+    ],
+    "44": [
+      "11/4 Manguera p0"
+    ],
+    "52": [
+      "11/5 Trampilla p0"
+    ],
+    "102": [
+      "12/6 Taza sin usar p0"
+    ],
+    "93": [
+      "13/5 Factura cosida p0"
+    ],
+    "92": [
+      "14/9 Tarro que atestigua p0"
+    ],
+    "94": [
+      "15/4 Camilla sin paciente p0"
+    ],
+    "103": [
+      "15/5 Nota de existencias p0",
+      "16/6 Etiqueta del frasco p0"
+    ],
+    "141": [
+      "22/2 Llegada al muelle p0"
+    ],
+    "143": [
+      "23/5 Aliada en el pasillo p1",
+      "23/5 Aliada en el pasillo p2"
+    ],
+    "153": [
+      "23/10 Cadena del corral 3 p0",
+      "23/11 Cadena del corral 4 p0",
+      "23/12 Cadena del corral 5 p0",
+      "23/8 Cadena del corral 1 p0",
+      "23/9 Cadena del corral 2 p0"
+    ],
+    "144": [
+      "23/13 Sirena de corrales p0"
+    ],
+    "164": [
+      "23/14 Orden de matanza p0"
+    ],
+    "146": [
+      "24/3 El Rubio p0",
+      "24/4 El Chato p0"
+    ],
+    "148": [
+      "24/5 Cuadro de la noria p0"
+    ],
+    "169": [
+      "24/5 Cuadro de la noria p0"
+    ],
+    "154": [
+      "24/6 Armero del aturdido p0"
+    ],
+    "149": [
+      "24/6 Armero del aturdido p0"
+    ],
+    "152": [
+      "25/2 Primera vez p0"
+    ],
+    "165": [
+      "25/6 Canal vaciada p0"
+    ],
+    "166": [
+      "25/7 Canal vaciada del centro p0"
+    ],
+    "155": [
+      "25/8 Ganchos de repuesto p0"
+    ],
+    "167": [
+      "26/8 Umbral de la oficina p0"
+    ],
+    "168": [
+      "27/3 La Guernsey en el patio p0"
+    ],
+    "177": [
+      "28/2 Llegada A6 p0"
+    ],
+    "178": [
+      "28/4 Tubería de los nombres p0"
+    ],
+    "183": [
+      "28/8 Carta húmeda p0"
+    ],
+    "179": [
+      "29/2 Llegada A6 p0"
+    ],
+    "180": [
+      "30/2 Llegada A6 p0"
+    ],
+    "195": [
+      "30/5 Madre: última cena p0"
+    ],
+    "192": [
+      "30/5 Madre: última cena p0"
+    ],
+    "182": [
+      "30/5 Madre: última cena p0"
+    ],
+    "181": [
+      "30/5 Madre: última cena p0"
+    ],
+    "196": [
+      "31/2 Llegada A6 p0"
+    ],
+    "186": [
+      "32/2 Llegada A6 p0"
+    ],
+    "187": [
+      "32/7 Guernsey: desenlace p0"
+    ]
+  },
+  "temporizadores_segundos": [
+    [
+      "2/4 Cama Steven p1",
+      30
+    ],
+    [
+      "2/5 Cama Steven 2 p1",
+      30
+    ],
+    [
+      "14/2 Persiana despierta p0",
+      35
+    ],
+    [
+      "14/8 Llamador de servicio p0",
+      35
+    ],
+    [
+      "18/5 Muesca vigila p0",
+      32
+    ],
+    [
+      "19/6 Valvula descarga p0",
+      28
+    ],
+    [
+      "25/4 Empieza la caza p1",
+      30
+    ],
+    [
+      "25/4 Empieza la caza p1",
+      40
+    ]
+  ],
+  "entregas_consumos_items": [
+    [
+      "2/7 Cajonera p0",
+      [
+        8,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "2/11 Lavabo p0",
+      [
+        3,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "2/14 Madre p0",
+      [
+        3,
+        1,
+        0,
+        1
+      ]
+    ],
+    [
+      "2/14 Madre p0",
+      [
+        5,
+        1,
+        0,
+        1
+      ]
+    ],
+    [
+      "2/14 Madre p0",
+      [
+        4,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "2/14 Madre p0",
+      [
+        7,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "2/15 Comoda madre p1",
+      [
+        2,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "2/34 Perro p0",
+      [
+        1,
+        1,
+        0,
+        1
+      ]
+    ],
+    [
+      "2/34 Perro p2",
+      [
+        1,
+        1,
+        0,
+        1
+      ]
+    ],
+    [
+      "2/39 Alacena p1",
+      [
+        1,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "3/15 Lucy p1",
+      [
+        13,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "4/3 Tablon p0",
+      [
+        6,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "4/4 Mostrador p0",
+      [
+        5,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "5/13 Fichadora p0",
+      [
+        9,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "8/1 Cripps p1",
+      [
+        12,
+        1,
+        0,
+        1
+      ]
+    ],
+    [
+      "10/5 Escritorio p0",
+      [
+        10,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "10/6 Archivador p0",
+      [
+        11,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "11/4 Manguera p0",
+      [
+        12,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "12/4 Lucy junto a la mesa p0",
+      [
+        14,
+        0,
+        0,
+        2
+      ]
+    ],
+    [
+      "12/4 Lucy junto a la mesa p0",
+      [
+        15,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "13/3 Molina p0",
+      [
+        14,
+        1,
+        0,
+        1
+      ]
+    ],
+    [
+      "13/3 Molina p0",
+      [
+        16,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "13/3 Molina p0",
+      [
+        18,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "13/3 Molina p0",
+      [
+        23,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "14/5 Riñón del lote borrado p0",
+      [
+        14,
+        1,
+        0,
+        1
+      ]
+    ],
+    [
+      "14/5 Riñón del lote borrado p0",
+      [
+        17,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "15/3 Elena p0",
+      [
+        19,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "15/3 Elena p0",
+      [
+        20,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "15/3 Elena p0",
+      [
+        21,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "15/3 Elena p0",
+      [
+        22,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "15/3 Elena p0",
+      [
+        24,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "16/3 Preparación A: hígado p0",
+      [
+        16,
+        1,
+        0,
+        1
+      ]
+    ],
+    [
+      "16/3 Preparación A: hígado p0",
+      [
+        25,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "16/4 Preparación B: riñón p0",
+      [
+        17,
+        1,
+        0,
+        1
+      ]
+    ],
+    [
+      "16/4 Preparación B: riñón p0",
+      [
+        26,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "16/5 Control limpio p0",
+      [
+        22,
+        1,
+        0,
+        1
+      ]
+    ],
+    [
+      "16/5 Control limpio p0",
+      [
+        27,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "16/7 Comparador y cuaderno p0",
+      [
+        28,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "16/8 Lucy: diagnóstico p0",
+      [
+        29,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "16/8 Lucy: diagnóstico p0",
+      [
+        29,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "17/5 Pila de emergencia p0",
+      [
+        31,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "17/6 Plano rayado del colector p0",
+      [
+        34,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "18/10 Rueda entre trapos p0",
+      [
+        32,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "18/11 Pila de emergencia p0",
+      [
+        31,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "19/12 Pila de emergencia p0",
+      [
+        31,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "20/4 La Guernsey bajo la ciudad p0",
+      [
+        33,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "20/4 La Guernsey bajo la ciudad p0",
+      [
+        33,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "21/5 Caja de repuestos del altar p0",
+      [
+        31,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "21/8 Dinamo de tres resonancias p0",
+      [
+        31,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "22/6 Tablero de llaves p0",
+      [
+        35,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "22/6 Tablero de llaves p0",
+      [
+        36,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "23/14 Orden de matanza p0",
+      [
+        38,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "24/6 Armero del aturdido p0",
+      [
+        37,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "28/6 Muesca espera p0",
+      [
+        39,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "28/8 Carta húmeda p0",
+      [
+        40,
+        0,
+        0,
+        1
+      ]
+    ]
+  ],
+  "combates": [
+    [
+      "2/4 Cama Steven p1",
+      2
+    ],
+    [
+      "2/4 Cama Steven p1",
+      2
+    ],
+    [
+      "2/4 Cama Steven p4",
+      9
+    ],
+    [
+      "2/4 Cama Steven p4",
+      9
+    ],
+    [
+      "2/4 Cama Steven p4",
+      7
+    ],
+    [
+      "2/4 Cama Steven p4",
+      7
+    ],
+    [
+      "2/4 Cama Steven p4",
+      3
+    ],
+    [
+      "2/4 Cama Steven p4",
+      3
+    ],
+    [
+      "2/4 Cama Steven p5",
+      9
+    ],
+    [
+      "2/4 Cama Steven p5",
+      9
+    ],
+    [
+      "2/4 Cama Steven p5",
+      7
+    ],
+    [
+      "2/4 Cama Steven p5",
+      7
+    ],
+    [
+      "2/4 Cama Steven p5",
+      3
+    ],
+    [
+      "2/4 Cama Steven p5",
+      3
+    ],
+    [
+      "2/5 Cama Steven 2 p1",
+      2
+    ],
+    [
+      "2/5 Cama Steven 2 p1",
+      2
+    ],
+    [
+      "2/5 Cama Steven 2 p4",
+      9
+    ],
+    [
+      "2/5 Cama Steven 2 p4",
+      9
+    ],
+    [
+      "2/5 Cama Steven 2 p4",
+      7
+    ],
+    [
+      "2/5 Cama Steven 2 p4",
+      7
+    ],
+    [
+      "2/5 Cama Steven 2 p4",
+      3
+    ],
+    [
+      "2/5 Cama Steven 2 p4",
+      3
+    ],
+    [
+      "2/5 Cama Steven 2 p5",
+      9
+    ],
+    [
+      "2/5 Cama Steven 2 p5",
+      9
+    ],
+    [
+      "2/5 Cama Steven 2 p5",
+      7
+    ],
+    [
+      "2/5 Cama Steven 2 p5",
+      7
+    ],
+    [
+      "2/5 Cama Steven 2 p5",
+      3
+    ],
+    [
+      "2/5 Cama Steven 2 p5",
+      3
+    ],
+    [
+      "2/31 Tele p0",
+      8
+    ],
+    [
+      "6/10 Desague vestuario p0",
+      5
+    ],
+    [
+      "7/5 Vaca p0",
+      1
+    ],
+    [
+      "7/6 Vaca p0",
+      1
+    ],
+    [
+      "7/7 Vaca p0",
+      1
+    ],
+    [
+      "7/8 Vaca p0",
+      1
+    ],
+    [
+      "7/9 Vaca p0",
+      1
+    ],
+    [
+      "7/10 Vaca p0",
+      1
+    ],
+    [
+      "7/11 Vaca del fondo p0",
+      1
+    ],
+    [
+      "7/11 Vaca del fondo p1",
+      1
+    ],
+    [
+      "8/10 Canal p0",
+      7
+    ],
+    [
+      "8/11 Canal p0",
+      7
+    ],
+    [
+      "8/12 Canal p0",
+      7
+    ],
+    [
+      "8/13 Canal p0",
+      7
+    ],
+    [
+      "8/14 Canal p0",
+      7
+    ],
+    [
+      "8/15 Canal p0",
+      7
+    ],
+    [
+      "8/16 Canal p0",
+      7
+    ],
+    [
+      "8/17 Canal p0",
+      7
+    ],
+    [
+      "8/18 Canal p0",
+      7
+    ],
+    [
+      "8/19 Canal p0",
+      7
+    ],
+    [
+      "8/20 Canal p0",
+      7
+    ],
+    [
+      "8/21 Canal p0",
+      7
+    ],
+    [
+      "8/22 Canal p0",
+      7
+    ],
+    [
+      "8/23 Canal p0",
+      7
+    ],
+    [
+      "8/24 Canal p0",
+      7
+    ],
+    [
+      "8/25 Canal p0",
+      7
+    ],
+    [
+      "8/26 Canal p0",
+      7
+    ],
+    [
+      "8/27 Canal p0",
+      7
+    ],
+    [
+      "8/28 Canal p0",
+      7
+    ],
+    [
+      "8/29 Canal p0",
+      7
+    ],
+    [
+      "8/30 Canal p0",
+      7
+    ],
+    [
+      "10/9 Foto p0",
+      4
+    ],
+    [
+      "11/5 Trampilla p0",
+      6
+    ],
+    [
+      "13/5 Factura cosida p0",
+      11
+    ],
+    [
+      "14/9 Tarro que atestigua p0",
+      10
+    ],
+    [
+      "15/4 Camilla sin paciente p0",
+      12
+    ],
+    [
+      "16/8 Lucy: diagnóstico p0",
+      13
+    ],
+    [
+      "18/12 El Coro del tubo p0",
+      14
+    ],
+    [
+      "19/11 El Pulmon de cieno p0",
+      15
+    ],
+    [
+      "20/4 La Guernsey bajo la ciudad p0",
+      16
+    ],
+    [
+      "20/4 La Guernsey bajo la ciudad p0",
+      17
+    ],
+    [
+      "23/8 Cadena del corral 1 p0",
+      19
+    ],
+    [
+      "23/9 Cadena del corral 2 p0",
+      19
+    ],
+    [
+      "23/10 Cadena del corral 3 p0",
+      19
+    ],
+    [
+      "23/11 Cadena del corral 4 p0",
+      19
+    ],
+    [
+      "23/12 Cadena del corral 5 p0",
+      19
+    ],
+    [
+      "24/6 Armero del aturdido p0",
+      18
+    ],
+    [
+      "25/8 Ganchos de repuesto p0",
+      20
+    ],
+    [
+      "26/9 Cripps en su mesa p1",
+      21
+    ],
+    [
+      "28/4 Tubería de los nombres p0",
+      33
+    ],
+    [
+      "30/5 Madre: última cena p0",
+      34
+    ],
+    [
+      "32/7 Guernsey: desenlace p0",
+      35
+    ],
+    [
+      "32/7 Guernsey: desenlace p0",
+      36
+    ],
+    [
+      "32/7 Guernsey: desenlace p0",
+      37
+    ]
+  ],
+  "enemigos_usados": [
+    {
+      "id": 1,
+      "name": "La Vaca que habla",
+      "maxhp": 160,
+      "maxsp": 90,
+      "atk": 30,
+      "pdef": 22,
+      "mdef": 20,
+      "agi": 24
+    },
+    {
+      "id": 2,
+      "name": "La Madre de yeso",
+      "maxhp": 220,
+      "maxsp": 90,
+      "atk": 34,
+      "pdef": 22,
+      "mdef": 20,
+      "agi": 24
+    },
+    {
+      "id": 3,
+      "name": "Lo del túnel",
+      "maxhp": 240,
+      "maxsp": 90,
+      "atk": 33,
+      "pdef": 22,
+      "mdef": 20,
+      "agi": 24
+    },
+    {
+      "id": 4,
+      "name": "Sombra de Cripps",
+      "maxhp": 280,
+      "maxsp": 90,
+      "atk": 38,
+      "pdef": 22,
+      "mdef": 20,
+      "agi": 24
+    },
+    {
+      "id": 5,
+      "name": "Enjambre de moscas",
+      "maxhp": 125,
+      "maxsp": 90,
+      "atk": 25,
+      "pdef": 22,
+      "mdef": 20,
+      "agi": 24
+    },
+    {
+      "id": 6,
+      "name": "Guernsey de humo",
+      "maxhp": 300,
+      "maxsp": 90,
+      "atk": 36,
+      "pdef": 22,
+      "mdef": 20,
+      "agi": 24
+    },
+    {
+      "id": 7,
+      "name": "Canal en el gancho",
+      "maxhp": 260,
+      "maxsp": 90,
+      "atk": 35,
+      "pdef": 22,
+      "mdef": 20,
+      "agi": 24
+    },
+    {
+      "id": 8,
+      "name": "La Familia de nieve",
+      "maxhp": 180,
+      "maxsp": 90,
+      "atk": 28,
+      "pdef": 22,
+      "mdef": 20,
+      "agi": 24
+    },
+    {
+      "id": 9,
+      "name": "El Rey del cajón",
+      "maxhp": 650,
+      "maxsp": 90,
+      "atk": 43,
+      "pdef": 22,
+      "mdef": 20,
+      "agi": 24
+    },
+    {
+      "id": 10,
+      "name": "El Tarro testigo",
+      "maxhp": 230,
+      "maxsp": 90,
+      "atk": 30,
+      "pdef": 22,
+      "mdef": 20,
+      "agi": 24
+    },
+    {
+      "id": 11,
+      "name": "La Factura cosida",
+      "maxhp": 260,
+      "maxsp": 90,
+      "atk": 32,
+      "pdef": 22,
+      "mdef": 20,
+      "agi": 24
+    },
+    {
+      "id": 12,
+      "name": "La Camilla vacía",
+      "maxhp": 300,
+      "maxsp": 90,
+      "atk": 34,
+      "pdef": 22,
+      "mdef": 20,
+      "agi": 24
+    },
+    {
+      "id": 13,
+      "name": "El Diagnóstico",
+      "maxhp": 720,
+      "maxsp": 90,
+      "atk": 41,
+      "pdef": 22,
+      "mdef": 20,
+      "agi": 24
+    },
+    {
+      "id": 14,
+      "name": "El Coro del tubo",
+      "maxhp": 270,
+      "maxsp": 90,
+      "atk": 31,
+      "pdef": 22,
+      "mdef": 20,
+      "agi": 24
+    },
+    {
+      "id": 15,
+      "name": "El Pulmon de cieno",
+      "maxhp": 310,
+      "maxsp": 90,
+      "atk": 33,
+      "pdef": 22,
+      "mdef": 20,
+      "agi": 24
+    },
+    {
+      "id": 16,
+      "name": "El Cencerro sin lengua",
+      "maxhp": 290,
+      "maxsp": 90,
+      "atk": 32,
+      "pdef": 22,
+      "mdef": 20,
+      "agi": 24
+    },
+    {
+      "id": 17,
+      "name": "El Pastor hueco",
+      "maxhp": 760,
+      "maxsp": 90,
+      "atk": 39,
+      "pdef": 22,
+      "mdef": 20,
+      "agi": 24
+    },
+    {
+      "id": 18,
+      "name": "El Turno de noche",
+      "maxhp": 340,
+      "maxsp": 90,
+      "atk": 35,
+      "pdef": 22,
+      "mdef": 20,
+      "agi": 24
+    },
+    {
+      "id": 19,
+      "name": "La Res que cuenta",
+      "maxhp": 330,
+      "maxsp": 90,
+      "atk": 34,
+      "pdef": 22,
+      "mdef": 20,
+      "agi": 24
+    },
+    {
+      "id": 20,
+      "name": "El Gancho que respira",
+      "maxhp": 360,
+      "maxsp": 90,
+      "atk": 36,
+      "pdef": 22,
+      "mdef": 20,
+      "agi": 24
+    },
+    {
+      "id": 21,
+      "name": "Cripps, el matarife",
+      "maxhp": 860,
+      "maxsp": 90,
+      "atk": 43,
+      "pdef": 22,
+      "mdef": 20,
+      "agi": 24
+    },
+    {
+      "id": 33,
+      "name": "El Censo de las bocas",
+      "maxhp": 340,
+      "maxsp": 90,
+      "atk": 29,
+      "pdef": 22,
+      "mdef": 20,
+      "agi": 24
+    },
+    {
+      "id": 34,
+      "name": "La Mesa que exige",
+      "maxhp": 390,
+      "maxsp": 90,
+      "atk": 31,
+      "pdef": 22,
+      "mdef": 20,
+      "agi": 24
+    },
+    {
+      "id": 35,
+      "name": "El Rey sin rostro",
+      "maxhp": 860,
+      "maxsp": 90,
+      "atk": 35,
+      "pdef": 22,
+      "mdef": 20,
+      "agi": 24
+    },
+    {
+      "id": 36,
+      "name": "Tu Número en la cadena",
+      "maxhp": 860,
+      "maxsp": 90,
+      "atk": 35,
+      "pdef": 22,
+      "mdef": 20,
+      "agi": 24
+    },
+    {
+      "id": 37,
+      "name": "La Puerta que muerde",
+      "maxhp": 860,
+      "maxsp": 90,
+      "atk": 35,
+      "pdef": 22,
+      "mdef": 20,
+      "agi": 24
+    }
+  ],
+  "sintaxis": [
+    [
+      "diseno\\herramientas\\verificacion_scripts\\000.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\001.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\002.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\003.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\004.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\005.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\006.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\007.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\008.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\009.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\010.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\011.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\012.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\013.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\014.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\015.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\016.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\017.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\018.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\019.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\020.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\021.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\022.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\023.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\024.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\025.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\026.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\027.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\028.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\029.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\030.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\031.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\032.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\033.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\034.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\035.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\036.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\037.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\038.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\039.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\040.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\041.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\042.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\043.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\044.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\045.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\046.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\047.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\048.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\049.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\050.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\051.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\052.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\053.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\054.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\055.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\056.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\057.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\058.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\059.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\060.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\061.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\062.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\063.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\064.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\065.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\066.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\067.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\068.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\069.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\070.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\071.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\072.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\073.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\074.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\075.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\076.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\077.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\078.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\079.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\080.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\081.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\082.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\083.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\084.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\085.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\086.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\087.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\088.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\089.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\090.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\091.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\092.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\093.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\094.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\095.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\096.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\097.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\098.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\099.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\100.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\101.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\102.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\103.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\104.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\verificacion_scripts\\105.rb",
+      true
+    ],
+    [
+      "diseno\\scripts\\01_nucleo.rb",
+      true
+    ],
+    [
+      "diseno\\scripts\\02_veneno.rb",
+      true
+    ],
+    [
+      "diseno\\scripts\\03_menu.rb",
+      true
+    ],
+    [
+      "diseno\\scripts\\04_pantallas.rb",
+      true
+    ],
+    [
+      "diseno\\scripts\\05_matadero.rb",
+      true
+    ],
+    [
+      "diseno\\scripts\\06_vn.rb",
+      true
+    ],
+    [
+      "diseno\\scripts\\07_mente.rb",
+      true
+    ],
+    [
+      "diseno\\scripts\\08_accesos.rb",
+      true
+    ],
+    [
+      "diseno\\scripts\\09_lucy.rb",
+      true
+    ],
+    [
+      "diseno\\scripts\\10_bajo_ciudad.rb",
+      true
+    ],
+    [
+      "diseno\\scripts\\11_interfaz.rb",
+      true
+    ],
+    [
+      "diseno\\scripts\\12_intro_feka.rb",
+      true
+    ],
+    [
+      "diseno\\scripts\\13_matanza.rb",
+      true
+    ],
+    [
+      "diseno\\scripts\\14_reydios.rb",
+      true
+    ],
+    [
+      "diseno\\scripts\\15_cinematicas.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\prueba_fase45.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\recorrido_fase45.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\balance_fase45.rb",
+      true
+    ],
+    [
+      "diseno\\herramientas\\simular_fase45.rb",
+      true
+    ]
+  ],
+  "rxdata_cargados": 47,
+  "Data_modificados": [
+    "Scripts.rxdata"
+  ],
+  "colisiones_acto5": 1616,
+  "capturas_cinematicas": [
+    [
+      "cine_piso.png",
+      [
+        960,
+        704
+      ]
+    ],
+    [
+      "cine_matadero.png",
+      [
+        960,
+        704
+      ]
+    ],
+    [
+      "cine_altar.png",
+      [
+        640,
+        480
+      ]
+    ],
+    [
+      "cine_ciudad.png",
+      [
+        640,
+        480
+      ]
+    ]
+  ],
+  "alcance": "Escritores potenciales ON: asignaciones distintas de false y bucles literales. Lectores requieren ON. Existencia no demuestra alcanzabilidad. Contratos y rutas se ejecutan con interprete original; ver informe sobre limite del arnes RGSS nativo."
+}

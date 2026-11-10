@@ -1,0 +1,108 @@
+OK Atajo sin cinematica [11]
+OK Atajo sin cinematica [22]
+OK Atajo sin cinematica [23]
+OK Atajo sin cinematica [17]
+OK Atajo sin cinematica [17, 18]
+OK BGM/BGS zone 1
+OK BGM/BGS zone 2
+OK BGM/BGS zone 3
+OK BGM/BGS zone 4
+OK BGM/BGS zone 5
+OK BGM/BGS zone 6
+OK BGM/BGS zone 7
+OK BGM/BGS zone 8
+OK BGM/BGS zone 9
+OK BGM/BGS zone 10
+OK BGM/BGS zone 11
+OK BGM/BGS zone 12
+OK BGM/BGS zone 13
+OK BGM/BGS zone 14
+OK BGM/BGS zone 15
+OK BGM/BGS zone 16
+OK BGM/BGS zone 17
+OK BGM/BGS zone 18
+OK BGM/BGS zone 19
+OK BGM/BGS zone 20
+OK BGM/BGS zone 21
+OK BGM/BGS zone 22
+OK BGM/BGS zone 23
+OK BGM/BGS zone 24
+OK BGM/BGS zone 25
+OK BGM/BGS zone 26
+OK BGM/BGS zone 27
+OK BGM/BGS zone 28
+OK BGM/BGS zone 29
+OK BGM/BGS zone 30
+OK BGM/BGS zone 31
+OK BGM/BGS zone 32
+OK Equipo Feka en creditos del titulo
+OK Salto exige liberar y mantener 1 s
+OK Menu: continuar, cancelar y saltar con teclas
+OK Cache de capturas sigue disponible
+OK Marshal Data/Actors.rxdata
+OK Marshal Data/Animations.rxdata
+OK Marshal Data/Armors.rxdata
+OK Marshal Data/Classes.rxdata
+OK Marshal Data/CommonEvents.rxdata
+OK Marshal Data/Enemies.rxdata
+OK Marshal Data/Items.rxdata
+OK Marshal Data/Map001.rxdata
+OK Marshal Data/Map002.rxdata
+OK Marshal Data/Map003.rxdata
+OK Marshal Data/Map004.rxdata
+OK Marshal Data/Map005.rxdata
+OK Marshal Data/Map006.rxdata
+OK Marshal Data/Map007.rxdata
+OK Marshal Data/Map008.rxdata
+OK Marshal Data/Map009.rxdata
+OK Marshal Data/Map010.rxdata
+OK Marshal Data/Map011.rxdata
+OK Marshal Data/Map012.rxdata
+OK Marshal Data/Map013.rxdata
+OK Marshal Data/Map014.rxdata
+OK Marshal Data/Map015.rxdata
+OK Marshal Data/Map016.rxdata
+OK Marshal Data/Map017.rxdata
+OK Marshal Data/Map018.rxdata
+OK Marshal Data/Map019.rxdata
+OK Marshal Data/Map020.rxdata
+OK Marshal Data/Map021.rxdata
+OK Marshal Data/Map022.rxdata
+OK Marshal Data/Map023.rxdata
+OK Marshal Data/Map024.rxdata
+OK Marshal Data/Map025.rxdata
+OK Marshal Data/Map026.rxdata
+OK Marshal Data/Map027.rxdata
+OK Marshal Data/Map028.rxdata
+OK Marshal Data/Map029.rxdata
+OK Marshal Data/Map030.rxdata
+OK Marshal Data/Map031.rxdata
+OK Marshal Data/Map032.rxdata
+OK Marshal Data/MapInfos.rxdata
+OK Marshal Data/Scripts.rxdata
+OK Marshal Data/Skills.rxdata
+OK Marshal Data/States.rxdata
+OK Marshal Data/System.rxdata
+OK Marshal Data/Tilesets.rxdata
+OK Marshal Data/Troops.rxdata
+OK Marshal Data/Weapons.rxdata
+OK Ctrl+W abre selector
+OK Nueva partida abre cinematica
+OK Apertura completa dura 54 s
+OK Apertura conserva prologo y partida
+OK Intérprete 1/Prologo
+OK Intérprete 2/Despertar
+OK Intérprete 2/Madre
+OK Intérprete 2/Comoda madre
+OK Intérprete 2/Alacena
+OK Intérprete 2/Perro
+OK Intérprete 2/Lavabo
+OK Intérprete 2/Madre
+OK Intérprete 4/Mostrador
+OK Intérprete 4/Tablon
+OK Intérprete 2/Madre
+OK Intérprete 2/Madre
+OK I: tareas y llave sin inyectar switches
+OK Intérprete 2/Cama Steven
+FALLO Intérprete 2/Armario
+FALLO RuntimeError: Intérprete 2/Armario | Section105:7:in `verificar' | Section105:71:in `ejecutar' | (eval):9:in `jugar' | (eval):41:in `recorrer_hasta_seis' | Section105:85 | Section105:79:in `each' | Section105:79 | Section105:78:in `each'

@@ -113,8 +113,8 @@ class Vacas_Corte < Vacas_Minijuego
     end
   end
   def nueva_franja(r)
-    ancho = 70 - r * 8
-    ancho = 26 if ancho < 26
+    ancho = 70 - r * 6
+    ancho = 38 if ancho < 38
     @zona_w = ancho
     @zona_x = 20 + rand(BW - ancho - 40)
     b = @barra.bitmap
@@ -132,7 +132,7 @@ class Vacas_Corte < Vacas_Minijuego
       rotulo(@cuenta, "Pieza " + (r + 1).to_s + " de " + @rondas.to_s, GRIS)
       rotulo(@info, "", CLARO)
       pos = 0.0
-      vel = 4.0 + r * 0.9
+      vel = [4.0 + r * 0.6, 7.0].min
       dir = 1
       marco = 0
       soltado = false
