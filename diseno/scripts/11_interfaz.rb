@@ -1145,7 +1145,7 @@ class Scene_Battle
     zone=:manada if $game_temp.battle_troop_id==17
     zone=:laboratorio if (10..13).include?($game_temp.battle_troop_id)
     $game_map.battleback_name='ui_'+zone.to_s
-    Vacas_Audio.play([9,13,17].include?($game_temp.battle_troop_id) ? :jefe : :combate)
+    Vacas_Audio.play([9,13,17,21,35,36,37].include?($game_temp.battle_troop_id) ? :jefe : :combate)
     begin
       ui_battle_main
     ensure
@@ -1989,6 +1989,11 @@ end
 
 module Vacas_Audio
   CREDITS_LINES = [
+    "FEKA STUDIOS - VACAS",
+    "Carlos - dirección, arte, diseño",
+    "Alexandre - historia",
+    'Ithalo "Ander" - sonido',
+    "",
     "Creditos de audio - Vacas",
     "",
     "Todos los archivos estan convertidos a OGG Vorbis (los",

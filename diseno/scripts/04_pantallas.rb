@@ -147,7 +147,7 @@ class Scene_FinActo
     2 => ["Fin del Acto II", "La cadena", "Acto III: Lucy", "Pulsa Intro para seguir"],
     3 => ["Fin del Acto III", "Lucy", "Acto IV: Bajo la ciudad", "Pulsa Intro para seguir"],
     4 => ["Fin del Acto IV", "Bajo la ciudad", "Acto V: La matanza", "Pulsa Intro para seguir"],
-    5 => ["Fin del Acto V", "La matanza", "Continuará en el Acto VI: Rey-dios", "Pulsa Intro para volver al título"]
+    5 => ["Fin del Acto V", "La matanza", "Acto VI: Rey-dios", "Pulsa Intro para seguir"]
   }
   def initialize(acto = 1)
     @acto = acto
@@ -189,6 +189,9 @@ class Scene_FinActo
           $scene = Scene_Map.new
         elsif @acto == 4
           Vacas.empezar_acto5
+          $scene = Scene_Map.new
+        elsif @acto == 5
+          Vacas.empezar_acto6
           $scene = Scene_Map.new
         else
           $scene = Scene_Title.new

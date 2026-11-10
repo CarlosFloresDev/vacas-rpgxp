@@ -1,5 +1,13 @@
 # Audio de Vacas
 
+Actualización Acto VI: `14_reydios.rb` amplía `MAP_AUDIO` con mapas 28–32:
+28/31, `:alcantarillas` con `:alcantarillas_bgm`; 29, `:matadero` con calle
+nocturna y lluvia; 30, `:piso` con tema seguro y reloj; 32, `:manada` con
+drone y eco. El switch 185 activa persecución y las tropas 35–37 usan música
+de jefe. Las compuertas usan `Vacas_Audio.play(:cadena_gancho)`. Los créditos
+del cierre incluyen íntegro el audio CC y el equipo de Feka Studios; también
+se conserva el listado del título. Detalles en [ACTO_VI.md](ACTO_VI.md).
+
 Integración del 10 de noviembre de 2026, RGSS1 / Ruby 1.8.
 Se instalaron las **120 entradas** del manifiesto en `Audio/BGM`, `BGS`, `ME` y
 `SE`. Las 96 entradas sin destino explícito usan `Audio/TIPO/nombre_original`.

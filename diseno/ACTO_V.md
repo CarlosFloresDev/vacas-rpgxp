@@ -86,4 +86,4 @@ Para recompilar: `node inspeccionar.mjs` → `python maps5.py` → `node rx.mjs 
 - El tono de pantalla y la máscara nocturna no se han valorado juntos en el motor; puede quedar demasiado oscuro o claro.
 - Los escondites dependen de que el intérprete bloquee el toque de Cripps; comprobado por lógica, no jugando.
 - Durante el trabajo había un `Game.exe` ajeno abierto; no se tocó. `Vacas.cfg` ya aparecía modificado y no se incluye en el commit.
-- Acto VI pendiente.
+- Acto VI y tres finales implementados: [Rey-dios](ACTO_VI.md). El cierre del V continúa al VI; Ctrl+W + Nueva partida abre el selector de prueba del VI.

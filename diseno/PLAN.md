@@ -88,8 +88,8 @@ Steven pasa de víctima a verdugo y termina como rey-dios de una manada carnívo
 1. **Prototipo vertical (Acto I completo):** piso, madre, Perro, tele, cordura y guardado. Sirve para validar el tono.
 2. Base de datos y scripts núcleo (cordura, linterna, retratos, persecución).
 3. Acto II (matadero) con sus minijuegos.
-4. Acto III implementado: [Lucy](ACTO_III.md). Sigue pendiente el Acto IV.
-5. Actos V–VI y finales.
+4. Actos III–IV implementados: [Lucy](ACTO_III.md) y [Bajo la ciudad](ACTO_IV.md).
+5. Actos V–VI implementados: [La matanza](ACTO_V.md), [Rey-dios y los tres finales](ACTO_VI.md). FIN → créditos del juego → título.
 6. Arte propio (retratos, matadero, vacas), sonido y pulido.
 7. Pruebas y build (Game.exe + RTP incluido).
 

@@ -1,0 +1,393 @@
+OK Marshal Data/Actors.rxdata
+OK Marshal Data/Animations.rxdata
+OK Marshal Data/Armors.rxdata
+OK Marshal Data/Classes.rxdata
+OK Marshal Data/CommonEvents.rxdata
+OK Marshal Data/Enemies.rxdata
+OK Marshal Data/Items.rxdata
+OK Marshal Data/Map001.rxdata
+OK Marshal Data/Map002.rxdata
+OK Marshal Data/Map003.rxdata
+OK Marshal Data/Map004.rxdata
+OK Marshal Data/Map005.rxdata
+OK Marshal Data/Map006.rxdata
+OK Marshal Data/Map007.rxdata
+OK Marshal Data/Map008.rxdata
+OK Marshal Data/Map009.rxdata
+OK Marshal Data/Map010.rxdata
+OK Marshal Data/Map011.rxdata
+OK Marshal Data/Map012.rxdata
+OK Marshal Data/Map013.rxdata
+OK Marshal Data/Map014.rxdata
+OK Marshal Data/Map015.rxdata
+OK Marshal Data/Map016.rxdata
+OK Marshal Data/Map017.rxdata
+OK Marshal Data/Map018.rxdata
+OK Marshal Data/Map019.rxdata
+OK Marshal Data/Map020.rxdata
+OK Marshal Data/Map021.rxdata
+OK Marshal Data/Map022.rxdata
+OK Marshal Data/Map023.rxdata
+OK Marshal Data/Map024.rxdata
+OK Marshal Data/Map025.rxdata
+OK Marshal Data/Map026.rxdata
+OK Marshal Data/Map027.rxdata
+OK Marshal Data/Map028.rxdata
+OK Marshal Data/Map029.rxdata
+OK Marshal Data/Map030.rxdata
+OK Marshal Data/Map031.rxdata
+OK Marshal Data/Map032.rxdata
+OK Marshal Data/MapInfos.rxdata
+OK Marshal Data/Scripts.rxdata
+OK Marshal Data/Skills.rxdata
+OK Marshal Data/States.rxdata
+OK Marshal Data/System.rxdata
+OK Marshal Data/Tilesets.rxdata
+OK Marshal Data/Troops.rxdata
+OK Marshal Data/Weapons.rxdata
+OK Ctrl+W abre selector
+OK Inicio A6 rama 1
+OK Matices de prueba
+OK Intérprete 28/Llegada A6
+OK Intérprete 28/Carta húmeda
+OK Intérprete 28/Muesca espera
+OK Intérprete 28/Muesca espera
+OK Ruta única
+OK Intérprete 28/Tubería de los nombres
+OK Intérprete 28/Escalera a la ciudad
+OK Transfer túneles-ciudad
+OK Intérprete 29/Llegada A6
+OK Intérprete 29/Portón de la galería
+OK No se omite a madre y Perro
+OK Intérprete 29/Portal del piso
+OK Entrada al piso
+OK Intérprete 30/Llegada A6
+OK Intérprete 30/Madre: última cena
+OK Madre resuelta y Perro acompaña
+OK Elección emocional
+OK Intérprete 30/Bajar a la ciudad
+OK Intérprete 29/Portón de la galería
+OK Transfer ciudad-galería
+OK Intérprete 31/Llegada A6
+OK Comienza tensión 35s
+OK Error de orden cuesta 3s
+OK Golpe de agua recuperable
+OK Cierres terminan tensión
+OK Intérprete 31/Paso al altar
+OK Transfer al altar
+OK Intérprete 32/Llegada A6
+OK Intérprete 32/Guernsey: desenlace
+OK Jefe exige victoria tras derrota
+OK Final correcto completado
+OK Final persistente
+OK Escena FIN
+OK FIN enlaza créditos
+OK Créditos vuelven al título
+OK Ctrl+W abre selector
+OK Inicio A6 rama 2
+OK Matices de prueba
+OK Intérprete 28/Llegada A6
+OK Intérprete 28/Carta húmeda
+OK Intérprete 28/Muesca espera
+OK Intérprete 28/Muesca espera
+OK Ruta única
+OK Intérprete 28/Tubería de los nombres
+OK Intérprete 28/Escalera a la ciudad
+OK Transfer túneles-ciudad
+OK Intérprete 29/Llegada A6
+OK Intérprete 29/Portón de la galería
+OK No se omite a madre y Perro
+OK Intérprete 29/Portal del piso
+OK Entrada al piso
+OK Intérprete 30/Llegada A6
+OK Intérprete 30/Madre: última cena
+OK Madre resuelta y Perro acompaña
+OK Elección emocional
+OK Intérprete 30/Bajar a la ciudad
+OK Intérprete 29/Portón de la galería
+OK Transfer ciudad-galería
+OK Intérprete 31/Llegada A6
+OK Comienza tensión 35s
+OK Error de orden cuesta 3s
+OK Golpe de agua recuperable
+OK Cierres terminan tensión
+OK Intérprete 31/Paso al altar
+OK Transfer al altar
+OK Intérprete 32/Llegada A6
+OK Intérprete 32/Guernsey: desenlace
+OK Jefe exige victoria tras derrota
+OK Final correcto completado
+OK Final persistente
+OK Escena FIN
+OK FIN enlaza créditos
+OK Créditos vuelven al título
+OK Ctrl+W abre selector
+OK Inicio A6 rama 3
+OK Matices de prueba
+OK Intérprete 28/Llegada A6
+OK Intérprete 28/Carta húmeda
+OK Intérprete 28/Muesca espera
+OK Intérprete 28/Muesca espera
+OK Ruta única
+OK Intérprete 28/Tubería de los nombres
+OK Intérprete 28/Escalera a la ciudad
+OK Transfer túneles-ciudad
+OK Intérprete 29/Llegada A6
+OK Intérprete 29/Portón de la galería
+OK No se omite a madre y Perro
+OK Intérprete 29/Portal del piso
+OK Entrada al piso
+OK Intérprete 30/Llegada A6
+OK Intérprete 30/Madre: última cena
+OK Madre resuelta y Perro acompaña
+OK Elección emocional
+OK Intérprete 30/Bajar a la ciudad
+OK Intérprete 29/Portón de la galería
+OK Transfer ciudad-galería
+OK Intérprete 31/Llegada A6
+OK Comienza tensión 35s
+OK Error de orden cuesta 3s
+OK Golpe de agua recuperable
+OK Cierres terminan tensión
+OK Intérprete 31/Paso al altar
+OK Transfer al altar
+OK Intérprete 32/Llegada A6
+OK Intérprete 32/Guernsey: desenlace
+OK Jefe exige victoria tras derrota
+OK Final correcto completado
+OK Final persistente
+OK Escena FIN
+OK FIN enlaza créditos
+OK Créditos vuelven al título
+OK Ctrl+W abre selector
+OK Inicio A6 rama 1
+OK Matices de prueba
+OK Intérprete 28/Llegada A6
+OK Intérprete 28/Carta húmeda
+OK Intérprete 28/Muesca espera
+OK Intérprete 28/Muesca espera
+OK Ruta única
+OK Intérprete 28/Tubería de los nombres
+OK Intérprete 28/Escalera a la ciudad
+OK Transfer túneles-ciudad
+OK Intérprete 29/Llegada A6
+OK Intérprete 29/Portón de la galería
+OK No se omite a madre y Perro
+OK Intérprete 29/Portal del piso
+OK Entrada al piso
+OK Intérprete 30/Llegada A6
+OK Intérprete 30/Madre: última cena
+OK Madre resuelta y Perro acompaña
+OK Elección emocional
+OK Intérprete 30/Bajar a la ciudad
+OK Intérprete 29/Portón de la galería
+OK Transfer ciudad-galería
+OK Intérprete 31/Llegada A6
+OK Comienza tensión 35s
+OK Error de orden cuesta 3s
+OK Golpe de agua recuperable
+OK Cierres terminan tensión
+OK Intérprete 31/Paso al altar
+OK Transfer al altar
+OK Intérprete 32/Llegada A6
+OK Intérprete 32/Guernsey: desenlace
+OK Jefe exige victoria tras derrota
+OK Final correcto completado
+OK Final persistente
+OK Escena FIN
+OK FIN enlaza créditos
+OK Créditos vuelven al título
+OK Ctrl+W abre selector
+OK Inicio A6 rama 2
+OK Matices de prueba
+OK Intérprete 28/Llegada A6
+OK Intérprete 28/Carta húmeda
+OK Intérprete 28/Muesca espera
+OK Intérprete 28/Muesca espera
+OK Ruta única
+OK Intérprete 28/Tubería de los nombres
+OK Intérprete 28/Escalera a la ciudad
+OK Transfer túneles-ciudad
+OK Intérprete 29/Llegada A6
+OK Intérprete 29/Portón de la galería
+OK No se omite a madre y Perro
+OK Intérprete 29/Portal del piso
+OK Entrada al piso
+OK Intérprete 30/Llegada A6
+OK Intérprete 30/Madre: última cena
+OK Madre resuelta y Perro acompaña
+OK Elección emocional
+OK Intérprete 30/Bajar a la ciudad
+OK Intérprete 29/Portón de la galería
+OK Transfer ciudad-galería
+OK Intérprete 31/Llegada A6
+OK Comienza tensión 35s
+OK Error de orden cuesta 3s
+OK Golpe de agua recuperable
+OK Cierres terminan tensión
+OK Intérprete 31/Paso al altar
+OK Transfer al altar
+OK Intérprete 32/Llegada A6
+OK Intérprete 32/Guernsey: desenlace
+OK Jefe exige victoria tras derrota
+OK Final correcto completado
+OK Final persistente
+OK Escena FIN
+OK FIN enlaza créditos
+OK Créditos vuelven al título
+OK Ctrl+W abre selector
+OK Inicio A6 rama 3
+OK Matices de prueba
+OK Intérprete 28/Llegada A6
+OK Intérprete 28/Carta húmeda
+OK Intérprete 28/Muesca espera
+OK Intérprete 28/Muesca espera
+OK Ruta única
+OK Intérprete 28/Tubería de los nombres
+OK Intérprete 28/Escalera a la ciudad
+OK Transfer túneles-ciudad
+OK Intérprete 29/Llegada A6
+OK Intérprete 29/Portón de la galería
+OK No se omite a madre y Perro
+OK Intérprete 29/Portal del piso
+OK Entrada al piso
+OK Intérprete 30/Llegada A6
+OK Intérprete 30/Madre: última cena
+OK Madre resuelta y Perro acompaña
+OK Elección emocional
+OK Intérprete 30/Bajar a la ciudad
+OK Intérprete 29/Portón de la galería
+OK Transfer ciudad-galería
+OK Intérprete 31/Llegada A6
+OK Comienza tensión 35s
+OK Error de orden cuesta 3s
+OK Golpe de agua recuperable
+OK Cierres terminan tensión
+OK Intérprete 31/Paso al altar
+OK Transfer al altar
+OK Intérprete 32/Llegada A6
+OK Intérprete 32/Guernsey: desenlace
+OK Jefe exige victoria tras derrota
+OK Final correcto completado
+OK Final persistente
+OK Escena FIN
+OK FIN enlaza créditos
+OK Créditos vuelven al título
+OK Tres finales vistos sin duplicados
+OK Créditos Feka
+OK Créditos CC íntegros
+OK Claves audio 28
+OK Battleback 28
+OK Claves audio 29
+OK Battleback 29
+OK Claves audio 30
+OK Battleback 30
+OK Claves audio 31
+OK Battleback 31
+OK Claves audio 32
+OK Battleback 32
+OK Ventanas VN nativas
+OK Balance 33/0 turnos 6
+OK Balance 33/1 turnos 4
+OK Balance 33/2 turnos 5
+OK Balance 33/3 turnos 6
+OK Balance 33/4 turnos 7
+OK Balance 33/5 turnos 4
+OK Balance 33/6 turnos 4
+OK Balance 33/7 turnos 4
+OK Balance 33/8 turnos 8
+OK Balance 33/9 turnos 4
+OK Balance 33/10 turnos 7
+OK Balance 33/11 turnos 5
+OK Balance 33/12 turnos 5
+OK Balance 33/13 turnos 5
+OK Balance 33/14 turnos 6
+OK Balance 33/15 turnos 5
+OK Balance 33/16 turnos 5
+OK Balance 33/17 turnos 7
+OK Balance 33/18 turnos 8
+OK Balance 33/19 turnos 7
+OK Balance 34/0 turnos 8
+OK Balance 34/1 turnos 5
+OK Balance 34/2 turnos 6
+OK Balance 34/3 turnos 7
+OK Balance 34/4 turnos 11
+OK Balance 34/5 turnos 5
+OK Balance 34/6 turnos 5
+OK Balance 34/7 turnos 5
+OK Balance 34/8 turnos 9
+OK Balance 34/9 turnos 5
+OK Balance 34/10 turnos 7
+OK Balance 34/11 turnos 5
+OK Balance 34/12 turnos 6
+OK Balance 34/13 turnos 6
+OK Balance 34/14 turnos 8
+OK Balance 34/15 turnos 7
+OK Balance 34/16 turnos 6
+OK Balance 34/17 turnos 9
+OK Balance 34/18 turnos 9
+OK Balance 34/19 turnos 9
+OK Balance 35/0 turnos 23
+OK Balance 35/1 turnos 26
+OK Balance 35/2 turnos 21
+OK Balance 35/3 turnos 24
+OK Balance 35/4 turnos 22
+OK Balance 35/5 turnos 27
+OK Balance 35/6 turnos 26
+OK Balance 35/7 turnos 20
+OK Balance 35/8 turnos 18
+OK Balance 35/9 turnos 25
+OK Balance 35/10 turnos 22
+OK Balance 35/11 turnos 18
+OK Balance 35/12 turnos 19
+OK Balance 35/13 turnos 23
+OK Balance 35/14 turnos 21
+OK Balance 35/15 turnos 18
+OK Balance 35/16 turnos 21
+OK Balance 35/17 turnos 19
+OK Balance 35/18 turnos 21
+OK Balance 35/19 turnos 18
+OK Balance 36/0 turnos 17
+OK Balance 36/1 turnos 15
+OK Balance 36/2 turnos 16
+OK Balance 36/3 turnos 19
+OK Balance 36/4 turnos 21
+OK Balance 36/5 turnos 17
+OK Balance 36/6 turnos 13
+OK Balance 36/7 turnos 18
+OK Balance 36/8 turnos 23
+OK Balance 36/9 turnos 16
+OK Balance 36/10 turnos 20
+OK Balance 36/11 turnos 17
+OK Balance 36/12 turnos 16
+OK Balance 36/13 turnos 21
+OK Balance 36/14 turnos 17
+OK Balance 36/15 turnos 20
+OK Balance 36/16 turnos 17
+OK Balance 36/17 turnos 19
+OK Balance 36/18 turnos 20
+OK Balance 36/19 turnos 21
+OK Balance 37/0 turnos 23
+OK Balance 37/1 turnos 26
+OK Balance 37/2 turnos 21
+OK Balance 37/3 turnos 24
+OK Balance 37/4 turnos 22
+OK Balance 37/5 turnos 27
+OK Balance 37/6 turnos 26
+OK Balance 37/7 turnos 20
+OK Balance 37/8 turnos 18
+OK Balance 37/9 turnos 25
+OK Balance 37/10 turnos 22
+OK Balance 37/11 turnos 18
+OK Balance 37/12 turnos 19
+OK Balance 37/13 turnos 23
+OK Balance 37/14 turnos 21
+OK Balance 37/15 turnos 18
+OK Balance 37/16 turnos 21
+OK Balance 37/17 turnos 19
+OK Balance 37/18 turnos 21
+OK Balance 37/19 turnos 18
+OK Entrada/salida jefe nativo 35 (victoria forzada)
+OK Entrada/salida jefe nativo 36 (victoria forzada)
+OK Entrada/salida jefe nativo 37 (victoria forzada)
+OK FIN: Acto VI verificado con RGSS real
