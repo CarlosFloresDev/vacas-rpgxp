@@ -1,0 +1,62 @@
+[
+  {
+    "key": "title",
+    "source": "C:\\Users\\car_g\\.codex\\generated_images\\01a1c310-19e3-7812-bf00-920cfc057f54\\exec-4b8a782d-d448-4151-8534-761fea879b53.png",
+    "prompt": "Create one landscape 4:3 background for a 640x480 psychological horror HD-2D pixel art game VACAS. Dirty nicotine apartment meets abandoned slaughterhouse corridor, old CRT television at right emitting sick fluorescent mint light, rust hooks and pipes in shadows, wet oxblood stains, subtle flesh-like wall texture without explicit gore. Strong deliberate pixel clusters, cinematic depth, rich shadow values, no blur on foreground. Palette charcoal #141318, dirty ivory #d1ba7b, burgundy #701d2c, sick green. Large very dark quiet negative space on left for logo and menu overlay. No text, no lettering, no UI, no people. Full bleed professional game background.",
+    "sha256": "19e87b07befcdfe327b6f13ebdfd2e502cb9150a6c3b6d2b64d84f61fca46d19"
+  },
+  {
+    "key": "gameover",
+    "source": "C:\\Users\\car_g\\.codex\\generated_images\\01a1c310-19e3-7812-bf00-920cfc057f54\\exec-748f70ea-9700-4404-8376-46c43ad6c223.png",
+    "prompt": "One full bleed landscape 4:3 game background for VACAS at 640x480, approved HD-2D psychological horror style: deliberate readable pixel clusters, detailed material volume, cinematic depth, no smooth digital painting, charcoal shadows, nicotine ivory, burgundy rust and sick fluorescent mint, no text, no UI, no people. An empty rusted cattle restraint chair in a flooded black room, a single dying fluorescent tube, distant crown-shaped shadow. Leave left half dark and empty for typography. Battle staging: open quiet lower center for sprites, background perspective converges near upper center; darker outer edges.",
+    "sha256": "ab33f10f742f6e5cf89d810ed7cd9a9ee79ae8ed5dd09ff6e5f84fe8b0389c81"
+  },
+  {
+    "key": "menu",
+    "source": "C:\\Users\\car_g\\.codex\\generated_images\\01a1c310-19e3-7812-bf00-920cfc057f54\\exec-04e85e41-16f0-40e7-9173-7f9bcf84c8d7.png",
+    "prompt": "One full bleed landscape 4:3 game background for VACAS at 640x480, approved HD-2D psychological horror style: deliberate readable pixel clusters, detailed material volume, cinematic depth, no smooth digital painting, charcoal shadows, nicotine ivory, burgundy rust and sick fluorescent mint, no text, no UI, no people. A close view of an abandoned industrial evidence desk, rust metal edge, stained ledger, dim green fluorescent reflection and oxblood fabric. Very dark uncluttered center and left for menus. Battle staging: open quiet lower center for sprites, background perspective converges near upper center; darker outer edges.",
+    "sha256": "7ccbdd1bf001ad187b4166785b6069f5aad9e678f04d8cadeac5e28ac447a35f"
+  },
+  {
+    "key": "piso",
+    "source": "C:\\Users\\car_g\\.codex\\generated_images\\01a1c310-19e3-7812-bf00-920cfc057f54\\exec-710089f9-e249-4c1b-a65d-132aa50639ea.png",
+    "prompt": "One full bleed landscape 4:3 game background for VACAS at 640x480, approved HD-2D psychological horror style: deliberate readable pixel clusters, detailed material volume, cinematic depth, no smooth digital painting, charcoal shadows, nicotine ivory, burgundy rust and sick fluorescent mint, no text, no UI, no people. Empty nicotine-stained apartment sitting room, old CRT television with pale glow, damp wallpaper, worn armchair and dirty floor. No characters. Battle staging: open quiet lower center for sprites, background perspective converges near upper center; darker outer edges.",
+    "sha256": "6e1d7b4efb6e356a3ba1bee4c0980d1531799d5c04ccf97dd65ba96e7aa2092c"
+  },
+  {
+    "key": "matadero",
+    "source": "C:\\Users\\car_g\\.codex\\generated_images\\01a1c310-19e3-7812-bf00-920cfc057f54\\exec-73374cd0-3c52-437e-a34b-f798225479fd.png",
+    "prompt": "One full bleed landscape 4:3 game background for VACAS at 640x480, approved HD-2D psychological horror style: deliberate readable pixel clusters, detailed material volume, cinematic depth, no smooth digital painting, charcoal shadows, nicotine ivory, burgundy rust and sick fluorescent mint, no text, no UI, no people. Empty slaughterhouse cutting line, rust rails and hooks, stainless steel, dark blood in floor channels, sick fluorescent tubes. No characters. Battle staging: open quiet lower center for sprites, background perspective converges near upper center; darker outer edges.",
+    "sha256": "cc0a4b9c34043c535982a734a4913a8f5633b380aead902f81bce574e9fcfc43"
+  },
+  {
+    "key": "camaras",
+    "source": "C:\\Users\\car_g\\.codex\\generated_images\\01a1c310-19e3-7812-bf00-920cfc057f54\\exec-4c4e869e-a5df-41fc-a911-d4ce7dfe0cac.png",
+    "prompt": "One full bleed landscape 4:3 game background for VACAS at 640x480, approved HD-2D psychological horror style: deliberate readable pixel clusters, detailed material volume, cinematic depth, no smooth digital painting, charcoal shadows, nicotine ivory, burgundy rust and sick fluorescent mint, no text, no UI, no people. Empty freezing meat storage room, frosted hanging carcass shapes at extreme edges, blue cyan fluorescent light, wet tiled floor and distant door. No characters. Battle staging: open quiet lower center for sprites, background perspective converges near upper center; darker outer edges.",
+    "sha256": "51281528f335cc89cb3c71d393337b9f006469dcb11c3a116b827ec4c0223361"
+  },
+  {
+    "key": "laboratorio",
+    "source": "C:\\Users\\car_g\\.codex\\generated_images\\01a1c310-19e3-7812-bf00-920cfc057f54\\exec-2d173725-fa38-4417-b6c7-8d2e24d9460f.png",
+    "prompt": "One full bleed landscape 4:3 game background for VACAS at 640x480, approved HD-2D psychological horror style: deliberate readable pixel clusters, detailed material volume, cinematic depth, no smooth digital painting, charcoal shadows, nicotine ivory, burgundy rust and sick fluorescent mint, no text, no UI, no people. Empty makeshift pathology laboratory in an apartment, specimen jars, green fluorescent desk light, gurney and blue curtain at edges, dark central floor. No characters. Battle staging: open quiet lower center for sprites, background perspective converges near upper center; darker outer edges.",
+    "sha256": "604bed152b4b65aacd389ed2cf85146ded77a13cc81a8eaae06cae1d91d11c81"
+  },
+  {
+    "key": "alcantarillas",
+    "source": "C:\\Users\\car_g\\.codex\\generated_images\\01a1c310-19e3-7812-bf00-920cfc057f54\\exec-dde59a07-6464-4107-8dfd-3309ff500c61.png",
+    "prompt": "One full bleed landscape 4:3 game background for VACAS at 640x480, approved HD-2D psychological horror style: deliberate readable pixel clusters, detailed material volume, cinematic depth, no smooth digital painting, charcoal shadows, nicotine ivory, burgundy rust and sick fluorescent mint, no text, no UI, no people. Empty subterranean sewer corridor with damp rust pipes, black green standing water and narrow masonry walkway, mint light in distance. No characters. Battle staging: open quiet lower center for sprites, background perspective converges near upper center; darker outer edges.",
+    "sha256": "a137a1903bfffe19beef16c3500a13c2f3e438a1066d811cb88da0aef5a4d0c1"
+  },
+  {
+    "key": "manada",
+    "source": "C:\\Users\\car_g\\.codex\\generated_images\\01a1c310-19e3-7812-bf00-920cfc057f54\\exec-0d38ce9c-ca32-468c-88af-55a2f3decd0d.png",
+    "prompt": "One full bleed landscape 4:3 game background for VACAS at 640x480, approved HD-2D psychological horror style: deliberate readable pixel clusters, detailed material volume, cinematic depth, no smooth digital painting, charcoal shadows, nicotine ivory, burgundy rust and sick fluorescent mint, no text, no UI, no people. Empty subterranean cattle council chamber, stone ring, worn straw, horn-like pipe arches, small amber shrine light and dark green walls. No characters. Battle staging: open quiet lower center for sprites, background perspective converges near upper center; darker outer edges.",
+    "sha256": "ccbfb02f9b2e78ae33fdddbac3b899ec97d248ea3171220a70b836b8dab2fe31"
+  },
+  {
+    "key": "kit",
+    "source": "C:\\Users\\car_g\\.codex\\generated_images\\01a1c310-19e3-7812-bf00-920cfc057f54\\exec-94e14f5d-b9ae-410a-ad61-f624a092aa68.png",
+    "prompt": "A single game UI texture atlas, 1024x1024, strict 4 by 4 grid of equal square cells without gutters. Dark psychological horror industrial HD-2D pixel art. First row: tarnished brass frame corner, rust frame edge, black nicotine panel texture, flesh leather panel texture. Second row: ivory arrow pointing right on pure black, ivory small diamond on pure black, rust red horizontal health bar texture, fluorescent green horizontal sanity bar texture. Third row: four separate clear centered glyph icons on pure black: frightened eye, nauseated stomach, chain of guilt, flashlight battery. Fourth row: four separate clear glyph icons on pure black: notebook, glass bottle, gear, exit door. No text, no lettering, clean readable shapes.",
+    "sha256": "27fca379db0343494f70609789872260bdac55ecb79de38d088e85ecd545adfd"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "checks": 288,
+  "errors": [],
+  "assets": 24,
+  "cloud_sources": 10,
+  "ruby_scripts": 102,
+  "game_checks": 79,
+  "scope": "RGSS104E real, entrada simulada, GDI del cliente; no partida manual completa."
+}

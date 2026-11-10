@@ -1,0 +1,56 @@
+CAPTURA titulo
+OK Ventana RGSS para titulo
+OK Captura GDI titulo
+OK Escena titulo
+OK Nueva partida original
+OK Atajo mapa 1
+OK Atajo mapa 5
+OK Atajo mapa 12
+OK Atajo mapa 17
+CAPTURA menu
+OK Ventana RGSS para menu
+OK Captura GDI menu
+OK Escena menu
+CAPTURA estado
+OK Ventana RGSS para estado
+OK Captura GDI estado
+OK Escena estado
+CAPTURA notas
+OK Ventana RGSS para notas
+OK Captura GDI notas
+OK Escena notas
+CAPTURA objetos
+OK Ventana RGSS para objetos
+OK Captura GDI objetos
+OK Escena objetos
+CAPTURA guardar
+OK Ventana RGSS para guardar
+OK Captura GDI guardar
+OK Escena guardar
+CAPTURA ajustes
+OK Ventana RGSS para ajustes
+OK Captura GDI ajustes
+OK Ajuste mediante flecha real de escena
+OK Config persistente escrita
+OK Config recargada separada
+OK Volumen global bgm
+OK Fallback silencioso bgm
+OK Volumen global bgs
+OK Fallback silencioso bgs
+OK Volumen global se
+OK Fallback silencioso se
+OK Volumen global me
+OK Fallback silencioso me
+OK Guardado en altar
+OK Guardado bloqueado fuera de punto
+OK Guardado frente a tele
+OK Guardado bloqueado lejos de tele
+CAPTURA hud
+OK Ventana RGSS para hud
+OK Captura GDI hud
+CAPTURA vn
+OK Ventana RGSS para vn
+OK Captura GDI vn
+OK VN revelar no confirma decision
+OK VN segunda pulsacion confirma rama original
+OK FIN VN REAL

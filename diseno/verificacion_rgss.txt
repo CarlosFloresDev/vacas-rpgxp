@@ -49,7 +49,7 @@ OK Hueco del salon (6,16)->(6,17) libre
 OK Del umbral hacia Perro
 OK Susto muestra imagen
 OK Susto borra imagen al terminar
-RESPIRAR [218, 18, false, 54, 61]
+RESPIRAR [216, 18, false, 54, 61]
 OK Respirar cura, recupera SP, limpia y baja veneno
 OK Balance enemigo 1 semilla 0 turnos 2
 OK Balance enemigo 1 semilla 1 turnos 2

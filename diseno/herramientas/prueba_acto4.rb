@@ -12,7 +12,16 @@ begin
   Vacas.ajustar_sistema
   $game_system=Game_System.new
   Scene_Title.new.command_new_game
-  def Graphics.update; Graphics.frame_reset; end
+  def Graphics.update
+    self.frame_count+=1
+    Graphics.frame_reset
+    if self.frame_count%100==0 && respond_to?(:ui_original_update)
+      hwnd=Win32API.new('user32','FindWindow','pp','l').call('RGSS Player',nil)
+      Win32API.new('user32','ShowWindow','li','i').call(hwnd,5)
+      Win32API.new('user32','SetForegroundWindow','l','i').call(hwnd)
+      ui_original_update
+    end
+  end
   for path in Dir.glob('Data/*.rxdata')
     d=load_data(path)
     verificar(Marshal.load(Marshal.dump(d)).class==d.class,'Marshal '+path)

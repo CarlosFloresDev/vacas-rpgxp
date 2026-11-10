@@ -1,0 +1,107 @@
+CAPTURA titulo
+OK Ventana RGSS para titulo
+OK Captura GDI titulo
+OK Escena titulo
+OK Nueva partida original
+OK Atajo mapa 1
+OK Atajo mapa 5
+OK Atajo mapa 12
+OK Atajo mapa 17
+CAPTURA menu
+OK Ventana RGSS para menu
+OK Captura GDI menu
+OK Escena menu
+CAPTURA estado
+OK Ventana RGSS para estado
+OK Captura GDI estado
+OK Escena estado
+CAPTURA notas
+OK Ventana RGSS para notas
+OK Captura GDI notas
+OK Escena notas
+CAPTURA objetos
+OK Ventana RGSS para objetos
+OK Captura GDI objetos
+OK Escena objetos
+CAPTURA guardar
+OK Ventana RGSS para guardar
+OK Captura GDI guardar
+OK Escena guardar
+CAPTURA ajustes
+OK Ventana RGSS para ajustes
+OK Captura GDI ajustes
+OK Ajuste mediante flecha real de escena
+OK Config persistente escrita
+OK Config recargada separada
+OK Volumen global bgm
+OK Fallback silencioso bgm
+OK Volumen global bgs
+OK Fallback silencioso bgs
+OK Volumen global se
+OK Fallback silencioso se
+OK Volumen global me
+OK Fallback silencioso me
+OK Guardado en altar
+OK Guardado bloqueado fuera de punto
+OK Guardado frente a tele
+OK Guardado bloqueado lejos de tele
+CAPTURA hud
+OK Ventana RGSS para hud
+OK Captura GDI hud
+CAPTURA vn
+OK Ventana RGSS para vn
+OK Captura GDI vn
+OK VN revelar no confirma decision
+OK VN segunda pulsacion confirma rama original
+CAPTURA gameover
+OK Ventana RGSS para gameover
+OK Captura GDI gameover
+OK Escena gameover
+INICIO acto1_normal
+CAPTURA combate_acto1_normal
+OK Ventana RGSS para combate_acto1_normal
+OK Captura GDI combate_acto1_normal
+CAPTURA victoria
+OK Ventana RGSS para victoria
+OK Captura GDI victoria
+OK Combate acto1_normal tropa 8
+INICIO acto1_jefe
+CAPTURA combate_acto1_jefe
+OK Ventana RGSS para combate_acto1_jefe
+OK Captura GDI combate_acto1_jefe
+OK Combate acto1_jefe tropa 2
+INICIO acto2_normal
+CAPTURA combate_acto2_normal
+OK Ventana RGSS para combate_acto2_normal
+OK Captura GDI combate_acto2_normal
+OK Combate acto2_normal tropa 5
+INICIO acto2_jefe
+CAPTURA combate_acto2_jefe
+OK Ventana RGSS para combate_acto2_jefe
+OK Captura GDI combate_acto2_jefe
+OK Combate acto2_jefe tropa 9
+INICIO acto3_normal
+CAPTURA combate_acto3_normal
+OK Ventana RGSS para combate_acto3_normal
+OK Captura GDI combate_acto3_normal
+OK Combate acto3_normal tropa 10
+INICIO acto3_jefe
+CAPTURA combate_acto3_jefe
+OK Ventana RGSS para combate_acto3_jefe
+OK Captura GDI combate_acto3_jefe
+OK Combate acto3_jefe tropa 13
+INICIO acto4_normal
+CAPTURA combate_acto4_normal
+OK Ventana RGSS para combate_acto4_normal
+OK Captura GDI combate_acto4_normal
+OK Combate acto4_normal tropa 14
+INICIO acto4_jefe
+CAPTURA combate_acto4_jefe
+OK Ventana RGSS para combate_acto4_jefe
+OK Captura GDI combate_acto4_jefe
+OK Combate acto4_jefe tropa 17
+CAPTURA derrota
+OK Ventana RGSS para derrota
+OK Captura GDI derrota
+OK Derrota propia recuperable
+OK FIN INTERFAZ RGSS104E

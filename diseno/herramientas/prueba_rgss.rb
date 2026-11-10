@@ -28,7 +28,16 @@ begin
   verificar(a.maxhp == 360 && a.skill_learn?(61), 'Salud y recursos iniciales')
   # En modo oculto Graphics.update espera foco de Windows. El arnes prueba
   # objetos/bitmaps sin ese bloqueo; el bucle del juego no se modifica.
-  def Graphics.update; Graphics.frame_reset; end
+  def Graphics.update
+    self.frame_count+=1
+    Graphics.frame_reset
+    if self.frame_count%100==0 && respond_to?(:ui_original_update)
+      hwnd=Win32API.new('user32','FindWindow','pp','l').call('RGSS Player',nil)
+      Win32API.new('user32','ShowWindow','li','i').call(hwnd,5)
+      Win32API.new('user32','SetForegroundWindow','l','i').call(hwnd)
+      ui_original_update
+    end
+  end
   for path in Dir.glob('Data/*.rxdata')
     data=load_data(path)
     verificar(Marshal.load(Marshal.dump(data)).class==data.class, 'Marshal RGSS: '+path)

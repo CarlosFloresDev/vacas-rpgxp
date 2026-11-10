@@ -122,7 +122,7 @@ class Window_Message
       if Input.trigger?(Input::C) or Input.press?(Input::A)
         self.contents.blt(0, 0, @vn_full, @vn_full.rect)
         @vn_units.clear
-      elsif @vn_tick % 2 == 0
+      elsif @vn_tick % (defined?(Vacas_Config) ? Vacas_Config.get(:texto) : 2) == 0
         r = @vn_units.shift
         self.contents.blt(r.x, r.y, @vn_full, r)
       end

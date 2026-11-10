@@ -270,9 +270,12 @@ def adapt(spec):
         size = dimensions(spec.get('size', '640x480'))
         # Cubrir sin deformar; recorte central. Preparar composición 4:3 en origen.
         result = ImageOps.fit(im, size, method=resample)
-        bg = Image.new('RGBA', size, spec.get('background', '#101217'))
-        bg.alpha_composite(result)
-        result = finish(bg).convert('RGB')
+        if spec.get('preserve_alpha', False):
+            result = finish(result)
+        else:
+            bg = Image.new('RGBA', size, spec.get('background', '#101217'))
+            bg.alpha_composite(result)
+            result = finish(bg).convert('RGB')
     return dest, result
 
 

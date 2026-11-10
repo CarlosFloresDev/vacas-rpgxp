@@ -1,0 +1,277 @@
+{
+  "assets": [
+    {
+      "source": "diseno/arte_hd2d/interfaz/title_fuente.png",
+      "destination": "Graphics/Pictures/ui_titulo.png",
+      "type": "picture",
+      "size": [
+        640,
+        480
+      ],
+      "resample": "lanczos",
+      "preserve_alpha": false,
+      "opaque": true
+    },
+    {
+      "source": "diseno/arte_hd2d/interfaz/gameover_fuente.png",
+      "destination": "Graphics/Pictures/ui_gameover.png",
+      "type": "picture",
+      "size": [
+        640,
+        480
+      ],
+      "resample": "lanczos",
+      "preserve_alpha": false,
+      "opaque": true
+    },
+    {
+      "source": "diseno/arte_hd2d/interfaz/menu_fuente.png",
+      "destination": "Graphics/Pictures/ui_menu.png",
+      "type": "picture",
+      "size": [
+        640,
+        480
+      ],
+      "resample": "lanczos",
+      "preserve_alpha": false,
+      "opaque": true
+    },
+    {
+      "source": "diseno/arte_hd2d/interfaz/piso_fuente.png",
+      "destination": "Graphics/Battlebacks/ui_piso.png",
+      "type": "picture",
+      "size": [
+        640,
+        480
+      ],
+      "resample": "lanczos",
+      "preserve_alpha": false,
+      "opaque": true
+    },
+    {
+      "source": "diseno/arte_hd2d/interfaz/matadero_fuente.png",
+      "destination": "Graphics/Battlebacks/ui_matadero.png",
+      "type": "picture",
+      "size": [
+        640,
+        480
+      ],
+      "resample": "lanczos",
+      "preserve_alpha": false,
+      "opaque": true
+    },
+    {
+      "source": "diseno/arte_hd2d/interfaz/camaras_fuente.png",
+      "destination": "Graphics/Battlebacks/ui_camaras.png",
+      "type": "picture",
+      "size": [
+        640,
+        480
+      ],
+      "resample": "lanczos",
+      "preserve_alpha": false,
+      "opaque": true
+    },
+    {
+      "source": "diseno/arte_hd2d/interfaz/laboratorio_fuente.png",
+      "destination": "Graphics/Battlebacks/ui_laboratorio.png",
+      "type": "picture",
+      "size": [
+        640,
+        480
+      ],
+      "resample": "lanczos",
+      "preserve_alpha": false,
+      "opaque": true
+    },
+    {
+      "source": "diseno/arte_hd2d/interfaz/alcantarillas_fuente.png",
+      "destination": "Graphics/Battlebacks/ui_alcantarillas.png",
+      "type": "picture",
+      "size": [
+        640,
+        480
+      ],
+      "resample": "lanczos",
+      "preserve_alpha": false,
+      "opaque": true
+    },
+    {
+      "source": "diseno/arte_hd2d/interfaz/manada_fuente.png",
+      "destination": "Graphics/Battlebacks/ui_manada.png",
+      "type": "picture",
+      "size": [
+        640,
+        480
+      ],
+      "resample": "lanczos",
+      "preserve_alpha": false,
+      "opaque": true
+    },
+    {
+      "source": "diseno/arte_hd2d/interfaz/ui_cursor_tecnico.png",
+      "destination": "Graphics/Pictures/ui_cursor.png",
+      "type": "picture",
+      "size": [
+        16,
+        16
+      ],
+      "resample": "lanczos",
+      "preserve_alpha": true
+    },
+    {
+      "source": "diseno/arte_hd2d/interfaz/ui_avance_tecnico.png",
+      "destination": "Graphics/Pictures/ui_avance.png",
+      "type": "picture",
+      "size": [
+        14,
+        14
+      ],
+      "resample": "lanczos",
+      "preserve_alpha": true
+    },
+    {
+      "source": "diseno/arte_hd2d/interfaz/ui_target_tecnico.png",
+      "destination": "Graphics/Pictures/ui_target.png",
+      "type": "picture",
+      "size": [
+        32,
+        32
+      ],
+      "resample": "lanczos",
+      "preserve_alpha": true
+    },
+    {
+      "source": "diseno/arte_hd2d/interfaz/ui_bar_vida_tecnico.png",
+      "destination": "Graphics/Pictures/ui_bar_vida.png",
+      "type": "picture",
+      "size": [
+        256,
+        8
+      ],
+      "resample": "lanczos",
+      "preserve_alpha": true
+    },
+    {
+      "source": "diseno/arte_hd2d/interfaz/ui_bar_cordura_tecnico.png",
+      "destination": "Graphics/Pictures/ui_bar_cordura.png",
+      "type": "picture",
+      "size": [
+        256,
+        8
+      ],
+      "resample": "lanczos",
+      "preserve_alpha": true
+    },
+    {
+      "source": "diseno/arte_hd2d/interfaz/ui_estado_2_tecnico.png",
+      "destination": "Graphics/Icons/ui_estado_2.png",
+      "type": "picture",
+      "size": [
+        24,
+        24
+      ],
+      "resample": "lanczos",
+      "preserve_alpha": true
+    },
+    {
+      "source": "diseno/arte_hd2d/interfaz/ui_estado_3_tecnico.png",
+      "destination": "Graphics/Icons/ui_estado_3.png",
+      "type": "picture",
+      "size": [
+        24,
+        24
+      ],
+      "resample": "lanczos",
+      "preserve_alpha": true
+    },
+    {
+      "source": "diseno/arte_hd2d/interfaz/ui_estado_4_tecnico.png",
+      "destination": "Graphics/Icons/ui_estado_4.png",
+      "type": "picture",
+      "size": [
+        24,
+        24
+      ],
+      "resample": "lanczos",
+      "preserve_alpha": true
+    },
+    {
+      "source": "diseno/arte_hd2d/interfaz/ui_bateria_tecnico.png",
+      "destination": "Graphics/Icons/ui_bateria.png",
+      "type": "picture",
+      "size": [
+        24,
+        24
+      ],
+      "resample": "lanczos",
+      "preserve_alpha": true
+    },
+    {
+      "source": "diseno/arte_hd2d/interfaz/ui_nota_tecnico.png",
+      "destination": "Graphics/Icons/ui_nota.png",
+      "type": "picture",
+      "size": [
+        24,
+        24
+      ],
+      "resample": "lanczos",
+      "preserve_alpha": true
+    },
+    {
+      "source": "diseno/arte_hd2d/interfaz/ui_objeto_tecnico.png",
+      "destination": "Graphics/Icons/ui_objeto.png",
+      "type": "picture",
+      "size": [
+        24,
+        24
+      ],
+      "resample": "lanczos",
+      "preserve_alpha": true
+    },
+    {
+      "source": "diseno/arte_hd2d/interfaz/ui_ajuste_tecnico.png",
+      "destination": "Graphics/Icons/ui_ajuste.png",
+      "type": "picture",
+      "size": [
+        24,
+        24
+      ],
+      "resample": "lanczos",
+      "preserve_alpha": true
+    },
+    {
+      "source": "diseno/arte_hd2d/interfaz/ui_salir_tecnico.png",
+      "destination": "Graphics/Icons/ui_salir.png",
+      "type": "picture",
+      "size": [
+        24,
+        24
+      ],
+      "resample": "lanczos",
+      "preserve_alpha": true
+    },
+    {
+      "source": "diseno/arte_hd2d/interfaz/ui_windowskin_tecnico.png",
+      "destination": "Graphics/Windowskins/ui_windowskin.png",
+      "type": "picture",
+      "size": [
+        192,
+        128
+      ],
+      "resample": "lanczos",
+      "preserve_alpha": true
+    },
+    {
+      "source": "diseno/arte_hd2d/interfaz/ui_fog_tecnico.png",
+      "destination": "Graphics/Pictures/ui_fog.png",
+      "type": "picture",
+      "size": [
+        256,
+        256
+      ],
+      "resample": "lanczos",
+      "preserve_alpha": true
+    }
+  ]
+}
