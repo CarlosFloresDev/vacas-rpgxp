@@ -82,7 +82,7 @@ end
 
 class Window_Tareas < Window_Base
   def initialize
-    super(200, 64, 420, 288)
+    super(200, Vacas_HD.y(64), 420, Vacas_HD.y(288))
     self.contents = Bitmap.new(width - 32, height - 32)
     refresh
   end
@@ -107,7 +107,7 @@ end
 
 class Window_Lugar < Window_Base
   def initialize
-    super(200, 352, 420, 64)
+    super(200, Vacas_HD.y(352), 420, Vacas_HD.y(64))
     self.contents = Bitmap.new(width - 32, height - 32)
     self.contents.font.color = normal_color
     nombre = ""
@@ -134,7 +134,7 @@ class Scene_Menu
     @lugar_window = Window_Lugar.new
     @gold_window = Window_Gold.new
     @gold_window.x = 20
-    @gold_window.y = 352
+    @gold_window.y = Vacas_HD.y(352)
     @aviso_window = Window_Help.new
     @aviso_window.visible = false
     Graphics.transition

@@ -111,7 +111,7 @@ class Spriteset_Battle
   def initialize
     vacas_mente_ss_initialize
     @vacas_hud = Sprite_Veneno.new
-    @vacas_hud.y = 278
+    @vacas_hud.y = Vacas_HD.y(278)
   end
   alias vacas_mente_ss_update update
   def update

@@ -20,19 +20,19 @@
 # Utilidad: texto centrado sobre negro
 #------------------------------------------------------------------------------
 module Vacas
-  def self.sprite_texto(lineas, y0, alto = 30, tam = 22, color = nil)
+  def self.sprite_texto(lineas, y0, alto = 30, tam = 22, color = nil, native_y = false)
     s = Sprite.new
-    s.bitmap = Bitmap.new(640, 480)
+    s.bitmap = Bitmap.new(Vacas_HD.w, Vacas_HD.h)
     s.bitmap.font.size = tam
     c = color
     if c.nil?
       c = Color.new(210, 200, 180)
     end
     s.bitmap.font.color = c
-    y = y0
+    y = native_y ? y0 : Vacas_HD.y(y0)
     for l in lineas
-      s.bitmap.draw_text(0, y, 640, alto, l, 1)
-      y += alto
+      s.bitmap.draw_text(0, y, Vacas_HD.w, alto, l, 1)
+      y += Vacas_HD.y(alto)
     end
     return s
   end
@@ -44,8 +44,8 @@ end
 class Scene_Aviso
   def main
     @fondo = Sprite.new
-    @fondo.bitmap = Bitmap.new(640, 480)
-    @fondo.bitmap.fill_rect(0, 0, 640, 480, Color.new(0, 0, 0))
+    @fondo.bitmap = Bitmap.new(Vacas_HD.w, Vacas_HD.h)
+    @fondo.bitmap.fill_rect(0, 0, Vacas_HD.w, Vacas_HD.h, Color.new(0, 0, 0))
     @titulo = Vacas.sprite_texto(["AVISO DE CONTENIDO"], 70, 36, 28,
       Color.new(190, 40, 34))
     lineas = [
@@ -115,10 +115,11 @@ class Scene_Title
     $game_system = Game_System.new
     @sprite = Sprite.new
     @sprite.bitmap = RPG::Cache.title($data_system.title_name)
+    Vacas_HD.cover(@sprite)
     @command_window = Window_Command.new(200, ["Nueva partida", "Continuar", "Salir"])
     @command_window.back_opacity = 140
     @command_window.x = 320 - @command_window.width / 2
-    @command_window.y = 350
+    @command_window.y = Vacas_HD.bottom(@command_window.height + 8)
     @continue_enabled = false
     for i in 0..3
       if FileTest.exist?("Save#{i+1}.rxdata")
@@ -168,8 +169,8 @@ class Scene_FinActo
     Audio.bgs_fade(2000)
     t = TEXTOS[@acto]
     @fondo = Sprite.new
-    @fondo.bitmap = Bitmap.new(640, 480)
-    @fondo.bitmap.fill_rect(0, 0, 640, 480, Color.new(0, 0, 0))
+    @fondo.bitmap = Bitmap.new(Vacas_HD.w, Vacas_HD.h)
+    @fondo.bitmap.fill_rect(0, 0, Vacas_HD.w, Vacas_HD.h, Color.new(0, 0, 0))
     @fin = Vacas.sprite_texto([t[0]], 170, 50, 40, Color.new(170, 30, 26))
     @sub = Vacas.sprite_texto([t[1]], 224, 32, 22)
     @sig = Vacas.sprite_texto([t[2]], 330, 28, 18, Color.new(140, 130, 115))
@@ -237,7 +238,7 @@ end
 class Scene_Title
   alias vacas_cng command_new_game
   def command_new_game
-    atajo = Input.press?(Input::A)
+    atajo = Vacas_HD.key?(:shift)
     vacas_cng
     Vacas.prueba_acto2 if atajo
   end

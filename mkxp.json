@@ -1,0 +1,17 @@
+{
+  "rgssVersion": 1,
+  "gameFolder": ".",
+  "execName": "Game",
+  "windowTitle": "Vacas",
+  "defScreenW": 1920,
+  "defScreenH": 1080,
+  "fullscreen": true,
+  "fixedAspectRatio": true,
+  "smoothScaling": 0,
+  "smoothScalingDown": 0,
+  "bitmapSmoothScaling": 0,
+  "vsync": true,
+  "integerScalingActive": true,
+  "integerScalingLastMile": false,
+  "anyAltToggleFS": true
+}

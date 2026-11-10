@@ -68,8 +68,8 @@ end
 class Scene_Title
   alias lucy_nueva_partida command_new_game
   def command_new_game
-    salto = Input.press?(Input::CTRL)
-    resistencia = Input.press?(Input::A)
+    salto = Vacas_HD.key?(:ctrl)
+    resistencia = Vacas_HD.key?(:shift)
     lucy_nueva_partida
     Vacas.prueba_acto3(resistencia) if salto
   end

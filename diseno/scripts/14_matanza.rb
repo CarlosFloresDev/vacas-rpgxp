@@ -101,8 +101,8 @@ end
 class Scene_Title
   alias matanza_nueva_partida command_new_game
   def command_new_game
-    salto = Input.press?(Input::L)
-    venganza = Input.press?(Input::R)
+    salto = Vacas_HD.key?(:q)
+    venganza = Vacas_HD.key?(:w)
     matanza_nueva_partida
     Vacas.prueba_acto5(venganza) if salto
   end
@@ -129,7 +129,7 @@ class Vacas_Noria < Vacas_Cinta
     end
     b.fill_rect(6, 12, 36, 4, Color.new(214, 196, 170))
     flecha(b, d, 24, 26, Color.new(240, 236, 226))
-    s.x = 640
+    s.x = Vacas_HD.w
     s.y = CY
     @piezas.push([s, cruzada ? OPUESTA[d] : d, false])
   end
@@ -279,7 +279,7 @@ class Sprite_Alarma < Sprite
     super(nil)
     self.bitmap = Bitmap.new(200, 22)
     self.x = 124
-    self.y = 440
+    self.y = Vacas_HD.bottom(40)
     self.z = 4000
     @estado = nil
   end

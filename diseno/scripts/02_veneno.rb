@@ -24,7 +24,7 @@ class Sprite_Veneno < Sprite
     super(nil)
     self.bitmap = Bitmap.new(ANCHO + 8, 22)
     self.x = 14
-    self.y = 480 - 34
+    self.y = Vacas_HD.h - 34
     self.z = 4000
     @valor = -1
     @contador = 0

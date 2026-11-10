@@ -1,0 +1,282 @@
+{
+  "errores": [],
+  "configuracion": {
+    "rgssVersion": 1,
+    "gameFolder": ".",
+    "execName": "Game",
+    "windowTitle": "Vacas",
+    "defScreenW": 1920,
+    "defScreenH": 1080,
+    "fullscreen": true,
+    "fixedAspectRatio": true,
+    "smoothScaling": 0,
+    "smoothScalingDown": 0,
+    "bitmapSmoothScaling": 0,
+    "vsync": true,
+    "integerScalingActive": true,
+    "integerScalingLastMile": false,
+    "anyAltToggleFS": true
+  },
+  "sintaxis": [
+    {
+      "archivo": "diseno/scripts/01_nucleo.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/02_veneno.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/03_menu.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/04_pantallas.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/05_matadero.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/06_vn.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/07_mente.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/08_accesos.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/09_lucy.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/10_revision_luces.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/11_bajo_ciudad.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/12_interfaz.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/13_intro_feka.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/14_matanza.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/15_reydios.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/16_cinematicas.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/000.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/012.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/016.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/022.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/026.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/027.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/028.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/032.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/033.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/034.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/035.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/036.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/037.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/038.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/039.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/040.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/041.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/042.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/043.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/044.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/046.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/047.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/048.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/049.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/050.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/051.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/052.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/054.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/055.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/056.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/057.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/058.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/059.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/070.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/072.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/080.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/081.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/085.rb",
+      "ok": true
+    },
+    {
+      "archivo": "diseno/scripts/motor/088.rb",
+      "ok": true
+    }
+  ],
+  "comprobaciones": {
+    "fuentes": {
+      "codigo": 0,
+      "salida": "{\"scripts\":55,\"errors\":[]}\n",
+      "stderr": "Test-Path : Acceso denegado\nEn C:\\Users\\car_g\\scoop\\apps\\scoop\\current\\lib\\core.ps1: 83 Carácter: 10\n+     if(!(Test-Path $file)) {\n+          ~~~~~~~~~~~~~~~\n    + CategoryInfo          : PermissionDenied: (C:\\Users\\car_g\\.config\\scoop\\config.json:String) [Test-Path], Unautho \n   rizedAccessException\n    + FullyQualifiedErrorId : ItemExistsUnauthorizedAccessError,Microsoft.PowerShell.Commands.TestPathCommand\n \n"
+    },
+    "marshal": {
+      "codigo": 0,
+      "salida": "{\n  \"files\": 324,\n  \"errors\": [\n\n  ]\n}\n",
+      "stderr": "Test-Path : Acceso denegado\nEn C:\\Users\\car_g\\scoop\\apps\\scoop\\current\\lib\\core.ps1: 83 Carácter: 10\n+     if(!(Test-Path $file)) {\n+          ~~~~~~~~~~~~~~~\n    + CategoryInfo          : PermissionDenied: (C:\\Users\\car_g\\.config\\scoop\\config.json:String) [Test-Path], Unautho \n   rizedAccessException\n    + FullyQualifiedErrorId : ItemExistsUnauthorizedAccessError,Microsoft.PowerShell.Commands.TestPathCommand\n \n"
+    },
+    "simulacion_360": {
+      "codigo": 0,
+      "salida": "OK resolucion\nOK titulo\nOK partida\nOK guardado_existente\nOK pausa\nOK ajustes\nOK estado\nOK notas\nOK creditos\nOK creditos_juego\nOK objetos\nOK cargar\nOK gameover\nOK aviso\nOK feka\nOK cine\nOK escenas_estandar\nOK mapa_dialogo\nOK minijuegos\nOK combate\nOK camara_todos_mapas\nOK ventanas_todas_clases\nFIN SUITE\n",
+      "stderr": "Test-Path : Acceso denegado\nEn C:\\Users\\car_g\\scoop\\apps\\scoop\\current\\lib\\core.ps1: 83 Carácter: 10\n+     if(!(Test-Path $file)) {\n+          ~~~~~~~~~~~~~~~\n    + CategoryInfo          : PermissionDenied: (C:\\Users\\car_g\\.config\\scoop\\config.json:String) [Test-Path], Unautho \n   rizedAccessException\n    + FullyQualifiedErrorId : ItemExistsUnauthorizedAccessError,Microsoft.PowerShell.Commands.TestPathCommand\n \n"
+    },
+    "simulacion_480": {
+      "codigo": 0,
+      "salida": "OK resolucion\nOK titulo\nOK partida\nOK guardado_existente\nOK pausa\nOK ajustes\nOK estado\nOK notas\nOK creditos\nOK creditos_juego\nOK objetos\nOK cargar\nOK gameover\nOK aviso\nOK feka\nOK cine\nOK escenas_estandar\nOK mapa_dialogo\nOK minijuegos\nOK combate\nOK camara_todos_mapas\nOK ventanas_todas_clases\nFIN SUITE\n",
+      "stderr": "Test-Path : Acceso denegado\nEn C:\\Users\\car_g\\scoop\\apps\\scoop\\current\\lib\\core.ps1: 83 Carácter: 10\n+     if(!(Test-Path $file)) {\n+          ~~~~~~~~~~~~~~~\n    + CategoryInfo          : PermissionDenied: (C:\\Users\\car_g\\.config\\scoop\\config.json:String) [Test-Path], Unautho \n   rizedAccessException\n    + FullyQualifiedErrorId : ItemExistsUnauthorizedAccessError,Microsoft.PowerShell.Commands.TestPathCommand\n \n"
+    }
+  },
+  "distribucion": {
+    "Vacas.exe": true,
+    "LICENSE-mkxp-z.txt": true,
+    "scripts/preload/ruby_classic_wrap.rb": true,
+    "stdlib/json.rb": true
+  },
+  "sha256_mkxp": "3acb84aeacec93f80d40372b041f2774e454f63454561bdd90af173a62760768",
+  "integridad": {
+    "before": {
+      "Game.exe": "0ed9b5139edb0ad0f0f4b5b88dd0265ddbf56d36d6f173d6a22f3b23e8212e22",
+      "RGSS104E.dll": "7b6acb5e2c245b8cfda77fced2cc0e94108384cd1b9ffc8510e7304fcb9feb6c",
+      "Game.ini": "36b11fe2e43d630b8150d648b5f283026e9e1d8b480e4f3aa8114ce3074618fb",
+      "Vacas.cfg": "cd459e1b5526203e4a29ea44d2bf0a8e99e7ccfc275a514b6542075ec4e87a71",
+      "Save1.rxdata": "056a1801c5e7a83b5512bfc6d1938e973e10d3cfe1f28d0eb2b67c976198fd3c"
+    },
+    "changed": []
+  },
+  "alcance": "Carga y geometria simuladas con datos Marshal reales. Renderer, audio, foco y capturas nativas pendientes por ausencia de dispositivo de audio."
+}

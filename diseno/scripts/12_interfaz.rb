@@ -477,7 +477,8 @@ class Vacas_UI_Background
   def initialize(name)
     @back=Sprite.new
     @back.bitmap=RPG::Cache.picture('ui_'+name)
-    @back.zoom_x=1.03; @back.zoom_y=1.03
+    Vacas_HD.cover(@back)
+    @back.zoom_x*=1.03; @back.zoom_y*=1.03
     @veil=Plane.new
     @veil.bitmap=RPG::Cache.picture('ui_fog')
     @veil.opacity=32; @veil.z=1
@@ -485,7 +486,7 @@ class Vacas_UI_Background
   end
   def update
     @tick+=1
-    @back.x=-10+Math.sin(@tick/150.0)*7
+    @back.x=(Vacas_HD.w-@back.bitmap.width*@back.zoom_x)/2-10+Math.sin(@tick/150.0)*7
     @veil.ox+=0.25; @veil.oy-=0.1
     n=(@tick%193<3) ? -22*Vacas_Config.get(:intensidad)/100 : 0
     @back.tone=Tone.new(n,n,n,0)
@@ -523,26 +524,26 @@ class Window_VacasPanel < Window_Base
   def lines(title,lines)
     contents.clear
     Vacas_UI.text(contents,0,0,contents.width,title,23,Vacas_UI::MINT)
-    y=40
+    y=Vacas_HD.y(40)
     contents.font.size=18
     lines.each do |s|
       line=''
       s.split(' ').each do |word|
         candidate=line=='' ? word : line+' '+word
         if contents.text_size(candidate).width>contents.width && line!=''
-          Vacas_UI.text(contents,0,y,contents.width,line,18);y+=26;line=word
+          Vacas_UI.text(contents,0,y,contents.width,line,18);y+=Vacas_HD.y(26);line=word
         else
           line=candidate
         end
       end
-      Vacas_UI.text(contents,0,y,contents.width,line,18);y+=30
+      Vacas_UI.text(contents,0,y,contents.width,line,18);y+=Vacas_HD.y(30)
     end
   end
 end
 
 class Window_VacasCommand < Window_Selectable
   def initialize(x,y,w,commands)
-    super(x,y,w,[commands.size*32+32,480-y-8].min)
+    super(x,y,w,[commands.size*32+32,Vacas_HD.h-y-8].min)
     @commands=commands; @item_max=commands.size; @column_max=1
     self.contents=Bitmap.new(w-32,@item_max*32)
     @disabled=[]; self.index=0; refresh
@@ -592,12 +593,12 @@ class Scene_Title
     names.each { |file,key| eval('$data_'+key+' = load_data("Data/'+file+'.rxdata")') }
     Vacas.ajustar_sistema; $game_system=Game_System.new
     @background=Vacas_UI.background('titulo')
-    @logo=Sprite.new; @logo.z=5; @logo.bitmap=Bitmap.new(640,480)
+    @logo=Sprite.new; @logo.z=5; @logo.bitmap=Bitmap.new(Vacas_HD.w,Vacas_HD.h)
     b=@logo.bitmap
-    Vacas_UI.text(b,42,72,500,'V A C A S',64)
-    Vacas_UI.text(b,46,141,500,'LA CARNE RECUERDA',17,Vacas_UI::MINT)
-    Vacas_UI.text(b,28,441,600,'Z / Intro: elegir     Esc: volver     Flechas: mover',16)
-    @command_window=Window_VacasCommand.new(36,230,248,
+    Vacas_UI.text(b,42,Vacas_HD.y(48),500,'V A C A S',64)
+    Vacas_UI.text(b,46,Vacas_HD.y(132),500,'LA CARNE RECUERDA',17,Vacas_UI::MINT)
+    Vacas_UI.text(b,28,Vacas_HD.bottom(28),600,'Z / Intro: elegir     Esc: volver     Flechas: mover',16)
+    @command_window=Window_VacasCommand.new(350,Vacas_HD.y(145),248,
       ['Nueva partida','Continuar','Ajustes','Creditos','Salir'])
     @continue_enabled=(1..4).any? { |i| FileTest.exist?('Save'+i.to_s+'.rxdata') }
     @command_window.disable_item(1) unless @continue_enabled
@@ -626,10 +627,11 @@ class Scene_VacasSettings
   def initialize(origin=:menu); @origin=origin; end
   def main
     @background=Vacas_UI.background
-    @panel=Window_VacasPanel.new(32,8,576,80)
+    @panel=Window_VacasPanel.new(32,8,Vacas_HD.w-64,80)
     @panel.lines('AJUSTES',''.split)
-    @list=Window_VacasCommand.new(32,88,576,LABELS)
-    @hint=Window_VacasPanel.new(32,432,576,48)
+    @list=Window_VacasCommand.new(32,88,Vacas_HD.w-64,LABELS)
+    @list.height=Vacas_HD.h-144
+    @hint=Window_VacasPanel.new(32,Vacas_HD.bottom(48),Vacas_HD.w-64,48)
     draw
     Vacas_UI.loop_scene(self)
     @background.dispose; @panel.dispose; @list.dispose; @hint.dispose
@@ -682,16 +684,17 @@ class Scene_Menu
   def main
     Vacas_Audio.play(:menu)
     @background=Vacas_UI.background
-    @command_window=Window_VacasCommand.new(24,112,208,
+    @command_window=Window_VacasCommand.new(24,104,208,
       ['Objetos','Estado / Cordura','Notas','Guardar','Ajustes','Salir'])
+    @command_window.height=[224,Vacas_HD.h-168].min
     @command_window.index=[@menu_index || 0,5].min
     @command_window.disable_item(3) unless Vacas_UI.save_allowed?
-    @top=Window_VacasPanel.new(24,16,592,88)
+    @top=Window_VacasPanel.new(24,8,Vacas_HD.w-48,88)
     infos=load_data('Data/MapInfos.rxdata')
     @top.lines('PAUSA / '+infos[$game_map.map_id].name,[])
-    @tasks=Window_VacasPanel.new(244,112,372,304)
+    @tasks=Window_VacasPanel.new(244,104,Vacas_HD.w-268,Vacas_HD.h-160)
     @tasks.lines('Lo que queda',Vacas.tareas.collect { |t| (t[1] ? '+ ' : '> ')+t[0] })
-    @foot=Window_VacasPanel.new(24,424,592,56)
+    @foot=Window_VacasPanel.new(24,Vacas_HD.bottom(56),Vacas_HD.w-48,56)
     @foot.lines('Z: elegir   Esc: regresar    '+$game_party.gold.to_s+' monedas',[])
     Vacas_UI.loop_scene(self)
     [@command_window,@top,@tasks,@foot].each { |w| w.dispose }; @background.dispose
@@ -718,11 +721,11 @@ class Scene_VacasJournal
   def initialize(mode); @mode=mode; end
   def main
     @background=Vacas_UI.background
-    @panel=Window_VacasPanel.new(24,16,592,88)
+    @panel=Window_VacasPanel.new(24,8,Vacas_HD.w-48,88)
     @panel.lines(@mode==:estado ? 'ESTADO / EL CUERPO RECUERDA' : 'NOTAS / LO QUE HAS GUARDADO',[])
     if @mode==:estado
       a=$game_party.actors[0]
-      @body=Window_VacasPanel.new(24,112,592,328)
+      @body=Window_VacasPanel.new(24,104,Vacas_HD.w-48,Vacas_HD.h-112)
       @body.lines(a.name,['Salud: '+a.hp.to_s+' / '+a.maxhp.to_s,
         'Aliento: '+a.sp.to_s+' / '+a.maxsp.to_s,
         'Cordura: '+(100-Vacas.veneno).to_s+' / 100',
@@ -739,7 +742,7 @@ class Scene_VacasJournal
       @notes=ids.select { |id| $data_items[id] && $game_party.item_number(id)>0 }
       labels=@notes.collect { |id| $data_items[id].name }
       labels=['Aun no has guardado notas.'] if labels.empty?
-      @body=Window_VacasCommand.new(24,112,592,labels)
+      @body=Window_VacasCommand.new(24,104,Vacas_HD.w-48,labels)
     end
     Vacas_UI.loop_scene(self)
     @panel.dispose; @body.dispose; @background.dispose
@@ -759,9 +762,9 @@ class Scene_Gameover
   def main
     Audio.bgs_stop; Audio.me_stop; Vacas_Audio.play(:gameover)
     @background=Vacas_UI.background('gameover')
-    @text=Window_VacasPanel.new(32,68,576,144)
+    @text=Window_VacasPanel.new(32,24,Vacas_HD.w-64,144)
     @text.lines('LA CARNE NO OLVIDA',['Aun puedes volver a intentarlo.'])
-    @list=Window_VacasCommand.new(32,282,300,['Cargar partida','Volver al titulo','Salir'])
+    @list=Window_VacasCommand.new(32,Vacas_HD.bottom(144),300,['Cargar partida','Volver al titulo','Salir'])
     Vacas_UI.loop_scene(self)
     @list.dispose; @text.dispose; @background.dispose
   end
@@ -843,7 +846,7 @@ end
 
 class Window_PartyCommand
   def initialize
-    super(8,334,160,146)
+    super(8,Vacas_HD.bottom(146),160,146)
     self.contents=Bitmap.new(128,114)
     @commands=['Afrontar','Apartarse']; @item_max=2; @column_max=1
     draw_item(0,normal_color)
@@ -864,7 +867,7 @@ class Sprite_Battler
   def update
     ui_battler_update
     if @battler && @battler.is_a?(Game_Actor)
-      self.x=86; self.y=326; self.zoom_x=0.6; self.zoom_y=0.6
+      self.x=86; self.y=Vacas_HD.bottom(154); self.zoom_x=0.6; self.zoom_y=0.6
     end
   end
 end
@@ -873,8 +876,8 @@ class Window_Item
   alias ui_inventory_initialize initialize
   def initialize
     ui_inventory_initialize
-    self.x=24;self.y=104;self.width=592
-    self.height=$game_temp.in_battle ? 224 : 360
+    self.x=24;self.y=104;self.width=Vacas_HD.w-48
+    self.height=Vacas_HD.h-self.y-8
     @column_max=1
     refresh; self.index=0
   end
@@ -894,8 +897,8 @@ class Window_SaveFile
   alias ui_savefile_initialize initialize
   def initialize(*args)
     ui_savefile_initialize(*args)
-    self.x=24; self.y=80+@file_index*96; self.width=592; self.height=88
-    self.contents.dispose;self.contents=Bitmap.new(560,56);refresh
+    self.x=24; self.y=64+@file_index*((Vacas_HD.h-64)/4); self.width=Vacas_HD.w-48; self.height=(Vacas_HD.h-64)/4-4
+    self.contents.dispose;self.contents=Bitmap.new(Vacas_HD.w-80,56);refresh
   end
   def refresh
     contents.clear
@@ -926,7 +929,7 @@ end
 class Sprite_Veneno
   def initialize
     super(nil)
-    self.bitmap=Bitmap.new(240,84); self.x=14; self.y=390; self.z=4000
+    self.bitmap=Bitmap.new(240,84); self.x=14; self.y=Vacas_HD.bottom(90); self.z=4000
     @display=Vacas.veneno.to_f; @last=-1; @pulse=0
   end
   def update
@@ -987,15 +990,15 @@ module Graphics
     alias ui_original_update update
     def update
       unless @ui_overlay
-        @ui_view=Viewport.new(0,0,640,480); @ui_view.z=99999
-        @ui_overlay=Sprite.new(@ui_view); @ui_overlay.bitmap=Bitmap.new(640,480)
-        @ui_caption=Sprite.new(@ui_view); @ui_caption.bitmap=Bitmap.new(640,40)
+        @ui_view=Viewport.new(0,0,Vacas_HD.w,Vacas_HD.h); @ui_view.z=99999
+        @ui_overlay=Sprite.new(@ui_view); @ui_overlay.bitmap=Bitmap.new(Vacas_HD.w,Vacas_HD.h)
+        @ui_caption=Sprite.new(@ui_view); @ui_caption.bitmap=Bitmap.new(Vacas_HD.w,40)
         @ui_caption.y=0; @ui_caption.z=2
       end
       value=Vacas_Config.get(:brillo)
       if @ui_brightness!=value
         @ui_brightness=value
-        @ui_overlay.bitmap.fill_rect(0,0,640,480,value<100 ? Color.new(0,0,0) : Color.new(255,245,220))
+        @ui_overlay.bitmap.fill_rect(0,0,Vacas_HD.w,Vacas_HD.h,value<100 ? Color.new(0,0,0) : Color.new(255,245,220))
         @ui_overlay.opacity=(value-100).abs*2
       end
       caption=Vacas_Audio.caption
@@ -1035,7 +1038,7 @@ end
 # Ventanas de combate: actores, enemigos, estados y barras interpoladas.
 class Window_BattleStatus
   def initialize
-    super(176,334,464,146)
+    super(176,Vacas_HD.bottom(146),Vacas_HD.w-176,146)
     self.contents=Bitmap.new(432,114)
     @level_up_flags=[false,false,false,false]; @ui_values={}; refresh
   end
@@ -1075,7 +1078,7 @@ class Window_BattleStatus
 end
 
 class Window_VacasEnemies < Window_VacasPanel
-  def initialize; super(8,4,216,100); @values={}; end
+  def initialize; super(Vacas_HD.w-224,4,216,100); @values={}; end
   def update
     super; contents.clear
     enemies=$game_troop.enemies.select { |e| !e.hidden }
@@ -1114,7 +1117,7 @@ class Arrow_Actor
   alias ui_actor_arrow_update update
   def update
     ui_actor_arrow_update
-    self.x=86;self.y=326 if self.actor
+    self.x=86;self.y=Vacas_HD.bottom(154) if self.actor
   end
 end
 
@@ -1141,16 +1144,16 @@ class Scene_Battle
     @actor_command_window.dispose
     w=$data_system.words
     @actor_command_window=Window_VacasBattleCommand.new([w.attack,w.skill,w.guard,w.item])
-    @actor_command_window.x=8;@actor_command_window.y=334
+    @actor_command_window.x=8;@actor_command_window.y=Vacas_HD.bottom(146)
     @actor_command_window.active=false;@actor_command_window.visible=false
     ui_start_phase1
   end
   alias ui_battle_main main
   def main
     @ui_enemies=Window_VacasEnemies.new
-    @ui_entry=Sprite.new; @ui_entry.z=9000; @ui_entry.bitmap=Bitmap.new(640,480)
-    @ui_entry.bitmap.fill_rect(0,0,640,480,Color.new(6,12,12,220))
-    Vacas_UI.text(@ui_entry.bitmap,90,200,460,'LA IMAGEN TE ENCUENTRA',30,Vacas_UI::INK,1)
+    @ui_entry=Sprite.new; @ui_entry.z=9000; @ui_entry.bitmap=Bitmap.new(Vacas_HD.w,Vacas_HD.h)
+    @ui_entry.bitmap.fill_rect(0,0,Vacas_HD.w,Vacas_HD.h,Color.new(6,12,12,220))
+    Vacas_UI.text(@ui_entry.bitmap,90,Vacas_HD.y(200),460,'LA IMAGEN TE ENCUENTRA',30,Vacas_UI::INK,1)
     @ui_entry_ticks=48
     zone=Vacas_Audio.zone
     zone=:manada if $game_temp.battle_troop_id==17
@@ -1171,7 +1174,7 @@ class Scene_Battle
       @spriteset.update; @ui_enemies.update; return
     end
     if @actor_command_window
-      @actor_command_window.x=8; @actor_command_window.y=334
+      @actor_command_window.x=8; @actor_command_window.y=Vacas_HD.bottom(146)
       @actor_command_window.back_opacity=245
     end
     @ui_enemies.update if @ui_enemies
@@ -1196,7 +1199,7 @@ class Scene_Battle
     ui_battle_end(result)
   end
   def ui_result_card(result)
-    card=Window_VacasPanel.new(104,162,432,156); card.z=10000
+    card=Window_VacasPanel.new(104,(Vacas_HD.h-156)/2,432,156); card.z=10000
     card.lines(result==2 ? 'LA IMAGEN TE SUPERA' : 'APARTAS LA MIRADA',
       ['Respira. Todavia puedes seguir.','Pulsa Z / Intro.'])
     Vacas_Audio.play(:derrota)
@@ -1213,7 +1216,7 @@ class Window_BattleResult
   alias ui_result_initialize initialize
   def initialize(*args)
     ui_result_initialize(*args)
-    self.x=104; self.y=164; self.width=432; self.height=156
+    self.x=104; self.y=(Vacas_HD.h-156)/2; self.width=432; self.height=156
     self.contents.dispose; self.contents=Bitmap.new(400,124)
     refresh; Vacas_Audio.play(:victoria)
   end
@@ -1238,7 +1241,7 @@ class RPG::Sprite
     b.font.color=value.is_a?(Numeric) && value<0 ? Vacas_UI::MINT : Vacas_UI::INK
     b.draw_text(0,0,176,48,label,1)
     @damage_sprite=::Sprite.new(self.viewport)
-    @damage_sprite.bitmap=b; @damage_sprite.ox=90; @damage_sprite.oy=40
+    @damage_sprite.bitmap=b; @damage_sprite.ox=90; @damage_sprite.oy=Vacas_HD.y(40)
     @damage_sprite.x=self.x; @damage_sprite.y=self.y-self.oy/2
     @damage_sprite.z=3000; @damage_duration=40
   end
@@ -1908,18 +1911,19 @@ end
 class Scene_VacasCredits
   def main
     @background=Vacas_UI.background('titulo')
-    @panel=Window_VacasPanel.new(24,64,592,350)
-    @footer=Window_VacasPanel.new(24,416,592,64)
+    @panel=Window_VacasPanel.new(24,24,Vacas_HD.w-48,Vacas_HD.h-96)
+    @footer=Window_VacasPanel.new(24,Vacas_HD.bottom(64),Vacas_HD.w-48,64)
     @page=0; @lines=Vacas_Audio::CREDITS_LINES
-    @pages=[(@lines.size+11)/12,1].max
+    @per_page=[(@panel.height-32)/25,1].max
+    @pages=[(@lines.size+@per_page-1)/@per_page,1].max
     draw
     Vacas_UI.loop_scene(self)
     @panel.dispose; @footer.dispose; @background.dispose
   end
   def draw
     @panel.contents.clear
-    12.times do |i|
-      line=@lines[@page*12+i]
+    @per_page.times do |i|
+      line=@lines[@page*@per_page+i]
       b=@panel.contents; b.font.name='Courier New'; b.font.size=16; b.font.color=Vacas_UI::INK
       b.draw_text(4,i*25,548,25,line) if line
     end

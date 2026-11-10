@@ -1,5 +1,200 @@
 [
   {
+    "file": "diseno/scripts/motor/000.rb",
+    "index": 0,
+    "name": "Game_Temp"
+  },
+  {
+    "file": "diseno/scripts/motor/012.rb",
+    "name": "Game_Enemy",
+    "index": 12
+  },
+  {
+    "file": "diseno/scripts/motor/016.rb",
+    "index": 16,
+    "name": "Game_Map"
+  },
+  {
+    "file": "diseno/scripts/motor/022.rb",
+    "index": 22,
+    "name": "Game_Player"
+  },
+  {
+    "file": "diseno/scripts/motor/026.rb",
+    "index": 26,
+    "name": "Sprite_Timer"
+  },
+  {
+    "file": "diseno/scripts/motor/027.rb",
+    "index": 27,
+    "name": "Spriteset_Map"
+  },
+  {
+    "file": "diseno/scripts/motor/028.rb",
+    "index": 28,
+    "name": "Spriteset_Battle"
+  },
+  {
+    "file": "diseno/scripts/motor/032.rb",
+    "index": 32,
+    "name": "Window_Help"
+  },
+  {
+    "file": "diseno/scripts/motor/033.rb",
+    "index": 33,
+    "name": "Window_Gold"
+  },
+  {
+    "file": "diseno/scripts/motor/034.rb",
+    "index": 34,
+    "name": "Window_PlayTime"
+  },
+  {
+    "file": "diseno/scripts/motor/035.rb",
+    "index": 35,
+    "name": "Window_Steps"
+  },
+  {
+    "file": "diseno/scripts/motor/036.rb",
+    "index": 36,
+    "name": "Window_MenuStatus"
+  },
+  {
+    "file": "diseno/scripts/motor/037.rb",
+    "index": 37,
+    "name": "Window_Item"
+  },
+  {
+    "file": "diseno/scripts/motor/038.rb",
+    "index": 38,
+    "name": "Window_Skill"
+  },
+  {
+    "file": "diseno/scripts/motor/039.rb",
+    "index": 39,
+    "name": "Window_SkillStatus"
+  },
+  {
+    "file": "diseno/scripts/motor/040.rb",
+    "index": 40,
+    "name": "Window_Target"
+  },
+  {
+    "file": "diseno/scripts/motor/041.rb",
+    "index": 41,
+    "name": "Window_EquipLeft"
+  },
+  {
+    "file": "diseno/scripts/motor/042.rb",
+    "index": 42,
+    "name": "Window_EquipRight"
+  },
+  {
+    "file": "diseno/scripts/motor/043.rb",
+    "index": 43,
+    "name": "Window_EquipItem"
+  },
+  {
+    "file": "diseno/scripts/motor/044.rb",
+    "index": 44,
+    "name": "Window_Status"
+  },
+  {
+    "file": "diseno/scripts/motor/046.rb",
+    "index": 46,
+    "name": "Window_ShopCommand"
+  },
+  {
+    "file": "diseno/scripts/motor/047.rb",
+    "index": 47,
+    "name": "Window_ShopBuy"
+  },
+  {
+    "file": "diseno/scripts/motor/048.rb",
+    "index": 48,
+    "name": "Window_ShopSell"
+  },
+  {
+    "file": "diseno/scripts/motor/049.rb",
+    "index": 49,
+    "name": "Window_ShopNumber"
+  },
+  {
+    "file": "diseno/scripts/motor/050.rb",
+    "index": 50,
+    "name": "Window_ShopStatus"
+  },
+  {
+    "file": "diseno/scripts/motor/051.rb",
+    "index": 51,
+    "name": "Window_NameEdit"
+  },
+  {
+    "file": "diseno/scripts/motor/052.rb",
+    "index": 52,
+    "name": "Window_NameInput"
+  },
+  {
+    "file": "diseno/scripts/motor/054.rb",
+    "index": 54,
+    "name": "Window_Message"
+  },
+  {
+    "file": "diseno/scripts/motor/055.rb",
+    "index": 55,
+    "name": "Window_PartyCommand"
+  },
+  {
+    "file": "diseno/scripts/motor/056.rb",
+    "index": 56,
+    "name": "Window_BattleStatus"
+  },
+  {
+    "file": "diseno/scripts/motor/057.rb",
+    "index": 57,
+    "name": "Window_BattleResult"
+  },
+  {
+    "file": "diseno/scripts/motor/058.rb",
+    "index": 58,
+    "name": "Window_DebugLeft"
+  },
+  {
+    "file": "diseno/scripts/motor/059.rb",
+    "index": 59,
+    "name": "Window_DebugRight"
+  },
+  {
+    "file": "diseno/scripts/motor/070.rb",
+    "index": 70,
+    "name": "Scene_Title"
+  },
+  {
+    "file": "diseno/scripts/motor/072.rb",
+    "index": 72,
+    "name": "Scene_Menu"
+  },
+  {
+    "file": "diseno/scripts/motor/080.rb",
+    "index": 80,
+    "name": "Scene_End"
+  },
+  {
+    "file": "diseno/scripts/motor/081.rb",
+    "index": 81,
+    "name": "Scene_Battle 1"
+  },
+  {
+    "file": "diseno/scripts/motor/085.rb",
+    "index": 85,
+    "name": "Scene_Shop"
+  },
+  {
+    "file": "diseno/scripts/motor/088.rb",
+    "name": "Scene_Debug",
+    "index": 88
+  },
+  {
     "file": "diseno/scripts/01_nucleo.rb",
     "name": "Vacas_Nucleo",
     "index": 89

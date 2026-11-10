@@ -59,7 +59,7 @@ module Vacas_Cine
     return [[nil,nil,row[0],row[1],6,:alterna_camaras_drone,row[2],nil]]
   end
   def self.atajo?
-    return [Input::A,Input::SHIFT,Input::CTRL,Input::ALT,Input::L].any? { |k| Input.press?(k) }
+    return [:shift,:ctrl,:alt,:q,:w].any? { |k| Vacas_HD.key?(k) }
   end
 end
 
@@ -75,13 +75,13 @@ class Scene_VacasCine
     @indice = -1; @hold = 0; @listo = false
     @terminada = false; @omitida = false
     @fondo = Sprite.new
-    @fondo.bitmap = Bitmap.new(640,480)
-    @fondo.bitmap.fill_rect(0,0,640,480,Color.new(0,0,0))
+    @fondo.bitmap = Bitmap.new(Vacas_HD.w,Vacas_HD.h)
+    @fondo.bitmap.fill_rect(0,0,Vacas_HD.w,Vacas_HD.h,Color.new(0,0,0))
     @fondo.z = 4000
     @plano = Sprite.new; @plano.z = 4001
     @retrato = Sprite.new; @retrato.z = 4002
     @texto = Sprite.new; @texto.z = 4003
-    @texto.bitmap = Bitmap.new(640,480)
+    @texto.bitmap = Bitmap.new(Vacas_HD.w,Vacas_HD.h)
     siguiente
     Graphics.transition(12)
     until @terminada
@@ -120,22 +120,23 @@ class Scene_VacasCine
     @duracion = (@fps * row[4]).to_i
     @plano.bitmap = row[0] ? RPG::Cache.picture(row[0]) : nil
     @plano.tone = Tone.new(-45,-52,-58,30)
-    @plano.zoom_x = @plano.zoom_y = 1.08
+    Vacas_HD.cover(@plano)
+    @plano.zoom_x *= 1.08; @plano.zoom_y *= 1.08
     @retrato.bitmap = row[1] ? RPG::Cache.picture('retrato_'+row[1]) : nil
     @retrato.x = 32; @retrato.y = 42
-    @retrato.zoom_x = @retrato.zoom_y = 0.70
+    @retrato.zoom_x = @retrato.zoom_y = [0.70,(Vacas_HD.h-150).to_f/360].min
     Vacas_Audio.play(row[5]) if row[5]
     Vacas_Audio.play(row[6]) if row[6]
     Vacas_Audio.play(row[7]) if row[7]
     b = @texto.bitmap; b.clear
-    b.fill_rect(0,338,640,142,Color.new(0,0,0,235))
+    b.fill_rect(0,Vacas_HD.bottom(142),Vacas_HD.w,142,Color.new(0,0,0,235))
     b.font.name = 'Arial'; b.font.size = 26
     b.font.color = Color.new(210,220,204)
-    b.draw_text(24,350,592,36,row[2],1)
+    b.draw_text(24,Vacas_HD.bottom(130),Vacas_HD.w-48,36,row[2],1)
     b.font.size = 19
-    b.draw_text(16,392,608,32,row[3],1)
+    b.draw_text(16,Vacas_HD.bottom(88),Vacas_HD.w-32,32,row[3],1)
     b.font.size = 15; b.font.color = Color.new(160,164,152)
-    b.draw_text(16,445,608,24,'Mantén Z / Intro 1 s para saltar · Esc: menú',1)
+    b.draw_text(16,Vacas_HD.bottom(35),Vacas_HD.w-32,24,'Mantén Z / Intro 1 s para saltar · Esc: menú',1)
     animar
   end
   def animar
@@ -143,8 +144,8 @@ class Scene_VacasCine
     @plano.opacity = fade; @texto.opacity = fade; @retrato.opacity = fade
     if @plano.bitmap
       t = @frame.to_f / @duracion
-      dx = [@plano.bitmap.width*1.08-640,0].max
-      dy = [@plano.bitmap.height*1.08-480,0].max
+      dx = [@plano.bitmap.width*@plano.zoom_x-Vacas_HD.w,0].max
+      dy = [@plano.bitmap.height*@plano.zoom_y-Vacas_HD.h,0].max
       @plano.x = -dx * (0.35 + t*0.25)
       @plano.y = -dy * (0.55 - t*0.20)
     end
@@ -168,7 +169,7 @@ class Scene_VacasCine
     end
     if Input.trigger?(Input::B)
       @menu = Window_Command.new(280,['Continuar cinemática','Saltar cinemática'])
-      @menu.x = 180; @menu.y = 170; @menu.z = 4100
+      @menu.x = 180; @menu.y = (Vacas_HD.h-@menu.height)/2; @menu.z = 4100
       return
     end
     @frame += 1; animar
@@ -253,5 +254,61 @@ class Scene_FinalVacas
   def main
     Scene_VacasCine.new(Vacas_Cine::FINALES[@rama]).main
     cine_final_antes
+  end
+end
+
+# Pictures de evento a pantalla completa: cover centrado, sin deformacion.
+Vacas_Audio::CREDITS_LINES.concat([
+  '', 'MOTOR DE LA VERSION HD', 'mkxp-z 2.4.2 / 37a04d1 - GPL version 3',
+  'Amaryllis Kulla, Struma, Splendide Imaginarius',
+  'y demas colaboradores de mkxp-z.',
+  'https://github.com/mkxp-z/mkxp-z',
+  'Licencia completa: LICENSE-mkxp-z.txt', ''
+])
+
+# Las mascaras revision_luz y de actos siguen ancladas al mundo.
+class Sprite_Picture
+  alias hd_picture_update update
+  def update
+    hd_picture_update
+    if self.bitmap && self.bitmap.width == Vacas_HD.w &&
+        self.bitmap.height == 480 && @picture.x == 0 && @picture.y == 0
+      Vacas_HD.cover(self)
+    end
+  end
+end
+
+class Sprite_Battler
+  alias hd_enemy_update update
+  def update
+    hd_enemy_update
+    if @battler && @battler.is_a?(Game_Enemy)
+      self.y = @battler.screen_y
+      self.zoom_x = self.zoom_y = [1.0,(Vacas_HD.h-150)/260.0].min
+    end
+  end
+end
+
+# El HUD cambia de esquina si el jugador ocupa su area; nunca tapa su casilla.
+class Sprite_Veneno
+  alias hd_hud_update update
+  def update
+    hd_hud_update
+    if $game_player && $game_player.screen_x < self.x + self.bitmap.width + 24 &&
+        $game_player.screen_y > Vacas_HD.h - self.bitmap.height - 32
+      self.y = 12
+    else
+      self.y = Vacas_HD.h - self.bitmap.height - 6
+    end
+  end
+end
+
+# Una partida escrita por Ruby 1.8 se carga tambien en mkxp-z, y viceversa.
+# Recentrar elimina el display_y obsoleto al cambiar de formato.
+class Scene_Load
+  alias hd_read_save_data read_save_data
+  def read_save_data(file)
+    hd_read_save_data(file)
+    $game_player.center($game_player.x,$game_player.y)
   end
 end

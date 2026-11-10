@@ -24,11 +24,11 @@
 #------------------------------------------------------------------------------
 class Vacas_Minijuego
   def initialize
-    @vp = Viewport.new(0, 0, 640, 480)
+    @vp = Viewport.new(0, 0, Vacas_HD.w, Vacas_HD.h)
     @vp.z = 6000
     @sprites = []
-    @fondo = nuevo_sprite(640, 480)
-    @fondo.bitmap.fill_rect(0, 0, 640, 480, Color.new(6, 4, 4, 200))
+    @fondo = nuevo_sprite(Vacas_HD.w, Vacas_HD.h)
+    @fondo.bitmap.fill_rect(0, 0, Vacas_HD.w, Vacas_HD.h, Color.new(6, 4, 4, 200))
   end
   def nuevo_sprite(w, h)
     s = Sprite.new(@vp)
@@ -37,17 +37,17 @@ class Vacas_Minijuego
     return s
   end
   def texto(s, y, tam, color, h = 32)
-    sp = nuevo_sprite(640, h)
-    sp.y = y
+    sp = nuevo_sprite(Vacas_HD.w, h)
+    sp.y = Vacas_HD.y(y)
     sp.bitmap.font.size = tam
     sp.bitmap.font.color = color
-    sp.bitmap.draw_text(0, 0, 640, h, s, 1)
+    sp.bitmap.draw_text(0, 0, Vacas_HD.w, h, s, 1)
     return sp
   end
   def rotulo(sp, s, color)
     sp.bitmap.clear
     sp.bitmap.font.color = color
-    sp.bitmap.draw_text(0, 0, 640, sp.bitmap.height, s, 1)
+    sp.bitmap.draw_text(0, 0, Vacas_HD.w, sp.bitmap.height, s, 1)
   end
   def esperar(n)
     n.times do
@@ -85,15 +85,16 @@ end
 class Vacas_Corte < Vacas_Minijuego
   BX = 120
   BW = 400
-  BY = 330
+  BY = Vacas_HD.y(330)
   def initialize(rondas)
     super()
     @rondas = rondas
     texto("EL CORTE", 26, 26, ROJO, 36)
     texto("Pulsa Intro cuando la cuchilla cruce la franja roja.", 62, 18, GRIS)
     @canal = nuevo_sprite(160, 220)
+    @canal.zoom_x = @canal.zoom_y = Vacas_HD.h / 480.0
     @canal.x = 240
-    @canal.y = 92
+    @canal.y = Vacas_HD.y(92)
     dibujar_canal(0)
     @barra = nuevo_sprite(BW + 8, 32)
     @barra.x = BX - 4
@@ -200,14 +201,14 @@ end
 class Vacas_Cinta < Vacas_Minijuego
   ZX = 90
   ZW = 70
-  CY = 250
+  CY = Vacas_HD.y(250)
   DIRS = [2, 4, 6, 8]
   def initialize(piezas)
     super()
     @total = piezas
     texto("LA CINTA", 26, 26, ROJO, 36)
     texto("Pulsa la flecha de cada pieza cuando entre en el recuadro.", 62, 18, GRIS)
-    @cinta = nuevo_sprite(640, 80)
+    @cinta = nuevo_sprite(Vacas_HD.w, 80)
     @cinta.y = CY - 10
     @cinta_off = 0
     @zona = nuevo_sprite(ZW, 76)
@@ -229,10 +230,10 @@ class Vacas_Cinta < Vacas_Minijuego
   def pintar_cinta
     b = @cinta.bitmap
     b.clear
-    b.fill_rect(0, 0, 640, 60, Color.new(20, 20, 22))
-    b.fill_rect(0, 4, 640, 52, Color.new(52, 52, 54))
+    b.fill_rect(0, 0, Vacas_HD.w, 60, Color.new(20, 20, 22))
+    b.fill_rect(0, 4, Vacas_HD.w, 52, Color.new(52, 52, 54))
     x = -(@cinta_off % 24)
-    while x < 640
+    while x < Vacas_HD.w
       b.fill_rect(x, 4, 2, 52, Color.new(82, 82, 84))
       x += 24
     end
@@ -255,7 +256,7 @@ class Vacas_Cinta < Vacas_Minijuego
     b.fill_rect(4, 8, 40, 32, Color.new(150, 52, 46))
     b.fill_rect(6, 12, 36, 4, Color.new(214, 196, 170))
     flecha(b, d, 24, 26, Color.new(240, 236, 226))
-    s.x = 640
+    s.x = Vacas_HD.w
     s.y = CY
     @piezas.push([s, d, false])
   end

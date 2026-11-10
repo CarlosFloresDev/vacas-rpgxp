@@ -17,11 +17,11 @@
 class Scene_FekaIntro
   FONDO   = Color.new(8, 7, 11)        # #08070b
   NEON    = [255, 61, 87]              # #ff3d57
-  LOGO_X  = 136                        # logo 368x146 centrado en 640
-  LOGO_Y  = 150
+  LOGO_X  = (Vacas_HD.w - 368) / 2                        # logo 368x146 centrado en Vacas_HD.w
+  LOGO_Y  = Vacas_HD.h / 2 - 90
   GOTA_X  = LOGO_X + 107               # centro de la gota dentro del logo
   GOTA_Y  = LOGO_Y + 85
-  SUELO_Y = 322                        # donde salpica (eje de la linea)
+  SUELO_Y = Vacas_HD.h / 2 + 82                    # donde salpica (eje de la linea)
   # Fotogramas a 40 fps: 250 = 6,25 s.
   T_LOGO  = 20                         # enciende el neon
   T_FIJO  = 64                         # logo estable
@@ -67,7 +67,7 @@ class Scene_FekaIntro
     s = Sprite.new
     @sprites.push(s)
     @propios.push(s) unless nombre
-    s.bitmap = nombre ? RPG::Cache.picture(nombre) : Bitmap.new(640, 480)
+    s.bitmap = nombre ? RPG::Cache.picture(nombre) : Bitmap.new(Vacas_HD.w, Vacas_HD.h)
     s.x = x; s.y = y; s.z = z; s.opacity = 0
     s
   end
@@ -75,8 +75,8 @@ class Scene_FekaIntro
   def crear
     @sprites = []; @propios = []; @gotas = []
     @fondo = sprite(nil, 0, 0, 0)
-    @fondo.bitmap.fill_rect(0, 0, 640, 480, FONDO); @fondo.opacity = 255
-    @halo = sprite('feka_halo', 64, 95, 1); @halo.blend_type = 1
+    @fondo.bitmap.fill_rect(0, 0, Vacas_HD.w, Vacas_HD.h, FONDO); @fondo.opacity = 255
+    @halo = sprite('feka_halo', 64, Vacas_HD.h / 2 - 145, 1); @halo.blend_type = 1
     @fantasma = sprite('feka_logo', LOGO_X, LOGO_Y, 2)
     @fantasma.blend_type = 1
     @fantasma.color = Color.new(NEON[0], NEON[1], NEON[2], 255)
@@ -84,8 +84,8 @@ class Scene_FekaIntro
     @franjas = [sprite('feka_logo', LOGO_X, LOGO_Y, 4),
                 sprite('feka_logo', LOGO_X, LOGO_Y, 4)]
     @linea = sprite('feka_linea', LOGO_X, SUELO_Y - 6, 3)
-    @texto = sprite('feka_presenta', 0, 344, 3)
-    @texto.x = (640 - @texto.bitmap.width) / 2
+    @texto = sprite('feka_presenta', 0, Vacas_HD.h / 2 + 104, 3)
+    @texto.x = (Vacas_HD.w - @texto.bitmap.width) / 2
     @destello = sprite('feka_halo', GOTA_X, SUELO_Y, 4)
     @destello.blend_type = 1; @destello.ox = 256; @destello.oy = 128
     @destello.zoom_x = 0.3; @destello.zoom_y = 0.3
@@ -101,7 +101,7 @@ class Scene_FekaIntro
       @gotas.push([g, GOTA_X.to_f, SUELO_Y.to_f, vx, -2.2 - rand(30) / 10.0])
     end
     @velo = sprite(nil, 0, 0, 20)
-    @velo.bitmap.fill_rect(0, 0, 640, 480, Color.new(0, 0, 0)); @velo.opacity = 255
+    @velo.bitmap.fill_rect(0, 0, Vacas_HD.w, Vacas_HD.h, Color.new(0, 0, 0)); @velo.opacity = 255
   end
 
   def liberar
@@ -223,6 +223,6 @@ class Scene_FekaIntro
     # PRESENTA sube un poco mientras aparece.
     k = rampa(T_TEXTO, T_TEXTO + 34)
     @texto.opacity = 205 * k
-    @texto.y = 344 - (4 * k).to_i
+    @texto.y = Vacas_HD.h / 2 + 104 - (4 * k).to_i
   end
 end

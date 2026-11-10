@@ -1,6 +1,6 @@
 # Vacas: índice del proyecto
 
-El juego ejecuta **`Data/Scripts.rxdata`**. `scripts/` contiene las 16 fuentes Ruby propias, en el mismo orden que las secciones `Vacas_*` del archivo instalado; [manifest.json](scripts/manifest.json) registra nombre e índice real (base 0). Los scripts estándar del motor y `Main` permanecen en el archivo del motor.
+El juego ejecuta **`Data/Scripts.rxdata`**. `scripts/` contiene las 16 fuentes Ruby propias y `scripts/motor/` las 39 secciones est?ndar adaptadas para HD; [manifest.json](scripts/manifest.json) registra nombre e índice real (base 0). Los scripts estándar del motor y `Main` permanecen en el archivo del motor.
 
 | Carpeta | Contenido |
 | --- | --- |
@@ -16,6 +16,12 @@ El juego ejecuta **`Data/Scripts.rxdata`**. `scripts/` contiene las 16 fuentes R
 | [archivo/](archivo/) | Lotes de operaciones, registros auxiliares, `ui_carga.txt`, `Vacas.cfg.bak`, fuentes antiguas y programas de la migración. |
 
 La raíz conserva `Game.exe`, `Game.ini`, `Game.rxproj`, `RGSS104E.dll`, `Data/`, `Graphics/` y `Audio/`, con sus nombres y subcarpetas del motor. También conserva `Vacas.cfg` y `Save1.rxdata`: el guardado debe seguir siendo visible en Cargar. `.mcp-backup/` es la ubicación de trabajo del MCP. Los créditos distribuidos están en [CREDITOS_AUDIO.md](docs/sistemas/CREDITOS_AUDIO.md); el juego ya los incluye en su script de interfaz y no lee ese documento.
+
+## Ejecutar la versi?n HD
+
+Abrir **`Vacas.exe`** desde la ra?z: mkxp-z, lienzo panor?mico 640?360, pantalla completa con escalado entero n?tido (?3 exacto en 1920?1080). **Alt+Enter** alterna entre ventana y pantalla completa. `Game.exe` sigue disponible para el editor y usa 640?480. Los guardados conservan sus nombres.
+
+[Gu?a HD, cambios, licencia y verificaci?n](docs/sistemas/HD.md). Comprobaci?n sin abrir el juego: `python diseno/herramientas/comun/verificar_hd.py`. El respaldo previo est? en `respaldos/antes_hd/`.
 
 ## Probar cada acto
 
@@ -40,10 +46,10 @@ Ejecutar desde la raíz:
 node diseno/herramientas/comun/instalar_scripts.mjs
 # Vista previa: comprueba nombre, índice y Marshal, sin escribir Data.
 node diseno/herramientas/comun/instalar_scripts.mjs --aplicar
-# Instalación explícita: respalda y reemplaza solo las 16 secciones propias.
+# Instalación explícita: respalda y reemplaza solo las 55 secciones del manifiesto.
 ```
 
-El instalador vigente es `instalar_scripts.mjs`. No agrega ni reordena secciones. Los instaladores anteriores (`instalar_interfaz.mjs`, `instalar_fase45.mjs`, `instalar_intro_feka.rb`, `audio/instalar_audio.rb`) se conservan como pasos de sus fases: afectan subconjuntos distintos, por eso no se fusionaron. Los `build_*`, `preparar_*`, `maps*`, `aplicar_*` y `integrar_*` reconstruyen contenido y pueden modificar datos o fuentes; no forman parte de la instalación habitual de scripts.
+El instalador vigente es `instalar_scripts.mjs`. No agrega ni reordena secciones. El manifiesto HD incluye las 16 secciones propias y 39 est?ndar adaptadas. Los instaladores anteriores (`instalar_interfaz.mjs`, `instalar_fase45.mjs`, `instalar_intro_feka.rb`, `audio/instalar_audio.rb`) se conservan como pasos de sus fases: afectan subconjuntos distintos, por eso no se fusionaron. Los `build_*`, `preparar_*`, `maps*`, `aplicar_*` y `integrar_*` reconstruyen contenido y pueden modificar datos o fuentes; no forman parte de la instalación habitual de scripts.
 
 ## Verificar e inventariar
 

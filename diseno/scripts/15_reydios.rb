@@ -113,7 +113,7 @@ end
 class Scene_Title
   alias reydios_nueva_antes command_new_game
   def command_new_game
-    salto = Input.press?(Input::CTRL) && Input.press?(Input::R)
+    salto = Vacas_HD.key?(:ctrl) && Vacas_HD.key?(:w)
     cruel = Input.press?(Input::SHIFT)
     reydios_nueva_antes
     $scene = Scene_PruebaActo6.new(cruel) if salto
@@ -135,7 +135,7 @@ class Scene_PruebaActo6
   def initialize(cruel = false); @cruel = cruel; end
   def main
     @background = Vacas_UI.background('titulo')
-    @window = Window_VacasCommand.new(100,170,440,
+    @window = Window_VacasCommand.new(100,Vacas_HD.y(170),440,
       ['VI: Rey de la manada','VI: Ganado','VI: Huida'])
     Vacas_UI.loop_scene(self)
     @window.dispose
@@ -269,16 +269,16 @@ class Scene_FinalVacas
     Vacas_Audio.play(:tema_tranquilo_seguro_tv)
     @background = Vacas_UI.background('titulo')
     @text = Sprite.new
-    @text.bitmap = Bitmap.new(640,480)
+    @text.bitmap = Bitmap.new(Vacas_HD.w,Vacas_HD.h)
     b = @text.bitmap
-    Vacas_UI.text(b,40,128,560,'FIN',56,Vacas_UI::MINT)
-    Vacas_UI.text(b,40,204,560,Vacas::FINALES_A6[@rama-1],30)
+    Vacas_UI.text(b,40,Vacas_HD.y(128),560,'FIN',56,Vacas_UI::MINT)
+    Vacas_UI.text(b,40,Vacas_HD.y(204),560,Vacas::FINALES_A6[@rama-1],30)
     lines = [
       ['La ciudad aprende a bajar la cabeza.','Un rey también tiene que dormir.'],
       ['La cadena conserva todos los puestos.','Ahora uno lleva tu nombre.'],
       ['Al otro lado no hay una vida prometida.','Hay un camino. Empiezas por él.']][@rama-1]
-    lines.each_with_index { |line,i| Vacas_UI.text(b,40,270+i*32,560,line,21) }
-    Vacas_UI.text(b,40,412,560,'Z / Intro: créditos del juego',18)
+    lines.each_with_index { |line,i| Vacas_UI.text(b,40,Vacas_HD.y(270)+i*26,560,line,21) }
+    Vacas_UI.text(b,40,Vacas_HD.bottom(40),560,'Z / Intro: créditos del juego',18)
     @frames = 0
     Vacas_UI.loop_scene(self)
     @text.bitmap.dispose; @text.dispose; @background.dispose
@@ -299,11 +299,11 @@ class Scene_CreditosJuego
     'CRÉDITOS DE AUDIO Y LICENCIAS','Listado íntegro; también accesible desde el título.','']
   def main
     @background = Vacas_UI.background('titulo')
-    @viewport = Viewport.new(20,30,600,390)
+    @viewport = Viewport.new(20,30,Vacas_HD.w-40,Vacas_HD.h-90)
     @viewport.z = 100
     @text = Sprite.new(@viewport)
     @text.bitmap = Bitmap.new(600,440)
-    @footer = Vacas.sprite_texto(['Créditos: mantener Z acelera / Esc vuelve al título'],438,26,16)
+    @footer = Vacas.sprite_texto(['Créditos: mantener Z acelera / Esc vuelve al título'],Vacas_HD.bottom(42),26,16,nil,true)
     @lines = TEAM + Vacas_Audio::CREDITS_LINES + ['', 'FEKA STUDIOS', 'FIN']
     @offset = -340
     Vacas_Audio.play(:tema_tranquilo_seguro_tv)

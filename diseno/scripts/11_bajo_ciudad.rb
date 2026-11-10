@@ -109,8 +109,8 @@ end
 class Scene_Title
   alias bajo_nueva_partida command_new_game
   def command_new_game
-    salto = Input.press?(Input::ALT)
-    pruebas = Input.press?(Input::A)
+    salto = Vacas_HD.key?(:alt)
+    pruebas = Vacas_HD.key?(:shift)
     bajo_nueva_partida
     Vacas.prueba_acto4(pruebas) if salto
   end
@@ -157,8 +157,8 @@ class Sprite_Linterna < Sprite
   end
   def mascara(d)
     return @mascaras[d] if @mascaras[d]
-    b=Bitmap.new(1280,960)
-    b.fill_rect(0,0,1280,960,Color.new(1,8,7,218))
+    b=Bitmap.new(Vacas_HD.w*2,Vacas_HD.h*2)
+    b.fill_rect(0,0,Vacas_HD.w*2,Vacas_HD.h*2,Color.new(1,8,7,218))
     # Crear agujero por franjas horizontales; no hay get_pixel por fotograma.
     for y in -190..190
       (-190).step(190,4) do |x|
@@ -171,7 +171,7 @@ class Sprite_Linterna < Sprite
         edge=dist<near ? dist/near : [forward/182.0,cross/(forward*0.52+12)].max
         a=[0,((edge-0.45)*330).to_i].max
         a=[218,a].min
-        b.fill_rect(640+x,480+y,4,1,Color.new(1,8,7,a))
+        b.fill_rect(Vacas_HD.w+x,Vacas_HD.h+y,4,1,Color.new(1,8,7,a))
       end
     end
     @mascaras[d]=b
@@ -187,8 +187,8 @@ class Sprite_Linterna < Sprite
       self.bitmap=mascara(d)
       @direccion=d
     end
-    self.x=$game_player.screen_x-640
-    self.y=$game_player.screen_y-18-480
+    self.x=$game_player.screen_x-Vacas_HD.w
+    self.y=$game_player.screen_y-18-Vacas_HD.h
   end
   def dispose
     for b in @mascaras.values
@@ -201,7 +201,7 @@ class Sprite_Bateria < Sprite
   def initialize
     super(nil)
     self.bitmap=Bitmap.new(330,42)
-    self.x=124; self.y=438; self.z=4000
+    self.x=124; self.y=Vacas_HD.bottom(42); self.z=4000
     @estado=nil
   end
   def update

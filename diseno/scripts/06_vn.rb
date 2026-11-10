@@ -20,9 +20,9 @@ class Window_Message
   def initialize
     vacas_vn_initialize
     self.x = 16
-    self.width = 608
+    self.width = Vacas_HD.w - 32
     self.contents.dispose
-    self.contents = Bitmap.new(576, 128)
+    self.contents = Bitmap.new(Vacas_HD.w - 64, 128)
     self.contents.font.name = 'Arial'
     self.contents.font.size = 22
     @vn_bust = Sprite.new
@@ -32,8 +32,8 @@ class Window_Message
     @vn_plate.bitmap = Bitmap.new(300, 36)
     @vn_dim = Sprite.new
     @vn_dim.z = 9993
-    @vn_dim.bitmap = Bitmap.new(640, 480)
-    @vn_dim.bitmap.fill_rect(0, 0, 640, 480, Color.new(0, 0, 0, 125))
+    @vn_dim.bitmap = Bitmap.new(Vacas_HD.w, Vacas_HD.h)
+    @vn_dim.bitmap.fill_rect(0, 0, Vacas_HD.w, Vacas_HD.h, Color.new(0, 0, 0, 125))
     vn_hide
   end
   def vn_hide
@@ -51,7 +51,7 @@ class Window_Message
   def reset_window
     vacas_vn_reset
     self.x = 16
-    self.y = $game_temp.in_battle ? 16 : 312
+    self.y = $game_temp.in_battle ? 8 : Vacas_HD.bottom(self.height + 8)
     self.opacity = 235
     self.back_opacity = 200
   end
@@ -73,8 +73,10 @@ class Window_Message
     # Bustos por encima del mapa, debajo de la caja. Cache posee su bitmap.
     if portrait != nil
       @vn_bust.bitmap = RPG::Cache.picture('retrato_' + portrait)
-      @vn_bust.x = right ? 400 : 0
-      @vn_bust.y = 20
+      @vn_bust.x = right ? Vacas_HD.w - (@vn_bust.bitmap.width * @vn_bust.zoom_x).to_i : 0
+      @vn_bust.zoom_x = @vn_bust.zoom_y = [1.0, (Vacas_HD.h-24).to_f/@vn_bust.bitmap.height].min
+      @vn_bust.x = right ? Vacas_HD.w - (@vn_bust.bitmap.width * @vn_bust.zoom_x).to_i : 0
+      @vn_bust.y = Vacas_HD.h - (@vn_bust.bitmap.height * @vn_bust.zoom_y).to_i
       @vn_bust.visible = true
     end
     @vn_dim.visible = dim
@@ -87,8 +89,8 @@ class Window_Message
       b.font.size = 22
       b.font.color = Color.new(222, 207, 165)
       b.draw_text(12, 0, 280, 32, name)
-      @vn_plate.x = right ? 324 : 16
-      @vn_plate.y = $game_temp.in_battle ? 176 : self.y - 36
+      @vn_plate.x = right ? Vacas_HD.w - 316 : 16
+      @vn_plate.y = $game_temp.in_battle ? self.y + self.height : self.y - 36
       @vn_plate.visible = true
     end
     # El mensaje original ya expandio variables y colores. Copiamos el resultado
