@@ -8,7 +8,7 @@ Se conservan los diez scripts narrativos, mapas, BD, tropas y eventos de I–IV.
 ## Pantallas y controles
 
 - Titulo propio: parallax lento, niebla y fluorescente dependiente de intensidad,
-  logotipo tipografico, Nueva partida / Continuar / Ajustes / Salir. Se conserva la
+  logotipo tipografico, Nueva partida / Continuar / Ajustes / Creditos / Salir. Se conserva la
   cadena original de Nueva partida: Mayus → II; Ctrl → III; Alt → IV, con Mayus
   adicional para sus variantes. Z/Intro confirma; Esc vuelve; flechas seleccionan.
 - Pausa: Objetos, Estado/Cordura, Notas, Guardar, Ajustes y Salir. Fondo propio,
@@ -91,8 +91,8 @@ comportamiento opaco anterior cuando no se solicita. No regenerar las fuentes.
 `Vacas_Audio` centraliza nombres y ganchos. El envoltorio de `Audio` aplica los
 cuatro volumenes incluso a llamadas directas desde eventos y animaciones. Ambiente
 por zona, menu, pasos por superficie, persecucion, combate/jefes, resultados y
-puertas estan preparados. Ausencias silenciosas. Lista exacta de **24 archivos**,
-tipo, uso y bucle sugerido en [AUDIO.md](AUDIO.md). Ningun audio descargado.
+puertas estan preparados. Ausencias silenciosas. Integración de 120 entradas descargadas, mezcla y asignación de los 21 mapas
+en [AUDIO.md](AUDIO.md). Créditos completos accesibles desde el título.
 
 ## Respaldo, pruebas y capturas
 
@@ -162,7 +162,8 @@ fotogramas anteriores: se corrigieron forzando frame_reset y varios fotogramas
 nativos antes de GDI. El limite de 55 s era insuficiente para ocho combates con
 capturas; el runner permite 180 s y restaura Scripts al terminar.
 
-Pendiente externo: colocar los 24 archivos de audio y escuchar la mezcla. Pendiente
+Audio integrado el 10 de noviembre: 120 entradas y créditos accesibles; queda escuchar
+la mezcla durante un recorrido humano. Pendiente
 de valoracion humana: recorrido continuo I–IV, ritmo del texto, legibilidad en su
 monitor, sustos y modo de pantalla completa. Alt+Enter se documenta como guia; el
 arnes no cambia el modo de video. Actos V–VI conservan su estado anterior.

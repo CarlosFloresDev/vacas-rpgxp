@@ -1,0 +1,1202 @@
+[
+ {
+  "file": "bgm/vacas_titulo.ogg",
+  "type": "bgm",
+  "use": "Titulo",
+  "loop": true,
+  "license": "CC-BY 4.0",
+  "author": "Kevin MacLeod",
+  "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Ghost%20Story.mp3",
+  "destino": "Audio/BGM/vacas_titulo.ogg"
+ },
+ {
+  "file": "bgm/vacas_combate.ogg",
+  "type": "bgm",
+  "use": "Combate normal",
+  "loop": true,
+  "license": "CC-BY 4.0",
+  "author": "Kevin MacLeod",
+  "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Killing%20Time.mp3",
+  "destino": "Audio/BGM/vacas_combate.ogg"
+ },
+ {
+  "file": "bgm/vacas_jefe.ogg",
+  "type": "bgm",
+  "use": "Jefe (Rey, Diagnostico, Pastor)",
+  "loop": true,
+  "license": "CC-BY 4.0",
+  "author": "Kevin MacLeod",
+  "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Giant%20Wyrm.mp3",
+  "destino": "Audio/BGM/vacas_jefe.ogg"
+ },
+ {
+  "file": "bgm/vacas_persecucion.ogg",
+  "type": "bgm",
+  "use": "Persecucion",
+  "loop": true,
+  "license": "CC-BY 4.0",
+  "author": "Kevin MacLeod",
+  "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Chase.mp3",
+  "destino": "Audio/BGM/vacas_persecucion.ogg"
+ },
+ {
+  "file": "bgm/vacas_gameover.ogg",
+  "type": "bgm",
+  "use": "Game over",
+  "loop": true,
+  "license": "CC-BY 4.0",
+  "author": "Kevin MacLeod",
+  "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Cryptic%20Sorrow.mp3",
+  "destino": "Audio/BGM/vacas_gameover.ogg"
+ },
+ {
+  "file": "bgm/bgm_piso_exploracion.ogg",
+  "type": "bgm",
+  "use": "Exploracion del piso",
+  "loop": true,
+  "license": "CC-BY 4.0",
+  "author": "Kevin MacLeod",
+  "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Ossuary%205%20-%20Rest.mp3",
+  "destino": null
+ },
+ {
+  "file": "bgm/bgm_matadero_exploracion.ogg",
+  "type": "bgm",
+  "use": "Exploracion matadero",
+  "loop": true,
+  "license": "CC-BY 4.0",
+  "author": "Kevin MacLeod",
+  "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Crypto.mp3",
+  "destino": null
+ },
+ {
+  "file": "bgm/bgm_camaras_frias.ogg",
+  "type": "bgm",
+  "use": "Camaras frias",
+  "loop": true,
+  "license": "CC-BY 4.0",
+  "author": "Kevin MacLeod",
+  "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Deep%20Haze.mp3",
+  "destino": null
+ },
+ {
+  "file": "bgm/bgm_lucy_laboratorio.ogg",
+  "type": "bgm",
+  "use": "Lucy / laboratorio",
+  "loop": true,
+  "license": "CC-BY 4.0",
+  "author": "Kevin MacLeod",
+  "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Darkling.mp3",
+  "destino": null
+ },
+ {
+  "file": "bgm/bgm_alcantarillas.ogg",
+  "type": "bgm",
+  "use": "Alcantarillas",
+  "loop": true,
+  "license": "CC-BY 4.0",
+  "author": "Kevin MacLeod",
+  "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Gathering%20Darkness.mp3",
+  "destino": null
+ },
+ {
+  "file": "bgm/bgm_camara_manada.ogg",
+  "type": "bgm",
+  "use": "Camara de la manada",
+  "loop": true,
+  "license": "CC-BY 4.0",
+  "author": "Kevin MacLeod",
+  "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Heart%20of%20the%20Beast.mp3",
+  "destino": null
+ },
+ {
+  "file": "bgm/bgm_tv_segura.ogg",
+  "type": "bgm",
+  "use": "Tema tranquilo \"seguro\" (TV)",
+  "loop": true,
+  "license": "CC0",
+  "author": "Pro Sensory",
+  "url": "https://opengameart.org/content/lullaby-0",
+  "destino": null
+ },
+ {
+  "file": "bgm/bgm_extra_calle_noche.ogg",
+  "type": "bgm",
+  "use": "Alterna: calle de noche / suspense",
+  "loop": true,
+  "license": "CC0",
+  "author": "nene",
+  "url": "https://opengameart.org/content/night-of-the-streets-horrorsuspense",
+  "destino": null
+ },
+ {
+  "file": "bgm/bgm_extra_estacion_drone.ogg",
+  "type": "bgm",
+  "use": "Alterna: camaras / drone",
+  "loop": true,
+  "license": "CC0",
+  "author": "Tozan",
+  "url": "https://opengameart.org/content/station-drone-2",
+  "destino": null
+ },
+ {
+  "file": "bgm/bgm_extra_sotano.ogg",
+  "type": "bgm",
+  "use": "Alterna: sotano / lab",
+  "loop": true,
+  "license": "CC0",
+  "author": "Tozan",
+  "url": "https://opengameart.org/content/telos-creepy-cage-street",
+  "destino": null
+ },
+ {
+  "file": "bgm/bgm_extra_tension_lab.ogg",
+  "type": "bgm",
+  "use": "Alterna: laboratorio tenso",
+  "loop": true,
+  "license": "CC0",
+  "author": "allen yatsura",
+  "url": "https://opengameart.org/content/tension-and-distress",
+  "destino": null
+ },
+ {
+  "file": "bgm/bgm_extra_dark_drone.ogg",
+  "type": "bgm",
+  "use": "Alterna: alcantarillas drone",
+  "loop": true,
+  "license": "CC-BY 4.0",
+  "author": "Tsorthan Grove",
+  "url": "https://opengameart.org/content/dark-ambient-drone",
+  "destino": null
+ },
+ {
+  "file": "bgm/bgm_extra_batalla_rpg.ogg",
+  "type": "bgm",
+  "use": "Alterna: batalla",
+  "loop": true,
+  "license": "CC0",
+  "author": "CleytonKauffman",
+  "url": "https://opengameart.org/content/boss-battle-theme",
+  "destino": null
+ },
+ {
+  "file": "bgs/vacas_menu.ogg",
+  "type": "bgs",
+  "use": "Pausa / menu (tenue)",
+  "loop": true,
+  "license": "Public domain",
+  "author": "stephan",
+  "url": "https://commons.wikimedia.org/wiki/File%3AInside_of_refrigerator.ogg",
+  "destino": "Audio/BGS/vacas_menu.ogg"
+ },
+ {
+  "file": "bgs/vacas_piso.ogg",
+  "type": "bgs",
+  "use": "Piso y calle: lluvia en ventana + reloj",
+  "loop": true,
+  "license": "Public domain",
+  "author": "cori / natalie / stephan",
+  "url": "https://commons.wikimedia.org/wiki/File%3ARain_against_the_window.ogg | https://commons.wikimedia.org/wiki/File%3AClock_ticking.ogg | https://commons.wikimedia.org/wiki/File%3AInside_of_refrigerator.ogg",
+  "destino": "Audio/BGS/vacas_piso.ogg"
+ },
+ {
+  "file": "bgs/vacas_matadero.ogg",
+  "type": "bgs",
+  "use": "Matadero: cintas, cadenas, prensa",
+  "loop": true,
+  "license": "CC-BY 4.0",
+  "author": "Work With Sounds / Konrad Gutkowski",
+  "url": "https://commons.wikimedia.org/wiki/File%3AWWS_Conveyorbelt.ogg | https://commons.wikimedia.org/wiki/File%3AWWS_Bucketchain.ogg | https://commons.wikimedia.org/wiki/File%3AWWS_Punchingpress.ogg",
+  "destino": "Audio/BGS/vacas_matadero.ogg"
+ },
+ {
+  "file": "bgs/vacas_camaras.ogg",
+  "type": "bgs",
+  "use": "Camaras frias: compresor",
+  "loop": true,
+  "license": "CC-BY 4.0 + Public domain",
+  "author": "Work With Sounds / Torsten Nilsson / stephan",
+  "url": "https://commons.wikimedia.org/wiki/File%3AWWS_Compressor.ogg | https://commons.wikimedia.org/wiki/File%3AInside_of_refrigerator.ogg",
+  "destino": "Audio/BGS/vacas_camaras.ogg"
+ },
+ {
+  "file": "bgs/vacas_laboratorio.ogg",
+  "type": "bgs",
+  "use": "Laboratorio: zumbido electrico + latido + reloj",
+  "loop": true,
+  "license": "CC-BY 3.0 + CC0 + Public domain",
+  "author": "bart / natalie",
+  "url": "https://opengameart.org/content/12-ambient-machine-sounds | https://opengameart.org/content/heartbeat-sounds | https://commons.wikimedia.org/wiki/File%3AClock_ticking.ogg",
+  "destino": "Audio/BGS/vacas_laboratorio.ogg"
+ },
+ {
+  "file": "bgs/vacas_alcantarillas.ogg",
+  "type": "bgs",
+  "use": "Alcantarillas: goteo con eco + agua corriendo",
+  "loop": true,
+  "license": "CC-BY 3.0 + CC0",
+  "author": "qubodup / HippoDevelopment",
+  "url": "https://opengameart.org/content/dripping-water-loop | https://opengameart.org/content/running-water-background-noise",
+  "destino": "Audio/BGS/vacas_alcantarillas.ogg"
+ },
+ {
+  "file": "bgs/vacas_manada.ogg",
+  "type": "bgs",
+  "use": "Manada: respiracion, mugidos lejanos, corral",
+  "loop": true,
+  "license": "CC-BY 3.0 + CC0 + Public domain",
+  "author": "Little Robot Sound Factory / Gasybeaugosse2020 / Sabak5388 / ezwa",
+  "url": "https://opengameart.org/content/horror-sound-effects-library | https://commons.wikimedia.org/wiki/File%3ACow_in_Vezo.ogg | https://commons.wikimedia.org/wiki/File%3ACow_in_Antefasy.wav | https://commons.wikimedia.org/wiki/File%3AKatalalan.ogg | https://commons.wikimedia.org/wiki/File%3AHeavy_breathing_3.ogg",
+  "destino": "Audio/BGS/vacas_manada.ogg"
+ },
+ {
+  "file": "bgs/bgs_tv_estatica.ogg",
+  "type": "bgs",
+  "use": "Estatica de TV vieja",
+  "loop": true,
+  "license": "CC0",
+  "author": "xhunterko",
+  "url": "https://opengameart.org/content/static",
+  "destino": null
+ },
+ {
+  "file": "bgs/bgs_tv_estatica_amortiguada.ogg",
+  "type": "bgs",
+  "use": "TV amortiguada (estatica filtrada)",
+  "loop": true,
+  "license": "CC0",
+  "author": "xhunterko",
+  "url": "https://opengameart.org/content/static",
+  "destino": null
+ },
+ {
+  "file": "bgs/bgs_nevera_zumbido.ogg",
+  "type": "bgs",
+  "use": "Zumbido de nevera",
+  "loop": true,
+  "license": "Public domain",
+  "author": "stephan",
+  "url": "https://commons.wikimedia.org/wiki/File%3AInside_of_refrigerator.ogg",
+  "destino": null
+ },
+ {
+  "file": "bgs/bgs_reloj_tictac.ogg",
+  "type": "bgs",
+  "use": "Reloj tictac (piso)",
+  "loop": true,
+  "license": "Public domain",
+  "author": "natalie",
+  "url": "https://commons.wikimedia.org/wiki/File%3AClock_ticking.ogg",
+  "destino": null
+ },
+ {
+  "file": "bgs/bgs_lluvia_ventana.ogg",
+  "type": "bgs",
+  "use": "Lluvia en ventana / calle noche",
+  "loop": true,
+  "license": "Public domain",
+  "author": "cori",
+  "url": "https://commons.wikimedia.org/wiki/File%3ARain_against_the_window.ogg",
+  "destino": null
+ },
+ {
+  "file": "bgs/bgs_lluvia_calle.ogg",
+  "type": "bgs",
+  "use": "Lluvia exterior",
+  "loop": true,
+  "license": "CC0",
+  "author": "Kresiek The Furry",
+  "url": "https://opengameart.org/content/amb-rain-loop-1",
+  "destino": null
+ },
+ {
+  "file": "bgs/bgs_matadero_cadenas.ogg",
+  "type": "bgs",
+  "use": "Cadenas y transportador",
+  "loop": true,
+  "license": "CC-BY 4.0",
+  "author": "Work With Sounds / Technical Museum of Slovenia",
+  "url": "https://commons.wikimedia.org/wiki/File%3AWWS_Two-chainconveyorinoperation.ogg",
+  "destino": null
+ },
+ {
+  "file": "bgs/bgs_matadero_fabrica_oscura.ogg",
+  "type": "bgs",
+  "use": "Fabrica oscura",
+  "loop": true,
+  "license": "CC-BY 3.0",
+  "author": "bart",
+  "url": "https://opengameart.org/content/dark-factory",
+  "destino": null
+ },
+ {
+  "file": "bgs/bgs_camara_compresor.ogg",
+  "type": "bgs",
+  "use": "Compresor de camara fria",
+  "loop": true,
+  "license": "CC-BY 4.0",
+  "author": "Work With Sounds / Torsten Nilsson",
+  "url": "https://commons.wikimedia.org/wiki/File%3AWWS_Compressor.ogg",
+  "destino": null
+ },
+ {
+  "file": "bgs/bgs_alcantarilla_goteo.ogg",
+  "type": "bgs",
+  "use": "Goteo y eco",
+  "loop": true,
+  "license": "CC0",
+  "author": "qubodup",
+  "url": "https://opengameart.org/content/dripping-water-loop",
+  "destino": null
+ },
+ {
+  "file": "bgs/bgs_agua_corriente.ogg",
+  "type": "bgs",
+  "use": "Agua corriendo",
+  "loop": true,
+  "license": "CC-BY 3.0",
+  "author": "HippoDevelopment",
+  "url": "https://opengameart.org/content/running-water-background-noise",
+  "destino": null
+ },
+ {
+  "file": "bgs/bgs_edificio_abandonado.ogg",
+  "type": "bgs",
+  "use": "Edificio abandonado (ambiente)",
+  "loop": true,
+  "license": "CC-BY 4.0",
+  "author": "tcarisland",
+  "url": "https://opengameart.org/content/abandoned-building-ambience",
+  "destino": null
+ },
+ {
+  "file": "bgs/bgs_mazmorra_eco.ogg",
+  "type": "bgs",
+  "use": "Ambiente hueco (alcantarilla/camara)",
+  "loop": true,
+  "license": "CC0",
+  "author": "JaggedStone",
+  "url": "https://opengameart.org/content/loopable-dungeon-ambience",
+  "destino": null
+ },
+ {
+  "file": "bgs/bgs_fluorescente_zumbido.ogg",
+  "type": "bgs",
+  "use": "Fluorescente / zumbido electrico",
+  "loop": true,
+  "license": "CC-BY 3.0",
+  "author": "bart",
+  "url": "https://opengameart.org/content/12-ambient-machine-sounds",
+  "destino": null
+ },
+ {
+  "file": "bgs/bgs_generador.ogg",
+  "type": "bgs",
+  "use": "Generador / maquina",
+  "loop": true,
+  "license": "CC0",
+  "author": "YCbCr",
+  "url": "https://opengameart.org/content/generator-loop",
+  "destino": null
+ },
+ {
+  "file": "bgs/bgs_latido_lento.ogg",
+  "type": "bgs",
+  "use": "Latido lento",
+  "loop": true,
+  "license": "CC0",
+  "author": "bart",
+  "url": "https://opengameart.org/content/heartbeat-sounds",
+  "destino": null
+ },
+ {
+  "file": "bgs/bgs_latido_rapido.ogg",
+  "type": "bgs",
+  "use": "Latido rapido",
+  "loop": true,
+  "license": "CC0",
+  "author": "bart",
+  "url": "https://opengameart.org/content/heartbeat-sounds",
+  "destino": null
+ },
+ {
+  "file": "bgs/bgs_respiracion_pesada.ogg",
+  "type": "bgs",
+  "use": "Respiracion pesada",
+  "loop": true,
+  "license": "Public domain",
+  "author": "ezwa",
+  "url": "https://commons.wikimedia.org/wiki/File%3AHeavy_breathing_3.ogg",
+  "destino": null
+ },
+ {
+  "file": "bgs/bgs_respiracion_horror.ogg",
+  "type": "bgs",
+  "use": "Respiracion de horror",
+  "loop": true,
+  "license": "CC0",
+  "author": "primbal",
+  "url": "https://opengameart.org/content/horror-breathing",
+  "destino": null
+ },
+ {
+  "file": "bgs/bgs_corral_ganado.ogg",
+  "type": "bgs",
+  "use": "Corral de ganado (mugidos y arrastre)",
+  "loop": true,
+  "license": "CC-BY 3.0 + CC0",
+  "author": "Little Robot Sound Factory / Gasybeaugosse2020 / Sabak5388",
+  "url": "https://opengameart.org/content/horror-sound-effects-library | https://commons.wikimedia.org/wiki/File%3ACow_in_Vezo.ogg | https://commons.wikimedia.org/wiki/File%3AKatalalan.ogg | https://commons.wikimedia.org/wiki/File%3ACow_in_Antefasy.wav",
+  "destino": null
+ },
+ {
+  "file": "me/vacas_victoria.ogg",
+  "type": "me",
+  "use": "Victoria",
+  "loop": false,
+  "license": "CC-BY 3.0",
+  "author": "Little Robot Sound Factory",
+  "url": "https://opengameart.org/content/horror-sound-effects-library",
+  "destino": "Audio/ME/vacas_victoria.ogg"
+ },
+ {
+  "file": "me/vacas_derrota.ogg",
+  "type": "me",
+  "use": "Derrota / retirada mental",
+  "loop": false,
+  "license": "CC-BY 3.0",
+  "author": "Little Robot Sound Factory",
+  "url": "https://opengameart.org/content/horror-sound-effects-library",
+  "destino": "Audio/ME/vacas_derrota.ogg"
+ },
+ {
+  "file": "me/me_logro.ogg",
+  "type": "me",
+  "use": "Nivel / logro",
+  "loop": false,
+  "license": "CC-BY 3.0",
+  "author": "Little Robot Sound Factory",
+  "url": "https://opengameart.org/content/horror-sound-effects-library",
+  "destino": null
+ },
+ {
+  "file": "me/me_game_over_triste.ogg",
+  "type": "me",
+  "use": "Game over alterno",
+  "loop": false,
+  "license": "CC0",
+  "author": "Emma_MA",
+  "url": "https://opengameart.org/content/sad-game-over",
+  "destino": null
+ },
+ {
+  "file": "se/ui_cursor.ogg",
+  "type": "se",
+  "use": "Cursor",
+  "loop": false,
+  "license": "CC0",
+  "author": "mikeask",
+  "url": "https://opengameart.org/content/menu-select-tick",
+  "destino": "Audio/SE/ui_cursor.wav"
+ },
+ {
+  "file": "se/ui_confirmar.ogg",
+  "type": "se",
+  "use": "Confirmar",
+  "loop": false,
+  "license": "CC0",
+  "author": "Sudocolon",
+  "url": "https://opengameart.org/content/menu-choice",
+  "destino": "Audio/SE/ui_confirmar.wav"
+ },
+ {
+  "file": "se/ui_cancelar.ogg",
+  "type": "se",
+  "use": "Cancelar (clic analogico)",
+  "loop": false,
+  "license": "CC0",
+  "author": "FunnyDude",
+  "url": "https://opengameart.org/content/light-switch-turn-on-and-off-sfx-0",
+  "destino": "Audio/SE/ui_cancelar.wav"
+ },
+ {
+  "file": "se/ui_error.ogg",
+  "type": "se",
+  "use": "Error (golpe de madera apagado)",
+  "loop": false,
+  "license": "CC0",
+  "author": "rubberduck",
+  "url": "https://opengameart.org/content/100-cc0-metal-and-wood-sfx",
+  "destino": "Audio/SE/ui_error.wav"
+ },
+ {
+  "file": "se/mente_golpe.ogg",
+  "type": "se",
+  "use": "Golpe mental / impacto",
+  "loop": false,
+  "license": "CC0",
+  "author": "EZduzziteh",
+  "url": "https://opengameart.org/content/squish-sounds-effects",
+  "destino": "Audio/SE/mente_golpe.wav"
+ },
+ {
+  "file": "se/mente_susto.ogg",
+  "type": "se",
+  "use": "Susto",
+  "loop": false,
+  "license": "CC-BY 4.0",
+  "author": "VishwaJai",
+  "url": "https://opengameart.org/content/phantom-scream",
+  "destino": "Audio/SE/mente_susto.wav"
+ },
+ {
+  "file": "se/paso_baldosa.ogg",
+  "type": "se",
+  "use": "Paso baldosa",
+  "loop": false,
+  "license": "CC-BY 3.0",
+  "author": "congusbongus (masterizado; originales swuing, ceberation, Eelke, EminYILDIRIM via freesound, ver license.txt del pack)",
+  "url": "https://opengameart.org/content/footsteps-on-different-surfaces",
+  "destino": "Audio/SE/paso_baldosa.wav"
+ },
+ {
+  "file": "se/paso_metal.ogg",
+  "type": "se",
+  "use": "Paso metal",
+  "loop": false,
+  "license": "CC-BY 3.0",
+  "author": "congusbongus (masterizado; originales swuing, ceberation, Eelke, EminYILDIRIM via freesound, ver license.txt del pack)",
+  "url": "https://opengameart.org/content/footsteps-on-different-surfaces",
+  "destino": "Audio/SE/paso_metal.wav"
+ },
+ {
+  "file": "se/paso_agua.ogg",
+  "type": "se",
+  "use": "Paso agua",
+  "loop": false,
+  "license": "CC-BY 3.0",
+  "author": "congusbongus (masterizado; originales swuing, ceberation, Eelke, EminYILDIRIM via freesound, ver license.txt del pack)",
+  "url": "https://opengameart.org/content/footsteps-on-different-surfaces",
+  "destino": "Audio/SE/paso_agua.wav"
+ },
+ {
+  "file": "se/puerta_oxido.ogg",
+  "type": "se",
+  "use": "Puerta oxidada",
+  "loop": false,
+  "license": "CC0",
+  "author": "w.forster.1@gmail.com",
+  "url": "https://opengameart.org/content/creaky-door-hinge-spooky",
+  "destino": "Audio/SE/puerta_oxido.wav"
+ },
+ {
+  "file": "se/se_paso_concreto_1.ogg",
+  "type": "se",
+  "use": "Paso concreto",
+  "loop": false,
+  "license": "CC-BY 3.0",
+  "author": "congusbongus (masterizado; originales swuing, ceberation, Eelke, EminYILDIRIM via freesound, ver license.txt del pack)",
+  "url": "https://opengameart.org/content/footsteps-on-different-surfaces",
+  "destino": null
+ },
+ {
+  "file": "se/se_paso_concreto_2.ogg",
+  "type": "se",
+  "use": "Paso concreto",
+  "loop": false,
+  "license": "CC-BY 3.0",
+  "author": "congusbongus (masterizado; originales swuing, ceberation, Eelke, EminYILDIRIM via freesound, ver license.txt del pack)",
+  "url": "https://opengameart.org/content/footsteps-on-different-surfaces",
+  "destino": null
+ },
+ {
+  "file": "se/se_paso_concreto_3.ogg",
+  "type": "se",
+  "use": "Paso concreto",
+  "loop": false,
+  "license": "CC-BY 3.0",
+  "author": "congusbongus (masterizado; originales swuing, ceberation, Eelke, EminYILDIRIM via freesound, ver license.txt del pack)",
+  "url": "https://opengameart.org/content/footsteps-on-different-surfaces",
+  "destino": null
+ },
+ {
+  "file": "se/se_paso_baldosa_1.ogg",
+  "type": "se",
+  "use": "Paso baldosa",
+  "loop": false,
+  "license": "CC-BY 3.0",
+  "author": "congusbongus (masterizado; originales swuing, ceberation, Eelke, EminYILDIRIM via freesound, ver license.txt del pack)",
+  "url": "https://opengameart.org/content/footsteps-on-different-surfaces",
+  "destino": null
+ },
+ {
+  "file": "se/se_paso_baldosa_2.ogg",
+  "type": "se",
+  "use": "Paso baldosa",
+  "loop": false,
+  "license": "CC-BY 3.0",
+  "author": "congusbongus (masterizado; originales swuing, ceberation, Eelke, EminYILDIRIM via freesound, ver license.txt del pack)",
+  "url": "https://opengameart.org/content/footsteps-on-different-surfaces",
+  "destino": null
+ },
+ {
+  "file": "se/se_paso_baldosa_3.ogg",
+  "type": "se",
+  "use": "Paso baldosa",
+  "loop": false,
+  "license": "CC-BY 3.0",
+  "author": "congusbongus (masterizado; originales swuing, ceberation, Eelke, EminYILDIRIM via freesound, ver license.txt del pack)",
+  "url": "https://opengameart.org/content/footsteps-on-different-surfaces",
+  "destino": null
+ },
+ {
+  "file": "se/se_paso_agua_1.ogg",
+  "type": "se",
+  "use": "Paso agua",
+  "loop": false,
+  "license": "CC-BY 3.0",
+  "author": "congusbongus (masterizado; originales swuing, ceberation, Eelke, EminYILDIRIM via freesound, ver license.txt del pack)",
+  "url": "https://opengameart.org/content/footsteps-on-different-surfaces",
+  "destino": null
+ },
+ {
+  "file": "se/se_paso_agua_2.ogg",
+  "type": "se",
+  "use": "Paso agua",
+  "loop": false,
+  "license": "CC-BY 3.0",
+  "author": "congusbongus (masterizado; originales swuing, ceberation, Eelke, EminYILDIRIM via freesound, ver license.txt del pack)",
+  "url": "https://opengameart.org/content/footsteps-on-different-surfaces",
+  "destino": null
+ },
+ {
+  "file": "se/se_paso_agua_3.ogg",
+  "type": "se",
+  "use": "Paso agua",
+  "loop": false,
+  "license": "CC-BY 3.0",
+  "author": "congusbongus (masterizado; originales swuing, ceberation, Eelke, EminYILDIRIM via freesound, ver license.txt del pack)",
+  "url": "https://opengameart.org/content/footsteps-on-different-surfaces",
+  "destino": null
+ },
+ {
+  "file": "se/se_paso_rejilla_metal_1.ogg",
+  "type": "se",
+  "use": "Paso rejilla_metal",
+  "loop": false,
+  "license": "CC-BY 3.0",
+  "author": "congusbongus (masterizado; originales swuing, ceberation, Eelke, EminYILDIRIM via freesound, ver license.txt del pack)",
+  "url": "https://opengameart.org/content/footsteps-on-different-surfaces",
+  "destino": null
+ },
+ {
+  "file": "se/se_paso_rejilla_metal_2.ogg",
+  "type": "se",
+  "use": "Paso rejilla_metal",
+  "loop": false,
+  "license": "CC-BY 3.0",
+  "author": "congusbongus (masterizado; originales swuing, ceberation, Eelke, EminYILDIRIM via freesound, ver license.txt del pack)",
+  "url": "https://opengameart.org/content/footsteps-on-different-surfaces",
+  "destino": null
+ },
+ {
+  "file": "se/se_paso_rejilla_metal_3.ogg",
+  "type": "se",
+  "use": "Paso rejilla_metal",
+  "loop": false,
+  "license": "CC-BY 3.0",
+  "author": "congusbongus (masterizado; originales swuing, ceberation, Eelke, EminYILDIRIM via freesound, ver license.txt del pack)",
+  "url": "https://opengameart.org/content/footsteps-on-different-surfaces",
+  "destino": null
+ },
+ {
+  "file": "se/se_paso_madera_1.ogg",
+  "type": "se",
+  "use": "Paso madera",
+  "loop": false,
+  "license": "CC-BY 3.0",
+  "author": "congusbongus (masterizado; originales swuing, ceberation, Eelke, EminYILDIRIM via freesound, ver license.txt del pack)",
+  "url": "https://opengameart.org/content/footsteps-on-different-surfaces",
+  "destino": null
+ },
+ {
+  "file": "se/se_paso_madera_2.ogg",
+  "type": "se",
+  "use": "Paso madera",
+  "loop": false,
+  "license": "CC-BY 3.0",
+  "author": "congusbongus (masterizado; originales swuing, ceberation, Eelke, EminYILDIRIM via freesound, ver license.txt del pack)",
+  "url": "https://opengameart.org/content/footsteps-on-different-surfaces",
+  "destino": null
+ },
+ {
+  "file": "se/se_paso_madera_3.ogg",
+  "type": "se",
+  "use": "Paso madera",
+  "loop": false,
+  "license": "CC-BY 3.0",
+  "author": "congusbongus (masterizado; originales swuing, ceberation, Eelke, EminYILDIRIM via freesound, ver license.txt del pack)",
+  "url": "https://opengameart.org/content/footsteps-on-different-surfaces",
+  "destino": null
+ },
+ {
+  "file": "se/se_puerta_madera_abrir.ogg",
+  "type": "se",
+  "use": "Puerta madera abrir",
+  "loop": false,
+  "license": "CC0",
+  "author": "qubodup",
+  "url": "https://opengameart.org/content/door-open-door-close-set",
+  "destino": null
+ },
+ {
+  "file": "se/se_puerta_madera_cerrar.ogg",
+  "type": "se",
+  "use": "Puerta madera cerrar",
+  "loop": false,
+  "license": "CC0",
+  "author": "qubodup",
+  "url": "https://opengameart.org/content/door-open-door-close-set",
+  "destino": null
+ },
+ {
+  "file": "se/se_puerta_metal_abrir.ogg",
+  "type": "se",
+  "use": "Puerta metal pesada abrir",
+  "loop": false,
+  "license": "CC0",
+  "author": "rubberduck",
+  "url": "https://opengameart.org/content/100-cc0-metal-and-wood-sfx",
+  "destino": null
+ },
+ {
+  "file": "se/se_puerta_metal_cerrar.ogg",
+  "type": "se",
+  "use": "Puerta metal pesada cerrar",
+  "loop": false,
+  "license": "CC0",
+  "author": "rubberduck",
+  "url": "https://opengameart.org/content/100-cc0-metal-and-wood-sfx",
+  "destino": null
+ },
+ {
+  "file": "se/se_puerta_hierro.ogg",
+  "type": "se",
+  "use": "Puerta de hierro",
+  "loop": false,
+  "license": "CC0",
+  "author": "themightyglider",
+  "url": "https://opengameart.org/content/iron-door",
+  "destino": null
+ },
+ {
+  "file": "se/se_puerta_crujido.ogg",
+  "type": "se",
+  "use": "Crujido de puerta",
+  "loop": false,
+  "license": "CC-BY 3.0",
+  "author": "fractilegames",
+  "url": "https://opengameart.org/content/creaky-light-wooden-door",
+  "destino": null
+ },
+ {
+  "file": "se/se_puerta_manija_trabada.ogg",
+  "type": "se",
+  "use": "Manija de puerta trabada",
+  "loop": false,
+  "license": "CC0",
+  "author": "Cough-E",
+  "url": "https://opengameart.org/content/door-lock-sounds",
+  "destino": null
+ },
+ {
+  "file": "se/se_puerta_destrabar.ogg",
+  "type": "se",
+  "use": "Destrabar puerta",
+  "loop": false,
+  "license": "CC0",
+  "author": "Cough-E",
+  "url": "https://opengameart.org/content/door-lock-sounds",
+  "destino": null
+ },
+ {
+  "file": "se/se_cuchillada_1.ogg",
+  "type": "se",
+  "use": "Cuchilla / corte de carne",
+  "loop": false,
+  "license": "CC-BY 3.0",
+  "author": "Little Robot Sound Factory",
+  "url": "https://opengameart.org/content/horror-sound-effects-library",
+  "destino": null
+ },
+ {
+  "file": "se/se_cuchillada_2.ogg",
+  "type": "se",
+  "use": "Cuchilla / corte de carne",
+  "loop": false,
+  "license": "CC-BY 3.0",
+  "author": "Little Robot Sound Factory",
+  "url": "https://opengameart.org/content/horror-sound-effects-library",
+  "destino": null
+ },
+ {
+  "file": "se/se_corte_hueso.ogg",
+  "type": "se",
+  "use": "Hueso quebrado",
+  "loop": false,
+  "license": "CC0",
+  "author": "Zane Little Music",
+  "url": "https://opengameart.org/content/fleshy-bone-breaksnap-sfx",
+  "destino": null
+ },
+ {
+  "file": "se/se_hueso_seco.ogg",
+  "type": "se",
+  "use": "Hueso crujiendo",
+  "loop": false,
+  "license": "CC-BY 3.0",
+  "author": "Little Robot Sound Factory",
+  "url": "https://opengameart.org/content/horror-sound-effects-library",
+  "destino": null
+ },
+ {
+  "file": "se/se_sierra_hueso.ogg",
+  "type": "se",
+  "use": "Sierra sobre hueso (sierra/ruido mecanico)",
+  "loop": false,
+  "license": "Public domain",
+  "author": "stephan",
+  "url": "https://commons.wikimedia.org/wiki/File%3ASawing_or_winding_something.ogg",
+  "destino": null
+ },
+ {
+  "file": "se/se_chapoteo_1.ogg",
+  "type": "se",
+  "use": "Chapoteo / gore",
+  "loop": false,
+  "license": "CC0",
+  "author": "EZduzziteh",
+  "url": "https://opengameart.org/content/squish-sounds-effects",
+  "destino": null
+ },
+ {
+  "file": "se/se_chapoteo_2.ogg",
+  "type": "se",
+  "use": "Chapoteo / gore",
+  "loop": false,
+  "license": "CC0",
+  "author": "EZduzziteh",
+  "url": "https://opengameart.org/content/squish-sounds-effects",
+  "destino": null
+ },
+ {
+  "file": "se/se_desgarro_carne.ogg",
+  "type": "se",
+  "use": "Desgarro de carne",
+  "loop": false,
+  "license": "CC0",
+  "author": "Paul Wortmann",
+  "url": "https://opengameart.org/content/fresh-meat",
+  "destino": null
+ },
+ {
+  "file": "se/se_viscoso.ogg",
+  "type": "se",
+  "use": "Sonido viscoso",
+  "loop": false,
+  "license": "CC0",
+  "author": "Some Weirdo",
+  "url": "https://opengameart.org/content/lo-fi-squelching-noise",
+  "destino": null
+ },
+ {
+  "file": "se/se_gancho_cadena.ogg",
+  "type": "se",
+  "use": "Cadena / gancho",
+  "loop": false,
+  "license": "CC0",
+  "author": "bart",
+  "url": "https://opengameart.org/content/chain-winch-sounds",
+  "destino": null
+ },
+ {
+  "file": "se/se_gancho_metal.ogg",
+  "type": "se",
+  "use": "Gancho metalico",
+  "loop": false,
+  "license": "CC0",
+  "author": "rubberduck",
+  "url": "https://opengameart.org/content/100-cc0-metal-and-wood-sfx",
+  "destino": null
+ },
+ {
+  "file": "se/se_mugido_1.ogg",
+  "type": "se",
+  "use": "Mugido de vaca",
+  "loop": false,
+  "license": "CC0",
+  "author": "Gasybeaugosse2020",
+  "url": "https://commons.wikimedia.org/wiki/File%3ACow_in_Vezo.ogg",
+  "destino": null
+ },
+ {
+  "file": "se/se_mugido_2.ogg",
+  "type": "se",
+  "use": "Mugido de vaca",
+  "loop": false,
+  "license": "CC0",
+  "author": "Gasybeaugosse2020",
+  "url": "https://commons.wikimedia.org/wiki/File%3ACow_in_Antefasy.wav",
+  "destino": null
+ },
+ {
+  "file": "se/se_mugido_3.ogg",
+  "type": "se",
+  "use": "Mugido de vaca",
+  "loop": false,
+  "license": "CC0",
+  "author": "Sabak5388",
+  "url": "https://commons.wikimedia.org/wiki/File%3AKatalalan.ogg",
+  "destino": null
+ },
+ {
+  "file": "se/se_mugido_angustia.ogg",
+  "type": "se",
+  "use": "Mugido angustiado",
+  "loop": false,
+  "license": "CC0",
+  "author": "qubodup",
+  "url": "https://opengameart.org/content/sci-fi-aliens-and-cows-pack",
+  "destino": null
+ },
+ {
+  "file": "se/se_mugido_grave.ogg",
+  "type": "se",
+  "use": "Mugido grave distorsionado",
+  "loop": false,
+  "license": "CC0",
+  "author": "Gasybeaugosse2020",
+  "url": "https://commons.wikimedia.org/wiki/File%3ACow_in_Antefasy.wav",
+  "destino": null
+ },
+ {
+  "file": "se/se_llave_recoger.ogg",
+  "type": "se",
+  "use": "Llave: recoger",
+  "loop": false,
+  "license": "CC-BY 3.0",
+  "author": "Vinrax",
+  "url": "https://opengameart.org/content/key-pickup",
+  "destino": null
+ },
+ {
+  "file": "se/se_llaves_tintineo.ogg",
+  "type": "se",
+  "use": "Llaves tintineo",
+  "loop": false,
+  "license": "CC0",
+  "author": "rubberduck",
+  "url": "https://opengameart.org/content/100-cc0-metal-and-wood-sfx",
+  "destino": null
+ },
+ {
+  "file": "se/se_papel_nota_1.ogg",
+  "type": "se",
+  "use": "Papel / nota",
+  "loop": false,
+  "license": "CC0",
+  "author": "Luckius",
+  "url": "https://opengameart.org/content/various-paper-sound-effects",
+  "destino": null
+ },
+ {
+  "file": "se/se_papel_nota_2.ogg",
+  "type": "se",
+  "use": "Papel / nota",
+  "loop": false,
+  "license": "CC0",
+  "author": "Luckius",
+  "url": "https://opengameart.org/content/various-paper-sound-effects",
+  "destino": null
+ },
+ {
+  "file": "se/se_interruptor_luz.ogg",
+  "type": "se",
+  "use": "Interruptor de luz",
+  "loop": false,
+  "license": "CC0",
+  "author": "FunnyDude",
+  "url": "https://opengameart.org/content/light-switch-turn-on-and-off-sfx-0",
+  "destino": null
+ },
+ {
+  "file": "se/se_linterna_clic.ogg",
+  "type": "se",
+  "use": "Linterna: clic",
+  "loop": false,
+  "license": "CC0",
+  "author": "FunnyDude",
+  "url": "https://opengameart.org/content/light-switch-turn-on-and-off-sfx-0",
+  "destino": null
+ },
+ {
+  "file": "se/se_tv_encender.ogg",
+  "type": "se",
+  "use": "TV: encender (estatica con entrada)",
+  "loop": false,
+  "license": "CC0",
+  "author": "xhunterko",
+  "url": "https://opengameart.org/content/static",
+  "destino": null
+ },
+ {
+  "file": "se/se_tv_apagar.ogg",
+  "type": "se",
+  "use": "TV: apagar (estatica con corte)",
+  "loop": false,
+  "license": "CC0",
+  "author": "xhunterko",
+  "url": "https://opengameart.org/content/static",
+  "destino": null
+ },
+ {
+  "file": "se/se_frasco_vidrio_1.ogg",
+  "type": "se",
+  "use": "Frasco de vidrio",
+  "loop": false,
+  "license": "CC0",
+  "author": "sinny",
+  "url": "https://opengameart.org/content/glass-bottle-open-close",
+  "destino": null
+ },
+ {
+  "file": "se/se_frasco_vidrio_2.ogg",
+  "type": "se",
+  "use": "Frasco de vidrio",
+  "loop": false,
+  "license": "CC0",
+  "author": "sinny",
+  "url": "https://opengameart.org/content/glass-bottle-open-close",
+  "destino": null
+ },
+ {
+  "file": "se/se_objeto_recoger.ogg",
+  "type": "se",
+  "use": "Recoger objeto",
+  "loop": false,
+  "license": "CC0",
+  "author": "Musheran",
+  "url": "https://opengameart.org/content/item-pickup-key",
+  "destino": null
+ },
+ {
+  "file": "se/se_golpe_carne.ogg",
+  "type": "se",
+  "use": "Combate: golpe a carne",
+  "loop": false,
+  "license": "CC0",
+  "author": "EZduzziteh",
+  "url": "https://opengameart.org/content/squish-sounds-effects",
+  "destino": null
+ },
+ {
+  "file": "se/se_golpe_pesado.ogg",
+  "type": "se",
+  "use": "Combate: golpe pesado",
+  "loop": false,
+  "license": "CC0",
+  "author": "Zane Little Music",
+  "url": "https://opengameart.org/content/deep-bone-crackbreak-sfx",
+  "destino": null
+ },
+ {
+  "file": "se/se_fallo_aire.ogg",
+  "type": "se",
+  "use": "Combate: fallo / silbido",
+  "loop": false,
+  "license": "CC0",
+  "author": "artisticdude",
+  "url": "https://opengameart.org/content/swishes-sound-pack",
+  "destino": null
+ },
+ {
+  "file": "se/se_curar.ogg",
+  "type": "se",
+  "use": "Curar",
+  "loop": false,
+  "license": "CC-BY 4.0",
+  "author": "leohpaz",
+  "url": "https://opengameart.org/content/8-heals-and-buffs-sfx",
+  "destino": null
+ },
+ {
+  "file": "se/se_estado_veneno.ogg",
+  "type": "se",
+  "use": "Estado / veneno",
+  "loop": false,
+  "license": "CC-BY 4.0",
+  "author": "leohpaz",
+  "url": "https://opengameart.org/content/8-magic-attacks",
+  "destino": null
+ },
+ {
+  "file": "se/se_cordura_baja.ogg",
+  "type": "se",
+  "use": "Cordura baja (stinger)",
+  "loop": false,
+  "license": "CC-BY 3.0",
+  "author": "Little Robot Sound Factory",
+  "url": "https://opengameart.org/content/horror-sound-effects-library",
+  "destino": null
+ },
+ {
+  "file": "se/se_enemigo_muere.ogg",
+  "type": "se",
+  "use": "Muerte de enemigo",
+  "loop": false,
+  "license": "CC0",
+  "author": "qubodup",
+  "url": "https://opengameart.org/content/sci-fi-aliens-and-cows-pack",
+  "destino": null
+ },
+ {
+  "file": "se/se_screamer_1.ogg",
+  "type": "se",
+  "use": "Screamer 1",
+  "loop": false,
+  "license": "CC-BY 4.0",
+  "author": "VishwaJai",
+  "url": "https://opengameart.org/content/phantom-scream",
+  "destino": null
+ },
+ {
+  "file": "se/se_screamer_2.ogg",
+  "type": "se",
+  "use": "Screamer 2",
+  "loop": false,
+  "license": "CC0",
+  "author": "Nocturnal_Vanguard",
+  "url": "https://opengameart.org/content/female-scream-1",
+  "destino": null
+ },
+ {
+  "file": "se/se_screamer_3.ogg",
+  "type": "se",
+  "use": "Screamer 3",
+  "loop": false,
+  "license": "CC-BY 3.0",
+  "author": "SneidXK",
+  "url": "https://opengameart.org/content/monster-scream",
+  "destino": null
+ },
+ {
+  "file": "se/se_nivel_victoria.ogg",
+  "type": "se",
+  "use": "Nivel / victoria (breve)",
+  "loop": false,
+  "license": "CC-BY 3.0",
+  "author": "Little Robot Sound Factory",
+  "url": "https://opengameart.org/content/horror-sound-effects-library",
+  "destino": null
+ }
+]

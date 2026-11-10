@@ -1,0 +1,421 @@
+INICIO AUDIO
+ABRIR TITULO
+PLAY bgm Audio/BGM/vacas_titulo
+PLAY se Audio/SE/ui_confirmar
+OK Acceso a Creditos desde titulo
+PLAY se Audio/SE/ui_cursor
+OK Pagina siguiente de creditos
+PLAY se Audio/SE/ui_cursor
+OK Ultimas atribuciones accesibles
+PLAY se Audio/SE/ui_cancelar
+OK Volver de Creditos al titulo
+PLAY se Audio/SE/se_screamer_2
+OK Reproduccion nativa screamer_2
+PLAY bgs Audio/BGS/bgs_respiracion_pesada
+OK Reproduccion nativa respiracion_pesada
+PLAY bgm Audio/BGM/bgm_piso_exploracion
+OK Reproduccion nativa exploracion_del_piso
+PLAY se Audio/SE/se_puerta_manija_trabada
+OK Reproduccion nativa manija_de_puerta_trabada
+PLAY se Audio/SE/se_papel_nota_1
+OK Reproduccion nativa papel_nota
+PLAY se Audio/SE/se_paso_baldosa_2
+OK Reproduccion nativa paso_baldosa_2
+PLAY bgs Audio/BGS/bgs_tv_estatica
+OK Reproduccion nativa estatica_de_tv_vieja
+PLAY se Audio/SE/se_cuchillada_2
+OK Reproduccion nativa cuchilla_corte_de_carne_2
+PLAY me Audio/ME/vacas_victoria
+OK Reproduccion nativa victoria
+PLAY bgm Audio/BGM/bgm_lucy_laboratorio
+OK Reproduccion nativa lucy_laboratorio
+PLAY bgs Audio/BGS/bgs_reloj_tictac
+OK Reproduccion nativa reloj_tictac_piso
+PLAY se Audio/SE/se_linterna_clic
+OK Reproduccion nativa linterna_clic
+PLAY se Audio/SE/se_paso_agua_2
+OK Reproduccion nativa paso_agua_2
+PLAY se Audio/SE/se_sierra_hueso
+OK Reproduccion nativa sierra_sobre_hueso_sierra_ruido_mecanico
+PLAY me Audio/ME/me_game_over_triste
+OK Reproduccion nativa game_over_alterno
+PLAY bgm Audio/BGM/bgm_tv_segura
+OK Reproduccion nativa tema_tranquilo_seguro_tv
+PLAY se Audio/SE/se_frasco_vidrio_1
+OK Reproduccion nativa frasco_de_vidrio
+PLAY se Audio/SE/se_paso_rejilla_metal_2
+OK Reproduccion nativa paso_rejilla_metal_2
+PLAY bgs Audio/BGS/bgs_matadero_cadenas
+OK Reproduccion nativa cadenas_y_transportador
+PLAY bgm Audio/BGM/bgm_extra_sotano
+OK Reproduccion nativa alterna_sotano_lab
+PLAY se Audio/SE/se_desgarro_carne
+OK Reproduccion nativa desgarro_de_carne
+PLAY se Audio/SE/ui_cancelar
+OK Reproduccion nativa cancelar
+PLAY se Audio/SE/se_paso_madera_2
+OK Reproduccion nativa paso_madera_2
+PLAY bgs Audio/BGS/bgs_alcantarilla_goteo
+OK Reproduccion nativa goteo_y_eco
+PLAY se Audio/SE/se_golpe_carne
+OK Reproduccion nativa combate_golpe_a_carne
+PLAY se Audio/SE/se_gancho_metal
+OK Reproduccion nativa gancho_metalico
+PLAY se Audio/SE/paso_baldosa
+OK Reproduccion nativa paso_baldosa
+PLAY bgm Audio/BGM/bgm_extra_batalla_rpg
+OK Reproduccion nativa alterna_batalla
+PLAY se Audio/SE/se_curar
+OK Reproduccion nativa curar
+PLAY se Audio/SE/se_puerta_madera_cerrar
+OK Reproduccion nativa puerta_madera_cerrar
+PLAY bgs Audio/BGS/bgs_mazmorra_eco
+OK Reproduccion nativa ambiente_hueco_alcantarilla_camara
+PLAY se Audio/SE/puerta_oxido
+OK Reproduccion nativa puerta
+PLAY bgs Audio/BGS/vacas_matadero
+OK Reproduccion nativa matadero
+PLAY se Audio/SE/se_mugido_3
+OK Reproduccion nativa mugido_de_vaca_3
+PLAY se Audio/SE/se_enemigo_muere
+OK Reproduccion nativa muerte_de_enemigo
+PLAY se Audio/SE/se_puerta_hierro
+OK Reproduccion nativa puerta_de_hierro
+PLAY bgs Audio/BGS/bgs_latido_lento
+OK Reproduccion nativa latido_lento
+PLAY bgm Audio/BGM/vacas_jefe
+OK Reproduccion nativa jefe
+PLAY bgs Audio/BGS/vacas_alcantarillas
+OK Reproduccion nativa alcantarillas
+PLAY se Audio/SE/se_llave_recoger
+OK Reproduccion nativa llave_recoger
+PLAY se Audio/SE/se_paso_concreto_3
+OK Reproduccion nativa paso_concreto_3
+PLAY se Audio/SE/se_screamer_3
+OK Reproduccion nativa screamer_3
+PLAY se Audio/SE/se_puerta_destrabar
+OK Reproduccion nativa destrabar_puerta
+PLAY bgs Audio/BGS/bgs_respiracion_horror
+OK Reproduccion nativa respiracion_de_horror
+PLAY bgm Audio/BGM/vacas_gameover
+OK Reproduccion nativa gameover
+PLAY bgm Audio/BGM/bgm_matadero_exploracion
+OK Reproduccion nativa exploracion_matadero
+PLAY se Audio/SE/se_papel_nota_2
+OK Reproduccion nativa papel_nota_2
+PLAY se Audio/SE/se_paso_baldosa_3
+OK Reproduccion nativa paso_baldosa_3
+PLAY bgs Audio/BGS/bgs_tv_estatica_amortiguada
+OK Reproduccion nativa tv_amortiguada_estatica_filtrada
+PLAY bgm Audio/BGM/bgm_alcantarillas
+OK Reproduccion nativa alcantarillas_bgm
+PLAY se Audio/SE/se_corte_hueso
+OK Reproduccion nativa hueso_quebrado
+PLAY me Audio/ME/vacas_derrota
+OK Reproduccion nativa derrota
+PLAY se Audio/SE/se_paso_agua_3
+OK Reproduccion nativa paso_agua_3
+PLAY bgs Audio/BGS/bgs_lluvia_ventana
+OK Reproduccion nativa lluvia_en_ventana_calle_noche
+PLAY se Audio/SE/se_tv_encender
+OK Reproduccion nativa tv_encender_estatica_con_entrada
+PLAY se Audio/SE/se_chapoteo_1
+OK Reproduccion nativa chapoteo_gore
+PLAY se Audio/SE/ui_cursor
+OK Reproduccion nativa cursor
+PLAY bgm Audio/BGM/bgm_extra_calle_noche
+OK Reproduccion nativa alterna_calle_de_noche_suspense
+PLAY se Audio/SE/se_frasco_vidrio_2
+OK Reproduccion nativa frasco_de_vidrio_2
+PLAY se Audio/SE/se_paso_rejilla_metal_3
+OK Reproduccion nativa paso_rejilla_metal_3
+PLAY bgs Audio/BGS/bgs_matadero_fabrica_oscura
+OK Reproduccion nativa fabrica_oscura
+PLAY se Audio/SE/ui_error
+OK Reproduccion nativa error
+PLAY bgm Audio/BGM/bgm_extra_tension_lab
+OK Reproduccion nativa alterna_laboratorio_tenso
+PLAY se Audio/SE/se_viscoso
+OK Reproduccion nativa sonido_viscoso
+PLAY se Audio/SE/se_golpe_pesado
+OK Reproduccion nativa combate_golpe_pesado
+PLAY se Audio/SE/se_paso_madera_3
+OK Reproduccion nativa paso_madera_3
+PLAY bgs Audio/BGS/bgs_agua_corriente
+OK Reproduccion nativa agua_corriendo
+PLAY se Audio/SE/se_mugido_1
+OK Reproduccion nativa mugido_de_vaca
+PLAY se Audio/SE/paso_metal
+OK Reproduccion nativa paso_metal
+PLAY bgs Audio/BGS/vacas_menu
+OK Reproduccion nativa menu
+PLAY bgs Audio/BGS/bgs_fluorescente_zumbido
+OK Reproduccion nativa fluorescente_zumbido_electrico
+PLAY bgm Audio/BGM/vacas_titulo
+OK Reproduccion nativa titulo
+PLAY se Audio/SE/se_estado_veneno
+OK Reproduccion nativa estado_veneno
+PLAY se Audio/SE/se_puerta_metal_abrir
+OK Reproduccion nativa puerta_metal_pesada_abrir
+PLAY se Audio/SE/se_mugido_angustia
+OK Reproduccion nativa mugido_angustiado
+PLAY se Audio/SE/se_paso_concreto_1
+OK Reproduccion nativa paso_concreto
+PLAY bgs Audio/BGS/vacas_camaras
+OK Reproduccion nativa camaras
+PLAY se Audio/SE/se_screamer_1
+OK Reproduccion nativa screamer_1
+PLAY bgm Audio/BGM/vacas_persecucion
+OK Reproduccion nativa persecucion
+PLAY se Audio/SE/mente_susto
+OK Reproduccion nativa susto
+PLAY se Audio/SE/se_puerta_crujido
+OK Reproduccion nativa crujido_de_puerta
+PLAY bgs Audio/BGS/bgs_latido_rapido
+OK Reproduccion nativa latido_rapido
+PLAY se Audio/SE/se_paso_baldosa_1
+OK Reproduccion nativa paso_baldosa_1
+PLAY bgs Audio/BGS/vacas_manada
+OK Reproduccion nativa manada
+PLAY se Audio/SE/se_llaves_tintineo
+OK Reproduccion nativa llaves_tintineo
+PLAY se Audio/SE/se_nivel_victoria
+OK Reproduccion nativa nivel_victoria_breve
+PLAY se Audio/SE/se_cuchillada_1
+OK Reproduccion nativa cuchilla_corte_de_carne
+PLAY bgs Audio/BGS/bgs_corral_ganado
+OK Reproduccion nativa corral_de_ganado_mugidos_y_arrastre
+PLAY bgm Audio/BGM/bgm_camaras_frias
+OK Reproduccion nativa camaras_frias
+PLAY se Audio/SE/se_interruptor_luz
+OK Reproduccion nativa interruptor_de_luz
+PLAY se Audio/SE/se_paso_agua_1
+OK Reproduccion nativa paso_agua_1
+PLAY bgs Audio/BGS/bgs_nevera_zumbido
+OK Reproduccion nativa zumbido_de_nevera
+PLAY me Audio/ME/me_logro
+OK Reproduccion nativa nivel_logro
+PLAY bgm Audio/BGM/bgm_camara_manada
+OK Reproduccion nativa camara_de_la_manada
+PLAY se Audio/SE/se_hueso_seco
+OK Reproduccion nativa hueso_crujiendo
+PLAY se Audio/SE/se_tv_apagar
+OK Reproduccion nativa tv_apagar_estatica_con_corte
+PLAY se Audio/SE/se_paso_rejilla_metal_1
+OK Reproduccion nativa paso_rejilla_metal
+PLAY bgs Audio/BGS/bgs_lluvia_calle
+OK Reproduccion nativa lluvia_exterior
+PLAY se Audio/SE/se_chapoteo_2
+OK Reproduccion nativa chapoteo_gore_2
+PLAY se Audio/SE/ui_confirmar
+OK Reproduccion nativa confirmar
+PLAY bgm Audio/BGM/bgm_extra_estacion_drone
+OK Reproduccion nativa alterna_camaras_drone
+PLAY bgs Audio/BGS/bgs_camara_compresor
+OK Reproduccion nativa compresor_de_camara_fria
+PLAY se Audio/SE/se_objeto_recoger
+OK Reproduccion nativa recoger_objeto
+PLAY se Audio/SE/se_paso_madera_1
+OK Reproduccion nativa paso_madera
+PLAY se Audio/SE/se_gancho_cadena
+OK Reproduccion nativa cadena_gancho
+PLAY se Audio/SE/mente_golpe
+OK Reproduccion nativa golpe
+PLAY bgm Audio/BGM/bgm_extra_dark_drone
+OK Reproduccion nativa alterna_alcantarillas_drone
+PLAY se Audio/SE/se_fallo_aire
+OK Reproduccion nativa combate_fallo_silbido
+PLAY se Audio/SE/se_puerta_madera_abrir
+OK Reproduccion nativa puerta_madera_abrir
+PLAY bgs Audio/BGS/bgs_edificio_abandonado
+OK Reproduccion nativa edificio_abandonado_ambiente
+PLAY bgs Audio/BGS/vacas_piso
+OK Reproduccion nativa piso
+PLAY se Audio/SE/se_mugido_2
+OK Reproduccion nativa mugido_de_vaca_2
+PLAY se Audio/SE/paso_agua
+OK Reproduccion nativa paso_agua
+PLAY se Audio/SE/se_cordura_baja
+OK Reproduccion nativa cordura_baja_stinger
+PLAY se Audio/SE/se_puerta_metal_cerrar
+OK Reproduccion nativa puerta_metal_pesada_cerrar
+PLAY bgs Audio/BGS/bgs_generador
+OK Reproduccion nativa generador_maquina
+PLAY bgm Audio/BGM/vacas_combate
+OK Reproduccion nativa combate
+PLAY se Audio/SE/se_mugido_grave
+OK Reproduccion nativa mugido_grave_distorsionado
+PLAY se Audio/SE/se_paso_concreto_2
+OK Reproduccion nativa paso_concreto_2
+PLAY bgs Audio/BGS/vacas_laboratorio
+OK Reproduccion nativa laboratorio
+PLAY bgm Audio/BGM/bgm_piso_exploracion
+PLAY bgs Audio/BGS/vacas_piso
+OK BGM mapa 1
+OK BGS mapa 1
+PLAY bgs Audio/BGS/vacas_piso
+OK BGS evento conserva mapa 1
+OK BGM mapa 2
+OK BGS mapa 2
+PLAY bgs Audio/BGS/vacas_piso
+OK BGS evento conserva mapa 2
+PLAY bgs Audio/BGS/bgs_edificio_abandonado
+OK BGM mapa 3
+OK BGS mapa 3
+PLAY bgs Audio/BGS/bgs_edificio_abandonado
+OK BGS evento conserva mapa 3
+PLAY bgm Audio/BGM/bgm_extra_calle_noche
+PLAY bgs Audio/BGS/bgs_lluvia_calle
+OK BGM mapa 4
+OK BGS mapa 4
+PLAY bgs Audio/BGS/bgs_lluvia_calle
+OK BGS evento conserva mapa 4
+PLAY bgm Audio/BGM/bgm_matadero_exploracion
+OK BGM mapa 5
+OK BGS mapa 5
+PLAY bgs Audio/BGS/bgs_lluvia_calle
+OK BGS evento conserva mapa 5
+PLAY bgs Audio/BGS/bgs_nevera_zumbido
+OK BGM mapa 6
+OK BGS mapa 6
+PLAY bgs Audio/BGS/bgs_nevera_zumbido
+OK BGS evento conserva mapa 6
+PLAY bgs Audio/BGS/bgs_corral_ganado
+OK BGM mapa 7
+OK BGS mapa 7
+PLAY bgs Audio/BGS/bgs_corral_ganado
+OK BGS evento conserva mapa 7
+PLAY bgs Audio/BGS/vacas_matadero
+OK BGM mapa 8
+OK BGS mapa 8
+PLAY bgs Audio/BGS/vacas_matadero
+OK BGS evento conserva mapa 8
+PLAY bgm Audio/BGM/bgm_camaras_frias
+PLAY bgs Audio/BGS/vacas_camaras
+OK BGM mapa 9
+OK BGS mapa 9
+PLAY bgs Audio/BGS/vacas_camaras
+OK BGS evento conserva mapa 9
+PLAY bgm Audio/BGM/bgm_matadero_exploracion
+PLAY bgs Audio/BGS/bgs_reloj_tictac
+OK BGM mapa 10
+OK BGS mapa 10
+PLAY bgs Audio/BGS/bgs_reloj_tictac
+OK BGS evento conserva mapa 10
+PLAY bgs Audio/BGS/bgs_matadero_cadenas
+OK BGM mapa 11
+OK BGS mapa 11
+PLAY bgs Audio/BGS/bgs_matadero_cadenas
+OK BGS evento conserva mapa 11
+PLAY bgm Audio/BGM/bgm_tv_segura
+PLAY bgs Audio/BGS/bgs_reloj_tictac
+OK BGM mapa 12
+OK BGS mapa 12
+PLAY bgs Audio/BGS/bgs_reloj_tictac
+OK BGS evento conserva mapa 12
+PLAY bgm Audio/BGM/bgm_lucy_laboratorio
+PLAY bgs Audio/BGS/bgs_nevera_zumbido
+OK BGM mapa 13
+OK BGS mapa 13
+PLAY bgs Audio/BGS/bgs_nevera_zumbido
+OK BGS evento conserva mapa 13
+PLAY bgm Audio/BGM/bgm_extra_sotano
+PLAY bgs Audio/BGS/bgs_edificio_abandonado
+OK BGM mapa 14
+OK BGS mapa 14
+PLAY bgs Audio/BGS/bgs_edificio_abandonado
+OK BGS evento conserva mapa 14
+PLAY bgm Audio/BGM/bgm_lucy_laboratorio
+PLAY bgs Audio/BGS/bgs_fluorescente_zumbido
+OK BGM mapa 15
+OK BGS mapa 15
+PLAY bgs Audio/BGS/bgs_fluorescente_zumbido
+OK BGS evento conserva mapa 15
+PLAY bgm Audio/BGM/bgm_extra_tension_lab
+PLAY bgs Audio/BGS/vacas_laboratorio
+OK BGM mapa 16
+OK BGS mapa 16
+PLAY bgs Audio/BGS/vacas_laboratorio
+OK BGS evento conserva mapa 16
+PLAY bgm Audio/BGM/bgm_alcantarillas
+PLAY bgs Audio/BGS/vacas_alcantarillas
+OK BGM mapa 17
+OK BGS mapa 17
+PLAY bgs Audio/BGS/vacas_alcantarillas
+OK BGS evento conserva mapa 17
+PLAY bgm Audio/BGM/bgm_extra_dark_drone
+PLAY bgs Audio/BGS/bgs_alcantarilla_goteo
+OK BGM mapa 18
+OK BGS mapa 18
+PLAY bgs Audio/BGS/bgs_alcantarilla_goteo
+OK BGS evento conserva mapa 18
+PLAY bgm Audio/BGM/bgm_alcantarillas
+PLAY bgs Audio/BGS/bgs_agua_corriente
+OK BGM mapa 19
+OK BGS mapa 19
+PLAY bgs Audio/BGS/bgs_agua_corriente
+OK BGS evento conserva mapa 19
+PLAY bgm Audio/BGM/bgm_camara_manada
+PLAY bgs Audio/BGS/vacas_manada
+OK BGM mapa 20
+OK BGS mapa 20
+PLAY bgs Audio/BGS/vacas_manada
+OK BGS evento conserva mapa 20
+PLAY bgm Audio/BGM/bgm_tv_segura
+PLAY bgs Audio/BGS/bgs_mazmorra_eco
+OK BGM mapa 21
+OK BGS mapa 21
+PLAY bgs Audio/BGS/bgs_mazmorra_eco
+OK BGS evento conserva mapa 21
+PLAY bgm Audio/BGM/bgm_alcantarillas
+PLAY bgs Audio/BGS/bgs_agua_corriente
+PLAY bgm Audio/BGM/vacas_persecucion
+OK Persecucion 10
+PLAY bgm Audio/BGM/bgm_alcantarillas
+OK Restauracion tras persecucion 10
+PLAY bgm Audio/BGM/vacas_persecucion
+OK Persecucion 90
+PLAY bgm Audio/BGM/bgm_alcantarillas
+OK Restauracion tras persecucion 90
+PLAY bgm Audio/BGM/vacas_persecucion
+OK Persecucion 120
+PLAY bgm Audio/BGM/bgm_alcantarillas
+OK Restauracion tras persecucion 120
+PLAY bgm Audio/BGM/vacas_persecucion
+OK Persecucion 122
+PLAY bgm Audio/BGM/bgm_alcantarillas
+OK Restauracion tras persecucion 122
+PLAY bgs Audio/BGS/vacas_menu
+PLAY bgs Audio/BGS/bgs_agua_corriente
+OK Restauracion tras pausa
+PLAY se Audio/SE/se_paso_baldosa_1
+PLAY se Audio/SE/se_paso_baldosa_2
+PLAY se Audio/SE/se_paso_baldosa_3
+OK Pasos cada tres movimientos
+OK Tres variantes de pasos
+PLAY se Audio/SE/se_objeto_recoger
+OK Recoger objeto en exploracion
+OK Recogida evita duplicar SE antiguo del evento
+PLAY se Audio/SE/se_cuchillada_1
+OK SE de Vacas_Corte
+PLAY se Audio/SE/se_gancho_metal
+OK SE de Vacas_Cinta
+PLAY bgm Audio/BGM/vacas_combate
+OK Musica de entrada tropa 2
+PLAY bgm Audio/BGM/vacas_jefe
+OK Musica de entrada tropa 9
+PLAY bgm Audio/BGM/vacas_jefe
+OK Musica de entrada tropa 13
+PLAY bgm Audio/BGM/vacas_jefe
+OK Musica de entrada tropa 17
+PLAY se Audio/SE/se_screamer_2
+OK Screamer sin duplicar impacto
+PLAY se Audio/SE/se_screamer_3
+OK Intensidad cero silencia screamer
+PLAY se Audio/SE/se_linterna_clic
+OK Clic al apagar linterna
+PLAY se Audio/SE/se_linterna_clic
+OK Clic al recargar linterna
+PLAY se Audio/SE/ui_confirmar
+OK Volumen global aplicado una vez
+OK FIN AUDIO RGSS104E

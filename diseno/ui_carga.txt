@@ -100,3 +100,6 @@ Script 98
 Script 99
 Script 100
 Script 101
+SystemExit: exit
+Section101:163:in `exit'
+Section101:163
