@@ -154,6 +154,51 @@ Capturas reales `capturas/ui_*.png`; [lamina de interfaz](capturas/ui_resumen.pn
 y [fondos nuevos](capturas/ui_fondos.png). Las imagenes no son maquetas: corresponden
 al cliente 640×480 de Game.exe. La lamina de fondos muestra los PNG instalados.
 
+## Intro Feka Studios
+
+Añadida el 10 de noviembre de 2026. Al arrancar Game.exe se ve la marca del estudio
+antes del aviso de contenido y del título: **Main → Scene_FekaIntro → Scene_Aviso →
+Scene_Title**. Solo Main crea la intro, así que volver al título desde la pausa o
+desde Game Over no la repite. `Scene_Title` no se ha tocado: los atajos de Nueva
+partida (Mayús → II, Ctrl → III, Alt → IV) siguen igual.
+
+- Fuente: `scripts/12_intro_feka.rb`, sección `Vacas_IntroFeka` (id 99823011) entre
+  `Vacas_Interfaz` y Main. En Main solo cambia `$scene = Scene_Aviso.new` por
+  `$scene = Scene_FekaIntro.new`.
+- Secuencia (250 fotogramas, 6,25 s a 40 fps): fundido desde negro sobre #08070b →
+  el logo enciende como un tubo de neón (parpadeo, franjas desplazadas y aberración
+  roja #ff3d57) → la gota de la «F» engorda, se suelta, cae enrojeciendo y salpica →
+  del impacto nace una línea de neón que corre a ambos lados → aparece «PRESENTA» →
+  pausa → fundido a negro. Constantes `T_*` al inicio de la clase.
+- Z/Intro/Espacio (C) o Esc/X (B) la saltan con un fundido de 10 fotogramas.
+- Sonido: `se_interruptor_luz` al encender y `se_chapoteo_1` en la salpicadura, por
+  `Audio.se_play`, de modo que el envoltorio de `Vacas_Audio` aplica el volumen de
+  efectos de Ajustes. No se añadió ningún archivo de audio.
+- Intensidad de Ajustes: atenúa el parpadeo; con 0 no hay parpadeo ni glitch, solo
+  un fundido suave (fotosensibilidad).
+- Si falta algún gráfico la intro se omite y el juego arranca en el aviso.
+
+Gráficos en `Graphics/Pictures`, generados con Pillow desde
+`marca/feka-logo-transparente.png` por `python diseno/herramientas/arte_intro_feka.py`:
+`feka_logo` (368×146, logo a 360 px con LANCZOS, sin la gota), `feka_gota` (16×16),
+`feka_halo` (512×256, aditivo), `feka_linea` (368×13) y `feka_presenta` (141×28,
+Bahnschrift espaciada como «STUDIOS»).
+
+Instalar tras editar la fuente: `ruby diseno/herramientas/instalar_intro_feka.rb`
+(Ruby de D:/DevTools/ruby, editor cerrado; idempotente). Respaldo previo de
+Scripts.rxdata en `respaldos/antes_intro_feka/Data/`; para deshacer basta restaurarlo.
+
+Verificación (`verificacion_intro_feka.txt`): 103 scripts cargan por Marshal y pasan
+`ruby -c`; `herramientas/prueba_intro_feka_simulada.rb` ejecuta el código instalado
+contra dobles de RGSS y comprueba orden de secciones, arranque de Main, duración,
+los dos saltos, intensidad 0, liberación de sprites y gráficos ausentes.
+**Pendiente:** no se ha visto correr en el motor real. `prueba_intro_feka.rb` (arnés
+de Game.exe vía `probar_interfaz.mjs`) se quedó colgado dos veces hasta el timeout de
+180 s, tras cargar los cinco gráficos; Scripts.rxdata se restauró byte a byte. Causa
+probable, sin confirmar: el lanzador oculta la ventana y la actualización nativa de
+Graphics no vuelve hasta mostrarla. Se añadió `ShowWindow` al arnés, pero no se ha
+vuelto a ejecutar. Falta abrir el juego una vez a mano para validar ritmo y aspecto.
+
 ## Incidencias y pendiente
 
 Durante desarrollo se corrigio una llamada al instalador de metodos de Audio que

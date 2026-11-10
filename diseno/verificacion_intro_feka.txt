@@ -1,0 +1,24 @@
+OK Seccion Vacas_IntroFeka entre Vacas_Interfaz y Main
+OK Main arranca en Scene_FekaIntro
+OK Solo Main crea la intro (titulo, game over y salir al titulo no pasan por ella)
+OK Existe Audio/SE/se_interruptor_luz.ogg
+OK Existe Audio/SE/se_chapoteo_1.ogg
+OK   -> pasa a Scene_Aviso (aviso de contenido -> titulo)
+OK   -> todos los sprites liberados
+OK Completa: 250 fotogramas = 6.25 s, efectos: se_interruptor_luz, se_chapoteo_1
+OK Existe Audio/SE/se_interruptor_luz.ogg
+OK   -> pasa a Scene_Aviso (aviso de contenido -> titulo)
+OK   -> todos los sprites liberados
+OK C/Intro en el fotograma 60 salta: fin en 70
+OK   -> pasa a Scene_Aviso (aviso de contenido -> titulo)
+OK   -> todos los sprites liberados
+OK Esc en el fotograma 5 salta: fin en 15, sin efectos
+OK Existe Audio/SE/se_interruptor_luz.ogg
+OK Existe Audio/SE/se_chapoteo_1.ogg
+OK   -> pasa a Scene_Aviso (aviso de contenido -> titulo)
+OK   -> todos los sprites liberados
+OK Intensidad 0: sin parpadeo ni glitch, misma duracion
+OK   -> pasa a Scene_Aviso (aviso de contenido -> titulo)
+OK   -> todos los sprites liberados
+OK Graficos ausentes: la intro se omite sin error
+OK FIN INTRO FEKA (simulada)
