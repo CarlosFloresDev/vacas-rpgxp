@@ -46,7 +46,7 @@ if errors:raise SystemExit(1)
 # --- base de datos
 for iid,n,desc in C.ITEMS:
     d=copy.deepcopy(s['Items'][29]);d.pop('_class',None)
-    d.update(id=iid,name=n,description=desc,consumable=False,occasion=2,common_event_id=1,scope=0,price=0)
+    d.update(id=iid,icon_name="vacas_item_%02d"%iid,name=n,description=desc,consumable=False,occasion=2,common_event_id=1,scope=0,price=0)
     ops.append(['update_database_entry',dict(kind='items',id=iid,updates=d)])
 for i,n in C.SWITCHES.items():ops.append(['set_switch_name',dict(switchId=i,name='A5: '+n)])
 for i,n in C.VARIABLES.items():ops.append(['set_variable_name',dict(variableId=i,name='A5: '+n)])
@@ -79,13 +79,8 @@ ops.append(['update_script',dict(index=pan['index'],code=pant)])
 code=(ROOT/'diseno/scripts/13_matanza.rb').read_text(encoding='utf-8')
 found=next((x for x in s['Scripts'] if x['name']=='Vacas_Matanza'),None)
 ops.append(['update_script',dict(index=found['index'],code=code)] if found else ['create_script',dict(name='Vacas_Matanza',code=code)])
-# --- sustos provisionales: reencuadres tintados de arte existente (sin generacion)
-P=ROOT/'Graphics/Pictures'
-for n,src,flip in [(12,4,True),(13,7,False)]:
-    im=Image.open(P/('screamer_%d.png'%src)).convert('RGB')
-    if flip:im=ImageOps.mirror(im)
-    im=im.crop((60,45,580,435)).resize((640,480),Image.LANCZOS)
-    g=ImageOps.grayscale(im);im=Image.blend(im,ImageOps.colorize(g,(10,0,0),(255,150,120) if n==12 else (150,215,255)),.6)
-    ImageEnhance.Contrast(im).enhance(1.25).save(P/('screamer_%d.png'%n))
+# Arte final integrado: nunca regenerar los sustos con reencuadres PIL.
+for n in (12,13):
+    if not (ROOT/'Graphics/Pictures'/('screamer_%d.png'%n)).exists():raise FileNotFoundError('Instalar arte_final antes del Acto V')
 (BASE/'b_acto5.json').write_text(json.dumps(ops,ensure_ascii=False),encoding='utf-8')
 print(len(ops),'operaciones A5;',sum(len(m.events) for m in maps),'eventos')

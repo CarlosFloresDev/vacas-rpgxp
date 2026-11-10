@@ -62,4 +62,7 @@ for mid,props in extras.items():
 # El cuerpo del generador conserva pasajes/prioridades/huellas y máscaras.
 source=inspect.getsource(m.build).replace('id=69','id=70').replace('acto5','acto6').replace('maps5_info','maps6_info').replace('b_tiles5','b_tiles6').replace('acto6_matanza','acto6_reydios')
 exec(source,m.__dict__)
-if __name__=='__main__':m.build()
+if __name__=='__main__':
+    if (m.ROOT/'diseno/arte_hd2d/arte_final/manifest.json').exists():
+        raise SystemExit('Constructor PIL historico desactivado. Usar componer_arte_final.py y aplicar_arte_final.mjs.')
+    m.build()

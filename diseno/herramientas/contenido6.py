@@ -4,7 +4,7 @@ from ev import _wrap
 from contenido_sistemas import battle,optional
 from contenido5 import snd
 
-KEYS={'Steven':'steven','Madre':'madre','Lucy':'lucy','La Guernsey':'guernsey','Muesca':'muesca','El Rubio':'rubio'}
+KEYS={'Steven':'steven','Madre':'madre_envejecida','Lucy':'lucy','La Guernsey':'guernsey','Muesca':'muesca','El Rubio':'rubio'}
 def say(name,text,exp=None):
     exp=exp or ('susurro' if name in ('Lucy','La Guernsey') else 'neutral')
     lines=_wrap(text);out=[]
@@ -159,4 +159,4 @@ SEEDS={28:(3,13),29:(3,13),30:(3,13),31:(3,13),32:(3,13)}
 SWITCHES={176:'Acto VI activo',177:'Llegada túneles',178:'Censo afrontado',179:'Ciudad vista',180:'Regreso al piso',181:'Última cena terminada',182:'Perro acompaña',183:'Carta de Lucy',184:'Compuertas cerradas',185:'Tensión activa',186:'Altar visto',187:'Jefe final vencido',188:'Juego completado',189:'Final Rey visto',190:'Final Ganado visto',191:'Final Huida visto',192:'Límite sin castigo',195:'Mesa afrontada',196:'Galería vista'}
 VARIABLES={65:'Cierres 0-3',66:'Tensión: frames restantes',67:'Golpes de agua',68:'Final 1-3',69:'Reservada A6'}
 ITEMS=[(39,'Ruta de tiza','El paso que Muesca te dibujó. Recuerdo sin consumo.'),(40,'Carta de Lucy','Una voz al otro lado de la ciudad. Recuerdo sin consumo.')]
-ENEMIGOS=[(33,'vaca',210,'El Censo de las bocas',340,29,65),(34,'madre',20,'La Mesa que exige',390,31,66),(35,'rey',30,'El Rey sin rostro',860,35,70),(36,'canal',310,'Tu Número en la cadena',860,35,67),(37,'sombra_cripps',230,'La Puerta que muerde',860,35,70)]
+ENEMIGOS=[(33,'censo_bocas',0,'El Censo de las bocas',340,29,65),(34,'mesa_exige',0,'La Mesa que exige',390,31,66),(35,'rey_sin_rostro',0,'El Rey sin rostro',860,35,70),(36,'numero_cadena',0,'Tu Número en la cadena',860,35,67),(37,'puerta_muerde',0,'La Puerta que muerde',860,35,70)]

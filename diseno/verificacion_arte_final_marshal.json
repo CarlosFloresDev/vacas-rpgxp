@@ -1,0 +1,6 @@
+{
+  "files": 16,
+  "portrait_references": 6,
+  "result": "OK",
+  "scope": "Comparación Marshal binaria semántica: solo cambian campos gráficos, tablas de tiles y seis claves de retrato; todos los demás bytes de texto/objetos se preservan."
+}

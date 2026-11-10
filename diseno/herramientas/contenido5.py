@@ -293,7 +293,7 @@ NOTAS = {35: 'LLAVE DEL MUELLE: puerta de servicio, en la pared norte del muelle
          38: 'ORDEN DE MATANZA: vaciar corrales en un turno, lotes sin etiqueta a camara 3, sanidad no pasa hasta el lunes. Es la letra de Cripps.'}
 def notas():
     return [IF(c_script('$vacas_ultimo_objeto == %d' % i), [T(text)]) for i, text in NOTAS.items()]
-ENEMIGOS = [(18, 'sombra_cripps', 190, 'El Turno de noche', 340, 35, 68, 'Nadie me sujeta la mano. Es mía.'),
-            (19, 'vaca', 330, 'La Res que cuenta', 330, 34, 65, 'Cuenta lo que quieras. Yo no soy un número.'),
-            (20, 'canal', 20, 'El Gancho que respira', 360, 36, 67, 'Es hierro. El hierro no respira. Respiro yo.'),
-            (21, 'sombra_cripps', 0, 'Cripps, el matarife', 860, 43, 70, None)]
+ENEMIGOS = [(18,'turno_noche',0,'El Turno de noche', 340, 35, 68, 'Nadie me sujeta la mano. Es mía.'),
+            (19,'res_cuenta',0,'La Res que cuenta', 330, 34, 65, 'Cuenta lo que quieras. Yo no soy un número.'),
+            (20,'gancho_respira',0,'El Gancho que respira', 360, 36, 67, 'Es hierro. El hierro no respira. Respiro yo.'),
+            (21,'cripps_matarife',0,'Cripps, el matarife', 860, 43, 70, None)]

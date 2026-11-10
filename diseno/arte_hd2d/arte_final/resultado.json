@@ -1,0 +1,25 @@
+{
+  "initial_file_counts": {
+    "OK": 108,
+    "REUTILIZADO o TINTADO": 9,
+    "PLACEHOLDER o RTP": 326,
+    "INCORRECTO": 2,
+    "FALTA": 0
+  },
+  "final_file_counts": {
+    "OK": 187,
+    "REUTILIZADO o TINTADO": 0,
+    "PLACEHOLDER o RTP": 308,
+    "INCORRECTO": 0,
+    "FALTA": 0
+  },
+  "changed_graphics": 75,
+  "sources": 31,
+  "selected_sources": 30,
+  "pending_exposure": {
+    "mapas": 53,
+    "solo_base_datos": 257,
+    "scripts": 5
+  },
+  "global_complete": false
+}

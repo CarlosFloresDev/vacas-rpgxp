@@ -5,6 +5,8 @@ from PIL import Image, ImageDraw, ImageFont
 from adaptar_arte import adapt, save
 
 ROOT=Path(__file__).resolve().parents[2]
+if __name__=='__main__' and (ROOT/'diseno/arte_hd2d/arte_final/manifest.json').exists():
+    raise SystemExit('Lote historico desactivado: restauraria Guernsey y sustos provisionales. Usar instalar_arte_final.py/componer_arte_final.py.')
 ART=ROOT/'diseno/arte_hd2d/acto4'
 assets=[]
 def spec(source,destination,kind,**kw):

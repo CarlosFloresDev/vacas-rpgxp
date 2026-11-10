@@ -1,5 +1,7 @@
 # Cinemáticas — fases 4 y 5
 
+> **Arte actualizado (10-11-2026):** cine_piso, cine_matadero, cine_ciudad y cine_altar son ahora cuatro placas originales image_gen, adaptadas a640×480. Los renders de mapas de la implementación original se conservaron en el respaldo. No ejecutar b_cine_render.json para reemplazarlas: destruiría el acabado nuevo. Escenas, música, saltos y tiempos no cambian. Fuentes/prompts/manifiesto: arte_hd2d/arte_final/.
+
 Implementación del 10 de noviembre de 2026. RGSS1 / Ruby 1.8, 640×480.
 Texto nuevo en español. No se incorporan citas de la novela ni escenas sexuales.
 

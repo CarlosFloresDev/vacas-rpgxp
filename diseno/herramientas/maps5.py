@@ -453,4 +453,6 @@ def build():
     print(len(added), 'baldosas nuevas;', len(ops), 'operaciones')
 
 if __name__ == '__main__':
+    if (ROOT/'diseno/arte_hd2d/arte_final/manifest.json').exists():
+        raise SystemExit('Constructor PIL historico desactivado. Usar componer_arte_final.py y aplicar_arte_final.mjs.')
     build()

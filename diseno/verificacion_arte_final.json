@@ -1,0 +1,23 @@
+{
+  "checks": 4005,
+  "directional_step_checks": 158400,
+  "scenarios": 12,
+  "maps": [
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "errors": [],
+  "collision_differences": [],
+  "scope": "Comparación de pasos XP frente al estado inicial, eventos/estadísticas, PNG, reproducción, escala, respaldos e integridad. Sin ejecutar ni cerrar Game.exe.",
+  "visual_review": "Láminas revisadas aparte; no sustituye partida humana con tono/niebla y transiciones.",
+  "portrait_lower_body_exact": true
+}

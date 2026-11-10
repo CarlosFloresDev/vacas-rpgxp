@@ -1,5 +1,7 @@
 # Acto VI — Rey-dios y cierre del juego
 
+> **Arte actualizado (10-11-2026):** enemigos 33–37 con PNG exclusivos/hue=0; retrato madre_envejecida_neutral asignado solo al VI; Guernsey con rombo propio; trono generado y utilería image_gen en tileset70. Cinemáticas con cuatro placas originales. Perro conserva sus apariciones estáticas: el seguidor entre mapas continúa pendiente. Las notas provisionales originales se conservan como historia, no como estado actual. Ver [auditoría](AUDITORIA_ARTE.md).
+
 Construido el 10 de noviembre de 2026. RGSS1, Ruby 1.8, 640×480. Texto original en español; adaptación libre, sin citas del libro. El contenido sexual permanece fuera de pantalla. El desenlace Ganado corta antes del golpe; la violencia se comunica mediante la cadena, las etiquetas y el sonido.
 
 Respaldo anterior a toda escritura: los 42 `Data/*.rxdata` existentes en [respaldos/antes_acto6/Data](respaldos/antes_acto6/Data/). No se accede a `.git`; no se modifica `Vacas.cfg` ni se cierran procesos Game.exe ajenos.

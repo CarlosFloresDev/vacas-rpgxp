@@ -1,5 +1,7 @@
 # Acto V — La matanza
 
+> **Arte actualizado (10-11-2026):** enemigos 18–21 con PNG propios y hue=0; sustos 12/13 generados desde sus escenas; utilería image_gen integrada en el tileset 69. Las notas provisionales de la implementación original, conservadas abajo, quedan sustituidas por [AUDITORIA_ARTE.md](AUDITORIA_ARTE.md). No ejecutar el constructor PIL histórico.
+
 Construido el 10 de noviembre de 2026 sobre el final del Acto IV. Respaldo previo de todos los `Data/*.rxdata` en `respaldos/antes_acto5/Data/`. Texto original; el contenido sexual no aparece; el gore se describe y las muertes de la decisión ocurren con la pantalla en negro o fuera de plano.
 
 ## Acceso y prueba rápida

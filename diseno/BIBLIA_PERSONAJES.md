@@ -79,3 +79,21 @@ Las referencias de entidades sin cuerpo humano usarán frontal y lateral de su f
 - **Camilla vacía / `camilla.png`:** camilla oxidada sin paciente, sábana hundida en un vacío, brazos de tejido oscuro y ruedas torcidas. No representa un cuerpo humano real.
 - **Diagnóstico / `diagnostico.png`:** silla hospitalaria vacía dentro de un gran tarro, tiras de papel como costillas, corona de pinzas de latón y raíces fibrosas burdeos. Personifica una orden de encontrar una pieza defectuosa; no es Lucy. Susto 9 muestra el mismo motivo desde dentro del vidrio.
 - Fuentes, prompts y manifiesto del lote en `arte_hd2d/acto3/`. Referencias, battlers, retratos, sprite y objetos revisados con `view_image`; no se reemplazó arte aprobado de I/II.
+
+## Producción final de los actos V y VI — 10-11-2026
+
+Fuentes y prompts íntegros: arte_hd2d/arte_final/generaciones.json; manifiesto y parámetros de adaptación en la misma carpeta. image_gen integrado; sin GPU local, sin nuevas ilustraciones PIL. Las rampas adicionales de ropa/piel conservan identidad dentro de las paletas de zona.
+
+- Cripps matarife: misma identidad, rapado/camisa gris/delantal marfil/correas marrones; figura humana física con herramienta de perno, separada de su Sombra.
+- Turno de noche: tres uniformes vacíos y seis manos en guantes encadenadas a un reloj de fichar.
+- Res que cuenta: cabeza bovina crema/marrón con balanza y anillas de etiquetas, nueva silueta.
+- Gancho que respira: gancho articulado y fuelle orgánico, sin canal colgada.
+- Censo de las bocas: siete hocicos con etiquetas alrededor de un contador mecánico.
+- Mesa que exige: mesa doméstica/mantel mostaza, máscara de madre en silla y manos de yeso; no sustituye a la madre cotidiana.
+- Rey sin rostro: Steven, camisa marrón con bolsillo, corona de ganchos, cara en facetas de espejo y cadenas; no reemplaza al Rey del cajón anterior.
+- Tu Número en la cadena: etiqueta con ojos sobre camisa de trabajo vacía, jaula y cadena.
+- Puerta que muerde: marco industrial, puerta doméstica y dientes de porcelana/pernos; sin figura de Cripps.
+- Madre envejecida: conserva cara ancha, moño bajo, bata mostaza y ausencia de joyas; más canas/arrugas y cansancio, retrato exclusivo del VI.
+- Guernsey de mapa: canela, rombo crema, ojo castaño y cuernos curvos, ya no vaca canela del fondo. Excepción animal:192×192/celda48×48.
+- Madre, Cripps, Muesca y Junco: fuentes originales readaptadas a128×192/celdas32×48; objetos y animales conservan sus excepciones.
+- Sustos10/11: nuevos planos de Coro/Pulmón;12: Cripps entre ganchos acercando la mano;13: interior de escondite con reflejo asustado de Steven.

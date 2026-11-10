@@ -9,7 +9,7 @@ ops=[]
 for m in [fn() for fn in C.MAPAS]:ops+=m.ops({int(i) for i in s['Map%03d'%m.map_id]['events']})
 for iid,name,desc in C.ITEMS:
     d=copy.deepcopy(s['Items'][29]);d.pop('_class',None)
-    d.update(id=iid,name=name,description=desc,consumable=False,occasion=2,common_event_id=1,scope=0,price=0)
+    d.update(id=iid,icon_name="vacas_item_%02d"%iid,name=name,description=desc,consumable=False,occasion=2,common_event_id=1,scope=0,price=0)
     ops.append(['update_database_entry',dict(kind='items',id=iid,updates=d)])
 for i,n in C.SWITCHES.items():ops.append(['set_switch_name',dict(switchId=i,name='A6: '+n)])
 for i,n in C.VARIABLES.items():ops.append(['set_variable_name',dict(variableId=i,name='A6: '+n)])
