@@ -1,0 +1,131 @@
+﻿{
+  "path": "D:\\descargas\\Proyectos personales\\Vacas\\diseno\\capturas\\arte\\data_aplicado_26.png",
+  "pixel_w": 640,
+  "pixel_h": 480,
+  "map": {
+    "id": 26,
+    "width": 20,
+    "height": 15,
+    "layers": 3
+  },
+  "tileset": {
+    "id": 69,
+    "name": "acto5_matanza"
+  },
+  "rendered_layers": [
+    0,
+    1,
+    2
+  ],
+  "region": {
+    "x": 0,
+    "y": 0,
+    "w": 20,
+    "h": 15
+  },
+  "events": [
+    {
+      "id": 1,
+      "name": "Noche de matanza",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": 2,
+      "name": "Primera vez",
+      "x": 1,
+      "y": 0
+    },
+    {
+      "id": 3,
+      "name": "Radio de la antesala",
+      "x": 1,
+      "y": 8
+    },
+    {
+      "id": 4,
+      "name": "Cajas de etiquetas",
+      "x": 1,
+      "y": 5
+    },
+    {
+      "id": 5,
+      "name": "Archivo de bajas",
+      "x": 1,
+      "y": 3
+    },
+    {
+      "id": 6,
+      "name": "Reloj de fichar",
+      "x": 3,
+      "y": 2
+    },
+    {
+      "id": 7,
+      "name": "Banco de espera",
+      "x": 5,
+      "y": 5
+    },
+    {
+      "id": 8,
+      "name": "Umbral de la oficina",
+      "x": 0,
+      "y": 4
+    },
+    {
+      "id": 9,
+      "name": "Cripps en su mesa",
+      "x": 13,
+      "y": 4
+    },
+    {
+      "id": 10,
+      "name": "La Guernsey en la oficina",
+      "x": 9,
+      "y": 6
+    },
+    {
+      "id": 11,
+      "name": "Caja de cencerros",
+      "x": 18,
+      "y": 7
+    },
+    {
+      "id": 12,
+      "name": "Caja fuerte",
+      "x": 18,
+      "y": 9
+    },
+    {
+      "id": 13,
+      "name": "Ventanal de la nave",
+      "x": 10,
+      "y": 2
+    },
+    {
+      "id": 14,
+      "name": "Trofeos",
+      "x": 12,
+      "y": 2
+    },
+    {
+      "id": 15,
+      "name": "Sofa de escay",
+      "x": 9,
+      "y": 9
+    },
+    {
+      "id": 16,
+      "name": "Escalera de incendios",
+      "x": 19,
+      "y": 12
+    },
+    {
+      "id": 17,
+      "name": "Bajada al sangrado",
+      "x": 3,
+      "y": 14
+    }
+  ],
+  "notes": []
+}

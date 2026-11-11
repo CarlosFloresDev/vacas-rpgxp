@@ -13,7 +13,7 @@
     "saturacion_pixelart_max": 0.55,
     "alpha_pixelart_max": 0.01
   },
-  "total": 466,
+  "total": 468,
   "con_avisos": 205,
   "archivos": [
     {
@@ -4959,20 +4959,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Animations[30].animation_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Animations[31].animation_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Animations[32].animation_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "rejilla_no_entera",
         "geometria_animacion",
@@ -7205,20 +7192,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Animations[53].animation_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Animations[54].animation_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Animations[55].animation_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "rejilla_no_entera",
         "geometria_animacion",
@@ -9151,7 +9125,20 @@
         "derivado": true,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [],
+      "usos": [
+        {
+          "ruta": "Animations[30].animation_name",
+          "mapa": null
+        },
+        {
+          "ruta": "Animations[31].animation_name",
+          "mapa": null
+        },
+        {
+          "ruta": "Animations[32].animation_name",
+          "mapa": null
+        }
+      ],
       "avisos": [
         "RTP_derivado_geometria_corregida"
       ],
@@ -9379,7 +9366,20 @@
         "derivado": true,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [],
+      "usos": [
+        {
+          "ruta": "Animations[53].animation_name",
+          "mapa": null
+        },
+        {
+          "ruta": "Animations[54].animation_name",
+          "mapa": null
+        },
+        {
+          "ruta": "Animations[55].animation_name",
+          "mapa": null
+        }
+      ],
       "avisos": [
         "RTP_derivado_geometria_corregida"
       ],
@@ -10154,52 +10154,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[1].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[2].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[4].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[13].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[15].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[23].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[32].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[34].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[35].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[37].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[39].autotile_names[0]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -10434,66 +10389,6 @@
         {
           "ruta": "Map004.Tilesets[55].autotile_names[1]",
           "mapa": 4
-        },
-        {
-          "ruta": "Tilesets[1].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[2].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[4].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[9].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[11].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[13].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[15].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[23].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[25].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[28].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[32].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[34].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[35].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[37].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[39].autotile_names[1]",
-          "mapa": null
         },
         {
           "ruta": "Tilesets[55].autotile_names[1]",
@@ -10736,46 +10631,6 @@
         {
           "ruta": "Map004.Tilesets[55].autotile_names[2]",
           "mapa": 4
-        },
-        {
-          "ruta": "Tilesets[1].autotile_names[2]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[2].autotile_names[2]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[9].autotile_names[2]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[13].autotile_names[2]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[23].autotile_names[2]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[32].autotile_names[2]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[34].autotile_names[2]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[35].autotile_names[2]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[37].autotile_names[2]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[39].autotile_names[2]",
-          "mapa": null
         },
         {
           "ruta": "Tilesets[55].autotile_names[2]",
@@ -11050,24 +10905,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[11].autotile_names[2]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[15].autotile_names[2]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[25].autotile_names[2]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[28].autotile_names[2]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -11312,22 +11150,6 @@
           "mapa": 4
         },
         {
-          "ruta": "Tilesets[9].autotile_names[3]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[11].autotile_names[5]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[28].autotile_names[3]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[35].autotile_names[3]",
-          "mapa": null
-        },
-        {
           "ruta": "Tilesets[55].autotile_names[3]",
           "mapa": null
         }
@@ -11568,26 +11390,6 @@
         {
           "ruta": "Map004.Tilesets[55].autotile_names[4]",
           "mapa": 4
-        },
-        {
-          "ruta": "Tilesets[9].autotile_names[4]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[13].autotile_names[3]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[25].autotile_names[3]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[28].autotile_names[4]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[34].autotile_names[3]",
-          "mapa": null
         },
         {
           "ruta": "Tilesets[55].autotile_names[4]",
@@ -11857,20 +11659,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[1].autotile_names[5]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[4].autotile_names[3]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[23].autotile_names[6]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -12132,16 +11921,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[1].autotile_names[6]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[37].autotile_names[6]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -12917,12 +12697,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[3].autotile_names[0]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -13193,16 +12968,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[3].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[7].autotile_names[0]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -13473,16 +13239,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[3].autotile_names[2]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[7].autotile_names[1]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -13753,12 +13510,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[7].autotile_names[4]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -14029,12 +13781,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[7].autotile_names[5]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -14305,12 +14052,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[7].autotile_names[6]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -15085,16 +14827,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[6].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[19].autotile_names[0]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -15365,20 +15098,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[5].autotile_names[4]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[6].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[19].autotile_names[1]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -15649,20 +15369,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[5].autotile_names[5]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[6].autotile_names[2]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[11].autotile_names[3]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -15933,16 +15640,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[6].autotile_names[3]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[19].autotile_names[2]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -16213,16 +15911,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[6].autotile_names[4]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[19].autotile_names[3]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -16493,16 +16182,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[6].autotile_names[5]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[19].autotile_names[4]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -16773,12 +16453,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[19].autotile_names[5]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -17049,12 +16724,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[19].autotile_names[6]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -17315,12 +16985,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[6].autotile_names[6]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -18096,12 +17761,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[5].autotile_names[0]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -18876,12 +18536,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[5].autotile_names[1]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -19656,12 +19311,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[5].autotile_names[2]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -20408,12 +20058,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[5].autotile_names[3]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -21188,16 +20833,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[8].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[21].autotile_names[0]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -21468,16 +21104,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[8].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[21].autotile_names[1]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -21748,16 +21375,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[8].autotile_names[2]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[21].autotile_names[2]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -22018,16 +21636,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[8].autotile_names[4]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[21].autotile_names[4]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -22791,16 +22400,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[11].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[30].autotile_names[1]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "saturacion_media_mayor_055",
         "RTP_original"
@@ -23576,12 +23176,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[4].autotile_names[4]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -24356,12 +23951,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[4].autotile_names[5]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -25136,12 +24726,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[4].autotile_names[6]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -25367,16 +24952,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[2].autotile_names[5]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[15].autotile_names[5]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -25614,16 +25190,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[2].autotile_names[6]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[15].autotile_names[6]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "saturacion_media_mayor_055",
         "RTP_original"
@@ -25850,20 +25417,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[3].autotile_names[4]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[7].autotile_names[3]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[35].autotile_names[6]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -26094,12 +25648,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[3].autotile_names[5]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -26365,48 +25914,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[1].autotile_names[3]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[2].autotile_names[3]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[4].autotile_names[2]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[13].autotile_names[4]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[17].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[23].autotile_names[3]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[32].autotile_names[3]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[34].autotile_names[4]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[37].autotile_names[3]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[39].autotile_names[3]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -26673,40 +26181,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[1].autotile_names[4]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[11].autotile_names[4]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[13].autotile_names[5]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[15].autotile_names[3]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[23].autotile_names[4]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[32].autotile_names[4]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[34].autotile_names[5]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[37].autotile_names[4]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -26972,16 +26447,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[3].autotile_names[3]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[7].autotile_names[2]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -27247,20 +26713,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[2].autotile_names[4]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[35].autotile_names[5]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[39].autotile_names[4]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -27526,40 +26979,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[8].autotile_names[3]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[13].autotile_names[6]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[15].autotile_names[4]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[17].autotile_names[2]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[21].autotile_names[3]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[23].autotile_names[5]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[37].autotile_names[5]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[39].autotile_names[5]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -27825,16 +27245,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[5].autotile_names[6]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[32].autotile_names[6]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -28100,12 +27511,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[30].autotile_names[2]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -28371,20 +27777,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[25].autotile_names[4]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[28].autotile_names[5]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[32].autotile_names[5]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -29134,62 +28527,6 @@
           "mapa": 4
         },
         {
-          "ruta": "Tilesets[9].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[17].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[24].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[25].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[26].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[27].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[28].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[29].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[33].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[36].autotile_names[3]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[38].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[40].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[42].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[48].autotile_names[1]",
-          "mapa": null
-        },
-        {
           "ruta": "Tilesets[55].autotile_names[0]",
           "mapa": null
         }
@@ -29462,32 +28799,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[26].autotile_names[2]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[27].autotile_names[2]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[33].autotile_names[2]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[36].autotile_names[4]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[40].autotile_names[2]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[48].autotile_names[2]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -29734,38 +29046,6 @@
         {
           "ruta": "Map004.Tilesets[55].autotile_names[5]",
           "mapa": 4
-        },
-        {
-          "ruta": "Tilesets[9].autotile_names[5]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[11].autotile_names[6]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[25].autotile_names[5]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[28].autotile_names[6]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[30].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[34].autotile_names[6]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[35].autotile_names[4]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[39].autotile_names[6]",
-          "mapa": null
         },
         {
           "ruta": "Tilesets[55].autotile_names[5]",
@@ -30040,40 +29320,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[10].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[26].autotile_names[3]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[27].autotile_names[3]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[29].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[31].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[33].autotile_names[3]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[38].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[42].autotile_names[1]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "saturacion_media_mayor_055",
         "RTP_original"
@@ -30317,66 +29564,6 @@
         {
           "ruta": "Map003.Tilesets[54].autotile_names[1]",
           "mapa": 3
-        },
-        {
-          "ruta": "Tilesets[12].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[14].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[16].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[18].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[20].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[22].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[24].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[26].autotile_names[4]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[27].autotile_names[4]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[29].autotile_names[2]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[31].autotile_names[1]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[33].autotile_names[4]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[36].autotile_names[5]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[38].autotile_names[2]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[40].autotile_names[3]",
-          "mapa": null
         },
         {
           "ruta": "Tilesets[53].autotile_names[1]",
@@ -30751,38 +29938,6 @@
           "mapa": 32
         },
         {
-          "ruta": "Tilesets[12].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[18].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[26].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[27].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[33].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[36].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[40].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[48].autotile_names[0]",
-          "mapa": null
-        },
-        {
           "ruta": "Tilesets[51].autotile_names[0]",
           "mapa": null
         },
@@ -31123,28 +30278,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[10].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[14].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[16].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[22].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[36].autotile_names[1]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -31415,16 +30549,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[20].autotile_names[0]",
-          "mapa": null
-        },
-        {
-          "ruta": "Tilesets[36].autotile_names[2]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -32199,12 +31324,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[43].autotile_names[0]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -32475,12 +31595,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[43].autotile_names[1]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -32751,12 +31866,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[43].autotile_names[2]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -33027,12 +32137,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[43].autotile_names[3]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -33303,12 +32408,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[43].autotile_names[4]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -33579,12 +32679,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[43].autotile_names[5]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -34359,12 +33454,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[44].autotile_names[0]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -34615,12 +33705,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[44].autotile_names[1]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -34875,12 +33960,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[44].autotile_names[2]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -35151,12 +34231,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[44].autotile_names[3]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -35387,12 +34462,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[44].autotile_names[4]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -35663,12 +34733,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[44].autotile_names[5]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -35939,12 +35004,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[45].autotile_names[0]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -36207,12 +35267,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[45].autotile_names[1]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -36483,12 +35538,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[45].autotile_names[2]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -36759,12 +35809,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[45].autotile_names[3]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -37007,12 +36052,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[45].autotile_names[4]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -37255,12 +36295,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[45].autotile_names[5]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -38035,12 +37070,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[46].autotile_names[0]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -38311,12 +37341,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[46].autotile_names[1]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -38571,12 +37596,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[46].autotile_names[2]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -38847,12 +37867,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[46].autotile_names[3]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -39087,12 +38102,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[46].autotile_names[4]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -39363,12 +38373,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[46].autotile_names[5]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -39619,12 +38624,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[49].autotile_names[0]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -39895,12 +38895,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[49].autotile_names[1]",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -41811,12 +40806,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Actors[2].battler_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -41912,12 +40902,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Actors[3].battler_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -42013,12 +40998,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Actors[4].battler_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -42114,12 +41094,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Actors[5].battler_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -42215,12 +41190,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Actors[6].battler_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -42316,12 +41286,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Actors[7].battler_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -42417,12 +41382,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Actors[8].battler_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -42518,12 +41478,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Enemies[25].battler_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -42619,12 +41574,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Enemies[26].battler_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -42720,12 +41670,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Enemies[27].battler_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -42821,12 +41766,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Enemies[28].battler_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -42922,12 +41862,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Enemies[29].battler_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -43023,12 +41958,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Enemies[22].battler_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -43124,12 +42054,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Enemies[30].battler_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -43225,12 +42150,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Enemies[23].battler_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -43326,12 +42246,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Enemies[31].battler_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -43427,12 +42342,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Enemies[24].battler_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -43528,12 +42438,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Enemies[32].battler_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -46306,7 +45211,12 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [],
+      "usos": [
+        {
+          "ruta": "Actors[2].battler_name",
+          "mapa": null
+        }
+      ],
       "avisos": [],
       "estado": "METRICAS_OK",
       "validacion_visual": "No inferible de métricas; consultar COHERENCIA_ARTE.md"
@@ -46400,7 +45310,12 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [],
+      "usos": [
+        {
+          "ruta": "Actors[3].battler_name",
+          "mapa": null
+        }
+      ],
       "avisos": [],
       "estado": "METRICAS_OK",
       "validacion_visual": "No inferible de métricas; consultar COHERENCIA_ARTE.md"
@@ -46494,7 +45409,12 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [],
+      "usos": [
+        {
+          "ruta": "Actors[4].battler_name",
+          "mapa": null
+        }
+      ],
       "avisos": [],
       "estado": "METRICAS_OK",
       "validacion_visual": "No inferible de métricas; consultar COHERENCIA_ARTE.md"
@@ -46588,7 +45508,12 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [],
+      "usos": [
+        {
+          "ruta": "Actors[5].battler_name",
+          "mapa": null
+        }
+      ],
       "avisos": [],
       "estado": "METRICAS_OK",
       "validacion_visual": "No inferible de métricas; consultar COHERENCIA_ARTE.md"
@@ -46682,7 +45607,12 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [],
+      "usos": [
+        {
+          "ruta": "Actors[6].battler_name",
+          "mapa": null
+        }
+      ],
       "avisos": [],
       "estado": "METRICAS_OK",
       "validacion_visual": "No inferible de métricas; consultar COHERENCIA_ARTE.md"
@@ -46776,7 +45706,12 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [],
+      "usos": [
+        {
+          "ruta": "Actors[7].battler_name",
+          "mapa": null
+        }
+      ],
       "avisos": [],
       "estado": "METRICAS_OK",
       "validacion_visual": "No inferible de métricas; consultar COHERENCIA_ARTE.md"
@@ -46870,7 +45805,12 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [],
+      "usos": [
+        {
+          "ruta": "Actors[8].battler_name",
+          "mapa": null
+        }
+      ],
       "avisos": [],
       "estado": "METRICAS_OK",
       "validacion_visual": "No inferible de métricas; consultar COHERENCIA_ARTE.md"
@@ -47195,12 +46135,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Actors[2].character_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -47527,12 +46462,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Actors[3].character_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "saturacion_media_mayor_055",
         "RTP_original"
@@ -47860,12 +46790,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Actors[4].character_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "saturacion_media_mayor_055",
         "RTP_original"
@@ -48193,12 +47118,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Actors[5].character_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -48525,12 +47445,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Actors[6].character_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -48857,12 +47772,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Actors[7].character_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -49189,12 +48099,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Actors[8].character_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -52815,32 +51720,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Map020.events.4.pages[0].graphic.character_name",
-          "mapa": 20
-        },
-        {
-          "ruta": "Map026.events.10.pages[1].graphic.character_name",
-          "mapa": 26
-        },
-        {
-          "ruta": "Map027.events.3.pages[0].graphic.character_name",
-          "mapa": 27
-        },
-        {
-          "ruta": "Map027.events.3.pages[1].graphic.character_name",
-          "mapa": 27
-        },
-        {
-          "ruta": "Map029.events.6.pages[0].graphic.character_name",
-          "mapa": 29
-        },
-        {
-          "ruta": "Map032.events.7.pages[0].graphic.character_name",
-          "mapa": 32
-        }
-      ],
+      "usos": [],
       "avisos": [
         "bovino_longitud_adulta_menor_54_pendiente_DATA"
       ],
@@ -53199,7 +52079,32 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [],
+      "usos": [
+        {
+          "ruta": "Map020.events.4.pages[0].graphic.character_name",
+          "mapa": 20
+        },
+        {
+          "ruta": "Map026.events.10.pages[1].graphic.character_name",
+          "mapa": 26
+        },
+        {
+          "ruta": "Map027.events.3.pages[0].graphic.character_name",
+          "mapa": 27
+        },
+        {
+          "ruta": "Map027.events.3.pages[1].graphic.character_name",
+          "mapa": 27
+        },
+        {
+          "ruta": "Map029.events.6.pages[0].graphic.character_name",
+          "mapa": 29
+        },
+        {
+          "ruta": "Map032.events.7.pages[0].graphic.character_name",
+          "mapa": 32
+        }
+      ],
       "avisos": [],
       "estado": "METRICAS_OK",
       "validacion_visual": "No inferible de métricas; consultar COHERENCIA_ARTE.md"
@@ -53556,24 +52461,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Map019.events.4.pages[0].graphic.character_name",
-          "mapa": 19
-        },
-        {
-          "ruta": "Map020.events.6.pages[0].graphic.character_name",
-          "mapa": 20
-        },
-        {
-          "ruta": "Map023.events.5.pages[2].graphic.character_name",
-          "mapa": 23
-        },
-        {
-          "ruta": "Map027.events.5.pages[1].graphic.character_name",
-          "mapa": 27
-        }
-      ],
+      "usos": [],
       "avisos": [
         "bovino_longitud_adulta_menor_54_pendiente_DATA"
       ],
@@ -53932,7 +52820,24 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [],
+      "usos": [
+        {
+          "ruta": "Map019.events.4.pages[0].graphic.character_name",
+          "mapa": 19
+        },
+        {
+          "ruta": "Map020.events.6.pages[0].graphic.character_name",
+          "mapa": 20
+        },
+        {
+          "ruta": "Map023.events.5.pages[2].graphic.character_name",
+          "mapa": 23
+        },
+        {
+          "ruta": "Map027.events.5.pages[1].graphic.character_name",
+          "mapa": 27
+        }
+      ],
       "avisos": [],
       "estado": "METRICAS_OK",
       "validacion_visual": "No inferible de métricas; consultar COHERENCIA_ARTE.md"
@@ -57020,40 +55925,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Map018.events.5.pages[0].graphic.character_name",
-          "mapa": 18
-        },
-        {
-          "ruta": "Map018.events.6.pages[1].graphic.character_name",
-          "mapa": 18
-        },
-        {
-          "ruta": "Map019.events.7.pages[1].graphic.character_name",
-          "mapa": 19
-        },
-        {
-          "ruta": "Map020.events.5.pages[0].graphic.character_name",
-          "mapa": 20
-        },
-        {
-          "ruta": "Map023.events.5.pages[1].graphic.character_name",
-          "mapa": 23
-        },
-        {
-          "ruta": "Map027.events.4.pages[0].graphic.character_name",
-          "mapa": 27
-        },
-        {
-          "ruta": "Map028.events.6.pages[0].graphic.character_name",
-          "mapa": 28
-        },
-        {
-          "ruta": "Map028.events.6.pages[1].graphic.character_name",
-          "mapa": 28
-        }
-      ],
+      "usos": [],
       "avisos": [
         "bovino_longitud_adulta_menor_54_pendiente_DATA"
       ],
@@ -57412,7 +56284,40 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [],
+      "usos": [
+        {
+          "ruta": "Map018.events.5.pages[0].graphic.character_name",
+          "mapa": 18
+        },
+        {
+          "ruta": "Map018.events.6.pages[1].graphic.character_name",
+          "mapa": 18
+        },
+        {
+          "ruta": "Map019.events.7.pages[1].graphic.character_name",
+          "mapa": 19
+        },
+        {
+          "ruta": "Map020.events.5.pages[0].graphic.character_name",
+          "mapa": 20
+        },
+        {
+          "ruta": "Map023.events.5.pages[1].graphic.character_name",
+          "mapa": 23
+        },
+        {
+          "ruta": "Map027.events.4.pages[0].graphic.character_name",
+          "mapa": 27
+        },
+        {
+          "ruta": "Map028.events.6.pages[0].graphic.character_name",
+          "mapa": 28
+        },
+        {
+          "ruta": "Map028.events.6.pages[1].graphic.character_name",
+          "mapa": 28
+        }
+      ],
       "avisos": [],
       "estado": "METRICAS_OK",
       "validacion_visual": "No inferible de métricas; consultar COHERENCIA_ARTE.md"
@@ -60481,7 +59386,12 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [],
+      "usos": [
+        {
+          "ruta": "Actors[2].character_name",
+          "mapa": null
+        }
+      ],
       "avisos": [],
       "estado": "METRICAS_OK",
       "validacion_visual": "No inferible de métricas; consultar COHERENCIA_ARTE.md"
@@ -60838,7 +59748,12 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [],
+      "usos": [
+        {
+          "ruta": "Actors[3].character_name",
+          "mapa": null
+        }
+      ],
       "avisos": [],
       "estado": "METRICAS_OK",
       "validacion_visual": "No inferible de métricas; consultar COHERENCIA_ARTE.md"
@@ -61195,7 +60110,12 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [],
+      "usos": [
+        {
+          "ruta": "Actors[4].character_name",
+          "mapa": null
+        }
+      ],
       "avisos": [],
       "estado": "METRICAS_OK",
       "validacion_visual": "No inferible de métricas; consultar COHERENCIA_ARTE.md"
@@ -61552,7 +60472,12 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [],
+      "usos": [
+        {
+          "ruta": "Actors[5].character_name",
+          "mapa": null
+        }
+      ],
       "avisos": [],
       "estado": "METRICAS_OK",
       "validacion_visual": "No inferible de métricas; consultar COHERENCIA_ARTE.md"
@@ -61909,7 +60834,12 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [],
+      "usos": [
+        {
+          "ruta": "Actors[6].character_name",
+          "mapa": null
+        }
+      ],
       "avisos": [],
       "estado": "METRICAS_OK",
       "validacion_visual": "No inferible de métricas; consultar COHERENCIA_ARTE.md"
@@ -62258,7 +61188,12 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [],
+      "usos": [
+        {
+          "ruta": "Actors[7].character_name",
+          "mapa": null
+        }
+      ],
       "avisos": [],
       "estado": "METRICAS_OK",
       "validacion_visual": "No inferible de métricas; consultar COHERENCIA_ARTE.md"
@@ -62615,7 +61550,12 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [],
+      "usos": [
+        {
+          "ruta": "Actors[8].character_name",
+          "mapa": null
+        }
+      ],
       "avisos": [],
       "estado": "METRICAS_OK",
       "validacion_visual": "No inferible de métricas; consultar COHERENCIA_ARTE.md"
@@ -65399,24 +64339,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Weapons[1].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Weapons[2].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Weapons[3].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Weapons[4].icon_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -65513,24 +64436,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Weapons[5].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Weapons[6].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Weapons[7].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Weapons[8].icon_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -65631,24 +64537,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Weapons[9].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Weapons[10].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Weapons[11].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Weapons[12].icon_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -65745,24 +64634,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Weapons[13].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Weapons[14].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Weapons[15].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Weapons[16].icon_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -65879,24 +64751,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Weapons[17].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Weapons[18].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Weapons[19].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Weapons[20].icon_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -66013,24 +64868,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Weapons[21].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Weapons[22].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Weapons[23].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Weapons[24].icon_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -66123,24 +64961,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Weapons[25].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Weapons[26].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Weapons[27].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Weapons[28].icon_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -66237,24 +65058,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Weapons[29].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Weapons[30].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Weapons[31].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Weapons[32].icon_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -66351,24 +65155,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Armors[1].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Armors[2].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Armors[3].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Armors[4].icon_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -66465,24 +65252,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Armors[5].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Armors[6].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Armors[7].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Armors[8].icon_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -66575,24 +65345,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Armors[9].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Armors[10].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Armors[11].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Armors[12].icon_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -66693,24 +65446,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Armors[13].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Armors[14].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Armors[15].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Armors[16].icon_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -66799,24 +65535,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Armors[17].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Armors[18].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Armors[19].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Armors[20].icon_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -66933,24 +65652,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Armors[21].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Armors[22].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Armors[23].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Armors[24].icon_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -67067,40 +65769,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Armors[25].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Armors[26].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Armors[27].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Armors[28].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Armors[29].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Armors[30].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Armors[31].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Armors[32].icon_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -67205,112 +65874,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Skills[7].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[8].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[9].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[10].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[11].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[12].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[13].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[14].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[15].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[16].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[17].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[18].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[19].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[20].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[21].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[22].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[23].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[24].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[25].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[26].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[27].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[28].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[29].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[30].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[31].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[32].icon_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -67383,32 +65947,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Skills[1].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[2].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[3].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[4].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[5].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[6].icon_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -67481,56 +66020,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Skills[33].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[34].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[35].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[36].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[37].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[38].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[39].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[40].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[41].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[42].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[43].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[44].icon_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -67619,40 +66109,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Skills[45].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[46].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[47].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[48].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[49].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[50].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[51].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[52].icon_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "saturacion_media_mayor_055",
         "RTP_original"
@@ -67742,24 +66199,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Skills[53].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[54].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[55].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[56].icon_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "saturacion_media_mayor_055",
         "RTP_original"
@@ -67849,64 +66289,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Skills[57].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[58].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[59].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[60].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[71].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[72].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[73].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[74].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[75].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[76].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[77].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[78].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[79].icon_name",
-          "mapa": null
-        },
-        {
-          "ruta": "Skills[80].icon_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "RTP_original"
       ],
@@ -74714,6 +73097,238 @@
       "usos": [
         {
           "ruta": "Items[40].icon_name",
+          "mapa": null
+        }
+      ],
+      "avisos": [],
+      "estado": "METRICAS_OK",
+      "validacion_visual": "No inferible de métricas; consultar COHERENCIA_ARTE.md"
+    },
+    {
+      "archivo": "Graphics/Icons/vacas_ropa_trabajo.png",
+      "tamano": [
+        24,
+        24
+      ],
+      "sha256": "2d7406238b93ade45fba971ad916ccf3c95283fd16d5c6fa652082b7096544df",
+      "rejilla": [
+        1,
+        1
+      ],
+      "celda": [
+        24,
+        24
+      ],
+      "frames": [
+        {
+          "indice": 0,
+          "fila": 0,
+          "columna": 0,
+          "bbox": [
+            1,
+            3,
+            23,
+            21
+          ],
+          "ancho": 22,
+          "altura": 18,
+          "margen_inferior": 3
+        }
+      ],
+      "metricas": {
+        "colores": 15,
+        "saturacion_media": 0.3036,
+        "brillo_medio": 0.2704,
+        "paleta_principal": [
+          {
+            "hex": "#120d10",
+            "pixeles": 33
+          },
+          {
+            "hex": "#876c5a",
+            "pixeles": 29
+          },
+          {
+            "hex": "#312625",
+            "pixeles": 28
+          },
+          {
+            "hex": "#795f50",
+            "pixeles": 25
+          },
+          {
+            "hex": "#4f3d36",
+            "pixeles": 22
+          },
+          {
+            "hex": "#181214",
+            "pixeles": 21
+          },
+          {
+            "hex": "#41322e",
+            "pixeles": 21
+          },
+          {
+            "hex": "#5e493f",
+            "pixeles": 20
+          },
+          {
+            "hex": "#644e42",
+            "pixeles": 19
+          },
+          {
+            "hex": "#251d1e",
+            "pixeles": 18
+          },
+          {
+            "hex": "#695145",
+            "pixeles": 18
+          },
+          {
+            "hex": "#71584a",
+            "pixeles": 17
+          },
+          {
+            "hex": "#58443b",
+            "pixeles": 15
+          },
+          {
+            "hex": "#7f6454",
+            "pixeles": 15
+          },
+          {
+            "hex": "#aa8e78",
+            "pixeles": 14
+          }
+        ],
+        "semitransparentes": 0,
+        "fraccion_semitransparente": 0.0
+      },
+      "rtp": {
+        "hash_identico": false,
+        "nombre_convencional": false,
+        "derivado": false,
+        "arte_propio_nombre_heredado": false
+      },
+      "usos": [
+        {
+          "ruta": "Armors[25].icon_name",
+          "mapa": null
+        }
+      ],
+      "avisos": [],
+      "estado": "METRICAS_OK",
+      "validacion_visual": "No inferible de métricas; consultar COHERENCIA_ARTE.md"
+    },
+    {
+      "archivo": "Graphics/Icons/vacas_tubo_oxidado.png",
+      "tamano": [
+        24,
+        24
+      ],
+      "sha256": "86c5f7cffc23255b0050e1ad481e1c61e538c8e2415fedfb61599b7adeca41ee",
+      "rejilla": [
+        1,
+        1
+      ],
+      "celda": [
+        24,
+        24
+      ],
+      "frames": [
+        {
+          "indice": 0,
+          "fila": 0,
+          "columna": 0,
+          "bbox": [
+            1,
+            1,
+            23,
+            23
+          ],
+          "ancho": 22,
+          "altura": 22,
+          "margen_inferior": 1
+        }
+      ],
+      "metricas": {
+        "colores": 15,
+        "saturacion_media": 0.2534,
+        "brillo_medio": 0.2692,
+        "paleta_principal": [
+          {
+            "hex": "#140d0c",
+            "pixeles": 25
+          },
+          {
+            "hex": "#563d30",
+            "pixeles": 16
+          },
+          {
+            "hex": "#635954",
+            "pixeles": 16
+          },
+          {
+            "hex": "#817d7b",
+            "pixeles": 16
+          },
+          {
+            "hex": "#524f4e",
+            "pixeles": 15
+          },
+          {
+            "hex": "#442d24",
+            "pixeles": 14
+          },
+          {
+            "hex": "#666261",
+            "pixeles": 14
+          },
+          {
+            "hex": "#6c4937",
+            "pixeles": 14
+          },
+          {
+            "hex": "#716e6d",
+            "pixeles": 14
+          },
+          {
+            "hex": "#433a36",
+            "pixeles": 13
+          },
+          {
+            "hex": "#130c0c",
+            "pixeles": 11
+          },
+          {
+            "hex": "#9f9d9c",
+            "pixeles": 10
+          },
+          {
+            "hex": "#120c0b",
+            "pixeles": 9
+          },
+          {
+            "hex": "#110a0a",
+            "pixeles": 6
+          },
+          {
+            "hex": "#1e1513",
+            "pixeles": 5
+          }
+        ],
+        "semitransparentes": 0,
+        "fraccion_semitransparente": 0.0
+      },
+      "rtp": {
+        "hash_identico": false,
+        "nombre_convencional": false,
+        "derivado": false,
+        "arte_propio_nombre_heredado": false
+      },
+      "usos": [
+        {
+          "ruta": "Weapons[1].icon_name",
           "mapa": null
         }
       ],
@@ -85183,12 +83798,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[1].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -88007,12 +86617,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[2].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -90164,12 +88769,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[3].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -93379,12 +91979,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[4].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -95332,12 +93927,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[5].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -97534,12 +96124,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[6].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -99191,12 +97776,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[7].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -102279,12 +100859,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[8].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -105673,12 +104248,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[9].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -108313,12 +106883,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[10].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -111891,12 +110456,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[11].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -114307,12 +112867,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[12].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -117656,12 +116211,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[13].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -120169,12 +118719,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[14].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -123914,12 +122459,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[15].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -126738,12 +125278,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[16].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -131003,12 +129538,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[17].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -133959,12 +132489,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[18].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -136447,12 +134972,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[19].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -139047,12 +137567,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[20].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -143356,12 +141871,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[21].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -145961,12 +144471,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[22].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -149584,12 +148089,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[23].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -152219,12 +150719,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[24].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -155384,12 +153879,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[25].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -158203,12 +156693,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[26].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -161002,12 +159487,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[27].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -164719,12 +163199,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[28].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -168384,12 +166859,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[29].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -172427,12 +170897,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[30].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -175714,12 +174179,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[31].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -179227,12 +177687,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[32].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -182384,12 +180839,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[33].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -185768,12 +184218,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[34].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -188948,12 +187393,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[35].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -193305,12 +191745,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[36].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -196694,12 +195129,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[37].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -199635,12 +198065,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[38].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -203280,12 +201705,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[39].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -206624,12 +205044,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[40].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -209903,12 +208318,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[41].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -212749,12 +211159,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[42].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -216384,12 +214789,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[43].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -220014,12 +218414,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[44].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -223629,12 +222024,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[45].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -227259,12 +225649,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[46].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -230307,12 +228692,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[47].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -232919,12 +231299,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[48].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -235300,12 +233675,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[49].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -237534,12 +235904,7 @@
         "derivado": false,
         "arte_propio_nombre_heredado": false
       },
-      "usos": [
-        {
-          "ruta": "Tilesets[50].tileset_name",
-          "mapa": null
-        }
-      ],
+      "usos": [],
       "avisos": [
         "alpha_parcial_en_pixel_art",
         "RTP_original"
@@ -296714,5 +295079,7 @@
       "estado": "METRICAS_OK",
       "validacion_visual": "No inferible de métricas; consultar COHERENCIA_ARTE.md"
     }
-  ]
+  ],
+  "con_avisos_y_referencias": 30,
+  "con_avisos_en_mapas": 0
 }

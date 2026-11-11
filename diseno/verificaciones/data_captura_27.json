@@ -1,0 +1,125 @@
+﻿{
+  "path": "D:\\descargas\\Proyectos personales\\Vacas\\diseno\\capturas\\arte\\data_aplicado_27.png",
+  "pixel_w": 640,
+  "pixel_h": 480,
+  "map": {
+    "id": 27,
+    "width": 20,
+    "height": 15,
+    "layers": 3
+  },
+  "tileset": {
+    "id": 69,
+    "name": "acto5_matanza"
+  },
+  "rendered_layers": [
+    0,
+    1,
+    2
+  ],
+  "region": {
+    "x": 0,
+    "y": 0,
+    "w": 20,
+    "h": 15
+  },
+  "events": [
+    {
+      "id": 1,
+      "name": "Noche de matanza",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": 2,
+      "name": "Primera vez",
+      "x": 1,
+      "y": 0
+    },
+    {
+      "id": 3,
+      "name": "La Guernsey en el patio",
+      "x": 10,
+      "y": 8
+    },
+    {
+      "id": 4,
+      "name": "Muesca en el patio",
+      "x": 7,
+      "y": 9
+    },
+    {
+      "id": 5,
+      "name": "Junco en el patio",
+      "x": 13,
+      "y": 9
+    },
+    {
+      "id": 6,
+      "name": "Res en el patio",
+      "x": 4,
+      "y": 9
+    },
+    {
+      "id": 7,
+      "name": "Res en el patio",
+      "x": 16,
+      "y": 9
+    },
+    {
+      "id": 8,
+      "name": "Res en el patio",
+      "x": 12,
+      "y": 11
+    },
+    {
+      "id": 9,
+      "name": "Res en el patio",
+      "x": 6,
+      "y": 12
+    },
+    {
+      "id": 10,
+      "name": "Res en el patio",
+      "x": 16,
+      "y": 12
+    },
+    {
+      "id": 11,
+      "name": "El Rubio en la cancela",
+      "x": 17,
+      "y": 11
+    },
+    {
+      "id": 12,
+      "name": "El Chato en la cancela",
+      "x": 18,
+      "y": 11
+    },
+    {
+      "id": 13,
+      "name": "Camion abierto",
+      "x": 15,
+      "y": 6
+    },
+    {
+      "id": 14,
+      "name": "Puerta de incendios",
+      "x": 3,
+      "y": 2
+    },
+    {
+      "id": 15,
+      "name": "Cancela abierta",
+      "x": 9,
+      "y": 13
+    },
+    {
+      "id": 16,
+      "name": "Cancela abierta",
+      "x": 10,
+      "y": 13
+    }
+  ],
+  "notes": []
+}

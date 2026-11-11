@@ -66,3 +66,17 @@ La continuación es incremental e idempotente: conserva el arte actual, corrige 
 Respaldos originales preservados en [antes_coherencia_arte](../../respaldos/antes_coherencia_arte/Graphics/). Las variantes `_80`, nuevas en la primera pasada, tienen además respaldo de su estado previo a este ajuste. Las herramientas leen Marshal y fuentes de scripts; no importan instaladores ni arrancan el juego.
 
 Láminas actualizadas: `diseno/capturas/arte/coherencia_<categoría>.png` y partes numeradas; [personajes1:1](../../capturas/arte/coherencia_personajes_1x.png), [personajes×3](../../capturas/arte/coherencia_personajes_3x.png), [laboratorio ampliado](../../capturas/arte/coherencia_laboratorio_detalle.png). La escala es real en las láminas de personajes; los catálogos antes/después ajustan miniaturas al recuadro.
+
+## Integraci?n de Data aplicada ? 11-11-2026
+
+La restricci?n de no escribir Data de la pasada anterior queda cerrada por esta tarea autorizada. Respaldo completo conservado en diseno/respaldos/antes_cambios_data_arte/. Se escribieron336 campos con Marshal mediante rgss_datos.rb, conservando las clases RPG y las cadenas binarias RGSS1.
+
+Se asignaron14 gr?ficos de siete actores con hue0,18 p?ginas bovinas `_80` en nueve mapas y seis animaciones de rejilla corregida. El grupo inicial contiene solo Steven, como ya establec?a la apertura. Se retiraron referencias gr?ficas de50 tilesets sin uso y11 enemigos sin tropas, adem?s de iconos RTP de reservas. Los registros e IDs siguen existiendo. Tubo oxidado y ropa de trabajo tienen ahora dos iconos propios image_gen de24?24, paleta16 colores, NEAREST y alpha binario, incluidos en el manifiesto. Fuentes y prompts: diseno/fuentes/coherencia_arte/data_*.
+
+La comparaci?n de los mapas permite ?nicamente cambiar character_name: posici?n, n?mero de p?ginas, condiciones, comandos, through, direcci?n, patr?n, tablas e IDs se conservan. No fue necesario ajustar colisiones ni pasabilidad. Scripts.rxdata permanece id?ntico al respaldo.
+
+[Estado por entrada y excepciones justificadas](CAMBIOS_DATA_PENDIENTES.md), [registro de cambios](../../verificaciones/data_arte_aplicado.json) y [capturas nuevas de los nueve mapas](../../capturas/arte/data_aplicado_resumen.png). Son renders est?ticos con p?gina inicial; no certifican una partida nativa ni todos sus estados simult?neamente.
+
+Coherencia:935 comprobaciones,0 fallos. HD:55 fuentes,0 errores. Auditor?a completa:468 PNG,205 archivos con avisos conservados,30 con referencias (animaciones de reserva),0 con referencias en mapas. No se ha maquillado la deuda del cat?logo: los originales RTP permanecen y las dos rejillas siguen siendo derivados RTP. Los bovinos48 sin referencias siguen presentes para compatibilidad hist?rica. Rubio/Sierra y el bovino indexado en matadero conservan su identidad aprobada.
+
+Verificaci?n final de esta integraci?n: proyecto0 errores, validate_assets570 referencias/0 ausentes, jugabilidad0 errores bloqueantes, HD55 fuentes/0 errores y coherencia935 comprobaciones/0 fallos. La auditor?a termin? correctamente, pero conserva205 avisos de cat?logo, de los cuales30 a?n tienen referencias de reserva; no equivale a un cat?logo sin avisos. [Integridad contra respaldo](../../verificaciones/data_arte_integridad.json):336 cambios autorizados,4.627 subestructuras id?nticas y Scripts.rxdata id?ntico. [Informe general](../../verificaciones/verificacion_organizacion.json). No se hicieron commits ni se abri? el editor.

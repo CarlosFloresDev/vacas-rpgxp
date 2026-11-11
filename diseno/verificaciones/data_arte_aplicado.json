@@ -1,0 +1,2505 @@
+{
+  "cambios": [
+    {
+      "ruta": "Actors[2].character_name",
+      "antes": "010-Lancer02",
+      "despues": "vacas_reserva_actor02"
+    },
+    {
+      "ruta": "Actors[2].battler_name",
+      "antes": "010-Lancer02",
+      "despues": "vacas_reserva_actor02"
+    },
+    {
+      "ruta": "Actors[3].character_name",
+      "antes": "013-Warrior01",
+      "despues": "vacas_reserva_actor03"
+    },
+    {
+      "ruta": "Actors[3].battler_name",
+      "antes": "013-Warrior01",
+      "despues": "vacas_reserva_actor03"
+    },
+    {
+      "ruta": "Actors[4].character_name",
+      "antes": "019-Thief04",
+      "despues": "vacas_reserva_actor04"
+    },
+    {
+      "ruta": "Actors[4].battler_name",
+      "antes": "019-Thief04",
+      "despues": "vacas_reserva_actor04"
+    },
+    {
+      "ruta": "Actors[5].character_name",
+      "antes": "022-Hunter03",
+      "despues": "vacas_reserva_actor05"
+    },
+    {
+      "ruta": "Actors[5].battler_name",
+      "antes": "022-Hunter03",
+      "despues": "vacas_reserva_actor05"
+    },
+    {
+      "ruta": "Actors[6].character_name",
+      "antes": "023-Gunner01",
+      "despues": "vacas_reserva_actor06"
+    },
+    {
+      "ruta": "Actors[6].battler_name",
+      "antes": "023-Gunner01",
+      "despues": "vacas_reserva_actor06"
+    },
+    {
+      "ruta": "Actors[7].character_name",
+      "antes": "029-Cleric05",
+      "despues": "vacas_reserva_actor07"
+    },
+    {
+      "ruta": "Actors[7].battler_name",
+      "antes": "029-Cleric05",
+      "despues": "vacas_reserva_actor07"
+    },
+    {
+      "ruta": "Actors[8].character_name",
+      "antes": "038-Mage06",
+      "despues": "vacas_reserva_actor08"
+    },
+    {
+      "ruta": "Actors[8].battler_name",
+      "antes": "038-Mage06",
+      "despues": "vacas_reserva_actor08"
+    },
+    {
+      "ruta": "System.party_members",
+      "antes": [
+        1,
+        2,
+        7,
+        8
+      ],
+      "despues": [
+        1
+      ]
+    },
+    {
+      "ruta": "Map018.events[5].pages[0].graphic.character_name",
+      "antes": "vacas_muesca",
+      "despues": "vacas_muesca_80"
+    },
+    {
+      "ruta": "Map018.events[6].pages[1].graphic.character_name",
+      "antes": "vacas_muesca",
+      "despues": "vacas_muesca_80"
+    },
+    {
+      "ruta": "Map019.events[4].pages[0].graphic.character_name",
+      "antes": "vacas_junco",
+      "despues": "vacas_junco_80"
+    },
+    {
+      "ruta": "Map019.events[7].pages[1].graphic.character_name",
+      "antes": "vacas_muesca",
+      "despues": "vacas_muesca_80"
+    },
+    {
+      "ruta": "Map020.events[4].pages[0].graphic.character_name",
+      "antes": "vacas_guernsey4",
+      "despues": "vacas_guernsey4_80"
+    },
+    {
+      "ruta": "Map020.events[5].pages[0].graphic.character_name",
+      "antes": "vacas_muesca",
+      "despues": "vacas_muesca_80"
+    },
+    {
+      "ruta": "Map020.events[6].pages[0].graphic.character_name",
+      "antes": "vacas_junco",
+      "despues": "vacas_junco_80"
+    },
+    {
+      "ruta": "Map023.events[5].pages[1].graphic.character_name",
+      "antes": "vacas_muesca",
+      "despues": "vacas_muesca_80"
+    },
+    {
+      "ruta": "Map023.events[5].pages[2].graphic.character_name",
+      "antes": "vacas_junco",
+      "despues": "vacas_junco_80"
+    },
+    {
+      "ruta": "Map026.events[10].pages[1].graphic.character_name",
+      "antes": "vacas_guernsey4",
+      "despues": "vacas_guernsey4_80"
+    },
+    {
+      "ruta": "Map027.events[3].pages[0].graphic.character_name",
+      "antes": "vacas_guernsey4",
+      "despues": "vacas_guernsey4_80"
+    },
+    {
+      "ruta": "Map027.events[3].pages[1].graphic.character_name",
+      "antes": "vacas_guernsey4",
+      "despues": "vacas_guernsey4_80"
+    },
+    {
+      "ruta": "Map027.events[4].pages[0].graphic.character_name",
+      "antes": "vacas_muesca",
+      "despues": "vacas_muesca_80"
+    },
+    {
+      "ruta": "Map027.events[5].pages[1].graphic.character_name",
+      "antes": "vacas_junco",
+      "despues": "vacas_junco_80"
+    },
+    {
+      "ruta": "Map028.events[6].pages[0].graphic.character_name",
+      "antes": "vacas_muesca",
+      "despues": "vacas_muesca_80"
+    },
+    {
+      "ruta": "Map028.events[6].pages[1].graphic.character_name",
+      "antes": "vacas_muesca",
+      "despues": "vacas_muesca_80"
+    },
+    {
+      "ruta": "Map029.events[6].pages[0].graphic.character_name",
+      "antes": "vacas_guernsey4",
+      "despues": "vacas_guernsey4_80"
+    },
+    {
+      "ruta": "Map032.events[7].pages[0].graphic.character_name",
+      "antes": "vacas_guernsey4",
+      "despues": "vacas_guernsey4_80"
+    },
+    {
+      "ruta": "Animations[30].animation_name",
+      "antes": "016-Ice01",
+      "despues": "vacas_rejilla_016-Ice01"
+    },
+    {
+      "ruta": "Animations[31].animation_name",
+      "antes": "016-Ice01",
+      "despues": "vacas_rejilla_016-Ice01"
+    },
+    {
+      "ruta": "Animations[32].animation_name",
+      "antes": "016-Ice01",
+      "despues": "vacas_rejilla_016-Ice01"
+    },
+    {
+      "ruta": "Animations[53].animation_name",
+      "antes": "024-Support01",
+      "despues": "vacas_rejilla_024-Support01"
+    },
+    {
+      "ruta": "Animations[54].animation_name",
+      "antes": "024-Support01",
+      "despues": "vacas_rejilla_024-Support01"
+    },
+    {
+      "ruta": "Animations[55].animation_name",
+      "antes": "024-Support01",
+      "despues": "vacas_rejilla_024-Support01"
+    },
+    {
+      "ruta": "Tilesets[1].tileset_name",
+      "antes": "001-Grassland01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[1].battleback_name",
+      "antes": "001-Grassland01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[1].autotile_names",
+      "antes": [
+        "001-G_Water01",
+        "002-G_Shadow01",
+        "003-G_Ground01",
+        "040-Ground01",
+        "041-Grass01",
+        "007-G_Undulation01",
+        "008-G_Undulation02"
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[2].tileset_name",
+      "antes": "002-Woods01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[2].battleback_name",
+      "antes": "002-Woods01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[2].autotile_names",
+      "antes": [
+        "001-G_Water01",
+        "002-G_Shadow01",
+        "003-G_Ground01",
+        "040-Ground01",
+        "043-Grass02",
+        "036-Tree01",
+        "037-Tree02"
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[3].tileset_name",
+      "antes": "003-Forest01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[3].battleback_name",
+      "antes": "003-Forest01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[3].autotile_names",
+      "antes": [
+        "009-G2_Water01",
+        "010-G2_Ground01",
+        "011-G2_Ground02",
+        "042-Ground02",
+        "038-Tree03",
+        "039-Tree04",
+        ""
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[4].tileset_name",
+      "antes": "004-Mountain01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[4].panorama_name",
+      "antes": "006-Mountains01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[4].battleback_name",
+      "antes": "004-Mountain01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[4].autotile_names",
+      "antes": [
+        "001-G_Water01",
+        "002-G_Shadow01",
+        "040-Ground01",
+        "007-G_Undulation01",
+        "033-Waterfall01",
+        "034-Waterfall02",
+        "035-Waterfall03"
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[5].tileset_name",
+      "antes": "005-Beach01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[5].battleback_name",
+      "antes": "005-Beach01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[5].autotile_names",
+      "antes": [
+        "024-Ocean01",
+        "025-Ocean02",
+        "026-Ocean03",
+        "027-Ocean04",
+        "016-Sa_Shadow01",
+        "017-Sa_Grass01",
+        "045-Road02"
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[6].tileset_name",
+      "antes": "006-Desert01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[6].battleback_name",
+      "antes": "006-Desert01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[6].autotile_names",
+      "antes": [
+        "015-Sa_Water01",
+        "016-Sa_Shadow01",
+        "017-Sa_Grass01",
+        "018-Sa_Ground01",
+        "019-Sa_Grass02",
+        "020-Sa_Grass03",
+        "023-Sa_Undulation01"
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[7].tileset_name",
+      "antes": "007-Swamp01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[7].battleback_name",
+      "antes": "007-Swamp01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[7].autotile_names",
+      "antes": [
+        "010-G2_Ground01",
+        "011-G2_Ground02",
+        "042-Ground02",
+        "038-Tree03",
+        "012-G2_Swamp01",
+        "013-G2_Swamp02",
+        "014-G2_Swamp03"
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[8].tileset_name",
+      "antes": "008-Snowfield01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[8].battleback_name",
+      "antes": "008-Snowfield01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[8].autotile_names",
+      "antes": [
+        "028-Sn_Water01",
+        "029-Sn_Shadow01",
+        "030-Sn_Ground01",
+        "044-Road01",
+        "031-Sn_Undulation01",
+        "",
+        ""
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[9].tileset_name",
+      "antes": "009-CastleTown01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[9].battleback_name",
+      "antes": "009-CastleTown01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[9].autotile_names",
+      "antes": [
+        "048-Water01",
+        "002-G_Shadow01",
+        "003-G_Ground01",
+        "005-G_Road01",
+        "006-G_Road02",
+        "050-Roof02",
+        ""
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[10].tileset_name",
+      "antes": "010-CastleTown02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[10].battleback_name",
+      "antes": "010-CastleTown02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[10].autotile_names",
+      "antes": [
+        "054-Wall02",
+        "051-Carpet01",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[11].tileset_name",
+      "antes": "011-PortTown01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[11].battleback_name",
+      "antes": "011-PortTown01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[11].autotile_names",
+      "antes": [
+        "032-T_Ocean01",
+        "002-G_Shadow01",
+        "004-G_Ground02",
+        "017-Sa_Grass01",
+        "041-Grass01",
+        "005-G_Road01",
+        "050-Roof02"
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[12].tileset_name",
+      "antes": "012-PortTown02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[12].battleback_name",
+      "antes": "012-PortTown02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[12].autotile_names",
+      "antes": [
+        "053-Wall01",
+        "052-Carpet02",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[13].tileset_name",
+      "antes": "013-PostTown01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[13].battleback_name",
+      "antes": "013-PostTown01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[13].autotile_names",
+      "antes": [
+        "001-G_Water01",
+        "002-G_Shadow01",
+        "003-G_Ground01",
+        "006-G_Road02",
+        "040-Ground01",
+        "041-Grass01",
+        "044-Road01"
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[14].tileset_name",
+      "antes": "014-PostTown02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[14].battleback_name",
+      "antes": "014-PostTown02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[14].autotile_names",
+      "antes": [
+        "054-Wall02",
+        "052-Carpet02",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[15].tileset_name",
+      "antes": "015-ForestTown01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[15].battleback_name",
+      "antes": "015-ForestTown01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[15].autotile_names",
+      "antes": [
+        "001-G_Water01",
+        "002-G_Shadow01",
+        "004-G_Ground02",
+        "041-Grass01",
+        "044-Road01",
+        "036-Tree01",
+        "037-Tree02"
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[16].tileset_name",
+      "antes": "016-ForestTown02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[16].battleback_name",
+      "antes": "016-ForestTown02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[16].autotile_names",
+      "antes": [
+        "054-Wall02",
+        "052-Carpet02",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[17].tileset_name",
+      "antes": "017-MineTown01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[17].battleback_name",
+      "antes": "017-MineTown01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[17].autotile_names",
+      "antes": [
+        "048-Water01",
+        "040-Ground01",
+        "044-Road01",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[18].tileset_name",
+      "antes": "018-MineTown02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[18].battleback_name",
+      "antes": "018-MineTown02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[18].autotile_names",
+      "antes": [
+        "053-Wall01",
+        "052-Carpet02",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[19].tileset_name",
+      "antes": "019-DesertTown01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[19].battleback_name",
+      "antes": "019-DesertTown01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[19].autotile_names",
+      "antes": [
+        "015-Sa_Water01",
+        "016-Sa_Shadow01",
+        "018-Sa_Ground01",
+        "019-Sa_Grass02",
+        "020-Sa_Grass03",
+        "021-Sa_Road01",
+        "022-Roof01"
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[20].tileset_name",
+      "antes": "020-DesertTown02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[20].battleback_name",
+      "antes": "020-DesertTown02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[20].autotile_names",
+      "antes": [
+        "055-Wall03",
+        "052-Carpet02",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[21].tileset_name",
+      "antes": "021-SnowTown01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[21].battleback_name",
+      "antes": "021-SnowTown01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[21].autotile_names",
+      "antes": [
+        "028-Sn_Water01",
+        "029-Sn_Shadow01",
+        "030-Sn_Ground01",
+        "044-Road01",
+        "031-Sn_Undulation01",
+        "",
+        ""
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[22].tileset_name",
+      "antes": "022-SnowTown02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[22].battleback_name",
+      "antes": "022-SnowTown02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[22].autotile_names",
+      "antes": [
+        "054-Wall02",
+        "052-Carpet02",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[23].tileset_name",
+      "antes": "023-FarmVillage01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[23].battleback_name",
+      "antes": "023-FarmVillage01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[23].autotile_names",
+      "antes": [
+        "001-G_Water01",
+        "002-G_Shadow01",
+        "003-G_Ground01",
+        "040-Ground01",
+        "041-Grass01",
+        "044-Road01",
+        "007-G_Undulation01"
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[24].tileset_name",
+      "antes": "024-FarmVillage02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[24].battleback_name",
+      "antes": "024-FarmVillage02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[24].autotile_names",
+      "antes": [
+        "048-Water01",
+        "052-Carpet02",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[25].tileset_name",
+      "antes": "025-Castle01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[25].battleback_name",
+      "antes": "025-Castle01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[25].autotile_names",
+      "antes": [
+        "048-Water01",
+        "002-G_Shadow01",
+        "004-G_Ground02",
+        "006-G_Road02",
+        "047-Flower01",
+        "050-Roof02",
+        ""
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[26].tileset_name",
+      "antes": "026-Castle02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[26].battleback_name",
+      "antes": "026-Castle02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[26].autotile_names",
+      "antes": [
+        "053-Wall01",
+        "048-Water01",
+        "049-St_Shadow01",
+        "051-Carpet01",
+        "052-Carpet02",
+        "",
+        ""
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[27].tileset_name",
+      "antes": "027-Castle03",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[27].battleback_name",
+      "antes": "027-Castle03",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[27].autotile_names",
+      "antes": [
+        "053-Wall01",
+        "048-Water01",
+        "049-St_Shadow01",
+        "051-Carpet01",
+        "052-Carpet02",
+        "",
+        ""
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[28].tileset_name",
+      "antes": "028-Church01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[28].battleback_name",
+      "antes": "028-Church01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[28].autotile_names",
+      "antes": [
+        "048-Water01",
+        "002-G_Shadow01",
+        "004-G_Ground02",
+        "005-G_Road01",
+        "006-G_Road02",
+        "047-Flower01",
+        "050-Roof02"
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[29].tileset_name",
+      "antes": "029-Church02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[29].battleback_name",
+      "antes": "029-Church02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[29].autotile_names",
+      "antes": [
+        "048-Water01",
+        "051-Carpet01",
+        "052-Carpet02",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[30].tileset_name",
+      "antes": "030-Ship01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[30].battleback_name",
+      "antes": "030-Ship01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[30].autotile_names",
+      "antes": [
+        "050-Roof02",
+        "032-T_Ocean01",
+        "046-Road03",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[31].tileset_name",
+      "antes": "031-Ship02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[31].battleback_name",
+      "antes": "031-Ship02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[31].autotile_names",
+      "antes": [
+        "051-Carpet01",
+        "052-Carpet02",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[32].tileset_name",
+      "antes": "032-Heaven01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[32].panorama_name",
+      "antes": "001-Sky01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[32].battleback_name",
+      "antes": "032-Heaven01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[32].autotile_names",
+      "antes": [
+        "001-G_Water01",
+        "002-G_Shadow01",
+        "003-G_Ground01",
+        "040-Ground01",
+        "041-Grass01",
+        "047-Flower01",
+        "045-Road02"
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[33].tileset_name",
+      "antes": "033-Heaven02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[33].panorama_name",
+      "antes": "001-Sky01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[33].battleback_name",
+      "antes": "033-Heaven02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[33].autotile_names",
+      "antes": [
+        "053-Wall01",
+        "048-Water01",
+        "049-St_Shadow01",
+        "051-Carpet01",
+        "052-Carpet02",
+        "",
+        ""
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[34].tileset_name",
+      "antes": "034-Bridge01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[34].panorama_name",
+      "antes": "006-Mountains01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[34].battleback_name",
+      "antes": "034-Bridge01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[34].autotile_names",
+      "antes": [
+        "001-G_Water01",
+        "002-G_Shadow01",
+        "003-G_Ground01",
+        "006-G_Road02",
+        "040-Ground01",
+        "041-Grass01",
+        "050-Roof02"
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[35].tileset_name",
+      "antes": "035-Ruins01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[35].battleback_name",
+      "antes": "035-Ruins01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[35].autotile_names",
+      "antes": [
+        "001-G_Water01",
+        "002-G_Shadow01",
+        "003-G_Ground01",
+        "005-G_Road01",
+        "050-Roof02",
+        "043-Grass02",
+        "038-Tree03"
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[36].tileset_name",
+      "antes": "036-Shop01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[36].battleback_name",
+      "antes": "036-Shop01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[36].autotile_names",
+      "antes": [
+        "053-Wall01",
+        "054-Wall02",
+        "055-Wall03",
+        "048-Water01",
+        "049-St_Shadow01",
+        "052-Carpet02",
+        ""
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[37].tileset_name",
+      "antes": "037-Fort01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[37].battleback_name",
+      "antes": "037-Fort01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[37].autotile_names",
+      "antes": [
+        "001-G_Water01",
+        "002-G_Shadow01",
+        "003-G_Ground01",
+        "040-Ground01",
+        "041-Grass01",
+        "044-Road01",
+        "008-G_Undulation02"
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[38].tileset_name",
+      "antes": "038-Fort02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[38].battleback_name",
+      "antes": "038-Fort02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[38].autotile_names",
+      "antes": [
+        "048-Water01",
+        "051-Carpet01",
+        "052-Carpet02",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[39].tileset_name",
+      "antes": "039-Tower01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[39].battleback_name",
+      "antes": "039-Tower01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[39].autotile_names",
+      "antes": [
+        "001-G_Water01",
+        "002-G_Shadow01",
+        "003-G_Ground01",
+        "040-Ground01",
+        "043-Grass02",
+        "044-Road01",
+        "050-Roof02"
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[40].tileset_name",
+      "antes": "040-Tower02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[40].battleback_name",
+      "antes": "040-Tower02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[40].autotile_names",
+      "antes": [
+        "053-Wall01",
+        "048-Water01",
+        "049-St_Shadow01",
+        "052-Carpet02",
+        "",
+        "",
+        ""
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[41].tileset_name",
+      "antes": "041-EvilCastle01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[41].battleback_name",
+      "antes": "041-EvilCastle01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[42].tileset_name",
+      "antes": "042-EvilCastle02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[42].battleback_name",
+      "antes": "042-EvilCastle02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[42].autotile_names",
+      "antes": [
+        "048-Water01",
+        "051-Carpet01",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[43].tileset_name",
+      "antes": "043-Cave01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[43].battleback_name",
+      "antes": "043-Cave01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[43].autotile_names",
+      "antes": [
+        "056-CE_Water01",
+        "057-CE_Shadow01",
+        "058-CE_Ground01",
+        "059-CE_Ground02",
+        "060-CE_Grass01",
+        "061-CE_Road01",
+        ""
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[44].tileset_name",
+      "antes": "044-Cave02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[44].battleback_name",
+      "antes": "044-Cave02",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[44].autotile_names",
+      "antes": [
+        "062-CF_Lava01",
+        "063-CF_Shadow01",
+        "064-CF_Ground01",
+        "065-CF_Ground02",
+        "066-CF_Ground03",
+        "067-CF_Ground04",
+        ""
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[45].tileset_name",
+      "antes": "045-Cave03",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[45].battleback_name",
+      "antes": "045-Cave03",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[45].autotile_names",
+      "antes": [
+        "068-CI_Water01",
+        "069-CI_Shadow01",
+        "070-CI_Snow01",
+        "071-CI_Ground01",
+        "072-CI_Ice01",
+        "073-CI_Ground02",
+        ""
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[46].tileset_name",
+      "antes": "046-Cave04",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[46].battleback_name",
+      "antes": "046-Cave04",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[46].autotile_names",
+      "antes": [
+        "074-CW_Water01",
+        "075-CW_Shadow01",
+        "076-CW_Grass01",
+        "077-CW_Grass02",
+        "078-CW_Ground01",
+        "079-CW_Grass03",
+        ""
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[47].tileset_name",
+      "antes": "047-Mine01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[47].battleback_name",
+      "antes": "047-Mine01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[48].tileset_name",
+      "antes": "048-Sewer01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[48].battleback_name",
+      "antes": "048-Sewer01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[48].autotile_names",
+      "antes": [
+        "053-Wall01",
+        "048-Water01",
+        "049-St_Shadow01",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[49].tileset_name",
+      "antes": "049-InnerBody01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[49].battleback_name",
+      "antes": "049-InnerBody01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[49].autotile_names",
+      "antes": [
+        "080-B_Ground01",
+        "081-B_Ground02",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "despues": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "ruta": "Tilesets[50].tileset_name",
+      "antes": "050-DarkSpace01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[50].panorama_name",
+      "antes": "003-StarlitSky01",
+      "despues": ""
+    },
+    {
+      "ruta": "Tilesets[50].battleback_name",
+      "antes": "050-DarkSpace01",
+      "despues": ""
+    },
+    {
+      "ruta": "Enemies[22].battler_name",
+      "antes": "073-Bird03",
+      "despues": ""
+    },
+    {
+      "ruta": "Enemies[23].battler_name",
+      "antes": "077-Devil03",
+      "despues": ""
+    },
+    {
+      "ruta": "Enemies[24].battler_name",
+      "antes": "081-Angel03",
+      "despues": ""
+    },
+    {
+      "ruta": "Enemies[25].battler_name",
+      "antes": "054-Undead04",
+      "despues": ""
+    },
+    {
+      "ruta": "Enemies[26].battler_name",
+      "antes": "058-Snake04",
+      "despues": ""
+    },
+    {
+      "ruta": "Enemies[27].battler_name",
+      "antes": "062-Aquatic04",
+      "despues": ""
+    },
+    {
+      "ruta": "Enemies[28].battler_name",
+      "antes": "066-Beast04",
+      "despues": ""
+    },
+    {
+      "ruta": "Enemies[29].battler_name",
+      "antes": "070-Goblin04",
+      "despues": ""
+    },
+    {
+      "ruta": "Enemies[30].battler_name",
+      "antes": "074-Bird04",
+      "despues": ""
+    },
+    {
+      "ruta": "Enemies[31].battler_name",
+      "antes": "078-Devil04",
+      "despues": ""
+    },
+    {
+      "ruta": "Enemies[32].battler_name",
+      "antes": "082-Angel04",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[1].icon_name",
+      "antes": "001-Weapon01",
+      "despues": "vacas_tubo_oxidado"
+    },
+    {
+      "ruta": "Weapons[2].icon_name",
+      "antes": "001-Weapon01",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[3].icon_name",
+      "antes": "001-Weapon01",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[4].icon_name",
+      "antes": "001-Weapon01",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[5].icon_name",
+      "antes": "002-Weapon02",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[6].icon_name",
+      "antes": "002-Weapon02",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[7].icon_name",
+      "antes": "002-Weapon02",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[8].icon_name",
+      "antes": "002-Weapon02",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[9].icon_name",
+      "antes": "003-Weapon03",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[10].icon_name",
+      "antes": "003-Weapon03",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[11].icon_name",
+      "antes": "003-Weapon03",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[12].icon_name",
+      "antes": "003-Weapon03",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[13].icon_name",
+      "antes": "004-Weapon04",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[14].icon_name",
+      "antes": "004-Weapon04",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[15].icon_name",
+      "antes": "004-Weapon04",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[16].icon_name",
+      "antes": "004-Weapon04",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[17].icon_name",
+      "antes": "005-Weapon05",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[18].icon_name",
+      "antes": "005-Weapon05",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[19].icon_name",
+      "antes": "005-Weapon05",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[20].icon_name",
+      "antes": "005-Weapon05",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[21].icon_name",
+      "antes": "006-Weapon06",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[22].icon_name",
+      "antes": "006-Weapon06",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[23].icon_name",
+      "antes": "006-Weapon06",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[24].icon_name",
+      "antes": "006-Weapon06",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[25].icon_name",
+      "antes": "007-Weapon07",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[26].icon_name",
+      "antes": "007-Weapon07",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[27].icon_name",
+      "antes": "007-Weapon07",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[28].icon_name",
+      "antes": "007-Weapon07",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[29].icon_name",
+      "antes": "008-Weapon08",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[30].icon_name",
+      "antes": "008-Weapon08",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[31].icon_name",
+      "antes": "008-Weapon08",
+      "despues": ""
+    },
+    {
+      "ruta": "Weapons[32].icon_name",
+      "antes": "008-Weapon08",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[1].icon_name",
+      "antes": "009-Shield01",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[2].icon_name",
+      "antes": "009-Shield01",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[3].icon_name",
+      "antes": "009-Shield01",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[4].icon_name",
+      "antes": "009-Shield01",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[5].icon_name",
+      "antes": "010-Head01",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[6].icon_name",
+      "antes": "010-Head01",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[7].icon_name",
+      "antes": "010-Head01",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[8].icon_name",
+      "antes": "010-Head01",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[9].icon_name",
+      "antes": "011-Head02",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[10].icon_name",
+      "antes": "011-Head02",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[11].icon_name",
+      "antes": "011-Head02",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[12].icon_name",
+      "antes": "011-Head02",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[13].icon_name",
+      "antes": "013-Body01",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[14].icon_name",
+      "antes": "013-Body01",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[15].icon_name",
+      "antes": "013-Body01",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[16].icon_name",
+      "antes": "013-Body01",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[17].icon_name",
+      "antes": "014-Body02",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[18].icon_name",
+      "antes": "014-Body02",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[19].icon_name",
+      "antes": "014-Body02",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[20].icon_name",
+      "antes": "014-Body02",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[21].icon_name",
+      "antes": "015-Body03",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[22].icon_name",
+      "antes": "015-Body03",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[23].icon_name",
+      "antes": "015-Body03",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[24].icon_name",
+      "antes": "015-Body03",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[25].icon_name",
+      "antes": "016-Accessory01",
+      "despues": "vacas_ropa_trabajo"
+    },
+    {
+      "ruta": "Armors[26].icon_name",
+      "antes": "016-Accessory01",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[27].icon_name",
+      "antes": "016-Accessory01",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[28].icon_name",
+      "antes": "016-Accessory01",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[29].icon_name",
+      "antes": "016-Accessory01",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[30].icon_name",
+      "antes": "016-Accessory01",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[31].icon_name",
+      "antes": "016-Accessory01",
+      "despues": ""
+    },
+    {
+      "ruta": "Armors[32].icon_name",
+      "antes": "016-Accessory01",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[1].icon_name",
+      "antes": "045-Skill02",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[2].icon_name",
+      "antes": "045-Skill02",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[3].icon_name",
+      "antes": "045-Skill02",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[4].icon_name",
+      "antes": "045-Skill02",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[5].icon_name",
+      "antes": "045-Skill02",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[6].icon_name",
+      "antes": "045-Skill02",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[7].icon_name",
+      "antes": "044-Skill01",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[8].icon_name",
+      "antes": "044-Skill01",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[9].icon_name",
+      "antes": "044-Skill01",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[10].icon_name",
+      "antes": "044-Skill01",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[11].icon_name",
+      "antes": "044-Skill01",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[12].icon_name",
+      "antes": "044-Skill01",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[13].icon_name",
+      "antes": "044-Skill01",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[14].icon_name",
+      "antes": "044-Skill01",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[15].icon_name",
+      "antes": "044-Skill01",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[16].icon_name",
+      "antes": "044-Skill01",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[17].icon_name",
+      "antes": "044-Skill01",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[18].icon_name",
+      "antes": "044-Skill01",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[19].icon_name",
+      "antes": "044-Skill01",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[20].icon_name",
+      "antes": "044-Skill01",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[21].icon_name",
+      "antes": "044-Skill01",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[22].icon_name",
+      "antes": "044-Skill01",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[23].icon_name",
+      "antes": "044-Skill01",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[24].icon_name",
+      "antes": "044-Skill01",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[25].icon_name",
+      "antes": "044-Skill01",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[26].icon_name",
+      "antes": "044-Skill01",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[27].icon_name",
+      "antes": "044-Skill01",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[28].icon_name",
+      "antes": "044-Skill01",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[29].icon_name",
+      "antes": "044-Skill01",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[30].icon_name",
+      "antes": "044-Skill01",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[31].icon_name",
+      "antes": "044-Skill01",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[32].icon_name",
+      "antes": "044-Skill01",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[33].icon_name",
+      "antes": "046-Skill03",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[34].icon_name",
+      "antes": "046-Skill03",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[35].icon_name",
+      "antes": "046-Skill03",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[36].icon_name",
+      "antes": "046-Skill03",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[37].icon_name",
+      "antes": "046-Skill03",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[38].icon_name",
+      "antes": "046-Skill03",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[39].icon_name",
+      "antes": "046-Skill03",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[40].icon_name",
+      "antes": "046-Skill03",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[41].icon_name",
+      "antes": "046-Skill03",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[42].icon_name",
+      "antes": "046-Skill03",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[43].icon_name",
+      "antes": "046-Skill03",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[44].icon_name",
+      "antes": "046-Skill03",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[45].icon_name",
+      "antes": "047-Skill04",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[46].icon_name",
+      "antes": "047-Skill04",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[47].icon_name",
+      "antes": "047-Skill04",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[48].icon_name",
+      "antes": "047-Skill04",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[49].icon_name",
+      "antes": "047-Skill04",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[50].icon_name",
+      "antes": "047-Skill04",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[51].icon_name",
+      "antes": "047-Skill04",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[52].icon_name",
+      "antes": "047-Skill04",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[53].icon_name",
+      "antes": "048-Skill05",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[54].icon_name",
+      "antes": "048-Skill05",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[55].icon_name",
+      "antes": "048-Skill05",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[56].icon_name",
+      "antes": "048-Skill05",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[57].icon_name",
+      "antes": "050-Skill07",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[58].icon_name",
+      "antes": "050-Skill07",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[59].icon_name",
+      "antes": "050-Skill07",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[60].icon_name",
+      "antes": "050-Skill07",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[71].icon_name",
+      "antes": "050-Skill07",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[72].icon_name",
+      "antes": "050-Skill07",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[73].icon_name",
+      "antes": "050-Skill07",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[74].icon_name",
+      "antes": "050-Skill07",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[75].icon_name",
+      "antes": "050-Skill07",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[76].icon_name",
+      "antes": "050-Skill07",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[77].icon_name",
+      "antes": "050-Skill07",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[78].icon_name",
+      "antes": "050-Skill07",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[79].icon_name",
+      "antes": "050-Skill07",
+      "despues": ""
+    },
+    {
+      "ruta": "Skills[80].icon_name",
+      "antes": "050-Skill07",
+      "despues": ""
+    }
+  ],
+  "mapas": [
+    "Map018",
+    "Map019",
+    "Map020",
+    "Map023",
+    "Map026",
+    "Map027",
+    "Map028",
+    "Map029",
+    "Map032"
+  ],
+  "respaldo": "diseno/respaldos/antes_cambios_data_arte",
+  "mapas_solo_nombre_grafico": true,
+  "hashes_respaldo": {
+    "Actors.rxdata": "754bc6e9fe94767bd9cae16bcc995bf0b4eb47d0681bb4846bdd8af5c4900913",
+    "Animations.rxdata": "e9a0a9b2c3a2a794e91a52db20200be2a489e46671bf0ee1e29cca79c1d798a5",
+    "Armors.rxdata": "6394f8686fca943ccf563de5a66ba0643b5aab59cf4486f991a00d00cbd1cbdd",
+    "Classes.rxdata": "2eaaa685f5ab5a9cebe098e113ed423e593dbd0569211da785e55b7b4a0e5a9f",
+    "CommonEvents.rxdata": "fc06ebb59a3c0cb7a10e26ee1cb60e3b03060671d90c4fcd39cbc85fa763b334",
+    "Enemies.rxdata": "3c98affa2f1dd32d9d3761be44e432a2b2d258388d679e269a8d25823be014d6",
+    "Items.rxdata": "f0a17f49c014d6a2994f9f332c01a8fe97d562f316928a33d3cd113d08701ff0",
+    "Map001.rxdata": "e3f53c57b761b955743ed77c18ac6534649015d9c490c08777b2890c15c8d7e7",
+    "Map002.rxdata": "8c34e300915073cf3261f67e988a2a90043670dc87cecf8284b2c31a13142174",
+    "Map003.rxdata": "84c553c86f6799981d23c8d92f2a85d7497c6fbd281f384642edf1a58e17234a",
+    "Map004.rxdata": "7784f266004d7026a8a56fa8b7508a9eb26f68e75d9f579dfd09586c07692cf8",
+    "Map005.rxdata": "e8928807e47f801638f3bee20a79ead74aa76b6ef0fd73c5857109a5b7b89649",
+    "Map006.rxdata": "3844ef7e24cddfda6ab9b0bd6e014fe745438467a7cac9d6e6b332db0841b868",
+    "Map007.rxdata": "019454194c797cee876dc6c6138aaf744aa07052a73acabe13dbc474eb435afa",
+    "Map008.rxdata": "de4e7e3b87cd7c4fd599989c60db992aaa41658fabba1131fcbf3d8d912440c8",
+    "Map009.rxdata": "c87c2a525b23572f15a2c6da542239a6a8b021e2a66e674fa04a9c74e783f51c",
+    "Map010.rxdata": "b77a51aeac8692f76f8e90466964056d2037ac023b7f80d46f10153a2f80ff11",
+    "Map011.rxdata": "c5618d67a8106db59f43e2f0cc179c4704ad0e011865c5a2f56de473c8071bdc",
+    "Map012.rxdata": "a99e25b74e1da0c910e6600a9c52045db719955cdfdad34cfa626a5341e87a1b",
+    "Map013.rxdata": "8b98d43b684590b68ee3dca79d12e0ad394e898d3eff47557e06933e222e3608",
+    "Map014.rxdata": "d1bf959059d021634bf335041f7aa30b63e4ab93e420dd4ba9bccb7cdd1753e2",
+    "Map015.rxdata": "37e7dc3989b53243363b0c58fae6df3a134c16bf952ca171044181b312e771aa",
+    "Map016.rxdata": "8a26b3a671f5f796a20b6c1a406ad82f09050bff0d1da68d75efa74bd92bae00",
+    "Map017.rxdata": "0ac7aa945f2f57b26db5807f1a66438ba2f5b85ae89fbd29e1d68f7f2b9d76d8",
+    "Map018.rxdata": "96b3261afb0c692f28e1c13821f1f33160fcf7a0fcef75721c747a39c7d77e35",
+    "Map019.rxdata": "6a8400d214caf05f2ccd18636109b53de7a96feb361b8250f5d523d84d36114c",
+    "Map020.rxdata": "c37e57fecc43913569c98630db8b42085ed0b8c2e69f627b6479d518b3ac9333",
+    "Map021.rxdata": "bb2350d7eea823158ca5e0ebdc4002c4c4174bda5a897f5a481d3d2d8bf9e719",
+    "Map022.rxdata": "1ff0b423fbc92a25ec781439ecb207fd0cf49d3c81fd16508f75e2d41cec70ee",
+    "Map023.rxdata": "1f1b5e0b3d4b9c8c9dc5b7759ab3ac77458d764349fb7f483a1a4ba434b3fed8",
+    "Map024.rxdata": "482f1f1a2d9990759a761ba2c632fcf037b349571ebe1f83deea4c8a72b279b7",
+    "Map025.rxdata": "17106d520a3cb88df065e64238083e157371e06f0fa994b8dec63e6134c1e133",
+    "Map026.rxdata": "740570d5b401820060951ef38c0a6b482581a8653b3105306bf303447e571868",
+    "Map027.rxdata": "6c65467f6e13ca5c46d9f4440e60e87ef2edc80552ea438fb5e20c3f064f2883",
+    "Map028.rxdata": "7f14a60dc3c48a866c38ba5235e9223c0cc50d6d94c67254de53c7ee862658fd",
+    "Map029.rxdata": "27e8a76f898ea2a5224e022f0d5d1f0d5749f6b13e60eb345ad462f3be913f5e",
+    "Map030.rxdata": "c6354ec8c389138d0def674c9521328e856bc1d47fff0114fbc01c5fd60bf24e",
+    "Map031.rxdata": "dde9becdfe69683154270eccfa03127533351430b13dd6cf4a6fb0e2fbdf32fd",
+    "Map032.rxdata": "e2e9df688013aa17001481434d58626845b1de74c8841407f72deafd91387a33",
+    "MapInfos.rxdata": "8a9219ceea921f52dc2aa632faecb9c0f0754062e63bead54380f98ea89648b1",
+    "Scripts.rxdata": "a38ded9d91d3fd5cdc18d16b49188b2f57a6eb10c38418cc6332821c92c9cd62",
+    "Skills.rxdata": "3e47d4321395ef427a32e43d8d386a6f009090a341d7628f3b959690b7a6b810",
+    "States.rxdata": "5c2ea7f846def1638c98942f2f06da3e5a32657e320f2b7fe70d2966447090bd",
+    "System.rxdata": "fc04feadce13f202954d069ccad03177f70b21afa60c71b26db14384fe7b564f",
+    "Tilesets.rxdata": "eb6b494d7d1bd5d9979ac4ffb753b90b85d64a0856138ea9620b4c2245177ec9",
+    "Troops.rxdata": "e294d666d2fa94c74f0430b202b334391b8c0660e5513b4e0f4f997c0fe84be0",
+    "Weapons.rxdata": "a068347af76e2a0ded86c7d7a3251167a31ea41f247b9c76892668332079fc15"
+  }
+}

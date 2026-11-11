@@ -27,6 +27,14 @@
     "laboratorio": {
       "archivo": "diseno/fuentes/coherencia_arte/laboratorio.png",
       "sha256": "ddf88d4f99130791c6d3c23d516b81ff149034adce5198371236772e1eb8bedb"
+    },
+    "data_tubo_oxidado": {
+      "archivo": "diseno/fuentes/coherencia_arte/data_tubo_oxidado.png",
+      "sha256": "5b90877671e8bb6805ef56c07f8cfdded9f05593283b2524c965d6e11c14cfcb"
+    },
+    "data_ropa_trabajo": {
+      "archivo": "diseno/fuentes/coherencia_arte/data_ropa_trabajo.png",
+      "sha256": "ef366bdb0e83081313c881b457a1d49dbed92675819c4b06062162f50ac9fcc3"
     }
   },
   "cambios": [
@@ -629,6 +637,26 @@
       ],
       "original_sha256": "318d1594aab825af3552548164caaafa4bbdce75daad532a7d526357dabee097",
       "sha256": "6152a4ad190eadc6594386d1769b1e8ee7c72a0ad758993e5fbaaa5abb5dad99"
+    },
+    {
+      "archivo": "Graphics/Icons/vacas_tubo_oxidado.png",
+      "sha256": "86c5f7cffc23255b0050e1ad481e1c61e538c8e2415fedfb61599b7adeca41ee",
+      "tamano": [
+        24,
+        24
+      ],
+      "original_sha256": null,
+      "motivo": "Icono propio image_gen para equipo de Steven; NEAREST, 16 colores, alpha binario"
+    },
+    {
+      "archivo": "Graphics/Icons/vacas_ropa_trabajo.png",
+      "sha256": "2d7406238b93ade45fba971ad916ccf3c95283fd16d5c6fa652082b7096544df",
+      "tamano": [
+        24,
+        24
+      ],
+      "original_sha256": null,
+      "motivo": "Icono propio image_gen para equipo de Steven; NEAREST, 16 colores, alpha binario"
     }
   ]
 }

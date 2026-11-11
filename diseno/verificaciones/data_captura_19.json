@@ -1,0 +1,101 @@
+﻿{
+  "path": "D:\\descargas\\Proyectos personales\\Vacas\\diseno\\capturas\\arte\\data_aplicado_19.png",
+  "pixel_w": 640,
+  "pixel_h": 480,
+  "map": {
+    "id": 19,
+    "width": 20,
+    "height": 15,
+    "layers": 3
+  },
+  "tileset": {
+    "id": 68,
+    "name": "acto4_alcantarillas"
+  },
+  "rendered_layers": [
+    0,
+    1,
+    2
+  ],
+  "region": {
+    "x": 0,
+    "y": 0,
+    "w": 20,
+    "h": 15
+  },
+  "events": [
+    {
+      "id": 1,
+      "name": "Respiracion bajo la ciudad",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": 2,
+      "name": "Volver a los tuneles",
+      "x": 3,
+      "y": 12
+    },
+    {
+      "id": 3,
+      "name": "Compuerta a la camara",
+      "x": 17,
+      "y": 5
+    },
+    {
+      "id": 4,
+      "name": "Junco atrapada",
+      "x": 7,
+      "y": 9
+    },
+    {
+      "id": 5,
+      "name": "Valvula retorno",
+      "x": 5,
+      "y": 5
+    },
+    {
+      "id": 6,
+      "name": "Valvula descarga",
+      "x": 13,
+      "y": 5
+    },
+    {
+      "id": 7,
+      "name": "Acechador 19",
+      "x": 10,
+      "y": 11
+    },
+    {
+      "id": 8,
+      "name": "Reloj de caza",
+      "x": 0,
+      "y": 1
+    },
+    {
+      "id": 9,
+      "name": "Captura pendiente",
+      "x": 0,
+      "y": 2
+    },
+    {
+      "id": 10,
+      "name": "Armario de bombas",
+      "x": 15,
+      "y": 9
+    },
+    {
+      "id": 11,
+      "name": "El Pulmon de cieno",
+      "x": 15,
+      "y": 7
+    },
+    {
+      "id": 12,
+      "name": "Pila de emergencia",
+      "x": 11,
+      "y": 10
+    }
+  ],
+  "notes": []
+}

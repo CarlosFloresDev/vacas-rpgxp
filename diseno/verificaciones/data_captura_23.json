@@ -1,0 +1,197 @@
+﻿{
+  "path": "D:\\descargas\\Proyectos personales\\Vacas\\diseno\\capturas\\arte\\data_aplicado_23.png",
+  "pixel_w": 640,
+  "pixel_h": 480,
+  "map": {
+    "id": 23,
+    "width": 20,
+    "height": 15,
+    "layers": 3
+  },
+  "tileset": {
+    "id": 69,
+    "name": "acto5_matanza"
+  },
+  "rendered_layers": [
+    0,
+    1,
+    2
+  ],
+  "region": {
+    "x": 0,
+    "y": 0,
+    "w": 20,
+    "h": 15
+  },
+  "events": [
+    {
+      "id": 1,
+      "name": "Noche de matanza",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": 2,
+      "name": "Primera vez",
+      "x": 1,
+      "y": 0
+    },
+    {
+      "id": 3,
+      "name": "Descubierto",
+      "x": 0,
+      "y": 2
+    },
+    {
+      "id": 4,
+      "name": "Vigia A5",
+      "x": 2,
+      "y": 8
+    },
+    {
+      "id": 5,
+      "name": "Aliada en el pasillo",
+      "x": 6,
+      "y": 11
+    },
+    {
+      "id": 6,
+      "name": "Rejilla del corral",
+      "x": 6,
+      "y": 2
+    },
+    {
+      "id": 7,
+      "name": "Tablero de recuento",
+      "x": 12,
+      "y": 2
+    },
+    {
+      "id": 8,
+      "name": "Cadena del corral 1",
+      "x": 3,
+      "y": 6
+    },
+    {
+      "id": 9,
+      "name": "Cadena del corral 2",
+      "x": 9,
+      "y": 6
+    },
+    {
+      "id": 10,
+      "name": "Cadena del corral 3",
+      "x": 15,
+      "y": 6
+    },
+    {
+      "id": 11,
+      "name": "Cadena del corral 4",
+      "x": 3,
+      "y": 9
+    },
+    {
+      "id": 12,
+      "name": "Cadena del corral 5",
+      "x": 9,
+      "y": 9
+    },
+    {
+      "id": 13,
+      "name": "Sirena de corrales",
+      "x": 16,
+      "y": 10
+    },
+    {
+      "id": 14,
+      "name": "Orden de matanza",
+      "x": 18,
+      "y": 10
+    },
+    {
+      "id": 15,
+      "name": "Res en espera",
+      "x": 2,
+      "y": 3
+    },
+    {
+      "id": 16,
+      "name": "Res en espera",
+      "x": 4,
+      "y": 5
+    },
+    {
+      "id": 17,
+      "name": "Res en espera",
+      "x": 9,
+      "y": 3
+    },
+    {
+      "id": 18,
+      "name": "Res en espera",
+      "x": 8,
+      "y": 5
+    },
+    {
+      "id": 19,
+      "name": "Res en espera",
+      "x": 10,
+      "y": 4
+    },
+    {
+      "id": 20,
+      "name": "Res en espera",
+      "x": 15,
+      "y": 4
+    },
+    {
+      "id": 21,
+      "name": "Res en espera",
+      "x": 16,
+      "y": 5
+    },
+    {
+      "id": 22,
+      "name": "Res en espera",
+      "x": 3,
+      "y": 10
+    },
+    {
+      "id": 23,
+      "name": "Res en espera",
+      "x": 2,
+      "y": 12
+    },
+    {
+      "id": 24,
+      "name": "Res en espera",
+      "x": 9,
+      "y": 11
+    },
+    {
+      "id": 25,
+      "name": "Res en espera",
+      "x": 10,
+      "y": 12
+    },
+    {
+      "id": 26,
+      "name": "Sacos de pienso",
+      "x": 18,
+      "y": 4
+    },
+    {
+      "id": 27,
+      "name": "Manga a la nave",
+      "x": 19,
+      "y": 7
+    },
+    {
+      "id": 28,
+      "name": "Vuelta al muelle",
+      "x": 12,
+      "y": 14
+    }
+  ],
+  "notes": []
+}

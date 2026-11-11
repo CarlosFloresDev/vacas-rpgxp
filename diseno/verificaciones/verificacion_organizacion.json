@@ -2,10 +2,26 @@
   "integridad": {
     "archivos": 475,
     "diferencias_historicas": [
+      "Data/Actors.rxdata",
+      "Data/Animations.rxdata",
+      "Data/Armors.rxdata",
+      "Data/Enemies.rxdata",
       "Data/Map002.rxdata",
       "Data/Map007.rxdata",
+      "Data/Map018.rxdata",
+      "Data/Map019.rxdata",
+      "Data/Map020.rxdata",
+      "Data/Map023.rxdata",
+      "Data/Map026.rxdata",
+      "Data/Map027.rxdata",
+      "Data/Map028.rxdata",
+      "Data/Map029.rxdata",
+      "Data/Map032.rxdata",
       "Data/Scripts.rxdata",
+      "Data/Skills.rxdata",
+      "Data/System.rxdata",
       "Data/Tilesets.rxdata",
+      "Data/Weapons.rxdata",
       "Graphics/Autotiles/048-Water01.png",
       "Graphics/Autotiles/vacas_canal.png",
       "Graphics/Characters/vacas_alcantarilla.png",
@@ -104,7 +120,7 @@
   },
   "marshal_ruby": {
     "codigo": 0,
-    "salida": "{\n  \"files\": 378,\n  \"errors\": [\n\n  ]\n}"
+    "salida": "{\n  \"files\": 425,\n  \"errors\": [\n\n  ]\n}"
   },
   "fuentes_vs_instalado": {
     "codigo": 0,
@@ -181,8 +197,8 @@
     }
   ],
   "enlaces": {
-    "documentos": 28,
-    "enlaces": 161,
+    "documentos": 29,
+    "enlaces": 178,
     "errores": [],
     "excluidos": "Respaldos y archivo: documentos históricos, conservados tal cual."
   },
@@ -194,7 +210,7 @@
   },
   "assets": {
     "codigo": 0,
-    "salida": "{\n  \"ok\": true,\n  \"checked\": 1051,\n  \"missing_count\": 0,\n  \"rtp\": \"D:/SteamLibrary/steamapps/common/RPGXP/rtp\",\n  \"missing\": []\n}"
+    "salida": "{\n  \"ok\": true,\n  \"checked\": 570,\n  \"missing_count\": 0,\n  \"rtp\": \"D:/SteamLibrary/steamapps/common/RPGXP/rtp\",\n  \"missing\": []\n}"
   },
   "dependencias_diseno_motor": [],
   "errores": []

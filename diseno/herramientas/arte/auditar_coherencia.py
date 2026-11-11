@@ -130,9 +130,14 @@ def main():
     parser=argparse.ArgumentParser();parser.add_argument('--inicial',action='store_true');args=parser.parse_args()
     refs=references();files=[measure(p,refs) for p in sorted((ROOT/'Graphics').rglob('*.png'))]
     report=dict(alcance='Todos los PNG locales; Marshal actual en solo lectura. Referencias dinámicas pueden requerir revisión en motor.',reglas=dict(humano_altura=[34,48],bovino_maximo=[68,52],bovino_longitud_lateral_minima=54,saturacion_pixelart_max=.55,alpha_pixelart_max=.01),total=len(files),con_avisos=sum(bool(x['avisos']) for x in files),archivos=files)
+    # Conservar el catálogo completo y sus avisos; separar la deuda de archivos
+    # de las referencias aún presentes tras integrar Data. No implica alcance
+    # narrativo: una referencia de BD puede seguir siendo una reserva.
+    report['con_avisos_y_referencias']=sum(bool(x['avisos'] and x['usos']) for x in files)
+    report['con_avisos_en_mapas']=sum(bool(x['avisos']) and any(u['mapa'] is not None for u in x['usos']) for x in files)
     dest=OUT/('auditoria_coherencia_arte_antes.json' if args.inicial else 'auditoria_coherencia_arte.json')
     if args.inicial and dest.exists(): raise SystemExit('Ya existe auditoría inicial; no se sobrescribe.')
     dump(dest,report)
-    print(json.dumps({'total':report['total'],'con_avisos':report['con_avisos'],'avisos':dict(collections.Counter(w for f in files for w in f['avisos']))},ensure_ascii=False))
+    print(json.dumps({'total':report['total'],'con_avisos':report['con_avisos'],'con_avisos_y_referencias':report['con_avisos_y_referencias'],'con_avisos_en_mapas':report['con_avisos_en_mapas'],'avisos':dict(collections.Counter(w for f in files for w in f['avisos']))},ensure_ascii=False))
 
 if __name__=='__main__':main()

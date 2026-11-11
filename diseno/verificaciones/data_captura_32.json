@@ -1,0 +1,77 @@
+﻿{
+  "path": "D:\\descargas\\Proyectos personales\\Vacas\\diseno\\capturas\\arte\\data_aplicado_32.png",
+  "pixel_w": 640,
+  "pixel_h": 480,
+  "map": {
+    "id": 32,
+    "width": 20,
+    "height": 15,
+    "layers": 3
+  },
+  "tileset": {
+    "id": 70,
+    "name": "acto6_reydios"
+  },
+  "rendered_layers": [
+    0,
+    1,
+    2
+  ],
+  "region": {
+    "x": 0,
+    "y": 0,
+    "w": 20,
+    "h": 15
+  },
+  "events": [
+    {
+      "id": 1,
+      "name": "Ambiente A6",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": 2,
+      "name": "Llegada A6",
+      "x": 1,
+      "y": 0
+    },
+    {
+      "id": 3,
+      "name": "Radio: guardar y respirar",
+      "x": 3,
+      "y": 10
+    },
+    {
+      "id": 4,
+      "name": "Perro ante el trono",
+      "x": 5,
+      "y": 10
+    },
+    {
+      "id": 5,
+      "name": "Lugar para Lucy",
+      "x": 16,
+      "y": 6
+    },
+    {
+      "id": 6,
+      "name": "Pacto al pie del altar",
+      "x": 8,
+      "y": 7
+    },
+    {
+      "id": 7,
+      "name": "Guernsey: desenlace",
+      "x": 10,
+      "y": 6
+    },
+    {
+      "id": 8,
+      "name": "Volver a la galería",
+      "x": 3,
+      "y": 14
+    }
+  ],
+  "notes": []
+}

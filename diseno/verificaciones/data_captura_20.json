@@ -1,0 +1,71 @@
+﻿{
+  "path": "D:\\descargas\\Proyectos personales\\Vacas\\diseno\\capturas\\arte\\data_aplicado_20.png",
+  "pixel_w": 640,
+  "pixel_h": 480,
+  "map": {
+    "id": 20,
+    "width": 20,
+    "height": 15,
+    "layers": 3
+  },
+  "tileset": {
+    "id": 68,
+    "name": "acto4_alcantarillas"
+  },
+  "rendered_layers": [
+    0,
+    1,
+    2
+  ],
+  "region": {
+    "x": 0,
+    "y": 0,
+    "w": 20,
+    "h": 15
+  },
+  "events": [
+    {
+      "id": 1,
+      "name": "Respiracion bajo la ciudad",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": 2,
+      "name": "Regreso al agua",
+      "x": 4,
+      "y": 12
+    },
+    {
+      "id": 3,
+      "name": "Paso al altar",
+      "x": 17,
+      "y": 11
+    },
+    {
+      "id": 4,
+      "name": "La Guernsey bajo la ciudad",
+      "x": 11,
+      "y": 5
+    },
+    {
+      "id": 5,
+      "name": "Muesca en consejo",
+      "x": 6,
+      "y": 6
+    },
+    {
+      "id": 6,
+      "name": "Junco en consejo",
+      "x": 15,
+      "y": 7
+    },
+    {
+      "id": 7,
+      "name": "Camas de la manada",
+      "x": 7,
+      "y": 10
+    }
+  ],
+  "notes": []
+}

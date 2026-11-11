@@ -1,0 +1,113 @@
+﻿{
+  "path": "D:\\descargas\\Proyectos personales\\Vacas\\diseno\\capturas\\arte\\data_aplicado_29.png",
+  "pixel_w": 640,
+  "pixel_h": 480,
+  "map": {
+    "id": 29,
+    "width": 20,
+    "height": 15,
+    "layers": 3
+  },
+  "tileset": {
+    "id": 70,
+    "name": "acto6_reydios"
+  },
+  "rendered_layers": [
+    0,
+    1,
+    2
+  ],
+  "region": {
+    "x": 0,
+    "y": 0,
+    "w": 20,
+    "h": 15
+  },
+  "events": [
+    {
+      "id": 1,
+      "name": "Ambiente A6",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": 2,
+      "name": "Llegada A6",
+      "x": 1,
+      "y": 0
+    },
+    {
+      "id": 3,
+      "name": "Radio: guardar y respirar",
+      "x": 16,
+      "y": 11
+    },
+    {
+      "id": 4,
+      "name": "Obreros: consecuencia visible",
+      "x": 14,
+      "y": 10
+    },
+    {
+      "id": 5,
+      "name": "Ciudadanos tras la barricada",
+      "x": 5,
+      "y": 10
+    },
+    {
+      "id": 6,
+      "name": "Manada en el semáforo",
+      "x": 12,
+      "y": 6
+    },
+    {
+      "id": 7,
+      "name": "Manada ocupa la calle",
+      "x": 2,
+      "y": 4
+    },
+    {
+      "id": 8,
+      "name": "Manada ocupa la calle",
+      "x": 11,
+      "y": 4
+    },
+    {
+      "id": 9,
+      "name": "Manada ocupa la calle",
+      "x": 17,
+      "y": 9
+    },
+    {
+      "id": 10,
+      "name": "Manada ocupa la calle",
+      "x": 7,
+      "y": 12
+    },
+    {
+      "id": 11,
+      "name": "Tablón de lotes",
+      "x": 12,
+      "y": 3
+    },
+    {
+      "id": 12,
+      "name": "Portón de la galería",
+      "x": 4,
+      "y": 3
+    },
+    {
+      "id": 13,
+      "name": "Portal del piso",
+      "x": 19,
+      "y": 12
+    },
+    {
+      "id": 14,
+      "name": "Volver a los túneles",
+      "x": 3,
+      "y": 14
+    }
+  ],
+  "notes": []
+}

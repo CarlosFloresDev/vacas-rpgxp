@@ -1,5 +1,5 @@
 {
-  "comprobaciones": 933,
+  "comprobaciones": 935,
   "fallos": 0,
   "pruebas": [
     {
@@ -2925,6 +2925,16 @@
         64,
         64
       ]
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_tubo_oxidado.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_ropa_trabajo.png: hash reproducido",
+      "ok": true,
+      "detalle": null
     },
     {
       "prueba": "alcantarilla: otros 13 tiles idénticos",
