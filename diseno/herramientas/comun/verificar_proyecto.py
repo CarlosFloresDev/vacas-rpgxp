@@ -16,12 +16,18 @@ def main():
         if p.returncode:errors.append(label+': '+p.stderr[-1500:]+p.stdout[-1500:])
     before=json.loads((ROOT/'diseno/verificaciones/inventario_antes.json').read_text(encoding='utf8'))['archivos_motor_sha256']
     changed=[n for n,h in before.items() if not (ROOT/n).is_file() or hashlib.sha256((ROOT/n).read_bytes()).hexdigest()!=h]
-    results['integridad']={'archivos':len(before),'cambiados':changed}
-    if changed:errors.append('Motor/configuración/partidas modificados: '+str(changed))
+    # Data es contenido editable, y configuración/partidas cambian al jugar.
+    # Su comparación con una foto histórica no puede invalidar una corrección.
+    mutable=lambda n: n.startswith('Data/') or n=='Vacas.cfg' or bool(re.match(r'Save\d+\.rxdata$',n))
+    immutable_changed=[n for n in changed if not mutable(n)]
+    protected={n:hashlib.sha256((ROOT/n).read_bytes()).hexdigest() for n in before if (ROOT/n).is_file()}
+    results['integridad']={'archivos':len(before),'diferencias_historicas':changed,'motor_modificado':immutable_changed}
+    if immutable_changed:errors.append('Motor modificado: '+str(immutable_changed))
     run('inventario',['node',str(COMMON/'inspeccionar.mjs'),'--solo-lectura'])
     run('sistemas',[sys.executable,str(COMMON/'verificar_sistemas.py')])
     run('marshal_ruby',[ruby,str(COMMON/'verificar_marshal.rb')])
     run('fuentes_vs_instalado',[ruby,str(COMMON/'verificar_fuentes.rb')])
+    run('jugabilidad',['node',str(COMMON/'auditar_jugabilidad.mjs')])
     syntax=[]
     for p in sorted((ROOT/'diseno/scripts').glob('*.rb')):
         result=subprocess.run([ruby,'-c',str(p)],capture_output=True,text=True,encoding='utf8',errors='replace')
@@ -47,6 +53,9 @@ def main():
     dependencies=[s['name'] for s in snapshot['Scripts'] if re.search(r'diseno[/\\]',s['code'],re.I)]
     results['dependencias_diseno_motor']=dependencies
     if dependencies:errors.append('El motor referencia diseno/: '+str(dependencies))
+    modified_during=[n for n,h in protected.items() if not (ROOT/n).is_file() or hashlib.sha256((ROOT/n).read_bytes()).hexdigest()!=h]
+    results['integridad']['modificados_durante_verificacion']=modified_during
+    if modified_during:errors.append('La verificación modificó archivos protegidos: '+str(modified_during))
     results['errores']=errors
     if args.informe:
         (ROOT/'diseno/verificaciones/verificacion_organizacion.json').write_text(json.dumps(results,ensure_ascii=False,indent=2),encoding='utf8')

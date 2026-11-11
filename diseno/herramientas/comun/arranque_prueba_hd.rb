@@ -19,7 +19,10 @@ begin
         if $hd_name && $hd_tick==70
           hd_capture($hd_name)
         end
-        $scene=nil if $hd_name && $hd_tick>=74
+        if $hd_name && $hd_tick>=74
+          $scene.instance_variable_set(:@terminada,true) if $scene.is_a?(Scene_VacasCine)
+          $scene=nil
+        end
       end
       def trigger?(key); ($hd_keys || []).include?(key); end
       def repeat?(key); trigger?(key); end
@@ -32,7 +35,7 @@ begin
   end
   load 'diseno/herramientas/comun/prueba_hd_runtime.rb'
   # Permite correcciones y repeticion dentro del MISMO proceso, sin otro arranque.
-  deadline=Time.now+480
+  deadline=Time.now
   while Time.now<deadline
     Graphics.update
     break if File.exist?('diseno/verificaciones/hd_terminar')

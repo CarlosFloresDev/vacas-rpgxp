@@ -104,5 +104,498 @@ OK Intérprete 2/Madre
 OK Intérprete 2/Madre
 OK I: tareas y llave sin inyectar switches
 OK Intérprete 2/Cama Steven
-FALLO Intérprete 2/Armario
-FALLO RuntimeError: Intérprete 2/Armario | Section105:7:in `verificar' | Section105:71:in `ejecutar' | (eval):9:in `jugar' | (eval):41:in `recorrer_hasta_seis' | Section105:85 | Section105:79:in `each' | Section105:79 | Section105:78:in `each'
+OK Intérprete 2/Armario
+OK I: noche recuperable da salida
+OK Intérprete 4/Hombre del matadero
+OK Contrato 1 > 2
+OK Intérprete 5/Llegada
+OK Intérprete 5/Fichadora
+OK Intérprete 6/Taquilla 13
+OK II: turno y mono 1
+OK Intérprete 8/Puesto de la cinta
+OK Intérprete 11/Manguera
+OK Intérprete 11/Rejilla
+OK Intérprete 8/Cripps
+OK II: tareas completas turno 1
+OK Intérprete 5/Fichadora
+OK Intérprete 2/Madre
+OK Intérprete 2/Perro
+OK Intérprete 2/Tele
+OK Intérprete 2/Cama Steven
+OK Intérprete 5/Llegada
+OK Intérprete 5/Fichadora
+OK Intérprete 6/Taquilla 13
+OK II: turno y mono 2
+OK Intérprete 8/Puesto de corte
+OK Intérprete 8/Final de la cinta
+OK Intérprete 9/Camara 2
+OK Intérprete 8/Final de la cinta
+OK Intérprete 9/Camara 3
+OK Intérprete 8/Final de la cinta
+OK Intérprete 9/Camara 2
+OK Intérprete 11/Rejilla
+OK Intérprete 10/Escritorio
+OK Intérprete 10/Archivador
+OK Intérprete 11/Rejilla
+OK II: tareas completas turno 2
+OK Intérprete 5/Fichadora
+OK Intérprete 2/Madre
+OK Intérprete 2/Perro
+OK Intérprete 2/Tele
+OK Intérprete 2/Cama Steven
+OK Intérprete 5/Llegada
+OK Intérprete 5/Fichadora
+OK Intérprete 6/Taquilla 13
+OK II: turno y mono 3
+OK Intérprete 8/Cripps
+OK Intérprete 7/Puerta corral 3
+OK Intérprete 8/El cajon (escena)
+OK Intérprete 11/Despues del cajon
+OK II: tareas completas turno 3
+OK Intérprete 5/Fichadora
+OK Intérprete 3/Lucy
+OK Intérprete 2/Madre
+OK Intérprete 2/Perro
+OK Intérprete 2/Tele
+OK Intérprete 2/Cama Steven
+OK II: decision y nota conservadas
+OK Contrato 2 > 3
+OK Intérprete 12/Dos golpes
+OK Intérprete 12/Lucy junto a la mesa
+OK Intérprete 13/Molina
+OK Intérprete 14/Persiana despierta
+OK Intérprete 14/Riñón del lote borrado
+OK Intérprete 14/Cortina azul: refugio
+OK Intérprete 15/Elena
+OK Intérprete 16/Preparación A: hígado
+OK Intérprete 16/Preparación B: riñón
+OK Intérprete 16/Control limpio
+OK Intérprete 16/Comparador y cuaderno
+OK Intérprete 16/Lucy: diagnóstico
+OK III: muestras, decision y llave
+OK Contrato 3 > 4
+OK IV: equipo inicial entregado
+OK Intérprete 17/Llegada al colector
+OK Intérprete 18/Muesca vigila
+OK Intérprete 18/Rueda entre trapos
+OK Intérprete 19/Junco atrapada
+OK Intérprete 19/Valvula retorno
+OK Intérprete 19/Valvula descarga
+OK Intérprete 19/Armario de bombas
+OK Intérprete 20/La Guernsey bajo la ciudad
+OK Intérprete 21/Paso hacia el matadero nocturno
+OK IV: pacto y chapa
+OK Contrato 4 > 5
+OK Intérprete 22/Llegada al muelle
+OK Intérprete 22/Tablero de llaves
+OK Intérprete 22/Puerta de servicio
+OK Intérprete 23/Primera vez
+OK Intérprete 23/Sirena de corrales
+OK Intérprete 23/Cadena del corral 1
+OK Intérprete 23/Cadena del corral 2
+OK Intérprete 23/Cadena del corral 3
+OK Intérprete 23/Cadena del corral 4
+OK Intérprete 23/Cadena del corral 5
+OK Intérprete 24/Primera vez
+OK Intérprete 24/El Rubio
+OK Intérprete 24/Cuadro de la noria
+OK Intérprete 24/Puerta del rail
+OK Intérprete 25/Primera vez
+OK Intérprete 25/Empieza la caza
+OK Intérprete 25/Canal vaciada
+OK Intérprete 25/Reloj de caza
+OK Intérprete 25/Puerta de la escalera
+OK Intérprete 26/Primera vez
+OK Intérprete 26/Umbral de la oficina
+OK Intérprete 26/Cripps en su mesa
+OK Intérprete 26/Escalera de incendios
+OK Intérprete 27/Primera vez
+OK Intérprete 27/La Guernsey en el patio
+OK Intérprete 27/Cancela abierta
+OK V > VI: cancela fisica y rama Rey
+OK Puerta fisica solicita tarjeta VI
+OK Inicio A6 rama 1
+OK Matices de prueba
+OK Intérprete 28/Llegada A6
+OK Intérprete 28/Carta húmeda
+OK Intérprete 28/Muesca espera
+OK Intérprete 28/Muesca espera
+OK Ruta única
+OK Intérprete 28/Tubería de los nombres
+OK Intérprete 28/Escalera a la ciudad
+OK Transfer túneles-ciudad
+OK Intérprete 29/Llegada A6
+OK Intérprete 29/Portón de la galería
+OK No se omite a madre y Perro
+OK Intérprete 29/Portal del piso
+OK Entrada al piso
+OK Intérprete 30/Llegada A6
+OK Intérprete 30/Madre: última cena
+OK Madre resuelta y Perro acompaña
+OK Elección emocional
+OK Intérprete 30/Bajar a la ciudad
+OK Intérprete 29/Portón de la galería
+OK Transfer ciudad-galería
+OK Intérprete 31/Llegada A6
+OK Comienza tensión 35s
+OK Error de orden cuesta 3s
+OK Golpe de agua recuperable
+OK Cierres terminan tensión
+OK Intérprete 31/Paso al altar
+OK Transfer al altar
+OK Intérprete 32/Llegada A6
+OK Intérprete 32/Guernsey: desenlace
+OK Jefe exige victoria tras derrota
+OK Final correcto completado
+OK Final persistente
+OK Escena FIN
+OK FIN enlaza créditos
+OK Créditos vuelven al título
+OK Ctrl+W abre selector
+OK Inicio A6 rama 2
+OK Matices de prueba
+OK Intérprete 28/Llegada A6
+OK Intérprete 28/Carta húmeda
+OK Intérprete 28/Muesca espera
+OK Intérprete 28/Muesca espera
+OK Ruta única
+OK Intérprete 28/Tubería de los nombres
+OK Intérprete 28/Escalera a la ciudad
+OK Transfer túneles-ciudad
+OK Intérprete 29/Llegada A6
+OK Intérprete 29/Portón de la galería
+OK No se omite a madre y Perro
+OK Intérprete 29/Portal del piso
+OK Entrada al piso
+OK Intérprete 30/Llegada A6
+OK Intérprete 30/Madre: última cena
+OK Madre resuelta y Perro acompaña
+OK Elección emocional
+OK Intérprete 30/Bajar a la ciudad
+OK Intérprete 29/Portón de la galería
+OK Transfer ciudad-galería
+OK Intérprete 31/Llegada A6
+OK Comienza tensión 35s
+OK Error de orden cuesta 3s
+OK Golpe de agua recuperable
+OK Cierres terminan tensión
+OK Intérprete 31/Paso al altar
+OK Transfer al altar
+OK Intérprete 32/Llegada A6
+OK Intérprete 32/Guernsey: desenlace
+OK Jefe exige victoria tras derrota
+OK Final correcto completado
+OK Final persistente
+OK Escena FIN
+OK FIN enlaza créditos
+OK Créditos vuelven al título
+OK Ctrl+W abre selector
+OK Inicio A6 rama 3
+OK Matices de prueba
+OK Intérprete 28/Llegada A6
+OK Intérprete 28/Carta húmeda
+OK Intérprete 28/Muesca espera
+OK Intérprete 28/Muesca espera
+OK Ruta única
+OK Intérprete 28/Tubería de los nombres
+OK Intérprete 28/Escalera a la ciudad
+OK Transfer túneles-ciudad
+OK Intérprete 29/Llegada A6
+OK Intérprete 29/Portón de la galería
+OK No se omite a madre y Perro
+OK Intérprete 29/Portal del piso
+OK Entrada al piso
+OK Intérprete 30/Llegada A6
+OK Intérprete 30/Madre: última cena
+OK Madre resuelta y Perro acompaña
+OK Elección emocional
+OK Intérprete 30/Bajar a la ciudad
+OK Intérprete 29/Portón de la galería
+OK Transfer ciudad-galería
+OK Intérprete 31/Llegada A6
+OK Comienza tensión 35s
+OK Error de orden cuesta 3s
+OK Golpe de agua recuperable
+OK Cierres terminan tensión
+OK Intérprete 31/Paso al altar
+OK Transfer al altar
+OK Intérprete 32/Llegada A6
+OK Intérprete 32/Guernsey: desenlace
+OK Jefe exige victoria tras derrota
+OK Final correcto completado
+OK Final persistente
+OK Escena FIN
+OK FIN enlaza créditos
+OK Créditos vuelven al título
+OK Ctrl+W abre selector
+OK Inicio A6 rama 1
+OK Matices de prueba
+OK Intérprete 28/Llegada A6
+OK Intérprete 28/Carta húmeda
+OK Intérprete 28/Muesca espera
+OK Intérprete 28/Muesca espera
+OK Ruta única
+OK Intérprete 28/Tubería de los nombres
+OK Intérprete 28/Escalera a la ciudad
+OK Transfer túneles-ciudad
+OK Intérprete 29/Llegada A6
+OK Intérprete 29/Portón de la galería
+OK No se omite a madre y Perro
+OK Intérprete 29/Portal del piso
+OK Entrada al piso
+OK Intérprete 30/Llegada A6
+OK Intérprete 30/Madre: última cena
+OK Madre resuelta y Perro acompaña
+OK Elección emocional
+OK Intérprete 30/Bajar a la ciudad
+OK Intérprete 29/Portón de la galería
+OK Transfer ciudad-galería
+OK Intérprete 31/Llegada A6
+OK Comienza tensión 35s
+OK Error de orden cuesta 3s
+OK Golpe de agua recuperable
+OK Cierres terminan tensión
+OK Intérprete 31/Paso al altar
+OK Transfer al altar
+OK Intérprete 32/Llegada A6
+OK Intérprete 32/Guernsey: desenlace
+OK Jefe exige victoria tras derrota
+OK Final correcto completado
+OK Final persistente
+OK Escena FIN
+OK FIN enlaza créditos
+OK Créditos vuelven al título
+OK Ctrl+W abre selector
+OK Inicio A6 rama 2
+OK Matices de prueba
+OK Intérprete 28/Llegada A6
+OK Intérprete 28/Carta húmeda
+OK Intérprete 28/Muesca espera
+OK Intérprete 28/Muesca espera
+OK Ruta única
+OK Intérprete 28/Tubería de los nombres
+OK Intérprete 28/Escalera a la ciudad
+OK Transfer túneles-ciudad
+OK Intérprete 29/Llegada A6
+OK Intérprete 29/Portón de la galería
+OK No se omite a madre y Perro
+OK Intérprete 29/Portal del piso
+OK Entrada al piso
+OK Intérprete 30/Llegada A6
+OK Intérprete 30/Madre: última cena
+OK Madre resuelta y Perro acompaña
+OK Elección emocional
+OK Intérprete 30/Bajar a la ciudad
+OK Intérprete 29/Portón de la galería
+OK Transfer ciudad-galería
+OK Intérprete 31/Llegada A6
+OK Comienza tensión 35s
+OK Error de orden cuesta 3s
+OK Golpe de agua recuperable
+OK Cierres terminan tensión
+OK Intérprete 31/Paso al altar
+OK Transfer al altar
+OK Intérprete 32/Llegada A6
+OK Intérprete 32/Guernsey: desenlace
+OK Jefe exige victoria tras derrota
+OK Final correcto completado
+OK Final persistente
+OK Escena FIN
+OK FIN enlaza créditos
+OK Créditos vuelven al título
+OK Ctrl+W abre selector
+OK Inicio A6 rama 3
+OK Matices de prueba
+OK Intérprete 28/Llegada A6
+OK Intérprete 28/Carta húmeda
+OK Intérprete 28/Muesca espera
+OK Intérprete 28/Muesca espera
+OK Ruta única
+OK Intérprete 28/Tubería de los nombres
+OK Intérprete 28/Escalera a la ciudad
+OK Transfer túneles-ciudad
+OK Intérprete 29/Llegada A6
+OK Intérprete 29/Portón de la galería
+OK No se omite a madre y Perro
+OK Intérprete 29/Portal del piso
+OK Entrada al piso
+OK Intérprete 30/Llegada A6
+OK Intérprete 30/Madre: última cena
+OK Madre resuelta y Perro acompaña
+OK Elección emocional
+OK Intérprete 30/Bajar a la ciudad
+OK Intérprete 29/Portón de la galería
+OK Transfer ciudad-galería
+OK Intérprete 31/Llegada A6
+OK Comienza tensión 35s
+OK Error de orden cuesta 3s
+OK Golpe de agua recuperable
+OK Cierres terminan tensión
+OK Intérprete 31/Paso al altar
+OK Transfer al altar
+OK Intérprete 32/Llegada A6
+OK Intérprete 32/Guernsey: desenlace
+OK Jefe exige victoria tras derrota
+OK Final correcto completado
+OK Final persistente
+OK Escena FIN
+OK FIN enlaza créditos
+OK Créditos vuelven al título
+OK Tres finales vistos sin duplicados
+OK Créditos Feka
+OK Créditos CC íntegros
+OK Claves audio 28
+OK Battleback 28
+OK Claves audio 29
+OK Battleback 29
+OK Claves audio 30
+OK Battleback 30
+OK Claves audio 31
+OK Battleback 31
+OK Claves audio 32
+OK Battleback 32
+OK Ventanas VN nativas
+OK Balance 33/0 turnos 6
+OK Balance 33/1 turnos 4
+OK Balance 33/2 turnos 5
+OK Balance 33/3 turnos 6
+OK Balance 33/4 turnos 7
+OK Balance 33/5 turnos 4
+OK Balance 33/6 turnos 4
+OK Balance 33/7 turnos 4
+OK Balance 33/8 turnos 8
+OK Balance 33/9 turnos 4
+OK Balance 33/10 turnos 7
+OK Balance 33/11 turnos 5
+OK Balance 33/12 turnos 5
+OK Balance 33/13 turnos 5
+OK Balance 33/14 turnos 6
+OK Balance 33/15 turnos 5
+OK Balance 33/16 turnos 5
+OK Balance 33/17 turnos 7
+OK Balance 33/18 turnos 8
+OK Balance 33/19 turnos 7
+OK Balance 34/0 turnos 8
+OK Balance 34/1 turnos 5
+OK Balance 34/2 turnos 6
+OK Balance 34/3 turnos 7
+OK Balance 34/4 turnos 11
+OK Balance 34/5 turnos 5
+OK Balance 34/6 turnos 5
+OK Balance 34/7 turnos 5
+OK Balance 34/8 turnos 9
+OK Balance 34/9 turnos 5
+OK Balance 34/10 turnos 7
+OK Balance 34/11 turnos 5
+OK Balance 34/12 turnos 6
+OK Balance 34/13 turnos 6
+OK Balance 34/14 turnos 8
+OK Balance 34/15 turnos 7
+OK Balance 34/16 turnos 6
+OK Balance 34/17 turnos 9
+OK Balance 34/18 turnos 9
+OK Balance 34/19 turnos 9
+OK Balance 35/0 turnos 23
+OK Balance 35/1 turnos 26
+OK Balance 35/2 turnos 21
+OK Balance 35/3 turnos 24
+OK Balance 35/4 turnos 22
+OK Balance 35/5 turnos 27
+OK Balance 35/6 turnos 26
+OK Balance 35/7 turnos 20
+OK Balance 35/8 turnos 18
+OK Balance 35/9 turnos 25
+OK Balance 35/10 turnos 22
+OK Balance 35/11 turnos 18
+OK Balance 35/12 turnos 19
+OK Balance 35/13 turnos 23
+OK Balance 35/14 turnos 21
+OK Balance 35/15 turnos 18
+OK Balance 35/16 turnos 21
+OK Balance 35/17 turnos 19
+OK Balance 35/18 turnos 21
+OK Balance 35/19 turnos 18
+OK Balance 36/0 turnos 17
+OK Balance 36/1 turnos 15
+OK Balance 36/2 turnos 16
+OK Balance 36/3 turnos 19
+OK Balance 36/4 turnos 21
+OK Balance 36/5 turnos 17
+OK Balance 36/6 turnos 13
+OK Balance 36/7 turnos 18
+OK Balance 36/8 turnos 23
+OK Balance 36/9 turnos 16
+OK Balance 36/10 turnos 20
+OK Balance 36/11 turnos 17
+OK Balance 36/12 turnos 16
+OK Balance 36/13 turnos 21
+OK Balance 36/14 turnos 17
+OK Balance 36/15 turnos 20
+OK Balance 36/16 turnos 17
+OK Balance 36/17 turnos 19
+OK Balance 36/18 turnos 20
+OK Balance 36/19 turnos 21
+OK Balance 37/0 turnos 23
+OK Balance 37/1 turnos 26
+OK Balance 37/2 turnos 21
+OK Balance 37/3 turnos 24
+OK Balance 37/4 turnos 22
+OK Balance 37/5 turnos 27
+OK Balance 37/6 turnos 26
+OK Balance 37/7 turnos 20
+OK Balance 37/8 turnos 18
+OK Balance 37/9 turnos 25
+OK Balance 37/10 turnos 22
+OK Balance 37/11 turnos 18
+OK Balance 37/12 turnos 19
+OK Balance 37/13 turnos 23
+OK Balance 37/14 turnos 21
+OK Balance 37/15 turnos 18
+OK Balance 37/16 turnos 21
+OK Balance 37/17 turnos 19
+OK Balance 37/18 turnos 21
+OK Balance 37/19 turnos 18
+OK Entrada/salida jefe nativo 35 (victoria forzada)
+OK Entrada/salida jefe nativo 36 (victoria forzada)
+OK Entrada/salida jefe nativo 37 (victoria forzada)
+OK Balance global tropa/HP/victorias/min/med/max 1/160/20/2/2/6
+OK Balance global tropa/HP/victorias/min/med/max 2/220/20/3/4/10
+OK Balance global tropa/HP/victorias/min/med/max 3/240/20/3/4/10
+OK Balance global tropa/HP/victorias/min/med/max 4/280/20/4/6/11
+OK Balance global tropa/HP/victorias/min/med/max 5/125/20/2/2/6
+OK Balance global tropa/HP/victorias/min/med/max 6/300/20/4/5/11
+OK Balance global tropa/HP/victorias/min/med/max 7/260/20/3/4/10
+OK Balance global tropa/HP/victorias/min/med/max 8/180/20/2/3/6
+OK Balance global tropa/HP/victorias/min/med/max 9/650/20/12/18/26
+OK Balance global tropa/HP/victorias/min/med/max 10/230/20/3/4/10
+OK Balance global tropa/HP/victorias/min/med/max 11/260/20/3/4/10
+OK Balance global tropa/HP/victorias/min/med/max 12/300/20/4/5/11
+OK Balance global tropa/HP/victorias/min/med/max 13/720/20/14/21/26
+OK Balance global tropa/HP/victorias/min/med/max 14/270/20/3/5/10
+OK Balance global tropa/HP/victorias/min/med/max 15/310/20/4/5/11
+OK Balance global tropa/HP/victorias/min/med/max 16/290/20/4/5/11
+OK Balance global tropa/HP/victorias/min/med/max 17/760/20/14/21/26
+OK Balance global tropa/HP/victorias/min/med/max 18/340/20/4/5/11
+OK Balance global tropa/HP/victorias/min/med/max 19/330/20/4/5/11
+OK Balance global tropa/HP/victorias/min/med/max 20/360/20/5/7/12
+OK Balance global tropa/HP/victorias/min/med/max 21/860/20/17/24/33
+OK Balance global tropa/HP/victorias/min/med/max 33/340/20/4/6/12
+OK Balance global tropa/HP/victorias/min/med/max 34/390/20/5/7/16
+OK Balance global tropa/HP/victorias/min/med/max 35/990/20/18/26/35
+OK Balance global tropa/HP/victorias/min/med/max 36/990/20/15/20/28
+OK Balance global tropa/HP/victorias/min/med/max 37/990/20/18/26/35
+OK Balance global tropa/HP/victorias/min/med/max 21/860/20/17/24/33
+OK Balance global tropa/HP/victorias/min/med/max 21/1070/20/24/29/37
+OK Balance global tropa/HP/victorias/min/med/max 35/650/20/12/17/21
+OK Balance global tropa/HP/victorias/min/med/max 35/990/20/18/26/35
+OK Balance global tropa/HP/victorias/min/med/max 36/650/20/9/14/19
+OK Balance global tropa/HP/victorias/min/med/max 36/990/20/15/20/28
+OK Balance global tropa/HP/victorias/min/med/max 37/650/20/12/17/21
+OK Balance global tropa/HP/victorias/min/med/max 37/990/20/18/26/35
+OK Corte: seis rondas perfectas
+OK Cinta/noria Vacas_Cinta perfectas
+OK Cinta/noria Vacas_Noria perfectas
+OK Corte: seis rondas sin entradas
+OK Cinta/noria Vacas_Cinta sin entradas
+OK Cinta/noria Vacas_Noria sin entradas
+OK FIN: fases 4 y 5 verificadas con RGSS real

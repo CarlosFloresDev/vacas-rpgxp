@@ -1,0 +1,630 @@
+{
+  "fuentes": {
+    "furgoneta": {
+      "archivo": "diseno/fuentes/coherencia_arte/furgoneta.png",
+      "sha256": "4832d2b55f0bbba7d104e5878d80055fa96a111bf9b8c983027cb04bbb0e4cab"
+    },
+    "muebles": {
+      "archivo": "diseno/fuentes/coherencia_arte/muebles.png",
+      "sha256": "43984f680713373db57d76a47c0817ece869f4a54b67310ad82d2ab5708315e6"
+    },
+    "suelo": {
+      "archivo": "diseno/fuentes/coherencia_arte/suelo.png",
+      "sha256": "dcf4a376e0383212990f37d335c6e00c59dc5fb1a26fd931ceeb66770b47f777"
+    },
+    "vaca": {
+      "archivo": "diseno/fuentes/coherencia_arte/vaca.png",
+      "sha256": "c2a89a6913000d229a758cd6a0ad846b2aeb2c9060df7c7cb274f20101d79606"
+    },
+    "vaca_canela": {
+      "archivo": "diseno/fuentes/coherencia_arte/vaca_canela.png",
+      "sha256": "880393b5b7b75f63e2cf3166b6d8dfb55d26e87294c134284cd43fdec0456423"
+    },
+    "titulo": {
+      "archivo": "diseno/fuentes/coherencia_arte/titulo.png",
+      "sha256": "a43358150abd7d2dd845981bd01edb80c6692baef44454af33f96b89a32057ce"
+    }
+  },
+  "cambios": [
+    {
+      "archivo": "Graphics/Characters/vacas_furgoneta.png",
+      "motivo": "Regeneración image_gen; recorte por celda, NEAREST, ancla inferior, alpha binario y paleta sin dithering",
+      "tamano": [
+        384,
+        256
+      ],
+      "original_sha256": "2a9d5da74da92eaa84fa06900528878302d873227cf401948a4fe0c3a1273976",
+      "sha256": "3e964447e4a3c03d3cb2f5e94dc2068b42b35aad6406e551d3af72305d876591"
+    },
+    {
+      "archivo": "Graphics/Titles/vacas_titulo.png",
+      "motivo": "Título regenerado: texto dentro de área segura y60..420, lienzo 640x480 conservado",
+      "tamano": [
+        640,
+        480
+      ],
+      "original_sha256": "51384075b4f32a9884233a5f4fafc08a19d224e77bbe6abed2fab1212f830079",
+      "sha256": "ab0e5328ad77ab6f04b1ca94bddf8d3ac825e2de4d3f179c25574894caf4a164"
+    },
+    {
+      "archivo": "Graphics/Characters/vacas_muebles.png",
+      "motivo": "Regeneración image_gen; recorte por celda, NEAREST, ancla inferior, alpha binario y paleta sin dithering",
+      "tamano": [
+        128,
+        256
+      ],
+      "original_sha256": "72252b9507fb0a7b0238dba258dd7a3d316067609410955bf61372e0d8705965",
+      "sha256": "6d536356b715fb745296fc692a8e319aac549204350c631b4d7c20df79e5b2d1"
+    },
+    {
+      "archivo": "Graphics/Characters/vacas_vaca.png",
+      "motivo": "Regeneración image_gen; recorte por celda, NEAREST, ancla inferior, alpha binario y paleta sin dithering",
+      "tamano": [
+        320,
+        320
+      ],
+      "original_sha256": "f7fa5d919637f63dd7da6184d5d62309b95787257c8880a6688ec906e29f2fd9",
+      "sha256": "a9d5f95e1281393cdd2a3302973e10a7dccae9cd3f64bd420084e1afe1b5fb30"
+    },
+    {
+      "archivo": "Graphics/Characters/vacas_vaca_canela.png",
+      "motivo": "Regeneración image_gen; recorte por celda, NEAREST, ancla inferior, alpha binario y paleta sin dithering",
+      "tamano": [
+        320,
+        320
+      ],
+      "original_sha256": "5b5aafdad86314eab593a856af68c4b0ec237c904952fb1791f720f89074f1a8",
+      "sha256": "dec012ade2ab4a3df4cb0274071406c45e42ea041d62bbe62d10cbfcfdbe0e64"
+    },
+    {
+      "archivo": "Graphics/Characters/vacas_guernsey4.png",
+      "motivo": "Paleta bovina apagada; misma anatomía, marcas, rejilla y direcciones",
+      "tamano": [
+        192,
+        192
+      ],
+      "original_sha256": "6f1d0ab42978b787ae0a189213b77e94afff14a846f4d6ca236f82d82c2a9164",
+      "sha256": "490c84423c44aaca4cb75ac3a162e87c445715ec9a6eae1fa9229eda523dffba"
+    },
+    {
+      "archivo": "Graphics/Characters/vacas_guernsey4_80.png",
+      "motivo": "Variante de escala adulta preparada; NO asignada porque exige cambiar referencias de eventos y tamaño de celda",
+      "tamano": [
+        320,
+        320
+      ],
+      "original_sha256": null,
+      "sha256": "685c3c42af4ed796c44cb95094d0447f1cb63bd8337840c57f6057aeab0924d3"
+    },
+    {
+      "archivo": "Graphics/Characters/vacas_junco.png",
+      "motivo": "Paleta bovina apagada; misma anatomía, marcas, rejilla y direcciones",
+      "tamano": [
+        192,
+        192
+      ],
+      "original_sha256": "ef23fdab73825d054ff7ff3f3f77585c7da62275decea2cc8199a06d1e746e66",
+      "sha256": "495fcc54d9989bdff5dcd1b3cc578ff2ace33d2d65beaf8a15b763b0c2d7744c"
+    },
+    {
+      "archivo": "Graphics/Characters/vacas_junco_80.png",
+      "motivo": "Variante de escala adulta preparada; NO asignada porque exige cambiar referencias de eventos y tamaño de celda",
+      "tamano": [
+        320,
+        320
+      ],
+      "original_sha256": null,
+      "sha256": "6900dd9ba9fc2c3eaa7608f7c2669241a86dc5ec2b32b25e057c137cf934199d"
+    },
+    {
+      "archivo": "Graphics/Characters/vacas_muesca.png",
+      "motivo": "Paleta bovina apagada; misma anatomía, marcas, rejilla y direcciones",
+      "tamano": [
+        192,
+        192
+      ],
+      "original_sha256": "ecccc8da3311766fc505dc22bf663f942c944db95c9538e5404a553d6ac1be7f",
+      "sha256": "b0e66742c6830aab57e59e9d121234a8ae9d508e20edd2c46d4465bcc383cf53"
+    },
+    {
+      "archivo": "Graphics/Characters/vacas_muesca_80.png",
+      "motivo": "Variante de escala adulta preparada; NO asignada porque exige cambiar referencias de eventos y tamaño de celda",
+      "tamano": [
+        320,
+        320
+      ],
+      "original_sha256": null,
+      "sha256": "b15d08bdda15c9b09c891072ab76e9657ef08d6b9118571a3bc3940b557b907f"
+    },
+    {
+      "archivo": "Graphics/Characters/vacas_cosas.png",
+      "motivo": "Unificación de rampas y alpha; objetos y anclas conservados por índice",
+      "tamano": [
+        128,
+        128
+      ],
+      "original_sha256": "18133e50061a6735f22276afd7c65283fdc6f90462c43b8f8e11a08064db13c2",
+      "sha256": "6d8c7be132c43adda8548d3261034df4d59281a45c01d8f2df5671ff4976f0d1"
+    },
+    {
+      "archivo": "Graphics/Characters/vacas_laboratorio.png",
+      "motivo": "Unificación de rampas y alpha; objetos y anclas conservados por índice",
+      "tamano": [
+        128,
+        256
+      ],
+      "original_sha256": "318d1594aab825af3552548164caaafa4bbdce75daad532a7d526357dabee097",
+      "sha256": "4cca20fa19ea34f04e50ac7d33019c78ac33a31f87ee22f0018ed5443b8e01c3"
+    },
+    {
+      "archivo": "Graphics/Characters/vacas_matadero.png",
+      "motivo": "Unificación de rampas y alpha; objetos y anclas conservados por índice",
+      "tamano": [
+        128,
+        256
+      ],
+      "original_sha256": "a4dbf351fe4cf5f2e1bda5162f0c146997631165af6ecfa250507fed7f291569",
+      "sha256": "1c44ba1e0f60711b21c37645d8b6581e636a4429124c01d0bf2251f3391a6993"
+    },
+    {
+      "archivo": "Graphics/Characters/vacas_alcantarilla.png",
+      "motivo": "Unificación de rampas y alpha; objetos y anclas conservados por índice",
+      "tamano": [
+        128,
+        256
+      ],
+      "original_sha256": "2027fcf91940b520fc0cde9523aa10af4f2d3718d042998a83166b1b8ee3d01a",
+      "sha256": "9f54ef4a97f47d8389b5dabfddbada29a1debfda798dd99cff803f853f2e947d"
+    },
+    {
+      "archivo": "Graphics/Autotiles/048-Water01.png",
+      "motivo": "Alpha binario en plano jugable; saturación corregida solo donde supera guía",
+      "tamano": [
+        384,
+        128
+      ],
+      "original_sha256": "636bd4fa805cb596e152cd2c22c34fc8317df4a00fcac85650a48555dfead80f",
+      "sha256": "b73eb16c90a51b2aa1cb076cd688866571e339fcadb85ef75d82f715310d2427"
+    },
+    {
+      "archivo": "Graphics/Autotiles/vacas_canal.png",
+      "motivo": "Alpha binario en plano jugable; saturación corregida solo donde supera guía",
+      "tamano": [
+        384,
+        128
+      ],
+      "original_sha256": "bb23cc939db291254626c035cb59026c163a02d21b782af4c3bbee8b095f3117",
+      "sha256": "7168496d79fec25445f877df3365e335699ba6dbabb439b44c2808efa574f21b"
+    },
+    {
+      "archivo": "Graphics/Icons/ui_ajuste.png",
+      "motivo": "Alpha binario en plano jugable; saturación corregida solo donde supera guía",
+      "tamano": [
+        24,
+        24
+      ],
+      "original_sha256": "49f1cd1d7fbf96ac2ccba0f0b478a59df70232a43f9b029dc7749040ccb13513",
+      "sha256": "301bfcdbd6466875388714c7f1e9ebed27d4a485117a791f155a60eed114d7d0"
+    },
+    {
+      "archivo": "Graphics/Icons/ui_bateria.png",
+      "motivo": "Alpha binario en plano jugable; saturación corregida solo donde supera guía",
+      "tamano": [
+        24,
+        24
+      ],
+      "original_sha256": "2cf21ffe3379434c286f27b0ad48dca522a2debba0d85c231754d8edf81b6c83",
+      "sha256": "e560c362a192ec19af092a65076fa4fddad45fbf1e8ef7e1648498b23455349a"
+    },
+    {
+      "archivo": "Graphics/Icons/ui_estado_2.png",
+      "motivo": "Alpha binario en plano jugable; saturación corregida solo donde supera guía",
+      "tamano": [
+        24,
+        24
+      ],
+      "original_sha256": "1e1f1cac4c2c7f3bb5ebec8f67be0bd63c6c7275ac0797ceda5ec78d2270142a",
+      "sha256": "aca4870783accbd4d9a5d151d791a718f42e7668c4e739fc49c4160d044aa921"
+    },
+    {
+      "archivo": "Graphics/Icons/ui_estado_3.png",
+      "motivo": "Alpha binario en plano jugable; saturación corregida solo donde supera guía",
+      "tamano": [
+        24,
+        24
+      ],
+      "original_sha256": "cf4d9ccf8ba2c5f9b47df163c350946fa1a44aeb80c62b7d3e56d913021916ee",
+      "sha256": "9241c01803cb328e33247c109c72a978cb5025d34685a44ba698cb921db2f764"
+    },
+    {
+      "archivo": "Graphics/Icons/ui_estado_4.png",
+      "motivo": "Alpha binario en plano jugable; saturación corregida solo donde supera guía",
+      "tamano": [
+        24,
+        24
+      ],
+      "original_sha256": "038a9c20ad456edf82dae95470be067379a6f6a9750d589ab0e81d54e94a1de9",
+      "sha256": "7cdc9a39dd4b838381ee54fcd4ea7154c717dea6bc5495c308cd54216dc11e4e"
+    },
+    {
+      "archivo": "Graphics/Icons/ui_nota.png",
+      "motivo": "Alpha binario en plano jugable; saturación corregida solo donde supera guía",
+      "tamano": [
+        24,
+        24
+      ],
+      "original_sha256": "be2cf1bbc7bfe227b11d4803cf2d36072f4293147d31d8f5d03eba2773ea1eb0",
+      "sha256": "1725ec119ce93b26b74a1f368af029a6d04198331b9f63622bc852a8e28cff8e"
+    },
+    {
+      "archivo": "Graphics/Icons/ui_objeto.png",
+      "motivo": "Alpha binario en plano jugable; saturación corregida solo donde supera guía",
+      "tamano": [
+        24,
+        24
+      ],
+      "original_sha256": "03d841c59c83d039b9ed39829ba8d0cf33c13c81fb88b5704a57a0eac3f0315c",
+      "sha256": "356327cab23c8840ed1582ae328f8d7413a673fee96ac69362367d4e2c9488c4"
+    },
+    {
+      "archivo": "Graphics/Icons/ui_salir.png",
+      "motivo": "Alpha binario en plano jugable; saturación corregida solo donde supera guía",
+      "tamano": [
+        24,
+        24
+      ],
+      "original_sha256": "b35b58a53acdc0c5548708012bd172bc8bfd8f46443c30bb51141d79c2a19f4e",
+      "sha256": "fdd88660e8c1c88c44250a27af9f974f26528082cfdf608b9f66b0e44e46fcb4"
+    },
+    {
+      "archivo": "Graphics/Icons/vacas_item_03.png",
+      "motivo": "Alpha binario en plano jugable; saturación corregida solo donde supera guía",
+      "tamano": [
+        24,
+        24
+      ],
+      "original_sha256": "89dcce2983d09df07190ae3ad70e0129c624a187bc1ef18beb0f9829b4463ff8",
+      "sha256": "c74c5a6c2cccc1a4b84c85e72a7df542778b75c6aaee8b1c5cb0e135be85cbf1"
+    },
+    {
+      "archivo": "Graphics/Tilesets/revision_mapa01.png",
+      "motivo": "Alpha binario en plano jugable; saturación corregida solo donde supera guía",
+      "tamano": [
+        256,
+        608
+      ],
+      "original_sha256": "db6034ccc76a98127937783077259a7011c89b8c4b9e0372c5176c5fbe07db2c",
+      "sha256": "0c09710a8765de532fa471b78bd8f6a84324c20bffcf40c8f1576521d3cd270f"
+    },
+    {
+      "archivo": "Graphics/Tilesets/revision_mapa02.png",
+      "motivo": "Alpha binario en plano jugable; saturación corregida solo donde supera guía",
+      "tamano": [
+        256,
+        1312
+      ],
+      "original_sha256": "5b71a3899c6084aeb72bbd6d38629c00df73977304e1de3425e20bb374a30306",
+      "sha256": "64d923126f61ae1523bdf2ff2b570c8f30a903e98145e66813221b2b28fe5cc3"
+    },
+    {
+      "archivo": "Graphics/Tilesets/revision_mapa03.png",
+      "motivo": "Alpha binario en plano jugable; saturación corregida solo donde supera guía",
+      "tamano": [
+        256,
+        1056
+      ],
+      "original_sha256": "11f8de30ca27b2852c7209315724a41d11bf5bc2270f77ae69fa3d4a0af84a6b",
+      "sha256": "1ae8343db20f09dea36c442c194a5be6fcc63bc81686178f6a09709f81747767"
+    },
+    {
+      "archivo": "Graphics/Tilesets/revision_mapa04.png",
+      "motivo": "Alpha binario en plano jugable; saturación corregida solo donde supera guía",
+      "tamano": [
+        256,
+        1504
+      ],
+      "original_sha256": "1cf802c99102d99153abce719a5e30240c17b9a4602589521a90f725da08dccf",
+      "sha256": "7e8746856b75b04ecdd2d5871bd668a8eaca02ccd1bf0a1f8abbda961cab243f"
+    },
+    {
+      "archivo": "Graphics/Tilesets/revision_mapa05.png",
+      "motivo": "Alpha binario en plano jugable; saturación corregida solo donde supera guía",
+      "tamano": [
+        256,
+        928
+      ],
+      "original_sha256": "489af3265031746ce731ffb89b760173a280d9da4632d419912cc5d3d8bb9f04",
+      "sha256": "92f678306ed4c5a621790083c67ed147a690eb6df405d4df060c7e58fc283251"
+    },
+    {
+      "archivo": "Graphics/Tilesets/revision_mapa06.png",
+      "motivo": "Alpha binario en plano jugable; saturación corregida solo donde supera guía",
+      "tamano": [
+        256,
+        544
+      ],
+      "original_sha256": "b533b7191c3f480bf6bb7061b7db4f677d9754edd71781a776594e1754dfddbe",
+      "sha256": "f0e5e35b2a100b1377c20aae05b138c624f3b761aa9a82c16d0c101c01bb651f"
+    },
+    {
+      "archivo": "Graphics/Tilesets/revision_mapa07.png",
+      "motivo": "Alpha binario en plano jugable; saturación corregida solo donde supera guía",
+      "tamano": [
+        256,
+        768
+      ],
+      "original_sha256": "9b52abd37f2ed248c28de2b347efd93801f5aec5717c542c7b9e500d55d54445",
+      "sha256": "fb1f6ae953ab326354a96d9165fae64cd1ff2f46288ea442be0cb535192741a9"
+    },
+    {
+      "archivo": "Graphics/Tilesets/revision_mapa08.png",
+      "motivo": "Alpha binario en plano jugable; saturación corregida solo donde supera guía",
+      "tamano": [
+        256,
+        1024
+      ],
+      "original_sha256": "c5ccb4c8bee8ab4faabbe9bb2fb74f8ba72842f900a91d838283cca0ea857d5f",
+      "sha256": "cc344039bba56e7af752de2c2522e195288e5c4631f755ad71ddfaedfadbce09"
+    },
+    {
+      "archivo": "Graphics/Tilesets/revision_mapa09.png",
+      "motivo": "Alpha binario en plano jugable; saturación corregida solo donde supera guía",
+      "tamano": [
+        256,
+        832
+      ],
+      "original_sha256": "3c3a2b524afd2a6862921fb3e0584df0e0bbc625137e33add592af819d972287",
+      "sha256": "3501f7ab14f93a5f8d16e2508eeaa03e3269f9e6be5e353d99d41110850e3683"
+    },
+    {
+      "archivo": "Graphics/Tilesets/revision_mapa10.png",
+      "motivo": "Alpha binario en plano jugable; saturación corregida solo donde supera guía",
+      "tamano": [
+        256,
+        576
+      ],
+      "original_sha256": "4822aa18f925c50eb19a7215438093c563e18a26f5e39ad8d4ace231c995683c",
+      "sha256": "a9bb0921ed3e6beca7a4a073e31e163c39a5fa185395a94863fe8db150dc75c5"
+    },
+    {
+      "archivo": "Graphics/Tilesets/revision_mapa11.png",
+      "motivo": "Alpha binario en plano jugable; saturación corregida solo donde supera guía",
+      "tamano": [
+        256,
+        704
+      ],
+      "original_sha256": "f8c4435ba5629b1ed67ee57c8001bc96ab6082771e7ad0beda196c7278495d6e",
+      "sha256": "83e9c62a27d3de8682f219c7447a0e68a6fec0e863de8050c1633d86275a7618"
+    },
+    {
+      "archivo": "Graphics/Tilesets/revision_mapa12.png",
+      "motivo": "Alpha binario en plano jugable; saturación corregida solo donde supera guía",
+      "tamano": [
+        256,
+        928
+      ],
+      "original_sha256": "65cafb9ac77d5e0ee5c8f88b7e67c77574c44299a1a2d83479f432ab28f184f2",
+      "sha256": "885217f554013fcb1317a56ccb0405df5f50d0f74de2df9b6263496f83960ee9"
+    },
+    {
+      "archivo": "Graphics/Tilesets/revision_mapa13.png",
+      "motivo": "Alpha binario en plano jugable; saturación corregida solo donde supera guía",
+      "tamano": [
+        256,
+        704
+      ],
+      "original_sha256": "a49845a6186381261cb2a4b1a11cf1c40bd92c26f294dde4300deb62857c6394",
+      "sha256": "56551e6d1415b9e88f1d45cec5dab4b41d2be22e812c8a2201432cca1c9252e5"
+    },
+    {
+      "archivo": "Graphics/Tilesets/revision_mapa14.png",
+      "motivo": "Alpha binario en plano jugable; saturación corregida solo donde supera guía",
+      "tamano": [
+        256,
+        640
+      ],
+      "original_sha256": "cecd7264c2d6e9275fabf03ec631d6ffa0585fc9d9c90064d00cfd0cb6d84902",
+      "sha256": "56f40d0ae8fdefafec7962da8f760e60249b8746eb92e98e99e4cfdbeb88b449"
+    },
+    {
+      "archivo": "Graphics/Tilesets/revision_mapa15.png",
+      "motivo": "Alpha binario en plano jugable; saturación corregida solo donde supera guía",
+      "tamano": [
+        256,
+        928
+      ],
+      "original_sha256": "8bb7ccd48c42d1bd5e6d76c14d2d864184d0cede776b8139bdada0f04d81b015",
+      "sha256": "e03a7c60ae9673b8af57e474b16aa34f5157f6c5baa7f58df1d83c7eb1bfe35d"
+    },
+    {
+      "archivo": "Graphics/Tilesets/revision_mapa16.png",
+      "motivo": "Alpha binario en plano jugable; saturación corregida solo donde supera guía",
+      "tamano": [
+        256,
+        864
+      ],
+      "original_sha256": "e4646e162bd8d7b583bfd16e413383f4d194e14c252b68a1d1e087d01688fae4",
+      "sha256": "8f880c1a1f6f49cb1cf458f72c7759e292ffeaba7995e11dd41c438fb4f864cb"
+    },
+    {
+      "archivo": "Graphics/Tilesets/acto4_alcantarillas.png",
+      "motivo": "Tiles 384/385 y 399: suelo y vacío de bajo contraste con bordes enlazados; otros 13 índices intactos",
+      "tamano": [
+        256,
+        64
+      ],
+      "original_sha256": "9bbb63b0dd0f703a586e24f8129000da661f71434a9b453e3d167b371a5b6d38",
+      "sha256": "e4bedbfc1bf6b8b5796364e2200dad4915cd912a7e44093013e19c7133138503"
+    },
+    {
+      "archivo": "Graphics/Characters/vacas_reserva_actor02.png",
+      "motivo": "Sustituto civil de reserva preparado desde arte propio; requiere asignación en Actors, sin uso en mapa detectado",
+      "tamano": [
+        128,
+        192
+      ],
+      "original_sha256": "3d42bae60ef18c017a6e4a3738592b4203c40a77bd8555d0d4e1891ab861853a",
+      "sha256": "3d42bae60ef18c017a6e4a3738592b4203c40a77bd8555d0d4e1891ab861853a"
+    },
+    {
+      "archivo": "Graphics/Battlers/vacas_reserva_actor02.png",
+      "motivo": "Sustituto civil de reserva preparado desde arte propio; requiere asignación en Actors, sin uso en mapa detectado",
+      "tamano": [
+        240,
+        340
+      ],
+      "original_sha256": "bedb410c0d2d2e53931b8037dc4881eff1df85b5b23cc3afd0b87ea9f4cee9ce",
+      "sha256": "17e0c01f38fd5688db1fa699eb5b45bebb7e5c3b0284411087524bb230896efb"
+    },
+    {
+      "archivo": "Graphics/Characters/vacas_reserva_actor03.png",
+      "motivo": "Sustituto civil de reserva preparado desde arte propio; requiere asignación en Actors, sin uso en mapa detectado",
+      "tamano": [
+        128,
+        192
+      ],
+      "original_sha256": "8912c1d0f5d298fe5ab9d769bf0025661c2a21b009696781a3f0ce1d380d9a47",
+      "sha256": "8912c1d0f5d298fe5ab9d769bf0025661c2a21b009696781a3f0ce1d380d9a47"
+    },
+    {
+      "archivo": "Graphics/Battlers/vacas_reserva_actor03.png",
+      "motivo": "Sustituto civil de reserva preparado desde arte propio; requiere asignación en Actors, sin uso en mapa detectado",
+      "tamano": [
+        240,
+        340
+      ],
+      "original_sha256": "c2ec27782646992380688557746c24f7fcc47a2e9f4d5d77ca6129636e0f3d8c",
+      "sha256": "574cfe2ae84f695b0b62f668d7b6dc14dd02cd6f1c6da3a3c78f19a3a2e6ba73"
+    },
+    {
+      "archivo": "Graphics/Characters/vacas_reserva_actor04.png",
+      "motivo": "Sustituto civil de reserva preparado desde arte propio; requiere asignación en Actors, sin uso en mapa detectado",
+      "tamano": [
+        128,
+        192
+      ],
+      "original_sha256": "2b2652f2ff165eb5d887ea5ed1a4a7d7e91ba9e354884cff2a63fafafeb4ff25",
+      "sha256": "2b2652f2ff165eb5d887ea5ed1a4a7d7e91ba9e354884cff2a63fafafeb4ff25"
+    },
+    {
+      "archivo": "Graphics/Battlers/vacas_reserva_actor04.png",
+      "motivo": "Sustituto civil de reserva preparado desde arte propio; requiere asignación en Actors, sin uso en mapa detectado",
+      "tamano": [
+        240,
+        340
+      ],
+      "original_sha256": "8c08a5d69fb42b9d5aaf758c11b742e237b0f959c5efa4257015121ad7130464",
+      "sha256": "f8cd1540d32f6f67a4a28fffd8ff74a19872fa97f9709b2fec647b78da250f1a"
+    },
+    {
+      "archivo": "Graphics/Characters/vacas_reserva_actor05.png",
+      "motivo": "Sustituto civil de reserva preparado desde arte propio; requiere asignación en Actors, sin uso en mapa detectado",
+      "tamano": [
+        128,
+        192
+      ],
+      "original_sha256": "c21ebd3982cee211b2ecc7c6ec3b6a2c2f17f2d98fde63f265edba2aa2bd338c",
+      "sha256": "c21ebd3982cee211b2ecc7c6ec3b6a2c2f17f2d98fde63f265edba2aa2bd338c"
+    },
+    {
+      "archivo": "Graphics/Battlers/vacas_reserva_actor05.png",
+      "motivo": "Sustituto civil de reserva preparado desde arte propio; requiere asignación en Actors, sin uso en mapa detectado",
+      "tamano": [
+        240,
+        340
+      ],
+      "original_sha256": "bb9073820f7900c4e189da911c8b0785adc8c80da1d41a088879766a2e5e0180",
+      "sha256": "6cec36300ccb70a7682ca8881d457944cb5197d85822b19812a58334e3c92857"
+    },
+    {
+      "archivo": "Graphics/Characters/vacas_reserva_actor06.png",
+      "motivo": "Sustituto civil de reserva preparado desde arte propio; requiere asignación en Actors, sin uso en mapa detectado",
+      "tamano": [
+        128,
+        192
+      ],
+      "original_sha256": "240a5efa12249c6c11278275477158fba442838c0c91d09fe292b755426bc433",
+      "sha256": "240a5efa12249c6c11278275477158fba442838c0c91d09fe292b755426bc433"
+    },
+    {
+      "archivo": "Graphics/Battlers/vacas_reserva_actor06.png",
+      "motivo": "Sustituto civil de reserva preparado desde arte propio; requiere asignación en Actors, sin uso en mapa detectado",
+      "tamano": [
+        240,
+        340
+      ],
+      "original_sha256": "3dfe2687b2bc40ee86383209bdd04389e91635d15ff61c65a4218a5cdb2c5008",
+      "sha256": "f46a44c2ac21ed27553b268aea0063828fe9eecdc10ddf6247827ad3dd9ff549"
+    },
+    {
+      "archivo": "Graphics/Characters/vacas_reserva_actor07.png",
+      "motivo": "Sustituto civil de reserva preparado desde arte propio; requiere asignación en Actors, sin uso en mapa detectado",
+      "tamano": [
+        128,
+        192
+      ],
+      "original_sha256": "1d38204e26f9a466b17696a99de6506c880ed8faf40f69e2e410e87a316610a8",
+      "sha256": "1d38204e26f9a466b17696a99de6506c880ed8faf40f69e2e410e87a316610a8"
+    },
+    {
+      "archivo": "Graphics/Battlers/vacas_reserva_actor07.png",
+      "motivo": "Sustituto civil de reserva preparado desde arte propio; requiere asignación en Actors, sin uso en mapa detectado",
+      "tamano": [
+        240,
+        340
+      ],
+      "original_sha256": "94c6ceb5933db549fd13d5e2f13e4095bb11da8698f4f05ae49479659013cfd2",
+      "sha256": "db8edd1287d8cebedaa6768dcd55be6788ef8e468929c42014db35b75e0c79fb"
+    },
+    {
+      "archivo": "Graphics/Characters/vacas_reserva_actor08.png",
+      "motivo": "Sustituto civil de reserva preparado desde arte propio; requiere asignación en Actors, sin uso en mapa detectado",
+      "tamano": [
+        128,
+        192
+      ],
+      "original_sha256": "46dae2726604aa11ad2a3b89123d740a464e441c318d8d03d1b144327dc9eef1",
+      "sha256": "46dae2726604aa11ad2a3b89123d740a464e441c318d8d03d1b144327dc9eef1"
+    },
+    {
+      "archivo": "Graphics/Battlers/vacas_reserva_actor08.png",
+      "motivo": "Sustituto civil de reserva preparado desde arte propio; requiere asignación en Actors, sin uso en mapa detectado",
+      "tamano": [
+        240,
+        340
+      ],
+      "original_sha256": "fe0d9a8e18de9ac18e7f7bd42605ca26415f5b425878b04fd4b90f2563922ab3",
+      "sha256": "1f865f782b530f1ac97a3b7f6d718fa9b35c0a0e81052c53736d19c2338ce9bb"
+    },
+    {
+      "archivo": "Graphics/Characters/vacas_luz_escalera.png",
+      "motivo": "Alias de lámpara existente del proyecto; comprobar procedencia y cambiar referencia del mapa3 evento11",
+      "tamano": [
+        128,
+        256
+      ],
+      "original_sha256": "ec2734d044a96cca6b26913bf2285ef083c2c0176b45c41d16df447f7484350d",
+      "sha256": "ec2734d044a96cca6b26913bf2285ef083c2c0176b45c41d16df447f7484350d"
+    },
+    {
+      "archivo": "Graphics/Animations/vacas_rejilla_016-Ice01.png",
+      "motivo": "Corrección de geometría preparada con otro nombre: relleno transparente a 960 sin mover celdas 192; conserva arte RTP pendiente",
+      "tamano": [
+        960,
+        960
+      ],
+      "original_sha256": null,
+      "sha256": "c31d20b4ac2ccd420efefa3aa2c7c676a7b314cd7ae39b3d443811f9c8879558"
+    },
+    {
+      "archivo": "Graphics/Animations/vacas_rejilla_024-Support01.png",
+      "motivo": "Corrección de geometría preparada con otro nombre: relleno transparente a 960 sin mover celdas 192; conserva arte RTP pendiente",
+      "tamano": [
+        960,
+        384
+      ],
+      "original_sha256": null,
+      "sha256": "57e4dbbcfe0b6bb70246b55031e48ebad678858383b392c8169b530ae6254b62"
+    }
+  ]
+}

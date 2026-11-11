@@ -39,10 +39,8 @@ class Game_Player < Game_Character
   # * Set Map Display Position to Center of Screen
   #--------------------------------------------------------------------------
   def center(x, y)
-    max_x = [$game_map.width * 128 - Vacas_HD.w * 4, 0].max
-    max_y = [$game_map.height * 128 - Vacas_HD.h * 4, 0].max
-    $game_map.display_x = [0, [x * 128 - CENTER_X, max_x].min].max
-    $game_map.display_y = [0, [y * 128 - CENTER_Y, max_y].min].max
+    $game_map.display_x = x * 128 - (Vacas_HD.w / 2 - 16) * 4
+    $game_map.display_y = y * 128 - (Vacas_HD.h / 2 - 16) * 4
   end
   #--------------------------------------------------------------------------
   # * Move to Designated Position
@@ -228,25 +226,25 @@ class Game_Player < Game_Character
     super
     # If character moves down and is positioned lower than the center
     # of the screen
-    if @real_y > last_real_y and @real_y - $game_map.display_y > CENTER_Y
+    if @real_y > last_real_y and @real_y - $game_map.display_y > ((Vacas_HD.h / 2 - 16) * 4)
       # Scroll map down
       $game_map.scroll_down(@real_y - last_real_y)
     end
     # If character moves left and is positioned more let on-screen than
     # center
-    if @real_x < last_real_x and @real_x - $game_map.display_x < CENTER_X
+    if @real_x < last_real_x and @real_x - $game_map.display_x < ((Vacas_HD.w / 2 - 16) * 4)
       # Scroll map left
       $game_map.scroll_left(last_real_x - @real_x)
     end
     # If character moves right and is positioned more right on-screen than
     # center
-    if @real_x > last_real_x and @real_x - $game_map.display_x > CENTER_X
+    if @real_x > last_real_x and @real_x - $game_map.display_x > ((Vacas_HD.w / 2 - 16) * 4)
       # Scroll map right
       $game_map.scroll_right(@real_x - last_real_x)
     end
     # If character moves up and is positioned higher than the center
     # of the screen
-    if @real_y < last_real_y and @real_y - $game_map.display_y < CENTER_Y
+    if @real_y < last_real_y and @real_y - $game_map.display_y < ((Vacas_HD.h / 2 - 16) * 4)
       # Scroll map up
       $game_map.scroll_up(last_real_y - @real_y)
     end

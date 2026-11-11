@@ -17,7 +17,7 @@ try {
  const log=fs.createWriteStream('diseno/verificaciones/hd_motor.log');
  proc.stdout.pipe(log);proc.stderr.pipe(log);
  console.log('Unico Vacas.exe propio, PID '+proc.pid);
- const timer=setTimeout(()=>proc.kill(),600000);
+ const timer=setTimeout(()=>proc.kill(),120000);
  await new Promise((resolve,reject)=>{proc.on('error',reject);proc.on('exit',code=>{console.log('Salida '+code);resolve();});});
  clearTimeout(timer);log.end();
 } finally {

@@ -31,8 +31,63 @@ end
 hd_step('titulo') { hd_scene(Scene_Title.new,'titulo') }
 # Inicializacion de partida original; se omite la reproduccion de la cinematica.
 hd_step('partida') { Scene_Title.new.command_new_game; $scene=Scene_Map.new }
+hd_step('jarabe_desde_entrada_y_entrega') do
+  $game_map.setup(2)
+  $game_player.moveto(6,12)
+  seen = {[6,12]=>true}; queue = [[6,12]]
+  until queue.empty?
+    x,y = queue.shift
+    [[2,0,1],[4,-1,0],[6,1,0],[8,0,-1]].each do |d,dx,dy|
+      xy = [x+dx,y+dy]
+      if !seen[xy] && $game_player.passable?(x,y,d)
+        seen[xy] = true; queue.push(xy)
+      end
+    end
+  end
+  raise 'No se llega al lavabo' unless seen[[13,4]]
+  run_event = Proc.new do |id|
+    $game_map.refresh
+    event = $game_map.events[id]
+    it = Interpreter.new
+    it.setup(event.list,id)
+    frames = 0
+    while it.running? && frames < 2000
+      frames += 1; it.update
+      if $game_temp.message_text
+        $game_temp.choice_proc.call(0) if $game_temp.choice_max > 0
+        $game_temp.message_text = nil; $game_temp.choice_max = 0
+        $game_temp.message_proc.call if $game_temp.message_proc
+        $game_temp.message_proc = nil
+      end
+      $game_screen.update
+    end
+    raise 'Interprete bloqueado' if it.running?
+  end
+  run_event.call(14)
+  raise 'Madre no da ordenes' unless $game_switches[2]
+  $game_player.moveto(13,4); $game_player.turn_up
+  $game_map.refresh
+  raise 'Accion sobre lavabo no arranca' unless $game_player.check_event_trigger_there([0])
+  $game_map.events[11].clear_starting
+  run_event.call(11)
+  raise 'No recibe jarabe' unless $game_party.item_number(3) == 1
+  run_event.call(11)
+  raise 'Jarabe duplicado' unless $game_party.item_number(3) == 1
+  run_event.call(14)
+  raise 'No entrega jarabe' unless $game_switches[4] && $game_party.item_number(3) == 0
+  Scene_Title.new.command_new_game; $scene = Scene_Map.new
+end
 hd_step('guardado_existente') do
-  File.open('Save1.rxdata','rb') { |f| Marshal.load(f) until f.eof? }
+  objects = []
+  File.open('Save1.rxdata','rb') { |f| objects.push(Marshal.load(f)) until f.eof? }
+  old_player = objects.find { |o| o.is_a?(Game_Player) }
+  old_switches = objects.find { |o| o.is_a?(Game_Switches) }
+  old_party = objects.find { |o| o.is_a?(Game_Party) }
+  File.open('Save1.rxdata','rb') { |f| Scene_Load.new.read_save_data(f) }
+  raise 'Mapa antiguo sin migrar' unless $game_system.instance_variable_get(:@jugabilidad_mapas_v1)
+  raise 'La migracion pierde posicion' unless [$game_player.x,$game_player.y]==[old_player.x,old_player.y]
+  raise 'La migracion altera la mision' unless [$game_switches[2],$game_switches[4],$game_party.item_number(3)] == [old_switches[2],old_switches[4],old_party.item_number(3)]
+  Scene_Title.new.command_new_game; $scene = Scene_Map.new
 end
 [
  [Scene_Menu.new,'pausa'],[Scene_VacasSettings.new(:titulo),'ajustes'],
@@ -93,6 +148,30 @@ hd_step('camara_todos_mapas') do
       hud.bitmap.dispose; hud.dispose
     end
   end
+end
+hd_step('camara_mapa_pequeno_y_limites_fraccionarios') do
+  $game_map.setup(2)
+  map = $game_map.instance_variable_get(:@map)
+  [[8,6],[20,15],[30,22]].each do |size|
+    map.width = size[0]; map.height = size[1]
+    [[0,0],[size[0]-1,size[1]-1]].each do |xy|
+      $game_player.center(xy[0],xy[1])
+      [[size[0],Vacas_HD.w,$game_map.display_x],
+       [size[1],Vacas_HD.h,$game_map.display_y]].each do |tiles,pixels,display|
+        span = tiles * 128 - pixels * 4
+        if span < 0
+          raise 'Mapa pequeno descentrado' unless display == span / 2
+        else
+          raise 'Camara fuera del mapa' unless display.between?(0,span)
+        end
+      end
+    end
+    $game_map.scroll_down(100000); $game_map.scroll_right(100000)
+    raise 'Limite inferior' unless $game_map.display_y == (size[1]*128 < Vacas_HD.h*4 ? (size[1]*128-Vacas_HD.h*4)/2 : size[1]*128-Vacas_HD.h*4)
+    $game_map.scroll_up(100000); $game_map.scroll_left(100000)
+    raise 'Limite superior' unless $game_map.display_y == [0,(size[1]*128-Vacas_HD.h*4)/2].min
+  end
+  $game_map.setup(2)
 end
 hd_step('ventanas_todas_clases') do
   $game_temp.in_battle=false

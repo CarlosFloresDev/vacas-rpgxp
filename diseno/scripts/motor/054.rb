@@ -173,7 +173,7 @@ class Window_Message < Window_Selectable
       when 0  # up
         self.y = Vacas_HD.y(16)
       when 1  # middle
-        self.y = Vacas_HD.y(160)
+        self.y = (Vacas_HD.h - self.height) / 2
       when 2  # down
         self.y = Vacas_HD.bottom(176)
       end

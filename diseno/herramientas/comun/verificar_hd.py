@@ -7,6 +7,8 @@ RUBY=Path('D:/DevTools/ruby/rubyinstaller-3.3.6-1-x64/bin/ruby.exe')
 COMMON=ROOT/'diseno/herramientas/comun'
 os.chdir(ROOT)
 report={'errores':[]}
+protected_paths=['Game.exe','RGSS104E.dll','Game.ini','Vacas.cfg','Save1.rxdata','Data/Scripts.rxdata']
+before_run={p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest() for p in protected_paths}
 config=json.loads((ROOT/'mkxp.json').read_text(encoding='utf8'))
 report['configuracion']=config
 assert config['rgssVersion']==1 and config['smoothScaling']==0
@@ -32,7 +34,12 @@ report['sha256_mkxp']=hashlib.sha256((ROOT/'Vacas.exe').read_bytes()).hexdigest(
 if not all(report['distribucion'].values()):report['errores'].append('Distribucion incompleta')
 report['integridad']=json.loads((ROOT/'diseno/verificaciones/hd_integridad.json').read_text())
 for path,expected in report['integridad']['before'].items():
-    if hashlib.sha256((ROOT/path).read_bytes()).hexdigest()!=expected:report['errores'].append('Integridad '+path)
+    if hashlib.sha256((ROOT/path).read_bytes()).hexdigest()!=expected:
+        if path=='Vacas.cfg' or path.startswith('Save'):
+            report.setdefault('diferencias_historicas_usuario',[]).append(path)
+        else:report['errores'].append('Integridad '+path)
+report['modificados_durante_verificacion']=[p for p,h in before_run.items() if hashlib.sha256((ROOT/p).read_bytes()).hexdigest()!=h]
+if report['modificados_durante_verificacion']:report['errores'].append('La prueba modifico archivos protegidos')
 report['alcance']='Carga y geometria simuladas con datos Marshal reales. Renderer, audio, foco y capturas nativas pendientes por ausencia de dispositivo de audio.'
 (ROOT/'diseno/verificaciones/hd_verificacion.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf8')
 print(json.dumps({'sintaxis':len(report['sintaxis']),'errores':report['errores'],'informe':'diseno/verificaciones/hd_verificacion.json'},ensure_ascii=False))

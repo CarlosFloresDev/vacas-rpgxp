@@ -1,0 +1,5176 @@
+{
+  "comprobaciones": 933,
+  "fallos": 54,
+  "pruebas": [
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ocupación celda 0",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 0",
+      "ok": false,
+      "detalle": [
+        61,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ocupación celda 1",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 1",
+      "ok": false,
+      "detalle": [
+        61,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ocupación celda 2",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 2",
+      "ok": false,
+      "detalle": [
+        61,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ocupación celda 3",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 3",
+      "ok": false,
+      "detalle": [
+        61,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ocupación celda 4",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 4",
+      "ok": false,
+      "detalle": [
+        61,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ocupación celda 5",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 5",
+      "ok": false,
+      "detalle": [
+        61,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ocupación celda 6",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 6",
+      "ok": false,
+      "detalle": [
+        61,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ocupación celda 7",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 7",
+      "ok": false,
+      "detalle": [
+        61,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ocupación celda 8",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 8",
+      "ok": false,
+      "detalle": [
+        61,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ocupación celda 9",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 9",
+      "ok": false,
+      "detalle": [
+        61,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ocupación celda 10",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 10",
+      "ok": false,
+      "detalle": [
+        61,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ocupación celda 11",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 11",
+      "ok": false,
+      "detalle": [
+        61,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ocupación celda 12",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 12",
+      "ok": false,
+      "detalle": [
+        61,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ocupación celda 13",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 13",
+      "ok": false,
+      "detalle": [
+        61,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ocupación celda 14",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 14",
+      "ok": false,
+      "detalle": [
+        61,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ocupación celda 15",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 15",
+      "ok": false,
+      "detalle": [
+        61,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Titles/vacas_titulo.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Titles/vacas_titulo.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Titles/vacas_titulo.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ocupación celda 0",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ancla celda 0",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ocupación celda 1",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ancla celda 1",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ocupación celda 2",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ancla celda 2",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ocupación celda 3",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ancla celda 3",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ocupación celda 4",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ancla celda 4",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ocupación celda 5",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ancla celda 5",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ocupación celda 6",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ancla celda 6",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ocupación celda 7",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ancla celda 7",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ocupación celda 8",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ancla celda 8",
+      "ok": false,
+      "detalle": [
+        63,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ocupación celda 9",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ancla celda 9",
+      "ok": false,
+      "detalle": [
+        63,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ocupación celda 10",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ancla celda 10",
+      "ok": false,
+      "detalle": [
+        63,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ocupación celda 11",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ancla celda 11",
+      "ok": false,
+      "detalle": [
+        63,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ocupación celda 12",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ancla celda 12",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ocupación celda 13",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ancla celda 13",
+      "ok": false,
+      "detalle": [
+        63,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ocupación celda 14",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ancla celda 14",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ocupación celda 15",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: ancla celda 15",
+      "ok": false,
+      "detalle": [
+        63,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ocupación celda 0",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 0",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ocupación celda 1",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 1",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ocupación celda 2",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 2",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ocupación celda 3",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 3",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ocupación celda 4",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 4",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ocupación celda 5",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 5",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ocupación celda 6",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 6",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ocupación celda 7",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 7",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ocupación celda 8",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 8",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ocupación celda 9",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 9",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ocupación celda 10",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 10",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ocupación celda 11",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 11",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ocupación celda 12",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 12",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ocupación celda 13",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 13",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ocupación celda 14",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 14",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ocupación celda 15",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 15",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ocupación celda 0",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 0",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ocupación celda 1",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 1",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ocupación celda 2",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 2",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ocupación celda 3",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 3",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ocupación celda 4",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 4",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ocupación celda 5",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 5",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ocupación celda 6",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 6",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ocupación celda 7",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 7",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ocupación celda 8",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 8",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ocupación celda 9",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 9",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ocupación celda 10",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 10",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ocupación celda 11",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 11",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ocupación celda 12",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 12",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ocupación celda 13",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 13",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ocupación celda 14",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 14",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ocupación celda 15",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 15",
+      "ok": false,
+      "detalle": [
+        76,
+        80
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ocupación celda 0",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ancla celda 0",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ocupación celda 1",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ancla celda 1",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ocupación celda 2",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ancla celda 2",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ocupación celda 3",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ancla celda 3",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ocupación celda 4",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ancla celda 4",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ocupación celda 5",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ancla celda 5",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ocupación celda 6",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ancla celda 6",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ocupación celda 7",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ancla celda 7",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ocupación celda 8",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ancla celda 8",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ocupación celda 9",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ancla celda 9",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ocupación celda 10",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ancla celda 10",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ocupación celda 11",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ancla celda 11",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ocupación celda 12",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ancla celda 12",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ocupación celda 13",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ancla celda 13",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ocupación celda 14",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ancla celda 14",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ocupación celda 15",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: ancla celda 15",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4_80.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ocupación celda 0",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ancla celda 0",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ocupación celda 1",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ancla celda 1",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ocupación celda 2",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ancla celda 2",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ocupación celda 3",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ancla celda 3",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ocupación celda 4",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ancla celda 4",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ocupación celda 5",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ancla celda 5",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ocupación celda 6",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ancla celda 6",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ocupación celda 7",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ancla celda 7",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ocupación celda 8",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ancla celda 8",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ocupación celda 9",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ancla celda 9",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ocupación celda 10",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ancla celda 10",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ocupación celda 11",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ancla celda 11",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ocupación celda 12",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ancla celda 12",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ocupación celda 13",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ancla celda 13",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ocupación celda 14",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ancla celda 14",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ocupación celda 15",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: ancla celda 15",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco_80.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ocupación celda 0",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ancla celda 0",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ocupación celda 1",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ancla celda 1",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ocupación celda 2",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ancla celda 2",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ocupación celda 3",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ancla celda 3",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ocupación celda 4",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ancla celda 4",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ocupación celda 5",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ancla celda 5",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ocupación celda 6",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ancla celda 6",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ocupación celda 7",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ancla celda 7",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ocupación celda 8",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ancla celda 8",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ocupación celda 9",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ancla celda 9",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ocupación celda 10",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ancla celda 10",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ocupación celda 11",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ancla celda 11",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ocupación celda 12",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ancla celda 12",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ocupación celda 13",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ancla celda 13",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ocupación celda 14",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ancla celda 14",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ocupación celda 15",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: ancla celda 15",
+      "ok": true,
+      "detalle": [
+        46,
+        46
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca_80.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_cosas.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_cosas.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_cosas.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_cosas.png: ocupación celda 0",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_cosas.png: ancla celda 0",
+      "ok": true,
+      "detalle": [
+        32,
+        32
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_cosas.png: ocupación celda 1",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_cosas.png: ancla celda 1",
+      "ok": true,
+      "detalle": [
+        32,
+        32
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_cosas.png: ocupación celda 2",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_cosas.png: ancla celda 2",
+      "ok": true,
+      "detalle": [
+        32,
+        32
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_cosas.png: ocupación celda 3",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_cosas.png: ancla celda 3",
+      "ok": true,
+      "detalle": [
+        29,
+        29
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_cosas.png: ocupación celda 4",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_cosas.png: ancla celda 4",
+      "ok": true,
+      "detalle": [
+        32,
+        32
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_cosas.png: ocupación celda 5",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_cosas.png: ancla celda 5",
+      "ok": true,
+      "detalle": [
+        32,
+        32
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_cosas.png: ocupación celda 6",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_cosas.png: ancla celda 6",
+      "ok": true,
+      "detalle": [
+        32,
+        32
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_cosas.png: ocupación celda 7",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_cosas.png: ancla celda 7",
+      "ok": true,
+      "detalle": [
+        32,
+        32
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_cosas.png: ocupación celda 8",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_cosas.png: ocupación celda 9",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_cosas.png: ocupación celda 10",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_cosas.png: ocupación celda 11",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_cosas.png: ocupación celda 12",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_cosas.png: ocupación celda 13",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_cosas.png: ocupación celda 14",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_cosas.png: ocupación celda 15",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 0",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 0",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 1",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 1",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 2",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 2",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 3",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 3",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 4",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 4",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 5",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 5",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 6",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 6",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 7",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 7",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 8",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 8",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 9",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 9",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 10",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 10",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 11",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 11",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 12",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 12",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 13",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 13",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 14",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 14",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 15",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 15",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ocupación celda 0",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ancla celda 0",
+      "ok": true,
+      "detalle": [
+        59,
+        59
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ocupación celda 1",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ancla celda 1",
+      "ok": true,
+      "detalle": [
+        59,
+        59
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ocupación celda 2",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ancla celda 2",
+      "ok": true,
+      "detalle": [
+        59,
+        59
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ocupación celda 3",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ancla celda 3",
+      "ok": true,
+      "detalle": [
+        59,
+        59
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ocupación celda 4",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ancla celda 4",
+      "ok": true,
+      "detalle": [
+        62,
+        62
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ocupación celda 5",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ancla celda 5",
+      "ok": true,
+      "detalle": [
+        63,
+        63
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ocupación celda 6",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ancla celda 6",
+      "ok": true,
+      "detalle": [
+        63,
+        63
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ocupación celda 7",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ancla celda 7",
+      "ok": true,
+      "detalle": [
+        23,
+        23
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ocupación celda 8",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ancla celda 8",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ocupación celda 9",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ancla celda 9",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ocupación celda 10",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ancla celda 10",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ocupación celda 11",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ancla celda 11",
+      "ok": true,
+      "detalle": [
+        61,
+        61
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ocupación celda 12",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ancla celda 12",
+      "ok": true,
+      "detalle": [
+        59,
+        59
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ocupación celda 13",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ancla celda 13",
+      "ok": true,
+      "detalle": [
+        59,
+        59
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ocupación celda 14",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ancla celda 14",
+      "ok": true,
+      "detalle": [
+        59,
+        59
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ocupación celda 15",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: ancla celda 15",
+      "ok": true,
+      "detalle": [
+        59,
+        59
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ocupación celda 0",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ancla celda 0",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ocupación celda 1",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ancla celda 1",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ocupación celda 2",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ancla celda 2",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ocupación celda 3",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ancla celda 3",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ocupación celda 4",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ancla celda 4",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ocupación celda 5",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ancla celda 5",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ocupación celda 6",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ancla celda 6",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ocupación celda 7",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ancla celda 7",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ocupación celda 8",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ancla celda 8",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ocupación celda 9",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ancla celda 9",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ocupación celda 10",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ancla celda 10",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ocupación celda 11",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ancla celda 11",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ocupación celda 12",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ancla celda 12",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ocupación celda 13",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ancla celda 13",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ocupación celda 14",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ancla celda 14",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ocupación celda 15",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: ancla celda 15",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Autotiles/048-Water01.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/048-Water01.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/048-Water01.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/vacas_canal.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/vacas_canal.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/vacas_canal.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_ajuste.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_ajuste.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_ajuste.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_bateria.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_bateria.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_bateria.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_estado_2.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_estado_2.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_estado_2.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_estado_3.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_estado_3.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_estado_3.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_estado_4.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_estado_4.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_estado_4.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_nota.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_nota.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_nota.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_objeto.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_objeto.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_objeto.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_salir.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_salir.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_salir.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_03.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_03.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_03.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa01.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa01.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa01.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa02.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa02.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa02.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa03.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa03.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa03.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa04.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa04.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa04.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa05.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa05.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa05.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa06.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa06.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa06.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa07.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa07.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa07.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa08.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa08.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa08.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa09.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa09.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa09.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa10.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa10.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa10.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa11.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa11.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa11.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa12.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa12.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa12.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa13.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa13.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa13.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa14.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa14.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa14.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa15.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa15.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa15.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa16.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa16.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa16.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/acto4_alcantarillas.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/acto4_alcantarillas.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/acto4_alcantarillas.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_reserva_actor02.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/vacas_reserva_actor02.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_reserva_actor03.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/vacas_reserva_actor03.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_reserva_actor04.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/vacas_reserva_actor04.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_reserva_actor05.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/vacas_reserva_actor05.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_reserva_actor06.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/vacas_reserva_actor06.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_reserva_actor07.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/vacas_reserva_actor07.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_reserva_actor08.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/vacas_reserva_actor08.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_luz_escalera.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/vacas_rejilla_016-Ice01.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/vacas_rejilla_024-Support01.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "alcantarilla: otros 13 tiles idénticos",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "suelo: unión horizontal exacta",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "suelo: unión vertical exacta",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/001-Action01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/002-Action02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/003-Attack01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/004-Attack02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/005-Attack03.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/006-Weapon01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/007-Weapon02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/008-Weapon03.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/009-Weapon04.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/010-Weapon05.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/011-Weapon06.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/012-Heal01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/013-Heal02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/014-Heal03.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/015-Fire01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/016-Ice01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/017-Thunder01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/018-Water01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/019-Earth01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/020-Wind01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/021-Light01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/022-Darkness01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/023-Burst01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/024-Support01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/025-Support02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/026-Support03.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/027-Support04.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/028-State01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/029-Emotion01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Animations/030-Explosion01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/001-G_Water01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/002-G_Shadow01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/003-G_Ground01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/004-G_Ground02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/005-G_Road01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/006-G_Road02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/007-G_Undulation01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/008-G_Undulation02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/009-G2_Water01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/010-G2_Ground01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/011-G2_Ground02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/012-G2_Swamp01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/013-G2_Swamp02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/014-G2_Swamp03.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/015-Sa_Water01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/016-Sa_Shadow01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/017-Sa_Grass01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/018-Sa_Ground01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/019-Sa_Grass02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/020-Sa_Grass03.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/021-Sa_Road01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/022-Roof01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/023-Sa_Undulation01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/024-Ocean01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/025-Ocean02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/026-Ocean03.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/027-Ocean04.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/028-Sn_Water01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/029-Sn_Shadow01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/030-Sn_Ground01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/031-Sn_Undulation01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/032-T_Ocean01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/033-Waterfall01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/034-Waterfall02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/035-Waterfall03.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/036-Tree01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/037-Tree02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/038-Tree03.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/039-Tree04.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/040-Ground01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/041-Grass01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/042-Ground02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/043-Grass02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/044-Road01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/045-Road02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/046-Road03.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/047-Flower01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/048-Water01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/049-St_Shadow01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/050-Roof02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/051-Carpet01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/052-Carpet02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/053-Wall01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/054-Wall02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/055-Wall03.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/056-CE_Water01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/057-CE_Shadow01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/058-CE_Ground01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/059-CE_Ground02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/060-CE_Grass01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/061-CE_Road01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/062-CF_Lava01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/063-CF_Shadow01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/064-CF_Ground01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/065-CF_Ground02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/066-CF_Ground03.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/067-CF_Ground04.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/068-CI_Water01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/069-CI_Shadow01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/070-CI_Snow01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/071-CI_Ground01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/072-CI_Ice01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/073-CI_Ground02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/074-CW_Water01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/075-CW_Shadow01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/076-CW_Grass01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/077-CW_Grass02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/078-CW_Ground01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/079-CW_Grass03.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/080-B_Ground01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/081-B_Ground02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Autotiles/vacas_canal.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlebacks/mente_matadero.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlebacks/mente_piso.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlebacks/mente_tunel.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlebacks/ui_alcantarillas.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlebacks/ui_camaras.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlebacks/ui_laboratorio.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlebacks/ui_manada.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlebacks/ui_matadero.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlebacks/ui_piso.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/010-Lancer02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/013-Warrior01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/019-Thief04.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/022-Hunter03.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/023-Gunner01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/029-Cleric05.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/038-Mage06.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/054-Undead04.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/058-Snake04.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/062-Aquatic04.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/066-Beast04.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/070-Goblin04.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/073-Bird03.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/074-Bird04.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/077-Devil03.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/078-Devil04.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/081-Angel03.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/082-Angel04.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/enemigo_camilla.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/enemigo_canal.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/enemigo_cencerro.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/enemigo_censo_bocas.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/enemigo_coro.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/enemigo_cripps_matarife.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/enemigo_diagnostico.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/enemigo_factura.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/enemigo_gancho_respira.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/enemigo_guernsey.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/enemigo_madre.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/enemigo_mesa_exige.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/enemigo_moscas.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/enemigo_numero_cadena.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/enemigo_pastor.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/enemigo_puerta_muerde.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/enemigo_pulmon.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/enemigo_res_cuenta.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/enemigo_rey.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/enemigo_rey_sin_rostro.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/enemigo_sombra_cripps.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/enemigo_tarro.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/enemigo_televisor.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/enemigo_tunel.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/enemigo_turno_noche.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/enemigo_vaca.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Battlers/steven_mente.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/010-Lancer02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/013-Warrior01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/019-Thief04.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/022-Hunter03.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/023-Gunner01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/029-Cleric05.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/038-Mage06.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/185-Light02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_alcantarilla.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_anselmo.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_borracho.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_carnicero.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_cosas.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_cripps.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_elena.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_furgoneta.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_guernsey4.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_junco.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_lucy.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_madre.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_matadero.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muebles.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_muesca.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_obrero1.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_obrero2.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_obrero3.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_obrero4.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_perro.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_puerta.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_reclutador.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_remedios.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_steven.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_steven_mono.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_tablon.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_transeunte.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vaca_canela.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_vacio.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Fogs/002-Clouds01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Gameovers/vacas_gameover.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/001-Weapon01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/002-Weapon02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/003-Weapon03.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/004-Weapon04.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/005-Weapon05.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/006-Weapon06.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/007-Weapon07.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/008-Weapon08.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/009-Shield01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/010-Head01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/011-Head02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/013-Body01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/014-Body02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/015-Body03.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/016-Accessory01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/044-Skill01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/045-Skill02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/046-Skill03.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/047-Skill04.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/048-Skill05.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/050-Skill07.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_ajuste.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_bateria.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_estado_2.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_estado_3.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_estado_4.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_nota.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_objeto.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/ui_salir.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_habilidad_61.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_habilidad_62.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_habilidad_63.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_habilidad_64.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_habilidad_65.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_habilidad_66.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_habilidad_67.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_habilidad_68.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_habilidad_69.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_habilidad_70.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_03.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_04.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_05.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_06.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_07.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_08.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_09.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_10.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_11.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_12.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_13.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_14.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_15.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_16.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_17.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_18.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_19.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_20.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_21.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_22.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_23.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_24.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_25.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_26.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_27.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_28.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_29.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_30.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_31.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_32.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_33.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_34.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_35.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_36.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_37.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_38.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_39.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Icons/vacas_item_40.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/acto5_luz22.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/acto5_luz23.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/acto5_luz24.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/acto5_luz25.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/acto5_luz26.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/acto5_luz27.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/acto6_luz28.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/acto6_luz29.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/acto6_luz30.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/acto6_luz31.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/acto6_luz32.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/cine_altar.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/cine_ciudad.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/cine_matadero.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/cine_piso.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/feka_gota.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/feka_halo.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/feka_linea.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/feka_logo.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/feka_presenta.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/retrato_anselmo_neutral.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/retrato_benito_neutral.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/retrato_borracho_neutral.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/retrato_chato_neutral.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/retrato_cripps_ira.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/retrato_cripps_neutral.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/retrato_dog_miedo.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/retrato_dog_neutral.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/retrato_elena_neutral.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/retrato_encarna_neutral.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/retrato_guernsey_neutral.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/retrato_guernsey_susurro.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/retrato_junco_neutral.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/retrato_lucy_calma.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/retrato_lucy_neutral.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/retrato_lucy_quiebre.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/retrato_lucy_susurro.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/retrato_madre_envejecida_neutral.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/retrato_madre_ira.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/retrato_madre_neutral.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/retrato_molina_neutral.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/retrato_muesca_neutral.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/retrato_reclutador_neutral.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/retrato_remedios_neutral.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/retrato_rubio_neutral.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/retrato_sierra_neutral.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/retrato_steven_miedo.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/retrato_steven_neutral.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/revision_luz01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/revision_luz02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/revision_luz03.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/revision_luz04.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/revision_luz05.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/revision_luz06.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/revision_luz07.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/revision_luz08.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/revision_luz09.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/revision_luz10.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/revision_luz11.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/revision_luz12.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/revision_luz13.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/revision_luz14.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/revision_luz15.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/revision_luz16.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/screamer_1.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/screamer_10.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/screamer_11.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/screamer_12.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/screamer_13.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/screamer_2.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/screamer_3.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/screamer_4.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/screamer_5.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/screamer_6.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/screamer_7.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/screamer_8.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/screamer_9.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/ui_avance.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/ui_bar_cordura.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/ui_bar_vida.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/ui_cursor.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/ui_fog.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/ui_gameover.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/ui_menu.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/ui_target.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Pictures/ui_titulo.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/001-Grassland01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/002-Woods01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/003-Forest01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/004-Mountain01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/005-Beach01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/006-Desert01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/007-Swamp01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/008-Snowfield01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/009-CastleTown01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/010-CastleTown02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/011-PortTown01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/012-PortTown02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/013-PostTown01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/014-PostTown02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/015-ForestTown01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/016-ForestTown02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/017-MineTown01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/018-MineTown02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/019-DesertTown01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/020-DesertTown02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/021-SnowTown01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/022-SnowTown02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/023-FarmVillage01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/024-FarmVillage02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/025-Castle01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/026-Castle02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/027-Castle03.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/028-Church01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/029-Church02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/030-Ship01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/031-Ship02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/032-Heaven01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/033-Heaven02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/034-Bridge01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/035-Ruins01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/036-Shop01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/037-Fort01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/038-Fort02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/039-Tower01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/040-Tower02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/041-EvilCastle01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/042-EvilCastle02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/043-Cave01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/044-Cave02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/045-Cave03.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/046-Cave04.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/047-Mine01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/048-Sewer01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/049-InnerBody01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/050-DarkSpace01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/acto4_alcantarillas.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/acto5_matanza.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/acto6_reydios.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa01.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa02.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa03.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa04.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa05.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa06.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa07.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa08.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa09.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa10.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa11.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa12.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa13.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa14.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa15.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/revision_mapa16.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Tilesets/vacas_matadero.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Titles/vacas_titulo.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Transitions/003-Blind03.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Windowskins/ui_windowskin.png: contrato global",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Windowskins/vacas_ventana.png: contrato global",
+      "ok": true,
+      "detalle": null
+    }
+  ],
+  "limites": "No ejecuta Game.exe ni certifica perspectiva automáticamente. Data se modifica por otra tarea: no se usan hashes globales para atribuir cambios."
+}

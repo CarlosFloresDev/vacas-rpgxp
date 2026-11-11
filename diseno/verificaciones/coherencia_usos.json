@@ -1,0 +1,8184 @@
+{
+  "Graphics/Characters/vacas_steven.png": [
+    {
+      "ruta": "Actors[1].character_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/steven_mente.png": [
+    {
+      "ruta": "Actors[1].battler_name",
+      "mapa": null
+    },
+    {
+      "ruta": "System.battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Characters/010-Lancer02.png": [
+    {
+      "ruta": "Actors[2].character_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/010-Lancer02.png": [
+    {
+      "ruta": "Actors[2].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Characters/013-Warrior01.png": [
+    {
+      "ruta": "Actors[3].character_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/013-Warrior01.png": [
+    {
+      "ruta": "Actors[3].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Characters/019-Thief04.png": [
+    {
+      "ruta": "Actors[4].character_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/019-Thief04.png": [
+    {
+      "ruta": "Actors[4].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Characters/022-Hunter03.png": [
+    {
+      "ruta": "Actors[5].character_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/022-Hunter03.png": [
+    {
+      "ruta": "Actors[5].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Characters/023-Gunner01.png": [
+    {
+      "ruta": "Actors[6].character_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/023-Gunner01.png": [
+    {
+      "ruta": "Actors[6].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Characters/029-Cleric05.png": [
+    {
+      "ruta": "Actors[7].character_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/029-Cleric05.png": [
+    {
+      "ruta": "Actors[7].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Characters/038-Mage06.png": [
+    {
+      "ruta": "Actors[8].character_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/038-Mage06.png": [
+    {
+      "ruta": "Actors[8].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Animations/001-Action01.png": [
+    {
+      "ruta": "Animations[1].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[2].animation_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Animations/002-Action02.png": [
+    {
+      "ruta": "Animations[3].animation_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Animations/003-Attack01.png": [
+    {
+      "ruta": "Animations[4].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[13].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[14].animation_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Animations/004-Attack02.png": [
+    {
+      "ruta": "Animations[5].animation_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Animations/005-Attack03.png": [
+    {
+      "ruta": "Animations[6].animation_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Animations/006-Weapon01.png": [
+    {
+      "ruta": "Animations[7].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[67].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[68].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[69].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[70].animation_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Animations/007-Weapon02.png": [
+    {
+      "ruta": "Animations[8].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[71].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[72].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[73].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[74].animation_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Animations/008-Weapon03.png": [
+    {
+      "ruta": "Animations[9].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[75].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[76].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[77].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[78].animation_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Animations/009-Weapon04.png": [
+    {
+      "ruta": "Animations[10].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[79].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[80].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[81].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[82].animation_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Animations/010-Weapon05.png": [
+    {
+      "ruta": "Animations[11].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[83].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[84].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[85].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[86].animation_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Animations/011-Weapon06.png": [
+    {
+      "ruta": "Animations[12].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[87].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[88].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[89].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[90].animation_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Animations/012-Heal01.png": [
+    {
+      "ruta": "Animations[15].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[16].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[17].animation_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Animations/013-Heal02.png": [
+    {
+      "ruta": "Animations[18].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[19].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[20].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[21].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[22].animation_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Animations/014-Heal03.png": [
+    {
+      "ruta": "Animations[23].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[24].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[25].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[26].animation_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Animations/015-Fire01.png": [
+    {
+      "ruta": "Animations[27].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[28].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[29].animation_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Animations/016-Ice01.png": [
+    {
+      "ruta": "Animations[30].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[31].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[32].animation_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Animations/017-Thunder01.png": [
+    {
+      "ruta": "Animations[33].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[34].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[35].animation_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Animations/018-Water01.png": [
+    {
+      "ruta": "Animations[36].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[37].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[38].animation_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Animations/019-Earth01.png": [
+    {
+      "ruta": "Animations[39].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[40].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[41].animation_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Animations/020-Wind01.png": [
+    {
+      "ruta": "Animations[42].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[43].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[44].animation_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Animations/021-Light01.png": [
+    {
+      "ruta": "Animations[45].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[46].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[47].animation_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Animations/022-Darkness01.png": [
+    {
+      "ruta": "Animations[48].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[49].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[50].animation_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Animations/023-Burst01.png": [
+    {
+      "ruta": "Animations[51].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[52].animation_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Animations/024-Support01.png": [
+    {
+      "ruta": "Animations[53].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[54].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[55].animation_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Animations/025-Support02.png": [
+    {
+      "ruta": "Animations[56].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[57].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[58].animation_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Animations/026-Support03.png": [
+    {
+      "ruta": "Animations[59].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[60].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[61].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[62].animation_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Animations/027-Support04.png": [
+    {
+      "ruta": "Animations[63].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[64].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[65].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[66].animation_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Animations/028-State01.png": [
+    {
+      "ruta": "Animations[91].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[92].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[93].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[94].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[95].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[96].animation_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Animations/029-Emotion01.png": [
+    {
+      "ruta": "Animations[97].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[98].animation_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Animations/030-Explosion01.png": [
+    {
+      "ruta": "Animations[99].animation_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Animations[100].animation_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/009-Shield01.png": [
+    {
+      "ruta": "Armors[1].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Armors[2].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Armors[3].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Armors[4].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/010-Head01.png": [
+    {
+      "ruta": "Armors[5].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Armors[6].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Armors[7].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Armors[8].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/011-Head02.png": [
+    {
+      "ruta": "Armors[9].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Armors[10].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Armors[11].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Armors[12].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/013-Body01.png": [
+    {
+      "ruta": "Armors[13].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Armors[14].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Armors[15].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Armors[16].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/014-Body02.png": [
+    {
+      "ruta": "Armors[17].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Armors[18].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Armors[19].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Armors[20].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/015-Body03.png": [
+    {
+      "ruta": "Armors[21].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Armors[22].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Armors[23].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Armors[24].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/016-Accessory01.png": [
+    {
+      "ruta": "Armors[25].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Armors[26].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Armors[27].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Armors[28].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Armors[29].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Armors[30].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Armors[31].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Armors[32].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Pictures/retrato_steven_neutral.png": [
+    {
+      "ruta": "CommonEvents[1].list[24].parameters[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Map002.events.3.pages[0].list[5].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.3.pages[0].list[15].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.4.pages[1].list[52].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.4.pages[4].list[25].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.4.pages[5].list[25].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.5.pages[1].list[52].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.5.pages[4].list[25].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.5.pages[5].list[25].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.8.pages[0].list[3].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[0].list[59].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[0].list[133].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[4].list[93].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[5].list[6].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.15.pages[1].list[8].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.31.pages[0].list[116].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.34.pages[0].list[38].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.34.pages[0].list[45].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.34.pages[2].list[38].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.34.pages[2].list[45].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.39.pages[1].list[11].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map003.events.7.pages[0].list[4].parameters[0]",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map003.events.7.pages[1].list[3].parameters[0]",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map003.events.15.pages[1].list[46].parameters[0]",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map004.events.3.pages[0].list[9].parameters[0]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map005.events.2.pages[0].list[17].parameters[0]",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map006.events.5.pages[0].list[9].parameters[0]",
+      "mapa": 6
+    },
+    {
+      "ruta": "Map006.events.9.pages[0].list[4].parameters[0]",
+      "mapa": 6
+    },
+    {
+      "ruta": "Map007.events.11.pages[0].list[6].parameters[0]",
+      "mapa": 7
+    },
+    {
+      "ruta": "Map007.events.14.pages[0].list[9].parameters[0]",
+      "mapa": 7
+    },
+    {
+      "ruta": "Map008.events.53.pages[0].list[33].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.58.pages[0].list[9].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.59.pages[1].list[69].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.59.pages[1].list[79].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map010.events.1.pages[0].list[12].parameters[0]",
+      "mapa": 10
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[10].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[15].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[138].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[150].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.4.pages[0].list[16].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map012.events.4.pages[0].list[4].parameters[0]",
+      "mapa": 12
+    },
+    {
+      "ruta": "Map012.events.6.pages[0].list[5].parameters[0]",
+      "mapa": 12
+    },
+    {
+      "ruta": "Map013.events.3.pages[0].list[5].parameters[0]",
+      "mapa": 13
+    },
+    {
+      "ruta": "Map015.events.3.pages[0].list[6].parameters[0]",
+      "mapa": 15
+    },
+    {
+      "ruta": "Map016.events.7.pages[0].list[6].parameters[0]",
+      "mapa": 16
+    },
+    {
+      "ruta": "Map016.events.7.pages[0].list[14].parameters[0]",
+      "mapa": 16
+    },
+    {
+      "ruta": "Map016.events.7.pages[0].list[18].parameters[0]",
+      "mapa": 16
+    },
+    {
+      "ruta": "Map016.events.8.pages[0].list[64].parameters[0]",
+      "mapa": 16
+    },
+    {
+      "ruta": "Map016.events.8.pages[0].list[84].parameters[0]",
+      "mapa": 16
+    },
+    {
+      "ruta": "Map017.events.2.pages[0].list[7].parameters[0]",
+      "mapa": 17
+    },
+    {
+      "ruta": "Map018.events.5.pages[0].list[5].parameters[0]",
+      "mapa": 18
+    },
+    {
+      "ruta": "Map018.events.5.pages[0].list[11].parameters[0]",
+      "mapa": 18
+    },
+    {
+      "ruta": "Map020.events.4.pages[0].list[82].parameters[0]",
+      "mapa": 20
+    },
+    {
+      "ruta": "Map020.events.4.pages[0].list[98].parameters[0]",
+      "mapa": 20
+    },
+    {
+      "ruta": "Map024.events.3.pages[0].list[12].parameters[0]",
+      "mapa": 24
+    },
+    {
+      "ruta": "Map024.events.4.pages[0].list[12].parameters[0]",
+      "mapa": 24
+    },
+    {
+      "ruta": "Map026.events.9.pages[1].list[83].parameters[0]",
+      "mapa": 26
+    },
+    {
+      "ruta": "Map026.events.9.pages[1].list[137].parameters[0]",
+      "mapa": 26
+    },
+    {
+      "ruta": "Map028.events.2.pages[0].list[22].parameters[0]",
+      "mapa": 28
+    },
+    {
+      "ruta": "Map029.events.4.pages[1].list[2].parameters[0]",
+      "mapa": 29
+    },
+    {
+      "ruta": "Map030.events.2.pages[0].list[5].parameters[0]",
+      "mapa": 30
+    },
+    {
+      "ruta": "Map030.events.5.pages[0].list[2].parameters[0]",
+      "mapa": 30
+    },
+    {
+      "ruta": "Map030.events.5.pages[0].list[25].parameters[0]",
+      "mapa": 30
+    },
+    {
+      "ruta": "Map030.events.5.pages[0].list[28].parameters[0]",
+      "mapa": 30
+    },
+    {
+      "ruta": "Map030.events.5.pages[0].list[34].parameters[0]",
+      "mapa": 30
+    },
+    {
+      "ruta": "Map030.events.5.pages[0].list[39].parameters[0]",
+      "mapa": 30
+    },
+    {
+      "ruta": "Map030.events.5.pages[0].list[47].parameters[0]",
+      "mapa": 30
+    },
+    {
+      "ruta": "Map030.events.5.pages[0].list[51].parameters[0]",
+      "mapa": 30
+    },
+    {
+      "ruta": "Map030.events.5.pages[0].list[83].parameters[0]",
+      "mapa": 30
+    },
+    {
+      "ruta": "Map032.events.2.pages[0].list[7].parameters[0]",
+      "mapa": 32
+    },
+    {
+      "ruta": "Map032.events.7.pages[0].list[43].parameters[0]",
+      "mapa": 32
+    },
+    {
+      "ruta": "Map032.events.7.pages[0].list[47].parameters[0]",
+      "mapa": 32
+    },
+    {
+      "ruta": "Map032.events.7.pages[0].list[153].parameters[0]",
+      "mapa": 32
+    },
+    {
+      "ruta": "Map032.events.7.pages[0].list[262].parameters[0]",
+      "mapa": 32
+    },
+    {
+      "ruta": "Map032.events.7.pages[0].list[266].parameters[0]",
+      "mapa": 32
+    }
+  ],
+  "Graphics/Battlers/enemigo_vaca.png": [
+    {
+      "ruta": "Enemies[1].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/enemigo_madre.png": [
+    {
+      "ruta": "Enemies[2].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/enemigo_tunel.png": [
+    {
+      "ruta": "Enemies[3].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/enemigo_sombra_cripps.png": [
+    {
+      "ruta": "Enemies[4].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/enemigo_moscas.png": [
+    {
+      "ruta": "Enemies[5].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/enemigo_guernsey.png": [
+    {
+      "ruta": "Enemies[6].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/enemigo_canal.png": [
+    {
+      "ruta": "Enemies[7].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/enemigo_televisor.png": [
+    {
+      "ruta": "Enemies[8].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/enemigo_rey.png": [
+    {
+      "ruta": "Enemies[9].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/enemigo_tarro.png": [
+    {
+      "ruta": "Enemies[10].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/enemigo_factura.png": [
+    {
+      "ruta": "Enemies[11].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/enemigo_camilla.png": [
+    {
+      "ruta": "Enemies[12].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/enemigo_diagnostico.png": [
+    {
+      "ruta": "Enemies[13].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/enemigo_coro.png": [
+    {
+      "ruta": "Enemies[14].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/enemigo_pulmon.png": [
+    {
+      "ruta": "Enemies[15].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/enemigo_cencerro.png": [
+    {
+      "ruta": "Enemies[16].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/enemigo_pastor.png": [
+    {
+      "ruta": "Enemies[17].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/enemigo_turno_noche.png": [
+    {
+      "ruta": "Enemies[18].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/enemigo_res_cuenta.png": [
+    {
+      "ruta": "Enemies[19].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/enemigo_gancho_respira.png": [
+    {
+      "ruta": "Enemies[20].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/enemigo_cripps_matarife.png": [
+    {
+      "ruta": "Enemies[21].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/073-Bird03.png": [
+    {
+      "ruta": "Enemies[22].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/077-Devil03.png": [
+    {
+      "ruta": "Enemies[23].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/081-Angel03.png": [
+    {
+      "ruta": "Enemies[24].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/054-Undead04.png": [
+    {
+      "ruta": "Enemies[25].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/058-Snake04.png": [
+    {
+      "ruta": "Enemies[26].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/062-Aquatic04.png": [
+    {
+      "ruta": "Enemies[27].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/066-Beast04.png": [
+    {
+      "ruta": "Enemies[28].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/070-Goblin04.png": [
+    {
+      "ruta": "Enemies[29].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/074-Bird04.png": [
+    {
+      "ruta": "Enemies[30].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/078-Devil04.png": [
+    {
+      "ruta": "Enemies[31].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/082-Angel04.png": [
+    {
+      "ruta": "Enemies[32].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/enemigo_censo_bocas.png": [
+    {
+      "ruta": "Enemies[33].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/enemigo_mesa_exige.png": [
+    {
+      "ruta": "Enemies[34].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/enemigo_rey_sin_rostro.png": [
+    {
+      "ruta": "Enemies[35].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/enemigo_numero_cadena.png": [
+    {
+      "ruta": "Enemies[36].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlers/enemigo_puerta_muerde.png": [
+    {
+      "ruta": "Enemies[37].battler_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_01.png": [
+    {
+      "ruta": "Items[1].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_02.png": [
+    {
+      "ruta": "Items[2].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_03.png": [
+    {
+      "ruta": "Items[3].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_04.png": [
+    {
+      "ruta": "Items[4].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_05.png": [
+    {
+      "ruta": "Items[5].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_06.png": [
+    {
+      "ruta": "Items[6].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_07.png": [
+    {
+      "ruta": "Items[7].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_08.png": [
+    {
+      "ruta": "Items[8].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_09.png": [
+    {
+      "ruta": "Items[9].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_10.png": [
+    {
+      "ruta": "Items[10].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_11.png": [
+    {
+      "ruta": "Items[11].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_12.png": [
+    {
+      "ruta": "Items[12].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_13.png": [
+    {
+      "ruta": "Items[13].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_14.png": [
+    {
+      "ruta": "Items[14].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_15.png": [
+    {
+      "ruta": "Items[15].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_16.png": [
+    {
+      "ruta": "Items[16].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_17.png": [
+    {
+      "ruta": "Items[17].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_18.png": [
+    {
+      "ruta": "Items[18].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_19.png": [
+    {
+      "ruta": "Items[19].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_20.png": [
+    {
+      "ruta": "Items[20].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_21.png": [
+    {
+      "ruta": "Items[21].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_22.png": [
+    {
+      "ruta": "Items[22].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_23.png": [
+    {
+      "ruta": "Items[23].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_24.png": [
+    {
+      "ruta": "Items[24].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_25.png": [
+    {
+      "ruta": "Items[25].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_26.png": [
+    {
+      "ruta": "Items[26].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_27.png": [
+    {
+      "ruta": "Items[27].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_28.png": [
+    {
+      "ruta": "Items[28].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_29.png": [
+    {
+      "ruta": "Items[29].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_30.png": [
+    {
+      "ruta": "Items[30].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_31.png": [
+    {
+      "ruta": "Items[31].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_32.png": [
+    {
+      "ruta": "Items[32].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_33.png": [
+    {
+      "ruta": "Items[33].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_34.png": [
+    {
+      "ruta": "Items[34].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_35.png": [
+    {
+      "ruta": "Items[35].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_36.png": [
+    {
+      "ruta": "Items[36].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_37.png": [
+    {
+      "ruta": "Items[37].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_38.png": [
+    {
+      "ruta": "Items[38].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_39.png": [
+    {
+      "ruta": "Items[39].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_item_40.png": [
+    {
+      "ruta": "Items[40].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Pictures/retrato_dog_neutral.png": [
+    {
+      "ruta": "Map001.events.1.pages[0].list[13].parameters[0]",
+      "mapa": 1
+    },
+    {
+      "ruta": "Map001.events.1.pages[0].list[21].parameters[0]",
+      "mapa": 1
+    },
+    {
+      "ruta": "Map002.events.1.pages[1].list[52].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.4.pages[2].list[10].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.4.pages[2].list[82].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.4.pages[4].list[62].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.4.pages[4].list[97].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.4.pages[4].list[196].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.4.pages[5].list[62].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.4.pages[5].list[97].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.4.pages[5].list[196].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.5.pages[2].list[10].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.5.pages[2].list[82].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.5.pages[4].list[62].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.5.pages[4].list[97].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.5.pages[4].list[196].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.5.pages[5].list[62].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.5.pages[5].list[97].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.5.pages[5].list[196].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.6.pages[1].list[84].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.6.pages[1].list[162].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.8.pages[0].list[6].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.12.pages[1].list[79].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.12.pages[1].list[157].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.34.pages[0].list[2].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.34.pages[0].list[13].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.34.pages[0].list[31].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.34.pages[0].list[51].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.34.pages[2].list[2].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.34.pages[2].list[13].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.34.pages[2].list[31].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.34.pages[2].list[51].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.34.pages[3].list[1].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.34.pages[3].list[8].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.34.pages[3].list[21].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.34.pages[4].list[0].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.35.pages[0].list[0].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.36.pages[0].list[0].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.36.pages[1].list[0].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.39.pages[1].list[5].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.48.pages[1].list[56].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map004.events.19.pages[1].list[61].parameters[0]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map005.events.2.pages[0].list[3].parameters[0]",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map007.events.14.pages[0].list[6].parameters[0]",
+      "mapa": 7
+    },
+    {
+      "ruta": "Map029.events.5.pages[1].list[0].parameters[0]",
+      "mapa": 29
+    },
+    {
+      "ruta": "Map030.events.2.pages[0].list[0].parameters[0]",
+      "mapa": 30
+    },
+    {
+      "ruta": "Map030.events.4.pages[0].list[0].parameters[0]",
+      "mapa": 30
+    },
+    {
+      "ruta": "Map030.events.5.pages[0].list[65].parameters[0]",
+      "mapa": 30
+    },
+    {
+      "ruta": "Map030.events.8.pages[0].list[0].parameters[0]",
+      "mapa": 30
+    },
+    {
+      "ruta": "Map030.events.9.pages[0].list[4].parameters[0]",
+      "mapa": 30
+    },
+    {
+      "ruta": "Map030.events.10.pages[0].list[4].parameters[0]",
+      "mapa": 30
+    },
+    {
+      "ruta": "Map031.events.2.pages[0].list[0].parameters[0]",
+      "mapa": 31
+    },
+    {
+      "ruta": "Map032.events.4.pages[0].list[0].parameters[0]",
+      "mapa": 32
+    },
+    {
+      "ruta": "Map032.events.7.pages[0].list[36].parameters[0]",
+      "mapa": 32
+    },
+    {
+      "ruta": "Map032.events.7.pages[0].list[93].parameters[0]",
+      "mapa": 32
+    },
+    {
+      "ruta": "Map032.events.7.pages[0].list[99].parameters[0]",
+      "mapa": 32
+    },
+    {
+      "ruta": "Map032.events.7.pages[0].list[146].parameters[0]",
+      "mapa": 32
+    },
+    {
+      "ruta": "Map032.events.7.pages[0].list[161].parameters[0]",
+      "mapa": 32
+    },
+    {
+      "ruta": "Map032.events.7.pages[0].list[167].parameters[0]",
+      "mapa": 32
+    },
+    {
+      "ruta": "Map032.events.7.pages[0].list[205].parameters[0]",
+      "mapa": 32
+    },
+    {
+      "ruta": "Map032.events.7.pages[0].list[210].parameters[0]",
+      "mapa": 32
+    },
+    {
+      "ruta": "Map032.events.7.pages[0].list[257].parameters[0]",
+      "mapa": 32
+    },
+    {
+      "ruta": "Map032.events.7.pages[0].list[274].parameters[0]",
+      "mapa": 32
+    },
+    {
+      "ruta": "Map032.events.7.pages[0].list[322].parameters[0]",
+      "mapa": 32
+    },
+    {
+      "ruta": "Map032.events.7.pages[0].list[328].parameters[0]",
+      "mapa": 32
+    },
+    {
+      "ruta": "Map032.events.7.pages[0].list[335].parameters[0]",
+      "mapa": 32
+    },
+    {
+      "ruta": "Map032.events.7.pages[0].list[346].parameters[0]",
+      "mapa": 32
+    }
+  ],
+  "Graphics/Tilesets/revision_mapa01.png": [
+    {
+      "ruta": "Map001.Tilesets[52].tileset_name",
+      "mapa": 1
+    },
+    {
+      "ruta": "Tilesets[52].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/053-Wall01.png": [
+    {
+      "ruta": "Map001.Tilesets[52].autotile_names[0]",
+      "mapa": 1
+    },
+    {
+      "ruta": "Map002.Tilesets[53].autotile_names[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map003.Tilesets[54].autotile_names[0]",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map005.Tilesets[56].autotile_names[0]",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map006.Tilesets[57].autotile_names[0]",
+      "mapa": 6
+    },
+    {
+      "ruta": "Map007.Tilesets[58].autotile_names[0]",
+      "mapa": 7
+    },
+    {
+      "ruta": "Map008.Tilesets[59].autotile_names[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map009.Tilesets[60].autotile_names[0]",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map010.Tilesets[61].autotile_names[0]",
+      "mapa": 10
+    },
+    {
+      "ruta": "Map011.Tilesets[62].autotile_names[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map012.Tilesets[63].autotile_names[0]",
+      "mapa": 12
+    },
+    {
+      "ruta": "Map013.Tilesets[64].autotile_names[0]",
+      "mapa": 13
+    },
+    {
+      "ruta": "Map014.Tilesets[65].autotile_names[0]",
+      "mapa": 14
+    },
+    {
+      "ruta": "Map015.Tilesets[66].autotile_names[0]",
+      "mapa": 15
+    },
+    {
+      "ruta": "Map016.Tilesets[67].autotile_names[0]",
+      "mapa": 16
+    },
+    {
+      "ruta": "Map022.Tilesets[69].autotile_names[0]",
+      "mapa": 22
+    },
+    {
+      "ruta": "Map023.Tilesets[69].autotile_names[0]",
+      "mapa": 23
+    },
+    {
+      "ruta": "Map024.Tilesets[69].autotile_names[0]",
+      "mapa": 24
+    },
+    {
+      "ruta": "Map025.Tilesets[69].autotile_names[0]",
+      "mapa": 25
+    },
+    {
+      "ruta": "Map026.Tilesets[69].autotile_names[0]",
+      "mapa": 26
+    },
+    {
+      "ruta": "Map027.Tilesets[69].autotile_names[0]",
+      "mapa": 27
+    },
+    {
+      "ruta": "Map028.Tilesets[70].autotile_names[0]",
+      "mapa": 28
+    },
+    {
+      "ruta": "Map029.Tilesets[70].autotile_names[0]",
+      "mapa": 29
+    },
+    {
+      "ruta": "Map030.Tilesets[70].autotile_names[0]",
+      "mapa": 30
+    },
+    {
+      "ruta": "Map031.Tilesets[70].autotile_names[0]",
+      "mapa": 31
+    },
+    {
+      "ruta": "Map032.Tilesets[70].autotile_names[0]",
+      "mapa": 32
+    },
+    {
+      "ruta": "Tilesets[12].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[18].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[26].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[27].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[33].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[36].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[40].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[48].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[51].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[52].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[53].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[54].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[56].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[57].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[58].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[59].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[60].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[61].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[62].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[63].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[64].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[65].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[66].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[67].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[69].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[70].autotile_names[0]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/vacas_canal.png": [
+    {
+      "ruta": "Map001.Tilesets[52].autotile_names[1]",
+      "mapa": 1
+    },
+    {
+      "ruta": "Map005.Tilesets[56].autotile_names[1]",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map006.Tilesets[57].autotile_names[1]",
+      "mapa": 6
+    },
+    {
+      "ruta": "Map007.Tilesets[58].autotile_names[1]",
+      "mapa": 7
+    },
+    {
+      "ruta": "Map008.Tilesets[59].autotile_names[1]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map009.Tilesets[60].autotile_names[1]",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map010.Tilesets[61].autotile_names[1]",
+      "mapa": 10
+    },
+    {
+      "ruta": "Map011.Tilesets[62].autotile_names[1]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map012.Tilesets[63].autotile_names[1]",
+      "mapa": 12
+    },
+    {
+      "ruta": "Map013.Tilesets[64].autotile_names[1]",
+      "mapa": 13
+    },
+    {
+      "ruta": "Map014.Tilesets[65].autotile_names[1]",
+      "mapa": 14
+    },
+    {
+      "ruta": "Map015.Tilesets[66].autotile_names[1]",
+      "mapa": 15
+    },
+    {
+      "ruta": "Map016.Tilesets[67].autotile_names[1]",
+      "mapa": 16
+    },
+    {
+      "ruta": "Map022.Tilesets[69].autotile_names[1]",
+      "mapa": 22
+    },
+    {
+      "ruta": "Map023.Tilesets[69].autotile_names[1]",
+      "mapa": 23
+    },
+    {
+      "ruta": "Map024.Tilesets[69].autotile_names[1]",
+      "mapa": 24
+    },
+    {
+      "ruta": "Map025.Tilesets[69].autotile_names[1]",
+      "mapa": 25
+    },
+    {
+      "ruta": "Map026.Tilesets[69].autotile_names[1]",
+      "mapa": 26
+    },
+    {
+      "ruta": "Map027.Tilesets[69].autotile_names[1]",
+      "mapa": 27
+    },
+    {
+      "ruta": "Map028.Tilesets[70].autotile_names[1]",
+      "mapa": 28
+    },
+    {
+      "ruta": "Map029.Tilesets[70].autotile_names[1]",
+      "mapa": 29
+    },
+    {
+      "ruta": "Map030.Tilesets[70].autotile_names[1]",
+      "mapa": 30
+    },
+    {
+      "ruta": "Map031.Tilesets[70].autotile_names[1]",
+      "mapa": 31
+    },
+    {
+      "ruta": "Map032.Tilesets[70].autotile_names[1]",
+      "mapa": 32
+    },
+    {
+      "ruta": "Tilesets[51].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[52].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[56].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[57].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[58].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[59].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[60].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[61].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[62].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[63].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[64].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[65].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[66].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[67].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[69].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[70].autotile_names[1]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Fogs/002-Clouds01.png": [
+    {
+      "ruta": "Map001.Tilesets[52].fog_name",
+      "mapa": 1
+    },
+    {
+      "ruta": "Map002.events.2.pages[0].list[31].parameters[1]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map003.events.1.pages[0].list[9].parameters[1]",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map004.events.1.pages[0].list[10].parameters[1]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map005.events.1.pages[0].list[15].parameters[1]",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map005.Tilesets[56].fog_name",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map006.events.1.pages[0].list[2].parameters[1]",
+      "mapa": 6
+    },
+    {
+      "ruta": "Map006.Tilesets[57].fog_name",
+      "mapa": 6
+    },
+    {
+      "ruta": "Map007.events.1.pages[0].list[2].parameters[1]",
+      "mapa": 7
+    },
+    {
+      "ruta": "Map007.Tilesets[58].fog_name",
+      "mapa": 7
+    },
+    {
+      "ruta": "Map008.events.3.pages[0].list[2].parameters[1]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.Tilesets[59].fog_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map009.events.1.pages[0].list[2].parameters[1]",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map009.Tilesets[60].fog_name",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map010.events.1.pages[0].list[2].parameters[1]",
+      "mapa": 10
+    },
+    {
+      "ruta": "Map010.Tilesets[61].fog_name",
+      "mapa": 10
+    },
+    {
+      "ruta": "Map011.events.2.pages[0].list[2].parameters[1]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.Tilesets[62].fog_name",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map012.Tilesets[63].fog_name",
+      "mapa": 12
+    },
+    {
+      "ruta": "Map013.Tilesets[64].fog_name",
+      "mapa": 13
+    },
+    {
+      "ruta": "Map014.Tilesets[65].fog_name",
+      "mapa": 14
+    },
+    {
+      "ruta": "Map015.Tilesets[66].fog_name",
+      "mapa": 15
+    },
+    {
+      "ruta": "Map016.Tilesets[67].fog_name",
+      "mapa": 16
+    },
+    {
+      "ruta": "Map017.Tilesets[68].fog_name",
+      "mapa": 17
+    },
+    {
+      "ruta": "Map018.Tilesets[68].fog_name",
+      "mapa": 18
+    },
+    {
+      "ruta": "Map019.Tilesets[68].fog_name",
+      "mapa": 19
+    },
+    {
+      "ruta": "Map020.Tilesets[68].fog_name",
+      "mapa": 20
+    },
+    {
+      "ruta": "Map021.Tilesets[68].fog_name",
+      "mapa": 21
+    },
+    {
+      "ruta": "Map022.Tilesets[69].fog_name",
+      "mapa": 22
+    },
+    {
+      "ruta": "Map023.Tilesets[69].fog_name",
+      "mapa": 23
+    },
+    {
+      "ruta": "Map024.Tilesets[69].fog_name",
+      "mapa": 24
+    },
+    {
+      "ruta": "Map025.Tilesets[69].fog_name",
+      "mapa": 25
+    },
+    {
+      "ruta": "Map026.Tilesets[69].fog_name",
+      "mapa": 26
+    },
+    {
+      "ruta": "Map027.Tilesets[69].fog_name",
+      "mapa": 27
+    },
+    {
+      "ruta": "Map028.Tilesets[70].fog_name",
+      "mapa": 28
+    },
+    {
+      "ruta": "Map029.Tilesets[70].fog_name",
+      "mapa": 29
+    },
+    {
+      "ruta": "Map030.Tilesets[70].fog_name",
+      "mapa": 30
+    },
+    {
+      "ruta": "Map031.Tilesets[70].fog_name",
+      "mapa": 31
+    },
+    {
+      "ruta": "Map032.Tilesets[70].fog_name",
+      "mapa": 32
+    },
+    {
+      "ruta": "Tilesets[51].fog_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[52].fog_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[56].fog_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[57].fog_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[58].fog_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[59].fog_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[60].fog_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[61].fog_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[62].fog_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[63].fog_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[64].fog_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[65].fog_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[66].fog_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[67].fog_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[68].fog_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[69].fog_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[70].fog_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Characters/vacas_madre.png": [
+    {
+      "ruta": "Map002.events.1.pages[1].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.1.pages[2].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[0].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[1].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[4].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[5].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.46.pages[1].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map030.events.5.pages[0].graphic.character_name",
+      "mapa": 30
+    },
+    {
+      "ruta": "Map030.events.5.pages[1].graphic.character_name",
+      "mapa": 30
+    }
+  ],
+  "Graphics/Pictures/retrato_madre_ira.png": [
+    {
+      "ruta": "Map002.events.1.pages[1].list[6].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.1.pages[1].list[16].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.3.pages[0].list[10].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.3.pages[0].list[11].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.4.pages[1].list[48].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.4.pages[2].list[36].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.4.pages[2].list[46].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.4.pages[4].list[195].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.4.pages[5].list[195].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.5.pages[1].list[48].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.5.pages[2].list[36].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.5.pages[2].list[46].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.5.pages[4].list[195].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.5.pages[5].list[195].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.6.pages[1].list[116].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.6.pages[1].list[126].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.12.pages[1].list[111].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.12.pages[1].list[121].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[0].list[152].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[4].list[24].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.31.pages[0].list[121].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.48.pages[1].list[10].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.48.pages[1].list[20].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map030.events.5.pages[0].list[4].parameters[0]",
+      "mapa": 30
+    }
+  ],
+  "Graphics/Pictures/retrato_madre_neutral.png": [
+    {
+      "ruta": "Map002.events.1.pages[1].list[68].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.1.pages[1].list[70].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.4.pages[1].list[49].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.4.pages[2].list[26].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.4.pages[2].list[98].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.4.pages[2].list[100].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.5.pages[1].list[49].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.5.pages[2].list[26].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.5.pages[2].list[98].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.5.pages[2].list[100].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.6.pages[1].list[29].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.6.pages[1].list[41].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.6.pages[1].list[100].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.6.pages[1].list[102].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.6.pages[1].list[178].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.6.pages[1].list[180].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.12.pages[1].list[27].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.12.pages[1].list[38].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.12.pages[1].list[95].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.12.pages[1].list[97].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.12.pages[1].list[173].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.12.pages[1].list[175].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[0].list[5].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[0].list[7].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[0].list[16].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[0].list[23].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[0].list[34].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[0].list[41].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[0].list[46].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[0].list[48].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[0].list[75].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[0].list[79].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[0].list[93].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[0].list[94].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[0].list[108].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[0].list[113].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[0].list[118].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[0].list[122].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[0].list[130].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[0].list[135].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[0].list[136].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[0].list[139].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[0].list[142].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[0].list[150].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[0].list[155].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[4].list[2].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[4].list[6].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[4].list[17].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[4].list[20].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[4].list[33].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[4].list[36].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[4].list[40].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[4].list[51].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[4].list[66].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[4].list[84].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[5].list[0].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.14.pages[5].list[11].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.15.pages[1].list[7].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.15.pages[1].list[9].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.15.pages[1].list[17].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.15.pages[1].list[28].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.46.pages[1].list[2].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.46.pages[1].list[5].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.46.pages[1].list[7].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.48.pages[1].list[72].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.48.pages[1].list[74].parameters[0]",
+      "mapa": 2
+    }
+  ],
+  "Graphics/Characters/vacas_muebles.png": [
+    {
+      "ruta": "Map002.events.6.pages[0].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.6.pages[1].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.6.pages[2].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.10.pages[0].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.11.pages[0].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.11.pages[1].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.12.pages[0].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.12.pages[1].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.13.pages[0].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.31.pages[0].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.31.pages[0].list[17].parameters[1].list[0].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.31.pages[0].list[18].parameters[0].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.31.pages[0].list[22].parameters[1].list[0].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.31.pages[0].list[23].parameters[0].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.31.pages[0].list[62].parameters[1].list[0].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.31.pages[0].list[63].parameters[0].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.31.pages[0].list[73].parameters[1].list[0].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.31.pages[0].list[74].parameters[0].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.31.pages[0].list[83].parameters[1].list[0].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.31.pages[0].list[84].parameters[0].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.31.pages[0].list[94].parameters[1].list[0].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.31.pages[0].list[95].parameters[0].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.31.pages[0].list[103].parameters[1].list[0].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.31.pages[0].list[104].parameters[0].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.31.pages[0].list[127].parameters[1].list[0].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.31.pages[0].list[128].parameters[0].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.31.pages[0].list[133].parameters[1].list[0].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.31.pages[0].list[134].parameters[0].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.31.pages[0].list[140].parameters[1].list[0].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.31.pages[0].list[141].parameters[0].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.31.pages[1].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.33.pages[0].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.33.pages[1].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.33.pages[2].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.42.pages[0].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.42.pages[1].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map012.events.5.pages[0].graphic.character_name",
+      "mapa": 12
+    }
+  ],
+  "Graphics/Characters/vacas_cosas.png": [
+    {
+      "ruta": "Map002.events.19.pages[0].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.20.pages[0].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.26.pages[0].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.27.pages[0].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.28.pages[0].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.35.pages[0].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.36.pages[0].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.36.pages[1].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.44.pages[1].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map003.events.12.pages[0].graphic.character_name",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map003.events.13.pages[0].graphic.character_name",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map003.events.14.pages[0].graphic.character_name",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map004.events.4.pages[0].graphic.character_name",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.9.pages[0].graphic.character_name",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.13.pages[0].graphic.character_name",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.14.pages[0].graphic.character_name",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.15.pages[0].graphic.character_name",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.16.pages[0].graphic.character_name",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.17.pages[0].graphic.character_name",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.18.pages[0].graphic.character_name",
+      "mapa": 4
+    }
+  ],
+  "Graphics/Characters/vacas_perro.png": [
+    {
+      "ruta": "Map002.events.34.pages[0].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.34.pages[1].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.34.pages[2].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.34.pages[3].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.34.pages[4].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map030.events.4.pages[0].graphic.character_name",
+      "mapa": 30
+    },
+    {
+      "ruta": "Map032.events.4.pages[0].graphic.character_name",
+      "mapa": 32
+    }
+  ],
+  "Graphics/Pictures/retrato_dog_miedo.png": [
+    {
+      "ruta": "Map002.events.34.pages[0].list[43].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.34.pages[1].list[0].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.34.pages[2].list[43].parameters[0]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map002.events.34.pages[3].list[16].parameters[0]",
+      "mapa": 2
+    }
+  ],
+  "Graphics/Characters/vacas_vacio.png": [
+    {
+      "ruta": "Map002.events.49.pages[0].graphic.character_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map004.events.11.pages[1].graphic.character_name",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.12.pages[1].graphic.character_name",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map005.events.4.pages[0].graphic.character_name",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map005.events.5.pages[0].graphic.character_name",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map005.events.7.pages[0].graphic.character_name",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map005.events.8.pages[0].graphic.character_name",
+      "mapa": 5
+    }
+  ],
+  "Graphics/Autotiles/052-Carpet02.png": [
+    {
+      "ruta": "Map002.Tilesets[53].autotile_names[1]",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map003.Tilesets[54].autotile_names[1]",
+      "mapa": 3
+    },
+    {
+      "ruta": "Tilesets[12].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[14].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[16].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[18].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[20].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[22].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[24].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[26].autotile_names[4]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[27].autotile_names[4]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[29].autotile_names[2]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[31].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[33].autotile_names[4]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[36].autotile_names[5]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[38].autotile_names[2]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[40].autotile_names[3]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[53].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[54].autotile_names[1]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/ui_piso.png": [
+    {
+      "ruta": "Map002.Tilesets[53].battleback_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Map003.Tilesets[54].battleback_name",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map004.Tilesets[55].battleback_name",
+      "mapa": 4
+    },
+    {
+      "ruta": "Tilesets[53].battleback_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[54].battleback_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[55].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/revision_mapa02.png": [
+    {
+      "ruta": "Map002.Tilesets[53].tileset_name",
+      "mapa": 2
+    },
+    {
+      "ruta": "Tilesets[53].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Characters/vacas_puerta.png": [
+    {
+      "ruta": "Map003.events.2.pages[0].graphic.character_name",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map003.events.3.pages[0].graphic.character_name",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map003.events.4.pages[0].graphic.character_name",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map004.events.2.pages[0].graphic.character_name",
+      "mapa": 4
+    }
+  ],
+  "Graphics/Characters/vacas_remedios.png": [
+    {
+      "ruta": "Map003.events.5.pages[0].graphic.character_name",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map003.events.5.pages[1].graphic.character_name",
+      "mapa": 3
+    }
+  ],
+  "Graphics/Pictures/retrato_remedios_neutral.png": [
+    {
+      "ruta": "Map003.events.5.pages[0].list[1].parameters[0]",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map003.events.5.pages[0].list[3].parameters[0]",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map003.events.5.pages[0].list[9].parameters[0]",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map003.events.5.pages[1].list[0].parameters[0]",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map003.events.5.pages[1].list[3].parameters[0]",
+      "mapa": 3
+    }
+  ],
+  "Graphics/Characters/vacas_anselmo.png": [
+    {
+      "ruta": "Map003.events.6.pages[0].graphic.character_name",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map003.events.6.pages[1].graphic.character_name",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map003.events.6.pages[2].graphic.character_name",
+      "mapa": 3
+    }
+  ],
+  "Graphics/Pictures/retrato_anselmo_neutral.png": [
+    {
+      "ruta": "Map003.events.6.pages[0].list[1].parameters[0]",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map003.events.6.pages[0].list[3].parameters[0]",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map003.events.6.pages[0].list[9].parameters[0]",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map003.events.6.pages[1].list[0].parameters[0]",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map003.events.6.pages[1].list[3].parameters[0]",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map003.events.6.pages[2].list[3].parameters[0]",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map003.events.6.pages[2].list[9].parameters[0]",
+      "mapa": 3
+    }
+  ],
+  "Graphics/Characters/185-Light02.png": [
+    {
+      "ruta": "Map003.events.11.pages[0].graphic.character_name",
+      "mapa": 3
+    }
+  ],
+  "Graphics/Characters/vacas_lucy.png": [
+    {
+      "ruta": "Map003.events.15.pages[1].graphic.character_name",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map012.events.4.pages[0].graphic.character_name",
+      "mapa": 12
+    },
+    {
+      "ruta": "Map012.events.4.pages[1].graphic.character_name",
+      "mapa": 12
+    },
+    {
+      "ruta": "Map016.events.8.pages[0].graphic.character_name",
+      "mapa": 16
+    },
+    {
+      "ruta": "Map016.events.8.pages[1].graphic.character_name",
+      "mapa": 16
+    }
+  ],
+  "Graphics/Pictures/retrato_lucy_susurro.png": [
+    {
+      "ruta": "Map003.events.15.pages[1].list[36].parameters[0]",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map003.events.15.pages[1].list[41].parameters[0]",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map003.events.15.pages[1].list[47].parameters[0]",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map003.events.15.pages[1].list[53].parameters[0]",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map003.events.15.pages[1].list[58].parameters[0]",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map003.events.15.pages[1].list[62].parameters[0]",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map003.events.15.pages[1].list[68].parameters[0]",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map003.events.15.pages[1].list[74].parameters[0]",
+      "mapa": 3
+    },
+    {
+      "ruta": "Map003.events.15.pages[1].list[84].parameters[0]",
+      "mapa": 3
+    }
+  ],
+  "Graphics/Tilesets/revision_mapa03.png": [
+    {
+      "ruta": "Map003.Tilesets[54].tileset_name",
+      "mapa": 3
+    },
+    {
+      "ruta": "Tilesets[54].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Characters/vacas_tablon.png": [
+    {
+      "ruta": "Map004.events.3.pages[0].graphic.character_name",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map005.events.16.pages[0].graphic.character_name",
+      "mapa": 5
+    }
+  ],
+  "Graphics/Pictures/retrato_molina_neutral.png": [
+    {
+      "ruta": "Map004.events.4.pages[0].list[1].parameters[0]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.4.pages[0].list[3].parameters[0]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.4.pages[0].list[9].parameters[0]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.4.pages[0].list[13].parameters[0]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.4.pages[0].list[23].parameters[0]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.4.pages[0].list[26].parameters[0]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.4.pages[0].list[31].parameters[0]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.4.pages[0].list[38].parameters[0]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map013.events.3.pages[0].list[2].parameters[0]",
+      "mapa": 13
+    },
+    {
+      "ruta": "Map013.events.3.pages[0].list[6].parameters[0]",
+      "mapa": 13
+    },
+    {
+      "ruta": "Map013.events.3.pages[0].list[23].parameters[0]",
+      "mapa": 13
+    },
+    {
+      "ruta": "Map013.events.3.pages[0].list[31].parameters[0]",
+      "mapa": 13
+    }
+  ],
+  "Graphics/Characters/vacas_carnicero.png": [
+    {
+      "ruta": "Map004.events.5.pages[0].graphic.character_name",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map013.events.3.pages[0].graphic.character_name",
+      "mapa": 13
+    }
+  ],
+  "Graphics/Characters/vacas_borracho.png": [
+    {
+      "ruta": "Map004.events.7.pages[0].graphic.character_name",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.7.pages[1].graphic.character_name",
+      "mapa": 4
+    }
+  ],
+  "Graphics/Pictures/retrato_borracho_neutral.png": [
+    {
+      "ruta": "Map004.events.7.pages[0].list[1].parameters[0]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.7.pages[0].list[2].parameters[0]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.7.pages[0].list[4].parameters[0]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.7.pages[0].list[11].parameters[0]",
+      "mapa": 4
+    }
+  ],
+  "Graphics/Characters/vacas_transeunte.png": [
+    {
+      "ruta": "Map004.events.8.pages[0].graphic.character_name",
+      "mapa": 4
+    }
+  ],
+  "Graphics/Characters/vacas_furgoneta.png": [
+    {
+      "ruta": "Map004.events.10.pages[1].graphic.character_name",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map005.events.3.pages[0].graphic.character_name",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map005.events.6.pages[0].graphic.character_name",
+      "mapa": 5
+    }
+  ],
+  "Graphics/Characters/vacas_reclutador.png": [
+    {
+      "ruta": "Map004.events.19.pages[1].graphic.character_name",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.19.pages[2].graphic.character_name",
+      "mapa": 4
+    }
+  ],
+  "Graphics/Pictures/retrato_reclutador_neutral.png": [
+    {
+      "ruta": "Map004.events.19.pages[1].list[0].parameters[0]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.19.pages[1].list[5].parameters[0]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.19.pages[1].list[9].parameters[0]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.19.pages[1].list[12].parameters[0]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.19.pages[1].list[16].parameters[0]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.19.pages[1].list[19].parameters[0]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.19.pages[1].list[24].parameters[0]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.19.pages[1].list[28].parameters[0]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.19.pages[1].list[31].parameters[0]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.19.pages[1].list[35].parameters[0]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.19.pages[1].list[38].parameters[0]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.19.pages[1].list[42].parameters[0]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Map004.events.19.pages[1].list[46].parameters[0]",
+      "mapa": 4
+    }
+  ],
+  "Graphics/Autotiles/048-Water01.png": [
+    {
+      "ruta": "Map004.Tilesets[55].autotile_names[0]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Tilesets[9].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[17].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[24].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[25].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[26].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[27].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[28].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[29].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[33].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[36].autotile_names[3]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[38].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[40].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[42].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[48].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[55].autotile_names[0]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/002-G_Shadow01.png": [
+    {
+      "ruta": "Map004.Tilesets[55].autotile_names[1]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Tilesets[1].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[2].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[4].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[9].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[11].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[13].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[15].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[23].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[25].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[28].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[32].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[34].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[35].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[37].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[39].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[55].autotile_names[1]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/003-G_Ground01.png": [
+    {
+      "ruta": "Map004.Tilesets[55].autotile_names[2]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Tilesets[1].autotile_names[2]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[2].autotile_names[2]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[9].autotile_names[2]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[13].autotile_names[2]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[23].autotile_names[2]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[32].autotile_names[2]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[34].autotile_names[2]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[35].autotile_names[2]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[37].autotile_names[2]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[39].autotile_names[2]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[55].autotile_names[2]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/005-G_Road01.png": [
+    {
+      "ruta": "Map004.Tilesets[55].autotile_names[3]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Tilesets[9].autotile_names[3]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[11].autotile_names[5]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[28].autotile_names[3]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[35].autotile_names[3]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[55].autotile_names[3]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/006-G_Road02.png": [
+    {
+      "ruta": "Map004.Tilesets[55].autotile_names[4]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Tilesets[9].autotile_names[4]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[13].autotile_names[3]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[25].autotile_names[3]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[28].autotile_names[4]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[34].autotile_names[3]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[55].autotile_names[4]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/050-Roof02.png": [
+    {
+      "ruta": "Map004.Tilesets[55].autotile_names[5]",
+      "mapa": 4
+    },
+    {
+      "ruta": "Tilesets[9].autotile_names[5]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[11].autotile_names[6]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[25].autotile_names[5]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[28].autotile_names[6]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[30].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[34].autotile_names[6]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[35].autotile_names[4]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[39].autotile_names[6]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[55].autotile_names[5]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/revision_mapa04.png": [
+    {
+      "ruta": "Map004.Tilesets[55].tileset_name",
+      "mapa": 4
+    },
+    {
+      "ruta": "Tilesets[55].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Pictures/retrato_steven_miedo.png": [
+    {
+      "ruta": "Map005.events.2.pages[0].list[28].parameters[0]",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map005.events.2.pages[0].list[41].parameters[0]",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map007.events.14.pages[0].list[20].parameters[0]",
+      "mapa": 7
+    },
+    {
+      "ruta": "Map012.events.2.pages[0].list[5].parameters[0]",
+      "mapa": 12
+    },
+    {
+      "ruta": "Map012.events.2.pages[0].list[11].parameters[0]",
+      "mapa": 12
+    },
+    {
+      "ruta": "Map014.events.2.pages[0].list[1].parameters[0]",
+      "mapa": 14
+    },
+    {
+      "ruta": "Map016.events.7.pages[0].list[31].parameters[0]",
+      "mapa": 16
+    },
+    {
+      "ruta": "Map017.events.2.pages[0].list[1].parameters[0]",
+      "mapa": 17
+    },
+    {
+      "ruta": "Map022.events.2.pages[0].list[19].parameters[0]",
+      "mapa": 22
+    },
+    {
+      "ruta": "Map023.events.2.pages[0].list[4].parameters[0]",
+      "mapa": 23
+    },
+    {
+      "ruta": "Map024.events.3.pages[0].list[25].parameters[0]",
+      "mapa": 24
+    },
+    {
+      "ruta": "Map024.events.4.pages[0].list[25].parameters[0]",
+      "mapa": 24
+    },
+    {
+      "ruta": "Map025.events.2.pages[0].list[5].parameters[0]",
+      "mapa": 25
+    },
+    {
+      "ruta": "Map026.events.9.pages[1].list[23].parameters[0]",
+      "mapa": 26
+    },
+    {
+      "ruta": "Map027.events.3.pages[0].list[28].parameters[0]",
+      "mapa": 27
+    },
+    {
+      "ruta": "Troops[1].pages[0].list[0].parameters[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Troops[2].pages[0].list[0].parameters[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Troops[3].pages[0].list[0].parameters[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Troops[4].pages[0].list[0].parameters[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Troops[5].pages[0].list[0].parameters[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Troops[6].pages[0].list[0].parameters[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Troops[7].pages[0].list[0].parameters[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Troops[8].pages[0].list[0].parameters[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Troops[9].pages[0].list[0].parameters[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Troops[10].pages[0].list[0].parameters[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Troops[11].pages[0].list[0].parameters[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Troops[12].pages[0].list[0].parameters[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Troops[13].pages[0].list[0].parameters[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Troops[14].pages[0].list[0].parameters[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Troops[15].pages[0].list[0].parameters[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Troops[16].pages[0].list[0].parameters[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Troops[17].pages[0].list[0].parameters[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Troops[18].pages[0].list[0].parameters[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Troops[19].pages[0].list[0].parameters[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Troops[20].pages[0].list[0].parameters[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Troops[21].pages[0].list[2].parameters[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Troops[33].pages[0].list[0].parameters[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Troops[34].pages[0].list[0].parameters[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Troops[35].pages[0].list[0].parameters[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Troops[36].pages[0].list[0].parameters[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Troops[37].pages[0].list[0].parameters[0]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Characters/vacas_obrero1.png": [
+    {
+      "ruta": "Map005.events.11.pages[0].graphic.character_name",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map008.events.54.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map022.events.4.pages[0].graphic.character_name",
+      "mapa": 22
+    },
+    {
+      "ruta": "Map029.events.5.pages[0].graphic.character_name",
+      "mapa": 29
+    },
+    {
+      "ruta": "Map029.events.5.pages[1].graphic.character_name",
+      "mapa": 29
+    },
+    {
+      "ruta": "Map029.events.5.pages[2].graphic.character_name",
+      "mapa": 29
+    }
+  ],
+  "Graphics/Pictures/retrato_benito_neutral.png": [
+    {
+      "ruta": "Map005.events.11.pages[0].list[1].parameters[0]",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map005.events.11.pages[0].list[7].parameters[0]",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map005.events.11.pages[0].list[14].parameters[0]",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map005.events.11.pages[0].list[19].parameters[0]",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map005.events.11.pages[0].list[21].parameters[0]",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map008.events.41.pages[0].list[5].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.41.pages[0].list[27].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.52.pages[0].list[5].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.54.pages[0].list[1].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.54.pages[0].list[6].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.54.pages[0].list[12].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map022.events.3.pages[1].list[0].parameters[0]",
+      "mapa": 22
+    }
+  ],
+  "Graphics/Characters/vacas_cripps.png": [
+    {
+      "ruta": "Map005.events.12.pages[1].graphic.character_name",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map008.events.1.pages[1].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map009.events.33.pages[1].graphic.character_name",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map010.events.13.pages[1].graphic.character_name",
+      "mapa": 10
+    },
+    {
+      "ruta": "Map014.events.3.pages[1].graphic.character_name",
+      "mapa": 14
+    },
+    {
+      "ruta": "Map025.events.3.pages[1].graphic.character_name",
+      "mapa": 25
+    },
+    {
+      "ruta": "Map025.events.3.pages[2].graphic.character_name",
+      "mapa": 25
+    },
+    {
+      "ruta": "Map026.events.9.pages[0].graphic.character_name",
+      "mapa": 26
+    },
+    {
+      "ruta": "Map026.events.9.pages[1].graphic.character_name",
+      "mapa": 26
+    }
+  ],
+  "Graphics/Pictures/retrato_cripps_neutral.png": [
+    {
+      "ruta": "Map005.events.12.pages[1].list[1].parameters[0]",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map005.events.12.pages[1].list[6].parameters[0]",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map005.events.12.pages[1].list[8].parameters[0]",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map005.events.12.pages[1].list[12].parameters[0]",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map005.events.13.pages[0].list[37].parameters[0]",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map005.events.13.pages[0].list[43].parameters[0]",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map005.events.13.pages[0].list[46].parameters[0]",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map005.events.13.pages[0].list[51].parameters[0]",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map005.events.13.pages[0].list[55].parameters[0]",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map005.events.13.pages[0].list[63].parameters[0]",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map005.events.13.pages[0].list[69].parameters[0]",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map008.events.1.pages[1].list[2].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.1.pages[1].list[7].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.1.pages[1].list[15].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.1.pages[1].list[18].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.1.pages[1].list[21].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.1.pages[1].list[26].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.1.pages[1].list[32].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.1.pages[1].list[41].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.1.pages[1].list[48].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.1.pages[1].list[53].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.1.pages[1].list[54].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.1.pages[1].list[59].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.1.pages[1].list[63].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.1.pages[1].list[75].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.1.pages[1].list[80].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.1.pages[1].list[83].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.1.pages[1].list[93].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.1.pages[1].list[100].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.52.pages[0].list[19].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.52.pages[0].list[27].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.52.pages[0].list[30].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.52.pages[0].list[34].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.59.pages[1].list[17].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.59.pages[1].list[20].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.59.pages[1].list[42].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.59.pages[1].list[65].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.59.pages[1].list[68].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.59.pages[1].list[84].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.59.pages[1].list[102].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.59.pages[1].list[104].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map009.events.2.pages[1].list[11].parameters[0]",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map009.events.2.pages[1].list[18].parameters[0]",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map010.events.2.pages[1].list[11].parameters[0]",
+      "mapa": 10
+    },
+    {
+      "ruta": "Map010.events.2.pages[1].list[18].parameters[0]",
+      "mapa": 10
+    },
+    {
+      "ruta": "Map026.events.9.pages[0].list[0].parameters[0]",
+      "mapa": 26
+    },
+    {
+      "ruta": "Map026.events.9.pages[1].list[0].parameters[0]",
+      "mapa": 26
+    },
+    {
+      "ruta": "Map026.events.9.pages[1].list[3].parameters[0]",
+      "mapa": 26
+    },
+    {
+      "ruta": "Map026.events.9.pages[1].list[7].parameters[0]",
+      "mapa": 26
+    },
+    {
+      "ruta": "Map026.events.9.pages[1].list[13].parameters[0]",
+      "mapa": 26
+    },
+    {
+      "ruta": "Map026.events.9.pages[1].list[18].parameters[0]",
+      "mapa": 26
+    },
+    {
+      "ruta": "Map026.events.9.pages[1].list[25].parameters[0]",
+      "mapa": 26
+    },
+    {
+      "ruta": "Map026.events.9.pages[1].list[139].parameters[0]",
+      "mapa": 26
+    }
+  ],
+  "Graphics/Characters/vacas_matadero.png": [
+    {
+      "ruta": "Map005.events.13.pages[0].graphic.character_name",
+      "mapa": 5
+    },
+    {
+      "ruta": "Map008.events.10.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.11.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.12.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.13.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.14.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.15.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.16.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.17.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.18.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.19.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.20.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.21.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.22.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.23.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.24.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.25.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.26.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.27.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.28.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.29.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.30.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.31.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.32.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.33.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.34.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.35.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.36.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.37.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.38.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.39.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.40.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.41.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.42.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.43.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.44.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.45.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.46.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.47.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.48.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.49.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.50.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.51.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.52.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.58.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map009.events.4.pages[0].graphic.character_name",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map009.events.5.pages[0].graphic.character_name",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map009.events.6.pages[0].graphic.character_name",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map009.events.7.pages[0].graphic.character_name",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map009.events.8.pages[0].graphic.character_name",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map009.events.9.pages[0].graphic.character_name",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map009.events.10.pages[0].graphic.character_name",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map009.events.11.pages[0].graphic.character_name",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map009.events.12.pages[0].graphic.character_name",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map009.events.13.pages[0].graphic.character_name",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map009.events.14.pages[0].graphic.character_name",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map009.events.15.pages[0].graphic.character_name",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map009.events.16.pages[0].graphic.character_name",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map009.events.17.pages[0].graphic.character_name",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map009.events.18.pages[0].graphic.character_name",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map009.events.19.pages[0].graphic.character_name",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map009.events.20.pages[0].graphic.character_name",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map009.events.21.pages[0].graphic.character_name",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map009.events.22.pages[0].graphic.character_name",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map009.events.23.pages[0].graphic.character_name",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map009.events.24.pages[0].graphic.character_name",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map009.events.25.pages[0].graphic.character_name",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map009.events.26.pages[0].graphic.character_name",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map009.events.27.pages[0].graphic.character_name",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map009.events.28.pages[0].graphic.character_name",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map010.events.11.pages[0].graphic.character_name",
+      "mapa": 10
+    },
+    {
+      "ruta": "Map010.events.12.pages[0].graphic.character_name",
+      "mapa": 10
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].graphic.character_name",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[1].parameters[1].list[0].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[2].parameters[0].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[25].parameters[1].list[0].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[26].parameters[0].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[39].parameters[1].list[0].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[40].parameters[0].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[59].parameters[1].list[0].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[60].parameters[0].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[91].parameters[1].list[0].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[92].parameters[0].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[106].parameters[1].list[0].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[107].parameters[0].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[116].parameters[1].list[0].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[117].parameters[0].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[135].parameters[1].list[0].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[136].parameters[0].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[162].parameters[1].list[0].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[163].parameters[0].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.4.pages[0].list[18].parameters[1].list[0].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.4.pages[0].list[19].parameters[0].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.4.pages[0].list[21].parameters[1].list[0].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.4.pages[0].list[22].parameters[0].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.9.pages[1].list[10].parameters[1].list[0].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.9.pages[1].list[11].parameters[0].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.9.pages[1].list[49].parameters[1].list[0].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.9.pages[1].list[50].parameters[0].parameters[0]",
+      "mapa": 11
+    }
+  ],
+  "Graphics/Tilesets/revision_mapa05.png": [
+    {
+      "ruta": "Map005.Tilesets[56].tileset_name",
+      "mapa": 5
+    },
+    {
+      "ruta": "Tilesets[56].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Characters/vacas_obrero3.png": [
+    {
+      "ruta": "Map006.events.11.pages[0].graphic.character_name",
+      "mapa": 6
+    },
+    {
+      "ruta": "Map008.events.56.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map024.events.3.pages[0].graphic.character_name",
+      "mapa": 24
+    },
+    {
+      "ruta": "Map027.events.11.pages[1].graphic.character_name",
+      "mapa": 27
+    },
+    {
+      "ruta": "Map029.events.4.pages[1].graphic.character_name",
+      "mapa": 29
+    }
+  ],
+  "Graphics/Pictures/retrato_encarna_neutral.png": [
+    {
+      "ruta": "Map006.events.11.pages[0].list[1].parameters[0]",
+      "mapa": 6
+    },
+    {
+      "ruta": "Map006.events.11.pages[0].list[4].parameters[0]",
+      "mapa": 6
+    },
+    {
+      "ruta": "Map006.events.11.pages[0].list[10].parameters[0]",
+      "mapa": 6
+    },
+    {
+      "ruta": "Map006.events.11.pages[0].list[13].parameters[0]",
+      "mapa": 6
+    },
+    {
+      "ruta": "Map006.events.11.pages[0].list[20].parameters[0]",
+      "mapa": 6
+    },
+    {
+      "ruta": "Map006.events.11.pages[0].list[22].parameters[0]",
+      "mapa": 6
+    },
+    {
+      "ruta": "Map006.events.11.pages[0].list[26].parameters[0]",
+      "mapa": 6
+    },
+    {
+      "ruta": "Map006.events.11.pages[0].list[28].parameters[0]",
+      "mapa": 6
+    },
+    {
+      "ruta": "Map006.events.11.pages[0].list[35].parameters[0]",
+      "mapa": 6
+    },
+    {
+      "ruta": "Map008.events.56.pages[0].list[0].parameters[0]",
+      "mapa": 8
+    }
+  ],
+  "Graphics/Characters/vacas_obrero4.png": [
+    {
+      "ruta": "Map006.events.12.pages[0].graphic.character_name",
+      "mapa": 6
+    },
+    {
+      "ruta": "Map024.events.4.pages[0].graphic.character_name",
+      "mapa": 24
+    },
+    {
+      "ruta": "Map027.events.12.pages[1].graphic.character_name",
+      "mapa": 27
+    }
+  ],
+  "Graphics/Pictures/retrato_chato_neutral.png": [
+    {
+      "ruta": "Map006.events.12.pages[0].list[4].parameters[0]",
+      "mapa": 6
+    },
+    {
+      "ruta": "Map006.events.12.pages[0].list[8].parameters[0]",
+      "mapa": 6
+    },
+    {
+      "ruta": "Map006.events.12.pages[0].list[13].parameters[0]",
+      "mapa": 6
+    },
+    {
+      "ruta": "Map024.events.3.pages[0].list[7].parameters[0]",
+      "mapa": 24
+    },
+    {
+      "ruta": "Map024.events.3.pages[0].list[15].parameters[0]",
+      "mapa": 24
+    },
+    {
+      "ruta": "Map024.events.3.pages[0].list[36].parameters[0]",
+      "mapa": 24
+    },
+    {
+      "ruta": "Map024.events.4.pages[0].list[7].parameters[0]",
+      "mapa": 24
+    },
+    {
+      "ruta": "Map024.events.4.pages[0].list[15].parameters[0]",
+      "mapa": 24
+    },
+    {
+      "ruta": "Map024.events.4.pages[0].list[36].parameters[0]",
+      "mapa": 24
+    },
+    {
+      "ruta": "Map027.events.12.pages[1].list[0].parameters[0]",
+      "mapa": 27
+    }
+  ],
+  "Graphics/Tilesets/revision_mapa06.png": [
+    {
+      "ruta": "Map006.Tilesets[57].tileset_name",
+      "mapa": 6
+    },
+    {
+      "ruta": "Tilesets[57].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Characters/vacas_vaca.png": [
+    {
+      "ruta": "Map007.events.5.pages[0].graphic.character_name",
+      "mapa": 7
+    },
+    {
+      "ruta": "Map007.events.6.pages[0].graphic.character_name",
+      "mapa": 7
+    },
+    {
+      "ruta": "Map007.events.7.pages[0].graphic.character_name",
+      "mapa": 7
+    },
+    {
+      "ruta": "Map007.events.8.pages[0].graphic.character_name",
+      "mapa": 7
+    },
+    {
+      "ruta": "Map007.events.9.pages[0].graphic.character_name",
+      "mapa": 7
+    },
+    {
+      "ruta": "Map007.events.10.pages[0].graphic.character_name",
+      "mapa": 7
+    },
+    {
+      "ruta": "Map023.events.15.pages[0].graphic.character_name",
+      "mapa": 23
+    },
+    {
+      "ruta": "Map023.events.18.pages[0].graphic.character_name",
+      "mapa": 23
+    },
+    {
+      "ruta": "Map023.events.19.pages[0].graphic.character_name",
+      "mapa": 23
+    },
+    {
+      "ruta": "Map023.events.20.pages[0].graphic.character_name",
+      "mapa": 23
+    },
+    {
+      "ruta": "Map023.events.22.pages[0].graphic.character_name",
+      "mapa": 23
+    },
+    {
+      "ruta": "Map023.events.23.pages[0].graphic.character_name",
+      "mapa": 23
+    },
+    {
+      "ruta": "Map023.events.24.pages[0].graphic.character_name",
+      "mapa": 23
+    },
+    {
+      "ruta": "Map023.events.25.pages[0].graphic.character_name",
+      "mapa": 23
+    },
+    {
+      "ruta": "Map027.events.6.pages[0].graphic.character_name",
+      "mapa": 27
+    },
+    {
+      "ruta": "Map027.events.8.pages[0].graphic.character_name",
+      "mapa": 27
+    },
+    {
+      "ruta": "Map027.events.10.pages[0].graphic.character_name",
+      "mapa": 27
+    },
+    {
+      "ruta": "Map029.events.7.pages[0].graphic.character_name",
+      "mapa": 29
+    },
+    {
+      "ruta": "Map029.events.8.pages[0].graphic.character_name",
+      "mapa": 29
+    },
+    {
+      "ruta": "Map029.events.9.pages[0].graphic.character_name",
+      "mapa": 29
+    },
+    {
+      "ruta": "Map029.events.10.pages[0].graphic.character_name",
+      "mapa": 29
+    }
+  ],
+  "Graphics/Characters/vacas_vaca_canela.png": [
+    {
+      "ruta": "Map007.events.11.pages[0].graphic.character_name",
+      "mapa": 7
+    },
+    {
+      "ruta": "Map008.events.2.pages[1].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map023.events.16.pages[0].graphic.character_name",
+      "mapa": 23
+    },
+    {
+      "ruta": "Map023.events.17.pages[0].graphic.character_name",
+      "mapa": 23
+    },
+    {
+      "ruta": "Map023.events.21.pages[0].graphic.character_name",
+      "mapa": 23
+    },
+    {
+      "ruta": "Map027.events.7.pages[0].graphic.character_name",
+      "mapa": 27
+    },
+    {
+      "ruta": "Map027.events.9.pages[0].graphic.character_name",
+      "mapa": 27
+    }
+  ],
+  "Graphics/Characters/vacas_obrero2.png": [
+    {
+      "ruta": "Map007.events.15.pages[0].graphic.character_name",
+      "mapa": 7
+    },
+    {
+      "ruta": "Map008.events.55.pages[0].graphic.character_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map023.events.4.pages[0].graphic.character_name",
+      "mapa": 23
+    }
+  ],
+  "Graphics/Pictures/retrato_rubio_neutral.png": [
+    {
+      "ruta": "Map007.events.15.pages[0].list[1].parameters[0]",
+      "mapa": 7
+    },
+    {
+      "ruta": "Map007.events.15.pages[0].list[4].parameters[0]",
+      "mapa": 7
+    },
+    {
+      "ruta": "Map007.events.15.pages[0].list[9].parameters[0]",
+      "mapa": 7
+    },
+    {
+      "ruta": "Map007.events.15.pages[0].list[11].parameters[0]",
+      "mapa": 7
+    },
+    {
+      "ruta": "Map007.events.15.pages[0].list[18].parameters[0]",
+      "mapa": 7
+    },
+    {
+      "ruta": "Map007.events.15.pages[0].list[21].parameters[0]",
+      "mapa": 7
+    },
+    {
+      "ruta": "Map024.events.3.pages[0].list[1].parameters[0]",
+      "mapa": 24
+    },
+    {
+      "ruta": "Map024.events.3.pages[0].list[5].parameters[0]",
+      "mapa": 24
+    },
+    {
+      "ruta": "Map024.events.3.pages[0].list[14].parameters[0]",
+      "mapa": 24
+    },
+    {
+      "ruta": "Map024.events.3.pages[0].list[27].parameters[0]",
+      "mapa": 24
+    },
+    {
+      "ruta": "Map024.events.4.pages[0].list[1].parameters[0]",
+      "mapa": 24
+    },
+    {
+      "ruta": "Map024.events.4.pages[0].list[5].parameters[0]",
+      "mapa": 24
+    },
+    {
+      "ruta": "Map024.events.4.pages[0].list[14].parameters[0]",
+      "mapa": 24
+    },
+    {
+      "ruta": "Map024.events.4.pages[0].list[27].parameters[0]",
+      "mapa": 24
+    },
+    {
+      "ruta": "Map027.events.11.pages[1].list[0].parameters[0]",
+      "mapa": 27
+    },
+    {
+      "ruta": "Map029.events.4.pages[1].list[0].parameters[0]",
+      "mapa": 29
+    },
+    {
+      "ruta": "Map029.events.4.pages[1].list[3].parameters[0]",
+      "mapa": 29
+    },
+    {
+      "ruta": "Map031.events.2.pages[0].list[5].parameters[0]",
+      "mapa": 31
+    }
+  ],
+  "Graphics/Tilesets/revision_mapa07.png": [
+    {
+      "ruta": "Map007.Tilesets[58].tileset_name",
+      "mapa": 7
+    },
+    {
+      "ruta": "Tilesets[58].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Pictures/retrato_cripps_ira.png": [
+    {
+      "ruta": "Map008.events.1.pages[1].list[64].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.1.pages[1].list[104].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.41.pages[0].list[20].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.41.pages[0].list[32].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map009.events.2.pages[1].list[3].parameters[0]",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map009.events.29.pages[0].list[17].parameters[0]",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map009.events.30.pages[0].list[17].parameters[0]",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map009.events.31.pages[0].list[17].parameters[0]",
+      "mapa": 9
+    },
+    {
+      "ruta": "Map010.events.2.pages[1].list[3].parameters[0]",
+      "mapa": 10
+    },
+    {
+      "ruta": "Map025.events.3.pages[1].list[3].parameters[0]",
+      "mapa": 25
+    },
+    {
+      "ruta": "Map025.events.3.pages[2].list[3].parameters[0]",
+      "mapa": 25
+    },
+    {
+      "ruta": "Map025.events.4.pages[1].list[4].parameters[0]",
+      "mapa": 25
+    },
+    {
+      "ruta": "Map025.events.4.pages[1].list[6].parameters[0]",
+      "mapa": 25
+    },
+    {
+      "ruta": "Map025.events.5.pages[1].list[32].parameters[0]",
+      "mapa": 25
+    },
+    {
+      "ruta": "Map026.events.9.pages[1].list[29].parameters[0]",
+      "mapa": 26
+    },
+    {
+      "ruta": "Troops[21].pages[0].list[0].parameters[0]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Pictures/retrato_sierra_neutral.png": [
+    {
+      "ruta": "Map008.events.55.pages[0].list[1].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.55.pages[0].list[6].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map008.events.55.pages[0].list[10].parameters[0]",
+      "mapa": 8
+    },
+    {
+      "ruta": "Map023.events.3.pages[1].list[0].parameters[0]",
+      "mapa": 23
+    }
+  ],
+  "Graphics/Tilesets/revision_mapa08.png": [
+    {
+      "ruta": "Map008.Tilesets[59].tileset_name",
+      "mapa": 8
+    },
+    {
+      "ruta": "Tilesets[59].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/revision_mapa09.png": [
+    {
+      "ruta": "Map009.Tilesets[60].tileset_name",
+      "mapa": 9
+    },
+    {
+      "ruta": "Tilesets[60].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/revision_mapa10.png": [
+    {
+      "ruta": "Map010.Tilesets[61].tileset_name",
+      "mapa": 10
+    },
+    {
+      "ruta": "Tilesets[61].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Pictures/retrato_guernsey_susurro.png": [
+    {
+      "ruta": "Map011.events.1.pages[0].list[8].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[16].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[21].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[34].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[37].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[62].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[65].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[67].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[71].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[75].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[79].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[82].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[86].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[89].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[108].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[118].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[120].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[123].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[130].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[137].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[140].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[144].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[151].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.1.pages[0].list[157].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.9.pages[1].list[14].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.9.pages[1].list[17].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.9.pages[1].list[19].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.9.pages[1].list[26].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.9.pages[1].list[29].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.9.pages[1].list[36].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.9.pages[1].list[41].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map011.events.9.pages[1].list[46].parameters[0]",
+      "mapa": 11
+    },
+    {
+      "ruta": "Map016.events.8.pages[0].list[50].parameters[0]",
+      "mapa": 16
+    },
+    {
+      "ruta": "Map017.events.2.pages[0].list[3].parameters[0]",
+      "mapa": 17
+    },
+    {
+      "ruta": "Map017.events.2.pages[0].list[9].parameters[0]",
+      "mapa": 17
+    },
+    {
+      "ruta": "Map020.events.4.pages[0].list[1].parameters[0]",
+      "mapa": 20
+    },
+    {
+      "ruta": "Map020.events.4.pages[0].list[5].parameters[0]",
+      "mapa": 20
+    },
+    {
+      "ruta": "Map020.events.4.pages[0].list[10].parameters[0]",
+      "mapa": 20
+    },
+    {
+      "ruta": "Map020.events.4.pages[0].list[74].parameters[0]",
+      "mapa": 20
+    },
+    {
+      "ruta": "Map020.events.4.pages[0].list[84].parameters[0]",
+      "mapa": 20
+    },
+    {
+      "ruta": "Map020.events.4.pages[0].list[100].parameters[0]",
+      "mapa": 20
+    },
+    {
+      "ruta": "Map020.events.4.pages[0].list[117].parameters[0]",
+      "mapa": 20
+    },
+    {
+      "ruta": "Map022.events.2.pages[0].list[4].parameters[0]",
+      "mapa": 22
+    },
+    {
+      "ruta": "Map022.events.2.pages[0].list[9].parameters[0]",
+      "mapa": 22
+    },
+    {
+      "ruta": "Map022.events.2.pages[0].list[14].parameters[0]",
+      "mapa": 22
+    },
+    {
+      "ruta": "Map022.events.12.pages[0].list[1].parameters[0]",
+      "mapa": 22
+    },
+    {
+      "ruta": "Map022.events.12.pages[0].list[5].parameters[0]",
+      "mapa": 22
+    },
+    {
+      "ruta": "Map023.events.6.pages[0].list[0].parameters[0]",
+      "mapa": 23
+    },
+    {
+      "ruta": "Map023.events.6.pages[1].list[0].parameters[0]",
+      "mapa": 23
+    },
+    {
+      "ruta": "Map025.events.10.pages[0].list[1].parameters[0]",
+      "mapa": 25
+    },
+    {
+      "ruta": "Map025.events.10.pages[0].list[5].parameters[0]",
+      "mapa": 25
+    },
+    {
+      "ruta": "Map026.events.9.pages[1].list[71].parameters[0]",
+      "mapa": 26
+    },
+    {
+      "ruta": "Map026.events.9.pages[1].list[76].parameters[0]",
+      "mapa": 26
+    },
+    {
+      "ruta": "Map026.events.9.pages[1].list[131].parameters[0]",
+      "mapa": 26
+    },
+    {
+      "ruta": "Map026.events.9.pages[1].list[151].parameters[0]",
+      "mapa": 26
+    },
+    {
+      "ruta": "Map026.events.10.pages[1].list[1].parameters[0]",
+      "mapa": 26
+    },
+    {
+      "ruta": "Map026.events.10.pages[1].list[6].parameters[0]",
+      "mapa": 26
+    },
+    {
+      "ruta": "Map026.events.10.pages[1].list[10].parameters[0]",
+      "mapa": 26
+    },
+    {
+      "ruta": "Map027.events.3.pages[0].list[1].parameters[0]",
+      "mapa": 27
+    },
+    {
+      "ruta": "Map027.events.3.pages[0].list[7].parameters[0]",
+      "mapa": 27
+    },
+    {
+      "ruta": "Map027.events.3.pages[0].list[13].parameters[0]",
+      "mapa": 27
+    },
+    {
+      "ruta": "Map027.events.3.pages[0].list[18].parameters[0]",
+      "mapa": 27
+    },
+    {
+      "ruta": "Map027.events.3.pages[0].list[23].parameters[0]",
+      "mapa": 27
+    },
+    {
+      "ruta": "Map027.events.3.pages[0].list[29].parameters[0]",
+      "mapa": 27
+    },
+    {
+      "ruta": "Map027.events.3.pages[1].list[0].parameters[0]",
+      "mapa": 27
+    },
+    {
+      "ruta": "Map028.events.2.pages[0].list[3].parameters[0]",
+      "mapa": 28
+    },
+    {
+      "ruta": "Map028.events.2.pages[0].list[6].parameters[0]",
+      "mapa": 28
+    },
+    {
+      "ruta": "Map028.events.2.pages[0].list[11].parameters[0]",
+      "mapa": 28
+    },
+    {
+      "ruta": "Map028.events.2.pages[0].list[15].parameters[0]",
+      "mapa": 28
+    },
+    {
+      "ruta": "Map029.events.6.pages[0].list[1].parameters[0]",
+      "mapa": 29
+    },
+    {
+      "ruta": "Map029.events.6.pages[0].list[6].parameters[0]",
+      "mapa": 29
+    },
+    {
+      "ruta": "Map032.events.2.pages[0].list[5].parameters[0]",
+      "mapa": 32
+    },
+    {
+      "ruta": "Map032.events.7.pages[0].list[41].parameters[0]",
+      "mapa": 32
+    },
+    {
+      "ruta": "Map032.events.7.pages[0].list[44].parameters[0]",
+      "mapa": 32
+    },
+    {
+      "ruta": "Map032.events.7.pages[0].list[151].parameters[0]",
+      "mapa": 32
+    },
+    {
+      "ruta": "Map032.events.7.pages[0].list[154].parameters[0]",
+      "mapa": 32
+    },
+    {
+      "ruta": "Map032.events.7.pages[0].list[264].parameters[0]",
+      "mapa": 32
+    }
+  ],
+  "Graphics/Tilesets/revision_mapa11.png": [
+    {
+      "ruta": "Map011.Tilesets[62].tileset_name",
+      "mapa": 11
+    },
+    {
+      "ruta": "Tilesets[62].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Pictures/retrato_lucy_neutral.png": [
+    {
+      "ruta": "Map012.events.2.pages[0].list[2].parameters[0]",
+      "mapa": 12
+    },
+    {
+      "ruta": "Map012.events.2.pages[0].list[7].parameters[0]",
+      "mapa": 12
+    },
+    {
+      "ruta": "Map012.events.2.pages[0].list[13].parameters[0]",
+      "mapa": 12
+    },
+    {
+      "ruta": "Map012.events.2.pages[0].list[17].parameters[0]",
+      "mapa": 12
+    },
+    {
+      "ruta": "Map012.events.4.pages[0].list[1].parameters[0]",
+      "mapa": 12
+    },
+    {
+      "ruta": "Map012.events.4.pages[0].list[5].parameters[0]",
+      "mapa": 12
+    },
+    {
+      "ruta": "Map012.events.4.pages[0].list[17].parameters[0]",
+      "mapa": 12
+    },
+    {
+      "ruta": "Map012.events.4.pages[1].list[0].parameters[0]",
+      "mapa": 12
+    },
+    {
+      "ruta": "Map012.events.6.pages[0].list[1].parameters[0]",
+      "mapa": 12
+    },
+    {
+      "ruta": "Map012.events.6.pages[0].list[12].parameters[0]",
+      "mapa": 12
+    },
+    {
+      "ruta": "Map016.events.7.pages[0].list[11].parameters[0]",
+      "mapa": 16
+    },
+    {
+      "ruta": "Map016.events.8.pages[0].list[0].parameters[0]",
+      "mapa": 16
+    },
+    {
+      "ruta": "Map016.events.8.pages[0].list[45].parameters[0]",
+      "mapa": 16
+    },
+    {
+      "ruta": "Map016.events.8.pages[0].list[107].parameters[0]",
+      "mapa": 16
+    },
+    {
+      "ruta": "Map016.events.8.pages[1].list[0].parameters[0]",
+      "mapa": 16
+    },
+    {
+      "ruta": "Map028.events.8.pages[0].list[7].parameters[0]",
+      "mapa": 28
+    }
+  ],
+  "Graphics/Characters/vacas_laboratorio.png": [
+    {
+      "ruta": "Map012.events.6.pages[0].graphic.character_name",
+      "mapa": 12
+    },
+    {
+      "ruta": "Map012.events.9.pages[0].graphic.character_name",
+      "mapa": 12
+    },
+    {
+      "ruta": "Map012.events.10.pages[0].graphic.character_name",
+      "mapa": 12
+    },
+    {
+      "ruta": "Map012.events.11.pages[0].graphic.character_name",
+      "mapa": 12
+    },
+    {
+      "ruta": "Map013.events.7.pages[0].graphic.character_name",
+      "mapa": 13
+    },
+    {
+      "ruta": "Map014.events.5.pages[0].graphic.character_name",
+      "mapa": 14
+    },
+    {
+      "ruta": "Map014.events.6.pages[0].graphic.character_name",
+      "mapa": 14
+    },
+    {
+      "ruta": "Map014.events.9.pages[0].graphic.character_name",
+      "mapa": 14
+    },
+    {
+      "ruta": "Map015.events.4.pages[0].graphic.character_name",
+      "mapa": 15
+    },
+    {
+      "ruta": "Map015.events.6.pages[0].graphic.character_name",
+      "mapa": 15
+    },
+    {
+      "ruta": "Map015.events.7.pages[0].graphic.character_name",
+      "mapa": 15
+    },
+    {
+      "ruta": "Map016.events.3.pages[0].graphic.character_name",
+      "mapa": 16
+    },
+    {
+      "ruta": "Map016.events.4.pages[0].graphic.character_name",
+      "mapa": 16
+    },
+    {
+      "ruta": "Map016.events.5.pages[0].graphic.character_name",
+      "mapa": 16
+    },
+    {
+      "ruta": "Map016.events.7.pages[0].graphic.character_name",
+      "mapa": 16
+    },
+    {
+      "ruta": "Map016.events.9.pages[0].graphic.character_name",
+      "mapa": 16
+    },
+    {
+      "ruta": "Map016.events.10.pages[0].graphic.character_name",
+      "mapa": 16
+    },
+    {
+      "ruta": "Map016.events.11.pages[0].graphic.character_name",
+      "mapa": 16
+    }
+  ],
+  "Graphics/Pictures/retrato_lucy_calma.png": [
+    {
+      "ruta": "Map012.events.6.pages[0].list[6].parameters[0]",
+      "mapa": 12
+    },
+    {
+      "ruta": "Map016.events.8.pages[0].list[66].parameters[0]",
+      "mapa": 16
+    },
+    {
+      "ruta": "Map028.events.8.pages[0].list[1].parameters[0]",
+      "mapa": 28
+    }
+  ],
+  "Graphics/Tilesets/revision_mapa12.png": [
+    {
+      "ruta": "Map012.Tilesets[63].tileset_name",
+      "mapa": 12
+    },
+    {
+      "ruta": "Tilesets[63].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/revision_mapa13.png": [
+    {
+      "ruta": "Map013.Tilesets[64].tileset_name",
+      "mapa": 13
+    },
+    {
+      "ruta": "Tilesets[64].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/revision_mapa14.png": [
+    {
+      "ruta": "Map014.Tilesets[65].tileset_name",
+      "mapa": 14
+    },
+    {
+      "ruta": "Tilesets[65].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Characters/vacas_elena.png": [
+    {
+      "ruta": "Map015.events.3.pages[0].graphic.character_name",
+      "mapa": 15
+    }
+  ],
+  "Graphics/Pictures/retrato_elena_neutral.png": [
+    {
+      "ruta": "Map015.events.3.pages[0].list[2].parameters[0]",
+      "mapa": 15
+    },
+    {
+      "ruta": "Map015.events.3.pages[0].list[8].parameters[0]",
+      "mapa": 15
+    },
+    {
+      "ruta": "Map015.events.3.pages[0].list[24].parameters[0]",
+      "mapa": 15
+    },
+    {
+      "ruta": "Map015.events.3.pages[0].list[32].parameters[0]",
+      "mapa": 15
+    }
+  ],
+  "Graphics/Characters/vacas_alcantarilla.png": [
+    {
+      "ruta": "Map015.events.8.pages[1].graphic.character_name",
+      "mapa": 15
+    },
+    {
+      "ruta": "Map017.events.3.pages[0].graphic.character_name",
+      "mapa": 17
+    },
+    {
+      "ruta": "Map017.events.4.pages[0].graphic.character_name",
+      "mapa": 17
+    },
+    {
+      "ruta": "Map017.events.5.pages[0].graphic.character_name",
+      "mapa": 17
+    },
+    {
+      "ruta": "Map017.events.6.pages[0].graphic.character_name",
+      "mapa": 17
+    },
+    {
+      "ruta": "Map017.events.6.pages[1].graphic.character_name",
+      "mapa": 17
+    },
+    {
+      "ruta": "Map017.events.7.pages[0].graphic.character_name",
+      "mapa": 17
+    },
+    {
+      "ruta": "Map017.events.8.pages[0].graphic.character_name",
+      "mapa": 17
+    },
+    {
+      "ruta": "Map018.events.2.pages[0].graphic.character_name",
+      "mapa": 18
+    },
+    {
+      "ruta": "Map018.events.3.pages[0].graphic.character_name",
+      "mapa": 18
+    },
+    {
+      "ruta": "Map018.events.4.pages[0].graphic.character_name",
+      "mapa": 18
+    },
+    {
+      "ruta": "Map018.events.9.pages[0].graphic.character_name",
+      "mapa": 18
+    },
+    {
+      "ruta": "Map018.events.10.pages[0].graphic.character_name",
+      "mapa": 18
+    },
+    {
+      "ruta": "Map018.events.11.pages[0].graphic.character_name",
+      "mapa": 18
+    },
+    {
+      "ruta": "Map018.events.12.pages[0].graphic.character_name",
+      "mapa": 18
+    },
+    {
+      "ruta": "Map019.events.2.pages[0].graphic.character_name",
+      "mapa": 19
+    },
+    {
+      "ruta": "Map019.events.3.pages[0].graphic.character_name",
+      "mapa": 19
+    },
+    {
+      "ruta": "Map019.events.5.pages[0].graphic.character_name",
+      "mapa": 19
+    },
+    {
+      "ruta": "Map019.events.6.pages[0].graphic.character_name",
+      "mapa": 19
+    },
+    {
+      "ruta": "Map019.events.10.pages[0].graphic.character_name",
+      "mapa": 19
+    },
+    {
+      "ruta": "Map019.events.11.pages[0].graphic.character_name",
+      "mapa": 19
+    },
+    {
+      "ruta": "Map019.events.12.pages[0].graphic.character_name",
+      "mapa": 19
+    },
+    {
+      "ruta": "Map020.events.2.pages[0].graphic.character_name",
+      "mapa": 20
+    },
+    {
+      "ruta": "Map020.events.3.pages[0].graphic.character_name",
+      "mapa": 20
+    },
+    {
+      "ruta": "Map020.events.7.pages[0].graphic.character_name",
+      "mapa": 20
+    },
+    {
+      "ruta": "Map021.events.2.pages[0].graphic.character_name",
+      "mapa": 21
+    },
+    {
+      "ruta": "Map021.events.3.pages[0].graphic.character_name",
+      "mapa": 21
+    },
+    {
+      "ruta": "Map021.events.4.pages[0].graphic.character_name",
+      "mapa": 21
+    },
+    {
+      "ruta": "Map021.events.5.pages[0].graphic.character_name",
+      "mapa": 21
+    },
+    {
+      "ruta": "Map021.events.6.pages[0].graphic.character_name",
+      "mapa": 21
+    },
+    {
+      "ruta": "Map021.events.7.pages[0].graphic.character_name",
+      "mapa": 21
+    },
+    {
+      "ruta": "Map021.events.8.pages[0].graphic.character_name",
+      "mapa": 21
+    }
+  ],
+  "Graphics/Tilesets/revision_mapa15.png": [
+    {
+      "ruta": "Map015.Tilesets[66].tileset_name",
+      "mapa": 15
+    },
+    {
+      "ruta": "Tilesets[66].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Pictures/retrato_lucy_quiebre.png": [
+    {
+      "ruta": "Map016.events.7.pages[0].list[26].parameters[0]",
+      "mapa": 16
+    },
+    {
+      "ruta": "Map016.events.8.pages[0].list[4].parameters[0]",
+      "mapa": 16
+    },
+    {
+      "ruta": "Map016.events.8.pages[0].list[41].parameters[0]",
+      "mapa": 16
+    },
+    {
+      "ruta": "Map016.events.8.pages[0].list[87].parameters[0]",
+      "mapa": 16
+    }
+  ],
+  "Graphics/Tilesets/revision_mapa16.png": [
+    {
+      "ruta": "Map016.Tilesets[67].tileset_name",
+      "mapa": 16
+    },
+    {
+      "ruta": "Tilesets[67].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/acto4_alcantarillas.png": [
+    {
+      "ruta": "Map017.Tilesets[68].tileset_name",
+      "mapa": 17
+    },
+    {
+      "ruta": "Map018.Tilesets[68].tileset_name",
+      "mapa": 18
+    },
+    {
+      "ruta": "Map019.Tilesets[68].tileset_name",
+      "mapa": 19
+    },
+    {
+      "ruta": "Map020.Tilesets[68].tileset_name",
+      "mapa": 20
+    },
+    {
+      "ruta": "Map021.Tilesets[68].tileset_name",
+      "mapa": 21
+    },
+    {
+      "ruta": "Tilesets[68].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/mente_tunel.png": [
+    {
+      "ruta": "Map017.Tilesets[68].battleback_name",
+      "mapa": 17
+    },
+    {
+      "ruta": "Map018.Tilesets[68].battleback_name",
+      "mapa": 18
+    },
+    {
+      "ruta": "Map019.Tilesets[68].battleback_name",
+      "mapa": 19
+    },
+    {
+      "ruta": "Map020.Tilesets[68].battleback_name",
+      "mapa": 20
+    },
+    {
+      "ruta": "Map021.Tilesets[68].battleback_name",
+      "mapa": 21
+    },
+    {
+      "ruta": "Tilesets[68].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Characters/vacas_muesca.png": [
+    {
+      "ruta": "Map018.events.5.pages[0].graphic.character_name",
+      "mapa": 18
+    },
+    {
+      "ruta": "Map018.events.6.pages[1].graphic.character_name",
+      "mapa": 18
+    },
+    {
+      "ruta": "Map019.events.7.pages[1].graphic.character_name",
+      "mapa": 19
+    },
+    {
+      "ruta": "Map020.events.5.pages[0].graphic.character_name",
+      "mapa": 20
+    },
+    {
+      "ruta": "Map023.events.5.pages[1].graphic.character_name",
+      "mapa": 23
+    },
+    {
+      "ruta": "Map027.events.4.pages[0].graphic.character_name",
+      "mapa": 27
+    },
+    {
+      "ruta": "Map028.events.6.pages[0].graphic.character_name",
+      "mapa": 28
+    },
+    {
+      "ruta": "Map028.events.6.pages[1].graphic.character_name",
+      "mapa": 28
+    }
+  ],
+  "Graphics/Pictures/retrato_muesca_neutral.png": [
+    {
+      "ruta": "Map018.events.5.pages[0].list[1].parameters[0]",
+      "mapa": 18
+    },
+    {
+      "ruta": "Map018.events.5.pages[0].list[17].parameters[0]",
+      "mapa": 18
+    },
+    {
+      "ruta": "Map018.events.5.pages[0].list[27].parameters[0]",
+      "mapa": 18
+    },
+    {
+      "ruta": "Map018.events.5.pages[0].list[39].parameters[0]",
+      "mapa": 18
+    },
+    {
+      "ruta": "Map018.events.5.pages[0].list[46].parameters[0]",
+      "mapa": 18
+    },
+    {
+      "ruta": "Map018.events.5.pages[0].list[50].parameters[0]",
+      "mapa": 18
+    },
+    {
+      "ruta": "Map020.events.4.pages[0].list[19].parameters[0]",
+      "mapa": 20
+    },
+    {
+      "ruta": "Map020.events.5.pages[0].list[1].parameters[0]",
+      "mapa": 20
+    },
+    {
+      "ruta": "Map020.events.5.pages[0].list[4].parameters[0]",
+      "mapa": 20
+    },
+    {
+      "ruta": "Map023.events.5.pages[1].list[1].parameters[0]",
+      "mapa": 23
+    },
+    {
+      "ruta": "Map023.events.5.pages[1].list[5].parameters[0]",
+      "mapa": 23
+    },
+    {
+      "ruta": "Map027.events.4.pages[0].list[1].parameters[0]",
+      "mapa": 27
+    },
+    {
+      "ruta": "Map027.events.4.pages[0].list[5].parameters[0]",
+      "mapa": 27
+    },
+    {
+      "ruta": "Map028.events.6.pages[0].list[1].parameters[0]",
+      "mapa": 28
+    },
+    {
+      "ruta": "Map028.events.6.pages[0].list[8].parameters[0]",
+      "mapa": 28
+    },
+    {
+      "ruta": "Map028.events.6.pages[1].list[0].parameters[0]",
+      "mapa": 28
+    },
+    {
+      "ruta": "Map032.events.7.pages[0].list[164].parameters[0]",
+      "mapa": 32
+    },
+    {
+      "ruta": "Map032.events.7.pages[0].list[269].parameters[0]",
+      "mapa": 32
+    }
+  ],
+  "Graphics/Characters/vacas_junco.png": [
+    {
+      "ruta": "Map019.events.4.pages[0].graphic.character_name",
+      "mapa": 19
+    },
+    {
+      "ruta": "Map020.events.6.pages[0].graphic.character_name",
+      "mapa": 20
+    },
+    {
+      "ruta": "Map023.events.5.pages[2].graphic.character_name",
+      "mapa": 23
+    },
+    {
+      "ruta": "Map027.events.5.pages[1].graphic.character_name",
+      "mapa": 27
+    }
+  ],
+  "Graphics/Pictures/retrato_junco_neutral.png": [
+    {
+      "ruta": "Map019.events.4.pages[0].list[1].parameters[0]",
+      "mapa": 19
+    },
+    {
+      "ruta": "Map019.events.4.pages[0].list[7].parameters[0]",
+      "mapa": 19
+    },
+    {
+      "ruta": "Map019.events.4.pages[0].list[16].parameters[0]",
+      "mapa": 19
+    },
+    {
+      "ruta": "Map019.events.4.pages[0].list[22].parameters[0]",
+      "mapa": 19
+    },
+    {
+      "ruta": "Map020.events.4.pages[0].list[15].parameters[0]",
+      "mapa": 20
+    },
+    {
+      "ruta": "Map020.events.6.pages[0].list[1].parameters[0]",
+      "mapa": 20
+    },
+    {
+      "ruta": "Map020.events.6.pages[0].list[5].parameters[0]",
+      "mapa": 20
+    },
+    {
+      "ruta": "Map023.events.5.pages[2].list[1].parameters[0]",
+      "mapa": 23
+    },
+    {
+      "ruta": "Map023.events.5.pages[2].list[5].parameters[0]",
+      "mapa": 23
+    },
+    {
+      "ruta": "Map027.events.5.pages[1].list[0].parameters[0]",
+      "mapa": 27
+    }
+  ],
+  "Graphics/Characters/vacas_guernsey4.png": [
+    {
+      "ruta": "Map020.events.4.pages[0].graphic.character_name",
+      "mapa": 20
+    },
+    {
+      "ruta": "Map026.events.10.pages[1].graphic.character_name",
+      "mapa": 26
+    },
+    {
+      "ruta": "Map027.events.3.pages[0].graphic.character_name",
+      "mapa": 27
+    },
+    {
+      "ruta": "Map027.events.3.pages[1].graphic.character_name",
+      "mapa": 27
+    },
+    {
+      "ruta": "Map029.events.6.pages[0].graphic.character_name",
+      "mapa": 29
+    },
+    {
+      "ruta": "Map032.events.7.pages[0].graphic.character_name",
+      "mapa": 32
+    }
+  ],
+  "Graphics/Tilesets/acto5_matanza.png": [
+    {
+      "ruta": "Map022.Tilesets[69].tileset_name",
+      "mapa": 22
+    },
+    {
+      "ruta": "Map023.Tilesets[69].tileset_name",
+      "mapa": 23
+    },
+    {
+      "ruta": "Map024.Tilesets[69].tileset_name",
+      "mapa": 24
+    },
+    {
+      "ruta": "Map025.Tilesets[69].tileset_name",
+      "mapa": 25
+    },
+    {
+      "ruta": "Map026.Tilesets[69].tileset_name",
+      "mapa": 26
+    },
+    {
+      "ruta": "Map027.Tilesets[69].tileset_name",
+      "mapa": 27
+    },
+    {
+      "ruta": "Tilesets[69].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/acto6_reydios.png": [
+    {
+      "ruta": "Map028.Tilesets[70].tileset_name",
+      "mapa": 28
+    },
+    {
+      "ruta": "Map029.Tilesets[70].tileset_name",
+      "mapa": 29
+    },
+    {
+      "ruta": "Map030.Tilesets[70].tileset_name",
+      "mapa": 30
+    },
+    {
+      "ruta": "Map031.Tilesets[70].tileset_name",
+      "mapa": 31
+    },
+    {
+      "ruta": "Map032.Tilesets[70].tileset_name",
+      "mapa": 32
+    },
+    {
+      "ruta": "Tilesets[70].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Pictures/retrato_madre_envejecida_neutral.png": [
+    {
+      "ruta": "Map030.events.2.pages[0].list[4].parameters[0]",
+      "mapa": 30
+    },
+    {
+      "ruta": "Map030.events.2.pages[0].list[6].parameters[0]",
+      "mapa": 30
+    },
+    {
+      "ruta": "Map030.events.5.pages[0].list[0].parameters[0]",
+      "mapa": 30
+    },
+    {
+      "ruta": "Map030.events.5.pages[0].list[50].parameters[0]",
+      "mapa": 30
+    },
+    {
+      "ruta": "Map030.events.5.pages[1].list[1].parameters[0]",
+      "mapa": 30
+    },
+    {
+      "ruta": "Map030.events.5.pages[1].list[5].parameters[0]",
+      "mapa": 30
+    }
+  ],
+  "Graphics/Icons/045-Skill02.png": [
+    {
+      "ruta": "Skills[1].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[2].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[3].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[4].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[5].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[6].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/044-Skill01.png": [
+    {
+      "ruta": "Skills[7].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[8].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[9].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[10].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[11].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[12].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[13].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[14].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[15].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[16].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[17].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[18].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[19].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[20].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[21].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[22].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[23].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[24].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[25].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[26].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[27].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[28].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[29].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[30].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[31].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[32].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/046-Skill03.png": [
+    {
+      "ruta": "Skills[33].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[34].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[35].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[36].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[37].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[38].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[39].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[40].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[41].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[42].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[43].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[44].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/047-Skill04.png": [
+    {
+      "ruta": "Skills[45].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[46].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[47].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[48].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[49].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[50].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[51].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[52].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/048-Skill05.png": [
+    {
+      "ruta": "Skills[53].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[54].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[55].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[56].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/050-Skill07.png": [
+    {
+      "ruta": "Skills[57].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[58].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[59].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[60].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[71].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[72].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[73].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[74].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[75].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[76].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[77].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[78].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[79].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Skills[80].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_habilidad_61.png": [
+    {
+      "ruta": "Skills[61].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_habilidad_62.png": [
+    {
+      "ruta": "Skills[62].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_habilidad_63.png": [
+    {
+      "ruta": "Skills[63].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_habilidad_64.png": [
+    {
+      "ruta": "Skills[64].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_habilidad_65.png": [
+    {
+      "ruta": "Skills[65].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_habilidad_66.png": [
+    {
+      "ruta": "Skills[66].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_habilidad_67.png": [
+    {
+      "ruta": "Skills[67].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_habilidad_68.png": [
+    {
+      "ruta": "Skills[68].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_habilidad_69.png": [
+    {
+      "ruta": "Skills[69].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/vacas_habilidad_70.png": [
+    {
+      "ruta": "Skills[70].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Gameovers/vacas_gameover.png": [
+    {
+      "ruta": "System.gameover_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Titles/vacas_titulo.png": [
+    {
+      "ruta": "System.title_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Windowskins/ui_windowskin.png": [
+    {
+      "ruta": "System.windowskin_name",
+      "mapa": null
+    },
+    {
+      "ruta": "diseno/scripts/12_interfaz.rb",
+      "mapa": null
+    },
+    {
+      "ruta": "diseno/scripts/12_interfaz.rb",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/mente_matadero.png": [
+    {
+      "ruta": "System.battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/001-G_Water01.png": [
+    {
+      "ruta": "Tilesets[1].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[2].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[4].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[13].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[15].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[23].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[32].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[34].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[35].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[37].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[39].autotile_names[0]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/040-Ground01.png": [
+    {
+      "ruta": "Tilesets[1].autotile_names[3]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[2].autotile_names[3]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[4].autotile_names[2]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[13].autotile_names[4]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[17].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[23].autotile_names[3]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[32].autotile_names[3]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[34].autotile_names[4]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[37].autotile_names[3]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[39].autotile_names[3]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/041-Grass01.png": [
+    {
+      "ruta": "Tilesets[1].autotile_names[4]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[11].autotile_names[4]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[13].autotile_names[5]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[15].autotile_names[3]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[23].autotile_names[4]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[32].autotile_names[4]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[34].autotile_names[5]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[37].autotile_names[4]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/007-G_Undulation01.png": [
+    {
+      "ruta": "Tilesets[1].autotile_names[5]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[4].autotile_names[3]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[23].autotile_names[6]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/008-G_Undulation02.png": [
+    {
+      "ruta": "Tilesets[1].autotile_names[6]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[37].autotile_names[6]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/001-Grassland01.png": [
+    {
+      "ruta": "Tilesets[1].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/001-Grassland01.png": [
+    {
+      "ruta": "Tilesets[1].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/043-Grass02.png": [
+    {
+      "ruta": "Tilesets[2].autotile_names[4]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[35].autotile_names[5]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[39].autotile_names[4]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/036-Tree01.png": [
+    {
+      "ruta": "Tilesets[2].autotile_names[5]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[15].autotile_names[5]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/037-Tree02.png": [
+    {
+      "ruta": "Tilesets[2].autotile_names[6]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[15].autotile_names[6]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/002-Woods01.png": [
+    {
+      "ruta": "Tilesets[2].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/002-Woods01.png": [
+    {
+      "ruta": "Tilesets[2].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/009-G2_Water01.png": [
+    {
+      "ruta": "Tilesets[3].autotile_names[0]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/010-G2_Ground01.png": [
+    {
+      "ruta": "Tilesets[3].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[7].autotile_names[0]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/011-G2_Ground02.png": [
+    {
+      "ruta": "Tilesets[3].autotile_names[2]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[7].autotile_names[1]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/042-Ground02.png": [
+    {
+      "ruta": "Tilesets[3].autotile_names[3]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[7].autotile_names[2]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/038-Tree03.png": [
+    {
+      "ruta": "Tilesets[3].autotile_names[4]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[7].autotile_names[3]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[35].autotile_names[6]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/039-Tree04.png": [
+    {
+      "ruta": "Tilesets[3].autotile_names[5]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/003-Forest01.png": [
+    {
+      "ruta": "Tilesets[3].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/003-Forest01.png": [
+    {
+      "ruta": "Tilesets[3].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Panoramas/006-Mountains01.png": [
+    {
+      "ruta": "Tilesets[4].panorama_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[34].panorama_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/033-Waterfall01.png": [
+    {
+      "ruta": "Tilesets[4].autotile_names[4]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/034-Waterfall02.png": [
+    {
+      "ruta": "Tilesets[4].autotile_names[5]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/035-Waterfall03.png": [
+    {
+      "ruta": "Tilesets[4].autotile_names[6]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/004-Mountain01.png": [
+    {
+      "ruta": "Tilesets[4].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/004-Mountain01.png": [
+    {
+      "ruta": "Tilesets[4].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/024-Ocean01.png": [
+    {
+      "ruta": "Tilesets[5].autotile_names[0]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/025-Ocean02.png": [
+    {
+      "ruta": "Tilesets[5].autotile_names[1]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/026-Ocean03.png": [
+    {
+      "ruta": "Tilesets[5].autotile_names[2]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/027-Ocean04.png": [
+    {
+      "ruta": "Tilesets[5].autotile_names[3]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/016-Sa_Shadow01.png": [
+    {
+      "ruta": "Tilesets[5].autotile_names[4]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[6].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[19].autotile_names[1]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/017-Sa_Grass01.png": [
+    {
+      "ruta": "Tilesets[5].autotile_names[5]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[6].autotile_names[2]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[11].autotile_names[3]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/045-Road02.png": [
+    {
+      "ruta": "Tilesets[5].autotile_names[6]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[32].autotile_names[6]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/005-Beach01.png": [
+    {
+      "ruta": "Tilesets[5].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/005-Beach01.png": [
+    {
+      "ruta": "Tilesets[5].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/015-Sa_Water01.png": [
+    {
+      "ruta": "Tilesets[6].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[19].autotile_names[0]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/018-Sa_Ground01.png": [
+    {
+      "ruta": "Tilesets[6].autotile_names[3]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[19].autotile_names[2]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/019-Sa_Grass02.png": [
+    {
+      "ruta": "Tilesets[6].autotile_names[4]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[19].autotile_names[3]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/020-Sa_Grass03.png": [
+    {
+      "ruta": "Tilesets[6].autotile_names[5]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[19].autotile_names[4]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/023-Sa_Undulation01.png": [
+    {
+      "ruta": "Tilesets[6].autotile_names[6]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/006-Desert01.png": [
+    {
+      "ruta": "Tilesets[6].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/006-Desert01.png": [
+    {
+      "ruta": "Tilesets[6].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/012-G2_Swamp01.png": [
+    {
+      "ruta": "Tilesets[7].autotile_names[4]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/013-G2_Swamp02.png": [
+    {
+      "ruta": "Tilesets[7].autotile_names[5]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/014-G2_Swamp03.png": [
+    {
+      "ruta": "Tilesets[7].autotile_names[6]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/007-Swamp01.png": [
+    {
+      "ruta": "Tilesets[7].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/007-Swamp01.png": [
+    {
+      "ruta": "Tilesets[7].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/028-Sn_Water01.png": [
+    {
+      "ruta": "Tilesets[8].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[21].autotile_names[0]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/029-Sn_Shadow01.png": [
+    {
+      "ruta": "Tilesets[8].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[21].autotile_names[1]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/030-Sn_Ground01.png": [
+    {
+      "ruta": "Tilesets[8].autotile_names[2]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[21].autotile_names[2]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/044-Road01.png": [
+    {
+      "ruta": "Tilesets[8].autotile_names[3]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[13].autotile_names[6]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[15].autotile_names[4]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[17].autotile_names[2]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[21].autotile_names[3]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[23].autotile_names[5]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[37].autotile_names[5]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[39].autotile_names[5]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/031-Sn_Undulation01.png": [
+    {
+      "ruta": "Tilesets[8].autotile_names[4]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[21].autotile_names[4]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/008-Snowfield01.png": [
+    {
+      "ruta": "Tilesets[8].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/008-Snowfield01.png": [
+    {
+      "ruta": "Tilesets[8].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/009-CastleTown01.png": [
+    {
+      "ruta": "Tilesets[9].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/009-CastleTown01.png": [
+    {
+      "ruta": "Tilesets[9].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/054-Wall02.png": [
+    {
+      "ruta": "Tilesets[10].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[14].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[16].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[22].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[36].autotile_names[1]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/051-Carpet01.png": [
+    {
+      "ruta": "Tilesets[10].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[26].autotile_names[3]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[27].autotile_names[3]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[29].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[31].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[33].autotile_names[3]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[38].autotile_names[1]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[42].autotile_names[1]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/010-CastleTown02.png": [
+    {
+      "ruta": "Tilesets[10].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/010-CastleTown02.png": [
+    {
+      "ruta": "Tilesets[10].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/032-T_Ocean01.png": [
+    {
+      "ruta": "Tilesets[11].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[30].autotile_names[1]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/004-G_Ground02.png": [
+    {
+      "ruta": "Tilesets[11].autotile_names[2]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[15].autotile_names[2]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[25].autotile_names[2]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[28].autotile_names[2]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/011-PortTown01.png": [
+    {
+      "ruta": "Tilesets[11].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/011-PortTown01.png": [
+    {
+      "ruta": "Tilesets[11].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/012-PortTown02.png": [
+    {
+      "ruta": "Tilesets[12].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/012-PortTown02.png": [
+    {
+      "ruta": "Tilesets[12].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/013-PostTown01.png": [
+    {
+      "ruta": "Tilesets[13].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/013-PostTown01.png": [
+    {
+      "ruta": "Tilesets[13].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/014-PostTown02.png": [
+    {
+      "ruta": "Tilesets[14].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/014-PostTown02.png": [
+    {
+      "ruta": "Tilesets[14].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/015-ForestTown01.png": [
+    {
+      "ruta": "Tilesets[15].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/015-ForestTown01.png": [
+    {
+      "ruta": "Tilesets[15].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/016-ForestTown02.png": [
+    {
+      "ruta": "Tilesets[16].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/016-ForestTown02.png": [
+    {
+      "ruta": "Tilesets[16].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/017-MineTown01.png": [
+    {
+      "ruta": "Tilesets[17].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/017-MineTown01.png": [
+    {
+      "ruta": "Tilesets[17].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/018-MineTown02.png": [
+    {
+      "ruta": "Tilesets[18].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/018-MineTown02.png": [
+    {
+      "ruta": "Tilesets[18].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/021-Sa_Road01.png": [
+    {
+      "ruta": "Tilesets[19].autotile_names[5]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/022-Roof01.png": [
+    {
+      "ruta": "Tilesets[19].autotile_names[6]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/019-DesertTown01.png": [
+    {
+      "ruta": "Tilesets[19].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/019-DesertTown01.png": [
+    {
+      "ruta": "Tilesets[19].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/055-Wall03.png": [
+    {
+      "ruta": "Tilesets[20].autotile_names[0]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[36].autotile_names[2]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/020-DesertTown02.png": [
+    {
+      "ruta": "Tilesets[20].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/020-DesertTown02.png": [
+    {
+      "ruta": "Tilesets[20].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/021-SnowTown01.png": [
+    {
+      "ruta": "Tilesets[21].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/021-SnowTown01.png": [
+    {
+      "ruta": "Tilesets[21].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/022-SnowTown02.png": [
+    {
+      "ruta": "Tilesets[22].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/022-SnowTown02.png": [
+    {
+      "ruta": "Tilesets[22].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/023-FarmVillage01.png": [
+    {
+      "ruta": "Tilesets[23].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/023-FarmVillage01.png": [
+    {
+      "ruta": "Tilesets[23].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/024-FarmVillage02.png": [
+    {
+      "ruta": "Tilesets[24].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/024-FarmVillage02.png": [
+    {
+      "ruta": "Tilesets[24].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/047-Flower01.png": [
+    {
+      "ruta": "Tilesets[25].autotile_names[4]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[28].autotile_names[5]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[32].autotile_names[5]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/025-Castle01.png": [
+    {
+      "ruta": "Tilesets[25].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/025-Castle01.png": [
+    {
+      "ruta": "Tilesets[25].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/049-St_Shadow01.png": [
+    {
+      "ruta": "Tilesets[26].autotile_names[2]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[27].autotile_names[2]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[33].autotile_names[2]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[36].autotile_names[4]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[40].autotile_names[2]",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[48].autotile_names[2]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/026-Castle02.png": [
+    {
+      "ruta": "Tilesets[26].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/026-Castle02.png": [
+    {
+      "ruta": "Tilesets[26].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/027-Castle03.png": [
+    {
+      "ruta": "Tilesets[27].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/027-Castle03.png": [
+    {
+      "ruta": "Tilesets[27].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/028-Church01.png": [
+    {
+      "ruta": "Tilesets[28].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/028-Church01.png": [
+    {
+      "ruta": "Tilesets[28].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/029-Church02.png": [
+    {
+      "ruta": "Tilesets[29].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/029-Church02.png": [
+    {
+      "ruta": "Tilesets[29].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/046-Road03.png": [
+    {
+      "ruta": "Tilesets[30].autotile_names[2]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/030-Ship01.png": [
+    {
+      "ruta": "Tilesets[30].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/030-Ship01.png": [
+    {
+      "ruta": "Tilesets[30].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/031-Ship02.png": [
+    {
+      "ruta": "Tilesets[31].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/031-Ship02.png": [
+    {
+      "ruta": "Tilesets[31].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Panoramas/001-Sky01.png": [
+    {
+      "ruta": "Tilesets[32].panorama_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Tilesets[33].panorama_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/032-Heaven01.png": [
+    {
+      "ruta": "Tilesets[32].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/032-Heaven01.png": [
+    {
+      "ruta": "Tilesets[32].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/033-Heaven02.png": [
+    {
+      "ruta": "Tilesets[33].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/033-Heaven02.png": [
+    {
+      "ruta": "Tilesets[33].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/034-Bridge01.png": [
+    {
+      "ruta": "Tilesets[34].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/034-Bridge01.png": [
+    {
+      "ruta": "Tilesets[34].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/035-Ruins01.png": [
+    {
+      "ruta": "Tilesets[35].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/035-Ruins01.png": [
+    {
+      "ruta": "Tilesets[35].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/036-Shop01.png": [
+    {
+      "ruta": "Tilesets[36].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/036-Shop01.png": [
+    {
+      "ruta": "Tilesets[36].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/037-Fort01.png": [
+    {
+      "ruta": "Tilesets[37].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/037-Fort01.png": [
+    {
+      "ruta": "Tilesets[37].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/038-Fort02.png": [
+    {
+      "ruta": "Tilesets[38].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/038-Fort02.png": [
+    {
+      "ruta": "Tilesets[38].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/039-Tower01.png": [
+    {
+      "ruta": "Tilesets[39].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/039-Tower01.png": [
+    {
+      "ruta": "Tilesets[39].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/040-Tower02.png": [
+    {
+      "ruta": "Tilesets[40].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/040-Tower02.png": [
+    {
+      "ruta": "Tilesets[40].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/041-EvilCastle01.png": [
+    {
+      "ruta": "Tilesets[41].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/041-EvilCastle01.png": [
+    {
+      "ruta": "Tilesets[41].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/042-EvilCastle02.png": [
+    {
+      "ruta": "Tilesets[42].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/042-EvilCastle02.png": [
+    {
+      "ruta": "Tilesets[42].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/056-CE_Water01.png": [
+    {
+      "ruta": "Tilesets[43].autotile_names[0]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/057-CE_Shadow01.png": [
+    {
+      "ruta": "Tilesets[43].autotile_names[1]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/058-CE_Ground01.png": [
+    {
+      "ruta": "Tilesets[43].autotile_names[2]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/059-CE_Ground02.png": [
+    {
+      "ruta": "Tilesets[43].autotile_names[3]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/060-CE_Grass01.png": [
+    {
+      "ruta": "Tilesets[43].autotile_names[4]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/061-CE_Road01.png": [
+    {
+      "ruta": "Tilesets[43].autotile_names[5]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/043-Cave01.png": [
+    {
+      "ruta": "Tilesets[43].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/043-Cave01.png": [
+    {
+      "ruta": "Tilesets[43].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/062-CF_Lava01.png": [
+    {
+      "ruta": "Tilesets[44].autotile_names[0]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/063-CF_Shadow01.png": [
+    {
+      "ruta": "Tilesets[44].autotile_names[1]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/064-CF_Ground01.png": [
+    {
+      "ruta": "Tilesets[44].autotile_names[2]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/065-CF_Ground02.png": [
+    {
+      "ruta": "Tilesets[44].autotile_names[3]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/066-CF_Ground03.png": [
+    {
+      "ruta": "Tilesets[44].autotile_names[4]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/067-CF_Ground04.png": [
+    {
+      "ruta": "Tilesets[44].autotile_names[5]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/044-Cave02.png": [
+    {
+      "ruta": "Tilesets[44].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/044-Cave02.png": [
+    {
+      "ruta": "Tilesets[44].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/068-CI_Water01.png": [
+    {
+      "ruta": "Tilesets[45].autotile_names[0]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/069-CI_Shadow01.png": [
+    {
+      "ruta": "Tilesets[45].autotile_names[1]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/070-CI_Snow01.png": [
+    {
+      "ruta": "Tilesets[45].autotile_names[2]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/071-CI_Ground01.png": [
+    {
+      "ruta": "Tilesets[45].autotile_names[3]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/072-CI_Ice01.png": [
+    {
+      "ruta": "Tilesets[45].autotile_names[4]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/073-CI_Ground02.png": [
+    {
+      "ruta": "Tilesets[45].autotile_names[5]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/045-Cave03.png": [
+    {
+      "ruta": "Tilesets[45].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/045-Cave03.png": [
+    {
+      "ruta": "Tilesets[45].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/074-CW_Water01.png": [
+    {
+      "ruta": "Tilesets[46].autotile_names[0]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/075-CW_Shadow01.png": [
+    {
+      "ruta": "Tilesets[46].autotile_names[1]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/076-CW_Grass01.png": [
+    {
+      "ruta": "Tilesets[46].autotile_names[2]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/077-CW_Grass02.png": [
+    {
+      "ruta": "Tilesets[46].autotile_names[3]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/078-CW_Ground01.png": [
+    {
+      "ruta": "Tilesets[46].autotile_names[4]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/079-CW_Grass03.png": [
+    {
+      "ruta": "Tilesets[46].autotile_names[5]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/046-Cave04.png": [
+    {
+      "ruta": "Tilesets[46].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/046-Cave04.png": [
+    {
+      "ruta": "Tilesets[46].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/047-Mine01.png": [
+    {
+      "ruta": "Tilesets[47].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/047-Mine01.png": [
+    {
+      "ruta": "Tilesets[47].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/048-Sewer01.png": [
+    {
+      "ruta": "Tilesets[48].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/048-Sewer01.png": [
+    {
+      "ruta": "Tilesets[48].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/080-B_Ground01.png": [
+    {
+      "ruta": "Tilesets[49].autotile_names[0]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Autotiles/081-B_Ground02.png": [
+    {
+      "ruta": "Tilesets[49].autotile_names[1]",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/049-InnerBody01.png": [
+    {
+      "ruta": "Tilesets[49].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/049-InnerBody01.png": [
+    {
+      "ruta": "Tilesets[49].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Panoramas/003-StarlitSky01.png": [
+    {
+      "ruta": "Tilesets[50].panorama_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Battlebacks/050-DarkSpace01.png": [
+    {
+      "ruta": "Tilesets[50].battleback_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/050-DarkSpace01.png": [
+    {
+      "ruta": "Tilesets[50].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Tilesets/vacas_matadero.png": [
+    {
+      "ruta": "Tilesets[51].tileset_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/001-Weapon01.png": [
+    {
+      "ruta": "Weapons[1].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Weapons[2].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Weapons[3].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Weapons[4].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/002-Weapon02.png": [
+    {
+      "ruta": "Weapons[5].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Weapons[6].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Weapons[7].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Weapons[8].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/003-Weapon03.png": [
+    {
+      "ruta": "Weapons[9].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Weapons[10].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Weapons[11].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Weapons[12].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/004-Weapon04.png": [
+    {
+      "ruta": "Weapons[13].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Weapons[14].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Weapons[15].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Weapons[16].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/005-Weapon05.png": [
+    {
+      "ruta": "Weapons[17].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Weapons[18].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Weapons[19].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Weapons[20].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/006-Weapon06.png": [
+    {
+      "ruta": "Weapons[21].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Weapons[22].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Weapons[23].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Weapons[24].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/007-Weapon07.png": [
+    {
+      "ruta": "Weapons[25].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Weapons[26].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Weapons[27].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Weapons[28].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/008-Weapon08.png": [
+    {
+      "ruta": "Weapons[29].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Weapons[30].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Weapons[31].icon_name",
+      "mapa": null
+    },
+    {
+      "ruta": "Weapons[32].icon_name",
+      "mapa": null
+    }
+  ],
+  "Graphics/Pictures/retrato_.png": [
+    {
+      "ruta": "diseno/scripts/06_vn.rb",
+      "mapa": null
+    },
+    {
+      "ruta": "diseno/scripts/16_cinematicas.rb",
+      "mapa": null
+    }
+  ],
+  "Graphics/Pictures/ui_bar_.png": [
+    {
+      "ruta": "diseno/scripts/12_interfaz.rb",
+      "mapa": null
+    }
+  ],
+  "Graphics/Pictures/ui_.png": [
+    {
+      "ruta": "diseno/scripts/12_interfaz.rb",
+      "mapa": null
+    }
+  ],
+  "Graphics/Pictures/ui_fog.png": [
+    {
+      "ruta": "diseno/scripts/12_interfaz.rb",
+      "mapa": null
+    }
+  ],
+  "Graphics/Pictures/ui_cursor.png": [
+    {
+      "ruta": "diseno/scripts/12_interfaz.rb",
+      "mapa": null
+    }
+  ],
+  "Graphics/Icons/ui_estado_.png": [
+    {
+      "ruta": "diseno/scripts/12_interfaz.rb",
+      "mapa": null
+    },
+    {
+      "ruta": "diseno/scripts/12_interfaz.rb",
+      "mapa": null
+    },
+    {
+      "ruta": "diseno/scripts/12_interfaz.rb",
+      "mapa": null
+    }
+  ],
+  "Graphics/Pictures/ui_avance.png": [
+    {
+      "ruta": "diseno/scripts/12_interfaz.rb",
+      "mapa": null
+    }
+  ],
+  "Graphics/Pictures/ui_target.png": [
+    {
+      "ruta": "diseno/scripts/12_interfaz.rb",
+      "mapa": null
+    }
+  ]
+}

@@ -180,8 +180,8 @@ end
 class Scene_End
   def main
     @command_window = Window_Command.new(220, ["Volver al título", "Cerrar el juego", "Cancelar"])
-    @command_window.x = 320 - @command_window.width / 2
-    @command_window.y = 240 - @command_window.height / 2
+    @command_window.x = Vacas_HD.w / 2 - @command_window.width / 2
+    @command_window.y = Vacas_HD.h / 2 - @command_window.height / 2
     Graphics.transition
     loop do
       Graphics.update

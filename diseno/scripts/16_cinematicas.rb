@@ -309,6 +309,52 @@ class Scene_Load
   alias hd_read_save_data read_save_data
   def read_save_data(file)
     hd_read_save_data(file)
+    # XP serializa Game_Map: sin migración, las partidas ya migradas por
+    # Lucy seguirían usando las colisiones y eventos anteriores a esta revisión.
+    unless $game_system.instance_variable_get(:@jugabilidad_mapas_v1)
+      x, y = $game_player.x, $game_player.y
+      $game_map.setup($game_map.map_id)
+      $game_player.moveto(x,y)
+      $game_player.refresh
+      $game_system.instance_variable_set(:@jugabilidad_mapas_v1,true)
+    end
     $game_player.center($game_player.x,$game_player.y)
+  end
+end
+
+# Los bordes de mapas pequeños no muestran la repetición del panorama/niebla.
+# Se dibujan sobre el mundo y debajo de pictures, mensajes y HUD.
+class Spriteset_Map
+  alias jugabilidad_update update
+  def update
+    jugabilidad_update
+    key = [Vacas_HD.w, Vacas_HD.h, $game_map.width, $game_map.height]
+    return if @jugabilidad_borde_key == key
+    @jugabilidad_borde_key = key
+    if @jugabilidad_borde
+      @jugabilidad_borde.bitmap.dispose
+      @jugabilidad_borde.dispose
+      @jugabilidad_borde = nil
+    end
+    bx = [0, (Vacas_HD.w - $game_map.width * 32) / 2].max
+    by = [0, (Vacas_HD.h - $game_map.height * 32) / 2].max
+    return if bx == 0 && by == 0
+    @jugabilidad_borde = Sprite.new(@viewport1)
+    @jugabilidad_borde.z = 9999
+    b = Bitmap.new(Vacas_HD.w, Vacas_HD.h)
+    negro = Color.new(0,0,0,255)
+    b.fill_rect(0,0,bx,Vacas_HD.h,negro)
+    b.fill_rect(Vacas_HD.w-bx,0,bx,Vacas_HD.h,negro)
+    b.fill_rect(0,0,Vacas_HD.w,by,negro)
+    b.fill_rect(0,Vacas_HD.h-by,Vacas_HD.w,by,negro)
+    @jugabilidad_borde.bitmap = b
+  end
+  alias jugabilidad_dispose dispose
+  def dispose
+    if @jugabilidad_borde
+      @jugabilidad_borde.bitmap.dispose
+      @jugabilidad_borde.dispose
+    end
+    jugabilidad_dispose
   end
 end

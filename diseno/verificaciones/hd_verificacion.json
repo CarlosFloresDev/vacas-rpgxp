@@ -1,5 +1,7 @@
 {
-  "errores": [],
+  "errores": [
+    "Integridad Vacas.cfg"
+  ],
   "configuracion": {
     "rgssVersion": 1,
     "gameFolder": ".",
@@ -247,7 +249,7 @@
     },
     "marshal": {
       "codigo": 0,
-      "salida": "{\n  \"files\": 324,\n  \"errors\": [\n\n  ]\n}\n",
+      "salida": "{\n  \"files\": 372,\n  \"errors\": [\n\n  ]\n}\n",
       "stderr": "Test-Path : Acceso denegado\nEn C:\\Users\\car_g\\scoop\\apps\\scoop\\current\\lib\\core.ps1: 83 Carácter: 10\n+     if(!(Test-Path $file)) {\n+          ~~~~~~~~~~~~~~~\n    + CategoryInfo          : PermissionDenied: (C:\\Users\\car_g\\.config\\scoop\\config.json:String) [Test-Path], Unautho \n   rizedAccessException\n    + FullyQualifiedErrorId : ItemExistsUnauthorizedAccessError,Microsoft.PowerShell.Commands.TestPathCommand\n \n"
     },
     "simulacion_360": {

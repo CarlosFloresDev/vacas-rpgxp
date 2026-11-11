@@ -1,0 +1,28 @@
+{
+  "migraciones": [
+    null,
+    null
+  ],
+  "switches": {
+    "2": null,
+    "4": null,
+    "8": null,
+    "22": null,
+    "81": null,
+    "113": null,
+    "140": null,
+    "176": null
+  },
+  "lavabo_A": null,
+  "jarabe": null,
+  "mapa": 2,
+  "tileset_guardado": 53,
+  "lavabo_guardado": [
+    13,
+    3
+  ],
+  "jugador": [
+    9,
+    17
+  ]
+}

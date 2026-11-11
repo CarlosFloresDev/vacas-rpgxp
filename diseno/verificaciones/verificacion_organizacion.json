@@ -1,7 +1,14 @@
 {
   "integridad": {
     "archivos": 475,
-    "cambiados": []
+    "cambiados": [
+      "Data/Map002.rxdata",
+      "Data/Map007.rxdata",
+      "Data/Scripts.rxdata",
+      "Data/Tilesets.rxdata",
+      "Vacas.cfg",
+      "Save1.rxdata"
+    ]
   },
   "inventario": {
     "codigo": 0,
@@ -9,15 +16,15 @@
   },
   "sistemas": {
     "codigo": 0,
-    "salida": "Cajas: 1084 con retrato: 354 PNG: 42\nErrores: 0"
+    "salida": "Cajas: 1082 con retrato: 354 PNG: 42\nErrores: 0"
   },
   "marshal_ruby": {
     "codigo": 0,
-    "salida": "{\n  \"files\": 316,\n  \"errors\": [\n\n  ]\n}"
+    "salida": "{\n  \"files\": 372,\n  \"errors\": [\n\n  ]\n}"
   },
   "fuentes_vs_instalado": {
     "codigo": 0,
-    "salida": "{\"scripts\":16,\"errors\":[]}"
+    "salida": "{\"scripts\":55,\"errors\":[]}"
   },
   "sintaxis_ruby": [
     {
@@ -86,8 +93,8 @@
     }
   ],
   "enlaces": {
-    "documentos": 25,
-    "enlaces": 143,
+    "documentos": 26,
+    "enlaces": 158,
     "errores": [],
     "excluidos": "Respaldos y archivo: documentos históricos, conservados tal cual."
   },
@@ -102,5 +109,7 @@
     "salida": "{\n  \"ok\": true,\n  \"checked\": 1051,\n  \"missing_count\": 0,\n  \"rtp\": \"D:/SteamLibrary/steamapps/common/RPGXP/rtp\",\n  \"missing\": []\n}"
   },
   "dependencias_diseno_motor": [],
-  "errores": []
+  "errores": [
+    "Motor/configuración/partidas modificados: ['Data/Map002.rxdata', 'Data/Map007.rxdata', 'Data/Scripts.rxdata', 'Data/Tilesets.rxdata', 'Vacas.cfg', 'Save1.rxdata']"
+  ]
 }

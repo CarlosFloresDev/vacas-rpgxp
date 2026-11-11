@@ -54,6 +54,7 @@ module Input
     alias mini_test_trigger trigger?
     alias mini_test_dir4 dir4
     def dir4
+      return 0 if $mini_cinta && $mini_fallar
       if $mini_cinta && !$mini_fallar
         p=$mini_cinta.instance_variable_get(:@piezas).find { |row| !row[2] }
         return p[1] if p && (90..160).include?(p[0].x+24)
@@ -62,6 +63,7 @@ module Input
       return mini_test_dir4
     end
     def trigger?(key)
+      return false if $mini_cinta && $mini_fallar
       if $mini_corte && key==Input::C
         return false if $mini_fallar
         x=$mini_corte.instance_variable_get(:@cuchilla).x-120+3

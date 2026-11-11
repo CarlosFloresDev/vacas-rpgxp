@@ -118,7 +118,7 @@ class Scene_Title
     Vacas_HD.cover(@sprite)
     @command_window = Window_Command.new(200, ["Nueva partida", "Continuar", "Salir"])
     @command_window.back_opacity = 140
-    @command_window.x = 320 - @command_window.width / 2
+    @command_window.x = Vacas_HD.w / 2 - @command_window.width / 2
     @command_window.y = Vacas_HD.bottom(@command_window.height + 8)
     @continue_enabled = false
     for i in 0..3

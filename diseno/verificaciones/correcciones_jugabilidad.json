@@ -1,0 +1,1172 @@
+{
+  "cambios": [
+    {
+      "archivo": "Tilesets",
+      "mapa": 2,
+      "tileset": 53,
+      "tile": 466,
+      "campo": "passages",
+      "antes": 15,
+      "despues": 143,
+      "motivo": "Ventana accesible sobre la cajonera; conserva bloqueo"
+    },
+    {
+      "archivo": "Map007",
+      "mapa": 7,
+      "ruta": [
+        "events",
+        "5",
+        "x"
+      ],
+      "antes": 4,
+      "despues": 5,
+      "motivo": "Interacción desde la valla"
+    },
+    {
+      "archivo": "Map007",
+      "mapa": 7,
+      "ruta": [
+        "events",
+        "5",
+        "y"
+      ],
+      "antes": 10,
+      "despues": 8,
+      "motivo": "Interacción desde la valla"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 7,
+      "tileset": 58,
+      "tile": 408,
+      "campo": "passages",
+      "antes": 15,
+      "despues": 143,
+      "motivo": "Valla como counter; no abre el corral"
+    },
+    {
+      "archivo": "Map007",
+      "mapa": 7,
+      "ruta": [
+        "events",
+        "6",
+        "x"
+      ],
+      "antes": 6,
+      "despues": 7,
+      "motivo": "Interacción desde la valla"
+    },
+    {
+      "archivo": "Map007",
+      "mapa": 7,
+      "ruta": [
+        "events",
+        "6",
+        "y"
+      ],
+      "antes": 13,
+      "despues": 8,
+      "motivo": "Interacción desde la valla"
+    },
+    {
+      "archivo": "Map007",
+      "mapa": 7,
+      "ruta": [
+        "events",
+        "7",
+        "x"
+      ],
+      "antes": 13,
+      "despues": 12,
+      "motivo": "Interacción desde la valla"
+    },
+    {
+      "archivo": "Map007",
+      "mapa": 7,
+      "ruta": [
+        "events",
+        "7",
+        "y"
+      ],
+      "antes": 9,
+      "despues": 8,
+      "motivo": "Interacción desde la valla"
+    },
+    {
+      "archivo": "Map007",
+      "mapa": 7,
+      "ruta": [
+        "events",
+        "8",
+        "y"
+      ],
+      "antes": 12,
+      "despues": 8,
+      "motivo": "Interacción desde la valla"
+    },
+    {
+      "archivo": "Map007",
+      "mapa": 7,
+      "ruta": [
+        "events",
+        "9",
+        "y"
+      ],
+      "antes": 14,
+      "despues": 8,
+      "motivo": "Interacción desde la valla"
+    },
+    {
+      "archivo": "Map007",
+      "mapa": 7,
+      "ruta": [
+        "events",
+        "10",
+        "y"
+      ],
+      "antes": 9,
+      "despues": 8,
+      "motivo": "Interacción desde la valla"
+    },
+    {
+      "archivo": "Map007",
+      "mapa": 7,
+      "ruta": [
+        "events",
+        "11",
+        "y"
+      ],
+      "antes": 12,
+      "despues": 8,
+      "motivo": "Interacción desde la valla"
+    },
+    {
+      "archivo": "Map007",
+      "mapa": 7,
+      "ruta": [
+        "events",
+        "17",
+        "y"
+      ],
+      "antes": 17,
+      "despues": 5,
+      "motivo": "Cubo junto al pasillo accesible"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 2,
+      "tileset": 53,
+      "tile": 612,
+      "campo": "passages",
+      "antes": 0,
+      "despues": 15,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 2,
+      "tileset": 53,
+      "tile": 612,
+      "campo": "priorities",
+      "antes": 1,
+      "despues": 0,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 2,
+      "tileset": 53,
+      "tile": 613,
+      "campo": "passages",
+      "antes": 0,
+      "despues": 15,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 2,
+      "tileset": 53,
+      "tile": 613,
+      "campo": "priorities",
+      "antes": 1,
+      "despues": 0,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 2,
+      "tileset": 53,
+      "tile": 628,
+      "campo": "passages",
+      "antes": 0,
+      "despues": 15,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 2,
+      "tileset": 53,
+      "tile": 628,
+      "campo": "priorities",
+      "antes": 1,
+      "despues": 0,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 2,
+      "tileset": 53,
+      "tile": 675,
+      "campo": "passages",
+      "antes": 0,
+      "despues": 15,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 2,
+      "tileset": 53,
+      "tile": 675,
+      "campo": "priorities",
+      "antes": 1,
+      "despues": 0,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 2,
+      "tileset": 53,
+      "tile": 690,
+      "campo": "passages",
+      "antes": 0,
+      "despues": 15,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 2,
+      "tileset": 53,
+      "tile": 690,
+      "campo": "priorities",
+      "antes": 1,
+      "despues": 0,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 2,
+      "tileset": 53,
+      "tile": 691,
+      "campo": "passages",
+      "antes": 0,
+      "despues": 15,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 2,
+      "tileset": 53,
+      "tile": 691,
+      "campo": "priorities",
+      "antes": 1,
+      "despues": 0,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 2,
+      "tileset": 53,
+      "tile": 655,
+      "campo": "passages",
+      "antes": 0,
+      "despues": 15,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 2,
+      "tileset": 53,
+      "tile": 655,
+      "campo": "priorities",
+      "antes": 1,
+      "despues": 0,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 7,
+      "tileset": 58,
+      "tile": 448,
+      "campo": "passages",
+      "antes": 0,
+      "despues": 15,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 7,
+      "tileset": 58,
+      "tile": 448,
+      "campo": "priorities",
+      "antes": 1,
+      "despues": 0,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 7,
+      "tileset": 58,
+      "tile": 467,
+      "campo": "passages",
+      "antes": 0,
+      "despues": 15,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 7,
+      "tileset": 58,
+      "tile": 467,
+      "campo": "priorities",
+      "antes": 1,
+      "despues": 0,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 7,
+      "tileset": 58,
+      "tile": 472,
+      "campo": "passages",
+      "antes": 0,
+      "despues": 15,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 7,
+      "tileset": 58,
+      "tile": 472,
+      "campo": "priorities",
+      "antes": 1,
+      "despues": 0,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 7,
+      "tileset": 58,
+      "tile": 543,
+      "campo": "passages",
+      "antes": 0,
+      "despues": 15,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 7,
+      "tileset": 58,
+      "tile": 543,
+      "campo": "priorities",
+      "antes": 1,
+      "despues": 0,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 8,
+      "tileset": 59,
+      "tile": 455,
+      "campo": "passages",
+      "antes": 0,
+      "despues": 15,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 8,
+      "tileset": 59,
+      "tile": 455,
+      "campo": "priorities",
+      "antes": 1,
+      "despues": 0,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 8,
+      "tileset": 59,
+      "tile": 456,
+      "campo": "passages",
+      "antes": 0,
+      "despues": 15,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 8,
+      "tileset": 59,
+      "tile": 456,
+      "campo": "priorities",
+      "antes": 1,
+      "despues": 0,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 8,
+      "tileset": 59,
+      "tile": 462,
+      "campo": "passages",
+      "antes": 0,
+      "despues": 15,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 8,
+      "tileset": 59,
+      "tile": 462,
+      "campo": "priorities",
+      "antes": 1,
+      "despues": 0,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 8,
+      "tileset": 59,
+      "tile": 470,
+      "campo": "passages",
+      "antes": 0,
+      "despues": 15,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 8,
+      "tileset": 59,
+      "tile": 470,
+      "campo": "priorities",
+      "antes": 1,
+      "despues": 0,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 8,
+      "tileset": 59,
+      "tile": 597,
+      "campo": "passages",
+      "antes": 0,
+      "despues": 15,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 8,
+      "tileset": 59,
+      "tile": 597,
+      "campo": "priorities",
+      "antes": 1,
+      "despues": 0,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 8,
+      "tileset": 59,
+      "tile": 617,
+      "campo": "passages",
+      "antes": 0,
+      "despues": 15,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 8,
+      "tileset": 59,
+      "tile": 617,
+      "campo": "priorities",
+      "antes": 1,
+      "despues": 0,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 8,
+      "tileset": 59,
+      "tile": 609,
+      "campo": "passages",
+      "antes": 0,
+      "despues": 15,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 8,
+      "tileset": 59,
+      "tile": 609,
+      "campo": "priorities",
+      "antes": 1,
+      "despues": 0,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 8,
+      "tileset": 59,
+      "tile": 610,
+      "campo": "passages",
+      "antes": 0,
+      "despues": 15,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 8,
+      "tileset": 59,
+      "tile": 610,
+      "campo": "priorities",
+      "antes": 1,
+      "despues": 0,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 8,
+      "tileset": 59,
+      "tile": 613,
+      "campo": "passages",
+      "antes": 0,
+      "despues": 15,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 8,
+      "tileset": 59,
+      "tile": 613,
+      "campo": "priorities",
+      "antes": 1,
+      "despues": 0,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 9,
+      "tileset": 60,
+      "tile": 459,
+      "campo": "passages",
+      "antes": 0,
+      "despues": 15,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 9,
+      "tileset": 60,
+      "tile": 459,
+      "campo": "priorities",
+      "antes": 1,
+      "despues": 0,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 9,
+      "tileset": 60,
+      "tile": 466,
+      "campo": "passages",
+      "antes": 0,
+      "despues": 15,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 9,
+      "tileset": 60,
+      "tile": 466,
+      "campo": "priorities",
+      "antes": 1,
+      "despues": 0,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 9,
+      "tileset": 60,
+      "tile": 563,
+      "campo": "passages",
+      "antes": 0,
+      "despues": 15,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 9,
+      "tileset": 60,
+      "tile": 563,
+      "campo": "priorities",
+      "antes": 1,
+      "despues": 0,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 14,
+      "tileset": 65,
+      "tile": 472,
+      "campo": "passages",
+      "antes": 0,
+      "despues": 15,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 14,
+      "tileset": 65,
+      "tile": 472,
+      "campo": "priorities",
+      "antes": 1,
+      "despues": 0,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 14,
+      "tileset": 65,
+      "tile": 473,
+      "campo": "passages",
+      "antes": 0,
+      "despues": 15,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 14,
+      "tileset": 65,
+      "tile": 473,
+      "campo": "priorities",
+      "antes": 1,
+      "despues": 0,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 14,
+      "tileset": 65,
+      "tile": 512,
+      "campo": "passages",
+      "antes": 0,
+      "despues": 15,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 14,
+      "tileset": 65,
+      "tile": 512,
+      "campo": "priorities",
+      "antes": 1,
+      "despues": 0,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 14,
+      "tileset": 65,
+      "tile": 458,
+      "campo": "passages",
+      "antes": 0,
+      "despues": 15,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 14,
+      "tileset": 65,
+      "tile": 458,
+      "campo": "priorities",
+      "antes": 1,
+      "despues": 0,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 14,
+      "tileset": 65,
+      "tile": 459,
+      "campo": "passages",
+      "antes": 0,
+      "despues": 15,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Tilesets",
+      "mapa": 14,
+      "tileset": 65,
+      "tile": 459,
+      "campo": "priorities",
+      "antes": 1,
+      "despues": 0,
+      "motivo": "Huella de mueble grande de la revisión de arte"
+    },
+    {
+      "archivo": "Map002",
+      "mapa": 2,
+      "ruta": [
+        "events",
+        "11",
+        "pages",
+        0,
+        "list",
+        11,
+        "parameters",
+        0
+      ],
+      "antes": "El espejo está partido en diagonal. Te corta",
+      "despues": "El jarabe de madre esta detras del espejo.",
+      "motivo": "Hacer localizable el jarabe antes de recibir las ordenes"
+    },
+    {
+      "archivo": "Map002",
+      "mapa": 2,
+      "ruta": [
+        "events",
+        "11",
+        "pages",
+        0,
+        "list",
+        12,
+        "parameters",
+        0
+      ],
+      "antes": "la cara en dos mitades que no se parecen.",
+      "despues": "Primero debo hablar con ella.",
+      "motivo": "Indicar la condicion real: switch 2"
+    },
+    {
+      "archivo": "Map007",
+      "mapa": 7,
+      "ruta": [
+        "events",
+        "11",
+        "pages",
+        1,
+        "list"
+      ],
+      "antes": [
+        {
+          "_class": "RPG::EventCommand",
+          "code": 111,
+          "indent": 0,
+          "parameters": [
+            1,
+            1,
+            0,
+            35,
+            1
+          ]
+        },
+        {
+          "_class": "RPG::EventCommand",
+          "code": 111,
+          "indent": 1,
+          "parameters": [
+            0,
+            50,
+            1
+          ]
+        },
+        {
+          "_class": "RPG::EventCommand",
+          "code": 102,
+          "indent": 2,
+          "parameters": [
+            [
+              "Afrontar la imagen",
+              "Apartarte"
+            ],
+            2
+          ]
+        },
+        {
+          "_class": "RPG::EventCommand",
+          "code": 402,
+          "indent": 2,
+          "parameters": [
+            0,
+            "Afrontar la imagen"
+          ]
+        },
+        {
+          "_class": "RPG::EventCommand",
+          "code": 111,
+          "indent": 3,
+          "parameters": [
+            0,
+            50,
+            1
+          ]
+        },
+        {
+          "_class": "RPG::EventCommand",
+          "code": 111,
+          "indent": 4,
+          "parameters": [
+            0,
+            54,
+            1
+          ]
+        },
+        {
+          "_class": "RPG::EventCommand",
+          "code": 101,
+          "indent": 5,
+          "parameters": [
+            "\\c[6]Las imágenes no son cuerpos: son"
+          ]
+        },
+        {
+          "_class": "RPG::EventCommand",
+          "code": 401,
+          "indent": 5,
+          "parameters": [
+            "recuerdos. Golpear y Poner nombre las"
+          ]
+        },
+        {
+          "_class": "RPG::EventCommand",
+          "code": 401,
+          "indent": 5,
+          "parameters": [
+            "debilitan. Respirar cura, devuelve aliento y"
+          ]
+        },
+        {
+          "_class": "RPG::EventCommand",
+          "code": 401,
+          "indent": 5,
+          "parameters": [
+            "limpia Pánico, Asco y Culpa. El veneno"
+          ]
+        },
+        {
+          "_class": "RPG::EventCommand",
+          "code": 101,
+          "indent": 5,
+          "parameters": [
+            "crece al luchar.\\c[0]"
+          ]
+        },
+        {
+          "_class": "RPG::EventCommand",
+          "code": 121,
+          "indent": 5,
+          "parameters": [
+            54,
+            54,
+            0
+          ]
+        },
+        {
+          "_class": "RPG::EventCommand",
+          "code": 0,
+          "indent": 5,
+          "parameters": []
+        },
+        {
+          "_class": "RPG::EventCommand",
+          "code": 412,
+          "indent": 4,
+          "parameters": []
+        },
+        {
+          "_class": "RPG::EventCommand",
+          "code": 355,
+          "indent": 4,
+          "parameters": [
+            "preparar_mente"
+          ]
+        },
+        {
+          "_class": "RPG::EventCommand",
+          "code": 655,
+          "indent": 4,
+          "parameters": [
+            "true"
+          ]
+        },
+        {
+          "_class": "RPG::EventCommand",
+          "code": 301,
+          "indent": 4,
+          "parameters": [
+            1,
+            false,
+            true
+          ]
+        },
+        {
+          "_class": "RPG::EventCommand",
+          "code": 121,
+          "indent": 4,
+          "parameters": [
+            50,
+            50,
+            0
+          ]
+        },
+        {
+          "_class": "RPG::EventCommand",
+          "code": 0,
+          "indent": 4,
+          "parameters": []
+        },
+        {
+          "_class": "RPG::EventCommand",
+          "code": 412,
+          "indent": 3,
+          "parameters": []
+        },
+        {
+          "_class": "RPG::EventCommand",
+          "code": 0,
+          "indent": 3,
+          "parameters": []
+        },
+        {
+          "_class": "RPG::EventCommand",
+          "code": 402,
+          "indent": 2,
+          "parameters": [
+            1,
+            "Apartarte"
+          ]
+        },
+        {
+          "_class": "RPG::EventCommand",
+          "code": 0,
+          "indent": 3,
+          "parameters": []
+        },
+        {
+          "_class": "RPG::EventCommand",
+          "code": 404,
+          "indent": 2,
+          "parameters": []
+        },
+        {
+          "_class": "RPG::EventCommand",
+          "code": 0,
+          "indent": 2,
+          "parameters": []
+        },
+        {
+          "_class": "RPG::EventCommand",
+          "code": 412,
+          "indent": 1,
+          "parameters": []
+        },
+        {
+          "_class": "RPG::EventCommand",
+          "code": 0,
+          "indent": 1,
+          "parameters": []
+        },
+        {
+          "_class": "RPG::EventCommand",
+          "code": 412,
+          "indent": 0,
+          "parameters": []
+        },
+        {
+          "_class": "RPG::EventCommand",
+          "code": 0,
+          "indent": 0,
+          "parameters": []
+        }
+      ],
+      "despues": [
+        {
+          "_class": "RPG::EventCommand",
+          "code": 0,
+          "indent": 0,
+          "parameters": []
+        }
+      ],
+      "motivo": "La vaca ya salio: quitar vision inyectada en su pagina vacia; sigue disponible en las otras vacas"
+    }
+  ],
+  "huellas": [
+    {
+      "mapa": 2,
+      "x": 2,
+      "y": 6,
+      "tile": 612
+    },
+    {
+      "mapa": 2,
+      "x": 3,
+      "y": 6,
+      "tile": 613
+    },
+    {
+      "mapa": 2,
+      "x": 17,
+      "y": 7,
+      "tile": 628
+    },
+    {
+      "mapa": 2,
+      "x": 1,
+      "y": 17,
+      "tile": 675
+    },
+    {
+      "mapa": 2,
+      "x": 10,
+      "y": 19,
+      "tile": 690
+    },
+    {
+      "mapa": 2,
+      "x": 11,
+      "y": 19,
+      "tile": 691
+    },
+    {
+      "mapa": 2,
+      "x": 11,
+      "y": 12,
+      "tile": 655
+    },
+    {
+      "mapa": 7,
+      "x": 1,
+      "y": 3,
+      "tile": 448
+    },
+    {
+      "mapa": 7,
+      "x": 9,
+      "y": 4,
+      "tile": 467
+    },
+    {
+      "mapa": 7,
+      "x": 19,
+      "y": 4,
+      "tile": 472
+    },
+    {
+      "mapa": 7,
+      "x": 27,
+      "y": 15,
+      "tile": 543
+    },
+    {
+      "mapa": 8,
+      "x": 7,
+      "y": 3,
+      "tile": 455
+    },
+    {
+      "mapa": 8,
+      "x": 8,
+      "y": 3,
+      "tile": 456
+    },
+    {
+      "mapa": 8,
+      "x": 19,
+      "y": 3,
+      "tile": 462
+    },
+    {
+      "mapa": 8,
+      "x": 28,
+      "y": 3,
+      "tile": 470
+    },
+    {
+      "mapa": 8,
+      "x": 2,
+      "y": 18,
+      "tile": 597
+    },
+    {
+      "mapa": 8,
+      "x": 14,
+      "y": 20,
+      "tile": 617
+    },
+    {
+      "mapa": 8,
+      "x": 28,
+      "y": 19,
+      "tile": 609
+    },
+    {
+      "mapa": 8,
+      "x": 29,
+      "y": 19,
+      "tile": 610
+    },
+    {
+      "mapa": 8,
+      "x": 35,
+      "y": 19,
+      "tile": 613
+    },
+    {
+      "mapa": 9,
+      "x": 17,
+      "y": 3,
+      "tile": 459
+    },
+    {
+      "mapa": 9,
+      "x": 28,
+      "y": 3,
+      "tile": 466
+    },
+    {
+      "mapa": 9,
+      "x": 25,
+      "y": 17,
+      "tile": 563
+    },
+    {
+      "mapa": 14,
+      "x": 1,
+      "y": 5,
+      "tile": 472
+    },
+    {
+      "mapa": 14,
+      "x": 2,
+      "y": 5,
+      "tile": 473
+    },
+    {
+      "mapa": 14,
+      "x": 15,
+      "y": 10,
+      "tile": 512
+    },
+    {
+      "mapa": 14,
+      "x": 9,
+      "y": 3,
+      "tile": 458
+    },
+    {
+      "mapa": 14,
+      "x": 10,
+      "y": 3,
+      "tile": 459
+    }
+  ]
+}

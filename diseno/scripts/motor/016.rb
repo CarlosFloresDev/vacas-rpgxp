@@ -6,6 +6,16 @@
 #==============================================================================
 
 class Game_Map
+  # Coordenadas en cuartos de pixel. Un mapa pequeño tiene un único
+  # desplazamiento negativo: queda centrado y no se desplaza al caminar.
+  def display_x=(value)
+    span = width * 128 - Vacas_HD.w * 4
+    @display_x = span < 0 ? span / 2 : [[value, 0].max, span].min
+  end
+  def display_y=(value)
+    span = height * 128 - Vacas_HD.h * 4
+    @display_y = span < 0 ? span / 2 : [[value, 0].max, span].min
+  end
   #--------------------------------------------------------------------------
   # * Public Instance Variables
   #--------------------------------------------------------------------------
@@ -21,8 +31,8 @@ class Game_Map
   attr_accessor :fog_sx                   # fog sx
   attr_accessor :fog_sy                   # fog sy
   attr_accessor :battleback_name          # battleback file name
-  attr_accessor :display_x                # display x-coordinate * 128
-  attr_accessor :display_y                # display y-coordinate * 128
+  attr_reader   :display_x                # display x-coordinate * 128
+  attr_reader   :display_y                # display y-coordinate * 128
   attr_accessor :need_refresh             # refresh request flag
   attr_reader   :passages                 # passage table
   attr_reader   :priorities               # prioroty table
@@ -66,8 +76,8 @@ class Game_Map
     @priorities = tileset.priorities
     @terrain_tags = tileset.terrain_tags
     # Initialize displayed coordinates
-    @display_x = 0
-    @display_y = 0
+    self.display_x = 0
+    self.display_y = 0
     # Clear refresh request flag
     @need_refresh = false
     # Set map event data
@@ -163,28 +173,28 @@ class Game_Map
   #     distance : scroll distance
   #--------------------------------------------------------------------------
   def scroll_down(distance)
-    @display_y = [@display_y + distance, [self.height * 128 - Vacas_HD.h * 4, 0].max].min
+    self.display_y = @display_y + distance
   end
   #--------------------------------------------------------------------------
   # * Scroll Left
   #     distance : scroll distance
   #--------------------------------------------------------------------------
   def scroll_left(distance)
-    @display_x = [@display_x - distance, 0].max
+    self.display_x = @display_x - distance
   end
   #--------------------------------------------------------------------------
   # * Scroll Right
   #     distance : scroll distance
   #--------------------------------------------------------------------------
   def scroll_right(distance)
-    @display_x = [@display_x + distance, [self.width * 128 - Vacas_HD.w * 4, 0].max].min
+    self.display_x = @display_x + distance
   end
   #--------------------------------------------------------------------------
   # * Scroll Up
   #     distance : scroll distance
   #--------------------------------------------------------------------------
   def scroll_up(distance)
-    @display_y = [@display_y - distance, 0].max
+    self.display_y = @display_y - distance
   end
   #--------------------------------------------------------------------------
   # * Determine Valid Coordinates
