@@ -6,7 +6,11 @@ import {readRxdataFile} from 'file:///D:/DevTools/mcp/rpgmaker-xp/node_modules/r
 process.chdir(raiz);
 export const D=[[2,0,1],[4,-1,0],[6,1,0],[8,0,-1]];
 export const S={};
-for(const f of fs.readdirSync('Data').filter(f=>f.endsWith('.rxdata')&&f!=='Scripts.rxdata').sort()) S[f.slice(0,-7)]=await readRxdataFile('Data/'+f);
+const argValue=(name,fallback)=>process.argv.includes(name)?process.argv[process.argv.indexOf(name)+1]:fallback;
+const dataDir=argValue('--datos','Data');
+const reportName=argValue('--nombre','auditoria_jugabilidad');
+if(!/^[a-z_0-9]+$/.test(reportName))throw Error('Nombre de informe no valido');
+for(const f of fs.readdirSync(dataDir).filter(f=>f.endsWith('.rxdata')&&f!=='Scripts.rxdata').sort()) S[f.slice(0,-7)]=await readRxdataFile(path.join(dataDir,f));
 export const maps=Object.keys(S).filter(k=>/^Map\d+$/.test(k)).map(k=>[Number(k.slice(3)),S[k]]);
 export function stateFor(p){
  const c=p.condition,sw=new Set(),v={};
@@ -102,8 +106,9 @@ if(fs.existsSync(rulesPath))for(const r of JSON.parse(fs.readFileSync(rulesPath,
 }
 const report={version:2,alcance:'Geometría RGSS1 por página y estados mínimos, desde cada entrada libre. Bush 0x40 no bloquea; counter 0x80 extiende interacción. Las prioridades no implican colisión. Productores de misión: evidencia estática de páginas accesibles y asignaciones Ruby; la ejecución de ramas se prueba con recorrido_fase45.rb y prueba_acto6.rb, no mediante esta aproximación estática.',mapas:maps.length,errores_bloqueantes:errors.length,errores:errors,comprobaciones:checks,entradas:entries,advertencias:warnings,misiones:{comprobaciones:missionChecks,proveedores:providers,requeridos:{items:[...requirements.items].sort((a,b)=>a-b),switches:[...requirements.switches].sort((a,b)=>a-b)}},pictures};
 fs.mkdirSync('diseno/verificaciones',{recursive:true});
-fs.writeFileSync('diseno/verificaciones/auditoria_jugabilidad.json',JSON.stringify(report,null,2)+'\n');
+report.datos=dataDir;
+fs.writeFileSync('diseno/verificaciones/'+reportName+'.json',JSON.stringify(report,null,2)+'\n');
 const lines=[`Mapas: ${maps.length}; páginas: ${checks.length}; errores: ${errors.length}; avisos visuales: ${warnings.length}`,...maps.map(([id])=>`Mapa ${id}: ${errors.filter(e=>e.mapa===id).length} errores`),...errors.map(e=>JSON.stringify(e))];
-fs.writeFileSync('diseno/verificaciones/auditoria_jugabilidad.txt',lines.join('\n')+'\n');
+fs.writeFileSync('diseno/verificaciones/'+reportName+'.txt',lines.join('\n')+'\n');
 console.log(lines.slice(0,33).join('\n'));
 if(process.argv[1]===path.resolve('diseno/herramientas/comun/auditar_jugabilidad.mjs'))process.exitCode=errors.length?1:0;

@@ -1,14 +1,98 @@
 {
   "integridad": {
     "archivos": 475,
-    "cambiados": [
+    "diferencias_historicas": [
       "Data/Map002.rxdata",
       "Data/Map007.rxdata",
       "Data/Scripts.rxdata",
       "Data/Tilesets.rxdata",
+      "Graphics/Autotiles/048-Water01.png",
+      "Graphics/Autotiles/vacas_canal.png",
+      "Graphics/Characters/vacas_alcantarilla.png",
+      "Graphics/Characters/vacas_cosas.png",
+      "Graphics/Characters/vacas_furgoneta.png",
+      "Graphics/Characters/vacas_guernsey4.png",
+      "Graphics/Characters/vacas_junco.png",
+      "Graphics/Characters/vacas_laboratorio.png",
+      "Graphics/Characters/vacas_matadero.png",
+      "Graphics/Characters/vacas_muebles.png",
+      "Graphics/Characters/vacas_muesca.png",
+      "Graphics/Characters/vacas_vaca.png",
+      "Graphics/Characters/vacas_vaca_canela.png",
+      "Graphics/Icons/ui_ajuste.png",
+      "Graphics/Icons/ui_bateria.png",
+      "Graphics/Icons/ui_estado_2.png",
+      "Graphics/Icons/ui_estado_3.png",
+      "Graphics/Icons/ui_estado_4.png",
+      "Graphics/Icons/ui_nota.png",
+      "Graphics/Icons/ui_objeto.png",
+      "Graphics/Icons/ui_salir.png",
+      "Graphics/Icons/vacas_item_03.png",
+      "Graphics/Tilesets/acto4_alcantarillas.png",
+      "Graphics/Tilesets/revision_mapa01.png",
+      "Graphics/Tilesets/revision_mapa02.png",
+      "Graphics/Tilesets/revision_mapa03.png",
+      "Graphics/Tilesets/revision_mapa04.png",
+      "Graphics/Tilesets/revision_mapa05.png",
+      "Graphics/Tilesets/revision_mapa06.png",
+      "Graphics/Tilesets/revision_mapa07.png",
+      "Graphics/Tilesets/revision_mapa08.png",
+      "Graphics/Tilesets/revision_mapa09.png",
+      "Graphics/Tilesets/revision_mapa10.png",
+      "Graphics/Tilesets/revision_mapa11.png",
+      "Graphics/Tilesets/revision_mapa12.png",
+      "Graphics/Tilesets/revision_mapa13.png",
+      "Graphics/Tilesets/revision_mapa14.png",
+      "Graphics/Tilesets/revision_mapa15.png",
+      "Graphics/Tilesets/revision_mapa16.png",
+      "Graphics/Titles/vacas_titulo.png",
       "Vacas.cfg",
       "Save1.rxdata"
-    ]
+    ],
+    "motor_modificado": [],
+    "arte_con_hash_documentado": [
+      "Graphics/Autotiles/048-Water01.png",
+      "Graphics/Autotiles/vacas_canal.png",
+      "Graphics/Characters/vacas_alcantarilla.png",
+      "Graphics/Characters/vacas_cosas.png",
+      "Graphics/Characters/vacas_furgoneta.png",
+      "Graphics/Characters/vacas_guernsey4.png",
+      "Graphics/Characters/vacas_junco.png",
+      "Graphics/Characters/vacas_laboratorio.png",
+      "Graphics/Characters/vacas_matadero.png",
+      "Graphics/Characters/vacas_muebles.png",
+      "Graphics/Characters/vacas_muesca.png",
+      "Graphics/Characters/vacas_vaca.png",
+      "Graphics/Characters/vacas_vaca_canela.png",
+      "Graphics/Icons/ui_ajuste.png",
+      "Graphics/Icons/ui_bateria.png",
+      "Graphics/Icons/ui_estado_2.png",
+      "Graphics/Icons/ui_estado_3.png",
+      "Graphics/Icons/ui_estado_4.png",
+      "Graphics/Icons/ui_nota.png",
+      "Graphics/Icons/ui_objeto.png",
+      "Graphics/Icons/ui_salir.png",
+      "Graphics/Icons/vacas_item_03.png",
+      "Graphics/Tilesets/acto4_alcantarillas.png",
+      "Graphics/Tilesets/revision_mapa01.png",
+      "Graphics/Tilesets/revision_mapa02.png",
+      "Graphics/Tilesets/revision_mapa03.png",
+      "Graphics/Tilesets/revision_mapa04.png",
+      "Graphics/Tilesets/revision_mapa05.png",
+      "Graphics/Tilesets/revision_mapa06.png",
+      "Graphics/Tilesets/revision_mapa07.png",
+      "Graphics/Tilesets/revision_mapa08.png",
+      "Graphics/Tilesets/revision_mapa09.png",
+      "Graphics/Tilesets/revision_mapa10.png",
+      "Graphics/Tilesets/revision_mapa11.png",
+      "Graphics/Tilesets/revision_mapa12.png",
+      "Graphics/Tilesets/revision_mapa13.png",
+      "Graphics/Tilesets/revision_mapa14.png",
+      "Graphics/Tilesets/revision_mapa15.png",
+      "Graphics/Tilesets/revision_mapa16.png",
+      "Graphics/Titles/vacas_titulo.png"
+    ],
+    "modificados_durante_verificacion": []
   },
   "inventario": {
     "codigo": 0,
@@ -20,11 +104,15 @@
   },
   "marshal_ruby": {
     "codigo": 0,
-    "salida": "{\n  \"files\": 372,\n  \"errors\": [\n\n  ]\n}"
+    "salida": "{\n  \"files\": 378,\n  \"errors\": [\n\n  ]\n}"
   },
   "fuentes_vs_instalado": {
     "codigo": 0,
     "salida": "{\"scripts\":55,\"errors\":[]}"
+  },
+  "jugabilidad": {
+    "codigo": 0,
+    "salida": "Mapas: 32; páginas: 443; errores: 0; avisos visuales: 2349\nMapa 1: 0 errores\nMapa 2: 0 errores\nMapa 3: 0 errores\nMapa 4: 0 errores\nMapa 5: 0 errores\nMapa 6: 0 errores\nMapa 7: 0 errores\nMapa 8: 0 errores\nMapa 9: 0 errores\nMapa 10: 0 errores\nMapa 11: 0 errores\nMapa 12: 0 errores\nMapa 13: 0 errores\nMapa 14: 0 errores\nMapa 15: 0 errores\nMapa 16: 0 errores\nMapa 17: 0 errores\nMapa 18: 0 errores\nMapa 19: 0 errores\nMapa 20: 0 errores\nMapa 21: 0 errores\nMapa 22: 0 errores\nMapa 23: 0 errores\nMapa 24: 0 errores\nMapa 25: 0 errores\nMapa 26: 0 errores\nMapa 27: 0 errores\nMapa 28: 0 errores\nMapa 29: 0 errores\nMapa 30: 0 errores\nMapa 31: 0 errores\nMapa 32: 0 errores"
   },
   "sintaxis_ruby": [
     {
@@ -93,8 +181,8 @@
     }
   ],
   "enlaces": {
-    "documentos": 26,
-    "enlaces": 158,
+    "documentos": 28,
+    "enlaces": 161,
     "errores": [],
     "excluidos": "Respaldos y archivo: documentos históricos, conservados tal cual."
   },
@@ -109,7 +197,5 @@
     "salida": "{\n  \"ok\": true,\n  \"checked\": 1051,\n  \"missing_count\": 0,\n  \"rtp\": \"D:/SteamLibrary/steamapps/common/RPGXP/rtp\",\n  \"missing\": []\n}"
   },
   "dependencias_diseno_motor": [],
-  "errores": [
-    "Motor/configuración/partidas modificados: ['Data/Map002.rxdata', 'Data/Map007.rxdata', 'Data/Scripts.rxdata', 'Data/Tilesets.rxdata', 'Vacas.cfg', 'Save1.rxdata']"
-  ]
+  "errores": []
 }

@@ -81,17 +81,17 @@ class Window_NameEdit < Window_Base
       if c == nil
         c = "＿"
       end
-      x = 320 - @max_char * 14 + i * 28
+      x = Vacas_HD.w / 2 - @max_char * 14 + i * 28
       self.contents.draw_text(x, 32, 28, 32, c, 1)
     end
     # Draw graphic
-    draw_actor_graphic(@actor, 320 - @max_char * 14 - 40, 80)
+    draw_actor_graphic(@actor, Vacas_HD.w / 2 - @max_char * 14 - 40, 80)
   end
   #--------------------------------------------------------------------------
   # * Cursor Rectangle Update
   #--------------------------------------------------------------------------
   def update_cursor_rect
-    x = 320 - @max_char * 14 + @index * 28
+    x = Vacas_HD.w / 2 - @max_char * 14 + @index * 28
     self.cursor_rect.set(x, 32, 28, 32)
   end
   #--------------------------------------------------------------------------

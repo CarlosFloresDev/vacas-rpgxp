@@ -19,9 +19,14 @@ def main():
     # Data es contenido editable, y configuración/partidas cambian al jugar.
     # Su comparación con una foto histórica no puede invalidar una corrección.
     mutable=lambda n: n.startswith('Data/') or n=='Vacas.cfg' or bool(re.match(r'Save\d+\.rxdata$',n))
-    immutable_changed=[n for n in changed if not mutable(n)]
+    # Arte ya intervenido: exigir el hash documentado, no aceptar cualquier cambio.
+    art_manifest=ROOT/'diseno/fuentes/coherencia_arte/manifest.json'
+    documented={e['archivo']:e['sha256'] for e in json.loads(art_manifest.read_text(encoding='utf8'))['cambios']} if art_manifest.exists() else {}
+    accepted_art=[n for n in changed if n.startswith('Graphics/') and n in documented and (ROOT/n).is_file() and hashlib.sha256((ROOT/n).read_bytes()).hexdigest()==documented[n]]
+    immutable_changed=[n for n in changed if not mutable(n) and n not in accepted_art]
     protected={n:hashlib.sha256((ROOT/n).read_bytes()).hexdigest() for n in before if (ROOT/n).is_file()}
     results['integridad']={'archivos':len(before),'diferencias_historicas':changed,'motor_modificado':immutable_changed}
+    results['integridad']['arte_con_hash_documentado']=accepted_art
     if immutable_changed:errors.append('Motor modificado: '+str(immutable_changed))
     run('inventario',['node',str(COMMON/'inspeccionar.mjs'),'--solo-lectura'])
     run('sistemas',[sys.executable,str(COMMON/'verificar_sistemas.py')])

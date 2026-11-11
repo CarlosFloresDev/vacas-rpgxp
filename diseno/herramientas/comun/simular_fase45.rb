@@ -2,6 +2,7 @@
 # No verifica renderer, audio nativo, ni compatibilidad binaria Ruby 1.8.
 require 'json'
 require 'digest'
+require 'zlib'
 Dir.chdir(File.expand_path('../../..',File.dirname(__FILE__)))
 $sim_snapshot=JSON.parse(File.read('diseno/verificaciones/inventario/snapshot.json',encoding:'UTF-8'))
 class DataXP
@@ -145,11 +146,39 @@ class Win32API
   def initialize(*a);end
   def call(*a);0;end
 end
+class Table
+  def self._load(bytes)
+    dim,x,y,z,n=bytes.unpack('L5'); t=new(x,y,z)
+    t.data=bytes[20,n*2].unpack('s*'); t
+  end
+  def _dump(depth)
+    [3,@xsize,@ysize,@zsize,@data.size].pack('L5')+@data.pack('s*')
+  end
+end
+class Color
+  def self._load(bytes); new(*bytes.unpack('d4')); end
+  def _dump(depth); [@red,@green,@blue,@alpha].pack('d4'); end
+end
 def load_data(path)
-  key=File.basename(path,'.rxdata')
-  return File.open(path,'rb') { |f| Marshal.load(f) } if key=='Scripts'
-  raise 'Data no disponible '+path unless $sim_data[key]
-  Marshal.load(Marshal.dump($sim_data[key]))
+  value=File.open(path,'rb') { |f| Marshal.load(f) }
+  # RGSS1 no etiqueta UTF-8 en Marshal; Ruby moderno compara nombres Unicode.
+  normalize=Proc.new do |obj,seen|
+    next if seen[obj.object_id]
+    seen[obj.object_id]=true
+    case obj
+    when String; obj.force_encoding('UTF-8')
+    when Array; obj.each { |v| normalize.call(v,seen) }
+    when Hash; obj.each { |k,v| normalize.call(k,seen); normalize.call(v,seen) }
+    else; obj.instance_variables.each { |k| normalize.call(obj.instance_variable_get(k),seen) }
+    end
+  end
+  normalize.call(value,{}) unless File.basename(path)=='Scripts.rxdata'
+  value
+end
+# El snapshot solo declara clases RPG para los dobles. Datos y codigo probados
+# proceden siempre de los archivos actuales, incluso tras instalar una correccion.
+$sim_snapshot['Scripts']=load_data('Data/Scripts.rxdata').map do |row|
+  {'name'=>row[1], 'code'=>Zlib::Inflate.inflate(row[2]).force_encoding('UTF-8')}
 end
 $sim_snapshot['Scripts'].each do |s|
   next if s['name']=='Main'

@@ -1,0 +1,71 @@
+Mapas: 32; páginas: 444; errores: 38; avisos visuales: 2377
+Mapa 1: 0 errores
+Mapa 2: 8 errores
+Mapa 3: 0 errores
+Mapa 4: 0 errores
+Mapa 5: 0 errores
+Mapa 6: 0 errores
+Mapa 7: 13 errores
+Mapa 8: 9 errores
+Mapa 9: 3 errores
+Mapa 10: 0 errores
+Mapa 11: 0 errores
+Mapa 12: 0 errores
+Mapa 13: 0 errores
+Mapa 14: 5 errores
+Mapa 15: 0 errores
+Mapa 16: 0 errores
+Mapa 17: 0 errores
+Mapa 18: 0 errores
+Mapa 19: 0 errores
+Mapa 20: 0 errores
+Mapa 21: 0 errores
+Mapa 22: 0 errores
+Mapa 23: 0 errores
+Mapa 24: 0 errores
+Mapa 25: 0 errores
+Mapa 26: 0 errores
+Mapa 27: 0 errores
+Mapa 28: 0 errores
+Mapa 29: 0 errores
+Mapa 30: 0 errores
+Mapa 31: 0 errores
+Mapa 32: 0 errores
+{"mapa":2,"evento":9,"nombre":"Ventana Steven","pagina":1,"xy":[3,2],"entradas":[{"desde":[2,4],"alcanzable":false},{"desde":[6,12],"alcanzable":false},{"desde":[6,5],"alcanzable":false},{"desde":[1,4],"alcanzable":false},{"desde":[7,3],"alcanzable":false},{"desde":[10,5],"alcanzable":false},{"desde":[11,6],"alcanzable":false},{"desde":[2,5],"alcanzable":false},{"desde":[14,20],"alcanzable":false}],"tipo":"interaccion_inaccesible"}
+{"mapa":7,"evento":5,"nombre":"Vaca","pagina":1,"xy":[4,10],"entradas":[{"desde":[28,4],"alcanzable":false}],"tipo":"interaccion_inaccesible"}
+{"mapa":7,"evento":6,"nombre":"Vaca","pagina":1,"xy":[6,13],"entradas":[{"desde":[28,4],"alcanzable":false}],"tipo":"interaccion_inaccesible"}
+{"mapa":7,"evento":7,"nombre":"Vaca","pagina":1,"xy":[13,9],"entradas":[{"desde":[28,4],"alcanzable":false}],"tipo":"interaccion_inaccesible"}
+{"mapa":7,"evento":8,"nombre":"Vaca","pagina":1,"xy":[15,12],"entradas":[{"desde":[28,4],"alcanzable":false}],"tipo":"interaccion_inaccesible"}
+{"mapa":7,"evento":9,"nombre":"Vaca","pagina":1,"xy":[21,14],"entradas":[{"desde":[28,4],"alcanzable":false}],"tipo":"interaccion_inaccesible"}
+{"mapa":7,"evento":10,"nombre":"Vaca","pagina":1,"xy":[26,9],"entradas":[{"desde":[28,4],"alcanzable":false}],"tipo":"interaccion_inaccesible"}
+{"mapa":7,"evento":11,"nombre":"Vaca del fondo","pagina":1,"xy":[24,12],"entradas":[{"desde":[28,4],"alcanzable":false}],"tipo":"interaccion_inaccesible"}
+{"mapa":7,"evento":11,"nombre":"Vaca del fondo","pagina":2,"xy":[24,12],"entradas":[{"desde":[28,4],"alcanzable":false}],"tipo":"interaccion_inaccesible"}
+{"mapa":7,"evento":17,"nombre":"Cubo corrales","pagina":1,"xy":[2,17],"entradas":[{"desde":[28,4],"alcanzable":false}],"tipo":"interaccion_inaccesible"}
+{"tipo":"mueble_atravesable","mapa":2,"x":2,"y":6,"tile":612}
+{"tipo":"mueble_atravesable","mapa":2,"x":3,"y":6,"tile":613}
+{"tipo":"mueble_atravesable","mapa":2,"x":17,"y":7,"tile":628}
+{"tipo":"mueble_atravesable","mapa":2,"x":1,"y":17,"tile":675}
+{"tipo":"mueble_atravesable","mapa":2,"x":10,"y":19,"tile":690}
+{"tipo":"mueble_atravesable","mapa":2,"x":11,"y":19,"tile":691}
+{"tipo":"mueble_atravesable","mapa":2,"x":11,"y":12,"tile":655}
+{"tipo":"mueble_atravesable","mapa":7,"x":1,"y":3,"tile":448}
+{"tipo":"mueble_atravesable","mapa":7,"x":9,"y":4,"tile":467}
+{"tipo":"mueble_atravesable","mapa":7,"x":19,"y":4,"tile":472}
+{"tipo":"mueble_atravesable","mapa":7,"x":27,"y":15,"tile":543}
+{"tipo":"mueble_atravesable","mapa":8,"x":7,"y":3,"tile":455}
+{"tipo":"mueble_atravesable","mapa":8,"x":8,"y":3,"tile":456}
+{"tipo":"mueble_atravesable","mapa":8,"x":19,"y":3,"tile":462}
+{"tipo":"mueble_atravesable","mapa":8,"x":28,"y":3,"tile":470}
+{"tipo":"mueble_atravesable","mapa":8,"x":2,"y":18,"tile":597}
+{"tipo":"mueble_atravesable","mapa":8,"x":14,"y":20,"tile":617}
+{"tipo":"mueble_atravesable","mapa":8,"x":28,"y":19,"tile":609}
+{"tipo":"mueble_atravesable","mapa":8,"x":29,"y":19,"tile":610}
+{"tipo":"mueble_atravesable","mapa":8,"x":35,"y":19,"tile":613}
+{"tipo":"mueble_atravesable","mapa":9,"x":17,"y":3,"tile":459}
+{"tipo":"mueble_atravesable","mapa":9,"x":28,"y":3,"tile":466}
+{"tipo":"mueble_atravesable","mapa":9,"x":25,"y":17,"tile":563}
+{"tipo":"mueble_atravesable","mapa":14,"x":1,"y":5,"tile":472}
+{"tipo":"mueble_atravesable","mapa":14,"x":2,"y":5,"tile":473}
+{"tipo":"mueble_atravesable","mapa":14,"x":15,"y":10,"tile":512}
+{"tipo":"mueble_atravesable","mapa":14,"x":9,"y":3,"tile":458}
+{"tipo":"mueble_atravesable","mapa":14,"x":10,"y":3,"tile":459}

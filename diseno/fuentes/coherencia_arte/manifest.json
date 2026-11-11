@@ -23,18 +23,22 @@
     "titulo": {
       "archivo": "diseno/fuentes/coherencia_arte/titulo.png",
       "sha256": "a43358150abd7d2dd845981bd01edb80c6692baef44454af33f96b89a32057ce"
+    },
+    "laboratorio": {
+      "archivo": "diseno/fuentes/coherencia_arte/laboratorio.png",
+      "sha256": "ddf88d4f99130791c6d3c23d516b81ff149034adce5198371236772e1eb8bedb"
     }
   },
   "cambios": [
     {
       "archivo": "Graphics/Characters/vacas_furgoneta.png",
-      "motivo": "Regeneración image_gen; recorte por celda, NEAREST, ancla inferior, alpha binario y paleta sin dithering",
+      "motivo": "Arte image_gen conservado; ancla inferior exacta del original en cada una de las 16 celdas; sin cambios de escala, paleta ni rejilla",
       "tamano": [
         384,
         256
       ],
       "original_sha256": "2a9d5da74da92eaa84fa06900528878302d873227cf401948a4fe0c3a1273976",
-      "sha256": "3e964447e4a3c03d3cb2f5e94dc2068b42b35aad6406e551d3af72305d876591"
+      "sha256": "4a2814bd9ff890c805c75666b563d94a358d09679b0e750ee333355c89edef31"
     },
     {
       "archivo": "Graphics/Titles/vacas_titulo.png",
@@ -48,33 +52,33 @@
     },
     {
       "archivo": "Graphics/Characters/vacas_muebles.png",
-      "motivo": "Regeneración image_gen; recorte por celda, NEAREST, ancla inferior, alpha binario y paleta sin dithering",
+      "motivo": "Arte image_gen conservado; ancla inferior exacta del original en cada una de las 16 celdas; sin cambios de escala, paleta ni rejilla",
       "tamano": [
         128,
         256
       ],
       "original_sha256": "72252b9507fb0a7b0238dba258dd7a3d316067609410955bf61372e0d8705965",
-      "sha256": "6d536356b715fb745296fc692a8e319aac549204350c631b4d7c20df79e5b2d1"
+      "sha256": "9ac4795fdd425050e599bc01fd3ff202f5de950a050c357884ea70ccc2035d84"
     },
     {
       "archivo": "Graphics/Characters/vacas_vaca.png",
-      "motivo": "Regeneración image_gen; recorte por celda, NEAREST, ancla inferior, alpha binario y paleta sin dithering",
+      "motivo": "Arte image_gen conservado; ancla inferior exacta del original en cada una de las 16 celdas; sin cambios de escala, paleta ni rejilla",
       "tamano": [
         320,
         320
       ],
       "original_sha256": "f7fa5d919637f63dd7da6184d5d62309b95787257c8880a6688ec906e29f2fd9",
-      "sha256": "a9d5f95e1281393cdd2a3302973e10a7dccae9cd3f64bd420084e1afe1b5fb30"
+      "sha256": "636d5d68fb8d84c5ff951c86a8024f354f79cdd1d8ee9b9350e5e70eb933fb5d"
     },
     {
       "archivo": "Graphics/Characters/vacas_vaca_canela.png",
-      "motivo": "Regeneración image_gen; recorte por celda, NEAREST, ancla inferior, alpha binario y paleta sin dithering",
+      "motivo": "Arte image_gen conservado; ancla inferior exacta del original en cada una de las 16 celdas; sin cambios de escala, paleta ni rejilla",
       "tamano": [
         320,
         320
       ],
       "original_sha256": "5b5aafdad86314eab593a856af68c4b0ec237c904952fb1791f720f89074f1a8",
-      "sha256": "dec012ade2ab4a3df4cb0274071406c45e42ea041d62bbe62d10cbfcfdbe0e64"
+      "sha256": "c7d7b1c598183de11f3e17d4a8cee58f8ffb723769201267ff97221facf27976"
     },
     {
       "archivo": "Graphics/Characters/vacas_guernsey4.png",
@@ -88,13 +92,13 @@
     },
     {
       "archivo": "Graphics/Characters/vacas_guernsey4_80.png",
-      "motivo": "Variante de escala adulta preparada; NO asignada porque exige cambiar referencias de eventos y tamaño de celda",
+      "motivo": "Variante adulta pendiente de Data: vistas laterales58x38, frontal conservado, NEAREST, mismo lienzo320 y apoyo por celda",
       "tamano": [
         320,
         320
       ],
       "original_sha256": null,
-      "sha256": "685c3c42af4ed796c44cb95094d0447f1cb63bd8337840c57f6057aeab0924d3"
+      "sha256": "eba5e64bd880b66767ed3bb108e34e9e3b0ebbce523969602debd40de64f84fe"
     },
     {
       "archivo": "Graphics/Characters/vacas_junco.png",
@@ -108,13 +112,13 @@
     },
     {
       "archivo": "Graphics/Characters/vacas_junco_80.png",
-      "motivo": "Variante de escala adulta preparada; NO asignada porque exige cambiar referencias de eventos y tamaño de celda",
+      "motivo": "Variante adulta pendiente de Data: vistas laterales58x38, frontal conservado, NEAREST, mismo lienzo320 y apoyo por celda",
       "tamano": [
         320,
         320
       ],
       "original_sha256": null,
-      "sha256": "6900dd9ba9fc2c3eaa7608f7c2669241a86dc5ec2b32b25e057c137cf934199d"
+      "sha256": "61a44575f0846687ea03f7bd927d992b80b4e4278b347d5d06d9ca126cc74a23"
     },
     {
       "archivo": "Graphics/Characters/vacas_muesca.png",
@@ -128,13 +132,13 @@
     },
     {
       "archivo": "Graphics/Characters/vacas_muesca_80.png",
-      "motivo": "Variante de escala adulta preparada; NO asignada porque exige cambiar referencias de eventos y tamaño de celda",
+      "motivo": "Variante adulta pendiente de Data: vistas laterales58x38, frontal conservado, NEAREST, mismo lienzo320 y apoyo por celda",
       "tamano": [
         320,
         320
       ],
       "original_sha256": null,
-      "sha256": "b15d08bdda15c9b09c891072ab76e9657ef08d6b9118571a3bc3940b557b907f"
+      "sha256": "15bc3a91ee8a8b6dd031c13d5b7f94a517ee6e19e5b311d0159b7e5f97b13428"
     },
     {
       "archivo": "Graphics/Characters/vacas_cosas.png",
@@ -145,16 +149,6 @@
       ],
       "original_sha256": "18133e50061a6735f22276afd7c65283fdc6f90462c43b8f8e11a08064db13c2",
       "sha256": "6d8c7be132c43adda8548d3261034df4d59281a45c01d8f2df5671ff4976f0d1"
-    },
-    {
-      "archivo": "Graphics/Characters/vacas_laboratorio.png",
-      "motivo": "Unificación de rampas y alpha; objetos y anclas conservados por índice",
-      "tamano": [
-        128,
-        256
-      ],
-      "original_sha256": "318d1594aab825af3552548164caaafa4bbdce75daad532a7d526357dabee097",
-      "sha256": "4cca20fa19ea34f04e50ac7d33019c78ac33a31f87ee22f0018ed5443b8e01c3"
     },
     {
       "archivo": "Graphics/Characters/vacas_matadero.png",
@@ -625,6 +619,16 @@
       ],
       "original_sha256": null,
       "sha256": "57e4dbbcfe0b6bb70246b55031e48ebad678858383b392c8169b530ae6254b62"
+    },
+    {
+      "archivo": "Graphics/Characters/vacas_laboratorio.png",
+      "motivo": "Regeneración image_gen; recorte por celda, NEAREST, ancla inferior, alpha binario y paleta sin dithering",
+      "tamano": [
+        128,
+        256
+      ],
+      "original_sha256": "318d1594aab825af3552548164caaafa4bbdce75daad532a7d526357dabee097",
+      "sha256": "6152a4ad190eadc6594386d1769b1e8ee7c72a0ad758993e5fbaaa5abb5dad99"
     }
   ]
 }

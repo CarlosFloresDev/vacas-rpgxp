@@ -40,20 +40,26 @@ def finish(im,saturation=1,colors=64):
     a=np.array(rgb);a[a[:,:,3]==0]=0
     return Image.fromarray(a)
 
-def assemble(source,rel,targets,colors=64,sat=.9):
+def assemble(source,rel,targets,colors=64,sat=.9,source_boxes=None):
     src=Image.open(SOURCES/(source+'.png')).convert('RGBA')
     old=original(rel);out=Image.new('RGBA',old.size)
     cw,ch=old.width//4,old.height//4
     for i,(tw,th) in enumerate(targets):
         col,row=i%4,i//4
-        cell=src.crop((round(col*src.width/4),round(row*src.height/4),round((col+1)*src.width/4),round((row+1)*src.height/4)))
+        box=source_boxes[i] if source_boxes else (round(col*src.width/4),round(row*src.height/4),round((col+1)*src.width/4),round((row+1)*src.height/4))
+        cell=src.crop(box)
         alpha=cell.getchannel('A').point(lambda a:255 if a>=128 else 0);cell.putalpha(alpha)
         bbox=alpha.getbbox();assert bbox,(source,i)
         sprite=cell.crop(bbox)
         # Encajar por celda con NEAREST; ninguna contaminación entre frames.
         ratio=min(tw/sprite.width,th/sprite.height)
         sprite=sprite.resize((max(1,round(sprite.width*ratio)),max(1,round(sprite.height*ratio))),Image.Resampling.NEAREST)
-        out.alpha_composite(sprite,(col*cw+(cw-sprite.width)//2,(row+1)*ch-sprite.height))
+        # XP centra la celda, no su figura. Conservar el suelo de cada índice
+        # original evita desplazar pies/ruedas incluso al reducir la silueta.
+        oldbox=old.crop((col*cw,row*ch,(col+1)*cw,(row+1)*ch)).getchannel('A').point(lambda a:255 if a>=128 else 0).getbbox()
+        bottom=oldbox[3] if oldbox else ch
+        assert sprite.height<=bottom,(rel,i,sprite.height,bottom)
+        out.alpha_composite(sprite,(col*cw+(cw-sprite.width)//2,row*ch+bottom-sprite.height))
     save(rel,finish(out,sat,colors),'Regeneración image_gen; recorte por celda, NEAREST, ancla inferior, alpha binario y paleta sin dithering')
 
 def main():

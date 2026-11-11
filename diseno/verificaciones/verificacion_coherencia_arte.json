@@ -1,6 +1,6 @@
 {
   "comprobaciones": 933,
-  "fallos": 54,
+  "fallos": 0,
   "pruebas": [
     {
       "prueba": "Graphics/Characters/vacas_furgoneta.png: hash reproducido",
@@ -24,10 +24,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 0",
-      "ok": false,
+      "ok": true,
       "detalle": [
         61,
-        64
+        61
       ]
     },
     {
@@ -37,10 +37,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 1",
-      "ok": false,
+      "ok": true,
       "detalle": [
         61,
-        64
+        61
       ]
     },
     {
@@ -50,10 +50,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 2",
-      "ok": false,
+      "ok": true,
       "detalle": [
         61,
-        64
+        61
       ]
     },
     {
@@ -63,10 +63,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 3",
-      "ok": false,
+      "ok": true,
       "detalle": [
         61,
-        64
+        61
       ]
     },
     {
@@ -76,10 +76,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 4",
-      "ok": false,
+      "ok": true,
       "detalle": [
         61,
-        64
+        61
       ]
     },
     {
@@ -89,10 +89,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 5",
-      "ok": false,
+      "ok": true,
       "detalle": [
         61,
-        64
+        61
       ]
     },
     {
@@ -102,10 +102,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 6",
-      "ok": false,
+      "ok": true,
       "detalle": [
         61,
-        64
+        61
       ]
     },
     {
@@ -115,10 +115,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 7",
-      "ok": false,
+      "ok": true,
       "detalle": [
         61,
-        64
+        61
       ]
     },
     {
@@ -128,10 +128,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 8",
-      "ok": false,
+      "ok": true,
       "detalle": [
         61,
-        64
+        61
       ]
     },
     {
@@ -141,10 +141,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 9",
-      "ok": false,
+      "ok": true,
       "detalle": [
         61,
-        64
+        61
       ]
     },
     {
@@ -154,10 +154,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 10",
-      "ok": false,
+      "ok": true,
       "detalle": [
         61,
-        64
+        61
       ]
     },
     {
@@ -167,10 +167,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 11",
-      "ok": false,
+      "ok": true,
       "detalle": [
         61,
-        64
+        61
       ]
     },
     {
@@ -180,10 +180,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 12",
-      "ok": false,
+      "ok": true,
       "detalle": [
         61,
-        64
+        61
       ]
     },
     {
@@ -193,10 +193,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 13",
-      "ok": false,
+      "ok": true,
       "detalle": [
         61,
-        64
+        61
       ]
     },
     {
@@ -206,10 +206,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 14",
-      "ok": false,
+      "ok": true,
       "detalle": [
         61,
-        64
+        61
       ]
     },
     {
@@ -219,10 +219,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_furgoneta.png: ancla celda 15",
-      "ok": false,
+      "ok": true,
       "detalle": [
         61,
-        64
+        61
       ]
     },
     {
@@ -366,10 +366,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_muebles.png: ancla celda 8",
-      "ok": false,
+      "ok": true,
       "detalle": [
         63,
-        64
+        63
       ]
     },
     {
@@ -379,10 +379,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_muebles.png: ancla celda 9",
-      "ok": false,
+      "ok": true,
       "detalle": [
         63,
-        64
+        63
       ]
     },
     {
@@ -392,10 +392,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_muebles.png: ancla celda 10",
-      "ok": false,
+      "ok": true,
       "detalle": [
         63,
-        64
+        63
       ]
     },
     {
@@ -405,10 +405,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_muebles.png: ancla celda 11",
-      "ok": false,
+      "ok": true,
       "detalle": [
         63,
-        64
+        63
       ]
     },
     {
@@ -431,10 +431,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_muebles.png: ancla celda 13",
-      "ok": false,
+      "ok": true,
       "detalle": [
         63,
-        64
+        63
       ]
     },
     {
@@ -457,10 +457,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_muebles.png: ancla celda 15",
-      "ok": false,
+      "ok": true,
       "detalle": [
         63,
-        64
+        63
       ]
     },
     {
@@ -485,10 +485,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 0",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -498,10 +498,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 1",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -511,10 +511,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 2",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -524,10 +524,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 3",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -537,10 +537,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 4",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -550,10 +550,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 5",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -563,10 +563,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 6",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -576,10 +576,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 7",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -589,10 +589,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 8",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -602,10 +602,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 9",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -615,10 +615,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 10",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -628,10 +628,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 11",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -641,10 +641,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 12",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -654,10 +654,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 13",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -667,10 +667,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 14",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -680,10 +680,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca.png: ancla celda 15",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -708,10 +708,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 0",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -721,10 +721,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 1",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -734,10 +734,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 2",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -747,10 +747,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 3",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -760,10 +760,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 4",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -773,10 +773,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 5",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -786,10 +786,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 6",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -799,10 +799,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 7",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -812,10 +812,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 8",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -825,10 +825,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 9",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -838,10 +838,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 10",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -851,10 +851,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 11",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -864,10 +864,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 12",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -877,10 +877,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 13",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -890,10 +890,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 14",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -903,10 +903,10 @@
     },
     {
       "prueba": "Graphics/Characters/vacas_vaca_canela.png: ancla celda 15",
-      "ok": false,
+      "ok": true,
       "detalle": [
         76,
-        80
+        76
       ]
     },
     {
@@ -1751,229 +1751,6 @@
       "prueba": "Graphics/Characters/vacas_cosas.png: ocupación celda 15",
       "ok": true,
       "detalle": null
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: hash reproducido",
-      "ok": true,
-      "detalle": null
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: respaldo original",
-      "ok": true,
-      "detalle": null
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: dimensiones",
-      "ok": true,
-      "detalle": null
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 0",
-      "ok": true,
-      "detalle": null
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 0",
-      "ok": true,
-      "detalle": [
-        64,
-        64
-      ]
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 1",
-      "ok": true,
-      "detalle": null
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 1",
-      "ok": true,
-      "detalle": [
-        64,
-        64
-      ]
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 2",
-      "ok": true,
-      "detalle": null
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 2",
-      "ok": true,
-      "detalle": [
-        64,
-        64
-      ]
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 3",
-      "ok": true,
-      "detalle": null
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 3",
-      "ok": true,
-      "detalle": [
-        64,
-        64
-      ]
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 4",
-      "ok": true,
-      "detalle": null
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 4",
-      "ok": true,
-      "detalle": [
-        64,
-        64
-      ]
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 5",
-      "ok": true,
-      "detalle": null
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 5",
-      "ok": true,
-      "detalle": [
-        64,
-        64
-      ]
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 6",
-      "ok": true,
-      "detalle": null
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 6",
-      "ok": true,
-      "detalle": [
-        64,
-        64
-      ]
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 7",
-      "ok": true,
-      "detalle": null
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 7",
-      "ok": true,
-      "detalle": [
-        64,
-        64
-      ]
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 8",
-      "ok": true,
-      "detalle": null
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 8",
-      "ok": true,
-      "detalle": [
-        64,
-        64
-      ]
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 9",
-      "ok": true,
-      "detalle": null
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 9",
-      "ok": true,
-      "detalle": [
-        64,
-        64
-      ]
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 10",
-      "ok": true,
-      "detalle": null
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 10",
-      "ok": true,
-      "detalle": [
-        64,
-        64
-      ]
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 11",
-      "ok": true,
-      "detalle": null
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 11",
-      "ok": true,
-      "detalle": [
-        64,
-        64
-      ]
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 12",
-      "ok": true,
-      "detalle": null
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 12",
-      "ok": true,
-      "detalle": [
-        64,
-        64
-      ]
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 13",
-      "ok": true,
-      "detalle": null
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 13",
-      "ok": true,
-      "detalle": [
-        64,
-        64
-      ]
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 14",
-      "ok": true,
-      "detalle": null
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 14",
-      "ok": true,
-      "detalle": [
-        64,
-        64
-      ]
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 15",
-      "ok": true,
-      "detalle": null
-    },
-    {
-      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 15",
-      "ok": true,
-      "detalle": [
-        64,
-        64
-      ]
     },
     {
       "prueba": "Graphics/Characters/vacas_matadero.png: hash reproducido",
@@ -2925,6 +2702,229 @@
       "prueba": "Graphics/Animations/vacas_rejilla_024-Support01.png: hash reproducido",
       "ok": true,
       "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: hash reproducido",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: respaldo original",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: dimensiones",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 0",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 0",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 1",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 1",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 2",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 2",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 3",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 3",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 4",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 4",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 5",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 5",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 6",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 6",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 7",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 7",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 8",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 8",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 9",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 9",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 10",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 10",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 11",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 11",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 12",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 12",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 13",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 13",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 14",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 14",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ocupación celda 15",
+      "ok": true,
+      "detalle": null
+    },
+    {
+      "prueba": "Graphics/Characters/vacas_laboratorio.png: ancla celda 15",
+      "ok": true,
+      "detalle": [
+        64,
+        64
+      ]
     },
     {
       "prueba": "alcantarilla: otros 13 tiles idénticos",

@@ -53,6 +53,8 @@ El instalador vigente es `instalar_scripts.mjs`. No agrega ni reordena secciones
 
 ## Verificar e inventariar
 
+La revisión de concurso está documentada en [Jugabilidad](docs/sistemas/JUGABILIDAD.md): diagnóstico del jarabe, correcciones por mapa, auditoría reproducible y límites de las pruebas HD.
+
 Requiere Python con Pillow, Node.js, Ruby y el MCP local de RPG Maker XP utilizado por el proyecto. Ruby se detecta por `VACAS_RUBY`, `PATH` o su ubicación original en `D:/DevTools/ruby/`. El puente MCP conserva su dependencia externa en `D:/DevTools/mcp/rpgmaker-xp/`. El RTP se puede indicar con `RPGMAKER_RTP_PATH`; por defecto se usa la instalación original de Steam.
 
 ```powershell

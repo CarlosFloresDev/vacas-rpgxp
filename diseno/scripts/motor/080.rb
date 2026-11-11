@@ -14,7 +14,7 @@ class Scene_End
     s2 = "Shutdown"
     s3 = "Cancel"
     @command_window = Window_Command.new(192, [s1, s2, s3])
-    @command_window.x = 320 - @command_window.width / 2
+    @command_window.x = (Vacas_HD.w - @command_window.width) / 2
     @command_window.y = Vacas_HD.y(240) - @command_window.height / 2
     # Execute transition
     Graphics.transition

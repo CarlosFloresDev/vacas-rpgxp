@@ -63,6 +63,9 @@ hd_step('jarabe_desde_entrada_y_entrega') do
     end
     raise 'Interprete bloqueado' if it.running?
   end
+  run_event.call(11)
+  raise 'Jarabe antes de las ordenes' unless $game_party.item_number(3) == 0
+  raise 'Lavabo agotado sin recogerlo' if $game_self_switches[[2,11,'A']]
   run_event.call(14)
   raise 'Madre no da ordenes' unless $game_switches[2]
   $game_player.moveto(13,4); $game_player.turn_up

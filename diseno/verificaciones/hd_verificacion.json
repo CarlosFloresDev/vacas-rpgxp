@@ -1,7 +1,5 @@
 {
-  "errores": [
-    "Integridad Vacas.cfg"
-  ],
+  "errores": [],
   "configuracion": {
     "rgssVersion": 1,
     "gameFolder": ".",
@@ -249,17 +247,17 @@
     },
     "marshal": {
       "codigo": 0,
-      "salida": "{\n  \"files\": 372,\n  \"errors\": [\n\n  ]\n}\n",
+      "salida": "{\n  \"files\": 378,\n  \"errors\": [\n\n  ]\n}\n",
       "stderr": "Test-Path : Acceso denegado\nEn C:\\Users\\car_g\\scoop\\apps\\scoop\\current\\lib\\core.ps1: 83 Carácter: 10\n+     if(!(Test-Path $file)) {\n+          ~~~~~~~~~~~~~~~\n    + CategoryInfo          : PermissionDenied: (C:\\Users\\car_g\\.config\\scoop\\config.json:String) [Test-Path], Unautho \n   rizedAccessException\n    + FullyQualifiedErrorId : ItemExistsUnauthorizedAccessError,Microsoft.PowerShell.Commands.TestPathCommand\n \n"
     },
     "simulacion_360": {
       "codigo": 0,
-      "salida": "OK resolucion\nOK titulo\nOK partida\nOK guardado_existente\nOK pausa\nOK ajustes\nOK estado\nOK notas\nOK creditos\nOK creditos_juego\nOK objetos\nOK cargar\nOK gameover\nOK aviso\nOK feka\nOK cine\nOK escenas_estandar\nOK mapa_dialogo\nOK minijuegos\nOK combate\nOK camara_todos_mapas\nOK ventanas_todas_clases\nFIN SUITE\n",
+      "salida": "OK resolucion\nOK titulo\nOK partida\nOK jarabe_desde_entrada_y_entrega\nOK guardado_existente\nOK pausa\nOK ajustes\nOK estado\nOK notas\nOK creditos\nOK creditos_juego\nOK objetos\nOK cargar\nOK gameover\nOK aviso\nOK feka\nOK cine\nOK escenas_estandar\nOK mapa_dialogo\nOK minijuegos\nOK combate\nOK camara_todos_mapas\nOK camara_mapa_pequeno_y_limites_fraccionarios\nOK ventanas_todas_clases\nFIN SUITE\n",
       "stderr": "Test-Path : Acceso denegado\nEn C:\\Users\\car_g\\scoop\\apps\\scoop\\current\\lib\\core.ps1: 83 Carácter: 10\n+     if(!(Test-Path $file)) {\n+          ~~~~~~~~~~~~~~~\n    + CategoryInfo          : PermissionDenied: (C:\\Users\\car_g\\.config\\scoop\\config.json:String) [Test-Path], Unautho \n   rizedAccessException\n    + FullyQualifiedErrorId : ItemExistsUnauthorizedAccessError,Microsoft.PowerShell.Commands.TestPathCommand\n \n"
     },
     "simulacion_480": {
       "codigo": 0,
-      "salida": "OK resolucion\nOK titulo\nOK partida\nOK guardado_existente\nOK pausa\nOK ajustes\nOK estado\nOK notas\nOK creditos\nOK creditos_juego\nOK objetos\nOK cargar\nOK gameover\nOK aviso\nOK feka\nOK cine\nOK escenas_estandar\nOK mapa_dialogo\nOK minijuegos\nOK combate\nOK camara_todos_mapas\nOK ventanas_todas_clases\nFIN SUITE\n",
+      "salida": "OK resolucion\nOK titulo\nOK partida\nOK jarabe_desde_entrada_y_entrega\nOK guardado_existente\nOK pausa\nOK ajustes\nOK estado\nOK notas\nOK creditos\nOK creditos_juego\nOK objetos\nOK cargar\nOK gameover\nOK aviso\nOK feka\nOK cine\nOK escenas_estandar\nOK mapa_dialogo\nOK minijuegos\nOK combate\nOK camara_todos_mapas\nOK camara_mapa_pequeno_y_limites_fraccionarios\nOK ventanas_todas_clases\nFIN SUITE\n",
       "stderr": "Test-Path : Acceso denegado\nEn C:\\Users\\car_g\\scoop\\apps\\scoop\\current\\lib\\core.ps1: 83 Carácter: 10\n+     if(!(Test-Path $file)) {\n+          ~~~~~~~~~~~~~~~\n    + CategoryInfo          : PermissionDenied: (C:\\Users\\car_g\\.config\\scoop\\config.json:String) [Test-Path], Unautho \n   rizedAccessException\n    + FullyQualifiedErrorId : ItemExistsUnauthorizedAccessError,Microsoft.PowerShell.Commands.TestPathCommand\n \n"
     }
   },
@@ -275,10 +273,11 @@
       "Game.exe": "0ed9b5139edb0ad0f0f4b5b88dd0265ddbf56d36d6f173d6a22f3b23e8212e22",
       "RGSS104E.dll": "7b6acb5e2c245b8cfda77fced2cc0e94108384cd1b9ffc8510e7304fcb9feb6c",
       "Game.ini": "36b11fe2e43d630b8150d648b5f283026e9e1d8b480e4f3aa8114ce3074618fb",
-      "Vacas.cfg": "cd459e1b5526203e4a29ea44d2bf0a8e99e7ccfc275a514b6542075ec4e87a71",
+      "Vacas.cfg": "6ae103b0eee9698b79901ff3909c12659d4d64d6944946ffee2329ac2a07f42b",
       "Save1.rxdata": "056a1801c5e7a83b5512bfc6d1938e973e10d3cfe1f28d0eb2b67c976198fd3c"
     },
     "changed": []
   },
+  "modificados_durante_verificacion": [],
   "alcance": "Carga y geometria simuladas con datos Marshal reales. Renderer, audio, foco y capturas nativas pendientes por ausencia de dispositivo de audio."
 }

@@ -1,0 +1,730 @@
+{
+  "antes": {
+    "tileset": 53,
+    "lavabo": {
+      "xy": [
+        13,
+        3
+      ],
+      "paginas": [
+        {
+          "condicion": {
+            "_class": "RPG::Event::Page::Condition",
+            "switch1_valid": false,
+            "switch2_valid": false,
+            "variable_valid": false,
+            "self_switch_valid": false,
+            "switch1_id": 1,
+            "switch2_id": 1,
+            "variable_id": 1,
+            "variable_value": 0,
+            "self_switch_ch": "A"
+          },
+          "grafico": {
+            "_class": "RPG::Event::Page::Graphic",
+            "tile_id": 0,
+            "character_name": "vacas_muebles",
+            "character_hue": 0,
+            "direction": 8,
+            "pattern": 1,
+            "opacity": 255,
+            "blend_type": 0
+          },
+          "through": false,
+          "trigger": 0,
+          "comandos": [
+            {
+              "_class": "RPG::EventCommand",
+              "code": 111,
+              "indent": 0,
+              "parameters": [
+                0,
+                2,
+                0
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "Detrás del espejo, entre cuchillas oxidadas"
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "y algodones amarillos, está el jarabe de"
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "madre."
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 355,
+              "indent": 1,
+              "parameters": [
+                "susto(1)"
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 655,
+              "indent": 1,
+              "parameters": [
+                "true"
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 126,
+              "indent": 1,
+              "parameters": [
+                3,
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 250,
+              "indent": 1,
+              "parameters": [
+                {
+                  "_class": "RPG::AudioFile",
+                  "name": "046-Book01",
+                  "volume": 80,
+                  "pitch": 100
+                }
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 123,
+              "indent": 1,
+              "parameters": [
+                "A",
+                0
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 411,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "El espejo está partido en diagonal. Te corta"
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "la cara en dos mitades que no se parecen."
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 412,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "condicion": {
+            "_class": "RPG::Event::Page::Condition",
+            "switch1_valid": false,
+            "switch2_valid": false,
+            "variable_valid": false,
+            "self_switch_valid": true,
+            "switch1_id": 1,
+            "switch2_id": 1,
+            "variable_id": 1,
+            "variable_value": 0,
+            "self_switch_ch": "A"
+          },
+          "grafico": {
+            "_class": "RPG::Event::Page::Graphic",
+            "tile_id": 0,
+            "character_name": "vacas_muebles",
+            "character_hue": 0,
+            "direction": 8,
+            "pattern": 1,
+            "opacity": 255,
+            "blend_type": 0
+          },
+          "through": false,
+          "trigger": 0,
+          "comandos": [
+            {
+              "_class": "RPG::EventCommand",
+              "code": 111,
+              "indent": 0,
+              "parameters": [
+                1,
+                1,
+                0,
+                40,
+                1
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "Te miras. Tu reflejo parpadea un segundo"
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "después que tú."
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 355,
+              "indent": 1,
+              "parameters": [
+                "subir_veneno(3)"
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 655,
+              "indent": 1,
+              "parameters": [
+                "true"
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 411,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "El espejo está partido en diagonal. Te corta"
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "la cara en dos mitades que no se parecen."
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 412,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ]
+        }
+      ]
+    },
+    "aproximacion_13_4": true,
+    "interaccion": true,
+    "tiles": [
+      {
+        "xy": [
+          13,
+          3
+        ],
+        "capas": [
+          0,
+          595,
+          385
+        ],
+        "pasable": true
+      },
+      {
+        "xy": [
+          13,
+          4
+        ],
+        "capas": [
+          0,
+          0,
+          385
+        ],
+        "pasable": true
+      },
+      {
+        "xy": [
+          13,
+          5
+        ],
+        "capas": [
+          0,
+          0,
+          385
+        ],
+        "pasable": true
+      }
+    ],
+    "bloqueador49": {
+      "xy": [
+        10,
+        4
+      ],
+      "paginas": [
+        {
+          "through": false,
+          "condicion": {
+            "_class": "RPG::Event::Page::Condition",
+            "switch1_valid": false,
+            "switch2_valid": false,
+            "variable_valid": false,
+            "self_switch_valid": false,
+            "switch1_id": 1,
+            "switch2_id": 1,
+            "variable_id": 1,
+            "variable_value": 0,
+            "self_switch_ch": "A"
+          }
+        },
+        {
+          "through": true,
+          "condicion": {
+            "_class": "RPG::Event::Page::Condition",
+            "switch1_valid": true,
+            "switch2_valid": false,
+            "variable_valid": false,
+            "self_switch_valid": false,
+            "switch1_id": 81,
+            "switch2_id": 1,
+            "variable_id": 1,
+            "variable_value": 0,
+            "self_switch_ch": "A"
+          }
+        }
+      ]
+    }
+  },
+  "actual": {
+    "tileset": 53,
+    "lavabo": {
+      "xy": [
+        13,
+        3
+      ],
+      "paginas": [
+        {
+          "condicion": {
+            "_class": "RPG::Event::Page::Condition",
+            "switch1_valid": false,
+            "switch2_valid": false,
+            "variable_valid": false,
+            "self_switch_valid": false,
+            "switch1_id": 1,
+            "switch2_id": 1,
+            "variable_id": 1,
+            "variable_value": 0,
+            "self_switch_ch": "A"
+          },
+          "grafico": {
+            "_class": "RPG::Event::Page::Graphic",
+            "tile_id": 0,
+            "character_name": "vacas_muebles",
+            "character_hue": 0,
+            "direction": 8,
+            "pattern": 1,
+            "opacity": 255,
+            "blend_type": 0
+          },
+          "through": false,
+          "trigger": 0,
+          "comandos": [
+            {
+              "_class": "RPG::EventCommand",
+              "code": 111,
+              "indent": 0,
+              "parameters": [
+                0,
+                2,
+                0
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "Detrás del espejo, entre cuchillas oxidadas"
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "y algodones amarillos, está el jarabe de"
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "madre."
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 355,
+              "indent": 1,
+              "parameters": [
+                "susto(1)"
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 655,
+              "indent": 1,
+              "parameters": [
+                "true"
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 126,
+              "indent": 1,
+              "parameters": [
+                3,
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 250,
+              "indent": 1,
+              "parameters": [
+                {
+                  "_class": "RPG::AudioFile",
+                  "name": "046-Book01",
+                  "volume": 80,
+                  "pitch": 100
+                }
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 123,
+              "indent": 1,
+              "parameters": [
+                "A",
+                0
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 411,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "El jarabe de madre esta detras del espejo."
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "Primero debo hablar con ella."
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 412,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "condicion": {
+            "_class": "RPG::Event::Page::Condition",
+            "switch1_valid": false,
+            "switch2_valid": false,
+            "variable_valid": false,
+            "self_switch_valid": true,
+            "switch1_id": 1,
+            "switch2_id": 1,
+            "variable_id": 1,
+            "variable_value": 0,
+            "self_switch_ch": "A"
+          },
+          "grafico": {
+            "_class": "RPG::Event::Page::Graphic",
+            "tile_id": 0,
+            "character_name": "vacas_muebles",
+            "character_hue": 0,
+            "direction": 8,
+            "pattern": 1,
+            "opacity": 255,
+            "blend_type": 0
+          },
+          "through": false,
+          "trigger": 0,
+          "comandos": [
+            {
+              "_class": "RPG::EventCommand",
+              "code": 111,
+              "indent": 0,
+              "parameters": [
+                1,
+                1,
+                0,
+                40,
+                1
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "Te miras. Tu reflejo parpadea un segundo"
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "después que tú."
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 355,
+              "indent": 1,
+              "parameters": [
+                "subir_veneno(3)"
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 655,
+              "indent": 1,
+              "parameters": [
+                "true"
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 411,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "El espejo está partido en diagonal. Te corta"
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "la cara en dos mitades que no se parecen."
+              ]
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 412,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ]
+        }
+      ]
+    },
+    "aproximacion_13_4": true,
+    "interaccion": true,
+    "tiles": [
+      {
+        "xy": [
+          13,
+          3
+        ],
+        "capas": [
+          0,
+          595,
+          385
+        ],
+        "pasable": true
+      },
+      {
+        "xy": [
+          13,
+          4
+        ],
+        "capas": [
+          0,
+          0,
+          385
+        ],
+        "pasable": true
+      },
+      {
+        "xy": [
+          13,
+          5
+        ],
+        "capas": [
+          0,
+          0,
+          385
+        ],
+        "pasable": true
+      }
+    ],
+    "bloqueador49": {
+      "xy": [
+        10,
+        4
+      ],
+      "paginas": [
+        {
+          "through": false,
+          "condicion": {
+            "_class": "RPG::Event::Page::Condition",
+            "switch1_valid": false,
+            "switch2_valid": false,
+            "variable_valid": false,
+            "self_switch_valid": false,
+            "switch1_id": 1,
+            "switch2_id": 1,
+            "variable_id": 1,
+            "variable_value": 0,
+            "self_switch_ch": "A"
+          }
+        },
+        {
+          "through": true,
+          "condicion": {
+            "_class": "RPG::Event::Page::Condition",
+            "switch1_valid": true,
+            "switch2_valid": false,
+            "variable_valid": false,
+            "self_switch_valid": false,
+            "switch1_id": 81,
+            "switch2_id": 1,
+            "variable_id": 1,
+            "variable_value": 0,
+            "self_switch_ch": "A"
+          }
+        }
+      ]
+    }
+  }
+}

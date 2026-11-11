@@ -1,5 +1,7 @@
 # VACAS — dirección de arte HD-2D / Fase 1
 
+> Actualización de coherencia (11-11-2026): la [Biblia aprobada](BIBLIA_PERSONAJES.md) prevalece sobre las propuestas históricas siguientes (Steven: camisa marrón; retratos/sustos ilustrados). Reglas y estado actual en [COHERENCIA_ARTE.md](COHERENCIA_ARTE.md). Conservar el apoyo opaco original de cada celda, no forzar el borde inferior: vacas76/80 y furgoneta61/64. Bovinos adultos: longitud lateral54–68px, objetivo58×38px; si no cabe en celda48, preparar otra hoja y registrar el cambio de Data. Alpha binario en plano jugable, saturación media≤0,55; luces/humo quedan fuera de esa regla. Pantallas640×480: foco dentro de y60–420 para el lienzo640×360. Siempre evaluar a1× y×3 NEAREST.
+
 Muestra del 9 de noviembre de 2026, pendiente de aprobación artística. Referencias narrativas: PLAN.md, SISTEMAS.md, ACTO_I.md, ACTO_II.md y ENEMIGOS.json. La nueva dirección de gore amplía la representación visual de las visiones; no cambia los fundidos, eventos ni el argumento. Las antiguas referencias a ComfyUI/Stable Diffusion son históricas: **esta producción usa image_gen, nunca GPU local**. Pillow solo adapta y retoca píxeles en CPU.
 
 ## Dirección y lectura en RPG Maker XP

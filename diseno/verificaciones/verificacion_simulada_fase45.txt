@@ -128,11 +128,11 @@ OK Intérprete 6/Taquilla 13
 OK II: turno y mono 2
 OK Intérprete 8/Puesto de corte
 OK Intérprete 8/Final de la cinta
-OK Intérprete 9/Camara 2
-OK Intérprete 8/Final de la cinta
-OK Intérprete 9/Camara 2
-OK Intérprete 8/Final de la cinta
 OK Intérprete 9/Camara 1
+OK Intérprete 8/Final de la cinta
+OK Intérprete 9/Camara 3
+OK Intérprete 8/Final de la cinta
+OK Intérprete 9/Camara 2
 OK Intérprete 11/Rejilla
 OK Intérprete 10/Escritorio
 OK Intérprete 10/Archivador

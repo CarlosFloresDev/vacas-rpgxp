@@ -15,6 +15,8 @@ def paste_fit(dst,src,box):
 
 def main():
     OUT.mkdir(parents=True,exist_ok=True)
+    lab=Image.open(ROOT/'Graphics/Characters/vacas_laboratorio.png')
+    lab.resize((lab.width*4,lab.height*4),Image.Resampling.NEAREST).save(OUT/'coherencia_laboratorio_detalle.png')
     for cat in sorted((ROOT/'Graphics').iterdir()):
         if not cat.is_dir():continue
         files=sorted(cat.glob('*.png')); cols=3;rowh=204;w=1080
@@ -51,6 +53,10 @@ def main():
         paths=[ROOT/'Graphics/Characters'/f'vacas_{char}.png']
         paths += [p for p in (ROOT/'Graphics/Pictures').glob('retrato_*.png') if any(p.stem.startswith('retrato_'+n+'_') for n in names)]
         paths += [p for p in (ROOT/'Graphics/Battlers').glob('*.png') if p.stem in names]
+        # La Biblia exige contrastar también la referencia de producción.
+        refname={'guernsey4':'guernsey','obrero1':'benito','obrero2':'rubio','obrero3':'encarna','obrero4':'chato','carnicero':'molina'}.get(char,char)
+        reference=ROOT/'diseno/fuentes/arte_hd2d/referencias'/f'{refname}.png'
+        if reference.exists():paths.append(reference)
         im=Image.new('RGB',(max(720,len(paths)*180),400),BG)
         label(im,(6,6),f'Identidad: {char} | sprite 3x; retratos y battlers reducidos solo para comparación')
         for i,p in enumerate(paths):
