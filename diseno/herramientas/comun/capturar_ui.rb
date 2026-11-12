@@ -258,7 +258,8 @@ begin
   long=('El pasillo sigue abierto y las voces no dejan de llamar desde la oscuridad. '*3)
   cases=[['mensaje','Texto normal. '+long,0],['mensaje_nombre','\\NOMBRE[Nombre de prueba muy largo]'+long,0],
     ['vn_izquierda','\\P[steven_miedo]\\L\\NOMBRE[Steven]'+([long]*4).join("\n"),0],
-    ['vn_derecha','\\P[steven_miedo]\\R\\NOMBRE[Steven]'+([long]*4).join("\n"),0]]
+    ['vn_derecha','\\P[steven_miedo]\\R\\NOMBRE[Steven]'+([long]*4).join("\n"),0],
+    ['vn_madre','\\P[madre_neutral]\\R\\NOMBRE[Madre]'+long,0]]
   (2..4).each { |n| cases.push(['elecciones_'+n.to_s,([long]*n).join("\n"),n]) }
   cases.each do |name,text,count|
     ui_case(name) do

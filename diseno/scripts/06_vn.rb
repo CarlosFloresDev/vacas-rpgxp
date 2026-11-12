@@ -42,6 +42,8 @@ module Vacas_MessageText
   end
 end
 class Window_Message
+  # Fila superior visible de cada retrato (los demas empiezan arriba).
+  VN_TOP = {'junco_neutral'=>61, 'madre_envejecida_neutral'=>93, 'madre_ira'=>93, 'madre_neutral'=>93, 'muesca_neutral'=>121}
   alias vacas_vn_initialize initialize
   def initialize
     vacas_vn_initialize
@@ -103,10 +105,13 @@ class Window_Message
       bottom=$game_temp.in_battle ? Vacas_HD.bottom(154) : Vacas_HD.h
       @vn_bust.zoom_x = @vn_bust.zoom_y = [1.0, (bottom-24).to_f/@vn_bust.bitmap.height].min
       @vn_bust.x = right ? Vacas_HD.w - (@vn_bust.bitmap.width * @vn_bust.zoom_x).to_i : 0
-      @vn_bust.y = bottom - (@vn_bust.bitmap.height * @vn_bust.zoom_y).to_i
+      # La cabeza siempre arriba: los retratos con aire encima suben.
+      top=(VN_TOP[portrait] || 0)
+      @vn_bust.y = [bottom - (@vn_bust.bitmap.height * @vn_bust.zoom_y).to_i, 8 - (top * @vn_bust.zoom_y).to_i].min
       @vn_bust.visible = true
     end
     @vn_dim.visible = dim
+    self.back_opacity = (portrait != nil) ? 255 : 235
     unless name == ''
       b = @vn_plate.bitmap
       b.clear
@@ -116,7 +121,8 @@ class Window_Message
       b.font.size = 18
       b.font.color = Color.new(222, 207, 165)
       b.draw_text(12, 0, 276, 32, Vacas_UI.fit(b,name,276))
-      @vn_plate.x = right ? Vacas_HD.w - 316 : 16
+      # Placa del nombre al lado contrario del busto: nunca tapa la cara.
+      @vn_plate.x = (portrait != nil) ? (right ? 16 : Vacas_HD.w - 316) : (right ? Vacas_HD.w - 316 : 16)
       @vn_plate.y = $game_temp.in_battle ? self.y + self.height : self.y - 36
       @vn_plate.visible = true
     end

@@ -1,4 +1,4 @@
-Mapas: 32; páginas: 443; errores: 0; avisos visuales: 2349
+Mapas: 32; páginas: 443; errores: 0; avisos visuales: 2347
 Mapa 1: 0 errores
 Mapa 2: 0 errores
 Mapa 3: 0 errores

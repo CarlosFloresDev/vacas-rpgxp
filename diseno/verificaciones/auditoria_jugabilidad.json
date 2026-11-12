@@ -19833,32 +19833,6 @@
       "tipo": "superpuesto_transitable_revisar",
       "xy": [
         17,
-        15
-      ],
-      "tiles": [
-        0,
-        456,
-        418
-      ]
-    },
-    {
-      "mapa": 2,
-      "tipo": "superpuesto_transitable_revisar",
-      "xy": [
-        18,
-        15
-      ],
-      "tiles": [
-        0,
-        457,
-        416
-      ]
-    },
-    {
-      "mapa": 2,
-      "tipo": "superpuesto_transitable_revisar",
-      "xy": [
-        17,
         16
       ],
       "tiles": [

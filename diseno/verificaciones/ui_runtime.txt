@@ -68,6 +68,8 @@ INICIO vn_derecha
 CAPTURA vn_derecha
 CAPTURA vn_derecha_pagina_2
 CAPTURA vn_derecha_pagina_3
+INICIO vn_madre
+CAPTURA vn_madre
 INICIO elecciones_2
 CAPTURA elecciones_2
 CAPTURA elecciones_2_opcion_2

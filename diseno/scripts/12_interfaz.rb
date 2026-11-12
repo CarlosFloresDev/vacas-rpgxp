@@ -70,33 +70,33 @@ module Vacas_Audio
     :alterna_laboratorio_tenso=>[:bgm,"bgm_extra_tension_lab",42,100,""],
     :alterna_alcantarillas_drone=>[:bgm,"bgm_extra_dark_drone",42,100,""],
     :alterna_batalla=>[:bgm,"bgm_extra_batalla_rpg",42,100,""],
-    :menu=>[:bgs,"vacas_menu",26,100,"Zumbido electrico"],
-    :piso=>[:bgs,"vacas_piso",26,100,"La television tras la pared"],
+    :menu=>[:bgs,"vacas_menu",26,100,"Zumbido eléctrico"],
+    :piso=>[:bgs,"vacas_piso",26,100,"La televisión tras la pared"],
     :matadero=>[:bgs,"vacas_matadero",26,100,"La cadena sigue girando"],
     :camaras=>[:bgs,"vacas_camaras",26,100,"Compresor lejano"],
     :laboratorio=>[:bgs,"vacas_laboratorio",26,100,"Cristal y fluorescentes"],
     :alcantarillas=>[:bgs,"vacas_alcantarillas",26,100,"Agua bajo los pies"],
     :manada=>[:bgs,"vacas_manada",26,100,"Respiraciones en la oscuridad"],
-    :estatica_de_tv_vieja=>[:bgs,"bgs_tv_estatica",26,100,"Estatica de TV vieja"],
-    :tv_amortiguada_estatica_filtrada=>[:bgs,"bgs_tv_estatica_amortiguada",26,100,"TV amortiguada (estatica filtrada)"],
+    :estatica_de_tv_vieja=>[:bgs,"bgs_tv_estatica",26,100,"Estática de un televisor viejo"],
+    :tv_amortiguada_estatica_filtrada=>[:bgs,"bgs_tv_estatica_amortiguada",26,100,"Televisión amortiguada"],
     :zumbido_de_nevera=>[:bgs,"bgs_nevera_zumbido",26,100,"Zumbido de nevera"],
-    :reloj_tictac_piso=>[:bgs,"bgs_reloj_tictac",26,100,"Reloj tictac (piso)"],
-    :lluvia_en_ventana_calle_noche=>[:bgs,"bgs_lluvia_ventana",26,100,"Lluvia en ventana / calle noche"],
+    :reloj_tictac_piso=>[:bgs,"bgs_reloj_tictac",26,100,"Tictac de un reloj"],
+    :lluvia_en_ventana_calle_noche=>[:bgs,"bgs_lluvia_ventana",26,100,"Lluvia contra la ventana"],
     :lluvia_exterior=>[:bgs,"bgs_lluvia_calle",26,100,"Lluvia exterior"],
     :cadenas_y_transportador=>[:bgs,"bgs_matadero_cadenas",26,100,"Cadenas y transportador"],
-    :fabrica_oscura=>[:bgs,"bgs_matadero_fabrica_oscura",26,100,"Fabrica oscura"],
-    :compresor_de_camara_fria=>[:bgs,"bgs_camara_compresor",26,100,"Compresor de camara fria"],
+    :fabrica_oscura=>[:bgs,"bgs_matadero_fabrica_oscura",26,100,"Fábrica oscura"],
+    :compresor_de_camara_fria=>[:bgs,"bgs_camara_compresor",26,100,"Compresor de la cámara fría"],
     :goteo_y_eco=>[:bgs,"bgs_alcantarilla_goteo",26,100,"Goteo y eco"],
     :agua_corriendo=>[:bgs,"bgs_agua_corriente",26,100,"Agua corriendo"],
-    :edificio_abandonado_ambiente=>[:bgs,"bgs_edificio_abandonado",26,100,"Edificio abandonado (ambiente)"],
-    :ambiente_hueco_alcantarilla_camara=>[:bgs,"bgs_mazmorra_eco",26,100,"Ambiente hueco (alcantarilla/camara)"],
-    :fluorescente_zumbido_electrico=>[:bgs,"bgs_fluorescente_zumbido",26,100,"Fluorescente / zumbido electrico"],
-    :generador_maquina=>[:bgs,"bgs_generador",26,100,"Generador / maquina"],
+    :edificio_abandonado_ambiente=>[:bgs,"bgs_edificio_abandonado",26,100,"Edificio abandonado"],
+    :ambiente_hueco_alcantarilla_camara=>[:bgs,"bgs_mazmorra_eco",26,100,"Eco hueco"],
+    :fluorescente_zumbido_electrico=>[:bgs,"bgs_fluorescente_zumbido",26,100,"Fluorescente zumbando"],
+    :generador_maquina=>[:bgs,"bgs_generador",26,100,"Generador"],
     :latido_lento=>[:bgs,"bgs_latido_lento",26,100,"Latido lento"],
-    :latido_rapido=>[:bgs,"bgs_latido_rapido",26,100,"Latido rapido"],
-    :respiracion_pesada=>[:bgs,"bgs_respiracion_pesada",26,100,"Respiracion pesada"],
-    :respiracion_de_horror=>[:bgs,"bgs_respiracion_horror",26,100,"Respiracion de horror"],
-    :corral_de_ganado_mugidos_y_arrastre=>[:bgs,"bgs_corral_ganado",26,100,"Corral de ganado (mugidos y arrastre)"],
+    :latido_rapido=>[:bgs,"bgs_latido_rapido",26,100,"Latido rápido"],
+    :respiracion_pesada=>[:bgs,"bgs_respiracion_pesada",26,100,"Respiración pesada"],
+    :respiracion_de_horror=>[:bgs,"bgs_respiracion_horror",26,100,"Respiración entrecortada"],
+    :corral_de_ganado_mugidos_y_arrastre=>[:bgs,"bgs_corral_ganado",26,100,"Mugidos y arrastre en el corral"],
     :victoria=>[:me,"vacas_victoria",56,100,""],
     :derrota=>[:me,"vacas_derrota",56,100,""],
     :nivel_logro=>[:me,"me_logro",56,100,""],
@@ -110,7 +110,7 @@ module Vacas_Audio
     :paso_baldosa=>[:se,"paso_baldosa",24,100,""],
     :paso_metal=>[:se,"paso_metal",24,100,""],
     :paso_agua=>[:se,"paso_agua",24,100,""],
-    :puerta=>[:se,"puerta_oxido",52,100,"Una puerta chirria"],
+    :puerta=>[:se,"puerta_oxido",52,100,"Una puerta chirría"],
     :paso_concreto=>[:se,"se_paso_concreto_1",24,100,""],
     :paso_concreto_2=>[:se,"se_paso_concreto_2",24,100,""],
     :paso_concreto_3=>[:se,"se_paso_concreto_3",24,100,""],
@@ -1128,8 +1128,12 @@ module Graphics
       if @ui_last_caption!=caption
         @ui_last_caption=caption; b=@ui_caption.bitmap; b.clear
         if caption!=''
-          b.fill_rect(96,4,448,30,Color.new(5,10,10,210))
-          Vacas_UI.text(b,100,4,440,'[ '+caption+' ]',17,Vacas_UI::INK,1)
+          # Subtitulo discreto: cajita a la medida del texto, no una franja.
+          b.font.name='Arial'; b.font.size=14; label='~ '+caption+' ~'
+          w=[b.text_size(label).width+20,Vacas_HD.w-32].min; x=(Vacas_HD.w-w)/2
+          b.fill_rect(x,6,w,22,Color.new(5,10,10,170))
+          b.font.color=Color.new(222,207,165,230)
+          b.draw_text(x+10,6,w-20,22,label,1)
         end
       end
       ui_original_update
