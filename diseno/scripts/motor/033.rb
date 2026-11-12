@@ -18,10 +18,7 @@ class Window_Gold < Window_Base
   #--------------------------------------------------------------------------
   def refresh
     self.contents.clear
-    cx = contents.text_size($data_system.words.gold).width
-    self.contents.font.color = normal_color
-    self.contents.draw_text(4, 0, 120-cx-2, 32, $game_party.gold.to_s, 2)
-    self.contents.font.color = system_color
-    self.contents.draw_text(124-cx, 0, cx, 32, $data_system.words.gold, 2)
+    Vacas_UI.text(contents,4,0,contents.width-8,
+      $game_party.gold.to_s+' '+$data_system.words.gold,14,Vacas_UI::INK,2)
   end
 end

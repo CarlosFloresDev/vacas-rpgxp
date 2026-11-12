@@ -13,7 +13,7 @@ class Window_ShopCommand < Window_Selectable
     self.contents = Bitmap.new(width - 32, height - 32)
     @item_max = 3
     @column_max = 3
-    @commands = ["Buy", "Sell", "Exit"]
+    @commands = ["Comprar", "Vender", "Salir"]
     refresh
     self.index = 0
   end

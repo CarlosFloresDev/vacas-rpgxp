@@ -84,12 +84,12 @@ class Scene_Debug
       $game_system.se_play($data_system.decision_se)
       # Display help
       if @left_window.mode == 0
-        text1 = "C (Enter) : ON / OFF"
+        text1 = "Z (Intro): activar / desactivar"
         @help_window.contents.draw_text(4, 0, 406, 32, text1)
       else
-        text1 = "Left : -1   Right : +1"
-        text2 = "L (Pageup) : -10"
-        text3 = "R (Pagedown) : +10"
+        text1 = "Izq: -1   Der: +1"
+        text2 = "Q (Re P?g): -10"
+        text3 = "W (Av P?g): +10"
         @help_window.contents.draw_text(4, 0, 406, 32, text1)
         @help_window.contents.draw_text(4, 32, 406, 32, text2)
         @help_window.contents.draw_text(4, 64, 406, 32, text3)

@@ -57,7 +57,7 @@ class Window_NameInput < Window_Base
       y = i / 5 % 9 * hd_row_height
       self.contents.draw_text(x, y, 32, hd_row_height, CHARACTER_TABLE[i], 1)
     end
-    self.contents.draw_text(428, 9 * hd_row_height, 48, hd_row_height, "OK", 1)
+    self.contents.draw_text(428, 9 * hd_row_height, 48, hd_row_height, "Listo", 1)
   end
   #--------------------------------------------------------------------------
   # * Cursor Rectangle Update

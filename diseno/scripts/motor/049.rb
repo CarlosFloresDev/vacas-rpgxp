@@ -48,7 +48,7 @@ class Window_ShopNumber < Window_Base
     cx = contents.text_size(domination).width
     total_price = @price * @number
     self.contents.font.color = normal_color
-    self.contents.draw_text(4, 160, 328-cx-2, 32, total_price.to_s, 2)
+    self.contents.draw_text(4, 160, 328-cx-10, 32, total_price.to_s, 2)
     self.contents.font.color = system_color
     self.contents.draw_text(332-cx, 160, cx, 32, domination, 2)
   end

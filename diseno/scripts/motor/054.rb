@@ -75,11 +75,11 @@ class Window_Message < Window_Selectable
     end
     # If waiting for a message to be displayed
     if $game_temp.message_text != nil
-      text = $game_temp.message_text
+      text = $game_temp.message_text.clone
       # Control text processing
       begin
         last_text = text.clone
-        text.gsub!(/\\[Vv]\[([0-9]+)\]/) { $game_variables[$1.to_i] }
+        text.gsub!(/\\[Vv]\[([0-9]+)\]/) { $game_variables[$1.to_i].to_s }
       end until text == last_text
       text.gsub!(/\\[Nn]\[([0-9]+)\]/) do
         $game_actors[$1.to_i] != nil ? $game_actors[$1.to_i].name : ""
@@ -92,7 +92,7 @@ class Window_Message < Window_Selectable
       # Get 1 text character in c (loop until unable to get text)
       while ((c = text.slice!(/./m)) != nil)
         # If \\
-        if c == "\000"
+        if c == "\000" or c == "\003"
           # Return to original text
           c = "\\"
         end

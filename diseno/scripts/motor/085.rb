@@ -36,6 +36,7 @@ class Scene_Shop
     # Make status window
     @status_window = Window_ShopStatus.new
     @status_window.visible = false
+    ui_shop_preview
     # Execute transition
     Graphics.transition
     # Main loop
@@ -101,6 +102,7 @@ class Scene_Shop
   # * Frame Update (when command window is active)
   #--------------------------------------------------------------------------
   def update_command
+    ui_shop_preview
     # If B button was pressed
     if Input.trigger?(Input::B)
       # Play cancel SE
@@ -139,6 +141,30 @@ class Scene_Shop
         $scene = Scene_Map.new
       end
       return
+    end
+  end
+  # Mostrar mercancia real mientras se elige Comprar / Vender / Salir.
+  def ui_shop_preview
+    @dummy_window.visible=false
+    buying=@command_window.index==0
+    selling=@command_window.index==1
+    @buy_window.visible=buying
+    @sell_window.visible=selling
+    @status_window.visible=!selling
+    @status_window.item=buying ? @buy_window.item : nil
+    hint=['Comprar: Z para ver los objetos. Esc: volver.',
+      'Vender: Z para elegir un objeto. Esc: volver.',
+      'Salir de la tienda: Z para confirmar.'][@command_window.index]
+    @help_window.set_text(hint)
+    unless buying || selling
+      @dummy_window.visible=true
+      if @dummy_window.contents==nil
+        @dummy_window.contents=Bitmap.new(@dummy_window.width-32,@dummy_window.height-32)
+      end
+      b=@dummy_window.contents; b.clear
+      Vacas_UI.text(b,8,16,b.width-16,'TIENDA',23,Vacas_UI::MINT)
+      Vacas_UI.text(b,8,56,b.width-16,'Puedes volver cuando lo necesites.',16)
+      @status_window.visible=false
     end
   end
   #--------------------------------------------------------------------------

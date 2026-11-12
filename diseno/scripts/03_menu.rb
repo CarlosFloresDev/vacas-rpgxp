@@ -110,11 +110,7 @@ class Window_Lugar < Window_Base
     super(200, Vacas_HD.y(352), 420, 64)
     self.contents = Bitmap.new(width - 32, height - 32)
     self.contents.font.color = normal_color
-    nombre = ""
-    infos = load_data("Data/MapInfos.rxdata")
-    if infos[$game_map.map_id] != nil
-      nombre = infos[$game_map.map_id].name
-    end
+    nombre = Vacas_UI.place_name
     self.contents.draw_text(4, 0, 380, 32, nombre)
   end
 end

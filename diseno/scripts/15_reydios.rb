@@ -315,7 +315,7 @@ class Scene_CreditosJuego
     @background.update
     @offset += Input.press?(Input::C) ? 16 : 2
     b = @text.bitmap; b.clear
-    b.font.name = 'Courier New'; b.font.size = 16; b.font.color = Vacas_UI::INK
+    b.font.name = 'Arial'; b.font.size = 16; b.font.color = Vacas_UI::INK
     first = [@offset / 26,0].max
     (first..[first+17,@lines.size-1].min).each do |i|
       b.draw_text(8,i*26-@offset,584,26,@lines[i],1)

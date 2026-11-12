@@ -34,9 +34,9 @@ class Scene_Title
     @sprite = Sprite.new
     @sprite.bitmap = RPG::Cache.title($data_system.title_name)
     # Make command window
-    s1 = "New Game"
-    s2 = "Continue"
-    s3 = "Shutdown"
+    s1 = "Nueva partida"
+    s2 = "Continuar"
+    s3 = "Cerrar juego"
     @command_window = Window_Command.new(192, [s1, s2, s3])
     @command_window.back_opacity = 160
     @command_window.x = (Vacas_HD.w - @command_window.width) / 2
@@ -50,8 +50,8 @@ class Scene_Title
         @continue_enabled = true
       end
     end
-    # If continue is enabled, move cursor to "Continue"
-    # If disabled, display "Continue" text in gray
+    # If continue is enabled, move cursor to "Continuar"
+    # If disabled, display "Continuar" text in gray
     if @continue_enabled
       @command_window.index = 1
     else

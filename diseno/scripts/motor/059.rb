@@ -31,7 +31,7 @@ class Window_DebugRight < Window_Selectable
     for i in 0..9
       if @mode == 0
         name = $data_system.switches[@top_id+i]
-        status = $game_switches[@top_id+i] ? "[ON]" : "[OFF]"
+        status = $game_switches[@top_id+i] ? "[S?]" : "[NO]"
       else
         name = $data_system.variables[@top_id+i]
         status = $game_variables[@top_id+i].to_s

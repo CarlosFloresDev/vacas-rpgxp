@@ -20,9 +20,9 @@ class Scene_Menu
     s1 = $data_system.words.item
     s2 = $data_system.words.skill
     s3 = $data_system.words.equip
-    s4 = "Status"
-    s5 = "Save"
-    s6 = "End Game"
+    s4 = "Estado"
+    s5 = "Guardar"
+    s6 = "Salir"
     @command_window = Window_Command.new(160, [s1, s2, s3, s4, s5, s6])
     @command_window.index = @menu_index
     # If number of party members is 0

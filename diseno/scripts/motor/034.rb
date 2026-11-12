@@ -19,7 +19,7 @@ class Window_PlayTime < Window_Base
   def refresh
     self.contents.clear
     self.contents.font.color = system_color
-    self.contents.draw_text(4, 0, 120, 32, "Play Time")
+    self.contents.draw_text(4, 0, 120, 32, "Tiempo")
     @total_sec = Graphics.frame_count / Graphics.frame_rate
     hour = @total_sec / 60 / 60
     min = @total_sec / 60 % 60

@@ -19,7 +19,7 @@ class Window_Steps < Window_Base
   def refresh
     self.contents.clear
     self.contents.font.color = system_color
-    self.contents.draw_text(4, 0, 120, 32, "Step Count")
+    self.contents.draw_text(4, 0, 120, 32, "Pasos")
     self.contents.font.color = normal_color
     self.contents.draw_text(4, 32, 120, 32, $game_party.steps.to_s, 2)
   end

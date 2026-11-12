@@ -15,7 +15,11 @@
     "vsync": true,
     "integerScalingActive": true,
     "integerScalingLastMile": false,
-    "anyAltToggleFS": true
+    "anyAltToggleFS": true,
+    "fontSub": [
+      "Arial>Liberation Sans",
+      "Courier New>Liberation Mono"
+    ]
   },
   "sintaxis": [
     {
@@ -243,22 +247,22 @@
     "fuentes": {
       "codigo": 0,
       "salida": "{\"scripts\":55,\"errors\":[]}\n",
-      "stderr": "Test-Path : Acceso denegado\nEn C:\\Users\\car_g\\scoop\\apps\\scoop\\current\\lib\\core.ps1: 83 Carácter: 10\n+     if(!(Test-Path $file)) {\n+          ~~~~~~~~~~~~~~~\n    + CategoryInfo          : PermissionDenied: (C:\\Users\\car_g\\.config\\scoop\\config.json:String) [Test-Path], Unautho \n   rizedAccessException\n    + FullyQualifiedErrorId : ItemExistsUnauthorizedAccessError,Microsoft.PowerShell.Commands.TestPathCommand\n \n"
+      "stderr": ""
     },
     "marshal": {
       "codigo": 0,
-      "salida": "{\n  \"files\": 430,\n  \"errors\": [\n\n  ]\n}\n",
-      "stderr": "Test-Path : Acceso denegado\nEn C:\\Users\\car_g\\scoop\\apps\\scoop\\current\\lib\\core.ps1: 83 Carácter: 10\n+     if(!(Test-Path $file)) {\n+          ~~~~~~~~~~~~~~~\n    + CategoryInfo          : PermissionDenied: (C:\\Users\\car_g\\.config\\scoop\\config.json:String) [Test-Path], Unautho \n   rizedAccessException\n    + FullyQualifiedErrorId : ItemExistsUnauthorizedAccessError,Microsoft.PowerShell.Commands.TestPathCommand\n \n"
+      "salida": "{\n  \"files\": 432,\n  \"errors\": [\n\n  ]\n}\n",
+      "stderr": ""
     },
     "simulacion_360": {
       "codigo": 0,
       "salida": "OK resolucion\nOK titulo\nOK partida\nOK jarabe_desde_entrada_y_entrega\nOK guardado_existente\nOK pausa\nOK ajustes\nOK estado\nOK notas\nOK creditos\nOK creditos_juego\nOK objetos\nOK cargar\nOK gameover\nOK aviso\nOK feka\nOK cine\nOK escenas_estandar\nOK mapa_dialogo\nOK minijuegos\nOK combate\nOK camara_todos_mapas\nOK camara_mapa_pequeno_y_limites_fraccionarios\nOK ventanas_todas_clases\nFIN SUITE\n",
-      "stderr": "Test-Path : Acceso denegado\nEn C:\\Users\\car_g\\scoop\\apps\\scoop\\current\\lib\\core.ps1: 83 Carácter: 10\n+     if(!(Test-Path $file)) {\n+          ~~~~~~~~~~~~~~~\n    + CategoryInfo          : PermissionDenied: (C:\\Users\\car_g\\.config\\scoop\\config.json:String) [Test-Path], Unautho \n   rizedAccessException\n    + FullyQualifiedErrorId : ItemExistsUnauthorizedAccessError,Microsoft.PowerShell.Commands.TestPathCommand\n \n"
+      "stderr": ""
     },
     "simulacion_480": {
       "codigo": 0,
       "salida": "OK resolucion\nOK titulo\nOK partida\nOK jarabe_desde_entrada_y_entrega\nOK guardado_existente\nOK pausa\nOK ajustes\nOK estado\nOK notas\nOK creditos\nOK creditos_juego\nOK objetos\nOK cargar\nOK gameover\nOK aviso\nOK feka\nOK cine\nOK escenas_estandar\nOK mapa_dialogo\nOK minijuegos\nOK combate\nOK camara_todos_mapas\nOK camara_mapa_pequeno_y_limites_fraccionarios\nOK ventanas_todas_clases\nFIN SUITE\n",
-      "stderr": "Test-Path : Acceso denegado\nEn C:\\Users\\car_g\\scoop\\apps\\scoop\\current\\lib\\core.ps1: 83 Carácter: 10\n+     if(!(Test-Path $file)) {\n+          ~~~~~~~~~~~~~~~\n    + CategoryInfo          : PermissionDenied: (C:\\Users\\car_g\\.config\\scoop\\config.json:String) [Test-Path], Unautho \n   rizedAccessException\n    + FullyQualifiedErrorId : ItemExistsUnauthorizedAccessError,Microsoft.PowerShell.Commands.TestPathCommand\n \n"
+      "stderr": ""
     }
   },
   "distribucion": {

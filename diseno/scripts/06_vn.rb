@@ -15,6 +15,32 @@
 # C revela el texto; una segunda pulsacion avanza. No consume decisiones.
 #==============================================================================
 $KCODE = 'u'
+# Una sola normalizacion para dialogos normales y VN, antes de medir/paginar.
+module Vacas_MessageText
+  def self.normalize(value)
+    text=value.to_s.clone
+    text.gsub!(/\\\\/) { "\003" } # barra literal, protegida de los controles
+    16.times do
+      previous=text.clone
+      text.gsub!(/\\V\[(\d+)\]/i) { $game_variables[$1.to_i].to_s }
+      break if previous==text
+    end
+    text.gsub!(/\\V\[[^\]]*\]/i, '') # tambien corta referencias ciclicas
+    text.gsub!(/\\N\[(\d+)\]/i) do
+      actor=$game_actors[$1.to_i]
+      actor ? actor.name : ''
+    end
+    # XP no implementa las pausas/velocidades de VX. Se descartan sin tinta.
+    text.gsub!(/\\[.\|!><\^\$\{\}]/, '')
+    text.gsub!(/\\(?:P\[[^\]]*\]|NOMBRE\[[^\]]*\]|D\[[01]\]|C\[\d+\]|[GLR]|[A-Za-z]+(?:\[[^\]]*\])?)/i) do |code|
+      code =~ /\A\\(?:P\[[^\]]*\]|NOMBRE\[[^\]]*\]|D\[[01]\]|C\[\d+\]|[GLR])\z/i ? code : ''
+    end
+    text
+  end
+  def self.visible(value)
+    value.gsub(/\\C\[\d+\]|\\G/i, '').gsub(/\003/) { '\\' }
+  end
+end
 class Window_Message
   alias vacas_vn_initialize initialize
   def initialize
@@ -66,17 +92,18 @@ class Window_Message
     text.gsub!(/\\P\[([a-z0-9_]+)\]/i) { portrait = $1; '' }
     text.gsub!(/\\NOMBRE\[([^\]]+)\]/i) { name = $1; '' }
     text.gsub!(/\\D\[([01])\]/i) { dim = ($1 == '1'); '' }
-    text.gsub!(/\\R\b/i) { right = true; '' }
-    text.gsub!(/\\L\b/i) { right = false; '' }
+    text.gsub!(/\\R/i) { right = true; '' }
+    text.gsub!(/\\L/i) { right = false; '' }
     $game_temp.message_text = text.clone
     vacas_vn_refresh
     # Bustos por encima del mapa, debajo de la caja. Cache posee su bitmap.
     if portrait != nil
       @vn_bust.bitmap = RPG::Cache.picture('retrato_' + portrait)
+      # En combate el busto termina antes del estado inferior.
+      bottom=$game_temp.in_battle ? Vacas_HD.bottom(154) : Vacas_HD.h
+      @vn_bust.zoom_x = @vn_bust.zoom_y = [1.0, (bottom-24).to_f/@vn_bust.bitmap.height].min
       @vn_bust.x = right ? Vacas_HD.w - (@vn_bust.bitmap.width * @vn_bust.zoom_x).to_i : 0
-      @vn_bust.zoom_x = @vn_bust.zoom_y = [1.0, (Vacas_HD.h-24).to_f/@vn_bust.bitmap.height].min
-      @vn_bust.x = right ? Vacas_HD.w - (@vn_bust.bitmap.width * @vn_bust.zoom_x).to_i : 0
-      @vn_bust.y = Vacas_HD.h - (@vn_bust.bitmap.height * @vn_bust.zoom_y).to_i
+      @vn_bust.y = bottom - (@vn_bust.bitmap.height * @vn_bust.zoom_y).to_i
       @vn_bust.visible = true
     end
     @vn_dim.visible = dim
@@ -98,7 +125,7 @@ class Window_Message
     return if $game_temp.num_input_variable_id > 0
     @vn_choice_active = self.active
     self.active = false
-    plain = text.clone
+    plain = Vacas_MessageText.visible(text)
     begin
       last = plain.clone
       plain.gsub!(/\\[Vv]\[([0-9]+)\]/) { $game_variables[$1.to_i].to_s }
@@ -170,9 +197,9 @@ class Window_Message
   alias ui_pages_refresh refresh
   def refresh
     unless @ui_advancing
-      text=($game_temp.message_text || '').clone
+      text=Vacas_MessageText.normalize($game_temp.message_text)
       tags=''
-      text.gsub!(/\\(?:P|NOMBRE|D)\[[^\]]*\]|\\[LR]\b/i) { tags+=$&; '' }
+      text.gsub!(/\\(?:P|NOMBRE|D)\[[^\]]*\]|\\[LR]/i) { tags+=$&; '' }
       text.gsub!(/\\[Vv]\[(\d+)\]/) { $game_variables[$1.to_i].to_s }
       text.gsub!(/\\[Nn]\[(\d+)\]/) { $game_actors[$1.to_i].name }
       @ui_choice_max=$game_temp.choice_max
@@ -194,7 +221,13 @@ class Window_Message
         final.concat(wrapped)
       end
       pages.push(final) unless final.empty? && reserved==0 && !pages.empty?
-      @ui_pages=pages.collect { |p| tags+p.join("\n")+"\n" }
+      color=''
+      @ui_pages=pages.collect do |p|
+        body=p.join("\n")+"\n"
+        page=tags+color+body
+        body.scan(/\\C\[\d+\]/i) { |code| color=code }
+        page
+      end
       @ui_last_start=lines.size
     end
     $game_temp.message_text=@ui_pages.shift

@@ -10,9 +10,9 @@ class Scene_End
   #--------------------------------------------------------------------------
   def main
     # Make command window
-    s1 = "To Title"
-    s2 = "Shutdown"
-    s3 = "Cancel"
+    s1 = "Volver al t?tulo"
+    s2 = "Cerrar juego"
+    s3 = "Cancelar"
     @command_window = Window_Command.new(192, [s1, s2, s3])
     @command_window.x = (Vacas_HD.w - @command_window.width) / 2
     @command_window.y = Vacas_HD.y(240) - @command_window.height / 2

@@ -24,11 +24,12 @@ class Window_Help < Window_Base
       self.contents.clear
       self.contents.font.color = normal_color
       self.contents.font.size=14
-      @ui_help_lines=Vacas_UI.wrap(contents,text,self.width-40)
+      # Reservar una columna para el contador, sin tapar la ultima palabra.
+      @ui_help_lines=Vacas_UI.wrap(contents,text,self.width-104)
       @ui_help_page=0; @ui_help_ticks=0
-      draw_help_page
       @text = text
       @align = align
+      draw_help_page
       @actor = nil
     end
     self.visible = true
@@ -37,7 +38,12 @@ class Window_Help < Window_Base
     contents.clear
     count=[contents.height/24,1].max
     @ui_help_lines[@ui_help_page*count,count].to_a.each_with_index do |line,i|
-      Vacas_UI.text(contents,4,i*24,self.width-40,line,14)
+      Vacas_UI.text(contents,4,i*24,self.width-104,line,14,Vacas_UI::INK,@align || 0)
+    end
+    pages=[(@ui_help_lines.size+count-1)/count,1].max
+    if pages>1
+      Vacas_UI.text(contents,contents.width-60,0,56,
+        (@ui_help_page+1).to_s+'/'+pages.to_s,14,Vacas_UI::MINT,2)
     end
   end
   def update

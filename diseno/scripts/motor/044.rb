@@ -38,13 +38,13 @@ class Window_Status < Window_Base
     draw_actor_parameter(@actor, 96, status_y(368), 5)
     draw_actor_parameter(@actor, 96, status_y(400), 6)
     self.contents.font.color = system_color
-    self.contents.draw_text(Vacas_HD.w / 2, status_y(48), 80, 32, "EXP")
-    self.contents.draw_text(Vacas_HD.w / 2, status_y(80), 80, 32, "NEXT")
+    self.contents.draw_text(Vacas_HD.w / 2, status_y(48), 80, 32, "Exp.")
+    self.contents.draw_text(Vacas_HD.w / 2, status_y(80), 80, 32, "Siguiente")
     self.contents.font.color = normal_color
     self.contents.draw_text(Vacas_HD.w / 2 + 80, status_y(48), 84, 32, @actor.exp_s, 2)
     self.contents.draw_text(Vacas_HD.w / 2 + 80, status_y(80), 84, 32, @actor.next_rest_exp_s, 2)
     self.contents.font.color = system_color
-    self.contents.draw_text(Vacas_HD.w / 2, status_y(160), 96, 32, "equipment")
+    self.contents.draw_text(Vacas_HD.w / 2, status_y(160), 96, 32, "Equipo")
     draw_item_name($data_weapons[@actor.weapon_id], Vacas_HD.w / 2 + 16, status_y(208))
     draw_item_name($data_armors[@actor.armor1_id], Vacas_HD.w / 2 + 16, status_y(256))
     draw_item_name($data_armors[@actor.armor2_id], Vacas_HD.w / 2 + 16, status_y(304))
