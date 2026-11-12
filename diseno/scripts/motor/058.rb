@@ -9,7 +9,7 @@ class Window_DebugLeft < Window_Selectable
   # * Object Initialization
   #--------------------------------------------------------------------------
   def initialize
-    super(Vacas_HD.x(0), Vacas_HD.y(0), Vacas_HD.x(192), Vacas_HD.y(480))
+    super(0, 0, 192, 32+((Vacas_HD.h-32)/32)*32)
     self.index = 0
     refresh
   end

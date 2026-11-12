@@ -1,5 +1,130 @@
 # Interfaz propia de Vacas
 
+## Revisión de legibilidad HD (11 de noviembre de 2026)
+
+El informe anterior de geometría **no acreditaba legibilidad en mkxp-z**. En
+Continuar, las cuatro tarjetas de 70 px dejaban solamente 38 px después del
+marco RGSS de 32 px; la segunda línea terminaba en y=56. Se perdían 18 px aunque
+la ventana completa estuviera dentro de 640×360. También había interlineados
+comprimidos, nombres largos, filas parciales y solapes en tienda y combate.
+
+Escala común solicitada a Arial, para ambos lienzos:
+
+| Uso | Tamaño de fuente | Alto de fila |
+|---|---:|---:|
+| Cuerpo, comandos y VN | 16 | 24 en paneles; 32 en listas y VN |
+| Títulos de panel | 20 | 28 |
+| Ayudas, fechas y cifras secundarias | 14 | 24 |
+| Nombre del interlocutor | 18 | 32 |
+
+El logotipo conserva su tamaño propio. `Vacas_UI.text` mide `Ágj` con
+`Bitmap#text_size` y limita la fuente a la altura disponible, incluido el pie de
+ventanas pequeñas. No se multiplica el interlineado por 360/480. Los valores son
+tamaños solicitados a Font, **no alturas de tinta certificadas**. No hay una
+fuente de interfaz distribuida en `Fonts/`; Arial depende del sistema y del
+fallback del motor. El capturador registra la disponibilidad, el nombre
+solicitado y las medidas efectivas cuando puede arrancar.
+
+Reglas de maquetación:
+
+- Restar siempre los 32 px del marco antes de calcular las filas visibles.
+- Guardar y Continuar muestran dos tarjetas de 108 px por página. Arriba/Abajo
+  recorre las cuatro ranuras originales; la cabecera indica la posición. No se
+  cambia el formato ni el nombre de ningún guardado.
+- Las listas muestran filas completas y desplazan el contenido. El cursor usa
+  las mismas coordenadas que la fila; en guardados encuadra la tarjeta completa.
+- Los nombres que exceden su columna terminan en `…`, respetando UTF-8.
+  Descripciones y paneles se ajustan por palabras; una palabra indivisible se
+  divide por caracteres. Los paneles largos pasan de página cada 240 frames e
+  indican `página/total`; las ayudas pasan cada 180 frames.
+- La VN mide el avance de cada glifo, conserva cuatro filas por página y avanza
+  con Z/Intro. Revelar el texto y avanzar son acciones distintas. Las decisiones
+  quedan en la última página, conservan su texto completo, se ajustan a varias
+  filas y desplazan el contenido al seleccionar. El callback se ejecuta al
+  confirmar, nunca al revelar ni al cambiar de página. La entrada de números
+  reserva una fila final.
+- La tienda ancla dinero y comandos debajo de la ayuda. El listado de enemigos
+  termina antes del estado inferior y se oculta durante mensajes y ayudas.
+- Los créditos conservan su desplazamiento: la entrada/salida parcial de líneas
+  por el viewport es un recorte animado intencional, no pérdida del texto.
+
+### Capturar y auditar dentro del motor
+
+Desde la raíz, con el juego cerrado:
+
+```powershell
+node diseno/herramientas/comun/instalar_scripts.mjs --aplicar
+node diseno/herramientas/comun/capturar_ui.mjs
+```
+
+El lanzador usa `customScript`, un único Vacas.exe, `SDL_AUDIODRIVER=dummy` y
+`ALSOFT_DRIVERS=null`. Restaura los bytes de `mkxp.json` en `finally`, incluso
+tras timeout o interrupción normal; no modifica Scripts durante la captura.
+Comprueba hashes de Game.exe, Vacas.cfg, Save1.rxdata y los datos del juego.
+Un bloqueo exclusivo evita ejecutar dos capturadores. Si se mata Node a la
+fuerza o se corta la energía, el original queda en
+`diseno/verificaciones/ui_captura.lock`: restaurarlo como mkxp.json antes de
+eliminar ese archivo y repetir.
+
+`capturar_ui.rb` carga las secciones instaladas salvo Main y crea datos largos
+en memoria. Comprueba si existen `Graphics.snap_to_bitmap` y `Bitmap#to_file`,
+con `Graphics.screenshot` como alternativa. Cubre título, apertura, cargar con
+1 y 4 ranuras (4 son todas), ambas páginas, guardar, pausa y submenús, mensajes,
+retratos a ambos lados, decisiones de 2–4 opciones, números, tienda, combate,
+HUD, aviso, intro, tarjeta de acto, gameover, créditos, final y todas las clases
+Window del juego. Registra rectángulos, medidas de texto, alturas disponibles,
+filas, cursores y solapes para revisión en
+[auditoria_ui.json](../../verificaciones/auditoria_ui.json).
+
+Al completar la ejecución nativa genera `ui_360_*.png` y compone
+`diseno/capturas/interfaz/ui_360_lamina.png` automáticamente con `lamina_ui.py`.
+La lámina usa exclusivamente las capturas enumeradas en el informe de esa
+ejecución. Los solapes de ventanas requieren revisión visual: la entrada de
+números es una ventana hija superpuesta intencionalmente al mensaje.
+
+Para repetir el mismo arnés a 640×480 en mkxp-z (no sustituye probar Game.exe):
+
+```powershell
+$env:VACAS_UI_ALTO='480'
+node diseno/herramientas/comun/capturar_ui.mjs
+Remove-Item Env:VACAS_UI_ALTO
+```
+
+### Evidencia y límite de esta revisión
+
+Se intentó iniciar el motor con audio nulo: inicializó OpenAL y ANGLE/NVIDIA,
+pero falló **antes de Ruby** con `Error initializing PhysFS: unknown error`.
+Repetir con preferencias aisladas produjo el mismo resultado. Se terminaron
+solo los procesos propios y se restauró mkxp.json. Por eso **no hay capturas
+nativas nuevas ni lámina 360**, ni se afirma haber certificado la fuente real.
+El comando exacto pendiente en una sesión Windows accesible es:
+`node diseno/herramientas/comun/capturar_ui.mjs`.
+
+La alternativa `auditar_ui_simulada.rb` ejecuta las mismas vistas con dobles,
+sin fabricar PNG. El informe distingue `motor_real: false` y contiene medidas
+estimadas. Se corrigió también el doble Font para respetar `Font.default_size`
+y el doble Window para limitar la opacidad a 255. Las pruebas de regresión
+comprueban conservación de caracteres, paginación completa, cursor y selección
+de decisiones largas en ambos lienzos. **Pasar estos controles no reemplaza la
+inspección de capturas nativas solicitada para el concurso.**
+
+Resultado del cierre: **93 vistas a 640×360 y 92 a 640×480**, sin errores de
+geometría detectados por los dobles, incluidas últimas filas y cada elección
+larga. Verificadores general, HD y jugabilidad: **0 errores**. Jugabilidad
+conserva sus 2.349 advertencias heurísticas previas. Mapas, Save1.rxdata,
+Game.exe y Vacas.cfg mantienen sus hashes; mkxp.json quedó restaurado.
+
+```powershell
+& 'D:/DevTools/ruby/rubyinstaller-3.3.6-1-x64/bin/ruby.exe' diseno/herramientas/comun/auditar_ui_simulada.rb
+& 'D:/DevTools/ruby/rubyinstaller-3.3.6-1-x64/bin/ruby.exe' diseno/herramientas/comun/auditar_ui_simulada.rb clasico
+python diseno/herramientas/comun/verificar_proyecto.py --informe
+python diseno/herramientas/comun/verificar_hd.py
+node diseno/herramientas/comun/auditar_jugabilidad.mjs
+```
+
+Los apartados siguientes conservan el historial de la interfaz 640×480; sus
+capturas antiguas no son evidencia de esta revisión HD.
+
 Implementacion del 9 de noviembre de 2026, RGSS1 / Ruby 1.8, cliente 640×480.
 Fuente principal: `scripts/12_interfaz.rb`, seccion `Vacas_Interfaz` despues de
 `Vacas_BajoCiudad` y antes de Main. `06_vn.rb` consulta la velocidad elegida.

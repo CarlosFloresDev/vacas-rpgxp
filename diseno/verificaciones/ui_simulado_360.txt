@@ -1,0 +1,166 @@
+INICIO titulo
+MEDICION SIMULADA titulo
+INICIO cargar_1_ranuras_pagina_1
+MEDICION SIMULADA cargar_1_ranuras_pagina_1
+INICIO cargar_1_ranuras_pagina_2
+MEDICION SIMULADA cargar_1_ranuras_pagina_2
+INICIO cargar_4_ranuras_pagina_1
+MEDICION SIMULADA cargar_4_ranuras_pagina_1
+INICIO cargar_4_ranuras_pagina_2
+MEDICION SIMULADA cargar_4_ranuras_pagina_2
+INICIO guardar
+MEDICION SIMULADA guardar
+INICIO pausa
+MEDICION SIMULADA pausa
+MEDICION SIMULADA pausa_ultima_fila
+INICIO objetos
+MEDICION SIMULADA objetos
+MEDICION SIMULADA objetos_ultima_fila
+INICIO notas
+MEDICION SIMULADA notas
+MEDICION SIMULADA notas_ultima_fila
+INICIO estado
+MEDICION SIMULADA estado
+INICIO ajustes
+MEDICION SIMULADA ajustes
+MEDICION SIMULADA ajustes_ultima_fila
+INICIO salir
+MEDICION SIMULADA salir
+INICIO aviso
+MEDICION SIMULADA aviso
+INICIO intro
+MEDICION SIMULADA intro
+INICIO nueva_partida
+MEDICION SIMULADA nueva_partida
+INICIO tarjeta_acto
+MEDICION SIMULADA tarjeta_acto_cinematica
+INICIO gameover
+MEDICION SIMULADA gameover
+INICIO creditos
+MEDICION SIMULADA creditos
+INICIO creditos_juego
+MEDICION SIMULADA creditos_juego
+INICIO fin
+MEDICION SIMULADA fin_cinematica
+MEDICION SIMULADA fin
+INICIO tarjeta_acto_3
+MEDICION SIMULADA tarjeta_acto_3
+INICIO tarjeta_acto_4
+MEDICION SIMULADA tarjeta_acto_4
+INICIO tarjeta_acto_5
+MEDICION SIMULADA tarjeta_acto_5
+INICIO tarjeta_acto_6
+MEDICION SIMULADA tarjeta_acto_6
+INICIO tienda
+MEDICION SIMULADA tienda
+MEDICION SIMULADA tienda_ultima_fila
+INICIO hud
+MEDICION SIMULADA hud_cordura_bateria
+INICIO mensaje
+MEDICION SIMULADA mensaje
+INICIO mensaje_nombre
+MEDICION SIMULADA mensaje_nombre
+INICIO vn_izquierda
+MEDICION SIMULADA vn_izquierda
+MEDICION SIMULADA vn_izquierda_pagina_2
+MEDICION SIMULADA vn_izquierda_pagina_3
+MEDICION SIMULADA vn_izquierda_pagina_4
+INICIO vn_derecha
+MEDICION SIMULADA vn_derecha
+MEDICION SIMULADA vn_derecha_pagina_2
+MEDICION SIMULADA vn_derecha_pagina_3
+MEDICION SIMULADA vn_derecha_pagina_4
+INICIO elecciones_2
+MEDICION SIMULADA elecciones_2
+MEDICION SIMULADA elecciones_2_opcion_2
+INICIO elecciones_3
+MEDICION SIMULADA elecciones_3
+MEDICION SIMULADA elecciones_3_opcion_2
+MEDICION SIMULADA elecciones_3_opcion_3
+INICIO elecciones_4
+MEDICION SIMULADA elecciones_4
+MEDICION SIMULADA elecciones_4_opcion_2
+MEDICION SIMULADA elecciones_4_opcion_3
+MEDICION SIMULADA elecciones_4_opcion_4
+INICIO numeros
+MEDICION SIMULADA numeros
+INICIO batalla
+MEDICION SIMULADA batalla
+INICIO batalla_ventanas
+MEDICION SIMULADA batalla_comandos_objetivos_estado
+MEDICION SIMULADA batalla_ayuda
+MEDICION SIMULADA batalla_resultado
+INICIO ventana_Window_Base
+MEDICION SIMULADA ventana_Window_Base
+INICIO ventana_Window_BattleResult
+MEDICION SIMULADA ventana_Window_BattleResult
+INICIO ventana_Window_BattleStatus
+MEDICION SIMULADA ventana_Window_BattleStatus
+INICIO ventana_Window_Command
+MEDICION SIMULADA ventana_Window_Command
+INICIO ventana_Window_DebugLeft
+MEDICION SIMULADA ventana_Window_DebugLeft
+INICIO ventana_Window_DebugRight
+MEDICION SIMULADA ventana_Window_DebugRight
+INICIO ventana_Window_EquipItem
+MEDICION SIMULADA ventana_Window_EquipItem
+INICIO ventana_Window_EquipLeft
+MEDICION SIMULADA ventana_Window_EquipLeft
+INICIO ventana_Window_EquipRight
+MEDICION SIMULADA ventana_Window_EquipRight
+INICIO ventana_Window_Gold
+MEDICION SIMULADA ventana_Window_Gold
+INICIO ventana_Window_Help
+MEDICION SIMULADA ventana_Window_Help
+INICIO ventana_Window_InputNumber
+MEDICION SIMULADA ventana_Window_InputNumber
+INICIO ventana_Window_Item
+MEDICION SIMULADA ventana_Window_Item
+INICIO ventana_Window_Lugar
+MEDICION SIMULADA ventana_Window_Lugar
+INICIO ventana_Window_MenuStatus
+MEDICION SIMULADA ventana_Window_MenuStatus
+INICIO ventana_Window_Message
+MEDICION SIMULADA ventana_Window_Message
+INICIO ventana_Window_NameEdit
+MEDICION SIMULADA ventana_Window_NameEdit
+INICIO ventana_Window_NameInput
+MEDICION SIMULADA ventana_Window_NameInput
+INICIO ventana_Window_PartyCommand
+MEDICION SIMULADA ventana_Window_PartyCommand
+INICIO ventana_Window_PlayTime
+MEDICION SIMULADA ventana_Window_PlayTime
+INICIO ventana_Window_SaveFile
+MEDICION SIMULADA ventana_Window_SaveFile
+INICIO ventana_Window_Selectable
+MEDICION SIMULADA ventana_Window_Selectable
+INICIO ventana_Window_ShopBuy
+MEDICION SIMULADA ventana_Window_ShopBuy
+INICIO ventana_Window_ShopCommand
+MEDICION SIMULADA ventana_Window_ShopCommand
+INICIO ventana_Window_ShopNumber
+MEDICION SIMULADA ventana_Window_ShopNumber
+INICIO ventana_Window_ShopSell
+MEDICION SIMULADA ventana_Window_ShopSell
+INICIO ventana_Window_ShopStatus
+MEDICION SIMULADA ventana_Window_ShopStatus
+INICIO ventana_Window_Skill
+MEDICION SIMULADA ventana_Window_Skill
+INICIO ventana_Window_SkillStatus
+MEDICION SIMULADA ventana_Window_SkillStatus
+INICIO ventana_Window_Status
+MEDICION SIMULADA ventana_Window_Status
+INICIO ventana_Window_Steps
+MEDICION SIMULADA ventana_Window_Steps
+INICIO ventana_Window_Tareas
+MEDICION SIMULADA ventana_Window_Tareas
+INICIO ventana_Window_Target
+MEDICION SIMULADA ventana_Window_Target
+INICIO ventana_Window_VacasBattleCommand
+MEDICION SIMULADA ventana_Window_VacasBattleCommand
+INICIO ventana_Window_VacasCommand
+MEDICION SIMULADA ventana_Window_VacasCommand
+INICIO ventana_Window_VacasEnemies
+MEDICION SIMULADA ventana_Window_VacasEnemies
+INICIO ventana_Window_VacasPanel
+MEDICION SIMULADA ventana_Window_VacasPanel

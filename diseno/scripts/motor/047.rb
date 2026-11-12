@@ -10,7 +10,7 @@ class Window_ShopBuy < Window_Selectable
   #     shop_goods : goods
   #--------------------------------------------------------------------------
   def initialize(shop_goods)
-    super(Vacas_HD.x(0), Vacas_HD.x(128), Vacas_HD.x(368), Vacas_HD.h - Vacas_HD.x(128))
+    super(0, 128, 368, 32+((Vacas_HD.h-160)/32)*32)
     @shop_goods = shop_goods
     refresh
     self.index = 0
@@ -81,7 +81,7 @@ class Window_ShopBuy < Window_Selectable
     bitmap = RPG::Cache.icon(item.icon_name)
     opacity = self.contents.font.color == normal_color ? 255 : 128
     self.contents.blt(x, y + 4, bitmap, Rect.new(0, 0, 24, 24), opacity)
-    self.contents.draw_text(x + 28, y, 212, 32, item.name, 0)
+    self.contents.draw_text(x + 28, y, 212, 32, Vacas_UI.fit(contents,item.name,212), 0)
     self.contents.draw_text(x + 240, y, 88, 32, item.price.to_s, 2)
   end
   #--------------------------------------------------------------------------

@@ -23,7 +23,11 @@ module Vacas
   def self.sprite_texto(lineas, y0, alto = 30, tam = 22, color = nil, native_y = false)
     s = Sprite.new
     s.bitmap = Bitmap.new(Vacas_HD.w, Vacas_HD.h)
-    s.bitmap.font.size = tam
+    s.bitmap.font.size = tam>=24 ? 20 : (tam>=18 ? 16 : 14)
+    fila=Vacas_HD.y(alto)
+    while s.bitmap.font.size>10 && s.bitmap.text_size('Ágj').height>fila-2
+      s.bitmap.font.size-=1
+    end
     c = color
     if c.nil?
       c = Color.new(210, 200, 180)
@@ -31,8 +35,8 @@ module Vacas
     s.bitmap.font.color = c
     y = native_y ? y0 : Vacas_HD.y(y0)
     for l in lineas
-      s.bitmap.draw_text(0, y, Vacas_HD.w, alto, l, 1)
-      y += Vacas_HD.y(alto)
+      s.bitmap.draw_text(0, y, Vacas_HD.w, fila, l, 1)
+      y += fila
     end
     return s
   end

@@ -48,6 +48,10 @@ class Window_NameInput < Window_Base
   def hd_row_height; (self.height - 32) / 10; end
   def refresh
     self.contents.clear
+    self.contents.font.size=14
+    while self.contents.font.size>10 && self.contents.text_size('Ágj').height>hd_row_height-2
+      self.contents.font.size-=1
+    end
     for i in 0...90
       x = 140 + i / 5 / 9 * 180 + i % 5 * 32
       y = i / 5 % 9 * hd_row_height

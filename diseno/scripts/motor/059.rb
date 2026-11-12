@@ -14,8 +14,8 @@ class Window_DebugRight < Window_Selectable
   # * Object Initialization
   #--------------------------------------------------------------------------
   def initialize
-    super(Vacas_HD.x(192), Vacas_HD.y(0), Vacas_HD.x(448), Vacas_HD.y(352))
-    self.contents = Bitmap.new(width - 32, height - 32)
+    super(192, 0, 448, 32+((Vacas_HD.y(352)-32)/32)*32)
+    self.contents = Bitmap.new(width - 32, 10*32)
     self.index = -1
     self.active = false
     @item_max = 10

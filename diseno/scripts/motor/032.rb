@@ -9,7 +9,7 @@ class Window_Help < Window_Base
   # * Object Initialization
   #--------------------------------------------------------------------------
   def initialize
-    super(Vacas_HD.x(0), Vacas_HD.y(0), Vacas_HD.w, 64)
+    super(0, 0, Vacas_HD.w, $scene.is_a?(Scene_Item) ? 96 : 64)
     self.contents = Bitmap.new(width - 32, height - 32)
   end
   #--------------------------------------------------------------------------
@@ -23,12 +23,32 @@ class Window_Help < Window_Base
       # Redraw text
       self.contents.clear
       self.contents.font.color = normal_color
-      self.contents.draw_text(4, 0, self.width - 40, 32, text, align)
+      self.contents.font.size=14
+      @ui_help_lines=Vacas_UI.wrap(contents,text,self.width-40)
+      @ui_help_page=0; @ui_help_ticks=0
+      draw_help_page
       @text = text
       @align = align
       @actor = nil
     end
     self.visible = true
+  end
+  def draw_help_page
+    contents.clear
+    count=[contents.height/24,1].max
+    @ui_help_lines[@ui_help_page*count,count].to_a.each_with_index do |line,i|
+      Vacas_UI.text(contents,4,i*24,self.width-40,line,14)
+    end
+  end
+  def update
+    super
+    return unless @ui_help_lines && @text
+    count=[contents.height/24,1].max
+    @ui_help_ticks+=1
+    if @ui_help_lines.size>count && @ui_help_ticks%180==0
+      @ui_help_page=(@ui_help_page+1)%((@ui_help_lines.size+count-1)/count)
+      draw_help_page
+    end
   end
   #--------------------------------------------------------------------------
   # * Set Actor

@@ -130,12 +130,12 @@ class Scene_VacasCine
     Vacas_Audio.play(row[7]) if row[7]
     b = @texto.bitmap; b.clear
     b.fill_rect(0,Vacas_HD.bottom(142),Vacas_HD.w,142,Color.new(0,0,0,235))
-    b.font.name = 'Arial'; b.font.size = 26
+    b.font.name = 'Arial'; b.font.size = 20
     b.font.color = Color.new(210,220,204)
     b.draw_text(24,Vacas_HD.bottom(130),Vacas_HD.w-48,36,row[2],1)
-    b.font.size = 19
+    b.font.size = 16
     b.draw_text(16,Vacas_HD.bottom(88),Vacas_HD.w-32,32,row[3],1)
-    b.font.size = 15; b.font.color = Color.new(160,164,152)
+    b.font.size = 14; b.font.color = Color.new(160,164,152)
     b.draw_text(16,Vacas_HD.bottom(35),Vacas_HD.w-32,24,'Mantén Z / Intro 1 s para saltar · Esc: menú',1)
     animar
   end

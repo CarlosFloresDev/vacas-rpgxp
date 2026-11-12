@@ -16,7 +16,7 @@ class Scene_Shop
     # Make gold window
     @gold_window = Window_Gold.new
     @gold_window.x = Vacas_HD.w-@gold_window.width
-    @gold_window.y = Vacas_HD.y(64)
+    @gold_window.y = 64
     # Make dummy window
     @dummy_window = Window_Base.new(0, Vacas_HD.x(128), Vacas_HD.w, Vacas_HD.h-Vacas_HD.x(128))
     # Make buy window

@@ -438,9 +438,47 @@ module Vacas_UI
   MINT=Color.new(142,187,153)
   RUST=Color.new(154,69,54)
   DARK=Color.new(12,17,17,240)
+  BODY=16
+  TITLE=20
+  HELP=14
+  # RGSS mide la fuente efectiva; nunca escalar el interlineado con la pantalla.
+  def self.fit(b,s,w)
+    s=s.to_s
+    return s if b.text_size(s).width<=w
+    chars=s.scan(/./m)
+    chars.pop while !chars.empty? && b.text_size(chars.join+'…').width>w
+    chars.join+'…'
+  end
+  def self.wrap(b,s,w,individual=false)
+    measure=Proc.new { |value| individual ? value.scan(/./m).inject(0) { |sum,ch| sum+b.text_size(ch).width } : b.text_size(value).width }
+    lines=[]; line=''
+    s.to_s.split("\n",-1).each do |paragraph|
+      paragraph.split(' ').each do |word|
+        candidate=line=='' ? word : line+' '+word
+        if measure.call(candidate)>w && line!=''
+          lines.push(line); line=''
+        end
+        word.scan(/./m).each do |ch|
+          if measure.call(line+ch)>w && line!=''
+            lines.push(line); line=''
+          end
+          line+=ch
+        end if line==''
+        line=candidate if line!='' && candidate!=word && measure.call(candidate)<=w
+      end
+      lines.push(line); line=''
+    end
+    lines
+  end
   def self.text(b,x,y,w,s,size=20,color=INK,align=0)
+    size = size>=40 ? size : (size>=23 ? TITLE : (size>=18 ? BODY : HELP))
     b.font.name='Arial'; b.font.size=size; b.font.color=color
-    b.draw_text(x,y,w,[size+8,28].max,s.to_s,align)
+    h=size>=40 ? size+12 : (size==TITLE ? 28 : 24)
+    h=[h,b.height-y].min
+    while b.font.size>10 && b.text_size('Ágj').height>h-2
+      b.font.size-=1
+    end
+    b.draw_text(x,y,w,h,fit(b,s,w),align)
   end
   def self.bar(b,x,y,w,value,max,kind)
     ratio=[[value.to_f/[max,1].max,0].max,1].min
@@ -496,7 +534,7 @@ end
 
 # Skin y color propios para TODAS las ventanas (incluye inventario y archivos).
 Font.default_name='Arial'
-Font.default_size=20
+Font.default_size=16
 class Window_Base
   alias ui_base_initialize initialize
   def initialize(*args)
@@ -514,6 +552,30 @@ class Window_Base
   def disabled_color; Color.new(131,128,112,150); end
   def crisis_color; Color.new(216,151,92); end
   def knockout_color; Color.new(218,91,72); end
+  def draw_actor_name(actor,x,y)
+    contents.font.color=normal_color
+    contents.draw_text(x,y,120,32,Vacas_UI.fit(contents,actor.name,120))
+  end
+  def draw_item_name(item,x,y)
+    return unless item
+    icon=RPG::Cache.icon(item.icon_name)
+    contents.blt(x,y+4,icon,Rect.new(0,0,24,24))
+    contents.font.color=normal_color
+    width=[212,contents.width-x-28].min
+    contents.draw_text(x+28,y,width,32,Vacas_UI.fit(contents,item.name,width))
+  end
+  def draw_actor_hp(actor,x,y,width=144)
+    draw_ui_resource(actor,x,y,width,:hp,$data_system.words.hp)
+  end
+  def draw_actor_sp(actor,x,y,width=144)
+    draw_ui_resource(actor,x,y,width,:sp,$data_system.words.sp)
+  end
+  def draw_ui_resource(actor,x,y,width,key,label)
+    label_width=[56,width/2].min
+    Vacas_UI.text(contents,x,y,label_width,label,14,system_color)
+    value=actor.send(key).to_s+'/'+actor.send('max'+key.to_s).to_s
+    Vacas_UI.text(contents,x+label_width,y,width-label_width,value,14,normal_color,2)
+  end
 end
 
 class Window_VacasPanel < Window_Base
@@ -522,28 +584,38 @@ class Window_VacasPanel < Window_Base
     self.contents=Bitmap.new(w-32,h-32)
   end
   def lines(title,lines)
+    @ui_title=title
+    contents.font.size=Vacas_UI::BODY
+    @ui_lines=lines.collect { |s| Vacas_UI.wrap(contents,s,contents.width) }.flatten
+    @ui_page=0; @ui_tick=0; draw_lines
+  end
+  def draw_lines
     contents.clear
-    Vacas_UI.text(contents,0,0,contents.width,title,23,Vacas_UI::MINT)
-    y=Vacas_HD.y(40)
-    contents.font.size=18
-    lines.each do |s|
-      line=''
-      s.split(' ').each do |word|
-        candidate=line=='' ? word : line+' '+word
-        if contents.text_size(candidate).width>contents.width && line!=''
-          Vacas_UI.text(contents,0,y,contents.width,line,18);y+=Vacas_HD.y(26);line=word
-        else
-          line=candidate
-        end
-      end
-      Vacas_UI.text(contents,0,y,contents.width,line,18);y+=Vacas_HD.y(30)
+    count=[(contents.height-32)/24,1].max
+    pages=[(@ui_lines.size+count-1)/count,1].max
+    Vacas_UI.text(contents,0,0,contents.width-(pages>1 ? 64 : 0),@ui_title,23,Vacas_UI::MINT)
+    if pages>1
+      Vacas_UI.text(contents,contents.width-60,0,60,(@ui_page+1).to_s+'/'+pages.to_s,14,Vacas_UI::MINT,2)
+    end
+    @ui_lines[@ui_page*count,count].to_a.each_with_index do |s,i|
+      Vacas_UI.text(contents,0,32+i*24,contents.width,s,16)
+    end
+  end
+  def update
+    super
+    return unless @ui_lines && @ui_lines.size>[(contents.height-32)/24,1].max
+    @ui_tick+=1
+    if @ui_tick%240==0
+      count=[(contents.height-32)/24,1].max
+      @ui_page=(@ui_page+1)%((@ui_lines.size+count-1)/count); draw_lines
     end
   end
 end
 
 class Window_VacasCommand < Window_Selectable
   def initialize(x,y,w,commands)
-    super(x,y,w,[commands.size*32+32,Vacas_HD.h-y-8].min)
+    available=[commands.size*32+32,Vacas_HD.h-y-8].min
+    super(x,y,w,32+[(available-32)/32,1].max*32)
     @commands=commands; @item_max=commands.size; @column_max=1
     self.contents=Bitmap.new(w-32,@item_max*32)
     @disabled=[]; self.index=0; refresh
@@ -630,8 +702,8 @@ class Scene_VacasSettings
     @panel=Window_VacasPanel.new(32,8,Vacas_HD.w-64,80)
     @panel.lines('AJUSTES',''.split)
     @list=Window_VacasCommand.new(32,88,Vacas_HD.w-64,LABELS)
-    @list.height=Vacas_HD.h-144
-    @hint=Window_VacasPanel.new(32,Vacas_HD.bottom(48),Vacas_HD.w-64,48)
+    @list.height=32+((Vacas_HD.h-176)/32)*32
+    @hint=Window_VacasPanel.new(32,Vacas_HD.bottom(56),Vacas_HD.w-64,56)
     draw
     Vacas_UI.loop_scene(self)
     @background.dispose; @panel.dispose; @list.dispose; @hint.dispose
@@ -651,7 +723,7 @@ class Scene_VacasSettings
       Vacas_UI.text(@list.contents,366,i*32,170,s,20,Vacas_UI::MINT,2)
     end
     @hint.contents.clear
-    Vacas_UI.text(@hint.contents,0,-5,540,'Izq / Der: ajustar    Esc: guardar y volver',15)
+    Vacas_UI.text(@hint.contents,0,0,540,'Izq / Der: ajustar    Esc: guardar y volver',14)
   end
   def update
     @background.update; @list.update
@@ -819,6 +891,8 @@ class Scene_File
   def update
     @ui_background.update if @ui_background
     ui_file_update
+    @savefile_windows.each_with_index { |w,i| w.visible=(i/2==@file_index/2) }
+    @help_window.set_text(@help_text+'  ('+(@file_index+1).to_s+'/4; Arriba/Abajo)')
   end
 end
 
@@ -877,7 +951,7 @@ class Window_Item
   def initialize
     ui_inventory_initialize
     self.x=24;self.y=104;self.width=Vacas_HD.w-48
-    self.height=Vacas_HD.h-self.y-8
+    self.height=32+((Vacas_HD.h-self.y-40)/32)*32
     @column_max=1
     refresh; self.index=0
   end
@@ -897,8 +971,9 @@ class Window_SaveFile
   alias ui_savefile_initialize initialize
   def initialize(*args)
     ui_savefile_initialize(*args)
-    self.x=24; self.y=64+@file_index*((Vacas_HD.h-64)/4); self.width=Vacas_HD.w-48; self.height=(Vacas_HD.h-64)/4-4
-    self.contents.dispose;self.contents=Bitmap.new(Vacas_HD.w-80,56);refresh
+    self.x=24; self.y=72+(@file_index%2)*112; self.width=Vacas_HD.w-48; self.height=108
+    self.visible=(@file_index/2==($game_temp.last_file_index || 0)/2)
+    self.contents.dispose;self.contents=Bitmap.new(self.width-32,self.height-32);refresh
   end
   def refresh
     contents.clear
@@ -907,11 +982,18 @@ class Window_SaveFile
     Vacas_UI.text(contents,12,0,300,name,23,Vacas_UI::MINT)
     if @file_exist
       v=@game_variables[1]
-      Vacas_UI.text(contents,12,28,330,'Veneno '+v.to_s+' / Cordura '+(100-v).to_s,17)
+      Vacas_UI.text(contents,12,32,300,'Veneno '+v.to_s+' / Cordura '+(100-v).to_s,17)
       Vacas_UI.text(contents,330,0,220,@time_stamp.strftime('%d / %m / %Y'),17,normal_color,2)
-      Vacas_UI.text(contents,330,28,220,sprintf('%02d h %02d min',@total_sec/3600,@total_sec/60%60),17,normal_color,2)
+      Vacas_UI.text(contents,322,32,226,sprintf('%02d h %02d min',@total_sec/3600,@total_sec/60%60),17,normal_color,2)
     else
-      Vacas_UI.text(contents,12,28,520,'Un espacio que aun no recuerda.',17)
+      Vacas_UI.text(contents,12,32,520,'Un espacio que aun no recuerda.',17)
+    end
+  end
+  def update_cursor_rect
+    if @selected
+      self.cursor_rect.set(0,0,self.width-32,self.height-32)
+    else
+      self.cursor_rect.empty
     end
   end
 end
@@ -1083,21 +1165,22 @@ class Window_VacasEnemies < Window_VacasPanel
     super; contents.clear
     enemies=$game_troop.enemies.select { |e| !e.hidden }
     rows=[[enemies.size,1].max,3].min
-    if self.height!=32+rows*68
-      self.height=32+rows*68
-      self.contents.dispose;self.contents=Bitmap.new(184,rows*68)
+    row_height=[68,(Vacas_HD.h-182)/rows].min
+    if self.height!=32+rows*row_height
+      self.height=32+rows*row_height
+      self.contents.dispose;self.contents=Bitmap.new(184,rows*row_height)
     end
     enemies.each_with_index do |e,i|
       break if i>=3
       @values[e.index]=e.hp.to_f unless @values[e.index]
       @values[e.index]+=(e.hp-@values[e.index])*0.18
-      y=i*68
+      y=i*row_height
       Vacas_UI.text(contents,0,y,184,e.name,16)
-      Vacas_UI.bar(contents,0,y+30,182,@values[e.index],e.maxhp,'vida')
+      Vacas_UI.bar(contents,0,y+24,182,@values[e.index],e.maxhp,'vida')
       e.states.each_with_index do |id,n|
         next unless [2,3,4].include?(id)
         icon=RPG::Cache.icon('ui_estado_'+id.to_s)
-        contents.blt(n*24,y+42,icon,icon.rect)
+        contents.blt(n*24,y+32,icon,icon.rect)
       end
     end
   end
@@ -1178,7 +1261,7 @@ class Scene_Battle
       @actor_command_window.back_opacity=245
     end
     @ui_enemies.update if @ui_enemies
-    @ui_enemies.visible=!@message_window.visible if @ui_enemies && @message_window
+    @ui_enemies.visible=!@message_window.visible && !@help_window.visible if @ui_enemies && @message_window
     ui_battle_update
   end
   alias ui_phase4_hit update_phase4_step5

@@ -120,7 +120,7 @@
   },
   "marshal_ruby": {
     "codigo": 0,
-    "salida": "{\n  \"files\": 425,\n  \"errors\": [\n\n  ]\n}"
+    "salida": "{\n  \"files\": 430,\n  \"errors\": [\n\n  ]\n}"
   },
   "fuentes_vs_instalado": {
     "codigo": 0,
@@ -198,7 +198,7 @@
   ],
   "enlaces": {
     "documentos": 29,
-    "enlaces": 178,
+    "enlaces": 189,
     "errores": [],
     "excluidos": "Respaldos y archivo: documentos históricos, conservados tal cual."
   },

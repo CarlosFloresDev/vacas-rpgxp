@@ -1,0 +1,10 @@
+{
+  "motor_real": false,
+  "comprobaciones": [
+    "Ajuste conserva caracteres, acentos y palabras sin espacios",
+    "2 opciones largas: revelar, desplazar y confirmar conserva el indice",
+    "3 opciones largas: revelar, desplazar y confirmar conserva el indice",
+    "4 opciones largas: revelar, desplazar y confirmar conserva el indice",
+    "Mensaje largo completa todas las paginas y llama al evento solo al final"
+  ]
+}

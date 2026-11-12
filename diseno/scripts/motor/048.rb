@@ -9,7 +9,7 @@ class Window_ShopSell < Window_Selectable
   # * Object Initialization
   #--------------------------------------------------------------------------
   def initialize
-    super(Vacas_HD.x(0), Vacas_HD.x(128), Vacas_HD.w, Vacas_HD.h - Vacas_HD.x(128))
+    super(0, 128, Vacas_HD.w, 32+((Vacas_HD.h-160)/32)*32)
     @column_max = 2
     refresh
     self.index = 0
@@ -81,7 +81,7 @@ class Window_ShopSell < Window_Selectable
     bitmap = RPG::Cache.icon(item.icon_name)
     opacity = self.contents.font.color == normal_color ? 255 : 128
     self.contents.blt(x, y + 4, bitmap, Rect.new(0, 0, 24, 24), opacity)
-    self.contents.draw_text(x + 28, y, 212, 32, item.name, 0)
+    self.contents.draw_text(x + 28, y, 212, 32, Vacas_UI.fit(contents,item.name,212), 0)
     self.contents.draw_text(x + 240, y, 16, 32, ":", 1)
     self.contents.draw_text(x + 256, y, 24, 32, number.to_s, 2)
   end

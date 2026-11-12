@@ -107,7 +107,7 @@ end
 
 class Window_Lugar < Window_Base
   def initialize
-    super(200, Vacas_HD.y(352), 420, Vacas_HD.y(64))
+    super(200, Vacas_HD.y(352), 420, 64)
     self.contents = Bitmap.new(width - 32, height - 32)
     self.contents.font.color = normal_color
     nombre = ""
