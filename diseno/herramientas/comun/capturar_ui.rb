@@ -1,6 +1,22 @@
 # Capturador nativo aislado. No instalar en Scripts.rxdata.
 require 'zlib'
-require 'json'
+begin
+  require 'json'
+rescue LoadError
+  module JSON
+    def self.pretty_generate(o) gen(o) end
+    def self.gen(o)
+      case o
+      when Hash then '{' + o.collect { |k,v| gen(k.to_s) + ':' + gen(v) }.join(',') + '}'
+      when Array then '[' + o.collect { |v| gen(v) }.join(',') + ']'
+      when String then o.inspect
+      when Symbol then gen(o.to_s)
+      when nil then 'null'
+      else o.to_s
+      end
+    end
+  end
+end
 $ui_report={:motor_real=>true,:pantallas=>[],:errores=>[]}
 $ui_report[:hallazgos_corregidos]=[
   {:pantalla=>'Guardar / Continuar',:antes=>'70 - 32 = 38 px visibles; segunda linea termina en 56: corte de 18 px',:despues=>'Dos tarjetas de 108 px; contenido de 76 px; filas en 0 y 32; cuatro ranuras en dos paginas'},

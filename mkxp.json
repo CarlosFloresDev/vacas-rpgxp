@@ -13,5 +13,9 @@
   "vsync": true,
   "integerScalingActive": true,
   "integerScalingLastMile": false,
-  "anyAltToggleFS": true
+  "anyAltToggleFS": true,
+  "fontSub": [
+    "Arial>Liberation Sans",
+    "Courier New>Liberation Mono"
+  ]
 }
